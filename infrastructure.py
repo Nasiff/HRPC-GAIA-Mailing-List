@@ -12,7 +12,7 @@ else:
 
 # Convert the CSV file into a list of lists for easier manipulation.
 with infile as csvfile:
-	csv_reader = csv.reader(csvfile, delimiter=',')
+	csv_reader = csv.reader(csvfile)
 	listA = list(csv_reader)
 	print("Converted csv to list of lists. Size: " + str(len(listA)))
 
@@ -34,7 +34,10 @@ for texts in listB:
 	clean = clean.replace(">", "")
 	clean = clean.replace("=", "")
 	clean = clean.replace("<", "")
-	clean = clean.replace("A0", "")
+	clean = clean.replace("A0", " ")
+	clean = clean.replace("*", " ")
+	clean = clean.replace("\r", " ")
+	clean = clean.strip()
 	infrastructure = re.findall(r"(?:[a-zA-Z'-]+[^a-zA-Z'-]+){0,10}infrastructure(?:[^a-zA-Z'-]+[a-zA-Z'-]+){0,10}", clean)
 	if len(infrastructure) > 1:
 		listC.append(infrastructure)
@@ -42,8 +45,8 @@ for texts in listB:
 print("Outputting to a CSV file: before_after...")
 
 # Export the list into a CSV for viewing
-with open('before_after.csv', mode='w') as file:
-	csv_writer = csv.writer(file, delimiter=',')
+with open('archives/before_after.csv', mode='w') as file:
+	csv_writer = csv.writer(file, delimiter='|')
 
 	for items in listC:
 		try:
@@ -55,4 +58,4 @@ with open('before_after.csv', mode='w') as file:
 	# employee_writer.writerow(['John Smith', 'Accounting', 'November'])
 	# employee_writer.writerow(['Erica Meyers', 'IT', 'March'])
 
-print("Script Completed")
+print("Script Completed. Size: " + str(len(listC)))
