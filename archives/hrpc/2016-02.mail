@@ -1,0 +1,3340 @@
+
+From nobody Fri Feb  5 07:45:17 2016
+Return-Path: <bortzmeyer@nic.fr>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 66DB11B3ADB for <hrpc@ietfa.amsl.com>; Fri,  5 Feb 2016 07:45:05 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 0.348
+X-Spam-Level: 
+X-Spam-Status: No, score=0.348 tagged_above=-999 required=5 tests=[BAYES_40=-0.001, HELO_EQ_FR=0.35, RP_MATCHES_RCVD=-0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id CAWHcLM8GbJY for <hrpc@ietfa.amsl.com>; Fri,  5 Feb 2016 07:45:04 -0800 (PST)
+Received: from mx4.nic.fr (mx4.nic.fr [IPv6:2001:67c:2218:2::4:12]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id EFA811B3ADC for <hrpc@irtf.org>; Fri,  5 Feb 2016 07:45:02 -0800 (PST)
+Received: from mx4.nic.fr (localhost [127.0.0.1]) by mx4.nic.fr (Postfix) with SMTP id 372FC2805B7 for <hrpc@irtf.org>; Fri,  5 Feb 2016 16:45:01 +0100 (CET)
+Received: from relay1.nic.fr (relay1.nic.fr [192.134.4.162]) by mx4.nic.fr (Postfix) with ESMTP id 32D5A2801B9 for <hrpc@irtf.org>; Fri,  5 Feb 2016 16:45:01 +0100 (CET)
+Received: from bortzmeyer.nic.fr (unknown [IPv6:2001:67c:1348:7::86:133]) by relay1.nic.fr (Postfix) with ESMTP id 26FFC4C002E for <hrpc@irtf.org>; Fri,  5 Feb 2016 16:44:31 +0100 (CET)
+Date: Fri, 5 Feb 2016 16:44:31 +0100
+From: Stephane Bortzmeyer <bortzmeyer@nic.fr>
+To: hrpc@irtf.org
+Message-ID: <20160205154430.GA29597@nic.fr>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+X-Operating-System: Debian GNU/Linux stretch/sid
+X-Kernel: Linux 4.3.0-1-686-pae i686
+X-Charlie: Je suis Charlie
+Organization: NIC France
+X-URL: http://www.nic.fr/
+User-Agent: Mutt/1.5.24 (2015-08-30)
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/mZm281Hzf_jTp7ejH33BGPW1lb4>
+Subject: [hrpc] Any news of the film "Net of rights"?
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 05 Feb 2016 15:45:05 -0000
+
+It was supposed to be published after Yokohama? Did I miss an
+announce?
+
+
+From nobody Fri Feb  5 08:09:26 2016
+Return-Path: <niels@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id BD70C1B32C1 for <hrpc@ietfa.amsl.com>; Fri,  5 Feb 2016 08:09:24 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 1.024
+X-Spam-Level: *
+X-Spam-Status: No, score=1.024 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, HOST_EQ_NL=1.545, J_CHICKENPOX_14=0.6, SPF_NEUTRAL=0.779] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id E_f92eHN_GbD for <hrpc@ietfa.amsl.com>; Fri,  5 Feb 2016 08:09:22 -0800 (PST)
+Received: from mail.article19.io (vps784.greenhost.nl [213.108.108.114]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id A1EF31B318C for <hrpc@irtf.org>; Fri,  5 Feb 2016 08:09:22 -0800 (PST)
+Received: from mail.article19.io (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTPS id 27B5B16400C for <hrpc@irtf.org>; Fri,  5 Feb 2016 16:09:21 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTP id 16D9316400B for <hrpc@irtf.org>; Fri,  5 Feb 2016 16:09:21 +0000 (UTC)
+Received: from mail.article19.io ([127.0.0.1]) by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026) with ESMTP id r_22_W0KQz8Z for <hrpc@irtf.org>; Fri,  5 Feb 2016 16:09:20 +0000 (UTC)
+Received: from [10.10.105.145] (fwl1-alab.breedbandnederland.nl [46.226.58.62]) by mail.article19.io (Postfix) with ESMTPSA id CC9ED16400A for <hrpc@irtf.org>; Fri,  5 Feb 2016 16:09:20 +0000 (UTC)
+To: hrpc@irtf.org
+References: <20160205154430.GA29597@nic.fr>
+From: Niels ten Oever <niels@article19.org>
+Message-ID: <56B4C930.9070102@article19.org>
+Date: Fri, 5 Feb 2016 17:09:20 +0100
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101 Icedove/38.5.0
+MIME-Version: 1.0
+In-Reply-To: <20160205154430.GA29597@nic.fr>
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: 7bit
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/_skqnsNzc7wZGfKZkSqVQUAc4OI>
+Subject: Re: [hrpc] Any news of the film "Net of rights"?
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 05 Feb 2016 16:09:24 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Hi Stephane,
+
+It is a bit belated, sorry for that. We'll launch is at the same time
+wih the new website for the RG in the first week of March.
+
+If you want to see the film before the first week of March you can see
+it at the M3aawg meeting on the 15th of February.
+
+Thanks for your patience.
+
+Best,
+
+Niels
+
+Niels ten Oever
+Head of Digital
+
+Article 19
+www.article19.org
+
+PGP fingerprint    8D9F C567 BEE4 A431 56C4
+                   678B 08B5 A0F2 636D 68E9
+
+On 02/05/2016 04:44 PM, Stephane Bortzmeyer wrote:
+> It was supposed to be published after Yokohama? Did I miss an 
+> announce?
+> 
+> _______________________________________________ hrpc mailing list 
+> hrpc@irtf.org https://www.irtf.org/mailman/listinfo/hrpc
+> 
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQEcBAEBCAAGBQJWtMkwAAoJEAi1oPJjbWjpmwsIAIpRI+QHDEoeTVqWQSvyz4VH
+kyq1sn7XGf/4b1+ge5JUPkORfMhVb7Y8+CIcosUnAjT5EMn09FS3sZmBFP64ZYSK
+c9Mh6J/Lk5S5rHwxkfbfcW9RGJgwPFJTIfp/HyUn7IKdiTd+yn8aOp7T+IUNNTXh
+0Ox6zRmDIHO39KLfQ5jqYI/YLIGTrAvJ8vtTgDO0orOqW+b4/8e8zkOHXlJjFdhD
+g+baBJ4EBoh7vanAcg8OTfL5KEk4Ogwh4aNyPh0qZBLxE/HUvrPVEDWx+u993y9y
+tp6C37hdqkMb+AbMD+SwIZ9KZ/Ad/nYK5azmiAwcy/mTtdzqU+ak5zVAzI7MSxc=
+=E/KZ
+-----END PGP SIGNATURE-----
+
+
+From nobody Tue Feb  9 06:46:43 2016
+Return-Path: <cattekwaad@gmail.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 33FBF1A90A6 for <hrpc@ietfa.amsl.com>; Tue,  9 Feb 2016 06:46:43 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.1
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.1 tagged_above=-999 required=5 tests=[BAYES_40=-0.001, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, SPF_PASS=-0.001] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 5ZwXjRlQWUW6 for <hrpc@ietfa.amsl.com>; Tue,  9 Feb 2016 06:46:41 -0800 (PST)
+Received: from mail-wm0-x22f.google.com (mail-wm0-x22f.google.com [IPv6:2a00:1450:400c:c09::22f]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id B046D1A90A5 for <hrpc@irtf.org>; Tue,  9 Feb 2016 06:46:40 -0800 (PST)
+Received: by mail-wm0-x22f.google.com with SMTP id c200so63483657wme.0 for <hrpc@irtf.org>; Tue, 09 Feb 2016 06:46:40 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc:content-type; bh=pUCbpyDDIdJ+reYNPXWgd0EynHOYyzdgEb1So3oLbY4=; b=fT0RTi25mg/eJTimLe8XG4hmGj/YiKPMURLSuS72XGBl/ljCG3B+/36VwPhfLzeK/n N0XfHLD7r7yD1qz6Te3KPZAxF3iIhtgUSSFU1sl2B8YNyWKpratxiEcjeG5pvM/cdzCk SuJ6WGCi3jJ+VzCG/dUE9x/pdHvrFiTin9ZOfoI3H2xAXh3rTEsjHd8kx957lE2Ca95h 0zVx+jcbhyZl6+b6WvIvuL7fw6g/2aZ4TnECr1qTMXb3fTgZbXjP1q2O2rgRNQK3nBaP sczK/hOS59RovIkbmtX/PEFZ9Bo5WyyV7fcFcRlngHAjlh7aynQ/cWJTLXSY8WgzumNY yo/w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20130820; h=x-gm-message-state:mime-version:in-reply-to:references:date :message-id:subject:from:to:cc:content-type; bh=pUCbpyDDIdJ+reYNPXWgd0EynHOYyzdgEb1So3oLbY4=; b=b/CvXpODUlvT6IKvXsdD/rIjOOj0j/t2GqlSOlhD+zq3ZJVyxdTHQc1TdFTyAmH/aF qqPB/6YyPml3eo7lYCb31EgB6SwUFC+Zkv0TAy7HdKdfqcFDPeZ5vEJgnkb8RdzT23zv YHjE6azVK2bj2Z1scUV8F72gCCkeHmnNiZuC4B1EqN3kjRVwrk2GTcf2w5yVynb3yhXb Fkn9Fxx9Q0hKJfEmMNK4At1oXJRpgp4Zx4Lzf+/4nyczzejmp7PZk22Ph0JUY5uWraLv kJozMYKQl1u1jiWIt1i2Lm/0kk8kPLnV220IKTZ1qEAki8jWC2Y0/MCv1b3Wyubemh9i wt3g==
+X-Gm-Message-State: AG10YOQJNWXmnDEkoPWzZGpWaZsA8pFH22AMnIpQ7b0Rp77hzPmT8dlckxGcC8j/IdFPc3OYsEe32GHNmeLg0A==
+MIME-Version: 1.0
+X-Received: by 10.194.203.168 with SMTP id kr8mr34657126wjc.168.1455029199263;  Tue, 09 Feb 2016 06:46:39 -0800 (PST)
+Received: by 10.194.7.201 with HTTP; Tue, 9 Feb 2016 06:46:39 -0800 (PST)
+In-Reply-To: <22177.17263.667811.342065@pcls8.std.com>
+References: <CAD499eL8H2OmS=tRy3nqYGxvg2hCRZ_Nu6x76hYBLh660zWT8w@mail.gmail.com> <569EA9FD.3010401@cs.tcd.ie> <20160119213449.GA1155@kafka.eduroam.oxuni.org.uk> <569EB0C5.5080907@cs.tcd.ie> <20160119221543.GD1155@kafka.eduroam.oxuni.org.uk> <569EB720.6000308@mykolab.com> <20160119223250.GN53252@mx2.yitter.info> <569EBC9B.2090606@mykolab.com> <20160119234514.GR53252@mx2.yitter.info> <569ECE39.9040603@cs.tcd.ie> <20160120001714.GS53252@mx2.yitter.info> <569ED37C.8020705@cs.tcd.ie> <569EECBB.2010602@apc.org> <56A0ADF0.1090705@article19.org> <56A0F391.7010502@apc.org> <56A0F86C.8080009@article19.org> <22177.17263.667811.342065@pcls8.std.com>
+Date: Tue, 9 Feb 2016 14:46:39 +0000
+Message-ID: <CAD499e+ZyuoaBx5BU8Rw98DKwsgA8HLG+QpYX22a505V_igNmw@mail.gmail.com>
+From: Corinne Cath <cattekwaad@gmail.com>
+To: bzs@theworld.com
+Content-Type: multipart/alternative; boundary=047d7bae42ec8f60b0052b5762d8
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/7pJHHklKfiVnTWJflf3oH3o2GSo>
+Cc: Niels ten Oever <niels@article19.org>, hrpc@irtf.org
+Subject: Re: [hrpc] Case three: DDoS
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 09 Feb 2016 14:46:43 -0000
+
+--047d7bae42ec8f60b0052b5762d8
+Content-Type: text/plain; charset=UTF-8
+
+Dear Barry,
+
+Thank you for your insightful feedback. We have incorporated your comments
+into the considerations methodology draft.
+
+Best,
+
+Corinne
+
+On Thu, Jan 21, 2016 at 8:45 PM, <bzs@theworld.com> wrote:
+
+>
+> Interesting thread, good cases.
+>
+> My view is that even in warfare of the worst sort there are human
+> rights issues.
+>
+> The premise being put forth is unnecessarily binary: That either DDoS
+> is right, or it's wrong, and if we can agree on which then the issue
+> is settled.
+>
+> That's overly judgemental and tries to predict, as this thread is
+> trying to do, every possible way DDoS can arise.
+>
+> What about in the course of cyber-warfare? If one country were
+> cyber-attacking another one could imagine the target's first response,
+> assuming just blocking the source was not an option, to DDoS the
+> source if possible. Or it could be on their list of engagements.
+>
+> Or maybe not?
+>
+> Maybe that's a cyber-war crime? Who is to say if no one writes this
+> all down with definitions etc?
+>
+> Something very similar just went on on NANOG recently.
+>
+> Someone suggested de-peering ASNs entirely which did not respond to
+> complaints of DDoS and other misbehavior.
+>
+> I asked if there were any contracts, any agreements, anything written
+> down which they have agreed to or can be generally cited to identify
+> this behavior?
+>
+> Was there any process in place for this de-peering?
+>
+> Any way for a misidentified or misunderstood or even just disagreeing
+> ("that's not our responsibility, who says it is?") accused to be
+> heard?
+>
+> I suggested that right now it's "Justice By Router Commands" which
+> seems primitive and error-prone at best, vigilantism basically.
+>
+> We can lay out hypothetical scenarios ad infinitum and try to use them
+> to adduce the worthiness of the topic but I'll assert that's an error.
+>
+> All one really should be discussing are the boundaries of DDoS and the
+> implications for human rights issues.
+>
+> To adjudicate DDoS per se is misguided just as adjudicating whether
+> kinetic warfare is right or wrong as a pre-requisite to any discussion
+> of human rights in that warfare context.
+>
+> Some things are bad, some very bad, but human rights issues remain
+> even within very, very distasteful contexts.
+>
+> Even the worst criminals have human rights.
+>
+> --
+>         -Barry Shein
+>
+> Software Tool & Die    | bzs@TheWorld.com             |
+> http://www.TheWorld.com
+> Purveyors to the Trade | Voice: +1 617-STD-WRLD       | 800-THE-WRLD
+> The World: Since 1989  | A Public Information Utility | *oo*
+>
+> _______________________________________________
+> hrpc mailing list
+> hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+>
+
+
+
+-- 
+
+
+'The management of normality is hard work'
+
+--047d7bae42ec8f60b0052b5762d8
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:georgia,=
+serif">Dear Barry,<br><br></div><div class=3D"gmail_default" style=3D"font-=
+family:georgia,serif">Thank you for your insightful feedback. We have incor=
+porated your comments into the considerations methodology draft.<br><br></d=
+iv><div class=3D"gmail_default" style=3D"font-family:georgia,serif">Best,<b=
+r><br></div><div class=3D"gmail_default" style=3D"font-family:georgia,serif=
+">Corinne<br></div></div><div class=3D"gmail_extra"><br><div class=3D"gmail=
+_quote">On Thu, Jan 21, 2016 at 8:45 PM,  <span dir=3D"ltr">&lt;<a href=3D"=
+mailto:bzs@theworld.com" target=3D"_blank">bzs@theworld.com</a>&gt;</span> =
+wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;bord=
+er-left:1px #ccc solid;padding-left:1ex"><br>
+Interesting thread, good cases.<br>
+<br>
+My view is that even in warfare of the worst sort there are human<br>
+rights issues.<br>
+<br>
+The premise being put forth is unnecessarily binary: That either DDoS<br>
+is right, or it&#39;s wrong, and if we can agree on which then the issue<br=
+>
+is settled.<br>
+<br>
+That&#39;s overly judgemental and tries to predict, as this thread is<br>
+trying to do, every possible way DDoS can arise.<br>
+<br>
+What about in the course of cyber-warfare? If one country were<br>
+cyber-attacking another one could imagine the target&#39;s first response,<=
+br>
+assuming just blocking the source was not an option, to DDoS the<br>
+source if possible. Or it could be on their list of engagements.<br>
+<br>
+Or maybe not?<br>
+<br>
+Maybe that&#39;s a cyber-war crime? Who is to say if no one writes this<br>
+all down with definitions etc?<br>
+<br>
+Something very similar just went on on NANOG recently.<br>
+<br>
+Someone suggested de-peering ASNs entirely which did not respond to<br>
+complaints of DDoS and other misbehavior.<br>
+<br>
+I asked if there were any contracts, any agreements, anything written<br>
+down which they have agreed to or can be generally cited to identify<br>
+this behavior?<br>
+<br>
+Was there any process in place for this de-peering?<br>
+<br>
+Any way for a misidentified or misunderstood or even just disagreeing<br>
+(&quot;that&#39;s not our responsibility, who says it is?&quot;) accused to=
+ be<br>
+heard?<br>
+<br>
+I suggested that right now it&#39;s &quot;Justice By Router Commands&quot; =
+which<br>
+seems primitive and error-prone at best, vigilantism basically.<br>
+<br>
+We can lay out hypothetical scenarios ad infinitum and try to use them<br>
+to adduce the worthiness of the topic but I&#39;ll assert that&#39;s an err=
+or.<br>
+<br>
+All one really should be discussing are the boundaries of DDoS and the<br>
+implications for human rights issues.<br>
+<br>
+To adjudicate DDoS per se is misguided just as adjudicating whether<br>
+kinetic warfare is right or wrong as a pre-requisite to any discussion<br>
+of human rights in that warfare context.<br>
+<br>
+Some things are bad, some very bad, but human rights issues remain<br>
+even within very, very distasteful contexts.<br>
+<br>
+Even the worst criminals have human rights.<br>
+<span class=3D"HOEnZb"><font color=3D"#888888"><br>
+--<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 -Barry Shein<br>
+<br>
+Software Tool &amp; Die=C2=A0 =C2=A0 | bzs@TheWorld.com=C2=A0 =C2=A0 =C2=A0=
+ =C2=A0 =C2=A0 =C2=A0 =C2=A0| <a href=3D"http://www.TheWorld.com" rel=3D"no=
+referrer" target=3D"_blank">http://www.TheWorld.com</a><br>
+Purveyors to the Trade | Voice: +1 617-STD-WRLD=C2=A0 =C2=A0 =C2=A0 =C2=A0|=
+ 800-THE-WRLD<br>
+The World: Since 1989=C2=A0 | A Public Information Utility | *oo*<br>
+</font></span><div class=3D"HOEnZb"><div class=3D"h5"><br>
+_______________________________________________<br>
+hrpc mailing list<br>
+<a href=3D"mailto:hrpc@irtf.org">hrpc@irtf.org</a><br>
+<a href=3D"https://www.irtf.org/mailman/listinfo/hrpc" rel=3D"noreferrer" t=
+arget=3D"_blank">https://www.irtf.org/mailman/listinfo/hrpc</a><br>
+</div></div></blockquote></div><br><br clear=3D"all"><br>-- <br><div class=
+=3D"gmail_signature"><br><br>&#39;The management of normality is hard work&=
+#39;<br><br></div>
+</div>
+
+--047d7bae42ec8f60b0052b5762d8--
+
+
+From nobody Tue Feb  9 07:58:14 2016
+Return-Path: <niels@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id DBAB21A92A9 for <hrpc@ietfa.amsl.com>; Tue,  9 Feb 2016 07:58:12 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 3.124
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.124 tagged_above=-999 required=5 tests=[BAYES_50=0.8, HOST_EQ_NL=1.545, SPF_NEUTRAL=0.779] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id ALXsMuPvsBkW for <hrpc@ietfa.amsl.com>; Tue,  9 Feb 2016 07:58:09 -0800 (PST)
+Received: from mail.article19.io (vps784.greenhost.nl [213.108.108.114]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id BB6491AC3BF for <hrpc@irtf.org>; Tue,  9 Feb 2016 07:58:07 -0800 (PST)
+Received: from mail.article19.io (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTPS id 4733818003C for <hrpc@irtf.org>; Tue,  9 Feb 2016 15:58:06 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTP id 363FB180036 for <hrpc@irtf.org>; Tue,  9 Feb 2016 15:58:06 +0000 (UTC)
+Received: from mail.article19.io ([127.0.0.1]) by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026) with ESMTP id ImNB7w9qKoMv for <hrpc@irtf.org>; Tue,  9 Feb 2016 15:58:06 +0000 (UTC)
+Received: from [192.168.1.70] (sd5112335.adsl.online.nl [213.17.35.53]) by mail.article19.io (Postfix) with ESMTPSA id 04E6018002F for <hrpc@irtf.org>; Tue,  9 Feb 2016 15:58:05 +0000 (UTC)
+From: Niels ten Oever <niels@article19.org>
+X-Enigmail-Draft-Status: N1110
+To: "hrpc@irtf.org" <hrpc@irtf.org>
+Message-ID: <56BA0C8D.7030207@article19.org>
+Date: Tue, 9 Feb 2016 16:58:05 +0100
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101 Icedove/38.5.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/KlaDWN3e-zWdmyaVKYD-cr4UhvQ>
+Subject: [hrpc] draft human rights considerations
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 09 Feb 2016 15:58:13 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Dear all,
+
+I hope this email finds you well. Corinne and I added a substantial
+amount of text to the methodology draft, which we just made available
+for you here:
+
+https://www.ietf.org/id/draft-varon-hrpc-methodology-04.txt
+
+Most additions are a first stab at actual human rights considerations,
+modeled after RFC6973. I pasted this specific part also underneath for
+your convenience and consideration. There are also some small
+additions to the middlebox text as well as other nits than can be
+found directly in the draft (and in the diff
+https://tools.ietf.org/rfcdiff?url2=3Ddraft-varon-hrpc-methodology-04.txt
+).
+
+Looking forward to the discussion, as well as questions and comments.
+
+Best,
+
+Niels
+
+
+### Human Rights Threats
+The human rights threats on the Internet come in a myriad of forms.
+Protocols and standards can harm or enable the right to freedom of
+expression, right to non-discrimination, right to equal protection,
+right to be presumed innocence, right to participate in cultural life,
+arts and science, right to freedom of assembly and association, and
+the right to security. An end-user who is denied access to certain
+services, data or websites may be unable to disclose vital information
+about the malpractices of a government or other authority.  A person
+whose communications are monitored may be prevented from exercising
+their right to freedom of association. In a worst-case scenario,
+protocols that leak information can lead to physical danger. A
+realistic example to consider is when opposition leaders in
+totalitarian regimes are subjected to torture on the basis of
+information gathered by the regime through information leakage in
+protocols.
+
+This sections details several =E2=80=98common=E2=80=99 threats to human r=
+ights,
+indicating how each of these can lead to human rights violations/harms
+and present several examples of how these threats to human rights
+materialize on the Internet. This threat modeling is inspired by
+{{RFC6973}} Privacy Considerations for Internet Protocols, which bases
+itself on security threat analysis. This method is by no means a
+perfect solution for assessing human rights risks in Internet
+protocols and systems; it is however the best approach currently
+available. Certain human rights threats are indirectly considered in
+Internet protocols as part of the standard privacy and security
+considerations. Others suggested are tailored specifically to human
+rights, and represents considerations not currently considered in
+other RFCs.
+
+Many threats, enablers and risks are linked to different rights. This
+is not unsurprising if one takes into account that human rights are
+interrelated, interdependent and universal.
+Here however we're not discussing all human rights because not all
+human rights are relevant to ICTs in general and protocols and
+standards in particular. This is by no means an attempt to cherry
+picks right, if other rights seem relevant, please contact the authors
+and/or the hrpc mailinglist.
+
+### Human Rights Guidelines
+
+This section provides guidance for document authors in the form of a
+questionnaire about a protocol being designed. The questionnaire may
+be useful at any point in the design process, particularly after
+document authors have developed a high-level protocol model as
+described in {{RFC4101}}.
+
+Note that the guidance provided in this section does not recommend
+specific practices.  The range of protocols developed in the IETF is
+too broad to make recommendations about particular uses of data or how
+human rights might be balanced against other design goals.  However,
+by carefully considering the answers to each question, document
+authors should be able to produce a comprehensive analysis that can
+serve as the basis for discussion of whether the protocol adequately
+protects against human rights threats.  This guidance is meant to help
+the thought process of a human rights analysis; it does not provide
+specific directions for how to write a human rights protocol
+considerations section (following the example set in {{RFC6973}}).
+
+#### Right to freedom of expression
+
+##### Connectivity
+Does your protocol honor the end-to-end principle?
+
+##### Privacy
+Did you have a look at the Guidelines in the Privacy Considerations
+for Internet Protocols {{RFC6973}} section 7? Does your protocol in
+any way impact the confidentiality of protocol metadata? Does your
+protocol countering traffic analysis, or data minimisation?
+
+##### Security
+Did you have a look at Guidelines for Writing RFC Text on Security
+Considerations {{RFC3552}}?
+
+##### Content agnosticism
+If your protocol impact packet handling, does it look at the packet
+content? Is it making decisions based on the content of the packet? Is
+the protocol transparent about its decision? Does your protocol
+prioritize certain content or services over others?
+
+##### Internationalization
+Does your protocol have text string that are readable or entered by
+humans? Does your protocol allow Unicode encoded in UTF-8 only,
+thereby shifting conversion issues away from individual choices? Did
+you have a look at {{RFC6365}}?
+
+##### Censorship resistance
+Does your protocol make censorship easier by exposing specific
+identifiers that could be sensitive for filtering. When filtering is
+happening, does your protocol help make it apparent or transparent?
+
+##### Open Standards
+Is your protocol fully documented in a way that it could be easily
+implemented, improved, build upon and/or further developed. Is there
+any proprietary code needed for the implementation, running or further
+development of your protocol?
+
+##### Heterogeneity Support
+Does your protocol support heterogeneity by design? Does your protocol
+allow for multiple types of hardware? Does your protocol allow for
+multiple types of application protocols?
+
+#### Right to non-discrimination
+
+##### Anonymity
+Did you have a look at the Privacy Considerations for Internet
+Protocols {{RFC6973}}, especially section 6.1.1 ?
+
+##### Privacy
+See above
+
+##### Pseudonymity
+Did you have a look at the Privacy Considerations for Internet
+Protocols {{RFC6973}}, especially section 6.1.2 ?
+
+##### Content agnosticism
+See above
+
+##### Accessibility
+Is your protocol optimized for low bandwidth and high latency
+connections? Could your protocol also be developed in a stateless manner
+?
+
+#### Right to equal protection
+
+##### Content agnosticism
+See above
+
+#### Right to be presumed innocent
+Is is possible to deploy your protocol without a single point of
+control? If applicable, can it also implemented in a federated way?
+
+##### Anonymity
+See above
+
+##### Privacy
+See above
+
+##### Security
+See above
+
+#### Right to political participation
+
+##### Accessibility
+when websites, web technologies, or web tools are badly designed, they
+can create barriers that exclude people from using the Web. Is your
+protocol designed to provide an enabling environment for people with
+disabilities? It might be relevant to look at the W3C Web
+Accessibility Initiative for examples and guidance.
+
+##### Internationalization
+See above
+
+##### Censorship resistance
+See above
+
+#### Right to participate in cultural life, arts and science
+
+##### Open Standards
+See above
+
+##### Localization
+Does your protocol live up to standards of internationalization (see
+above)? Have you considered localizing your protocol for relevant
+audiences?
+
+##### Internationalization
+See above
+
+##### Censorship resistance
+See above
+
+#### Right to freedom of assembly and association
+
+##### Connectivity
+See above
+
+##### Decentralization
+Does your protocol contribute to more centralized points of control?
+Can your protocol be implemented without one single point of control.
+If applicable, can your protocol be deployed in a federated manner?
+
+##### Censorship resistance
+See above
+
+##### Pseudonymity
+See above
+
+##### Anonymity
+See above
+
+#### Security
+See above
+
+
+#### Right to security
+
+##### Reliability
+Is your protocol fault tolerant? Does it degrade gracefully? Do you
+have a documented way to announce degradation? Do you have measures in
+place for recovery or partial healing from failure? Is your protocol
+able to maintain dependability and performance in the face of
+unanticipated changes or circumstances?
+
+##### Confidentiality
+(cf {{RFC6973}} ) Which information related to identifiers or data  is
+exposed to each other protocol entity (i.e., recipients,
+intermediaries, and enablers)?  Are there ways for protocol
+implementers to choose to limit the information shared with each
+entity?  Are there operational controls available to limit the
+information shared with each entity?
+
+What controls or consent mechanisms does the protocol define or
+require before personal data or identifiers are shared or exposed via
+the protocol?  If no such mechanisms or controls are specified, is it
+expected that control and consent will be handled outside of the protoco
+l?
+
+Does the protocol provide ways for initiators to share different
+information with different recipients?  If not, are there mechanisms
+that exist outside of the protocol to provide initiators with such
+control?
+
+Does the protocol provide ways for initiators to limit which
+information is shared with intermediaries?  If not, are there
+mechanisms that exist outside of the protocol to provide users with
+such control?  Is it expected that users will have relationships that
+govern the  use of the information (contractual or otherwise) with
+those who operate these intermediaries?
+
+Does the protocol provide ways for initiators to express individuals'
+preferences to recipients or intermediaries with regard to the
+collection, use, or disclosure of their personal data?
+
+##### Integrity
+Does your protocol maintain and assure the accuracy of data? Does your
+protocol maintain and assure the consistency of data? Does your
+protocol in any way allow for the data to be (intentionally or
+unintentionally) altered?
+
+##### Authenticity
+Do you have enough measures to confirm the truth of an attribute of a
+single piece of data or entity? Can the attributes get garbled along
+the way (see security)? If relevant have you implemented IPsec and
+other Standard Security Best Practices?
+
+##### Anonymity
+See above
+
+#### Right to education
+
+##### Acceptability
+Do your protocols adhere to the principle of non-discrimination (see
+above)? Do your protocols adhere to the principle of content
+agnosticism (see above)?
+
+##### Availability
+Do your protocols use or depend on proprietary code? Also see 'Open
+Standards' above. Also see 'Connectivity' above.
+
+##### Accessibility
+See above
+
+##### Adaptability
+Could your protocol stifle or hinder permissionless innovation in any
+way? See 'Connectivity' above
+
+
+
+- --=20
+Niels ten Oever
+Head of Digital
+
+Article 19
+www.article19.org
+
+PGP fingerprint    8D9F C567 BEE4 A431 56C4
+                   678B 08B5 A0F2 636D 68E9
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQEcBAEBCAAGBQJWugyNAAoJEAi1oPJjbWjpIwQIAIUDFA9yn4Fe7UCZ+qjsjnW5
+cRJnsvYnC4GGIehM2/OKFmsgajakTuSVsqH068Nwz1OCE2hHg4PsUFXlxNny+NyH
+vF+j4gVrq9CMphVIvJXz4tgGQu623ED0iCA2fH7CXyPMtiVH9HcUkYt5Mija0ZjW
+ocYjG4VkEFLGaV7/zG7NZAQGKlm9eJeX1WwIZrdUkN+63XzFcValL5pkiChKlLbp
+/TlSarjrajonXf4+HWQxz17i/s1htuAb7pib1KRuikYchYe8kOxlDKFzznw1jzPH
+Ga2lzY0/rKGq/14OaOr70GGQDQI+UUYAcv17rrWLWxXy1tsZCy31lHlArSxvSEY=3D
+=3DzGci
+-----END PGP SIGNATURE-----
+
+
+From nobody Wed Feb 10 14:30:29 2016
+Return-Path: <wrs@cs.washington.edu>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id AF1EC1B30D4 for <hrpc@ietfa.amsl.com>; Wed, 10 Feb 2016 14:30:27 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 0.523
+X-Spam-Level: 
+X-Spam-Status: No, score=0.523 tagged_above=-999 required=5 tests=[AC_DIV_BONANZA=0.001, BAYES_20=-0.001, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, FM_FORGED_GMAIL=0.622, HTML_MESSAGE=0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Ojp4KiZEDexQ for <hrpc@ietfa.amsl.com>; Wed, 10 Feb 2016 14:30:23 -0800 (PST)
+Received: from mail-ig0-x22b.google.com (mail-ig0-x22b.google.com [IPv6:2607:f8b0:4001:c05::22b]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 6FC561B30D0 for <hrpc@irtf.org>; Wed, 10 Feb 2016 14:30:23 -0800 (PST)
+Received: by mail-ig0-x22b.google.com with SMTP id hb3so24136431igb.0 for <hrpc@irtf.org>; Wed, 10 Feb 2016 14:30:23 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=cs.washington.edu; s=goo201206; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :content-type; bh=6aY534dBTjXZG4QggtLyTgVrqHLdgF1hNh3SF5jEqe8=; b=gsKuFzxnJn1QuU5IqTYUnERyXmSXi0K8m/y3N7ChNFHH++mX8fVg7h7rH2T6KdzdZI EOPJLRhyiUpy5AbpwXdhyQy616dmG3AVFN80ymWu2pdBmUyOqRaY0Av8rUbMdwbcaAAM ZZRtLvypWGM2cZFeMXinLGwj5S944AWXaucGc=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20130820; h=x-gm-message-state:mime-version:in-reply-to:references:date :message-id:subject:from:to:content-type; bh=6aY534dBTjXZG4QggtLyTgVrqHLdgF1hNh3SF5jEqe8=; b=Fu+h7+IDNjyKeh3uHPB000+E4yFLQfB8EsAssG+NLVwiDMUrkoU6YUuF0N110v3lVp gD/jWIB+I9LGcbxeogFOoBHSDZSvY3vPyfgw2UteWc+83nF8m2IChyIRYO58PRv/A5no aSzUXGYlxqoGksWpZjGLikDVrkEiiCjQt8gyHJedxofSnfXFNAYBBxqdDRzZSteKRzys CY2OmneomskefhCuWcJu0B2e53kf7oL736vjUjSrKPO9JMd9USlnSihm9LLD+KN/Nco/ 7KDpDGiSR5h1Q1VpcAekao/CtolRHy2432kYsUAuW6X9qb92UGZsU3x/NIRr5tIG26cg FTFg==
+X-Gm-Message-State: AG10YOTmMU0uWHpoAMVJq/d+Fm92HhCQhsC+Fj9X0qVyDghUYxQ7dE/6DKQNkCg6qdfbH3+YQKnVa/eQdyuXng==
+MIME-Version: 1.0
+X-Received: by 10.50.36.35 with SMTP id n3mr11953802igj.73.1455143422727; Wed, 10 Feb 2016 14:30:22 -0800 (PST)
+Received: by 10.50.220.163 with HTTP; Wed, 10 Feb 2016 14:30:22 -0800 (PST)
+In-Reply-To: <56BA0C8D.7030207@article19.org>
+References: <56BA0C8D.7030207@article19.org>
+Date: Wed, 10 Feb 2016 14:30:22 -0800
+Message-ID: <CAP45vr-kHvny1P+uU1Ca8U10W=eiiAVZEYY2gdob8y3TgQg+Zg@mail.gmail.com>
+From: Will Scott <wrs@cs.washington.edu>
+To: hrpc@irtf.org
+Content-Type: multipart/alternative; boundary=089e01160974cf402c052b71fa81
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/iO_W28rtfzMBRWxWDtGS5gwUG6s>
+Subject: Re: [hrpc] draft human rights considerations
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 10 Feb 2016 22:30:27 -0000
+
+--089e01160974cf402c052b71fa81
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+I'd argue for a different angle in the "right to be presumed innocent"
+section within the "right to equal protection" section.
+
+The text there seems to be focused on decentralization, which helps prevent
+centralized control, but is different from presumed innocence.  The failure
+case I'd want that section to talk to is the a hypothetical standard for
+DPI policy, where you wouldn't want to block all bittorrent traffic for
+copyright infringement. Instead, you'd want to have systems and standards
+structured so that protocols and carried data isn't discriminated based on
+stereotypes, but on the specific content of the transmissions.
+
+Here's a proposal for an alternate framing:
+What is the potential for discrimination against users of your protocol?
+How can use of your protocol be used to implicate participants?
+
+--Will
+
+
+On Tue, Feb 9, 2016 at 7:58 AM, Niels ten Oever <niels@article19.org> wrote=
+:
+
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA256
+>
+> Dear all,
+>
+> I hope this email finds you well. Corinne and I added a substantial
+> amount of text to the methodology draft, which we just made available
+> for you here:
+>
+> https://www.ietf.org/id/draft-varon-hrpc-methodology-04.txt
+>
+> Most additions are a first stab at actual human rights considerations,
+> modeled after RFC6973. I pasted this specific part also underneath for
+> your convenience and consideration. There are also some small
+> additions to the middlebox text as well as other nits than can be
+> found directly in the draft (and in the diff
+> https://tools.ietf.org/rfcdiff?url2=3Ddraft-varon-hrpc-methodology-04.txt
+> ).
+>
+> Looking forward to the discussion, as well as questions and comments.
+>
+> Best,
+>
+> Niels
+>
+>
+> ### Human Rights Threats
+> The human rights threats on the Internet come in a myriad of forms.
+> Protocols and standards can harm or enable the right to freedom of
+> expression, right to non-discrimination, right to equal protection,
+> right to be presumed innocence, right to participate in cultural life,
+> arts and science, right to freedom of assembly and association, and
+> the right to security. An end-user who is denied access to certain
+> services, data or websites may be unable to disclose vital information
+> about the malpractices of a government or other authority.  A person
+> whose communications are monitored may be prevented from exercising
+> their right to freedom of association. In a worst-case scenario,
+> protocols that leak information can lead to physical danger. A
+> realistic example to consider is when opposition leaders in
+> totalitarian regimes are subjected to torture on the basis of
+> information gathered by the regime through information leakage in
+> protocols.
+>
+> This sections details several =E2=80=98common=E2=80=99 threats to human r=
+ights,
+> indicating how each of these can lead to human rights violations/harms
+> and present several examples of how these threats to human rights
+> materialize on the Internet. This threat modeling is inspired by
+> {{RFC6973}} Privacy Considerations for Internet Protocols, which bases
+> itself on security threat analysis. This method is by no means a
+> perfect solution for assessing human rights risks in Internet
+> protocols and systems; it is however the best approach currently
+> available. Certain human rights threats are indirectly considered in
+> Internet protocols as part of the standard privacy and security
+> considerations. Others suggested are tailored specifically to human
+> rights, and represents considerations not currently considered in
+> other RFCs.
+>
+> Many threats, enablers and risks are linked to different rights. This
+> is not unsurprising if one takes into account that human rights are
+> interrelated, interdependent and universal.
+> Here however we're not discussing all human rights because not all
+> human rights are relevant to ICTs in general and protocols and
+> standards in particular. This is by no means an attempt to cherry
+> picks right, if other rights seem relevant, please contact the authors
+> and/or the hrpc mailinglist.
+>
+> ### Human Rights Guidelines
+>
+> This section provides guidance for document authors in the form of a
+> questionnaire about a protocol being designed. The questionnaire may
+> be useful at any point in the design process, particularly after
+> document authors have developed a high-level protocol model as
+> described in {{RFC4101}}.
+>
+> Note that the guidance provided in this section does not recommend
+> specific practices.  The range of protocols developed in the IETF is
+> too broad to make recommendations about particular uses of data or how
+> human rights might be balanced against other design goals.  However,
+> by carefully considering the answers to each question, document
+> authors should be able to produce a comprehensive analysis that can
+> serve as the basis for discussion of whether the protocol adequately
+> protects against human rights threats.  This guidance is meant to help
+> the thought process of a human rights analysis; it does not provide
+> specific directions for how to write a human rights protocol
+> considerations section (following the example set in {{RFC6973}}).
+>
+> #### Right to freedom of expression
+>
+> ##### Connectivity
+> Does your protocol honor the end-to-end principle?
+>
+> ##### Privacy
+> Did you have a look at the Guidelines in the Privacy Considerations
+> for Internet Protocols {{RFC6973}} section 7? Does your protocol in
+> any way impact the confidentiality of protocol metadata? Does your
+> protocol countering traffic analysis, or data minimisation?
+>
+> ##### Security
+> Did you have a look at Guidelines for Writing RFC Text on Security
+> Considerations {{RFC3552}}?
+>
+> ##### Content agnosticism
+> If your protocol impact packet handling, does it look at the packet
+> content? Is it making decisions based on the content of the packet? Is
+> the protocol transparent about its decision? Does your protocol
+> prioritize certain content or services over others?
+>
+> ##### Internationalization
+> Does your protocol have text string that are readable or entered by
+> humans? Does your protocol allow Unicode encoded in UTF-8 only,
+> thereby shifting conversion issues away from individual choices? Did
+> you have a look at {{RFC6365}}?
+>
+> ##### Censorship resistance
+> Does your protocol make censorship easier by exposing specific
+> identifiers that could be sensitive for filtering. When filtering is
+> happening, does your protocol help make it apparent or transparent?
+>
+> ##### Open Standards
+> Is your protocol fully documented in a way that it could be easily
+> implemented, improved, build upon and/or further developed. Is there
+> any proprietary code needed for the implementation, running or further
+> development of your protocol?
+>
+> ##### Heterogeneity Support
+> Does your protocol support heterogeneity by design? Does your protocol
+> allow for multiple types of hardware? Does your protocol allow for
+> multiple types of application protocols?
+>
+> #### Right to non-discrimination
+>
+> ##### Anonymity
+> Did you have a look at the Privacy Considerations for Internet
+> Protocols {{RFC6973}}, especially section 6.1.1 ?
+>
+> ##### Privacy
+> See above
+>
+> ##### Pseudonymity
+> Did you have a look at the Privacy Considerations for Internet
+> Protocols {{RFC6973}}, especially section 6.1.2 ?
+>
+> ##### Content agnosticism
+> See above
+>
+> ##### Accessibility
+> Is your protocol optimized for low bandwidth and high latency
+> connections? Could your protocol also be developed in a stateless manner
+> ?
+>
+> #### Right to equal protection
+>
+> ##### Content agnosticism
+> See above
+>
+> #### Right to be presumed innocent
+> Is is possible to deploy your protocol without a single point of
+> control? If applicable, can it also implemented in a federated way?
+>
+> ##### Anonymity
+> See above
+>
+> ##### Privacy
+> See above
+>
+> ##### Security
+> See above
+>
+> #### Right to political participation
+>
+> ##### Accessibility
+> when websites, web technologies, or web tools are badly designed, they
+> can create barriers that exclude people from using the Web. Is your
+> protocol designed to provide an enabling environment for people with
+> disabilities? It might be relevant to look at the W3C Web
+> Accessibility Initiative for examples and guidance.
+>
+> ##### Internationalization
+> See above
+>
+> ##### Censorship resistance
+> See above
+>
+> #### Right to participate in cultural life, arts and science
+>
+> ##### Open Standards
+> See above
+>
+> ##### Localization
+> Does your protocol live up to standards of internationalization (see
+> above)? Have you considered localizing your protocol for relevant
+> audiences?
+>
+> ##### Internationalization
+> See above
+>
+> ##### Censorship resistance
+> See above
+>
+> #### Right to freedom of assembly and association
+>
+> ##### Connectivity
+> See above
+>
+> ##### Decentralization
+> Does your protocol contribute to more centralized points of control?
+> Can your protocol be implemented without one single point of control.
+> If applicable, can your protocol be deployed in a federated manner?
+>
+> ##### Censorship resistance
+> See above
+>
+> ##### Pseudonymity
+> See above
+>
+> ##### Anonymity
+> See above
+>
+> #### Security
+> See above
+>
+>
+> #### Right to security
+>
+> ##### Reliability
+> Is your protocol fault tolerant? Does it degrade gracefully? Do you
+> have a documented way to announce degradation? Do you have measures in
+> place for recovery or partial healing from failure? Is your protocol
+> able to maintain dependability and performance in the face of
+> unanticipated changes or circumstances?
+>
+> ##### Confidentiality
+> (cf {{RFC6973}} ) Which information related to identifiers or data  is
+> exposed to each other protocol entity (i.e., recipients,
+> intermediaries, and enablers)?  Are there ways for protocol
+> implementers to choose to limit the information shared with each
+> entity?  Are there operational controls available to limit the
+> information shared with each entity?
+>
+> What controls or consent mechanisms does the protocol define or
+> require before personal data or identifiers are shared or exposed via
+> the protocol?  If no such mechanisms or controls are specified, is it
+> expected that control and consent will be handled outside of the protoco
+> l?
+>
+> Does the protocol provide ways for initiators to share different
+> information with different recipients?  If not, are there mechanisms
+> that exist outside of the protocol to provide initiators with such
+> control?
+>
+> Does the protocol provide ways for initiators to limit which
+> information is shared with intermediaries?  If not, are there
+> mechanisms that exist outside of the protocol to provide users with
+> such control?  Is it expected that users will have relationships that
+> govern the  use of the information (contractual or otherwise) with
+> those who operate these intermediaries?
+>
+> Does the protocol provide ways for initiators to express individuals'
+> preferences to recipients or intermediaries with regard to the
+> collection, use, or disclosure of their personal data?
+>
+> ##### Integrity
+> Does your protocol maintain and assure the accuracy of data? Does your
+> protocol maintain and assure the consistency of data? Does your
+> protocol in any way allow for the data to be (intentionally or
+> unintentionally) altered?
+>
+> ##### Authenticity
+> Do you have enough measures to confirm the truth of an attribute of a
+> single piece of data or entity? Can the attributes get garbled along
+> the way (see security)? If relevant have you implemented IPsec and
+> other Standard Security Best Practices?
+>
+> ##### Anonymity
+> See above
+>
+> #### Right to education
+>
+> ##### Acceptability
+> Do your protocols adhere to the principle of non-discrimination (see
+> above)? Do your protocols adhere to the principle of content
+> agnosticism (see above)?
+>
+> ##### Availability
+> Do your protocols use or depend on proprietary code? Also see 'Open
+> Standards' above. Also see 'Connectivity' above.
+>
+> ##### Accessibility
+> See above
+>
+> ##### Adaptability
+> Could your protocol stifle or hinder permissionless innovation in any
+> way? See 'Connectivity' above
+>
+>
+>
+> - --
+> Niels ten Oever
+> Head of Digital
+>
+> Article 19
+> www.article19.org
+>
+> PGP fingerprint    8D9F C567 BEE4 A431 56C4
+>                    678B 08B5 A0F2 636D 68E9
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v2
+>
+> iQEcBAEBCAAGBQJWugyNAAoJEAi1oPJjbWjpIwQIAIUDFA9yn4Fe7UCZ+qjsjnW5
+> cRJnsvYnC4GGIehM2/OKFmsgajakTuSVsqH068Nwz1OCE2hHg4PsUFXlxNny+NyH
+> vF+j4gVrq9CMphVIvJXz4tgGQu623ED0iCA2fH7CXyPMtiVH9HcUkYt5Mija0ZjW
+> ocYjG4VkEFLGaV7/zG7NZAQGKlm9eJeX1WwIZrdUkN+63XzFcValL5pkiChKlLbp
+> /TlSarjrajonXf4+HWQxz17i/s1htuAb7pib1KRuikYchYe8kOxlDKFzznw1jzPH
+> Ga2lzY0/rKGq/14OaOr70GGQDQI+UUYAcv17rrWLWxXy1tsZCy31lHlArSxvSEY=3D
+> =3DzGci
+> -----END PGP SIGNATURE-----
+>
+> _______________________________________________
+> hrpc mailing list
+> hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+>
+
+--089e01160974cf402c052b71fa81
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div><div><div><div><div><div><div><div><div><div><di=
+v>I&#39;d argue for a different angle in the &quot;right to be presumed inn=
+ocent&quot; section within the &quot;right to equal protection&quot; sectio=
+n.<br></div><br></div>The text there seems to be focused on decentralizatio=
+n, which helps prevent centralized control, but is different from presumed =
+innocence.=C2=A0 The failure case I&#39;d want that section to talk to is t=
+he a hypothetical standard for DPI policy, where you wouldn&#39;t want to b=
+lock all bittorrent traffic for copyright infringement. Instead, you&#39;d =
+want to have systems and standards structured so that protocols and carried=
+ data isn&#39;t discriminated based on stereotypes, but on the specific con=
+tent of the transmissions.<br></div></div></div></div></div></div><br></div=
+>Here&#39;s a proposal for an alternate framing:<br></div>What is the poten=
+tial for discrimination against users of your protocol?<br></div>How can us=
+e of your protocol be used to implicate participants?<br><br></div>--Will<b=
+r><div><br></div></div><div class=3D"gmail_extra"><br><div class=3D"gmail_q=
+uote">On Tue, Feb 9, 2016 at 7:58 AM, Niels ten Oever <span dir=3D"ltr">&lt=
+;<a href=3D"mailto:niels@article19.org" target=3D"_blank">niels@article19.o=
+rg</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"marg=
+in:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">-----BEGIN PGP S=
+IGNED MESSAGE-----<br>
+Hash: SHA256<br>
+<br>
+Dear all,<br>
+<br>
+I hope this email finds you well. Corinne and I added a substantial<br>
+amount of text to the methodology draft, which we just made available<br>
+for you here:<br>
+<br>
+<a href=3D"https://www.ietf.org/id/draft-varon-hrpc-methodology-04.txt" rel=
+=3D"noreferrer" target=3D"_blank">https://www.ietf.org/id/draft-varon-hrpc-=
+methodology-04.txt</a><br>
+<br>
+Most additions are a first stab at actual human rights considerations,<br>
+modeled after RFC6973. I pasted this specific part also underneath for<br>
+your convenience and consideration. There are also some small<br>
+additions to the middlebox text as well as other nits than can be<br>
+found directly in the draft (and in the diff<br>
+<a href=3D"https://tools.ietf.org/rfcdiff?url2=3Ddraft-varon-hrpc-methodolo=
+gy-04.txt" rel=3D"noreferrer" target=3D"_blank">https://tools.ietf.org/rfcd=
+iff?url2=3Ddraft-varon-hrpc-methodology-04.txt</a><br>
+).<br>
+<br>
+Looking forward to the discussion, as well as questions and comments.<br>
+<br>
+Best,<br>
+<br>
+Niels<br>
+<br>
+<br>
+### Human Rights Threats<br>
+The human rights threats on the Internet come in a myriad of forms.<br>
+Protocols and standards can harm or enable the right to freedom of<br>
+expression, right to non-discrimination, right to equal protection,<br>
+right to be presumed innocence, right to participate in cultural life,<br>
+arts and science, right to freedom of assembly and association, and<br>
+the right to security. An end-user who is denied access to certain<br>
+services, data or websites may be unable to disclose vital information<br>
+about the malpractices of a government or other authority.=C2=A0 A person<b=
+r>
+whose communications are monitored may be prevented from exercising<br>
+their right to freedom of association. In a worst-case scenario,<br>
+protocols that leak information can lead to physical danger. A<br>
+realistic example to consider is when opposition leaders in<br>
+totalitarian regimes are subjected to torture on the basis of<br>
+information gathered by the regime through information leakage in<br>
+protocols.<br>
+<br>
+This sections details several =E2=80=98common=E2=80=99 threats to human rig=
+hts,<br>
+indicating how each of these can lead to human rights violations/harms<br>
+and present several examples of how these threats to human rights<br>
+materialize on the Internet. This threat modeling is inspired by<br>
+{{RFC6973}} Privacy Considerations for Internet Protocols, which bases<br>
+itself on security threat analysis. This method is by no means a<br>
+perfect solution for assessing human rights risks in Internet<br>
+protocols and systems; it is however the best approach currently<br>
+available. Certain human rights threats are indirectly considered in<br>
+Internet protocols as part of the standard privacy and security<br>
+considerations. Others suggested are tailored specifically to human<br>
+rights, and represents considerations not currently considered in<br>
+other RFCs.<br>
+<br>
+Many threats, enablers and risks are linked to different rights. This<br>
+is not unsurprising if one takes into account that human rights are<br>
+interrelated, interdependent and universal.<br>
+Here however we&#39;re not discussing all human rights because not all<br>
+human rights are relevant to ICTs in general and protocols and<br>
+standards in particular. This is by no means an attempt to cherry<br>
+picks right, if other rights seem relevant, please contact the authors<br>
+and/or the hrpc mailinglist.<br>
+<br>
+### Human Rights Guidelines<br>
+<br>
+This section provides guidance for document authors in the form of a<br>
+questionnaire about a protocol being designed. The questionnaire may<br>
+be useful at any point in the design process, particularly after<br>
+document authors have developed a high-level protocol model as<br>
+described in {{RFC4101}}.<br>
+<br>
+Note that the guidance provided in this section does not recommend<br>
+specific practices.=C2=A0 The range of protocols developed in the IETF is<b=
+r>
+too broad to make recommendations about particular uses of data or how<br>
+human rights might be balanced against other design goals.=C2=A0 However,<b=
+r>
+by carefully considering the answers to each question, document<br>
+authors should be able to produce a comprehensive analysis that can<br>
+serve as the basis for discussion of whether the protocol adequately<br>
+protects against human rights threats.=C2=A0 This guidance is meant to help=
+<br>
+the thought process of a human rights analysis; it does not provide<br>
+specific directions for how to write a human rights protocol<br>
+considerations section (following the example set in {{RFC6973}}).<br>
+<br>
+#### Right to freedom of expression<br>
+<br>
+##### Connectivity<br>
+Does your protocol honor the end-to-end principle?<br>
+<br>
+##### Privacy<br>
+Did you have a look at the Guidelines in the Privacy Considerations<br>
+for Internet Protocols {{RFC6973}} section 7? Does your protocol in<br>
+any way impact the confidentiality of protocol metadata? Does your<br>
+protocol countering traffic analysis, or data minimisation?<br>
+<br>
+##### Security<br>
+Did you have a look at Guidelines for Writing RFC Text on Security<br>
+Considerations {{RFC3552}}?<br>
+<br>
+##### Content agnosticism<br>
+If your protocol impact packet handling, does it look at the packet<br>
+content? Is it making decisions based on the content of the packet? Is<br>
+the protocol transparent about its decision? Does your protocol<br>
+prioritize certain content or services over others?<br>
+<br>
+##### Internationalization<br>
+Does your protocol have text string that are readable or entered by<br>
+humans? Does your protocol allow Unicode encoded in UTF-8 only,<br>
+thereby shifting conversion issues away from individual choices? Did<br>
+you have a look at {{RFC6365}}?<br>
+<br>
+##### Censorship resistance<br>
+Does your protocol make censorship easier by exposing specific<br>
+identifiers that could be sensitive for filtering. When filtering is<br>
+happening, does your protocol help make it apparent or transparent?<br>
+<br>
+##### Open Standards<br>
+Is your protocol fully documented in a way that it could be easily<br>
+implemented, improved, build upon and/or further developed. Is there<br>
+any proprietary code needed for the implementation, running or further<br>
+development of your protocol?<br>
+<br>
+##### Heterogeneity Support<br>
+Does your protocol support heterogeneity by design? Does your protocol<br>
+allow for multiple types of hardware? Does your protocol allow for<br>
+multiple types of application protocols?<br>
+<br>
+#### Right to non-discrimination<br>
+<br>
+##### Anonymity<br>
+Did you have a look at the Privacy Considerations for Internet<br>
+Protocols {{RFC6973}}, especially section 6.1.1 ?<br>
+<br>
+##### Privacy<br>
+See above<br>
+<br>
+##### Pseudonymity<br>
+Did you have a look at the Privacy Considerations for Internet<br>
+Protocols {{RFC6973}}, especially section 6.1.2 ?<br>
+<br>
+##### Content agnosticism<br>
+See above<br>
+<br>
+##### Accessibility<br>
+Is your protocol optimized for low bandwidth and high latency<br>
+connections? Could your protocol also be developed in a stateless manner<br=
+>
+?<br>
+<br>
+#### Right to equal protection<br>
+<br>
+##### Content agnosticism<br>
+See above<br>
+<br>
+#### Right to be presumed innocent<br>
+Is is possible to deploy your protocol without a single point of<br>
+control? If applicable, can it also implemented in a federated way?<br>
+<br>
+##### Anonymity<br>
+See above<br>
+<br>
+##### Privacy<br>
+See above<br>
+<br>
+##### Security<br>
+See above<br>
+<br>
+#### Right to political participation<br>
+<br>
+##### Accessibility<br>
+when websites, web technologies, or web tools are badly designed, they<br>
+can create barriers that exclude people from using the Web. Is your<br>
+protocol designed to provide an enabling environment for people with<br>
+disabilities? It might be relevant to look at the W3C Web<br>
+Accessibility Initiative for examples and guidance.<br>
+<br>
+##### Internationalization<br>
+See above<br>
+<br>
+##### Censorship resistance<br>
+See above<br>
+<br>
+#### Right to participate in cultural life, arts and science<br>
+<br>
+##### Open Standards<br>
+See above<br>
+<br>
+##### Localization<br>
+Does your protocol live up to standards of internationalization (see<br>
+above)? Have you considered localizing your protocol for relevant<br>
+audiences?<br>
+<br>
+##### Internationalization<br>
+See above<br>
+<br>
+##### Censorship resistance<br>
+See above<br>
+<br>
+#### Right to freedom of assembly and association<br>
+<br>
+##### Connectivity<br>
+See above<br>
+<br>
+##### Decentralization<br>
+Does your protocol contribute to more centralized points of control?<br>
+Can your protocol be implemented without one single point of control.<br>
+If applicable, can your protocol be deployed in a federated manner?<br>
+<br>
+##### Censorship resistance<br>
+See above<br>
+<br>
+##### Pseudonymity<br>
+See above<br>
+<br>
+##### Anonymity<br>
+See above<br>
+<br>
+#### Security<br>
+See above<br>
+<br>
+<br>
+#### Right to security<br>
+<br>
+##### Reliability<br>
+Is your protocol fault tolerant? Does it degrade gracefully? Do you<br>
+have a documented way to announce degradation? Do you have measures in<br>
+place for recovery or partial healing from failure? Is your protocol<br>
+able to maintain dependability and performance in the face of<br>
+unanticipated changes or circumstances?<br>
+<br>
+##### Confidentiality<br>
+(cf {{RFC6973}} ) Which information related to identifiers or data=C2=A0 is=
+<br>
+exposed to each other protocol entity (i.e., recipients,<br>
+intermediaries, and enablers)?=C2=A0 Are there ways for protocol<br>
+implementers to choose to limit the information shared with each<br>
+entity?=C2=A0 Are there operational controls available to limit the<br>
+information shared with each entity?<br>
+<br>
+What controls or consent mechanisms does the protocol define or<br>
+require before personal data or identifiers are shared or exposed via<br>
+the protocol?=C2=A0 If no such mechanisms or controls are specified, is it<=
+br>
+expected that control and consent will be handled outside of the protoco<br=
+>
+l?<br>
+<br>
+Does the protocol provide ways for initiators to share different<br>
+information with different recipients?=C2=A0 If not, are there mechanisms<b=
+r>
+that exist outside of the protocol to provide initiators with such<br>
+control?<br>
+<br>
+Does the protocol provide ways for initiators to limit which<br>
+information is shared with intermediaries?=C2=A0 If not, are there<br>
+mechanisms that exist outside of the protocol to provide users with<br>
+such control?=C2=A0 Is it expected that users will have relationships that<=
+br>
+govern the=C2=A0 use of the information (contractual or otherwise) with<br>
+those who operate these intermediaries?<br>
+<br>
+Does the protocol provide ways for initiators to express individuals&#39;<b=
+r>
+preferences to recipients or intermediaries with regard to the<br>
+collection, use, or disclosure of their personal data?<br>
+<br>
+##### Integrity<br>
+Does your protocol maintain and assure the accuracy of data? Does your<br>
+protocol maintain and assure the consistency of data? Does your<br>
+protocol in any way allow for the data to be (intentionally or<br>
+unintentionally) altered?<br>
+<br>
+##### Authenticity<br>
+Do you have enough measures to confirm the truth of an attribute of a<br>
+single piece of data or entity? Can the attributes get garbled along<br>
+the way (see security)? If relevant have you implemented IPsec and<br>
+other Standard Security Best Practices?<br>
+<br>
+##### Anonymity<br>
+See above<br>
+<br>
+#### Right to education<br>
+<br>
+##### Acceptability<br>
+Do your protocols adhere to the principle of non-discrimination (see<br>
+above)? Do your protocols adhere to the principle of content<br>
+agnosticism (see above)?<br>
+<br>
+##### Availability<br>
+Do your protocols use or depend on proprietary code? Also see &#39;Open<br>
+Standards&#39; above. Also see &#39;Connectivity&#39; above.<br>
+<br>
+##### Accessibility<br>
+See above<br>
+<br>
+##### Adaptability<br>
+Could your protocol stifle or hinder permissionless innovation in any<br>
+way? See &#39;Connectivity&#39; above<br>
+<br>
+<br>
+<br>
+- --<br>
+Niels ten Oever<br>
+Head of Digital<br>
+<br>
+Article 19<br>
+<a href=3D"http://www.article19.org" rel=3D"noreferrer" target=3D"_blank">w=
+ww.article19.org</a><br>
+<br>
+PGP fingerprint=C2=A0 =C2=A0 8D9F C567 BEE4 A431 56C4<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0678B 0=
+8B5 A0F2 636D 68E9<br>
+-----BEGIN PGP SIGNATURE-----<br>
+Version: GnuPG v2<br>
+<br>
+iQEcBAEBCAAGBQJWugyNAAoJEAi1oPJjbWjpIwQIAIUDFA9yn4Fe7UCZ+qjsjnW5<br>
+cRJnsvYnC4GGIehM2/OKFmsgajakTuSVsqH068Nwz1OCE2hHg4PsUFXlxNny+NyH<br>
+vF+j4gVrq9CMphVIvJXz4tgGQu623ED0iCA2fH7CXyPMtiVH9HcUkYt5Mija0ZjW<br>
+ocYjG4VkEFLGaV7/zG7NZAQGKlm9eJeX1WwIZrdUkN+63XzFcValL5pkiChKlLbp<br>
+/TlSarjrajonXf4+HWQxz17i/s1htuAb7pib1KRuikYchYe8kOxlDKFzznw1jzPH<br>
+Ga2lzY0/rKGq/14OaOr70GGQDQI+UUYAcv17rrWLWxXy1tsZCy31lHlArSxvSEY=3D<br>
+=3DzGci<br>
+-----END PGP SIGNATURE-----<br>
+<br>
+_______________________________________________<br>
+hrpc mailing list<br>
+<a href=3D"mailto:hrpc@irtf.org">hrpc@irtf.org</a><br>
+<a href=3D"https://www.irtf.org/mailman/listinfo/hrpc" rel=3D"noreferrer" t=
+arget=3D"_blank">https://www.irtf.org/mailman/listinfo/hrpc</a><br>
+</blockquote></div><br></div>
+
+--089e01160974cf402c052b71fa81--
+
+
+From nobody Mon Feb 15 02:50:12 2016
+Return-Path: <niels@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 8557E1B3191 for <hrpc@ietfa.amsl.com>; Mon, 15 Feb 2016 02:50:10 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 3.124
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.124 tagged_above=-999 required=5 tests=[BAYES_50=0.8, HOST_EQ_NL=1.545, SPF_NEUTRAL=0.779] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id ErOQfmi5hI0P for <hrpc@ietfa.amsl.com>; Mon, 15 Feb 2016 02:50:06 -0800 (PST)
+Received: from mail.article19.io (vps784.greenhost.nl [213.108.108.114]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 9CF041B318F for <hrpc@irtf.org>; Mon, 15 Feb 2016 02:50:05 -0800 (PST)
+Received: from mail.article19.io (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTPS id 5297217C051 for <hrpc@irtf.org>; Mon, 15 Feb 2016 10:50:03 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTP id 3F50017C04B for <hrpc@irtf.org>; Mon, 15 Feb 2016 10:50:03 +0000 (UTC)
+Received: from mail.article19.io ([127.0.0.1]) by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026) with ESMTP id KGcB7hYLAKzW for <hrpc@irtf.org>; Mon, 15 Feb 2016 10:50:03 +0000 (UTC)
+Received: from [192.168.1.70] (sd5112335.adsl.online.nl [213.17.35.53]) by mail.article19.io (Postfix) with ESMTPSA id 03BC217C045 for <hrpc@irtf.org>; Mon, 15 Feb 2016 10:50:03 +0000 (UTC)
+To: hrpc@irtf.org
+References: <56BA0C8D.7030207@article19.org> <CAP45vr-kHvny1P+uU1Ca8U10W=eiiAVZEYY2gdob8y3TgQg+Zg@mail.gmail.com>
+From: Niels ten Oever <niels@article19.org>
+X-Enigmail-Draft-Status: N1110
+Message-ID: <56C1AD5A.8070806@article19.org>
+Date: Mon, 15 Feb 2016 11:50:02 +0100
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101 Icedove/38.5.0
+MIME-Version: 1.0
+In-Reply-To: <CAP45vr-kHvny1P+uU1Ca8U10W=eiiAVZEYY2gdob8y3TgQg+Zg@mail.gmail.com>
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/obdoonsFcmDgSbMqj28j8saf1Vo>
+Subject: Re: [hrpc] draft human rights considerations
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 15 Feb 2016 10:50:10 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Hi Will,
+
+Thanks for this. Reply inline:
+
+On 02/10/2016 11:30 PM, Will Scott wrote:
+> I'd argue for a different angle in the "right to be presumed
+> innocent" section within the "right to equal protection" section.
+>=20
+
+They are both seperate human rights, so they both have their own
+section (4.7.2.3 and 4.7.2.4)
+
+
+> The text there seems to be focused on decentralization, which
+> helps prevent centralized control,
+
+The draft may be unclear here, but decentralization (4.7.2.7.2) is
+part of the right to freedom of assembly and association (4.7.2.7),
+not of any other right at the moment.
+
+
+> but is different from presumed innocence. The failure case I'd want
+> that section to talk to is the a hypothetical standard for DPI
+> policy, where you wouldn't want to block all bittorrent traffic for
+> copyright infringement. Instead, you'd want to have systems and
+> standards structured so that protocols and carried data isn't=20
+> discriminated based on stereotypes, but on the specific content of
+> the transmissions.
+
+So, would you argue decentralization should be part of Right to
+freedom of expression (4.7.2.1) and Right to non-discrimination
+(4.7.2.2) as well?
+
+>=20
+> Here's a proposal for an alternate framing: What is the potential
+> for discrimination against users of your protocol? How can use of
+> your protocol be used to implicate participants?
+>=20
+
+Would this be fixed by the proposal suggested above, or do you think
+we should add other considerations to the Right to non-discrimination
+(4.7.2.2) ?
+
+Looking forward to discuss!
+
+Best,
+
+Niels
+
+
+> --Will
+>=20
+>=20
+> On Tue, Feb 9, 2016 at 7:58 AM, Niels ten Oever
+> <niels@article19.org <mailto:niels@article19.org>> wrote:
+>=20
+> Dear all,
+>=20
+> I hope this email finds you well. Corinne and I added a
+> substantial amount of text to the methodology draft, which we just
+> made available for you here:
+>=20
+> https://www.ietf.org/id/draft-varon-hrpc-methodology-04.txt
+>=20
+> Most additions are a first stab at actual human rights
+> considerations, modeled after RFC6973. I pasted this specific part
+> also underneath for your convenience and consideration. There are
+> also some small additions to the middlebox text as well as other
+> nits than can be found directly in the draft (and in the diff=20
+> https://tools.ietf.org/rfcdiff?url2=3Ddraft-varon-hrpc-methodology-04.t=
+x
+t
+>
+>=20
+).
+>=20
+> Looking forward to the discussion, as well as questions and
+> comments.
+>=20
+> Best,
+>=20
+> Niels
+>=20
+>=20
+> ### Human Rights Threats The human rights threats on the Internet
+> come in a myriad of forms. Protocols and standards can harm or
+> enable the right to freedom of expression, right to
+> non-discrimination, right to equal protection, right to be presumed
+> innocence, right to participate in cultural life, arts and science,
+> right to freedom of assembly and association, and the right to
+> security. An end-user who is denied access to certain services,
+> data or websites may be unable to disclose vital information about
+> the malpractices of a government or other authority.  A person=20
+> whose communications are monitored may be prevented from
+> exercising their right to freedom of association. In a worst-case
+> scenario, protocols that leak information can lead to physical
+> danger. A realistic example to consider is when opposition leaders
+> in totalitarian regimes are subjected to torture on the basis of=20
+> information gathered by the regime through information leakage in=20
+> protocols.
+>=20
+> This sections details several =91common=92 threats to human rights,=20
+> indicating how each of these can lead to human rights
+> violations/harms and present several examples of how these threats
+> to human rights materialize on the Internet. This threat modeling
+> is inspired by {{RFC6973}} Privacy Considerations for Internet
+> Protocols, which bases itself on security threat analysis. This
+> method is by no means a perfect solution for assessing human rights
+> risks in Internet protocols and systems; it is however the best
+> approach currently available. Certain human rights threats are
+> indirectly considered in Internet protocols as part of the standard
+> privacy and security considerations. Others suggested are tailored
+> specifically to human rights, and represents considerations not
+> currently considered in other RFCs.
+>=20
+> Many threats, enablers and risks are linked to different rights.
+> This is not unsurprising if one takes into account that human
+> rights are interrelated, interdependent and universal. Here however
+> we're not discussing all human rights because not all human rights
+> are relevant to ICTs in general and protocols and standards in
+> particular. This is by no means an attempt to cherry picks right,
+> if other rights seem relevant, please contact the authors and/or
+> the hrpc mailinglist.
+>=20
+> ### Human Rights Guidelines
+>=20
+> This section provides guidance for document authors in the form of
+> a questionnaire about a protocol being designed. The questionnaire
+> may be useful at any point in the design process, particularly
+> after document authors have developed a high-level protocol model
+> as described in {{RFC4101}}.
+>=20
+> Note that the guidance provided in this section does not recommend=20
+> specific practices.  The range of protocols developed in the IETF
+> is too broad to make recommendations about particular uses of data
+> or how human rights might be balanced against other design goals.
+> However, by carefully considering the answers to each question,
+> document authors should be able to produce a comprehensive analysis
+> that can serve as the basis for discussion of whether the protocol
+> adequately protects against human rights threats.  This guidance is
+> meant to help the thought process of a human rights analysis; it
+> does not provide specific directions for how to write a human
+> rights protocol considerations section (following the example set
+> in {{RFC6973}}).
+>=20
+> #### Right to freedom of expression
+>=20
+> ##### Connectivity Does your protocol honor the end-to-end
+> principle?
+>=20
+> ##### Privacy Did you have a look at the Guidelines in the Privacy
+> Considerations for Internet Protocols {{RFC6973}} section 7? Does
+> your protocol in any way impact the confidentiality of protocol
+> metadata? Does your protocol countering traffic analysis, or data
+> minimisation?
+>=20
+> ##### Security Did you have a look at Guidelines for Writing RFC
+> Text on Security Considerations {{RFC3552}}?
+>=20
+> ##### Content agnosticism If your protocol impact packet handling,
+> does it look at the packet content? Is it making decisions based on
+> the content of the packet? Is the protocol transparent about its
+> decision? Does your protocol prioritize certain content or services
+> over others?
+>=20
+> ##### Internationalization Does your protocol have text string that
+> are readable or entered by humans? Does your protocol allow Unicode
+> encoded in UTF-8 only, thereby shifting conversion issues away from
+> individual choices? Did you have a look at {{RFC6365}}?
+>=20
+> ##### Censorship resistance Does your protocol make censorship
+> easier by exposing specific identifiers that could be sensitive for
+> filtering. When filtering is happening, does your protocol help
+> make it apparent or transparent?
+>=20
+> ##### Open Standards Is your protocol fully documented in a way
+> that it could be easily implemented, improved, build upon and/or
+> further developed. Is there any proprietary code needed for the
+> implementation, running or further development of your protocol?
+>=20
+> ##### Heterogeneity Support Does your protocol support
+> heterogeneity by design? Does your protocol allow for multiple
+> types of hardware? Does your protocol allow for multiple types of
+> application protocols?
+>=20
+> #### Right to non-discrimination
+>=20
+> ##### Anonymity Did you have a look at the Privacy Considerations
+> for Internet Protocols {{RFC6973}}, especially section 6.1.1 ?
+>=20
+> ##### Privacy See above
+>=20
+> ##### Pseudonymity Did you have a look at the Privacy
+> Considerations for Internet Protocols {{RFC6973}}, especially
+> section 6.1.2 ?
+>=20
+> ##### Content agnosticism See above
+>=20
+> ##### Accessibility Is your protocol optimized for low bandwidth
+> and high latency connections? Could your protocol also be developed
+> in a stateless manner ?
+>=20
+> #### Right to equal protection
+>=20
+> ##### Content agnosticism See above
+>=20
+> #### Right to be presumed innocent Is is possible to deploy your
+> protocol without a single point of control? If applicable, can it
+> also implemented in a federated way?
+>=20
+> ##### Anonymity See above
+>=20
+> ##### Privacy See above
+>=20
+> ##### Security See above
+>=20
+> #### Right to political participation
+>=20
+> ##### Accessibility when websites, web technologies, or web tools
+> are badly designed, they can create barriers that exclude people
+> from using the Web. Is your protocol designed to provide an
+> enabling environment for people with disabilities? It might be
+> relevant to look at the W3C Web Accessibility Initiative for
+> examples and guidance.
+>=20
+> ##### Internationalization See above
+>=20
+> ##### Censorship resistance See above
+>=20
+> #### Right to participate in cultural life, arts and science
+>=20
+> ##### Open Standards See above
+>=20
+> ##### Localization Does your protocol live up to standards of
+> internationalization (see above)? Have you considered localizing
+> your protocol for relevant audiences?
+>=20
+> ##### Internationalization See above
+>=20
+> ##### Censorship resistance See above
+>=20
+> #### Right to freedom of assembly and association
+>=20
+> ##### Connectivity See above
+>=20
+> ##### Decentralization Does your protocol contribute to more
+> centralized points of control? Can your protocol be implemented
+> without one single point of control. If applicable, can your
+> protocol be deployed in a federated manner?
+>=20
+> ##### Censorship resistance See above
+>=20
+> ##### Pseudonymity See above
+>=20
+> ##### Anonymity See above
+>=20
+> #### Security See above
+>=20
+>=20
+> #### Right to security
+>=20
+> ##### Reliability Is your protocol fault tolerant? Does it degrade
+> gracefully? Do you have a documented way to announce degradation?
+> Do you have measures in place for recovery or partial healing from
+> failure? Is your protocol able to maintain dependability and
+> performance in the face of unanticipated changes or circumstances?
+>=20
+> ##### Confidentiality (cf {{RFC6973}} ) Which information related
+> to identifiers or data  is exposed to each other protocol entity
+> (i.e., recipients, intermediaries, and enablers)?  Are there ways
+> for protocol implementers to choose to limit the information shared
+> with each entity?  Are there operational controls available to
+> limit the information shared with each entity?
+>=20
+> What controls or consent mechanisms does the protocol define or=20
+> require before personal data or identifiers are shared or exposed
+> via the protocol?  If no such mechanisms or controls are specified,
+> is it expected that control and consent will be handled outside of
+> the protoco l?
+>=20
+> Does the protocol provide ways for initiators to share different=20
+> information with different recipients?  If not, are there
+> mechanisms that exist outside of the protocol to provide initiators
+> with such control?
+>=20
+> Does the protocol provide ways for initiators to limit which=20
+> information is shared with intermediaries?  If not, are there=20
+> mechanisms that exist outside of the protocol to provide users
+> with such control?  Is it expected that users will have
+> relationships that govern the  use of the information (contractual
+> or otherwise) with those who operate these intermediaries?
+>=20
+> Does the protocol provide ways for initiators to express
+> individuals' preferences to recipients or intermediaries with
+> regard to the collection, use, or disclosure of their personal
+> data?
+>=20
+> ##### Integrity Does your protocol maintain and assure the accuracy
+> of data? Does your protocol maintain and assure the consistency of
+> data? Does your protocol in any way allow for the data to be
+> (intentionally or unintentionally) altered?
+>=20
+> ##### Authenticity Do you have enough measures to confirm the truth
+> of an attribute of a single piece of data or entity? Can the
+> attributes get garbled along the way (see security)? If relevant
+> have you implemented IPsec and other Standard Security Best
+> Practices?
+>=20
+> ##### Anonymity See above
+>=20
+> #### Right to education
+>=20
+> ##### Acceptability Do your protocols adhere to the principle of
+> non-discrimination (see above)? Do your protocols adhere to the
+> principle of content agnosticism (see above)?
+>=20
+> ##### Availability Do your protocols use or depend on proprietary
+> code? Also see 'Open Standards' above. Also see 'Connectivity'
+> above.
+>=20
+> ##### Accessibility See above
+>=20
+> ##### Adaptability Could your protocol stifle or hinder
+> permissionless innovation in any way? See 'Connectivity' above
+>=20
+>=20
+>=20
+>=20
+> _______________________________________________ hrpc mailing list=20
+> hrpc@irtf.org <mailto:hrpc@irtf.org>=20
+> https://www.irtf.org/mailman/listinfo/hrpc
+>=20
+>=20
+>=20
+>=20
+> _______________________________________________ hrpc mailing list=20
+> hrpc@irtf.org https://www.irtf.org/mailman/listinfo/hrpc
+>=20
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQEcBAEBCAAGBQJWwa1aAAoJEAi1oPJjbWjp8mgH/ioOET2gqgPTdvgvK3mNMGBa
+/ciYsROw/8Rjt+e17YR3+b1MZpF9S+seyMfCwiPDbnRiF9KNpVo9tH6JuOEOh71r
+5QS7Vmc9+s8BEYv/OYASqC910+SOsAngO+5eBgkzIMRX8fdaIdbCYUmvSdo1p49E
+mGst1d/BHFpz9U2hBYvgDdMLqVNkMeTUdZCt5g7A2MHqinw8tF0QwV48LXW0S+5+
+J5blhuXpQln7i/wyCYWOWThzm9SwutNud3+hGud0qGfVxTYdh4RdbqlTVaVbpzKa
+vu6xWDu9BuPG361aWTvp6Jb9lHccW7K7NX2sYcx4zzOzoXKn/C6FAUlmUCDQeNo=3D
+=3DbqPr
+-----END PGP SIGNATURE-----
+
+
+From nobody Tue Feb 16 10:53:18 2016
+Return-Path: <wrs@cs.washington.edu>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 7CAC31ACE6F for <hrpc@ietfa.amsl.com>; Tue, 16 Feb 2016 10:53:16 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 1.323
+X-Spam-Level: *
+X-Spam-Status: No, score=1.323 tagged_above=-999 required=5 tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, FM_FORGED_GMAIL=0.622, HTML_MESSAGE=0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id a7px1fVJSBNV for <hrpc@ietfa.amsl.com>; Tue, 16 Feb 2016 10:53:11 -0800 (PST)
+Received: from mail-io0-x231.google.com (mail-io0-x231.google.com [IPv6:2607:f8b0:4001:c06::231]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id A44F71ACE3B for <hrpc@irtf.org>; Tue, 16 Feb 2016 10:53:11 -0800 (PST)
+Received: by mail-io0-x231.google.com with SMTP id l127so202437241iof.3 for <hrpc@irtf.org>; Tue, 16 Feb 2016 10:53:11 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=cs.washington.edu; s=goo201206; h=mime-version:in-reply-to:references:date:message-id:subject:from:to :content-type; bh=9DYmyXFLCpf2ENXtgOlt8FF7Zn8nm3nJbfhHx+EGGPY=; b=I5NoFqf/dJg6trMErKkZ2WKNw7E7y4O4TnPx50nXk87cKsMMo0Ps7d94ctJ4LhRZHb jyeWdtruyukb9yFhVMGqq0vsw19l5PUDdaQfzlqLddCF7diNab8PH92HTzWSnBOmuM5Y PEbTokLCSHiVMJrA2051fxq9ghU20Ay/rEjOg=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20130820; h=x-gm-message-state:mime-version:in-reply-to:references:date :message-id:subject:from:to:content-type; bh=9DYmyXFLCpf2ENXtgOlt8FF7Zn8nm3nJbfhHx+EGGPY=; b=XpvKCZQNjo2PDQ5Y+AejEWaGMIkaNqhh3CWsaDACgtjooOVVmmi3Fcsuvrttu9ss7K Pfq6M2wBrWhikMfssKtiknXe+lW1xQd+xdLWUU5yNYY7aP3q+vfYAjHzqoFiYpirdacM dePKau/QOp31XO0dxhGBIfJDrR8Akea8ZGW6DQ/5qiRJIFEunp+4Hq4VKX7jbe94zssn z0vxdykxxFY6HaZeyG1NTP5pPHTJO2DSOxWZEiRe/UKY7QFOYAIN+8xTYZ/tZjMI7iov OD5sX/3UyB4Q5QYDWI2VOlK3HIWJcLwjk9otaLcgDaKPmIx/a84on06PyrNgXtxUaAC6 L6mg==
+X-Gm-Message-State: AG10YOSnc9sz7crqtFaB0j9sjzqjKJ46AXRhtJ3SrUb+yjTazRZlWHgqxL38eyPbt4JmJqBc6L7z/s+2ltQOfQ==
+MIME-Version: 1.0
+X-Received: by 10.107.132.205 with SMTP id o74mr23516912ioi.66.1455648790650;  Tue, 16 Feb 2016 10:53:10 -0800 (PST)
+Received: by 10.50.109.231 with HTTP; Tue, 16 Feb 2016 10:53:10 -0800 (PST)
+In-Reply-To: <56C1AD5A.8070806@article19.org>
+References: <56BA0C8D.7030207@article19.org> <CAP45vr-kHvny1P+uU1Ca8U10W=eiiAVZEYY2gdob8y3TgQg+Zg@mail.gmail.com> <56C1AD5A.8070806@article19.org>
+Date: Tue, 16 Feb 2016 10:53:10 -0800
+Message-ID: <CAP45vr_SZX4dZ=UyokPN4KrQj+5GwVg1yPrNgA=McQPoYgO1hQ@mail.gmail.com>
+From: Will Scott <wrs@cs.washington.edu>
+To: hrpc@irtf.org
+Content-Type: multipart/alternative; boundary=001a113ffc6c15b3b3052be7a512
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/anzstn285A0ftqcZP2JMYx--h8w>
+Subject: Re: [hrpc] draft human rights considerations
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 16 Feb 2016 18:53:16 -0000
+
+--001a113ffc6c15b3b3052be7a512
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Inline Replies
+
+On Mon, Feb 15, 2016 at 2:50 AM, Niels ten Oever <niels@article19.org>
+wrote:
+
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA256
+>
+> Hi Will,
+>
+> Thanks for this. Reply inline:
+>
+> On 02/10/2016 11:30 PM, Will Scott wrote:
+> > I'd argue for a different angle in the "right to be presumed
+> > innocent" section within the "right to equal protection" section.
+> >
+>
+> They are both seperate human rights, so they both have their own
+> section (4.7.2.3 and 4.7.2.4)
+>
+> I misread, my bad.
+
+>
+> > The text there seems to be focused on decentralization, which
+> > helps prevent centralized control,
+>
+> The draft may be unclear here, but decentralization (4.7.2.7.2) is
+> part of the right to freedom of assembly and association (4.7.2.7),
+> not of any other right at the moment.
+>
+> This seems like the correct place for it, but the sample question "Is it
+possible to deploy your protocol without a single point of control?" feels
+like a decentralization issue.
+
+>
+> > but is different from presumed innocence. The failure case I'd want
+> > that section to talk to is the a hypothetical standard for DPI
+> > policy, where you wouldn't want to block all bittorrent traffic for
+> > copyright infringement. Instead, you'd want to have systems and
+> > standards structured so that protocols and carried data isn't
+> > discriminated based on stereotypes, but on the specific content of
+> > the transmissions.
+>
+> So, would you argue decentralization should be part of Right to
+> freedom of expression (4.7.2.1) and Right to non-discrimination
+> (4.7.2.2) as well?
+>
+> Adding it to 4.7.2.2 seems appropriate.
+
+My point above was trying to say that right to presumed innocence feels
+uncentered. the sample questions feel like 'decentralization' and the
+subheadings are anonymity, privacy, and security.  None of those places
+feel like they solicit answers to the questions below. I think content
+agnosticism is the closest area, and should be in there.
+
+>
+> > Here's a proposal for an alternate framing: What is the potential
+> > for discrimination against users of your protocol? How can use of
+> > your protocol be used to implicate participants?
+> >
+>
+> Would this be fixed by the proposal suggested above, or do you think
+> we should add other considerations to the Right to non-discrimination
+> (4.7.2.2) ?
+>
+> Looking forward to discuss!
+>
+> Best,
+>
+> Niels
+>
+>
+> > --Will
+> >
+> >
+> > On Tue, Feb 9, 2016 at 7:58 AM, Niels ten Oever
+> > <niels@article19.org <mailto:niels@article19.org>> wrote:
+> >
+> > Dear all,
+> >
+> > I hope this email finds you well. Corinne and I added a
+> > substantial amount of text to the methodology draft, which we just
+> > made available for you here:
+> >
+> > https://www.ietf.org/id/draft-varon-hrpc-methodology-04.txt
+> >
+> > Most additions are a first stab at actual human rights
+> > considerations, modeled after RFC6973. I pasted this specific part
+> > also underneath for your convenience and consideration. There are
+> > also some small additions to the middlebox text as well as other
+> > nits than can be found directly in the draft (and in the diff
+> > https://tools.ietf.org/rfcdiff?url2=3Ddraft-varon-hrpc-methodology-04.t=
+x
+> t
+> >
+> >
+> ).
+> >
+> > Looking forward to the discussion, as well as questions and
+> > comments.
+> >
+> > Best,
+> >
+> > Niels
+> >
+> >
+> > ### Human Rights Threats The human rights threats on the Internet
+> > come in a myriad of forms. Protocols and standards can harm or
+> > enable the right to freedom of expression, right to
+> > non-discrimination, right to equal protection, right to be presumed
+> > innocence, right to participate in cultural life, arts and science,
+> > right to freedom of assembly and association, and the right to
+> > security. An end-user who is denied access to certain services,
+> > data or websites may be unable to disclose vital information about
+> > the malpractices of a government or other authority.  A person
+> > whose communications are monitored may be prevented from
+> > exercising their right to freedom of association. In a worst-case
+> > scenario, protocols that leak information can lead to physical
+> > danger. A realistic example to consider is when opposition leaders
+> > in totalitarian regimes are subjected to torture on the basis of
+> > information gathered by the regime through information leakage in
+> > protocols.
+> >
+> > This sections details several =E2=80=98common=E2=80=99 threats to human=
+ rights,
+> > indicating how each of these can lead to human rights
+> > violations/harms and present several examples of how these threats
+> > to human rights materialize on the Internet. This threat modeling
+> > is inspired by {{RFC6973}} Privacy Considerations for Internet
+> > Protocols, which bases itself on security threat analysis. This
+> > method is by no means a perfect solution for assessing human rights
+> > risks in Internet protocols and systems; it is however the best
+> > approach currently available. Certain human rights threats are
+> > indirectly considered in Internet protocols as part of the standard
+> > privacy and security considerations. Others suggested are tailored
+> > specifically to human rights, and represents considerations not
+> > currently considered in other RFCs.
+> >
+> > Many threats, enablers and risks are linked to different rights.
+> > This is not unsurprising if one takes into account that human
+> > rights are interrelated, interdependent and universal. Here however
+> > we're not discussing all human rights because not all human rights
+> > are relevant to ICTs in general and protocols and standards in
+> > particular. This is by no means an attempt to cherry picks right,
+> > if other rights seem relevant, please contact the authors and/or
+> > the hrpc mailinglist.
+> >
+> > ### Human Rights Guidelines
+> >
+> > This section provides guidance for document authors in the form of
+> > a questionnaire about a protocol being designed. The questionnaire
+> > may be useful at any point in the design process, particularly
+> > after document authors have developed a high-level protocol model
+> > as described in {{RFC4101}}.
+> >
+> > Note that the guidance provided in this section does not recommend
+> > specific practices.  The range of protocols developed in the IETF
+> > is too broad to make recommendations about particular uses of data
+> > or how human rights might be balanced against other design goals.
+> > However, by carefully considering the answers to each question,
+> > document authors should be able to produce a comprehensive analysis
+> > that can serve as the basis for discussion of whether the protocol
+> > adequately protects against human rights threats.  This guidance is
+> > meant to help the thought process of a human rights analysis; it
+> > does not provide specific directions for how to write a human
+> > rights protocol considerations section (following the example set
+> > in {{RFC6973}}).
+> >
+> > #### Right to freedom of expression
+> >
+> > ##### Connectivity Does your protocol honor the end-to-end
+> > principle?
+> >
+> > ##### Privacy Did you have a look at the Guidelines in the Privacy
+> > Considerations for Internet Protocols {{RFC6973}} section 7? Does
+> > your protocol in any way impact the confidentiality of protocol
+> > metadata? Does your protocol countering traffic analysis, or data
+> > minimisation?
+> >
+> > ##### Security Did you have a look at Guidelines for Writing RFC
+> > Text on Security Considerations {{RFC3552}}?
+> >
+> > ##### Content agnosticism If your protocol impact packet handling,
+> > does it look at the packet content? Is it making decisions based on
+> > the content of the packet? Is the protocol transparent about its
+> > decision? Does your protocol prioritize certain content or services
+> > over others?
+> >
+> > ##### Internationalization Does your protocol have text string that
+> > are readable or entered by humans? Does your protocol allow Unicode
+> > encoded in UTF-8 only, thereby shifting conversion issues away from
+> > individual choices? Did you have a look at {{RFC6365}}?
+> >
+> > ##### Censorship resistance Does your protocol make censorship
+> > easier by exposing specific identifiers that could be sensitive for
+> > filtering. When filtering is happening, does your protocol help
+> > make it apparent or transparent?
+> >
+> > ##### Open Standards Is your protocol fully documented in a way
+> > that it could be easily implemented, improved, build upon and/or
+> > further developed. Is there any proprietary code needed for the
+> > implementation, running or further development of your protocol?
+> >
+> > ##### Heterogeneity Support Does your protocol support
+> > heterogeneity by design? Does your protocol allow for multiple
+> > types of hardware? Does your protocol allow for multiple types of
+> > application protocols?
+> >
+> > #### Right to non-discrimination
+> >
+> > ##### Anonymity Did you have a look at the Privacy Considerations
+> > for Internet Protocols {{RFC6973}}, especially section 6.1.1 ?
+> >
+> > ##### Privacy See above
+> >
+> > ##### Pseudonymity Did you have a look at the Privacy
+> > Considerations for Internet Protocols {{RFC6973}}, especially
+> > section 6.1.2 ?
+> >
+> > ##### Content agnosticism See above
+> >
+> > ##### Accessibility Is your protocol optimized for low bandwidth
+> > and high latency connections? Could your protocol also be developed
+> > in a stateless manner ?
+> >
+> > #### Right to equal protection
+> >
+> > ##### Content agnosticism See above
+> >
+> > #### Right to be presumed innocent Is is possible to deploy your
+> > protocol without a single point of control? If applicable, can it
+> > also implemented in a federated way?
+> >
+> > ##### Anonymity See above
+> >
+> > ##### Privacy See above
+> >
+> > ##### Security See above
+> >
+> > #### Right to political participation
+> >
+> > ##### Accessibility when websites, web technologies, or web tools
+> > are badly designed, they can create barriers that exclude people
+> > from using the Web. Is your protocol designed to provide an
+> > enabling environment for people with disabilities? It might be
+> > relevant to look at the W3C Web Accessibility Initiative for
+> > examples and guidance.
+> >
+> > ##### Internationalization See above
+> >
+> > ##### Censorship resistance See above
+> >
+> > #### Right to participate in cultural life, arts and science
+> >
+> > ##### Open Standards See above
+> >
+> > ##### Localization Does your protocol live up to standards of
+> > internationalization (see above)? Have you considered localizing
+> > your protocol for relevant audiences?
+> >
+> > ##### Internationalization See above
+> >
+> > ##### Censorship resistance See above
+> >
+> > #### Right to freedom of assembly and association
+> >
+> > ##### Connectivity See above
+> >
+> > ##### Decentralization Does your protocol contribute to more
+> > centralized points of control? Can your protocol be implemented
+> > without one single point of control. If applicable, can your
+> > protocol be deployed in a federated manner?
+> >
+> > ##### Censorship resistance See above
+> >
+> > ##### Pseudonymity See above
+> >
+> > ##### Anonymity See above
+> >
+> > #### Security See above
+> >
+> >
+> > #### Right to security
+> >
+> > ##### Reliability Is your protocol fault tolerant? Does it degrade
+> > gracefully? Do you have a documented way to announce degradation?
+> > Do you have measures in place for recovery or partial healing from
+> > failure? Is your protocol able to maintain dependability and
+> > performance in the face of unanticipated changes or circumstances?
+> >
+> > ##### Confidentiality (cf {{RFC6973}} ) Which information related
+> > to identifiers or data  is exposed to each other protocol entity
+> > (i.e., recipients, intermediaries, and enablers)?  Are there ways
+> > for protocol implementers to choose to limit the information shared
+> > with each entity?  Are there operational controls available to
+> > limit the information shared with each entity?
+> >
+> > What controls or consent mechanisms does the protocol define or
+> > require before personal data or identifiers are shared or exposed
+> > via the protocol?  If no such mechanisms or controls are specified,
+> > is it expected that control and consent will be handled outside of
+> > the protoco l?
+> >
+> > Does the protocol provide ways for initiators to share different
+> > information with different recipients?  If not, are there
+> > mechanisms that exist outside of the protocol to provide initiators
+> > with such control?
+> >
+> > Does the protocol provide ways for initiators to limit which
+> > information is shared with intermediaries?  If not, are there
+> > mechanisms that exist outside of the protocol to provide users
+> > with such control?  Is it expected that users will have
+> > relationships that govern the  use of the information (contractual
+> > or otherwise) with those who operate these intermediaries?
+> >
+> > Does the protocol provide ways for initiators to express
+> > individuals' preferences to recipients or intermediaries with
+> > regard to the collection, use, or disclosure of their personal
+> > data?
+> >
+> > ##### Integrity Does your protocol maintain and assure the accuracy
+> > of data? Does your protocol maintain and assure the consistency of
+> > data? Does your protocol in any way allow for the data to be
+> > (intentionally or unintentionally) altered?
+> >
+> > ##### Authenticity Do you have enough measures to confirm the truth
+> > of an attribute of a single piece of data or entity? Can the
+> > attributes get garbled along the way (see security)? If relevant
+> > have you implemented IPsec and other Standard Security Best
+> > Practices?
+> >
+> > ##### Anonymity See above
+> >
+> > #### Right to education
+> >
+> > ##### Acceptability Do your protocols adhere to the principle of
+> > non-discrimination (see above)? Do your protocols adhere to the
+> > principle of content agnosticism (see above)?
+> >
+> > ##### Availability Do your protocols use or depend on proprietary
+> > code? Also see 'Open Standards' above. Also see 'Connectivity'
+> > above.
+> >
+> > ##### Accessibility See above
+> >
+> > ##### Adaptability Could your protocol stifle or hinder
+> > permissionless innovation in any way? See 'Connectivity' above
+> >
+> >
+> >
+> >
+> > _______________________________________________ hrpc mailing list
+> > hrpc@irtf.org <mailto:hrpc@irtf.org>
+> > https://www.irtf.org/mailman/listinfo/hrpc
+> >
+> >
+> >
+> >
+> > _______________________________________________ hrpc mailing list
+> > hrpc@irtf.org https://www.irtf.org/mailman/listinfo/hrpc
+> >
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v2
+>
+> iQEcBAEBCAAGBQJWwa1aAAoJEAi1oPJjbWjp8mgH/ioOET2gqgPTdvgvK3mNMGBa
+> /ciYsROw/8Rjt+e17YR3+b1MZpF9S+seyMfCwiPDbnRiF9KNpVo9tH6JuOEOh71r
+> 5QS7Vmc9+s8BEYv/OYASqC910+SOsAngO+5eBgkzIMRX8fdaIdbCYUmvSdo1p49E
+> mGst1d/BHFpz9U2hBYvgDdMLqVNkMeTUdZCt5g7A2MHqinw8tF0QwV48LXW0S+5+
+> J5blhuXpQln7i/wyCYWOWThzm9SwutNud3+hGud0qGfVxTYdh4RdbqlTVaVbpzKa
+> vu6xWDu9BuPG361aWTvp6Jb9lHccW7K7NX2sYcx4zzOzoXKn/C6FAUlmUCDQeNo=3D
+> =3DbqPr
+> -----END PGP SIGNATURE-----
+>
+> _______________________________________________
+> hrpc mailing list
+> hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+>
+
+--001a113ffc6c15b3b3052be7a512
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Inline Replies<br><div><div class=3D"gmail_extra"><br><div=
+ class=3D"gmail_quote">On Mon, Feb 15, 2016 at 2:50 AM, Niels ten Oever <sp=
+an dir=3D"ltr">&lt;<a href=3D"mailto:niels@article19.org" target=3D"_blank"=
+>niels@article19.org</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_qu=
+ote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex=
+"><span class=3D"">-----BEGIN PGP SIGNED MESSAGE-----<br>
+Hash: SHA256<br>
+<br>
+</span>Hi Will,<br>
+<br>
+Thanks for this. Reply inline:<br>
+<span class=3D""><br>
+On 02/10/2016 11:30 PM, Will Scott wrote:<br>
+&gt; I&#39;d argue for a different angle in the &quot;right to be presumed<=
+br>
+&gt; innocent&quot; section within the &quot;right to equal protection&quot=
+; section.<br>
+&gt;<br>
+<br>
+</span>They are both seperate human rights, so they both have their own<br>
+section (4.7.2.3 and 4.7.2.4)<br>
+<span class=3D""><br></span></blockquote><div>I misread, my bad. <br></div>=
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex"><span class=3D"">
+<br>
+&gt; The text there seems to be focused on decentralization, which<br>
+&gt; helps prevent centralized control,<br>
+<br>
+</span>The draft may be unclear here, but decentralization (4.7.2.7.2) is<b=
+r>
+part of the right to freedom of assembly and association (4.7.2.7),<br>
+not of any other right at the moment.<br>
+<span class=3D""><br></span></blockquote><div>This seems like the correct p=
+lace for it, but the sample question &quot;Is it possible to deploy your pr=
+otocol without a single point of control?&quot; feels like a decentralizati=
+on issue. </div><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8e=
+x;border-left:1px #ccc solid;padding-left:1ex"><span class=3D"">
+<br>
+&gt; but is different from presumed innocence. The failure case I&#39;d wan=
+t<br>
+&gt; that section to talk to is the a hypothetical standard for DPI<br>
+&gt; policy, where you wouldn&#39;t want to block all bittorrent traffic fo=
+r<br>
+&gt; copyright infringement. Instead, you&#39;d want to have systems and<br=
+>
+&gt; standards structured so that protocols and carried data isn&#39;t<br>
+&gt; discriminated based on stereotypes, but on the specific content of<br>
+&gt; the transmissions.<br>
+<br>
+</span>So, would you argue decentralization should be part of Right to<br>
+freedom of expression (4.7.2.1) and Right to non-discrimination<br>
+(4.7.2.2) as well?<br>
+<span class=3D""><br></span></blockquote><div>Adding it to 4.7.2.2 seems ap=
+propriate.<br><br>My point above was trying to say that right to presumed i=
+nnocence feels uncentered. the sample questions feel like &#39;decentraliza=
+tion&#39; and the subheadings are anonymity, privacy, and security.=C2=A0 N=
+one of those places feel like they solicit answers to the questions below. =
+I think content agnosticism is the closest area, and should be in there.<br=
+><br></div><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;bor=
+der-left:1px #ccc solid;padding-left:1ex"><span class=3D"">
+&gt;<br>
+&gt; Here&#39;s a proposal for an alternate framing: What is the potential<=
+br>
+&gt; for discrimination against users of your protocol? How can use of<br>
+&gt; your protocol be used to implicate participants?<br>
+&gt;<br>
+<br>
+</span>Would this be fixed by the proposal suggested above, or do you think=
+<br>
+we should add other considerations to the Right to non-discrimination<br>
+(4.7.2.2) ?<br>
+<br>
+Looking forward to discuss!<br>
+<br>
+Best,<br>
+<br>
+Niels<br>
+<span class=3D""><br>
+<br>
+&gt; --Will<br>
+&gt;<br>
+&gt;<br>
+&gt; On Tue, Feb 9, 2016 at 7:58 AM, Niels ten Oever<br>
+</span><div><div class=3D"h5">&gt; &lt;<a href=3D"mailto:niels@article19.or=
+g">niels@article19.org</a> &lt;mailto:<a href=3D"mailto:niels@article19.org=
+">niels@article19.org</a>&gt;&gt; wrote:<br>
+&gt;<br>
+&gt; Dear all,<br>
+&gt;<br>
+&gt; I hope this email finds you well. Corinne and I added a<br>
+&gt; substantial amount of text to the methodology draft, which we just<br>
+&gt; made available for you here:<br>
+&gt;<br>
+&gt; <a href=3D"https://www.ietf.org/id/draft-varon-hrpc-methodology-04.txt=
+" rel=3D"noreferrer" target=3D"_blank">https://www.ietf.org/id/draft-varon-=
+hrpc-methodology-04.txt</a><br>
+&gt;<br>
+&gt; Most additions are a first stab at actual human rights<br>
+&gt; considerations, modeled after RFC6973. I pasted this specific part<br>
+&gt; also underneath for your convenience and consideration. There are<br>
+&gt; also some small additions to the middlebox text as well as other<br>
+&gt; nits than can be found directly in the draft (and in the diff<br>
+&gt; <a href=3D"https://tools.ietf.org/rfcdiff?url2=3Ddraft-varon-hrpc-meth=
+odology-04.tx
+t" rel=3D"noreferrer" target=3D"_blank">https://tools.ietf.org/rfcdiff?url2=
+=3Ddraft-varon-hrpc-methodology-04.tx<br>
+t</a><br>
+&gt;<br>
+&gt;<br>
+).<br>
+&gt;<br>
+&gt; Looking forward to the discussion, as well as questions and<br>
+&gt; comments.<br>
+&gt;<br>
+&gt; Best,<br>
+&gt;<br>
+&gt; Niels<br>
+&gt;<br>
+&gt;<br>
+&gt; ### Human Rights Threats The human rights threats on the Internet<br>
+&gt; come in a myriad of forms. Protocols and standards can harm or<br>
+&gt; enable the right to freedom of expression, right to<br>
+&gt; non-discrimination, right to equal protection, right to be presumed<br=
+>
+&gt; innocence, right to participate in cultural life, arts and science,<br=
+>
+&gt; right to freedom of assembly and association, and the right to<br>
+&gt; security. An end-user who is denied access to certain services,<br>
+&gt; data or websites may be unable to disclose vital information about<br>
+&gt; the malpractices of a government or other authority.=C2=A0 A person<br=
+>
+&gt; whose communications are monitored may be prevented from<br>
+&gt; exercising their right to freedom of association. In a worst-case<br>
+&gt; scenario, protocols that leak information can lead to physical<br>
+&gt; danger. A realistic example to consider is when opposition leaders<br>
+&gt; in totalitarian regimes are subjected to torture on the basis of<br>
+&gt; information gathered by the regime through information leakage in<br>
+&gt; protocols.<br>
+&gt;<br>
+&gt; This sections details several =E2=80=98common=E2=80=99 threats to huma=
+n rights,<br>
+&gt; indicating how each of these can lead to human rights<br>
+&gt; violations/harms and present several examples of how these threats<br>
+&gt; to human rights materialize on the Internet. This threat modeling<br>
+&gt; is inspired by {{RFC6973}} Privacy Considerations for Internet<br>
+&gt; Protocols, which bases itself on security threat analysis. This<br>
+&gt; method is by no means a perfect solution for assessing human rights<br=
+>
+&gt; risks in Internet protocols and systems; it is however the best<br>
+&gt; approach currently available. Certain human rights threats are<br>
+&gt; indirectly considered in Internet protocols as part of the standard<br=
+>
+&gt; privacy and security considerations. Others suggested are tailored<br>
+&gt; specifically to human rights, and represents considerations not<br>
+&gt; currently considered in other RFCs.<br>
+&gt;<br>
+&gt; Many threats, enablers and risks are linked to different rights.<br>
+&gt; This is not unsurprising if one takes into account that human<br>
+&gt; rights are interrelated, interdependent and universal. Here however<br=
+>
+&gt; we&#39;re not discussing all human rights because not all human rights=
+<br>
+&gt; are relevant to ICTs in general and protocols and standards in<br>
+&gt; particular. This is by no means an attempt to cherry picks right,<br>
+&gt; if other rights seem relevant, please contact the authors and/or<br>
+&gt; the hrpc mailinglist.<br>
+&gt;<br>
+&gt; ### Human Rights Guidelines<br>
+&gt;<br>
+&gt; This section provides guidance for document authors in the form of<br>
+&gt; a questionnaire about a protocol being designed. The questionnaire<br>
+&gt; may be useful at any point in the design process, particularly<br>
+&gt; after document authors have developed a high-level protocol model<br>
+&gt; as described in {{RFC4101}}.<br>
+&gt;<br>
+&gt; Note that the guidance provided in this section does not recommend<br>
+&gt; specific practices.=C2=A0 The range of protocols developed in the IETF=
+<br>
+&gt; is too broad to make recommendations about particular uses of data<br>
+&gt; or how human rights might be balanced against other design goals.<br>
+&gt; However, by carefully considering the answers to each question,<br>
+&gt; document authors should be able to produce a comprehensive analysis<br=
+>
+&gt; that can serve as the basis for discussion of whether the protocol<br>
+&gt; adequately protects against human rights threats.=C2=A0 This guidance =
+is<br>
+&gt; meant to help the thought process of a human rights analysis; it<br>
+&gt; does not provide specific directions for how to write a human<br>
+&gt; rights protocol considerations section (following the example set<br>
+&gt; in {{RFC6973}}).<br>
+&gt;<br>
+&gt; #### Right to freedom of expression<br>
+&gt;<br>
+&gt; ##### Connectivity Does your protocol honor the end-to-end<br>
+&gt; principle?<br>
+&gt;<br>
+&gt; ##### Privacy Did you have a look at the Guidelines in the Privacy<br>
+&gt; Considerations for Internet Protocols {{RFC6973}} section 7? Does<br>
+&gt; your protocol in any way impact the confidentiality of protocol<br>
+&gt; metadata? Does your protocol countering traffic analysis, or data<br>
+&gt; minimisation?<br>
+&gt;<br>
+&gt; ##### Security Did you have a look at Guidelines for Writing RFC<br>
+&gt; Text on Security Considerations {{RFC3552}}?<br>
+&gt;<br>
+&gt; ##### Content agnosticism If your protocol impact packet handling,<br>
+&gt; does it look at the packet content? Is it making decisions based on<br=
+>
+&gt; the content of the packet? Is the protocol transparent about its<br>
+&gt; decision? Does your protocol prioritize certain content or services<br=
+>
+&gt; over others?<br>
+&gt;<br>
+&gt; ##### Internationalization Does your protocol have text string that<br=
+>
+&gt; are readable or entered by humans? Does your protocol allow Unicode<br=
+>
+&gt; encoded in UTF-8 only, thereby shifting conversion issues away from<br=
+>
+&gt; individual choices? Did you have a look at {{RFC6365}}?<br>
+&gt;<br>
+&gt; ##### Censorship resistance Does your protocol make censorship<br>
+&gt; easier by exposing specific identifiers that could be sensitive for<br=
+>
+&gt; filtering. When filtering is happening, does your protocol help<br>
+&gt; make it apparent or transparent?<br>
+&gt;<br>
+&gt; ##### Open Standards Is your protocol fully documented in a way<br>
+&gt; that it could be easily implemented, improved, build upon and/or<br>
+&gt; further developed. Is there any proprietary code needed for the<br>
+&gt; implementation, running or further development of your protocol?<br>
+&gt;<br>
+&gt; ##### Heterogeneity Support Does your protocol support<br>
+&gt; heterogeneity by design? Does your protocol allow for multiple<br>
+&gt; types of hardware? Does your protocol allow for multiple types of<br>
+&gt; application protocols?<br>
+&gt;<br>
+&gt; #### Right to non-discrimination<br>
+&gt;<br>
+&gt; ##### Anonymity Did you have a look at the Privacy Considerations<br>
+&gt; for Internet Protocols {{RFC6973}}, especially section 6.1.1 ?<br>
+&gt;<br>
+&gt; ##### Privacy See above<br>
+&gt;<br>
+&gt; ##### Pseudonymity Did you have a look at the Privacy<br>
+&gt; Considerations for Internet Protocols {{RFC6973}}, especially<br>
+&gt; section 6.1.2 ?<br>
+&gt;<br>
+&gt; ##### Content agnosticism See above<br>
+&gt;<br>
+&gt; ##### Accessibility Is your protocol optimized for low bandwidth<br>
+&gt; and high latency connections? Could your protocol also be developed<br=
+>
+&gt; in a stateless manner ?<br>
+&gt;<br>
+&gt; #### Right to equal protection<br>
+&gt;<br>
+&gt; ##### Content agnosticism See above<br>
+&gt;<br>
+&gt; #### Right to be presumed innocent Is is possible to deploy your<br>
+&gt; protocol without a single point of control? If applicable, can it<br>
+&gt; also implemented in a federated way?<br>
+&gt;<br>
+&gt; ##### Anonymity See above<br>
+&gt;<br>
+&gt; ##### Privacy See above<br>
+&gt;<br>
+&gt; ##### Security See above<br>
+&gt;<br>
+&gt; #### Right to political participation<br>
+&gt;<br>
+&gt; ##### Accessibility when websites, web technologies, or web tools<br>
+&gt; are badly designed, they can create barriers that exclude people<br>
+&gt; from using the Web. Is your protocol designed to provide an<br>
+&gt; enabling environment for people with disabilities? It might be<br>
+&gt; relevant to look at the W3C Web Accessibility Initiative for<br>
+&gt; examples and guidance.<br>
+&gt;<br>
+&gt; ##### Internationalization See above<br>
+&gt;<br>
+&gt; ##### Censorship resistance See above<br>
+&gt;<br>
+&gt; #### Right to participate in cultural life, arts and science<br>
+&gt;<br>
+&gt; ##### Open Standards See above<br>
+&gt;<br>
+&gt; ##### Localization Does your protocol live up to standards of<br>
+&gt; internationalization (see above)? Have you considered localizing<br>
+&gt; your protocol for relevant audiences?<br>
+&gt;<br>
+&gt; ##### Internationalization See above<br>
+&gt;<br>
+&gt; ##### Censorship resistance See above<br>
+&gt;<br>
+&gt; #### Right to freedom of assembly and association<br>
+&gt;<br>
+&gt; ##### Connectivity See above<br>
+&gt;<br>
+&gt; ##### Decentralization Does your protocol contribute to more<br>
+&gt; centralized points of control? Can your protocol be implemented<br>
+&gt; without one single point of control. If applicable, can your<br>
+&gt; protocol be deployed in a federated manner?<br>
+&gt;<br>
+&gt; ##### Censorship resistance See above<br>
+&gt;<br>
+&gt; ##### Pseudonymity See above<br>
+&gt;<br>
+&gt; ##### Anonymity See above<br>
+&gt;<br>
+&gt; #### Security See above<br>
+&gt;<br>
+&gt;<br>
+&gt; #### Right to security<br>
+&gt;<br>
+&gt; ##### Reliability Is your protocol fault tolerant? Does it degrade<br>
+&gt; gracefully? Do you have a documented way to announce degradation?<br>
+&gt; Do you have measures in place for recovery or partial healing from<br>
+&gt; failure? Is your protocol able to maintain dependability and<br>
+&gt; performance in the face of unanticipated changes or circumstances?<br>
+&gt;<br>
+&gt; ##### Confidentiality (cf {{RFC6973}} ) Which information related<br>
+&gt; to identifiers or data=C2=A0 is exposed to each other protocol entity<=
+br>
+&gt; (i.e., recipients, intermediaries, and enablers)?=C2=A0 Are there ways=
+<br>
+&gt; for protocol implementers to choose to limit the information shared<br=
+>
+&gt; with each entity?=C2=A0 Are there operational controls available to<br=
+>
+&gt; limit the information shared with each entity?<br>
+&gt;<br>
+&gt; What controls or consent mechanisms does the protocol define or<br>
+&gt; require before personal data or identifiers are shared or exposed<br>
+&gt; via the protocol?=C2=A0 If no such mechanisms or controls are specifie=
+d,<br>
+&gt; is it expected that control and consent will be handled outside of<br>
+&gt; the protoco l?<br>
+&gt;<br>
+&gt; Does the protocol provide ways for initiators to share different<br>
+&gt; information with different recipients?=C2=A0 If not, are there<br>
+&gt; mechanisms that exist outside of the protocol to provide initiators<br=
+>
+&gt; with such control?<br>
+&gt;<br>
+&gt; Does the protocol provide ways for initiators to limit which<br>
+&gt; information is shared with intermediaries?=C2=A0 If not, are there<br>
+&gt; mechanisms that exist outside of the protocol to provide users<br>
+&gt; with such control?=C2=A0 Is it expected that users will have<br>
+&gt; relationships that govern the=C2=A0 use of the information (contractua=
+l<br>
+&gt; or otherwise) with those who operate these intermediaries?<br>
+&gt;<br>
+&gt; Does the protocol provide ways for initiators to express<br>
+&gt; individuals&#39; preferences to recipients or intermediaries with<br>
+&gt; regard to the collection, use, or disclosure of their personal<br>
+&gt; data?<br>
+&gt;<br>
+&gt; ##### Integrity Does your protocol maintain and assure the accuracy<br=
+>
+&gt; of data? Does your protocol maintain and assure the consistency of<br>
+&gt; data? Does your protocol in any way allow for the data to be<br>
+&gt; (intentionally or unintentionally) altered?<br>
+&gt;<br>
+&gt; ##### Authenticity Do you have enough measures to confirm the truth<br=
+>
+&gt; of an attribute of a single piece of data or entity? Can the<br>
+&gt; attributes get garbled along the way (see security)? If relevant<br>
+&gt; have you implemented IPsec and other Standard Security Best<br>
+&gt; Practices?<br>
+&gt;<br>
+&gt; ##### Anonymity See above<br>
+&gt;<br>
+&gt; #### Right to education<br>
+&gt;<br>
+&gt; ##### Acceptability Do your protocols adhere to the principle of<br>
+&gt; non-discrimination (see above)? Do your protocols adhere to the<br>
+&gt; principle of content agnosticism (see above)?<br>
+&gt;<br>
+&gt; ##### Availability Do your protocols use or depend on proprietary<br>
+&gt; code? Also see &#39;Open Standards&#39; above. Also see &#39;Connectiv=
+ity&#39;<br>
+&gt; above.<br>
+&gt;<br>
+&gt; ##### Accessibility See above<br>
+&gt;<br>
+&gt; ##### Adaptability Could your protocol stifle or hinder<br>
+&gt; permissionless innovation in any way? See &#39;Connectivity&#39; above=
+<br>
+&gt;<br>
+&gt;<br>
+&gt;<br>
+&gt;<br>
+</div></div>&gt; _______________________________________________ hrpc maili=
+ng list<br>
+&gt; <a href=3D"mailto:hrpc@irtf.org">hrpc@irtf.org</a> &lt;mailto:<a href=
+=3D"mailto:hrpc@irtf.org">hrpc@irtf.org</a>&gt;<br>
+&gt; <a href=3D"https://www.irtf.org/mailman/listinfo/hrpc" rel=3D"noreferr=
+er" target=3D"_blank">https://www.irtf.org/mailman/listinfo/hrpc</a><br>
+<span class=3D"">&gt;<br>
+&gt;<br>
+&gt;<br>
+&gt;<br>
+&gt; _______________________________________________ hrpc mailing list<br>
+&gt; <a href=3D"mailto:hrpc@irtf.org">hrpc@irtf.org</a> <a href=3D"https://=
+www.irtf.org/mailman/listinfo/hrpc" rel=3D"noreferrer" target=3D"_blank">ht=
+tps://www.irtf.org/mailman/listinfo/hrpc</a><br>
+&gt;<br>
+</span><span class=3D"">-----BEGIN PGP SIGNATURE-----<br>
+Version: GnuPG v2<br>
+<br>
+</span>iQEcBAEBCAAGBQJWwa1aAAoJEAi1oPJjbWjp8mgH/ioOET2gqgPTdvgvK3mNMGBa<br>
+/ciYsROw/8Rjt+e17YR3+b1MZpF9S+seyMfCwiPDbnRiF9KNpVo9tH6JuOEOh71r<br>
+5QS7Vmc9+s8BEYv/OYASqC910+SOsAngO+5eBgkzIMRX8fdaIdbCYUmvSdo1p49E<br>
+mGst1d/BHFpz9U2hBYvgDdMLqVNkMeTUdZCt5g7A2MHqinw8tF0QwV48LXW0S+5+<br>
+J5blhuXpQln7i/wyCYWOWThzm9SwutNud3+hGud0qGfVxTYdh4RdbqlTVaVbpzKa<br>
+vu6xWDu9BuPG361aWTvp6Jb9lHccW7K7NX2sYcx4zzOzoXKn/C6FAUlmUCDQeNo=3D<br>
+=3DbqPr<br>
+<div class=3D"HOEnZb"><div class=3D"h5">-----END PGP SIGNATURE-----<br>
+<br>
+_______________________________________________<br>
+hrpc mailing list<br>
+<a href=3D"mailto:hrpc@irtf.org">hrpc@irtf.org</a><br>
+<a href=3D"https://www.irtf.org/mailman/listinfo/hrpc" rel=3D"noreferrer" t=
+arget=3D"_blank">https://www.irtf.org/mailman/listinfo/hrpc</a><br>
+</div></div></blockquote></div><br></div></div></div>
+
+--001a113ffc6c15b3b3052be7a512--
+
+
+From nobody Tue Feb 16 12:42:26 2016
+Return-Path: <Mikael.Svenn@mixu.fi>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 7D9A11A8895 for <hrpc@ietfa.amsl.com>; Tue, 16 Feb 2016 12:42:23 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.3
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.3 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, J_CHICKENPOX_22=0.6] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id wVeD7oFzUJv0 for <hrpc@ietfa.amsl.com>; Tue, 16 Feb 2016 12:42:21 -0800 (PST)
+Received: from smtp.nebula.fi (smtp.nebula.fi [IPv6:2001:1bc8:100c:f220::66]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 3ABD11A872C for <hrpc@irtf.org>; Tue, 16 Feb 2016 12:42:20 -0800 (PST)
+Received: from he10.nebula.fi (nblhe-exfe-04.nebula.fi [83.145.198.162]) (using TLSv1.2 with cipher DHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by smtp.nebula.fi (Postfix) with ESMTPS id 2D373D01276 for <hrpc@irtf.org>; Tue, 16 Feb 2016 22:42:05 +0200 (EET)
+Received: from [192.168.1.223] (88.112.156.133) by he10.nebula.fi (83.145.198.162) with Microsoft SMTP Server (TLS) id 14.3.248.2; Tue, 16 Feb 2016 22:42:05 +0200
+From: Mikael Svenn <mikael.svenn@mixu.fi>
+X-Enigmail-Draft-Status: N1210
+To: <hrpc@irtf.org>
+Message-ID: <56C38997.30106@mixu.fi>
+Date: Tue, 16 Feb 2016 22:41:59 +0200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:38.0) Gecko/20100101 Thunderbird/38.5.1
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-Originating-IP: [88.112.156.133]
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/p555c4JWCm0lzRrg4Nao_0nKKdw>
+Subject: [hrpc] Idea of an http-protocol extension to prevent censorship
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 16 Feb 2016 20:42:23 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+=20
+Hello,
+
+I am new to the list, but due to preliminary discussion it seems that
+this would be the right place to submit an idea for possible examination.=
+
+
+Last year I wrote a MSc thesis to the University of Helsinki about an
+idea of a censorship-resistant Web that I've plaid with in my mind for
+long. The thesis was approved, but my supervisor never really commented
+on the idea itself.
+I thought that if the idea would've been deemed feasible, it would've
+been thoroughly discussed; and because it wasn't, there probably was no
+potential in it.
+
+However, it has kept bugging me that there haven't really been many
+studies that would satisfy all the properties that a
+censorship-resistant should have to become widely adopted. It may be
+that my idea similarly fails to satisfy the requirements, or that it is
+not feasible at all, but I felt that I should at least pass it forward
+for someone else to decide. So if you have time and interest, I'd be
+glad to hear any opinions about it.
+
+The thesis is named "Static Web content distribution and request routing
+in a P2P overlay" and can be found from: http://hdl.handle.net/10138/1566=
+68
+High-level description of the idea begins from page 80, chapter 4, named
+"HTTP2P Overlay".
+
+As I assume it would be a long read to go through the whole text with
+thought, I'll try to compress a TL;DR version below:
+
+ - The Internet has mostly evolved on client/server-model. This can be
+seen in many protocol designs, including HTTP.
+ -> As a result, Internet censorship is possible in its current extent.
+ - Several solutions exist to circumvent censorship, but they are
+dependent on external applications and infrastructures; and additionally
+appear to be a constant race between individual developers and the
+censoring entities.
+ -> Accessing information in the Internet should not require any special
+CS competence despite of any censorship in place.
+
+ - To deal with the root cause of the issue, a solution is needed that
+is transparent, privacy-preserving (in a sense that it at least isn't
+worse than the current situation) and that would set a very high price
+for successful censorship.
+ - To become widely adopted, the solution should benefit all parites of
+the Internet ecosystem, including ISPs, content providers and the end-use=
+rs.
+
+=3D> So why not develop a P2P HTTP extension (!=3D Coral CDN) that would =
+not
+only allow access to static resources, but would enable two-way
+communication with the Web server, thus enabling fully dynamic content
+to the P2P-based requests as well.
+
+All the required technologies already exist, they just need to be
+combined in a way that can overcome the P2P-related caveats. I think
+such could be achievable with a hybrid P2P construct that has remote
+resemblance with CAN P2P-overlay design. In the thesis I speak of HTTP2P
+as I envisioned it could be made completely transparent to the end-user,
+only requiring the URL to be typed in a form "http2p://www.example.com".
+
+Hopefully the idea at least raises further ideas if nothing else.
+
+
+Best Regards,
+Mikael Svenn
+mikael.svenn@mixu.fi
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+=20
+iQIcBAEBCAAGBQJWw4mWAAoJEJHQ7+pTEOKVIfEQAIv8xFV0FMIYIv5DvkvTaHM6
+pAp57B/rMLDIv3d7wVxH6mi/2uNcMoRoFe4YRrYbQGnMaKepo7cxRGx/ol/hpGnn
+v/Z8E/8vZvIeJexgVk/lIwVc0JiHdcRbCr2b/CpeQ4Te8i4/NLIVw+9T6zeAqNlZ
+xk5NVQJRVDFeo8tx9jqrsIsOejJAD9VBu7TJuur74fY7m4YkPd3BEv0fBvy2WDCQ
++xO5ZwVBkZ1aywFFpaUvtRoqNa9Gn35rGZB0PHr7aeCCAIXew8h5u31SFHA/Xnmz
+bU5pQgey6lsdR2eJagtBKzxSZsCM4oMg8StLX4iEUnL3MvArpUoL6Mn68oT7hieq
+bLyIO42kk3ZvBxCmTLwPK/Qd6VZbAuYhxNT+TVpt6E73O0jXDkgNVDjXR9B03pLc
+DP4z2a8oJbGtQ9NJfH8iQMoscoeI7eoV3nsJZ6I/64PvfVX2o7OT4Ojt70pLnfNP
+UsmkcJ8FTT7Et0YZgh9x2FMgRBdldWdTNGBfHFStCwtGyV+6Y1bhCSCu3WbpV5PE
+lIVE7ECqG+zfXZkorS4AnMpLPi4rKnpAjQqyivFv1pZWju0hOlwDM/9zkIB30KOL
+lup0tb2PfUTycbLSh99WKynZc3rHX3WZH92fWiwP3kmhs2QHPIcmrz+qfrqz/I6x
+CDPk/CUABTM/dH7UPmD9
+=3DTGG8
+-----END PGP SIGNATURE-----
+
+
+
+From nobody Mon Feb 22 04:40:58 2016
+Return-Path: <niels@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 35BCA1A00B7 for <hrpc@ietfa.amsl.com>; Mon, 22 Feb 2016 04:40:58 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 3.124
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.124 tagged_above=-999 required=5 tests=[BAYES_50=0.8, HOST_EQ_NL=1.545, SPF_NEUTRAL=0.779] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id M_l2e_DL5KLc for <hrpc@ietfa.amsl.com>; Mon, 22 Feb 2016 04:40:54 -0800 (PST)
+Received: from mail.article19.io (vps784.greenhost.nl [213.108.108.114]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 1BCD41A1B2E for <hrpc@irtf.org>; Mon, 22 Feb 2016 04:40:53 -0800 (PST)
+Received: from mail.article19.io (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTPS id A6637C0030 for <hrpc@irtf.org>; Mon, 22 Feb 2016 12:40:51 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTP id 95C53C002E for <hrpc@irtf.org>; Mon, 22 Feb 2016 12:40:51 +0000 (UTC)
+Received: from mail.article19.io ([127.0.0.1]) by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026) with ESMTP id jpEAd2SxDGYb for <hrpc@irtf.org>; Mon, 22 Feb 2016 12:40:51 +0000 (UTC)
+Received: from [192.168.1.65] (sd5112335.adsl.online.nl [213.17.35.53]) by mail.article19.io (Postfix) with ESMTPSA id 63960124030 for <hrpc@irtf.org>; Mon, 22 Feb 2016 12:40:51 +0000 (UTC)
+To: hrpc@irtf.org
+References: <56BA0C8D.7030207@article19.org> <CAP45vr-kHvny1P+uU1Ca8U10W=eiiAVZEYY2gdob8y3TgQg+Zg@mail.gmail.com> <56C1AD5A.8070806@article19.org> <CAP45vr_SZX4dZ=UyokPN4KrQj+5GwVg1yPrNgA=McQPoYgO1hQ@mail.gmail.com>
+From: Niels ten Oever <niels@article19.org>
+X-Enigmail-Draft-Status: N1110
+Message-ID: <56CB01D3.501@article19.org>
+Date: Mon, 22 Feb 2016 13:40:51 +0100
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101 Icedove/38.5.0
+MIME-Version: 1.0
+In-Reply-To: <CAP45vr_SZX4dZ=UyokPN4KrQj+5GwVg1yPrNgA=McQPoYgO1hQ@mail.gmail.com>
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/KEynI3iAOIcngcYbGawFI1Kxokw>
+Subject: Re: [hrpc] draft human rights considerations
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 22 Feb 2016 12:40:58 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+
+On 02/16/2016 07:53 PM, Will Scott wrote:
+> Inline Replies
+>=20
+> On Mon, Feb 15, 2016 at 2:50 AM, Niels ten Oever
+> <niels@article19.org <mailto:niels@article19.org>> wrote:
+>=20
+> Hi Will,
+>=20
+> Thanks for this. Reply inline:
+>=20
+> On 02/10/2016 11:30 PM, Will Scott wrote:
+>> I'd argue for a different angle in the "right to be presumed=20
+>> innocent" section within the "right to equal protection"
+>> section.
+>=20
+>=20
+> They are both seperate human rights, so they both have their own=20
+> section (4.7.2.3 and 4.7.2.4)
+>=20
+>> I misread, my bad.
+>=20
+
+np
+
+>=20
+>> The text there seems to be focused on decentralization, which=20
+>> helps prevent centralized control,
+>=20
+> The draft may be unclear here, but decentralization (4.7.2.7.2) is=20
+> part of the right to freedom of assembly and association
+> (4.7.2.7), not of any other right at the moment.
+>=20
+>> This seems like the correct place for it, but the sample question
+>> "Is it possible to deploy your protocol without a single point of
+>> control?" feels like a decentralization issue.
+>=20
+
+Agree. It should have never been mentioned under Right to be Presumed
+Innocent directly but always under a technical subheader, so removed,
+but added the subhead 'decentralization' under the Right to be
+Presumed Innocent.
+
+>=20
+>> but is different from presumed innocence. The failure case I'd
+>> want that section to talk to is the a hypothetical standard for
+>> DPI policy, where you wouldn't want to block all bittorrent
+>> traffic for copyright infringement. Instead, you'd want to have
+>> systems and standards structured so that protocols and carried
+>> data isn't discriminated based on stereotypes, but on the
+>> specific content of the transmissions.
+>=20
+
+I don't disagree, but I'm not sure whether DPI policies fall within
+the purview of the IETF / IRTF. How we could fix this is add 'Content
+Agnosticism' as a subheading under the Right to be Presumed Innocent,
+but I'm not sure how that would be stronger (or more elaborate) than
+privacy.
+
+> So, would you argue decentralization should be part of Right to=20
+> freedom of expression (4.7.2.1) and Right to non-discrimination=20
+> (4.7.2.2) as well?
+>=20
+>> Adding it to 4.7.2.2 seems appropriate.
+>=20
+
+Done
+
+
+>> My point above was trying to say that right to presumed innocence
+>> feels uncentered. the sample questions feel like
+>> 'decentralization' and the subheadings are anonymity, privacy,
+>> and security.  None of those places feel like they solicit
+>> answers to the questions below. I think content agnosticism is
+>> the closest area, and should be in there.
+>=20
+
+Agree, so adding 'Content agnosticism" (as well as 'Decentralization')
+to Right to be presumed innocent.
+I understand your point much better now. Corinne and I will redo the
+considerations list because offlist I also got quite some comments
+that the current structure is not helpful (there are too many 'see
+above's'.
+
+So what we'll do is that we leave the different technical
+considerations (anonymity, privacy, content agnosticism, etc) and in
+brackets put the rights they're related to behind them.
+
+>=20
+>> Here's a proposal for an alternate framing: What is the
+>> potential for discrimination against users of your protocol? How
+>> can use of your protocol be used to implicate participants?
+>=20
+
+Nice! I've added 'What is the potential for discrimination against
+users of your protocol? How can use of your protocol be used to
+implicate users?' to 'decentralization', but somehow I feel these
+questions would also fit under privacy or anonymity. What do you think?
+
+For the moment I'll leave it here.
+
+Cheers,
+
+Niels
+
+>=20
+> Would this be fixed by the proposal suggested above, or do you
+> think we should add other considerations to the Right to
+> non-discrimination (4.7.2.2) ?
+>=20
+> Looking forward to discuss!
+>=20
+> Best,
+>=20
+> Niels
+>=20
+>=20
+>> --Will
+>=20
+>=20
+>> On Tue, Feb 9, 2016 at 7:58 AM, Niels ten Oever=20
+>> <niels@article19.org <mailto:niels@article19.org>
+> <mailto:niels@article19.org <mailto:niels@article19.org>>> wrote:
+>=20
+>> Dear all,
+>=20
+>> I hope this email finds you well. Corinne and I added a=20
+>> substantial amount of text to the methodology draft, which we
+>> just made available for you here:
+>=20
+>> https://www.ietf.org/id/draft-varon-hrpc-methodology-04.txt
+>=20
+>> Most additions are a first stab at actual human rights=20
+>> considerations, modeled after RFC6973. I pasted this specific
+>> part also underneath for your convenience and consideration.
+>> There are also some small additions to the middlebox text as well
+>> as other nits than can be found directly in the draft (and in the
+>> diff=20
+>> https://tools.ietf.org/rfcdiff?url2=3Ddraft-varon-hrpc-methodology-04.=
+t
+x
+>
+>>=20
+t
+> <https://tools.ietf.org/rfcdiff?url2=3Ddraft-varon-hrpc-methodology-04.=
+t
+x
+>
+>=20
+t>
+>=20
+>=20
+> ).
+>=20
+>> Looking forward to the discussion, as well as questions and=20
+>> comments.
+>=20
+>> Best,
+>=20
+>> Niels
+>=20
+>=20
+>> ### Human Rights Threats The human rights threats on the
+>> Internet come in a myriad of forms. Protocols and standards can
+>> harm or enable the right to freedom of expression, right to=20
+>> non-discrimination, right to equal protection, right to be
+>> presumed innocence, right to participate in cultural life, arts
+>> and science, right to freedom of assembly and association, and
+>> the right to security. An end-user who is denied access to
+>> certain services, data or websites may be unable to disclose
+>> vital information about the malpractices of a government or other
+>> authority.  A person whose communications are monitored may be
+>> prevented from exercising their right to freedom of association.
+>> In a worst-case scenario, protocols that leak information can
+>> lead to physical danger. A realistic example to consider is when
+>> opposition leaders in totalitarian regimes are subjected to
+>> torture on the basis of information gathered by the regime
+>> through information leakage in protocols.
+>=20
+>> This sections details several =91common=92 threats to human rights,=20
+>> indicating how each of these can lead to human rights=20
+>> violations/harms and present several examples of how these
+>> threats to human rights materialize on the Internet. This threat
+>> modeling is inspired by {{RFC6973}} Privacy Considerations for
+>> Internet Protocols, which bases itself on security threat
+>> analysis. This method is by no means a perfect solution for
+>> assessing human rights risks in Internet protocols and systems;
+>> it is however the best approach currently available. Certain
+>> human rights threats are indirectly considered in Internet
+>> protocols as part of the standard privacy and security
+>> considerations. Others suggested are tailored specifically to
+>> human rights, and represents considerations not currently
+>> considered in other RFCs.
+>=20
+>> Many threats, enablers and risks are linked to different rights.=20
+>> This is not unsurprising if one takes into account that human=20
+>> rights are interrelated, interdependent and universal. Here
+>> however we're not discussing all human rights because not all
+>> human rights are relevant to ICTs in general and protocols and
+>> standards in particular. This is by no means an attempt to cherry
+>> picks right, if other rights seem relevant, please contact the
+>> authors and/or the hrpc mailinglist.
+>=20
+>> ### Human Rights Guidelines
+>=20
+>> This section provides guidance for document authors in the form
+>> of a questionnaire about a protocol being designed. The
+>> questionnaire may be useful at any point in the design process,
+>> particularly after document authors have developed a high-level
+>> protocol model as described in {{RFC4101}}.
+>=20
+>> Note that the guidance provided in this section does not
+>> recommend specific practices.  The range of protocols developed
+>> in the IETF is too broad to make recommendations about particular
+>> uses of data or how human rights might be balanced against other
+>> design goals. However, by carefully considering the answers to
+>> each question, document authors should be able to produce a
+>> comprehensive analysis that can serve as the basis for discussion
+>> of whether the protocol adequately protects against human rights
+>> threats.  This guidance is meant to help the thought process of a
+>> human rights analysis; it does not provide specific directions
+>> for how to write a human rights protocol considerations section
+>> (following the example set in {{RFC6973}}).
+>=20
+>> #### Right to freedom of expression
+>=20
+>> ##### Connectivity Does your protocol honor the end-to-end=20
+>> principle?
+>=20
+>> ##### Privacy Did you have a look at the Guidelines in the
+>> Privacy Considerations for Internet Protocols {{RFC6973}} section
+>> 7? Does your protocol in any way impact the confidentiality of
+>> protocol metadata? Does your protocol countering traffic
+>> analysis, or data minimisation?
+>=20
+>> ##### Security Did you have a look at Guidelines for Writing RFC=20
+>> Text on Security Considerations {{RFC3552}}?
+>=20
+>> ##### Content agnosticism If your protocol impact packet
+>> handling, does it look at the packet content? Is it making
+>> decisions based on the content of the packet? Is the protocol
+>> transparent about its decision? Does your protocol prioritize
+>> certain content or services over others?
+>=20
+>> ##### Internationalization Does your protocol have text string
+>> that are readable or entered by humans? Does your protocol allow
+>> Unicode encoded in UTF-8 only, thereby shifting conversion issues
+>> away from individual choices? Did you have a look at
+>> {{RFC6365}}?
+>=20
+>> ##### Censorship resistance Does your protocol make censorship=20
+>> easier by exposing specific identifiers that could be sensitive
+>> for filtering. When filtering is happening, does your protocol
+>> help make it apparent or transparent?
+>=20
+>> ##### Open Standards Is your protocol fully documented in a way=20
+>> that it could be easily implemented, improved, build upon and/or=20
+>> further developed. Is there any proprietary code needed for the=20
+>> implementation, running or further development of your protocol?
+>=20
+>> ##### Heterogeneity Support Does your protocol support=20
+>> heterogeneity by design? Does your protocol allow for multiple=20
+>> types of hardware? Does your protocol allow for multiple types
+>> of application protocols?
+>=20
+>> #### Right to non-discrimination
+>=20
+>> ##### Anonymity Did you have a look at the Privacy
+>> Considerations for Internet Protocols {{RFC6973}}, especially
+>> section 6.1.1 ?
+>=20
+>> ##### Privacy See above
+>=20
+>> ##### Pseudonymity Did you have a look at the Privacy=20
+>> Considerations for Internet Protocols {{RFC6973}}, especially=20
+>> section 6.1.2 ?
+>=20
+>> ##### Content agnosticism See above
+>=20
+>> ##### Accessibility Is your protocol optimized for low bandwidth=20
+>> and high latency connections? Could your protocol also be
+>> developed in a stateless manner ?
+>=20
+>> #### Right to equal protection
+>=20
+>> ##### Content agnosticism See above
+>=20
+>> #### Right to be presumed innocent Is is possible to deploy your=20
+>> protocol without a single point of control? If applicable, can
+>> it also implemented in a federated way?
+>=20
+>> ##### Anonymity See above
+>=20
+>> ##### Privacy See above
+>=20
+>> ##### Security See above
+>=20
+>> #### Right to political participation
+>=20
+>> ##### Accessibility when websites, web technologies, or web
+>> tools are badly designed, they can create barriers that exclude
+>> people from using the Web. Is your protocol designed to provide
+>> an enabling environment for people with disabilities? It might
+>> be relevant to look at the W3C Web Accessibility Initiative for=20
+>> examples and guidance.
+>=20
+>> ##### Internationalization See above
+>=20
+>> ##### Censorship resistance See above
+>=20
+>> #### Right to participate in cultural life, arts and science
+>=20
+>> ##### Open Standards See above
+>=20
+>> ##### Localization Does your protocol live up to standards of=20
+>> internationalization (see above)? Have you considered localizing=20
+>> your protocol for relevant audiences?
+>=20
+>> ##### Internationalization See above
+>=20
+>> ##### Censorship resistance See above
+>=20
+>> #### Right to freedom of assembly and association
+>=20
+>> ##### Connectivity See above
+>=20
+>> ##### Decentralization Does your protocol contribute to more=20
+>> centralized points of control? Can your protocol be implemented=20
+>> without one single point of control. If applicable, can your=20
+>> protocol be deployed in a federated manner?
+>=20
+>> ##### Censorship resistance See above
+>=20
+>> ##### Pseudonymity See above
+>=20
+>> ##### Anonymity See above
+>=20
+>> #### Security See above
+>=20
+>=20
+>> #### Right to security
+>=20
+>> ##### Reliability Is your protocol fault tolerant? Does it
+>> degrade gracefully? Do you have a documented way to announce
+>> degradation? Do you have measures in place for recovery or
+>> partial healing from failure? Is your protocol able to maintain
+>> dependability and performance in the face of unanticipated
+>> changes or circumstances?
+>=20
+>> ##### Confidentiality (cf {{RFC6973}} ) Which information
+>> related to identifiers or data  is exposed to each other protocol
+>> entity (i.e., recipients, intermediaries, and enablers)?  Are
+>> there ways for protocol implementers to choose to limit the
+>> information shared with each entity?  Are there operational
+>> controls available to limit the information shared with each
+>> entity?
+>=20
+>> What controls or consent mechanisms does the protocol define or=20
+>> require before personal data or identifiers are shared or
+>> exposed via the protocol?  If no such mechanisms or controls are
+>> specified, is it expected that control and consent will be
+>> handled outside of the protoco l?
+>=20
+>> Does the protocol provide ways for initiators to share different=20
+>> information with different recipients?  If not, are there=20
+>> mechanisms that exist outside of the protocol to provide
+>> initiators with such control?
+>=20
+>> Does the protocol provide ways for initiators to limit which=20
+>> information is shared with intermediaries?  If not, are there=20
+>> mechanisms that exist outside of the protocol to provide users=20
+>> with such control?  Is it expected that users will have=20
+>> relationships that govern the  use of the information
+>> (contractual or otherwise) with those who operate these
+>> intermediaries?
+>=20
+>> Does the protocol provide ways for initiators to express=20
+>> individuals' preferences to recipients or intermediaries with=20
+>> regard to the collection, use, or disclosure of their personal=20
+>> data?
+>=20
+>> ##### Integrity Does your protocol maintain and assure the
+>> accuracy of data? Does your protocol maintain and assure the
+>> consistency of data? Does your protocol in any way allow for the
+>> data to be (intentionally or unintentionally) altered?
+>=20
+>> ##### Authenticity Do you have enough measures to confirm the
+>> truth of an attribute of a single piece of data or entity? Can
+>> the attributes get garbled along the way (see security)? If
+>> relevant have you implemented IPsec and other Standard Security
+>> Best Practices?
+>=20
+>> ##### Anonymity See above
+>=20
+>> #### Right to education
+>=20
+>> ##### Acceptability Do your protocols adhere to the principle of=20
+>> non-discrimination (see above)? Do your protocols adhere to the=20
+>> principle of content agnosticism (see above)?
+>=20
+>> ##### Availability Do your protocols use or depend on
+>> proprietary code? Also see 'Open Standards' above. Also see
+>> 'Connectivity' above.
+>=20
+>> ##### Accessibility See above
+>=20
+>> ##### Adaptability Could your protocol stifle or hinder=20
+>> permissionless innovation in any way? See 'Connectivity' above
+>=20
+>=20
+>=20
+>=20
+>> _______________________________________________ hrpc mailing
+>> list hrpc@irtf.org <mailto:hrpc@irtf.org> <mailto:hrpc@irtf.org
+> <mailto:hrpc@irtf.org>>
+>> https://www.irtf.org/mailman/listinfo/hrpc
+>=20
+>=20
+>=20
+>=20
+>> _______________________________________________ hrpc mailing
+>> list hrpc@irtf.org <mailto:hrpc@irtf.org>
+> https://www.irtf.org/mailman/listinfo/hrpc
+>=20
+>=20
+> _______________________________________________ hrpc mailing list=20
+> hrpc@irtf.org <mailto:hrpc@irtf.org>=20
+> https://www.irtf.org/mailman/listinfo/hrpc
+>=20
+>=20
+>=20
+>=20
+> _______________________________________________ hrpc mailing list=20
+> hrpc@irtf.org https://www.irtf.org/mailman/listinfo/hrpc
+>=20
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQEcBAEBCAAGBQJWywHSAAoJEAi1oPJjbWjpEK0IAKjcgS2TZpLOl/HYroqa80Sh
+4twmnq70YGj6ufQfTFTwSGm5N56+dwERlLN+HdddmFI0yH/Tl40bGoc34Rd988Ux
+uuZ58PaylLb4meFeQ+i8LwGVUWphFJ2a+5M6hWNJusiaEbDsZsf6UdMDupnvFo8H
+oc/OmhPq+26q9OsAe8xW5juafhIs0sT0CL2Pe2oOxRdAjtpYF0hU2hMVDMQQclLN
+apvsr59RRF3ymIn4FjYg0DaaFX/wcsRTBjSKCJ7KIMBRbdc7ufoMziZiP+3wqs/A
+PmPsjZ6vrevcQtv37+4KHRufJFNLCQxU9+ftPF/wz3Nv9xEvBZhkMxNlh8DTiMc=3D
+=3Dn7hr
+-----END PGP SIGNATURE-----
+

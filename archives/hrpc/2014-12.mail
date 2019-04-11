@@ -1,0 +1,210 @@
+From niels@article19.org Thu Dec 04 19:51:09 2014
+Received: from [10.10.12.45] (helo=mx2.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <niels@article19.org>) id 1XwbUb-0005eC-Bs
+	for hrpc@article19.io; Thu, 04 Dec 2014 19:51:09 +0100
+Received: from mailgate.article19.org ([62.49.125.10])
+	by mx2.greenhost.nl with esmtp (Exim 4.72)
+	(envelope-from <niels@article19.org>) id 1XwbUa-000408-Cp
+	for hrpc@article19.io; Thu, 04 Dec 2014 19:51:09 +0100
+Received: from mailgate.article19.org (127.0.0.1) id hg2mho0171s7 for
+	<hrpc@article19.io>;
+	Thu, 4 Dec 2014 18:51:07 +0000 (envelope-from <niels@article19.org>)
+Received: from mail.article19.org ([192.168.1.4])
+	by mailgate.article19.org (A19mailgateway)
+	with ESMTP id 201412041851050004208; Thu, 04 Dec 2014 18:51:05 +0000
+Received: from A19MAIL.aricle19.org ([::1]) by A19MAIL.aricle19.org ([::1])
+	with mapi id 14.02.0387.000; Thu, 4 Dec 2014 18:51:05 +0000
+From: Niels ten Oever <niels@article19.org>
+To: Stephane Bortzmeyer <bortzmeyer@nic.fr>, "hrpc@article19.io"
+	<hrpc@article19.io>
+Thread-Topic: [hrpc] Technical remarks on draft-doria-hrpc-proposal-00
+Thread-Index: AQHP/81MczJwQWs8wkyjoG4q0G8EeQ==
+Date: Thu, 4 Dec 2014 18:51:05 +0000
+Message-ID: <BF4D71141EE5EB4BAF77E4406388D34B38724F9A@A19MAIL.aricle19.org>
+References: <20141114053508.GA25277@laperouse.bortzmeyer.org>
+Accept-Language: en-GB, en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [213.93.173.95]
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Mlf-Version: 7.4.6.1945
+X-Mlf-UniqueId: o201412041851050004208
+X-Spam-Level: /
+X-Spam-Status: No, score=0.8 required=5.0 tests=BAYES_50,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.2
+X-Spam-Score: 0.8
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: eb6b931bae02616ff037e25ce51c77b6
+Subject: Re: [hrpc] Technical remarks on draft-doria-hrpc-proposal-00
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Thu, 04 Dec 2014 18:51:09 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----=0A=
+Hash: SHA1=0A=
+=0A=
+Dear Stephane,=0A=
+=0A=
+Thank you very much for you reaction and excuse me for my late=0A=
+response. Further reply inline:=0A=
+=0A=
+On 11/14/2014 06:39 AM, Stephane Bortzmeyer wrote:=0A=
+> [Most of the remarks here have been done AFK at the Security Area=0A=
+> Open Meeting during IETF 91 in Honululu. I repeat them here=0A=
+> because sometimes oral remarks, like UDP packets, are lost in=0A=
+> transit.]=0A=
+> =0A=
+=0A=
+Thanks a lot, it gave me more time to chew on this, and it's also=0A=
+great for the archive and the people that were not there.=0A=
+=0A=
+> I first suggest that this work inside IETF/IRTF is certainly=0A=
+> welcome and useful but we should also clearly state in the draft=0A=
+> that we recognize that, today, the problem is, most of the time,=0A=
+> not in the protocols (IETF/IRTF activity) but in software,=0A=
+> architecture and business. For instance, to have full access to=0A=
+> email (access being a HR), whatever your native language, fully=0A=
+> internationalised email addresses are certainly necessary. All the=0A=
+> standards exist (RFC 6530 and its friends) but their deployment is=0A=
+> very limited (except in Asia). So, there is certainly work to do,=0A=
+> but it is not IETF/IRTF work, it is implementation and deployment.=0A=
+> =0A=
+=0A=
+True, but since we're doing this at the IETF and to keep the topic=0A=
+manageable, I think we'll limit ourselves to protocols and standards,=0A=
+but the relation to deployment and implementation can be made.=0A=
+=0A=
+> Section 2.1 of the draft could use some corrections. (By the way, =0A=
+> there is no section 2.2: what was the idea?)=0A=
+> =0A=
+=0A=
+In an earlier version there were other headings and order, we'll=0A=
+correct this in the next version.=0A=
+=0A=
+> 2.1.3 is titled "HTML" why it should be "HTTP". But there is more =0A=
+> important.=0A=
+=0A=
+Very true, we'll change this in the next version. Thanks!=0A=
+=0A=
+> The draft observes rightly that "Websites made it extremely easy=0A=
+> for individuals to publish their ideas, opinions and thoughts." But=0A=
+> it does not imply that it comes from specific properties of HTTP.=0A=
+> Said otherwise, if we replaced HTTP with FTP or Gopher, what would=0A=
+> be different, from the point of view of HR?=0A=
+=0A=
+HTTP is the application protocol that forms the foundation web, and is=0A=
+therefore a crucial protocol for showing websites, which have become=0A=
+crucial for freedom of expression.=0A=
+=0A=
+Gopher and FTP are indeed other important protocols, that enable many=0A=
+crucial services. We chose http here because it relates more to the=0A=
+experience of the end-user, and relates very clearly to a service=0A=
+(websites) that is a crucial enabler for freedom of expression and=0A=
+access to information.=0A=
+=0A=
+> IMHO, this is the sort of things to put in the draft, identify=0A=
+> precised characteristics of protocols that "solidify, enable or=0A=
+> threaten human rights". For HTTP, I would say there are none in=0A=
+> most of the RFCs mentioned, but that proposals like the expired=0A=
+> draft draft-tbray-http-legally-restricted-status certainly are=0A=
+> interesting for the HR.=0A=
+> =0A=
+=0A=
+I think the work of Tim Bray and the http://www.451unavailable.org/=0A=
+campaign is extremely valuable. Thank you for reminding me of that=0A=
+here. I think we should bring it up again in the HTTP WG.=0A=
+=0A=
+I would definitely try to include this quite explicit reference to=0A=
+human rights in the research (even though it's not a standard yet),=0A=
+but I think we should also look for 'deeper layers', and implicit=0A=
+mentions of or impacts on human rights enabling protocols=0A=
+=0A=
+In that way I am also trying to see how we can approach:=0A=
+- - emails (and also mailinglists)=0A=
+- - VoIP (SIP)=0A=
+- - chat (XMPP, IRC)=0A=
+=0A=
+> 2.1.5 grossly exaggerates the role of IDN, which are only a very=0A=
+> small component in the internationalisation of the Internet. Even=0A=
+> for "having their own URLs", they are only a part of the story (an=0A=
+> URL is not made of just a domain name). This reminds me of the=0A=
+> governance circus, where a disproportionate amount of effort was=0A=
+> put in the IDN debate. It would be more interesting to identify the=0A=
+> points where protocols are not yet internationalised enough. A good=0A=
+> example is the work of the PRECIS working group=0A=
+> <http://tools.ietf.org/wg/precis/>, for internationalised=0A=
+> identifiers.=0A=
+> =0A=
+=0A=
+I think what we're trying to do is map how protocols and standards=0A=
+that have (or had) an impact an human rights, not look at how more=0A=
+work can be done to strengthen human rights online (that's another=0A=
+part of my job ;) )=0A=
+=0A=
+I will dive deeper into the work of WG PRECIS and use that to expand=0A=
+the example research on the IDNs (as well as=0A=
+https://tools.ietf.org/html/rfc5992 which was suggested in the session).=0A=
+=0A=
+=0A=
+> I would also would like IPv6 to be mentioned: the lack of IPv4 =0A=
+> addresses severely limit access for people (with CGN and stuff=0A=
+> like that, you can be a passive consumer but hosting content, for=0A=
+> instance, is much more complicated) and I do not find too=0A=
+> far-fetched to say that the deployment of IPv6 is partly a HR=0A=
+> issue.=0A=
+> =0A=
+=0A=
+This is an excellent idea. Would you bring the IPv4 - IPv6 transition=0A=
+under the right to access to information, or directly under the right=0A=
+of freedom of expression? This might be an real interesting thing to=0A=
+dive in, are there specific RFCs you suggest I should have a look at?=0A=
+Else I'll dive in it deeply and keep people posted here about my finding.=
+=0A=
+=0A=
+Thanks again for these very helpful comments Stephane, looking forward=0A=
+to continue the discussion.=0A=
+=0A=
+Best,=0A=
+=0A=
+Niels=0A=
+=0A=
+=0A=
+> _______________________________________________ hrpc mailing list =0A=
+> hrpc@article19.io https://lists.ghserv.net/mailman/listinfo/hrpc=0A=
+> =0A=
+=0A=
+=0A=
+Niels ten Oever=0A=
+Head of Digital=0A=
+=0A=
+Article 19=0A=
+www.article19.org=0A=
+=0A=
+PGP fingerprint =3D 8D9F C567 BEE4 A431 56C4 678B 08B5 A0F2 636D 68E9=0A=
+=0A=
+-----BEGIN PGP SIGNATURE-----=0A=
+Version: GnuPG v1.4.12 (GNU/Linux)=0A=
+=0A=
+iQEcBAEBAgAGBQJUgK1wAAoJEAi1oPJjbWjpw0IH/A3MEB9AN1Io0IefJFRI143P=0A=
+uEpY6VcZqS5Y91D1B9/5Gn7S6ZQqKl6bjTNGw3rgK0mMLLzvtLhaGTbqTzTDKSKa=0A=
+unWvoPoU3qLEYJDm9Tg5kqvLc1pEVQc5K9y1n3hYF/HINiPwa9MU/JpTvtdQoOoT=0A=
+0I1FFasB2gQ8YMkenqt4m62Fm0fZ+ouwwSexTPRlb5gXF7MjGxjFx/Kvh7JYgE3n=0A=
+6qfGMmELGQF5a2Wo1rWv+ebEtZHn0zr6o7E3kgd7EmrTCzC1xVXALDEBjFW3c2QN=0A=
+DND33Y7oPk2mMcg8eR48iHeNe1NBFZVqnuCDPzW0vHE6IcFdPM1jwI9Rr5c8Fhg=3D=0A=
+=3DdkmR=0A=
+-----END PGP SIGNATURE-----=0A=
+

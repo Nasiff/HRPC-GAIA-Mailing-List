@@ -1,0 +1,1689 @@
+
+From nobody Mon Apr  4 11:36:45 2016
+Return-Path: <niels@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id D000412D0A8 for <hrpc@ietfa.amsl.com>; Mon,  4 Apr 2016 11:36:44 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.12
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.12 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, SPF_NEUTRAL=0.779, WEIRD_PORT=0.001] autolearn=no autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id ZaZNz9yP-5j4 for <hrpc@ietfa.amsl.com>; Mon,  4 Apr 2016 11:36:43 -0700 (PDT)
+Received: from mail.article19.io (vps784.greenhost.nl [213.108.108.114]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 9D3E312D61E for <hrpc@irtf.org>; Mon,  4 Apr 2016 11:29:22 -0700 (PDT)
+Received: from mail.article19.io (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTPS id DD374C01850 for <hrpc@irtf.org>; Mon,  4 Apr 2016 18:29:20 +0000 (UTC)
+Received: from mail.article19.io (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTPS id CEA9C3FBFF4 for <hrpc@irtf.org>; Mon,  4 Apr 2016 18:29:20 +0000 (UTC)
+Received: from [31.133.178.111] (dhcp-b26f.meeting.ietf.org [31.133.178.111]) by mail.article19.io (Postfix) with ESMTPSA id F11FC310F9D for <hrpc@irtf.org>; Mon,  4 Apr 2016 18:29:19 +0000 (UTC)
+From: Niels ten Oever <niels@article19.org>
+X-Enigmail-Draft-Status: N1110
+To: "hrpc@irtf.org" <hrpc@irtf.org>
+Message-ID: <5702B27C.1060206@article19.org>
+Date: Mon, 4 Apr 2016 20:29:16 +0200
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101 Icedove/38.7.0
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha256; protocol="application/pgp-signature"; boundary="2IOxwP3fPTQhOaiKvoHphR9UfNJ84iAAo"
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/xTNz-1SJARqpbV-3RN8ruO0E1Ts>
+Subject: [hrpc] Reminder HRPC RG meeting today
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 04 Apr 2016 18:36:45 -0000
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--2IOxwP3fPTQhOaiKvoHphR9UfNJ84iAAo
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+at 17:40 Buenos Aires time:
+https://www.timeanddate.com/worldclock/fixedtime.html?msg=3DHuman+Rights+=
+Protocol+Considerations+Reseach+Group+at+IRTF&iso=3D20160404T1740&p1=3D51=
+&ah=3D2
+
+Agenda
+https://tools.ietf.org/agenda/95/agenda-95-hrpc.html
+
+Meetecho
+http://www.meetecho.com/ietf95/hrpc
+
+Jabber
+xmpp:hrpc@jabber.ietf.org?join
+
+Minutes and notes
+http://etherpad.tools.ietf.org:9000/p/notes-ietf-95-hrpc
+
+Audio stream
+http://ietf95streaming.dnsalias.net/ietf/ietf951.m3u
+
+Slides
+https://www.ietf.org/proceedings/95/slides/slides-95-hrpc-0.pdf
+
+Intro website
+https://hrpc.io
+
+Mailinglist
+https://www.irtf.org/mailman/listinfo/hrpc
+
+Github
+https://github.com/nllz/IRTF-HRPC
+
+--=20
+Niels ten Oever
+Head of Digital
+
+Article 19
+www.article19.org
+
+PGP fingerprint    8D9F C567 BEE4 A431 56C4
+                   678B 08B5 A0F2 636D 68E9
+
+
+--2IOxwP3fPTQhOaiKvoHphR9UfNJ84iAAo
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQEcBAEBCAAGBQJXArJ9AAoJEAi1oPJjbWjpPZ4H/Rrr8GhEqFqRieUFg72PJcbr
+NxLU91k9kQeGKZ2IZif8rbKMs10+kePdgc23gkntK/gZdlTCy1oyjOPg4plQk7uE
+fLNMuCSFunDeIot1OoVZC5u+t81Z3w29JmN2tzUbVdOD+5N+6IOCmwDkRRGmq0sO
+iTpLwBifI/57kC8D32/aVAd0LiZoXtjxldkxBBEubJVrOQxC3SHMLnq1sybHHKSs
+lmYDwYc+wGsfu8X/IDIf/567rxNQR53CgKh59XqrUpGKRG+Hi/Z0A1tiie70Z9Qt
+16MBsWL561N6lQ9WqAHmIog76AZm+vCSzLOJ7VjCXjhH0wyHbsS4rK/moy3qjhE=
+=gJa6
+-----END PGP SIGNATURE-----
+
+--2IOxwP3fPTQhOaiKvoHphR9UfNJ84iAAo--
+
+
+From nobody Mon Apr  4 12:52:12 2016
+Return-Path: <avri@acm.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 2AC1412D858 for <hrpc@ietfa.amsl.com>; Mon,  4 Apr 2016 12:52:10 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.235
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.235 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_NONE=-0.0001, SPF_SOFTFAIL=0.665] autolearn=no autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id JKFhyGOm3_f5 for <hrpc@ietfa.amsl.com>; Mon,  4 Apr 2016 12:52:08 -0700 (PDT)
+Received: from smtprelay.hostedemail.com (smtprelay0240.hostedemail.com [216.40.44.240]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 61FC612D852 for <hrpc@irtf.org>; Mon,  4 Apr 2016 12:52:08 -0700 (PDT)
+Received: from filter.hostedemail.com (unknown [216.40.38.60]) by smtprelay08.hostedemail.com (Postfix) with ESMTP id 3F52929DD79 for <hrpc@irtf.org>; Mon,  4 Apr 2016 19:52:07 +0000 (UTC)
+X-Session-Marker: 6176726940646F7269612E6F7267
+X-Spam-Summary: 50, 0, 0, , d41d8cd98f00b204, avri@acm.org, :, RULES_HIT:41:355:379:599:854:967:973:988:989:1042:1187:1260:1261:1277:1311:1313:1314:1345:1359:1381:1437:1515:1516:1518:1534:1541:1593:1594:1683:1711:1730:1747:1777:1792:2198:2199:2393:2525:2560:2563:2682:2685:2859:2890:2891:2897:2902:2933:2937:2939:2942:2945:2947:2951:2954:3022:3138:3139:3140:3141:3142:3354:3865:3866:3867:3868:3870:3871:3872:3874:3934:3936:3938:3941:3944:3947:3950:3953:3956:3959:4042:4184:4250:5007:6117:6119:7652:7875:7903:8985:9025:10004:10226:10234:10400:10848:11232:11658:11914:12043:12109:12114:12517:12519:12663:13069:13071:13161:13229:13311:13357:14096:14097:14180:14181:14721:21060:21080:21212:21366:30001:30022:30054, 0, RBL:none, CacheIP:none, Bayesian:0.5, 0.5, 0.5, Netcheck:none, DomainCache:0, MSF:not bulk, SPF:fp, MSBL:0, DNSBL:none, Custom_rules:0:0:0, LFtime:2, LUA_SUMMARY:none
+X-HE-Tag: dolls89_4c94b98e78d59
+X-Filterd-Recvd-Size: 2720
+Received: from [127.0.0.1] (dhcp-9be8.meeting.ietf.org [31.133.155.232]) (Authenticated sender: avri@doria.org) by omf01.hostedemail.com (Postfix) with ESMTPA for <hrpc@irtf.org>; Mon,  4 Apr 2016 19:52:06 +0000 (UTC)
+References: <20160317131136.17432.10088.idtracker@ietfa.amsl.com> <56EAAE6D.2000404@article19.org>
+To: hrpc@irtf.org
+From: avri doria <avri@acm.org>
+Message-ID: <5702C5E1.5040602@acm.org>
+Date: Mon, 4 Apr 2016 16:52:01 -0300
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Thunderbird/38.6.0
+MIME-Version: 1.0
+In-Reply-To: <56EAAE6D.2000404@article19.org>
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: 7bit
+X-Antivirus: avast! (VPS 160404-0, 04/04/2016), Outbound message
+X-Antivirus-Status: Clean
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/_YJ_Zt4kh3xmV06c_kGkso8Dpyg>
+Subject: Re: [hrpc] New Version Notification for draft-tenoever-hrpc-research-00.txt
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+Reply-To: avri@acm.org
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 04 Apr 2016 19:52:10 -0000
+
+Hi,
+
+I did a read through but have not had a chance to write up the comments
+in a legible manner.
+
+These are some general comments
+
+- the discussion centers around general behaviors and there is very
+little discussion of protocol element.
+
+- Many of the effects seem more related to IP issues (e.g. visible SRC &
+DST) than to elements of the specific protocol itself.  In a sense they
+seem to be larger architectural issues (also a part of the RG's work) as
+opposed to protocol issues.  But they are not broken out that way. 
+Might be worth differentiating between the architectural issues and the
+protocol issues.
+
+- Much on the comment of the protocols is more about how people can
+misuse the protocols and not abut protocol elements that enable bad or
+good behavior. 
+
+- also, so much of the discussion seems to circle around implementation
+and not the protocols themselves.
+
+- I think the discussion needs to take some of the work that is going
+into protecting these protocols into account (e.g. HTTP -> HTTPS). The
+draft did this for P2P but not for many of other discussions.
+
+- much of the discussion focuses on privacy elements, which are already
+covered and not on other aspects of FoE and FoA.  Ie. something is a
+problem because the lack of privacy affects the FoE or FoA.  This is 
+good point, but is it specific to the protocols? 
+
+- I think the consideration questions at the end are good questions, but
+I am not sure I see how they all come from the issues discussion in many
+cases.  Might be good to link questions to specifics discussed earlier
+in the draft.
+
+Sorry to be so last minute and somewhat less than fully coherent about
+these.
+
+avri
+
+---
+This email has been checked for viruses by Avast antivirus software.
+https://www.avast.com/antivirus
+
+
+From nobody Fri Apr  8 06:40:31 2016
+Return-Path: <niels@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 33ABA12D14B for <hrpc@ietfa.amsl.com>; Fri,  8 Apr 2016 06:40:29 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.121
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.121 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, SPF_NEUTRAL=0.779] autolearn=no autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id OQIljpw4MGtH for <hrpc@ietfa.amsl.com>; Fri,  8 Apr 2016 06:40:26 -0700 (PDT)
+Received: from mail.article19.io (vps784.greenhost.nl [213.108.108.114]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id AA2EC12D0FF for <hrpc@irtf.org>; Fri,  8 Apr 2016 06:40:26 -0700 (PDT)
+Received: from mail.article19.io (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTPS id 098322DB6E9 for <hrpc@irtf.org>; Fri,  8 Apr 2016 13:40:25 +0000 (UTC)
+Received: from mail.article19.io (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTPS id EE6FD37363D for <hrpc@irtf.org>; Fri,  8 Apr 2016 13:40:24 +0000 (UTC)
+Received: from [31.133.177.224] (dhcp-b1e0.meeting.ietf.org [31.133.177.224]) by mail.article19.io (Postfix) with ESMTPSA id 5C7FE373627 for <hrpc@irtf.org>; Fri,  8 Apr 2016 13:40:24 +0000 (UTC)
+References: <EB3908AD-8278-4672-999D-8D7336991623@csperkins.org>
+To: "hrpc@irtf.org" <hrpc@irtf.org>
+From: Niels ten Oever <niels@article19.org>
+X-Forwarded-Message-Id: <EB3908AD-8278-4672-999D-8D7336991623@csperkins.org>
+Message-ID: <5707B4C3.60205@article19.org>
+Date: Fri, 8 Apr 2016 15:40:19 +0200
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101 Icedove/38.7.0
+MIME-Version: 1.0
+In-Reply-To: <EB3908AD-8278-4672-999D-8D7336991623@csperkins.org>
+Content-Type: multipart/signed; micalg=pgp-sha256; protocol="application/pgp-signature"; boundary="jIa6b72bqDpkSr6Olc9kBFKNciPq6QW5v"
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/o4G6VPA0xHMS91ChKHWk8RDk5KM>
+Subject: [hrpc] CFP: ACM, IRTF & ISOC Applied Networking Research Workshop 2016
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 08 Apr 2016 13:40:30 -0000
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--jIa6b72bqDpkSr6Olc9kBFKNciPq6QW5v
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+  ACM, IRTF & ISOC Applied Networking Research Workshop 2016
+
+                      Berlin, Germany
+                  Saturday, July 16, 2016
+                https://irtf.org/anrw/2016/
+
+
+*** CALL FOR PAPERS ***
+
+The inaugural ACM, IRTF & ISOC Applied Networking Research Workshop
+2016 (ANRW=E2=80=9916) is an academic workshop that provides a forum for
+researchers, vendors, network operators, and the Internet standards
+community to present and discuss emerging results in applied
+networking research. It is sponsored by ACM SIGCOMM, the Internet
+Research Task Force (IRTF) and the Internet Society (ISOC).
+
+Researchers should consider submitting early/emerging results that
+illustrate the scientific and engineering principles underlying the
+Internet architecture, protocols and applications; that demonstrate
+new capabilities, features, or extensions to the Internet protocol
+layers; that enhance our understanding of how Internet protocols work
+in real-world deployments or realistic test-beds; or that improve
+Internet security and privacy, scalability, performance, and
+robustness.
+
+The ANRW=E2=80=9916 particularly encourages the submission of results tha=
+t
+could form the basis for future engineering work in the IETF, that
+could change operational Internet practices, that can help better
+specify Internet protocols, or that could influence further research
+and experimentation in the IRTF.
+
+
+*** TOPICS OF INTEREST ***
+
+Topics of interest include, but are not limited to, applied work in the
+following areas:
+
+* Evolution of the Internet architecture and deployment of new
+  Internetworking paradigms
+* Naming, addressing, and routing for the future Internet
+* Development and deployment of new and improved transport protocols
+* Congestion control for heterogeneous networks and novel
+  applications
+* Improvements to the security and privacy of Internet protocols
+* Studies that characterize Internet security, privacy or censorship
+* Measuring and understanding the behaviour and transparency of the
+  Internet
+* Internetworking and semantic interoperability for
+  resource-constrained devices
+* New approaches to network management, operations, and control
+* Better ways of specifying protocols, including usable techniques
+  for protocol verification
+* Enabling global access to the Internet
+* Improving the energy efficiency of the Internet
+* Protocols and APIs for new Internet applications
+* New approaches to decentralized mobility management
+* Application of network programmability to the Internet
+
+
+*** SUBMISSION TYPES ***
+
+The ANRW accepts two types of submissions: full papers and short
+papers.
+
+* Full papers
+
+Full paper submissions should be complete academic papers on the
+topics above and may contain up to six pages of technical content,
+including figures, tables, any appendices, etc., optionally followed
+by a single additional page for references and acknowledgements only.
+
+Accepted full papers will be presented and discussed in depth at the
+workshop, and will be published in the ACM Digital Library.
+
+* Short papers
+
+Short paper submissions are suitable for short position papers, for
+starting a discussion on new technical ideas, to present very early
+results, or to present other topics of interest to the community
+(software and tools, research initiatives or collaborative projects,
+major new funding vessels, etc.). They may contain up to two pages
+of content including figures, tables, any appendices, etc.,
+optionally followed by a single additional page for references and
+acknowledgements only.
+
+Accepted short papers will be briefly presented during the workshop,
+and will be published in the ACM Digital Library.
+
+Authors of accepted short papers may also bring a poster presenting
+its content to the workshop, for display and more in-depth
+discussion with interested participants during the breaks.
+
+
+*** IMPORTANT DATES ***
+
+Submission deadline:     May 16, 2016
+Notification deadline:   June 17, 2016
+Camera-ready deadline:   June 24, 2016
+
+
+*** ORGANISING COMMITTEE ***
+
+Programme chairs:
+
+* Lars Eggert (NetApp)
+* Colin Perkins (University of Glasgow)
+
+Technical Programme Committee:
+
+* Aaron Falk (Akamai)
+* Gorry Fairhurst (University of Aberdeen)
+* Stephen Farrell (Trinity College Dublin)
+* Jana Iyengar (Google)
+* Dirk Kutscher (NEC Laboratories Europe)
+* Mirja K=C3=BChlewind (ETH Z=C3=BCrich)
+* Al Morton (AT&T)
+* J=C3=B6rg Ott (Technische Universit=C3=A4t M=C3=BCnchen)
+* Arjuna Sathiaseelan (University of Cambridge)
+* Brian Trammell  (ETH Z=C3=BCrich)
+* Lixia Zhang (UCLA)
+
+                                -+-
+
+
+
+
+
+--jIa6b72bqDpkSr6Olc9kBFKNciPq6QW5v
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQEcBAEBCAAGBQJXB7TDAAoJEAi1oPJjbWjpZjMH/A+imE4Y2tp6c9MjG/lhu+t4
+Yz7fSHD/UTKzc5j6zrmPbO73tB4RbY2QvgV26F//csIEbkPIfomn7CHibrNULgVS
+PSSz4ws/MdzF3n0VxSlUqIdQK1WwpWie5SP80XLx4ampuItTu0XS3eU8XbZFxrNR
+ZzxykvpykmLjrq6sHByH2Tz/b4xknGmJLPPVCRjNKao/53+82YhCr+zji6b0vC7i
+RMAKasmKabZP+OPQ+9oZh9KjNnkkDgW2qw9YJPjlheWRfvvfgomxiWdp0ZB76Xm/
+93hnv/0ohwG0ELDMa6ae3g3QHR7zifFmnfH/m6tbZl+KK4CzXmyCbwuOWiBSEv8=
+=1vmh
+-----END PGP SIGNATURE-----
+
+--jIa6b72bqDpkSr6Olc9kBFKNciPq6QW5v--
+
+
+From nobody Mon Apr 11 07:18:30 2016
+Return-Path: <roland.bless@kit.edu>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id A9F2812EF35 for <hrpc@ietfa.amsl.com>; Mon, 11 Apr 2016 07:18:24 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -4.2
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.2 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_MED=-2.3] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 6BgaEN-EThCh for <hrpc@ietfa.amsl.com>; Mon, 11 Apr 2016 07:18:20 -0700 (PDT)
+Received: from iramx2.ira.uni-karlsruhe.de (iramx2.ira.uni-karlsruhe.de [141.3.10.81]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 94F9E12EF24 for <hrpc@irtf.org>; Mon, 11 Apr 2016 07:18:19 -0700 (PDT)
+Received: from i72vorta.tm.uni-karlsruhe.de ([141.3.71.26] helo=i72vorta.tm.kit.edu) by iramx2.ira.uni-karlsruhe.de with esmtp port 25  iface 141.3.10.81 id 1apcfQ-0008Qt-KV for <hrpc@irtf.org>; Mon, 11 Apr 2016 16:18:16 +0200
+Received: from [IPv6:::1] (ip6-localhost [IPv6:::1]) by i72vorta.tm.kit.edu (Postfix) with ESMTPS id 82234B0004E for <hrpc@irtf.org>; Mon, 11 Apr 2016 16:18:16 +0200 (CEST)
+To: hrpc@irtf.org
+From: "Bless, Roland (TM)" <roland.bless@kit.edu>
+X-Enigmail-Draft-Status: N1110
+Organization: Institute of Telematics, Karlsruhe Institute of Technology
+Message-ID: <570BB228.9090806@kit.edu>
+Date: Mon, 11 Apr 2016 16:18:16 +0200
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101 Thunderbird/38.6.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+X-ATIS-AV: ClamAV (iramx2.ira.uni-karlsruhe.de)
+X-ATIS-Timestamp: iramx2.ira.uni-karlsruhe.de 1460384296.
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/8RONNQtyQdyWYbsoDXQUCRf-QOQ>
+Subject: [hrpc] CFP: Workshop on Value-sensitive Design of Internet-based Services: Towards an Integration of Technology and Values
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 11 Apr 2016 14:18:26 -0000
+
+Hi,
+
+this might be of interest for the community here.
+
+Call for Papers
+---------------
+Workshop on Value-sensitive Design of Internet-based Services: Towards
+an Integration of Technology and Values
+
+29. September 2016, Klagenfurt, Austria
+
+Internet-based services are increasingly important for our society. We
+consume them on a daily basis for many different purposes, comprising
+chat applications, social networks, shopping and the like. With the
+Internet of Things and advanced applications such as smart cities and
+smart home we are expecting huge potentials for a more sustainable
+society at large, covering the economical, ecological and the social
+dimension.
+However, the provisioning of Internet-based services currently comes
+with conflicting interests between the different stakeholder groups of
+providers, consumers and governance actors.  A prominent example of such
+a conflict is using consumer data as the “currency” for the consumption
+of Internet-based services, e.g. delivered via mobile Apps. Resulting
+conflicts between consumers and providers occur on a continuous basis,
+as personal data is delivered to the provider and, thus, compromises the
+privacy of the consumer. However, mostly the consumer is left without
+any choice and, in this sense self-determination of the individual
+consumer is limited. Governance actors have a different view which is
+heavily motivated through societal values, such as human rights and
+constitutional law or regulations and policy instruments. They can also
+help finding a balance in the case of interest conflicts between
+providers and consumers.
+The workshop follows an interdisciplinary approach and specifically
+focuses on research dealing with the different interests among
+stakeholders in the context of designing and delivering Internet-based
+services
+
+Topics of interest:
+- Transparency of Internet-based services
+- Internet of People
+- Business / economic value orientation in Internet-based services
+- Privacy in a future Internet-based world
+- Quality of experience
+- Business Models of Internet-based services
+- Customer-Co-Design
+- Identity management and access control
+- Responsible innovation
+- Value-sensitive design
+- User interaction with Internet-based services
+- Values in network architectures and protocols
+- Net neutrality
+- Liability (legal) issues
+
+Important Dates:
+Submission deadline (German or English): 	6. May 2016
+Notification of acceptance:			30. May 2016
+Submission of final paper:			28. June 2016
+
+
+Workshop Organizers:
+Hannes Hartenstein, Karlsruhe Institute of Technology (KIT)
+Alexander Maedche, Karlsruhe Institute of Technology (KIT)
+Martina Zitterbart, Karlsruhe Institute of Technology (KIT)
+
+Program Committee:
+Michael Beigl, KIT
+Roland Bless, KIT
+Jan vom Brocke, Universität Lichtenstein
+Peter Buxmann, TU Darmstadt
+Jan Marco Leimeister, Universität Kassel und Universität St. Gallen
+Martin Gaedke, TU Chemnitz
+Kurt Geihs, Universität Kassel
+Tobias Hossfeld, Universität Duisburg-Essen
+Frank Pallas, TU Berlin
+Oliver Raabe, KIT
+Peter Reichl, Universität Wien
+Burkhard Stiller, Universität Zürich
+Thorsten Strufe, TU Dresden
+
+
+Author Guidelines:
+The proceedings will be published at Lecture Notes in Informatics (LNI).
+The general guidelines can be found at:
+https://www.gi.de/index.php?id=171 . We accept the following types of
+submissions:
+
+Technical paper: max. 12 pages
+Short paper: max. 4 pages
+
+Please note that we will only accept submissions with at least one
+author being registered for INFORMATIK 2016 by June, 28 2016! This is a
+general policy for INFORMATIK 2016.
+
+Please submit your paper as pdf-file to zitterbart@kit.edu
+You can find information about the workshop at
+http://www.informatik2016.de/1186.html and at
+http://telematics.tm.kit.edu/ValueSensitiveDesign.php
+
+
+From nobody Mon Apr 11 19:32:48 2016
+Return-Path: <niels@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 9939812DE2B for <hrpc@ietfa.amsl.com>; Mon, 11 Apr 2016 19:32:47 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.121
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.121 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, SPF_NEUTRAL=0.779] autolearn=no autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id zGgZ2U_z919T for <hrpc@ietfa.amsl.com>; Mon, 11 Apr 2016 19:32:45 -0700 (PDT)
+Received: from mail.article19.io (vps784.greenhost.nl [213.108.108.114]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 7CAD112DE0B for <hrpc@irtf.org>; Mon, 11 Apr 2016 19:32:45 -0700 (PDT)
+Received: from mail.article19.io (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTPS id B3FCC373621 for <hrpc@irtf.org>; Tue, 12 Apr 2016 02:32:43 +0000 (UTC)
+Received: from mail.article19.io (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTPS id A31AA373620 for <hrpc@irtf.org>; Tue, 12 Apr 2016 02:32:43 +0000 (UTC)
+Received: from [192.168.1.71] (sd5112335.adsl.online.nl [213.17.35.53]) by mail.article19.io (Postfix) with ESMTPSA id 96661C002D for <hrpc@irtf.org>; Tue, 12 Apr 2016 02:32:43 +0000 (UTC)
+To: hrpc@irtf.org
+References: <20160317131136.17432.10088.idtracker@ietfa.amsl.com> <56EAAE6D.2000404@article19.org> <5702C5E1.5040602@acm.org>
+From: Niels ten Oever <niels@article19.org>
+Message-ID: <570C5E4B.7060009@article19.org>
+Date: Tue, 12 Apr 2016 04:32:43 +0200
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101 Icedove/38.7.0
+MIME-Version: 1.0
+In-Reply-To: <5702C5E1.5040602@acm.org>
+Content-Type: multipart/signed; micalg=pgp-sha256; protocol="application/pgp-signature"; boundary="KRJrtkKSh9poH9vtN3CCfVr5j4egtqTBW"
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/-KrrQVPnwEPCAuSvrwo7SjZWd_E>
+Subject: Re: [hrpc] New Version Notification for draft-tenoever-hrpc-research-00.txt
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 12 Apr 2016 02:32:47 -0000
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--KRJrtkKSh9poH9vtN3CCfVr5j4egtqTBW
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Thanks a lot for this Avri, very good points. Corinne and I will do a
+complete review on the draft based on these comments and address them
+point by point.
+
+This might also be a good point for others who have structural or less
+structural problems with the draft [0] to let us know so we can address
+a lot of comments at once.
+
+We aim to have a revised version in three to four weeks.
+
+Cheers,
+
+Niels
+
+[0] https://tools.ietf.org/html/draft-tenoever-hrpc-research-00
+
+Niels ten Oever
+Head of Digital
+
+Article 19
+www.article19.org
+
+PGP fingerprint    8D9F C567 BEE4 A431 56C4
+                   678B 08B5 A0F2 636D 68E9
+
+On 04/04/2016 09:52 PM, avri doria wrote:
+> Hi,
+>=20
+> I did a read through but have not had a chance to write up the comments=
+
+> in a legible manner.
+>=20
+> These are some general comments
+>=20
+> - the discussion centers around general behaviors and there is very
+> little discussion of protocol element.
+>=20
+> - Many of the effects seem more related to IP issues (e.g. visible SRC =
+&
+> DST) than to elements of the specific protocol itself.  In a sense they=
+
+> seem to be larger architectural issues (also a part of the RG's work) a=
+s
+> opposed to protocol issues.  But they are not broken out that way.=20
+> Might be worth differentiating between the architectural issues and the=
+
+> protocol issues.
+>=20
+> - Much on the comment of the protocols is more about how people can
+> misuse the protocols and not abut protocol elements that enable bad or
+> good behavior.=20
+>=20
+> - also, so much of the discussion seems to circle around implementation=
+
+> and not the protocols themselves.
+>=20
+> - I think the discussion needs to take some of the work that is going
+> into protecting these protocols into account (e.g. HTTP -> HTTPS). The
+> draft did this for P2P but not for many of other discussions.
+>=20
+> - much of the discussion focuses on privacy elements, which are already=
+
+> covered and not on other aspects of FoE and FoA.  Ie. something is a
+> problem because the lack of privacy affects the FoE or FoA.  This is=20
+> good point, but is it specific to the protocols?=20
+>=20
+> - I think the consideration questions at the end are good questions, bu=
+t
+> I am not sure I see how they all come from the issues discussion in man=
+y
+> cases.  Might be good to link questions to specifics discussed earlier
+> in the draft.
+>=20
+> Sorry to be so last minute and somewhat less than fully coherent about
+> these.
+>=20
+> avri
+>=20
+> ---
+> This email has been checked for viruses by Avast antivirus software.
+> https://www.avast.com/antivirus
+>=20
+> _______________________________________________
+> hrpc mailing list
+> hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+>=20
+
+
+--KRJrtkKSh9poH9vtN3CCfVr5j4egtqTBW
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQEcBAEBCAAGBQJXDF5LAAoJEAi1oPJjbWjpx60H/1XMeFPolhqlK8/4Edgwyz0h
+8gzWeOqTRKO4iYhkxubmAOye7YNSshX6tEBD1GgFRnhMYAiwSJtI10+TBXNHqJTa
+SACKMXSald7vPdLZqfir5bgMpnbxsrLL8JDBSgsGdM3YVdc5eWMBMv8BkQwQPNZU
+LKcH/Z8LpawcgnlklgtfkauK6Em6mEbKOcauFxBVcSpvLkA4HPoYR1sl4w4pdx8D
+CbvvucZUKEuZeDXqzFcUlwhXmLxMOJ0pMuMLLktA6j2lC5aMb4oh1TqbCvyNJN3i
+4CuNWy3VQl4OyC7Zgovy2yJORqpBWtPKopMkIL0KjbNqTXstAXQAuJ16U+rimR0=
+=T6Ow
+-----END PGP SIGNATURE-----
+
+--KRJrtkKSh9poH9vtN3CCfVr5j4egtqTBW--
+
+
+From nobody Mon Apr 18 06:20:15 2016
+Return-Path: <cattekwaad@gmail.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 8551D12D5B6 for <hrpc@ietfa.amsl.com>; Mon, 18 Apr 2016 06:20:13 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.698
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.698 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-0.7, SPF_PASS=-0.001, WEIRD_PORT=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id jjinIoRxtI8P for <hrpc@ietfa.amsl.com>; Mon, 18 Apr 2016 06:20:12 -0700 (PDT)
+Received: from mail-wm0-x232.google.com (mail-wm0-x232.google.com [IPv6:2a00:1450:400c:c09::232]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id ADFC312D567 for <hrpc@irtf.org>; Mon, 18 Apr 2016 06:20:11 -0700 (PDT)
+Received: by mail-wm0-x232.google.com with SMTP id u206so123787925wme.1 for <hrpc@irtf.org>; Mon, 18 Apr 2016 06:20:11 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc; bh=0QRBihVuZS01x7FoDZpPd4oDEs7OyD0yQuzzM0agm/c=; b=J8xz9N71hS6rxvmKTWonRrZewlDglste89xeTz2D8CgtTb2fwJzNY3is20OEMA4p4n oPKf1OzcSDnKhZv13yyWUVfriYQiAEtf1KqL4gHjR/Ka/GQtnCNVLXJhSm+PYHY+JW7g eGhaVksE6gEnQVLeOcHkQOQZjLgMFscMB1PgL4oD3D3LBwZE16saUDZvw+ujegL0pkrU OaBRJ8RKSV/WW2NmIP1KWddeRcc+oToVS1dE3PF+Re+VNwmOFWurVuZ1aZQrQQg59KrJ HXOjQolSbYOWDtHViSesWF1guMWd60NP1tnNJroZpdB2Dnw0jGfpGiBm5BczEoSaJD+Z XJcA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20130820; h=x-gm-message-state:mime-version:in-reply-to:references:date :message-id:subject:from:to:cc; bh=0QRBihVuZS01x7FoDZpPd4oDEs7OyD0yQuzzM0agm/c=; b=BAajg9RTItiwJTy4oL5qSwqxrtp2NCMfRrplZl3dBWhRfOtcX//N/QAj6RkzWBiZni JhgBrUChiXlWPFwneHOFlq1bTrrgJXp/u5k/WCLJeymMs1dVh1uisqnyXn3pJVo8sn87 0QSQtgz1xOPjyBNa+f9Z32Cbe2DbvcGTas9yx6YA6D4imY8bm3FiGpCPc73KUSBVsaQZ ArjcPIDii7Q4FjaM+90KyR9eYg4i1UwKv0ckN/tsEohdOc+s0H58a+G6lq3163vzv/4R pI9uSUn+PpqYJuDBFVdTIvahk+5ZpCJOtV2RHVlwLRtQmGf5VI2bnyWIze2btWmK1bIY dEzQ==
+X-Gm-Message-State: AOPr4FVHMuarA6xcaphzlHM9gnBMcyKwOqmWGgZAnJvtJ11J27aofsiO3Zgf7SUUmm9Ex5VhFbG3GoQOS69cYQ==
+MIME-Version: 1.0
+X-Received: by 10.194.61.19 with SMTP id l19mr3723346wjr.4.1460985610141; Mon, 18 Apr 2016 06:20:10 -0700 (PDT)
+Received: by 10.194.190.71 with HTTP; Mon, 18 Apr 2016 06:20:10 -0700 (PDT)
+In-Reply-To: <5702B27C.1060206@article19.org>
+References: <5702B27C.1060206@article19.org>
+Date: Mon, 18 Apr 2016 14:20:10 +0100
+Message-ID: <CAD499eLHdBsCV48DgGtaNvhC4_6x=b1znGqSJ_odf3jwU5We0Q@mail.gmail.com>
+From: Corinne Cath <cattekwaad@gmail.com>
+To: Niels ten Oever <niels@article19.org>
+Content-Type: multipart/alternative; boundary=047d7ba97bfe508e4d0530c238e3
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/HxNjW_QoN3xlZN_AHn7yvWT55L4>
+Cc: "hrpc@irtf.org" <hrpc@irtf.org>
+Subject: Re: [hrpc] Reminder HRPC RG meeting today
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 18 Apr 2016 13:20:13 -0000
+
+--047d7ba97bfe508e4d0530c238e3
+Content-Type: text/plain; charset=UTF-8
+
+Dear all,
+
+We hope you have all recovered from what was an exciting IETF95 meeting in
+Buenos Aires.
+
+We were very happy with all the comments and edits to our drafts that we
+received.
+
+Over the next weeks we will be working through them and presenting you with
+an updated doc.
+
+In the meantime - here is the latest blog post about the IETF95 meeting:
+
+https://hrpc.io/ietf-95-meets-in-buenos-aires-a-week-of-firsts/
+
+Best,
+
+Corinne
+
+On Mon, Apr 4, 2016 at 7:29 PM, Niels ten Oever <niels@article19.org> wrote:
+
+> at 17:40 Buenos Aires time:
+>
+> https://www.timeanddate.com/worldclock/fixedtime.html?msg=Human+Rights+Protocol+Considerations+Reseach+Group+at+IRTF&iso=20160404T1740&p1=51&ah=2
+>
+> Agenda
+> https://tools.ietf.org/agenda/95/agenda-95-hrpc.html
+>
+> Meetecho
+> http://www.meetecho.com/ietf95/hrpc
+>
+> Jabber
+> xmpp:hrpc@jabber.ietf.org?join
+>
+> Minutes and notes
+> http://etherpad.tools.ietf.org:9000/p/notes-ietf-95-hrpc
+>
+> Audio stream
+> http://ietf95streaming.dnsalias.net/ietf/ietf951.m3u
+>
+> Slides
+> https://www.ietf.org/proceedings/95/slides/slides-95-hrpc-0.pdf
+>
+> Intro website
+> https://hrpc.io
+>
+> Mailinglist
+> https://www.irtf.org/mailman/listinfo/hrpc
+>
+> Github
+> https://github.com/nllz/IRTF-HRPC
+>
+> --
+> Niels ten Oever
+> Head of Digital
+>
+> Article 19
+> www.article19.org
+>
+> PGP fingerprint    8D9F C567 BEE4 A431 56C4
+>                    678B 08B5 A0F2 636D 68E9
+>
+>
+> _______________________________________________
+> hrpc mailing list
+> hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+>
+>
+
+
+-- 
+
+
+'The management of normality is hard work'
+
+--047d7ba97bfe508e4d0530c238e3
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:georgia,=
+serif">Dear all,<br><br></div><div class=3D"gmail_default" style=3D"font-fa=
+mily:georgia,serif">We hope you have all recovered from what was an excitin=
+g IETF95 meeting in Buenos Aires.<br><br></div><div class=3D"gmail_default"=
+ style=3D"font-family:georgia,serif">We were very happy with all the commen=
+ts and edits to our drafts that we received.<br><br></div><div class=3D"gma=
+il_default" style=3D"font-family:georgia,serif">Over the next weeks we will=
+ be working through them and presenting you with an updated doc.<br><br></d=
+iv><div class=3D"gmail_default" style=3D"font-family:georgia,serif">In the =
+meantime - here is the latest blog post about the IETF95 meeting:<br><br><a=
+ href=3D"https://hrpc.io/ietf-95-meets-in-buenos-aires-a-week-of-firsts/">h=
+ttps://hrpc.io/ietf-95-meets-in-buenos-aires-a-week-of-firsts/</a><br><br><=
+/div><div class=3D"gmail_default" style=3D"font-family:georgia,serif">Best,=
+ <br><br></div><div class=3D"gmail_default" style=3D"font-family:georgia,se=
+rif">Corinne <br></div></div><div class=3D"gmail_extra"><br><div class=3D"g=
+mail_quote">On Mon, Apr 4, 2016 at 7:29 PM, Niels ten Oever <span dir=3D"lt=
+r">&lt;<a href=3D"mailto:niels@article19.org" target=3D"_blank">niels@artic=
+le19.org</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=
+=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">at 17:40=
+ Buenos Aires time:<br>
+<a href=3D"https://www.timeanddate.com/worldclock/fixedtime.html?msg=3DHuma=
+n+Rights+Protocol+Considerations+Reseach+Group+at+IRTF&amp;iso=3D20160404T1=
+740&amp;p1=3D51&amp;ah=3D2" rel=3D"noreferrer" target=3D"_blank">https://ww=
+w.timeanddate.com/worldclock/fixedtime.html?msg=3DHuman+Rights+Protocol+Con=
+siderations+Reseach+Group+at+IRTF&amp;iso=3D20160404T1740&amp;p1=3D51&amp;a=
+h=3D2</a><br>
+<br>
+Agenda<br>
+<a href=3D"https://tools.ietf.org/agenda/95/agenda-95-hrpc.html" rel=3D"nor=
+eferrer" target=3D"_blank">https://tools.ietf.org/agenda/95/agenda-95-hrpc.=
+html</a><br>
+<br>
+Meetecho<br>
+<a href=3D"http://www.meetecho.com/ietf95/hrpc" rel=3D"noreferrer" target=
+=3D"_blank">http://www.meetecho.com/ietf95/hrpc</a><br>
+<br>
+Jabber<br>
+<a href=3D"http://xmpp:hrpc@jabber.ietf.org?join" rel=3D"noreferrer" target=
+=3D"_blank">xmpp:hrpc@jabber.ietf.org?join</a><br>
+<br>
+Minutes and notes<br>
+<a href=3D"http://etherpad.tools.ietf.org:9000/p/notes-ietf-95-hrpc" rel=3D=
+"noreferrer" target=3D"_blank">http://etherpad.tools.ietf.org:9000/p/notes-=
+ietf-95-hrpc</a><br>
+<br>
+Audio stream<br>
+<a href=3D"http://ietf95streaming.dnsalias.net/ietf/ietf951.m3u" rel=3D"nor=
+eferrer" target=3D"_blank">http://ietf95streaming.dnsalias.net/ietf/ietf951=
+.m3u</a><br>
+<br>
+Slides<br>
+<a href=3D"https://www.ietf.org/proceedings/95/slides/slides-95-hrpc-0.pdf"=
+ rel=3D"noreferrer" target=3D"_blank">https://www.ietf.org/proceedings/95/s=
+lides/slides-95-hrpc-0.pdf</a><br>
+<br>
+Intro website<br>
+<a href=3D"https://hrpc.io" rel=3D"noreferrer" target=3D"_blank">https://hr=
+pc.io</a><br>
+<br>
+Mailinglist<br>
+<a href=3D"https://www.irtf.org/mailman/listinfo/hrpc" rel=3D"noreferrer" t=
+arget=3D"_blank">https://www.irtf.org/mailman/listinfo/hrpc</a><br>
+<br>
+Github<br>
+<a href=3D"https://github.com/nllz/IRTF-HRPC" rel=3D"noreferrer" target=3D"=
+_blank">https://github.com/nllz/IRTF-HRPC</a><br>
+<span class=3D"HOEnZb"><font color=3D"#888888"><br>
+--<br>
+Niels ten Oever<br>
+Head of Digital<br>
+<br>
+Article 19<br>
+<a href=3D"http://www.article19.org" rel=3D"noreferrer" target=3D"_blank">w=
+ww.article19.org</a><br>
+<br>
+PGP fingerprint=C2=A0 =C2=A0 8D9F C567 BEE4 A431 56C4<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0678B 0=
+8B5 A0F2 636D 68E9<br>
+<br>
+</font></span><br>_______________________________________________<br>
+hrpc mailing list<br>
+<a href=3D"mailto:hrpc@irtf.org">hrpc@irtf.org</a><br>
+<a href=3D"https://www.irtf.org/mailman/listinfo/hrpc" rel=3D"noreferrer" t=
+arget=3D"_blank">https://www.irtf.org/mailman/listinfo/hrpc</a><br>
+<br></blockquote></div><br><br clear=3D"all"><br>-- <br><div class=3D"gmail=
+_signature"><br><br>&#39;The management of normality is hard work&#39;<br><=
+br></div>
+</div>
+
+--047d7ba97bfe508e4d0530c238e3--
+
+
+From nobody Thu Apr 21 01:46:21 2016
+Return-Path: <roland.bless@kit.edu>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 4F45112D911 for <hrpc@ietfa.amsl.com>; Thu, 21 Apr 2016 01:46:20 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.522
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.522 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, FUZZY_CREDIT=1.678, RCVD_IN_DNSWL_MED=-2.3] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id OczsWma8LVNO for <hrpc@ietfa.amsl.com>; Thu, 21 Apr 2016 01:46:14 -0700 (PDT)
+Received: from iramx2.ira.uni-karlsruhe.de (iramx2.ira.uni-karlsruhe.de [141.3.10.81]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 95B9512D85B for <hrpc@irtf.org>; Thu, 21 Apr 2016 01:46:13 -0700 (PDT)
+Received: from i72vorta.tm.uni-karlsruhe.de ([141.3.71.26] helo=i72vorta.tm.kit.edu) by iramx2.ira.uni-karlsruhe.de with esmtp port 25  iface 141.3.10.81 id 1atAFU-00073K-5g; Thu, 21 Apr 2016 10:46:08 +0200
+Received: from [IPv6:::1] (ip6-localhost [IPv6:::1]) by i72vorta.tm.kit.edu (Postfix) with ESMTPS id 1974FB00259; Thu, 21 Apr 2016 10:46:08 +0200 (CEST)
+To: Corinne Cath <cattekwaad@gmail.com>, Niels ten Oever <niels@article19.org>
+References: <5702B27C.1060206@article19.org> <CAD499eLHdBsCV48DgGtaNvhC4_6x=b1znGqSJ_odf3jwU5We0Q@mail.gmail.com>
+From: "Bless, Roland (TM)" <roland.bless@kit.edu>
+X-Enigmail-Draft-Status: N1110
+Organization: Institute of Telematics, Karlsruhe Institute of Technology
+Message-ID: <57189350.1090909@kit.edu>
+Date: Thu, 21 Apr 2016 10:46:08 +0200
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101 Thunderbird/38.6.0
+MIME-Version: 1.0
+In-Reply-To: <CAD499eLHdBsCV48DgGtaNvhC4_6x=b1znGqSJ_odf3jwU5We0Q@mail.gmail.com>
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: 8bit
+X-ATIS-AV: ClamAV (iramx2.ira.uni-karlsruhe.de)
+X-ATIS-Timestamp: iramx2.ira.uni-karlsruhe.de 1461228368.
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/eCHAA0kMolicUvLp3RetYurR_BI>
+Cc: "hrpc@irtf.org" <hrpc@irtf.org>, "Orwat, Carsten \(ITAS\)" <carsten.orwat@kit.edu>
+Subject: Re: [hrpc] Reminder HRPC RG meeting today
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 21 Apr 2016 08:46:20 -0000
+
+Hi Corinne and all,
+
+Am 18.04.2016 um 15:20 schrieb Corinne Cath:
+> We hope you have all recovered from what was an exciting IETF95 meeting
+> in Buenos Aires.
+> 
+> We were very happy with all the comments and edits to our drafts that we
+> received.
+> 
+> Over the next weeks we will be working through them and presenting you
+> with an updated doc.
+
+As I have already commented at the mic, I'll try to send you further
+comments after reviewing the whole document. Right now I'll
+limit my comments to what I mentioned in the meeting: the way the
+current text in draft-tenoever-hrpc-research-00 is written
+one gets the impression that we have a counterposition to
+the hrpc approach, which isn't true.
+
+  "Our position is that hard-coding human
+   rights into protocols in addition to being undesirable is also
+   impossible, because each situation is dependent on its context.  It
+   is however important to make consicious design decisions that take
+   into account the human rights protocol considerations guidelines
+   developed below.  This will ensure that the impact protocols can have
+   on human rights is clear and explicit, both for developers and for
+   users.  In addition, it ensures that the impact of specific protocol
+   on human rights is carefully considered and that concrete design
+   decisions are documented in the protocol."
+
+Our main point was that one has to carefully analyze impact of protocol
+design choices on human rights (and possibly other values) (*).
+So IMHO we have got a similar approach starting with the second cited
+sentence. For the first statement:
+"hard-coding human rights into protocols in addition to being
+undesirable is also impossible, because each situation is dependent on
+its context."
+I expressed my concerns with this statement in the meeting:
+in general, protocols may always affect human rights or derived values
+to some extent. So even if one tries to not explicitly "hard-code" (or
+enforce) human rights into protocols, design choices may implicitly
+have an impact on them.
+
+Excluding "hard-coding" human rights into protocols (or saying it is
+generally undesirable) is probably also not advisable. For example if
+you design protocols like APIP or Hornet to increase privacy and freedom
+of speech and assembly, is that already hard-coding human rights? Our
+main point was that one needs to carefully think about advantages and
+disadvantages of technical solutions with respect to their effects on
+human rights.
+Sometimes less technically embedded solutions are better in practice,
+because the system stays more flexible and avoids misbehavior in
+unforeseen contexts. But the IETF is currently working on improving
+privacy in protocols and IMHO this is desirable from a human rights
+perspective. However, one needs to be clear about other potential
+impacts of such approaches as well. Therefore, I think it will be
+part of the research if we come up later with an insight that
+one should actually refrain from explicitly embedding human rights
+into protocols, but right now such a conclusion is premature IMHO.
+
+Regards,
+ Roland
+
+(*) I'll send a pointer to our ACM CCR editorial note on "Values and
+Networks � Steps Toward Exploring their Relationships" as soon as it is
+available.
+
+
+From nobody Thu Apr 21 01:57:31 2016
+Return-Path: <cattekwaad@gmail.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 4ADF112DBAB for <hrpc@ietfa.amsl.com>; Thu, 21 Apr 2016 01:57:30 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.021
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.021 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, FUZZY_CREDIT=1.678, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-0.7, SPF_PASS=-0.001] autolearn=no autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id HjFFCwRxxM4w for <hrpc@ietfa.amsl.com>; Thu, 21 Apr 2016 01:57:28 -0700 (PDT)
+Received: from mail-wm0-x233.google.com (mail-wm0-x233.google.com [IPv6:2a00:1450:400c:c09::233]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id D5DCB12009C for <hrpc@irtf.org>; Thu, 21 Apr 2016 01:50:01 -0700 (PDT)
+Received: by mail-wm0-x233.google.com with SMTP id e201so78275963wme.0 for <hrpc@irtf.org>; Thu, 21 Apr 2016 01:50:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc; bh=I+/R1z7LHYpe/n+O+sToj0oyINzu+YEg68Ii9W2rIg4=; b=GPtsBo8vzJjsyjHPA4YMAtdEcinfh8TrkAKp577+qoE2WS6JR+wAHkrpyOO2ScewTh IMPn8roqGA90HBIxbm3l90MG5uxgLR0twaOUcEOhZM+HLSt9d/mLFBTnwUWJuW9qvsNl X+MfXsJ1Kic+5x4UBGkCPF6WPAXEe+fKc067lINRhSWwHaEe1WPkNFtjmv8BjmeZ41Pf 7WfujKd9W9JoU1sAC4KXdhDOzYtBxlaHzQz7fv3pTLNsYeiKQ9idYlh/YHvfO7st+cSP WUbCQltPJwO4PvxGUACNgULDbE2A6hTWrW++of735J/2nLdmZKS47KkEG6biJFGxLnn0 Z8Ow==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20130820; h=x-gm-message-state:mime-version:in-reply-to:references:date :message-id:subject:from:to:cc; bh=I+/R1z7LHYpe/n+O+sToj0oyINzu+YEg68Ii9W2rIg4=; b=JMRME1R6tXryvbs5WW2kwN2UFDl+PH4c5Nw/Ea1tLyhs7tnW2yCp1uRaQIuImoMA47 qRCmPFbA90LrujmJywgssS4HeY8ck338L1keoMljk/8lBx6Y+ifNAvdwhH11vh0nBlMD ygV5giFiHWdnzzUEL3W5SayLNe2JVPQ+7vmVviUe1phwXxTuhZhRmf/HFOXtQDqiwRhv x4hxFaMFg8uQKdWEmpcJrXdFzJ/hLYxJImk8sqiWyeDe0QeO0eRHIaFudSUcT3vsWt9A rZtsxMRW7F4fZEAeem3NiU9I6Z0oPzpSKQ5FYomj/zTZ4nJDdUeZPhwMjobw2d0O9kYH W5lw==
+X-Gm-Message-State: AOPr4FV1NeRiqfgH/0keQYDYx6Uw2tmW7MLSuAH8lZFNEyQSOsDPGU3F1hTO52dWKy0A8JxnYT1DDBS12F3jwA==
+MIME-Version: 1.0
+X-Received: by 10.28.234.137 with SMTP id g9mr34418252wmi.78.1461228600208; Thu, 21 Apr 2016 01:50:00 -0700 (PDT)
+Received: by 10.194.190.71 with HTTP; Thu, 21 Apr 2016 01:50:00 -0700 (PDT)
+In-Reply-To: <57189350.1090909@kit.edu>
+References: <5702B27C.1060206@article19.org> <CAD499eLHdBsCV48DgGtaNvhC4_6x=b1znGqSJ_odf3jwU5We0Q@mail.gmail.com> <57189350.1090909@kit.edu>
+Date: Thu, 21 Apr 2016 09:50:00 +0100
+Message-ID: <CAD499eKZzPhyuOH9k2oboLmGRrRDXZuLaXKAqo4AAGiFfNGW4A@mail.gmail.com>
+From: Corinne Cath <cattekwaad@gmail.com>
+To: "Bless, Roland (TM)" <roland.bless@kit.edu>
+Content-Type: multipart/alternative; boundary=001a114701baa6b5730530facbf0
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/Lr-zGnOTezyfCR9S1kzUcfsmrrY>
+Cc: Niels ten Oever <niels@article19.org>, "hrpc@irtf.org" <hrpc@irtf.org>, "Orwat, Carsten \(ITAS\)" <carsten.orwat@kit.edu>
+Subject: Re: [hrpc] Reminder HRPC RG meeting today
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 21 Apr 2016 08:57:30 -0000
+
+--001a114701baa6b5730530facbf0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear Roland,
+
+Thank you for this response! We are currently working on reviewing the
+draft and taking in the comments we received at IETF95 and on the list.
+
+I will make sure that the comments you made in this email will be
+accurately reflected in the new draft, and we look forward to any
+additional comments you might have on the draft as a whole.
+
+Best,
+
+Corinne
+
+On Thu, Apr 21, 2016 at 9:46 AM, Bless, Roland (TM) <roland.bless@kit.edu>
+wrote:
+
+> Hi Corinne and all,
+>
+> Am 18.04.2016 um 15:20 schrieb Corinne Cath:
+> > We hope you have all recovered from what was an exciting IETF95 meeting
+> > in Buenos Aires.
+> >
+> > We were very happy with all the comments and edits to our drafts that w=
+e
+> > received.
+> >
+> > Over the next weeks we will be working through them and presenting you
+> > with an updated doc.
+>
+> As I have already commented at the mic, I'll try to send you further
+> comments after reviewing the whole document. Right now I'll
+> limit my comments to what I mentioned in the meeting: the way the
+> current text in draft-tenoever-hrpc-research-00 is written
+> one gets the impression that we have a counterposition to
+> the hrpc approach, which isn't true.
+>
+>   "Our position is that hard-coding human
+>    rights into protocols in addition to being undesirable is also
+>    impossible, because each situation is dependent on its context.  It
+>    is however important to make consicious design decisions that take
+>    into account the human rights protocol considerations guidelines
+>    developed below.  This will ensure that the impact protocols can have
+>    on human rights is clear and explicit, both for developers and for
+>    users.  In addition, it ensures that the impact of specific protocol
+>    on human rights is carefully considered and that concrete design
+>    decisions are documented in the protocol."
+>
+> Our main point was that one has to carefully analyze impact of protocol
+> design choices on human rights (and possibly other values) (*).
+> So IMHO we have got a similar approach starting with the second cited
+> sentence. For the first statement:
+> "hard-coding human rights into protocols in addition to being
+> undesirable is also impossible, because each situation is dependent on
+> its context."
+> I expressed my concerns with this statement in the meeting:
+> in general, protocols may always affect human rights or derived values
+> to some extent. So even if one tries to not explicitly "hard-code" (or
+> enforce) human rights into protocols, design choices may implicitly
+> have an impact on them.
+>
+> Excluding "hard-coding" human rights into protocols (or saying it is
+> generally undesirable) is probably also not advisable. For example if
+> you design protocols like APIP or Hornet to increase privacy and freedom
+> of speech and assembly, is that already hard-coding human rights? Our
+> main point was that one needs to carefully think about advantages and
+> disadvantages of technical solutions with respect to their effects on
+> human rights.
+> Sometimes less technically embedded solutions are better in practice,
+> because the system stays more flexible and avoids misbehavior in
+> unforeseen contexts. But the IETF is currently working on improving
+> privacy in protocols and IMHO this is desirable from a human rights
+> perspective. However, one needs to be clear about other potential
+> impacts of such approaches as well. Therefore, I think it will be
+> part of the research if we come up later with an insight that
+> one should actually refrain from explicitly embedding human rights
+> into protocols, but right now such a conclusion is premature IMHO.
+>
+> Regards,
+>  Roland
+>
+> (*) I'll send a pointer to our ACM CCR editorial note on "Values and
+> Networks =E2=80=93 Steps Toward Exploring their Relationships" as soon as=
+ it is
+> available.
+>
+
+
+
+--=20
+
+
+'The management of normality is hard work'
+
+--001a114701baa6b5730530facbf0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:georgia,=
+serif">Dear Roland,<br><br></div><div class=3D"gmail_default" style=3D"font=
+-family:georgia,serif">Thank you for this response! We are currently workin=
+g on reviewing the draft and taking in the comments we received at IETF95 a=
+nd on the list. <br><br>I will make sure that the comments you made in this=
+ email will be accurately reflected in the new draft, and we look forward t=
+o any additional comments you might have on the draft as a whole.<br><br></=
+div><div class=3D"gmail_default" style=3D"font-family:georgia,serif">Best,<=
+br><br></div><div class=3D"gmail_default" style=3D"font-family:georgia,seri=
+f">Corinne <br></div></div><div class=3D"gmail_extra"><br><div class=3D"gma=
+il_quote">On Thu, Apr 21, 2016 at 9:46 AM, Bless, Roland (TM) <span dir=3D"=
+ltr">&lt;<a href=3D"mailto:roland.bless@kit.edu" target=3D"_blank">roland.b=
+less@kit.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" sty=
+le=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">Hi Cor=
+inne and all,<br>
+<span class=3D""><br>
+Am 18.04.2016 um 15:20 schrieb Corinne Cath:<br>
+&gt; We hope you have all recovered from what was an exciting IETF95 meetin=
+g<br>
+&gt; in Buenos Aires.<br>
+&gt;<br>
+&gt; We were very happy with all the comments and edits to our drafts that =
+we<br>
+&gt; received.<br>
+&gt;<br>
+&gt; Over the next weeks we will be working through them and presenting you=
+<br>
+&gt; with an updated doc.<br>
+<br>
+</span>As I have already commented at the mic, I&#39;ll try to send you fur=
+ther<br>
+comments after reviewing the whole document. Right now I&#39;ll<br>
+limit my comments to what I mentioned in the meeting: the way the<br>
+current text in draft-tenoever-hrpc-research-00 is written<br>
+one gets the impression that we have a counterposition to<br>
+the hrpc approach, which isn&#39;t true.<br>
+<br>
+=C2=A0 &quot;Our position is that hard-coding human<br>
+=C2=A0 =C2=A0rights into protocols in addition to being undesirable is also=
+<br>
+=C2=A0 =C2=A0impossible, because each situation is dependent on its context=
+.=C2=A0 It<br>
+=C2=A0 =C2=A0is however important to make consicious design decisions that =
+take<br>
+=C2=A0 =C2=A0into account the human rights protocol considerations guidelin=
+es<br>
+=C2=A0 =C2=A0developed below.=C2=A0 This will ensure that the impact protoc=
+ols can have<br>
+=C2=A0 =C2=A0on human rights is clear and explicit, both for developers and=
+ for<br>
+=C2=A0 =C2=A0users.=C2=A0 In addition, it ensures that the impact of specif=
+ic protocol<br>
+=C2=A0 =C2=A0on human rights is carefully considered and that concrete desi=
+gn<br>
+=C2=A0 =C2=A0decisions are documented in the protocol.&quot;<br>
+<br>
+Our main point was that one has to carefully analyze impact of protocol<br>
+design choices on human rights (and possibly other values) (*).<br>
+So IMHO we have got a similar approach starting with the second cited<br>
+sentence. For the first statement:<br>
+&quot;hard-coding human rights into protocols in addition to being<br>
+undesirable is also impossible, because each situation is dependent on<br>
+its context.&quot;<br>
+I expressed my concerns with this statement in the meeting:<br>
+in general, protocols may always affect human rights or derived values<br>
+to some extent. So even if one tries to not explicitly &quot;hard-code&quot=
+; (or<br>
+enforce) human rights into protocols, design choices may implicitly<br>
+have an impact on them.<br>
+<br>
+Excluding &quot;hard-coding&quot; human rights into protocols (or saying it=
+ is<br>
+generally undesirable) is probably also not advisable. For example if<br>
+you design protocols like APIP or Hornet to increase privacy and freedom<br=
+>
+of speech and assembly, is that already hard-coding human rights? Our<br>
+main point was that one needs to carefully think about advantages and<br>
+disadvantages of technical solutions with respect to their effects on<br>
+human rights.<br>
+Sometimes less technically embedded solutions are better in practice,<br>
+because the system stays more flexible and avoids misbehavior in<br>
+unforeseen contexts. But the IETF is currently working on improving<br>
+privacy in protocols and IMHO this is desirable from a human rights<br>
+perspective. However, one needs to be clear about other potential<br>
+impacts of such approaches as well. Therefore, I think it will be<br>
+part of the research if we come up later with an insight that<br>
+one should actually refrain from explicitly embedding human rights<br>
+into protocols, but right now such a conclusion is premature IMHO.<br>
+<br>
+Regards,<br>
+=C2=A0Roland<br>
+<br>
+(*) I&#39;ll send a pointer to our ACM CCR editorial note on &quot;Values a=
+nd<br>
+Networks =E2=80=93 Steps Toward Exploring their Relationships&quot; as soon=
+ as it is<br>
+available.<br>
+</blockquote></div><br><br clear=3D"all"><br>-- <br><div class=3D"gmail_sig=
+nature"><br><br>&#39;The management of normality is hard work&#39;<br><br><=
+/div>
+</div>
+
+--001a114701baa6b5730530facbf0--
+
+
+From nobody Mon Apr 25 04:23:44 2016
+Return-Path: <roland.bless@kit.edu>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 8704712D16A for <hrpc@ietfa.amsl.com>; Mon, 25 Apr 2016 04:23:43 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -4.2
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.2 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_MED=-2.3] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id E_m1MVvQmp8s for <hrpc@ietfa.amsl.com>; Mon, 25 Apr 2016 04:23:38 -0700 (PDT)
+Received: from iramx2.ira.uni-karlsruhe.de (iramx2.ira.uni-karlsruhe.de [141.3.10.81]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 740D412D10B for <hrpc@irtf.org>; Mon, 25 Apr 2016 04:23:37 -0700 (PDT)
+Received: from i72vorta.tm.uni-karlsruhe.de ([141.3.71.26] helo=i72vorta.tm.kit.edu) by iramx2.ira.uni-karlsruhe.de with esmtp port 25  iface 141.3.10.81 id 1auec3-0008NI-25 for <hrpc@irtf.org>; Mon, 25 Apr 2016 13:23:35 +0200
+Received: from [IPv6:::1] (ip6-localhost [IPv6:::1]) by i72vorta.tm.kit.edu (Postfix) with ESMTPS id B0049B0050A for <hrpc@irtf.org>; Mon, 25 Apr 2016 13:23:34 +0200 (CEST)
+To: "hrpc@irtf.org" <hrpc@irtf.org>
+From: "Bless, Roland (TM)" <roland.bless@kit.edu>
+Organization: Institute of Telematics, Karlsruhe Institute of Technology
+Message-ID: <571DFE36.1090704@kit.edu>
+Date: Mon, 25 Apr 2016 13:23:34 +0200
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101 Thunderbird/38.6.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+X-ATIS-AV: ClamAV (iramx2.ira.uni-karlsruhe.de)
+X-ATIS-Timestamp: iramx2.ira.uni-karlsruhe.de 1461583415.
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/IPIBgPnwIyMKU9NPD_AYL3_3R_Y>
+Subject: [hrpc] =?utf-8?q?Values_and_Networks_=E2=80=93_Steps_Toward_Explo?= =?utf-8?q?ring_their_Relationships?=
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 25 Apr 2016 11:23:43 -0000
+
+Hi,
+
+as already announced, here is the pointer to the above article
+(freely available):
+http://www.sigcomm.org/ccr/papers/2016/April/0000000.0000003
+
+The editor wrote:
+> The second editorial, “Towards Considering Relationships between Values
+> and Networks” looks at the interactions between human rights and the
+> technology that we develop. It reminds us that when we decide to carry
+> out research on a given topic, our research results may have a broader
+> impact than simply a series of papers published in conference
+> proceedings, journals or online libraries. Some of our work can
+> influence, in one direction or another, the evolution of our society and
+> some of our design choices may have a huge impact in the long term. I
+> encourage you to read this editorial and then take some time to think
+> about your ongoing work and the impact that it could have on values such
+> as human rights.
+
+PDF:
+http://www.sigcomm.org/sites/default/files/ccr/papers/2016/April/0000000-0000003.pdf
+
+Feedback appreciated :-)
+
+Regards,
+ Roland
+
+
+From nobody Tue Apr 26 01:15:52 2016
+Return-Path: <session_request_developers@ietf.org>
+X-Original-To: hrpc@irtf.org
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from ietfa.amsl.com (localhost [IPv6:::1]) by ietfa.amsl.com (Postfix) with ESMTP id E9AF212D0FB; Tue, 26 Apr 2016 01:15:50 -0700 (PDT)
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+From: "\"IETF Meeting Session Request Tool\"" <session_request_developers@ietf.org>
+To: <session-request@ietf.org>
+X-Test-IDTracker: no
+X-IETF-IDTracker: 6.19.0
+Auto-Submitted: auto-generated
+Precedence: bulk
+Message-ID: <20160426081550.28995.99264.idtracker@ietfa.amsl.com>
+Date: Tue, 26 Apr 2016 01:15:50 -0700
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/MhYJvPgo6UBOd7JKe-qPWPvL-GE>
+Cc: hrpc-chairs@ietf.org, niels@article19.org, hrpc@irtf.org, irtf-chair@irtf.org
+Subject: [hrpc] hrpc - New Meeting Session Request for IETF 96
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.17
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 26 Apr 2016 08:15:51 -0000
+
+A new meeting session request has just been submitted by Niels ten Oever, a Chair of the hrpc working group.
+
+
+---------------------------------------------------------
+Working Group Name: Human Rights Protocol Considerations
+Area Name: IRTF
+Session Requester: Niels Oever
+
+Number of Sessions: 1
+Length of Session(s):  2 Hours
+Number of Attendees: 90
+Conflicts to Avoid: 
+ First Priority:  irtfopen
+ Second Priority:  saag
+ Third Priority:  dprive
+
+
+Special Requests:
+  
+---------------------------------------------------------
+
+
+From nobody Fri Apr 29 05:56:15 2016
+Return-Path: <niels@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 644F712D664 for <hrpc@ietfa.amsl.com>; Fri, 29 Apr 2016 05:56:10 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.121
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.121 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, SPF_NEUTRAL=0.779] autolearn=no autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id TH3SIx4SYES0 for <hrpc@ietfa.amsl.com>; Fri, 29 Apr 2016 05:56:08 -0700 (PDT)
+Received: from mail.article19.io (vps784.greenhost.nl [213.108.108.114]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 3BFED12D5F3 for <hrpc@irtf.org>; Fri, 29 Apr 2016 05:56:07 -0700 (PDT)
+Received: from mail.article19.io (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTPS id 0368739F342 for <hrpc@irtf.org>; Fri, 29 Apr 2016 12:56:06 +0000 (UTC)
+Received: from mail.article19.io (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTPS id E94DF39F348 for <hrpc@irtf.org>; Fri, 29 Apr 2016 12:56:05 +0000 (UTC)
+Received: from [192.168.1.71] (sd5112335.adsl.online.nl [213.17.35.53]) by mail.article19.io (Postfix) with ESMTPSA id DBABF39F342 for <hrpc@irtf.org>; Fri, 29 Apr 2016 12:56:05 +0000 (UTC)
+References: <CAPaG1A=jXe=w6vK-=ohj2Bvr-7HTOkmU2=Htwa2zJ1oyuobydA@mail.gmail.com>
+To: "hrpc@irtf.org" <hrpc@irtf.org>
+From: Niels ten Oever <niels@article19.org>
+X-Forwarded-Message-Id: <CAPaG1A=jXe=w6vK-=ohj2Bvr-7HTOkmU2=Htwa2zJ1oyuobydA@mail.gmail.com>
+Message-ID: <572359E5.5060104@article19.org>
+Date: Fri, 29 Apr 2016 14:56:05 +0200
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101 Icedove/38.7.0
+MIME-Version: 1.0
+In-Reply-To: <CAPaG1A=jXe=w6vK-=ohj2Bvr-7HTOkmU2=Htwa2zJ1oyuobydA@mail.gmail.com>
+Content-Type: multipart/signed; micalg=pgp-sha256; protocol="application/pgp-signature"; boundary="mSTUPGRsBFgJwRBL0N8rejxWQ6IhiBtpd"
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/q54qBfm8tszgot9kkFRCbrVSV1A>
+Subject: [hrpc] Ethics in Networked Systems
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 29 Apr 2016 12:56:11 -0000
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--mSTUPGRsBFgJwRBL0N8rejxWQ6IhiBtpd
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Hi all,
+
+This seems of high relevance to our draft as well as hrpc in general:
+
+http://networkedsystemsethics.net/
+
+Best,
+
+Niels
+
+
+
+--mSTUPGRsBFgJwRBL0N8rejxWQ6IhiBtpd
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQEcBAEBCAAGBQJXI1nlAAoJEAi1oPJjbWjp//8H/29r2VEqtyZ5ENw0HvjkRhuw
+8b9yAc4nnaMF6ETmRtXpbWKRmHM6w+SDhMcVRC1sUyU6ps7yTz3VPm45QrhqH0QY
+UrYDUihZVbP1wmPF+E63D9mrzuLMICWEsDU6remvjD15yd5MA7zk4Vcl32VMVcM2
+7QvAhmdxqm22twPaAefrfIuGbm5mqd3OIBOGC49rvueo+P8ZilljaDEdh3rNubct
+VgYK8S/rrGRjLLumwjNAWBVKntLdf6X5jaL8qLdfJCE6aqSe+jkshgX82htHSZag
+jfxKEKLdfIYeA3/NdSoGflEmQyHpJ4N3NcrzWKfa5TrfzUUejXXd/t/iBhWhBP4=
+=EDo+
+-----END PGP SIGNATURE-----
+
+--mSTUPGRsBFgJwRBL0N8rejxWQ6IhiBtpd--
+
+
+From nobody Fri Apr 29 07:02:18 2016
+Return-Path: <cattekwaad@gmail.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 1B32812D6A8 for <hrpc@ietfa.amsl.com>; Fri, 29 Apr 2016 07:02:16 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.699
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.699 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-0.7, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id G2b16IBFc2bE for <hrpc@ietfa.amsl.com>; Fri, 29 Apr 2016 07:02:11 -0700 (PDT)
+Received: from mail-wm0-x236.google.com (mail-wm0-x236.google.com [IPv6:2a00:1450:400c:c09::236]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 9D0EC12D691 for <hrpc@irtf.org>; Fri, 29 Apr 2016 07:02:08 -0700 (PDT)
+Received: by mail-wm0-x236.google.com with SMTP id g17so38019199wme.1 for <hrpc@irtf.org>; Fri, 29 Apr 2016 07:02:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:in-reply-to:references:date:message-id:subject:from:to :cc; bh=92aXOVW7xyThJ0QbIsWMVLYylAdUXgdTJLzOGvxf/Zs=; b=azfW33VLSxNhW1WUxqkvHMATZyZ0Xip3ivLRXKC0PaiOR0VloN+qtERfupIKhwoBFP Js90qZdQ0EB5ynNhsSssNSvqP7D6+632GhD2rh6jSJQZEomYrItxfmjl37Cina+dxZrQ oKzwY6Oeeh7QDK8+AhbK4tH/2l62kbaMjR0IT+QMefl0Ad91NwT/1dAQhGJh3gqk9UTn JgpaguXUAWnEblBSBBTOGSpMA6Uy4k/TKRXiTwOcmmNUueqt7LeXdkMNX4HZhvYm06H9 tr8jbITbqcBKKMVAq0FX/QAVBwhAezvQmGJmMki9RJ3HsaRsQtWEw/9p3WMPMSjOfIN0 RHcw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20130820; h=x-gm-message-state:mime-version:in-reply-to:references:date :message-id:subject:from:to:cc; bh=92aXOVW7xyThJ0QbIsWMVLYylAdUXgdTJLzOGvxf/Zs=; b=kTQR4lG+b//Toq0JzD4xyzFYYwe09VwTIBffsavV8EpSLewQB5/j0tcMquD+kVe34A fypQ6HdkZ4uC1XEdsa+eF+Qd+gZq2zN+r2VdY2pmEw6iAeHhgKdID2l1CpMQqj15zVJr PduCINTmBUDLhSN61s3QBcg8ogfPzHTBJnbFHJiZj/aLlSWWwkbyk3T9CfN++q9yFo9+ ZYLI7nw7iSJpAmkajzm1N8bXnxxdA2cSgY/84Kxg9S2C7HZbQf43qbUuHeiH/yMcjLlV cLk1yHnv/F9IMzui1FJO4MPJrExA3c8RCaeEeBTt33w2vuLuoHQYCWCOewkouVgmskdm MrwQ==
+X-Gm-Message-State: AOPr4FVVVL2vcvAmiu4WfOfYNuZblI+1LfBJnXe7VdUJV8oorTMN+ubrEsKVRk8sWYCziRazg2lsRuivHcQ7cA==
+MIME-Version: 1.0
+X-Received: by 10.28.210.73 with SMTP id j70mr4586687wmg.48.1461938527205; Fri, 29 Apr 2016 07:02:07 -0700 (PDT)
+Received: by 10.194.190.71 with HTTP; Fri, 29 Apr 2016 07:02:07 -0700 (PDT)
+In-Reply-To: <572359E5.5060104@article19.org>
+References: <CAPaG1A=jXe=w6vK-=ohj2Bvr-7HTOkmU2=Htwa2zJ1oyuobydA@mail.gmail.com> <572359E5.5060104@article19.org>
+Date: Fri, 29 Apr 2016 15:02:07 +0100
+Message-ID: <CAD499eJJvWjbahea1JtouYVWmguKUOD3XstKTqnB6GYQZXWtbw@mail.gmail.com>
+From: Corinne Cath <cattekwaad@gmail.com>
+To: Niels ten Oever <niels@article19.org>
+Content-Type: multipart/alternative; boundary=001a1147191499090e0531a016c2
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/FARUYXSJVCmOmBBEyMfEiFNSkI4>
+Cc: "hrpc@irtf.org" <hrpc@irtf.org>
+Subject: Re: [hrpc] Ethics in Networked Systems
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 29 Apr 2016 14:02:16 -0000
+
+--001a1147191499090e0531a016c2
+Content-Type: text/plain; charset=UTF-8
+
+Dear all,
+
+This is a great resource indeed. It was put together by Bendert
+Zevenbergen, as an OTF project. I worked with Ben on this project at Oxford
+and one of the things we did was organize a workshop at Green Templeton
+College. On the basis of which we wrote this article:
+http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2666934 which might be
+of interest.
+
+Feel free to drop Ben or me an email if you have any further questions.
+
+Best,
+
+Corinne
+
+On Fri, Apr 29, 2016 at 1:56 PM, Niels ten Oever <niels@article19.org>
+wrote:
+
+> Hi all,
+>
+> This seems of high relevance to our draft as well as hrpc in general:
+>
+> http://networkedsystemsethics.net/
+>
+> Best,
+>
+> Niels
+>
+>
+>
+> _______________________________________________
+> hrpc mailing list
+> hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+>
+>
+
+
+-- 
+
+
+'The management of normality is hard work'
+
+--001a1147191499090e0531a016c2
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:verdana,=
+sans-serif">Dear all,<br><br></div><div class=3D"gmail_default" style=3D"fo=
+nt-family:verdana,sans-serif">This is a great resource indeed. It was put t=
+ogether by Bendert Zevenbergen, as an OTF project. I worked with Ben on thi=
+s project at Oxford and one=20
+of the things we did was organize a workshop at Green Templeton College.
+ On the basis of which we wrote this article: <a href=3D"http://papers.ssrn=
+.com/sol3/papers.cfm?abstract_id=3D2666934" target=3D"_blank">http://papers=
+.ssrn.com/sol3/papers.cfm?abstract_id=3D2666934</a> which might be of inter=
+est.<br><div class=3D"gmail_default" style=3D"font-family:verdana,sans-seri=
+f"><br></div><div class=3D"gmail_default" style=3D"font-family:verdana,sans=
+-serif">Feel free to drop Ben or me an email if you have any further questi=
+ons.<br><br></div><div class=3D"gmail_default" style=3D"font-family:verdana=
+,sans-serif">Best, <br></div><div class=3D"gmail_default" style=3D"font-fam=
+ily:verdana,sans-serif"><br></div>Corinne </div></div><div class=3D"gmail_e=
+xtra"><br><div class=3D"gmail_quote">On Fri, Apr 29, 2016 at 1:56 PM, Niels=
+ ten Oever <span dir=3D"ltr">&lt;<a href=3D"mailto:niels@article19.org" tar=
+get=3D"_blank">niels@article19.org</a>&gt;</span> wrote:<br><blockquote cla=
+ss=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;pa=
+dding-left:1ex">Hi all,<br>
+<br>
+This seems of high relevance to our draft as well as hrpc in general:<br>
+<br>
+<a href=3D"http://networkedsystemsethics.net/" rel=3D"noreferrer" target=3D=
+"_blank">http://networkedsystemsethics.net/</a><br>
+<br>
+Best,<br>
+<br>
+Niels<br>
+<br>
+<br>
+<br>_______________________________________________<br>
+hrpc mailing list<br>
+<a href=3D"mailto:hrpc@irtf.org">hrpc@irtf.org</a><br>
+<a href=3D"https://www.irtf.org/mailman/listinfo/hrpc" rel=3D"noreferrer" t=
+arget=3D"_blank">https://www.irtf.org/mailman/listinfo/hrpc</a><br>
+<br></blockquote></div><br><br clear=3D"all"><br>-- <br><div class=3D"gmail=
+_signature"><br><br>&#39;The management of normality is hard work&#39;<br><=
+br></div>
+</div>
+
+--001a1147191499090e0531a016c2--
+
+
+From nobody Sat Apr 30 03:44:51 2016
+Return-Path: <session_request_developers@ietf.org>
+X-Original-To: hrpc@irtf.org
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from ietfa.amsl.com (localhost [IPv6:::1]) by ietfa.amsl.com (Postfix) with ESMTP id 00A36128874; Sat, 30 Apr 2016 03:44:50 -0700 (PDT)
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+From: "\"IETF Meeting Session Request Tool\"" <session_request_developers@ietf.org>
+To: <session-request@ietf.org>
+X-Test-IDTracker: no
+X-IETF-IDTracker: 6.19.0
+Auto-Submitted: auto-generated
+Precedence: bulk
+Message-ID: <20160430104449.31046.79091.idtracker@ietfa.amsl.com>
+Date: Sat, 30 Apr 2016 03:44:49 -0700
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/TI2vV9zxjXxAXvr-h20lSLz1qeo>
+Cc: hrpc-chairs@ietf.org, niels@article19.org, hrpc@irtf.org, irtf-chair@irtf.org
+Subject: [hrpc] hrpc - Update to a Meeting Session Request for IETF 96
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.17
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Sat, 30 Apr 2016 10:44:50 -0000
+
+An update to a meeting session request has just been submitted by Niels ten Oever, a Chair of the hrpc working group.
+
+
+---------------------------------------------------------
+Working Group Name: Human Rights Protocol Considerations
+Area Name: IRTF
+Session Requester: Niels Oever
+
+Number of Sessions: 1
+Length of Session(s):  2 Hours
+Number of Attendees: 90
+Conflicts to Avoid: 
+ First Priority: irtfopen
+ Second Priority: saag
+ Third Priority: dprive
+
+
+Special Requests:
+  Strong preference for Tuesday or Thursday
+---------------------------------------------------------
+
+
+From nobody Sat Apr 30 19:55:22 2016
+Return-Path: <bzs@theworld.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id F0BCA12D127 for <hrpc@ietfa.amsl.com>; Sat, 30 Apr 2016 19:55:20 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.602
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.602 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_LOW=-0.7, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id zr2-KLGlhSuo for <hrpc@ietfa.amsl.com>; Sat, 30 Apr 2016 19:55:19 -0700 (PDT)
+Received: from TheWorld.com (pcls5.std.com [192.74.137.145]) by ietfa.amsl.com (Postfix) with ESMTP id D7F7412B045 for <hrpc@irtf.org>; Sat, 30 Apr 2016 19:55:18 -0700 (PDT)
+Received: from pcls8.std.com (pcls8.std.com [192.74.137.148]) by TheWorld.com (8.14.5/8.14.5) with ESMTP id u412srok029772; Sat, 30 Apr 2016 22:54:55 -0400
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Message-ID: <22309.28369.268613.643672@pcls8.std.com>
+Date: Sat, 30 Apr 2016 22:49:53 -0400
+From: bzs@theworld.com
+To: Niels ten Oever <niels@article19.org>
+In-Reply-To: <572359E5.5060104@article19.org>
+References: <CAPaG1A=jXe=w6vK-=ohj2Bvr-7HTOkmU2=Htwa2zJ1oyuobydA@mail.gmail.com> <572359E5.5060104@article19.org>
+X-Mailer: VM 8.2.0b under 24.3.1 (x86_64-suse-linux-gnu)
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/ThprFMTz6eu5_YktK5qNLIiPDx0>
+Cc: "hrpc@irtf.org" <hrpc@irtf.org>
+Subject: Re: [hrpc] Ethics in Networked Systems
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Sun, 01 May 2016 02:55:21 -0000
+
+On April 29, 2016 at 14:56 niels@article19.org (Niels ten Oever) wrote:
+ > Hi all,
+ > 
+ > This seems of high relevance to our draft as well as hrpc in general:
+ > 
+ > http://networkedsystemsethics.net/
+
+It's good. Section B is probably most relevant.
+
+There are some difficult to reconcile contradictions. For example,
+does one need to collect new data or can existing datasets be used
+(for research) vs, elsewhere, why can't this dataset be deleted at the
+end of the project (data retention issues)?
+
+But nonetheless a very good breakdown of issues.
+
+-- 
+        -Barry Shein
+
+Software Tool & Die    | bzs@TheWorld.com             | http://www.TheWorld.com
+Purveyors to the Trade | Voice: +1 617-STD-WRLD       | 800-THE-WRLD
+The World: Since 1989  | A Public Information Utility | *oo*
+

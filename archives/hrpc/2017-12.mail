@@ -1,0 +1,1730 @@
+
+From nobody Sun Dec  3 15:47:45 2017
+Return-Path: <jefsey@jefsey.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 3ACC4126C23 for <hrpc@ietfa.amsl.com>; Sun,  3 Dec 2017 15:47:44 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.5
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.5 tagged_above=-999 required=5 tests=[BAYES_05=-0.5, RCVD_IN_DNSWL_NONE=-0.0001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id PnU0CofcrPfQ for <hrpc@ietfa.amsl.com>; Sun,  3 Dec 2017 15:47:42 -0800 (PST)
+Received: from host.presenceweb.org (host.presenceweb.org [67.222.106.46]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id E9415124BE8 for <hrpc@irtf.org>; Sun,  3 Dec 2017 15:47:42 -0800 (PST)
+Received: from [89.234.152.51] (port=55131 helo=MORFIN-PC.jefsey.com) by host.presenceweb.org with esmtpa (Exim 4.89) (envelope-from <jefsey@jefsey.com>) id 1eLdz1-0003Zg-LJ; Mon, 04 Dec 2017 00:47:40 +0100
+X-Mailer: QUALCOMM Windows Eudora Version 7.1.0.9
+Date: Mon, 04 Dec 2017 00:47:31 +0100
+To: Andrew Sullivan <ajs@anvilwalrusden.com>,hrpc@irtf.org
+From: Jefsey <jefsey@jefsey.com>
+In-Reply-To: <20171128181604.cszih4nbzuoz23sj@mx4.yitter.info>
+References: <02e0869e-c056-1c97-5242-b6004b1ca197@cs.tcd.ie> <42ba3afc-5caf-1d2e-2fe8-f9f1cf92eeef@derechosdigitales.org> <20171128181604.cszih4nbzuoz23sj@mx4.yitter.info>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"; format=flowed
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - host.presenceweb.org
+X-AntiAbuse: Original Domain - irtf.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - jefsey.com
+X-Get-Message-Sender-Via: host.presenceweb.org: authenticated_id: jefsey+jefsey.com/only user confirmed/virtual account not confirmed
+X-Authenticated-Sender: host.presenceweb.org: jefsey@jefsey.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Message-Id: <20171203234742.E9415124BE8@ietfa.amsl.com>
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/82V6va3KmbcdWzBJRzwzGyWJ8MA>
+Subject: Re: [hrpc] draft-tenoever-hrpc-association-02
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Sun, 03 Dec 2017 23:47:44 -0000
+
+At 19:16 28/11/2017, Andrew Sullivan wrote:
+>So, you might say that the nature of freedom of the Internet arises 
+>out of a freedom of assembly that is internetworking: any arbitrary
+>set of network operators (you don't need ASes for this, I think) can 
+>network their networks together, and get an internet.
+
+They get a catenet. They get an internet if they use the IETF 
+protocol set (since the second objective of the IEN 48 project has 
+not been met. Yet.)
+
+>The totality of that behaviour together in the world is the emergent 
+>thing called _the_ Internet.  Any given member or set of members can 
+>refuse or fail to participate to some extent, which means that the 
+>Internet is fuzzy.
+
+This is documented by RFC 6852. The fuzzyness comes from the lack of 
+warranty of compatibility among global communities' standards. 
+Nothing technical prevents balkanization. We unfortunaly opposed on that.
+
+>The individual network operators who are internetworking might meet 
+>the definition of "assembly" you've been using, but the Internet 
+>does not get that even transitively.
+
+I feel the best definition of the internet is Gaines' one : "we [the 
+users] are the internet". Meaning that every human being, if having 
+an inter-network connection, is able to dialog (end to end) with 
+every other human being if also connected through an inter-network 
+connection as long as their inter-connections speak TCP/IP and iDNS.
+
+That is not bad. But we were heading for much more capabilities, 
+hence more rights and development for people, back in 1986.
+OK, the NTIA/miltary-industrial "status-quo" moratorium has 
+officially ended on 10/1/2016. However, we can expect that the 
+extended services momentum will take some years to resume.
+
+Even tough we know there are so many egos and interests against it.
+
+best
+jfc
+
+
+
+
+
+
+From nobody Mon Dec  4 10:05:23 2017
+Return-Path: <ajs@anvilwalrusden.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 89742127ABE for <hrpc@ietfa.amsl.com>; Mon,  4 Dec 2017 10:05:22 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.901
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.901 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=yitter.info header.b=ENNXbnCD; dkim=pass (1024-bit key) header.d=yitter.info header.b=a4GXR/go
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 76Vn4aYA6Kpd for <hrpc@ietfa.amsl.com>; Mon,  4 Dec 2017 10:05:21 -0800 (PST)
+Received: from mx4.yitter.info (mx4.yitter.info [159.203.56.111]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 05835127AD4 for <hrpc@irtf.org>; Mon,  4 Dec 2017 10:05:20 -0800 (PST)
+Received: from localhost (localhost [127.0.0.1]) by mx4.yitter.info (Postfix) with ESMTP id 2D37CBD33A for <hrpc@irtf.org>; Mon,  4 Dec 2017 18:05:20 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yitter.info; s=default; t=1512410720; bh=7dozERxJPryKcAfs9P+HSDaTFk5Yw76qJBqIv1F9xY4=; h=Date:From:To:Subject:References:In-Reply-To:From; b=ENNXbnCD2pFW7gy2LHquTcuxf1hc25edtBmq05/0ZZcWzY+v9kQ0wTWZisI52XSbD mNesm7lJ6VkVM64iy+HeX6fFpRvE894CE8qXaX89h5Tc1r+dVylJUAU3Wog9kPk77p fm2SlUKKHGL12qCQNbXvLiRbBwQ0zqJjm1CgUtCw=
+X-Virus-Scanned: Debian amavisd-new at crankycanuck.ca
+Received: from mx4.yitter.info ([127.0.0.1]) by localhost (mx4.yitter.info [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 8KzRR1r3-PAa for <hrpc@irtf.org>; Mon,  4 Dec 2017 18:05:19 +0000 (UTC)
+Date: Mon, 4 Dec 2017 13:05:22 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yitter.info; s=default; t=1512410718; bh=7dozERxJPryKcAfs9P+HSDaTFk5Yw76qJBqIv1F9xY4=; h=Date:From:To:Subject:References:In-Reply-To:From; b=a4GXR/gohcNO3YnFlEehxWO21YgwuTSRM5wlLrOg1LrTcXd0MwJI/Qe1kp7FKuCez FMsW5m6N+/m4XaC0P1dDHX5lwyyDlntxB2lFmMV0+rjlox/NxZDbSVq7aTSHLHw1wm SZuszss63hexAG8gZsUyFlmNCTyxDs06oD8j2rtw=
+From: Andrew Sullivan <ajs@anvilwalrusden.com>
+To: hrpc@irtf.org
+Message-ID: <20171204180522.6p35mhra34hif6kf@mx4.yitter.info>
+References: <02e0869e-c056-1c97-5242-b6004b1ca197@cs.tcd.ie> <42ba3afc-5caf-1d2e-2fe8-f9f1cf92eeef@derechosdigitales.org> <20171128181604.cszih4nbzuoz23sj@mx4.yitter.info> <20171203234742.E9415124BE8@ietfa.amsl.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <20171203234742.E9415124BE8@ietfa.amsl.com>
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/R9FvibaaHLkrFLL6OLzH_koe5ic>
+Subject: Re: [hrpc] draft-tenoever-hrpc-association-02
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 04 Dec 2017 18:05:22 -0000
+
+On Mon, Dec 04, 2017 at 12:47:31AM +0100, Jefsey wrote:
+> At 19:16 28/11/2017, Andrew Sullivan wrote:
+> 
+> They get a catenet. They get an internet if they use the IETF protocol set
+> (since the second objective of the IEN 48 project has not been met. Yet.)
+
+Well, yes, to be precise you only get an internet if you're using
+common end-to-end protocols (not necessarily the IETF protocols,
+though those are the obvious candidates).
+
+> > thing called _the_ Internet.  Any given member or set of members can
+> > refuse or fail to participate to some extent, which means that the
+> > Internet is fuzzy.
+> 
+> This is documented by RFC 6852. The fuzzyness comes from the lack of
+> warranty of compatibility among global communities' standards. Nothing
+> technical prevents balkanization. We unfortunaly opposed on that.
+
+I'm not sure I understand why you claim what I claim is "documented"
+by RFC 6852, though I agree it's compatible.  I agree that nothing
+technical prevents balkanization (or, I think a less
+historically-fraught way of saying this is "fragmentation").  I guess
+we do not agree that you can get voluntary standards that can prevent
+in any technical way such fragmentation: voluntary standards by nature
+can fragment, and the way to prevent it is to make the cost of
+remaining in the regime cheaper than splitting off.  Cf. forking in
+free software.
+
+> are the internet". Meaning that every human being, if having an
+> inter-network connection, is able to dialog (end to end) with every other
+> human being if also connected through an inter-network connection as long as
+> their inter-connections speak TCP/IP and iDNS.
+
+By such a definition,the Internet has never existed.
+
+Best regards,
+
+A
+-- 
+Andrew Sullivan
+ajs@anvilwalrusden.com
+
+
+From nobody Wed Dec  6 04:02:12 2017
+Return-Path: <jefsey@jefsey.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 88E1D126C0F for <hrpc@ietfa.amsl.com>; Wed,  6 Dec 2017 04:02:09 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.9 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_NONE=-0.0001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 1NlDYBYau9Vp for <hrpc@ietfa.amsl.com>; Wed,  6 Dec 2017 04:02:03 -0800 (PST)
+Received: from host.presenceweb.org (host.presenceweb.org [67.222.106.46]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 59558124207 for <hrpc@irtf.org>; Wed,  6 Dec 2017 04:02:03 -0800 (PST)
+Received: from [89.234.152.51] (port=29011 helo=MORFIN-PC.jefsey.com) by host.presenceweb.org with esmtpa (Exim 4.89) (envelope-from <jefsey@jefsey.com>) id 1eMYOl-00006g-WB; Wed, 06 Dec 2017 13:02:00 +0100
+X-Mailer: QUALCOMM Windows Eudora Version 7.1.0.9
+Date: Wed, 06 Dec 2017 13:01:52 +0100
+To: Andrew Sullivan <ajs@anvilwalrusden.com>,hrpc@irtf.org
+From: JFC Morfin <jefsey@jefsey.com>
+In-Reply-To: <20171204180522.6p35mhra34hif6kf@mx4.yitter.info>
+References: <02e0869e-c056-1c97-5242-b6004b1ca197@cs.tcd.ie> <42ba3afc-5caf-1d2e-2fe8-f9f1cf92eeef@derechosdigitales.org> <20171128181604.cszih4nbzuoz23sj@mx4.yitter.info> <20171203234742.E9415124BE8@ietfa.amsl.com> <20171204180522.6p35mhra34hif6kf@mx4.yitter.info>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"; format=flowed
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - host.presenceweb.org
+X-AntiAbuse: Original Domain - irtf.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - jefsey.com
+X-Get-Message-Sender-Via: host.presenceweb.org: authenticated_id: jefsey+jefsey.com/only user confirmed/virtual account not confirmed
+X-Authenticated-Sender: host.presenceweb.org: jefsey@jefsey.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Message-Id: <20171206120203.59558124207@ietfa.amsl.com>
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/QANnUDOKQlbFj3Azqq6DUbSzRBw>
+Subject: Re: [hrpc] draft-tenoever-hrpc-association-02
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 06 Dec 2017 12:02:09 -0000
+
+On 19:05 04/12/2017, Andrew Sullivan said:
+>On Mon, Dec 04, 2017 at 12:47:31AM +0100, Jefsey wrote:
+> > At 19:16 28/11/2017, Andrew Sullivan wrote:
+> >
+> > They get a catenet. They get an internet if they use the IETF protocol set
+> > (since the second objective of the IEN 48 project has not been met. Yet.)
+>
+>Well, yes, to be precise you only get an internet if you're using
+>common end-to-end protocols (not necessarily the IETF protocols,
+>though those are the obvious candidates).
+
+Correct. In the begining of the international packet switch system
+(IPSS) this was true. It was also the second (1978) objective of
+the Internet project.
+
+> > > thing called _the_ Internet.  Any given member or set of members can
+> > > refuse or fail to participate to some extent, which means that the
+> > > Internet is fuzzy.
+> >
+> > This is documented by RFC 6852. The fuzzyness comes from the lack of
+> > warranty of compatibility among global communities' standards. Nothing
+> > technical prevents balkanization. We unfortunaly opposed on that.
+>
+>I'm not sure I understand why you claim what I claim is "documented"
+>by RFC 6852, though I agree it's compatible.
+
+An RFC 6852 "global community" is a form of open association. It should
+not be only considered as a GAFA consumers flock.
+
+The matter is to see how several global communities, with different
+technologies can freely assemble and associate without this being disurptive.
+
+>I agree that nothing technical prevents balkanization (or, I think a less
+>historically-fraught way of saying this is "fragmentation").
+
+Difficult to decide when one consider China, or the hypernet various
+approaches. I am considering also the SX (societal experience) issues.
+
+>I guess
+>we do not agree that you can get voluntary standards that can prevent
+>in any technical way such fragmentation: voluntary standards by nature
+>can fragment, and the way to prevent it is to make the cost of
+>remaining in the regime cheaper than splitting off.  Cf. forking in
+>free software.
+
+This is the 1972/74 Congress' idea. It was spread all over the world
+as "deregulation" and "market self-regulation". RFC 6852 is based on
+that concept (actually the idea seems to be "more rewarding" than
+"cheaper"). As far as I undertsand it, IAB RFC 3869 explains why this
+may be detrimental and even blocking..
+
+I only note that :
+- the granularity (countries in the 70s, glocal markets in 2020) is different.
+- I would feel better at ease if a negotiation - mutual stabilization
+normative process had been agreed and activated.
+
+However, my real fear is that the normative situation is becoming
+unmanageable. To  architecturally conform one is now to master
+around 20.000 documents.
+
+> > are the internet". Meaning that every human being, if having an
+> > inter-network connection, is able to dialog (end to end) with every other
+> > human being if also connected through an inter-network connection 
+> as long as
+> > their inter-connections speak TCP/IP and iDNS.
+>
+>By such a definition,the Internet has never existed.
+
+Never mind! We already are now deeply engaged into the hypernet ...
+Yet we do not know if we have the right to associate into such a project:
+remember there is nothing ultimately private in the hyperdataspace, so
+the technology itself will not "respect" privacy. IMHO the human
+rights should be more concerned by accuracy or truth than privacy.
+(Where the neuronal networks empathy (coherence) eventually ends?
+Before or after merging public and private networked data?)
+
+However, mathematically speaking, this only can be a matter of
+statistics: a new theme for law. This belongs to my old considerations
+about negentropy, net learning, agorics, multilinguistics,
+intellition, relations, precaution, nature of data, etc. in the
+datasphere/space. And therefore to the resurgence of network extended
+services. It took 45 years but it seems AT&T is eventually buying the
+Tymshare project. Without the multinational/industry/people control we
+had accepted.
+.
+Take care.
+jfc
+
+
+From nobody Mon Dec 18 03:54:53 2017
+Return-Path: <avri@apc.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 1FEDE126C2F for <hrpc@ietfa.amsl.com>; Mon, 18 Dec 2017 03:54:52 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -4.199
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.199 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_MED=-2.3] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id C1mv8BYoeCTI for <hrpc@ietfa.amsl.com>; Mon, 18 Dec 2017 03:54:50 -0800 (PST)
+Received: from mail.gn.apc.org (mail.gn.apc.org [37.220.108.136]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id D7893124B09 for <hrpc@irtf.org>; Mon, 18 Dec 2017 03:54:49 -0800 (PST)
+Received: from localhost (localhost [127.0.0.1]) by mail.gn.apc.org (Postfix) with ESMTP id 841E0201F204 for <hrpc@irtf.org>; Mon, 18 Dec 2017 11:54:46 +0000 (GMT)
+X-Virus-Scanned: by amavisd-new at mail.gn.apc.org
+Received: from mail.gn.apc.org ([127.0.0.1]) by localhost (mail.gn.apc.org [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id yosVI_jL8c4Q for <hrpc@irtf.org>; Mon, 18 Dec 2017 11:54:36 +0000 (GMT)
+Received: from anonymous ([10.254.254.3])  (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) (Authenticated sender: avri) by mail.gn.apc.org (Postfix) with ESMTPSA id BFEA4201F242 for <hrpc@irtf.org>; Mon, 18 Dec 2017 11:54:30 +0000 (GMT)
+Date: Mon, 18 Dec 2017 12:54:23 +0100
+From: Avri <avri@apc.org>
+To: Hrpc <hrpc@irtf.org>
+Message-ID: <757d5b93-bc4e-4dc7-aba3-0610480eab85@avris-iPad>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="5a37ac6f_6b8b4567_1f8e"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/u_c15Y17KY63Kju8KyZ3KDrJLsw>
+Subject: Re: [hrpc] HRPC, next
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 18 Dec 2017 11:54:52 -0000
+
+--5a37ac6f_6b8b4567_1f8e
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+     =20
+ =20
+
+ Hi,
+ =20
+
+ =20
+Been quiet, reading the comments in the various messages, listening to th=
+e views of people on the documents.
+ =20
+
+ =20
+As far as I can tell at this point, there is strong support for   draft-t=
+enoever-hrpc-guidelines becoming a RG document and would be glad to see i=
+t become one.    I think this is important, not only because R=46C 8280 i=
+s a bit heavy, but because while 8280 does a good job of establishing a h=
+ypothesis and of giving a set of considerations that we can study, the wo=
+rk is not yet done.    The hypothesis needs to be tested, and the conside=
+rations need to used and refined once we can determine the degree to whic=
+h they are useful and fit for purpose.   =20
+ =20
+ =20
+ =20
+ On the other documents, I think I would like to see more comment and mor=
+e support.    I also do not think that finished work necessarily needs to=
+ become a RG draft. If indeed a private doc is considered ready, we can s=
+till request publication.    As I have often told by others, this is a re=
+search group and every document does not need to become a research docume=
+nt in order to prove its worth.    So at this point, I do not feel there =
+is a strong need for turning the 451 report into a RG draft in order to p=
+ublish it.    If, and when, the RG believes it is ready for publication, =
+I believe we can just request publication and go through the IRT=46 proce=
+ss (but I will confirm that).
+ =20
+ =20
+ =20
+ As far as the association draft goes, while I agree that it is not quite=
+ ready for RG document status, I do believe it is one that should become =
+a work item.    I also think the same for the anonymity draft - once I ge=
+t the impression we have many people who think it is ready.
+ =20
+ =20
+ =20
+ In terms of published work, I would also like to see the group branch ou=
+t into academic journals if possible, though I do not think the work has =
+yet reached the level were it is ready for most journals.
+ =20
+ =20
+ =20
+ In terms of the group and the possible need for a new co-chair, I have s=
+poken to Allison but we are waiting to see what Niels=E2=80=99 final deci=
+sion is - he has said he was thinking of stepping down, but has not actua=
+lly done so, and remains the co-chair as of now.    If he does step down,=
+ while the choice is not mine but the IRT=46 Chair=E2=80=99s, I would lik=
+e to bring in a co-chair with the social sciences skills to bring the ben=
+efits of scientific rigor to the RG=E2=80=99s work.    One of the hopes w=
+hen we started this group was that it could be equally strong in Internet=
+ engineering, human rights, and social sciences. I believe that while it =
+is crucial that work be useful to engineers, it is also important that it=
+ be valid from a scientific point of view - the notion that there is a li=
+nk between human rights and technology is still a theory that does not ha=
+ve wide acceptance.    If the work is to stand the test of time, I believ=
+e it needs to be acceptable to all three, engineers, human rights experts=
+ and social scientists.
+ =20
+ =20
+ =20
+ =20
+ =20
+Those are my thoughts at this point, curious to ready what thers have to =
+say in the continuing discussion.
+ =20
+
+ =20
+Thanks
+ =20
+Avri
+     
+--5a37ac6f_6b8b4567_1f8e
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+<html><body><div id=3D=22edo-message=22><div></div>Hi,</div><div id=3D=22=
+edo-message=22><br></div><div id=3D=22edo-message=22>Been quiet, reading =
+the comments in the various messages, listening to the views of people on=
+ the documents.</div><div id=3D=22edo-message=22><br></div><div id=3D=22e=
+do-message=22>As far as I can tell at this point, there is strong support=
+ for&nbsp;<span style=3D=22-webkit-text-size-adjust: auto; background-col=
+or: rgba(255, 255, 255, 0);=22>draft-tenoever-hrpc-guidelines becoming a =
+RG document and would be glad to see it become one. &nbsp;I think this is=
+ important, not only because R=46C 8280 is a bit heavy, but because while=
+ 8280 does a good job of establishing a hypothesis and of giving a set of=
+ considerations that we can study, the work is not yet done. &nbsp;The hy=
+pothesis needs to be tested, and the considerations need to used and refi=
+ned once we can determine the degree to which they are useful and fit for=
+ purpose. &nbsp;</span></div><div id=3D=22edo-message=22><span style=3D=22=
+-webkit-text-size-adjust: auto; background-color: rgba(255, 255, 255, 0);=
+=22><br></span></div><div id=3D=22edo-message=22><span style=3D=22-webkit=
+-text-size-adjust: auto; background-color: rgba(255, 255, 255, 0);=22>On =
+the other documents, I think I would like to see more comment and more su=
+pport. &nbsp;I also do not think that finished work necessarily needs to =
+become a RG draft. If indeed a private doc is considered ready, we can st=
+ill request publication. &nbsp;As I have often told by others, this is a =
+research group and every document does not need to become a research docu=
+ment in order to prove its worth. &nbsp;So at this point, I do not feel t=
+here is a strong need for turning the 451 report into a RG draft in order=
+ to publish it. &nbsp;If, and when, the RG believes it is ready for publi=
+cation, I believe we can just request publication and go through the IRT=46=
+ process (but I will confirm that).</span></div><div id=3D=22edo-message=22=
+><span style=3D=22-webkit-text-size-adjust: auto; background-color: rgba(=
+255, 255, 255, 0);=22><br></span></div><div id=3D=22edo-message=22><span =
+style=3D=22-webkit-text-size-adjust: auto; background-color: rgba(255, 25=
+5, 255, 0);=22>As far as the association draft goes, while I agree that i=
+t is not quite ready for RG document status, I do believe it is one that =
+should become a work item. &nbsp;I also think the same for the anonymity =
+draft - once I get the impression we have many people who think it is rea=
+dy.</span></div><div id=3D=22edo-message=22><span style=3D=22-webkit-text=
+-size-adjust: auto; background-color: rgba(255, 255, 255, 0);=22><br></sp=
+an></div><div id=3D=22edo-message=22><span style=3D=22-webkit-text-size-a=
+djust: auto; background-color: rgba(255, 255, 255, 0);=22>In terms of pub=
+lished work, I would also like to see the group branch out into academic =
+journals if possible, though I do not think the work has yet reached the =
+level were it is ready for most journals.</span></div><div id=3D=22edo-me=
+ssage=22><span style=3D=22-webkit-text-size-adjust: auto; background-colo=
+r: rgba(255, 255, 255, 0);=22><br></span></div><div id=3D=22edo-message=22=
+><span style=3D=22-webkit-text-size-adjust: auto; background-color: rgba(=
+255, 255, 255, 0);=22>In terms of the group and the possible need for a n=
+ew co-chair, I have spoken to Allison but we are waiting to see what Niel=
+s=E2=80=99 final decision is - he has said he was thinking of stepping do=
+wn, but has not actually done so, and remains the co-chair as of now. &nb=
+sp;If he does step down, while the choice is not mine but the IRT=46 Chai=
+r=E2=80=99s, I would like to bring in a co-chair with the social sciences=
+ skills to bring the benefits of scientific rigor to the RG=E2=80=99s wor=
+k. &nbsp;One of the hopes when we started this group was that it could be=
+ equally strong in Internet engineering, human rights, and social science=
+s. I believe that while it is crucial that work be useful to engineers, i=
+t is also important that it be valid from a scientific point of view - th=
+e notion that there is a link between human rights and technology is stil=
+l a theory that does not have wide acceptance. &nbsp;If the work is to st=
+and the test of time, I believe it needs to be acceptable to all three, e=
+ngineers, human rights experts and social scientists.</span></div><div id=
+=3D=22edo-message=22><span style=3D=22-webkit-text-size-adjust: auto; bac=
+kground-color: rgba(255, 255, 255, 0);=22><br></span></div><div id=3D=22e=
+do-message=22><span style=3D=22-webkit-text-size-adjust: auto; background=
+-color: rgba(255, 255, 255, 0);=22><br></span></div><div id=3D=22edo-mess=
+age=22><span style=3D=22-webkit-text-size-adjust: auto;=22>Those are my t=
+houghts at this point, curious to ready what thers have to say in the con=
+tinuing discussion.</span></div><div id=3D=22edo-message=22><span style=3D=
+=22-webkit-text-size-adjust: auto;=22><br></span></div><div id=3D=22edo-m=
+essage=22><span style=3D=22-webkit-text-size-adjust: auto;=22>Thanks</spa=
+n></div><div id=3D=22edo-message=22><span style=3D=22-webkit-text-size-ad=
+just: auto;=22>Avri</span></div></body></html>
+--5a37ac6f_6b8b4567_1f8e--
+
+
+From nobody Mon Dec 18 13:53:18 2017
+Return-Path: <niels@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id ED77612D95C for <hrpc@ietfa.amsl.com>; Mon, 18 Dec 2017 13:53:17 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.001
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.001 tagged_above=-999 required=5 tests=[SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id NWzSUTT4RnyT for <hrpc@ietfa.amsl.com>; Mon, 18 Dec 2017 13:53:15 -0800 (PST)
+Received: from smarthost1.greenhost.nl (smarthost1.greenhost.nl [195.190.28.92]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 387CB12D945 for <hrpc@irtf.org>; Mon, 18 Dec 2017 13:53:15 -0800 (PST)
+Received: from smtp.greenhost.nl ([213.108.104.138]) by smarthost1.greenhost.nl with esmtps (TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128) (Exim 4.84_2) (envelope-from <niels@article19.org>) id 1eR3LV-0004NO-8J for hrpc@irtf.org; Mon, 18 Dec 2017 22:53:13 +0100
+To: hrpc@irtf.org
+References: <757d5b93-bc4e-4dc7-aba3-0610480eab85@avris-iPad>
+From: Niels ten Oever <niels@article19.org>
+Message-ID: <04ea7dbd-4a91-8ddb-5a53-fe165ee63b18@article19.org>
+Date: Mon, 18 Dec 2017 22:53:07 +0100
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Thunderbird/52.4.0
+MIME-Version: 1.0
+In-Reply-To: <757d5b93-bc4e-4dc7-aba3-0610480eab85@avris-iPad>
+Content-Type: multipart/signed; micalg=pgp-sha512; protocol="application/pgp-signature"; boundary="cTx4SoSlbfRbgxxKs72LBb3DoFMKp84fe"
+X-Virus-Scanned: by clamav at smarthost1.samage.net
+X-Scan-Signature: 1a05470216d0106dc91b6ca0d322f745
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/55_qr3CQkf25NtQk4S6Sec_1pQ0>
+Subject: Re: [hrpc] HRPC, next
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 18 Dec 2017 21:53:18 -0000
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--cTx4SoSlbfRbgxxKs72LBb3DoFMKp84fe
+Content-Type: multipart/mixed; boundary="4liXMXussaehkX6Mnu4U68nwpc6k71oV6";
+ protected-headers="v1"
+From: Niels ten Oever <niels@article19.org>
+To: hrpc@irtf.org
+Message-ID: <04ea7dbd-4a91-8ddb-5a53-fe165ee63b18@article19.org>
+Subject: Re: [hrpc] HRPC, next
+References: <757d5b93-bc4e-4dc7-aba3-0610480eab85@avris-iPad>
+In-Reply-To: <757d5b93-bc4e-4dc7-aba3-0610480eab85@avris-iPad>
+
+--4liXMXussaehkX6Mnu4U68nwpc6k71oV6
+Content-Type: text/plain; charset=windows-1252
+Content-Language: en-US
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+I am a bit surprised by some of the remarks;
+draft-tenoever-hrpc-guidelines did not get any discussion on the list
+whereas draft-tenoever-hrpc-association has been discussed at length in
+3 hrpc sessions and gotten a lot of discussions on the list (also after
+last session), as well as acks for RG adoption.
+
+Your reasoning that we can make drafts a work-item but not an RG draft
+does not make a lot of sense to me since RG drafts _are_ the work items
+of the RG.
+
+Where it comes to a new co-chair I think we need to look for someone who
+has the time, knowledge, motivation, experience and willingness to work
+on this. We received notice from one volunteer who is very interested in
+co-chairing and who has been a contributor on this list for a long time:
+Mallory Knodel. So I hope we will consider her as co-chair.
+
+Best,
+
+Niels
+
+Niels ten Oever
+Head of Digital
+
+Article 19
+www.article19.org
+
+PGP fingerprint    2458 0B70 5C4A FD8A 9488
+                   643A 0ED8 3F3A 468A C8B3
+
+On 12/18/2017 12:54 PM, Avri wrote:
+> Hi,
+>=20
+> Been quiet, reading the comments in the various messages, listening to
+> the views of people on the documents.
+>=20
+> As far as I can tell at this point, there is strong support
+> for=A0draft-tenoever-hrpc-guidelines becoming a RG document and would b=
+e
+> glad to see it become one. =A0I think this is important, not only becau=
+se
+> RFC 8280 is a bit heavy, but because while 8280 does a good job of
+> establishing a hypothesis and of giving a set of considerations that we=
+
+> can study, the work is not yet done. =A0The hypothesis needs to be test=
+ed,
+> and the considerations need to used and refined once we can determine
+> the degree to which they are useful and fit for purpose. =A0
+>=20
+> On the other documents, I think I would like to see more comment and
+> more support. =A0I also do not think that finished work necessarily nee=
+ds
+> to become a RG draft. If indeed a private doc is considered ready, we
+> can still request publication. =A0As I have often told by others, this =
+is
+> a research group and every document does not need to become a research
+> document in order to prove its worth. =A0So at this point, I do not fee=
+l
+> there is a strong need for turning the 451 report into a RG draft in
+> order to publish it. =A0If, and when, the RG believes it is ready for
+> publication, I believe we can just request publication and go through
+> the IRTF process (but I will confirm that).
+>=20
+> As far as the association draft goes, while I agree that it is not quit=
+e
+> ready for RG document status, I do believe it is one that should become=
+
+> a work item. =A0I also think the same for the anonymity draft - once I =
+get
+> the impression we have many people who think it is ready.
+>=20
+> In terms of published work, I would also like to see the group branch
+> out into academic journals if possible, though I do not think the work
+> has yet reached the level were it is ready for most journals.
+>=20
+> In terms of the group and the possible need for a new co-chair, I have
+> spoken to Allison but we are waiting to see what Niels=92 final decisio=
+n
+> is - he has said he was thinking of stepping down, but has not actually=
+
+> done so, and remains the co-chair as of now. =A0If he does step down,
+> while the choice is not mine but the IRTF Chair=92s, I would like to br=
+ing
+> in a co-chair with the social sciences skills to bring the benefits of
+> scientific rigor to the RG=92s work. =A0One of the hopes when we starte=
+d
+> this group was that it could be equally strong in Internet engineering,=
+
+> human rights, and social sciences. I believe that while it is crucial
+> that work be useful to engineers, it is also important that it be valid=
+
+> from a scientific point of view - the notion that there is a link
+> between human rights and technology is still a theory that does not hav=
+e
+> wide acceptance. =A0If the work is to stand the test of time, I believe=
+ it
+> needs to be acceptable to all three, engineers, human rights experts an=
+d
+> social scientists.
+>=20
+>=20
+> Those are my thoughts at this point, curious to ready what thers have t=
+o
+> say in the continuing discussion.
+>=20
+> Thanks
+> Avri
+>=20
+>=20
+> _______________________________________________
+> hrpc mailing list
+> hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+>=20
+
+
+--4liXMXussaehkX6Mnu4U68nwpc6k71oV6--
+
+--cTx4SoSlbfRbgxxKs72LBb3DoFMKp84fe
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEJFgLcFxK/YqUiGQ6Dtg/OkaKyLMFAlo4OMQACgkQDtg/OkaK
+yLNG7RAAo1y8K09zaMLYkDaH0FJvxya3si2ZzIiu0uyjGCU9xI3FAbyNv++DsZ0u
+2H7E5QOKsqkE8gM+sqCuOX7R/ET2mLxdegYZzthky4E29erLlgUgsTldHGcvImU8
+lOxcS59/2E5h8oKdA8m6keKJhPZHSj3ofMet0SVPDls8Wk8pBebCDRXE72n23dxi
+Er62sojY4cz8J1geoQWRmM/pp77rp1KdN8sPGptyIF+xNc4ro2Z9IBSsv/vuHETX
+eB2OMjyTgkd3seormC9GZ/yG3E2QaKOEGxeUlVAjdGkBvbnEdb67Aw4226HNdBAh
+NI+FxMU9h1l4ekDiWEgaNZRr4jy+j7bStQ0BSCmTgOcTo1ESUqgbxRImoujdqnnL
+ck7r4xlh13rCaYcBdmqxvu9nFEKts/L3nIBA5f4chdzyi4QFCO+orsuJNGu35qmu
+oqsWHgiUYIb7zefheI9Vj5rg1sE967P4WwTuDShKeG7/ONf859oRc6kA4arr0UDj
+VNwfgC6XuUbf4UwjB+xIcSg4+Uw8fOfc6Z6gScqKr3Y0OJPfP9r+DGoRypT4am4U
+X8d0pYaCzO7Pts10kTvPx5gGcvp2WUP81d6SuyVaaeUQ502Jr39cazZXlB9+G00L
+c9sSBzQW+tR8Ib7iAa48Yom5Dgug/OLHvpE23IUNdrgFac2lYbY=
+=Y6dU
+-----END PGP SIGNATURE-----
+
+--cTx4SoSlbfRbgxxKs72LBb3DoFMKp84fe--
+
+
+From nobody Tue Dec 19 10:36:06 2017
+Return-Path: <gisela@derechosdigitales.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id BA4F3126B6E for <hrpc@ietfa.amsl.com>; Tue, 19 Dec 2017 10:36:04 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.72
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.72 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, RCVD_IN_DNSWL_LOW=-0.7, RCVD_IN_MSPIKE_H3=-0.01, RCVD_IN_MSPIKE_WL=-0.01, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=derechosdigitales.org header.b=dMxFpWWI; dkim=pass (2048-bit key) header.d=messagingengine.com header.b=Npo5cbaj
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 97CF5lfmoa4M for <hrpc@ietfa.amsl.com>; Tue, 19 Dec 2017 10:36:02 -0800 (PST)
+Received: from out3-smtp.messagingengine.com (out3-smtp.messagingengine.com [66.111.4.27]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 7448712D7F8 for <hrpc@irtf.org>; Tue, 19 Dec 2017 10:36:02 -0800 (PST)
+Received: from compute7.internal (compute7.nyi.internal [10.202.2.47]) by mailout.nyi.internal (Postfix) with ESMTP id D64642053F for <hrpc@irtf.org>; Tue, 19 Dec 2017 13:36:01 -0500 (EST)
+Received: from frontend1 ([10.202.2.160]) by compute7.internal (MEProxy); Tue, 19 Dec 2017 13:36:01 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d= derechosdigitales.org; h=content-type:date:from:in-reply-to :message-id:mime-version:references:subject:to:x-me-sender :x-me-sender:x-sasl-enc; s=fm1; bh=uDGYkO2PPEfFIODzpayg+t6u0n42z sP3Pk1zXSygPc4=; b=dMxFpWWIiB1Jwne+5m/RhhRy3NOlC150+19z5M7hak5J3 51mdHxa9jFq0+ROs6MOetUbP1i2nbA9EA8u7eJ+FUff+r4T7v8FBfS5jAL4GCJbE qJLGszo6nwcH/AFrcouzVEvUmpq7D5vrdQZs/s3y+NNMgAbwWj7o0HPOSJApVQVI G3sWaytugOfHS8H3sw0/iD9VD6FQE8acqMoSv/aRbGVt+bWYn4/kOxxKjXCiXaKV Hw7ei6LLxJxjNL76e+UkE5+Bhu96Tj557HpRtS70veuWdphMkd77ETtCB1C/PkkL XjApW9uVZswJSFu17nL6B58jbR1cNMueUKCVK1NxA==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d= messagingengine.com; h=content-type:date:from:in-reply-to :message-id:mime-version:references:subject:to:x-me-sender :x-me-sender:x-sasl-enc; s=fm1; bh=uDGYkO2PPEfFIODzpayg+t6u0n42z sP3Pk1zXSygPc4=; b=Npo5cbajFtGXrEfZtpABKJ0TBcxgiIQcfI/WyQND9V+Eg nmUxqBz1jVEhfvmPNgfl1bgnGIbt8aUD+JbiY+5EYvTaUahf02onnEQS3lJxH6/u c8nUjvGXXr/iJM1ITWrZJ38cbeyDSKvr0OxhWNgajsjPRWSA2DvbZypy939l7A+m bHBoP08wgX/Jus518b8S9PSYf734APYohLntKJtBRqMVOJkNBhuleREUF+kkYWhT Wx7HNiYB4E+VA61/IhBY8P+/4XM9BRxCOcOYhd/R5pdYk/I7OesXuE1aRBRkZwTc iVYEDqymYwQSqRLOkHQY3SByK8GC8FhYI2mgMVK6g==
+X-ME-Sender: <xms:EVw5Wujd9lZAnFgNs9dM5wJOvaaU5jV0QucmliVDHXwHiynnP4Ab-g>
+Received: from Giselas-MacBook-Air-6.local (unknown [200.56.42.77]) by mail.messagingengine.com (Postfix) with ESMTPA id 473B47E4C8 for <hrpc@irtf.org>; Tue, 19 Dec 2017 13:36:01 -0500 (EST)
+To: hrpc@irtf.org
+References: <757d5b93-bc4e-4dc7-aba3-0610480eab85@avris-iPad> <04ea7dbd-4a91-8ddb-5a53-fe165ee63b18@article19.org>
+From: Gisela Perez de Acha <gisela@derechosdigitales.org>
+Message-ID: <e4f67b45-9b94-df49-2eec-fe31b0f9de0c@derechosdigitales.org>
+Date: Tue, 19 Dec 2017 12:35:57 -0600
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:52.0) Gecko/20100101 Thunderbird/52.5.0
+MIME-Version: 1.0
+In-Reply-To: <04ea7dbd-4a91-8ddb-5a53-fe165ee63b18@article19.org>
+Content-Type: multipart/signed; micalg=pgp-sha512; protocol="application/pgp-signature"; boundary="Q1lkwtD9tk8v4gPjEUQfTqELT5UPKNrkj"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/c0DGyaU4ngz4LiUT5J7TFUdhkJo>
+Subject: Re: [hrpc] HRPC, next
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 19 Dec 2017 18:36:05 -0000
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--Q1lkwtD9tk8v4gPjEUQfTqELT5UPKNrkj
+Content-Type: multipart/mixed; boundary="urHJCwPQlfPaSig4tAxRAhdoOkobImMds";
+ protected-headers="v1"
+From: Gisela Perez de Acha <gisela@derechosdigitales.org>
+To: hrpc@irtf.org
+Message-ID: <e4f67b45-9b94-df49-2eec-fe31b0f9de0c@derechosdigitales.org>
+Subject: Re: [hrpc] HRPC, next
+References: <757d5b93-bc4e-4dc7-aba3-0610480eab85@avris-iPad>
+ <04ea7dbd-4a91-8ddb-5a53-fe165ee63b18@article19.org>
+In-Reply-To: <04ea7dbd-4a91-8ddb-5a53-fe165ee63b18@article19.org>
+
+--urHJCwPQlfPaSig4tAxRAhdoOkobImMds
+Content-Type: text/plain; charset=windows-1252
+Content-Language: es-ES
+Content-Transfer-Encoding: quoted-printable
+
+
+Hello everyone,
+
+I have to say I was a bit shocked as well. I don't really understand the
+process for HRPC documents anymore.
+
+First we said we needed more traction on the list, and I do believe
+there has been a lot of discussion. But then, it doesn't make sense to
+discuss things endlessly in HRPC if the drafts will never become
+research group documents. Especially if they also fit with the RG
+charter. Being new to this list and group, I have to say I feel a bit
+demotivated.
+
+That said, Mallory would make an excellent co-chair: she was the
+technical coordinator at one of the most prominent digital civil society
+organisations, APC, and she also has a strong human rights background. I
+urge decision-makers in this process to be as transparent as possible
+and take our opinions into consideration.
+
+Cheers from Mexico,
+
+--------
+Gisela P=E9rez de Acha
+derechosdigitales.org
+
+
+
+
+
+
+> Hi,
+>=20
+> I am a bit surprised by some of the remarks;
+> draft-tenoever-hrpc-guidelines did not get any discussion on the list
+> whereas draft-tenoever-hrpc-association has been discussed at length in=
+
+> 3 hrpc sessions and gotten a lot of discussions on the list (also after=
+
+> last session), as well as acks for RG adoption.
+>=20
+> Your reasoning that we can make drafts a work-item but not an RG draft
+> does not make a lot of sense to me since RG drafts _are_ the work items=
+
+> of the RG.
+>=20
+> Where it comes to a new co-chair I think we need to look for someone wh=
+o
+> has the time, knowledge, motivation, experience and willingness to work=
+
+> on this. We received notice from one volunteer who is very interested i=
+n
+> co-chairing and who has been a contributor on this list for a long time=
+:
+> Mallory Knodel. So I hope we will consider her as co-chair.
+>=20
+> Best,
+>=20
+> Niels
+>=20
+> Niels ten Oever
+> Head of Digital
+>=20
+> Article 19
+> www.article19.org
+>=20
+> PGP fingerprint    2458 0B70 5C4A FD8A 9488
+>                    643A 0ED8 3F3A 468A C8B3
+>=20
+> On 12/18/2017 12:54 PM, Avri wrote:
+>> Hi,
+>>
+>> Been quiet, reading the comments in the various messages, listening to=
+
+>> the views of people on the documents.
+>>
+>> As far as I can tell at this point, there is strong support
+>> for=A0draft-tenoever-hrpc-guidelines becoming a RG document and would =
+be
+>> glad to see it become one. =A0I think this is important, not only beca=
+use
+>> RFC 8280 is a bit heavy, but because while 8280 does a good job of
+>> establishing a hypothesis and of giving a set of considerations that w=
+e
+>> can study, the work is not yet done. =A0The hypothesis needs to be tes=
+ted,
+>> and the considerations need to used and refined once we can determine
+>> the degree to which they are useful and fit for purpose. =A0
+>>
+>> On the other documents, I think I would like to see more comment and
+>> more support. =A0I also do not think that finished work necessarily ne=
+eds
+>> to become a RG draft. If indeed a private doc is considered ready, we
+>> can still request publication. =A0As I have often told by others, this=
+ is
+>> a research group and every document does not need to become a research=
+
+>> document in order to prove its worth. =A0So at this point, I do not fe=
+el
+>> there is a strong need for turning the 451 report into a RG draft in
+>> order to publish it. =A0If, and when, the RG believes it is ready for
+>> publication, I believe we can just request publication and go through
+>> the IRTF process (but I will confirm that).
+>>
+>> As far as the association draft goes, while I agree that it is not qui=
+te
+>> ready for RG document status, I do believe it is one that should becom=
+e
+>> a work item. =A0I also think the same for the anonymity draft - once I=
+ get
+>> the impression we have many people who think it is ready.
+>>
+>> In terms of published work, I would also like to see the group branch
+>> out into academic journals if possible, though I do not think the work=
+
+>> has yet reached the level were it is ready for most journals.
+>>
+>> In terms of the group and the possible need for a new co-chair, I have=
+
+>> spoken to Allison but we are waiting to see what Niels=92 final decisi=
+on
+>> is - he has said he was thinking of stepping down, but has not actuall=
+y
+>> done so, and remains the co-chair as of now. =A0If he does step down,
+>> while the choice is not mine but the IRTF Chair=92s, I would like to b=
+ring
+>> in a co-chair with the social sciences skills to bring the benefits of=
+
+>> scientific rigor to the RG=92s work. =A0One of the hopes when we start=
+ed
+>> this group was that it could be equally strong in Internet engineering=
+,
+>> human rights, and social sciences. I believe that while it is crucial
+>> that work be useful to engineers, it is also important that it be vali=
+d
+>> from a scientific point of view - the notion that there is a link
+>> between human rights and technology is still a theory that does not ha=
+ve
+>> wide acceptance. =A0If the work is to stand the test of time, I believ=
+e it
+>> needs to be acceptable to all three, engineers, human rights experts a=
+nd
+>> social scientists.
+>>
+>>
+>> Those are my thoughts at this point, curious to ready what thers have =
+to
+>> say in the continuing discussion.
+>>
+>> Thanks
+>> Avri
+>>
+>>
+>> _______________________________________________
+>> hrpc mailing list
+>> hrpc@irtf.org
+>> https://www.irtf.org/mailman/listinfo/hrpc
+>>
+>=20
+>=20
+>=20
+> _______________________________________________
+> hrpc mailing list
+> hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+>=20
+
+
+--urHJCwPQlfPaSig4tAxRAhdoOkobImMds--
+
+--Q1lkwtD9tk8v4gPjEUQfTqELT5UPKNrkj
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Comment: GPGTools - https://gpgtools.org
+
+iQIcBAEBCgAGBQJaOVwSAAoJEK3mymyvegy47ZQQAKYSFo4KYIfE9KGp7Lv214gI
+KFtV9lQD4xZSkaDLYN/SHL1QYLr0UIjDYkUllBDPuQj6Hw8uPPU4kNaAwgy3E0BQ
+saOXo2Gb+VShcnuejedbOkj42ZPqvIhRUDW+HVKTPEuES/0vWDzoGEyM8HlqLdnY
+a6KoMd3lCenMb+mZnr6M3KIRR7ijLMkoecQcJsnqJLahTRmADJXg10xmLD4yno3H
+Vwq7zTv2agQ3hcXvextzPRBSykN6VlI0JJlx5I1LpPNO/9KrsdxoUrWwh65KuYJJ
+0Fq7KdoFj5G2weVUJVhcJqQCEZqrnjBa5IwzekHJuE/PfBsjtGZaSX3YHGmp8YyE
+kZecD0iFEka0RgkgrUOYBaRhruk3dIhN0EzkD9ulEg30e/8De2LQjYDp6ljDDwxc
+o/qRwhyd4lBBbmOg4ROzOBpUY10FPDvXLO/roWMBrlBG6dsl88Tinqj1SWKz8K5s
+e5pRz0/deCzaDcToCh36kF1kMYXhoU+dj17CFRjaAWO0yvobC8XJHXlFtx4omeH1
+U8hv/aR6WmGTK0GVApYKQjhpgWC62tRqsC1nQQfxx3XiY26BqxmxYK2nupAqoFPS
+BZX/QOVymg1izjIZyxWzvGAubTIxk1K5mv9DaUyy+DH9JvxyrEUrOmWiU119rwbE
+4YoKHoNBcV6s3+K8zam8
+=fvfM
+-----END PGP SIGNATURE-----
+
+--Q1lkwtD9tk8v4gPjEUQfTqELT5UPKNrkj--
+
+
+From nobody Wed Dec 20 03:16:26 2017
+Return-Path: <session-request@ietf.org>
+X-Original-To: hrpc@irtf.org
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from ietfa.amsl.com (localhost [IPv6:::1]) by ietfa.amsl.com (Postfix) with ESMTP id DAF511200F3; Wed, 20 Dec 2017 03:16:24 -0800 (PST)
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+From: IETF Meeting Session Request Tool <session-request@ietf.org>
+To: <session-request@ietf.org>
+Cc: hrpc-chairs@ietf.org, niels@article19.org, hrpc@irtf.org, irtf-chair@irtf.org
+X-Test-IDTracker: no
+X-IETF-IDTracker: 6.68.0
+Auto-Submitted: auto-generated
+Precedence: bulk
+Message-ID: <151376858487.2601.11435511512576486155.idtracker@ietfa.amsl.com>
+Date: Wed, 20 Dec 2017 03:16:24 -0800
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/LGgfYcF_Ngfpo_5yAqP5ddkfv6k>
+Subject: [hrpc] hrpc - New Meeting Session Request for IETF 101
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 20 Dec 2017 11:16:25 -0000
+
+A new meeting session request has just been submitted by Niels ten Oever, a Chair of the hrpc working group.
+
+
+---------------------------------------------------------
+Working Group Name: Human Rights Protocol Considerations
+Area Name: IRTF
+Session Requester: Niels ten Oever
+
+Number of Sessions: 1
+Length of Session(s):  2 Hours
+Number of Attendees: 80
+Conflicts to Avoid: 
+ First Priority: quic httpbis saag dnsop
+ Second Priority:  irtfopen
+
+
+
+People who must be present:
+  Avri Doria
+  Niels ten Oever
+
+Resources Requested:
+
+Special Requests:
+  Preferably not scheduled on Friday.
+---------------------------------------------------------
+
+
+From nobody Thu Dec 21 06:36:11 2017
+Return-Path: <jhall@cdt.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id ECE08126CC7 for <hrpc@ietfa.amsl.com>; Thu, 21 Dec 2017 06:36:09 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2
+X-Spam-Level: 
+X-Spam-Status: No, score=-2 tagged_above=-999 required=5 tests=[BAYES_00=-1.9,  DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=cdt.org
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Yg3k6ckQULpB for <hrpc@ietfa.amsl.com>; Thu, 21 Dec 2017 06:36:07 -0800 (PST)
+Received: from mail-ua0-x234.google.com (mail-ua0-x234.google.com [IPv6:2607:f8b0:400c:c08::234]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 10A99124D68 for <hrpc@irtf.org>; Thu, 21 Dec 2017 06:36:07 -0800 (PST)
+Received: by mail-ua0-x234.google.com with SMTP id i4so17631170uab.5 for <hrpc@irtf.org>; Thu, 21 Dec 2017 06:36:07 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=cdt.org; s=google; h=mime-version:in-reply-to:references:from:date:message-id:subject:to :cc:content-transfer-encoding; bh=5BeDxUwmba+sL/Z0YLXrr2gX1XFCtGIcAiV5OoTCMTo=; b=pztpEuBA2VXT0GsbV7VQbNimCOLuRv7YVSQhI/DRUNeDslI97QmnwiO4FwB1UCR9C3 NTRFmBinaXifLdwz34yG003Q8a1caeyT6H+A/qmc68M+QgcNYmf6zdFTEZ5M8FVAMRy/ gXDiMstqGDF7QqTOE38pbeQY1ZPRIKZyYiVyY=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:in-reply-to:references:from:date :message-id:subject:to:cc:content-transfer-encoding; bh=5BeDxUwmba+sL/Z0YLXrr2gX1XFCtGIcAiV5OoTCMTo=; b=Ta0+wGXKW1k0Iaden4JMk5sSAPoPAqUSUBzkCGvn9M2qk4al3pxBdUmA5jFTySxALv NHgj3PTAx/27c3qocwB3mj3mQQjHVgJ64+mmc1/RxpyABQP4Yaj1qki4k97Lz0RIu4ti Hyk5KwlnhHprSlar1ta2qBtxeVOMPN3zVfPp1ZTEDyxmpxk7U69QMVoiWcQeTaX8C/hg McI/B//zzvb0mtRrGm7F3gVHqYwAfNozZryx724B/6ACeOOO8qt2UhMHI+6VLLhGLYIS 7B+g2BmoYonsAsSEkfB0EeICSrrqCrTR2j0Pp6iZZOAeeYU24gxFPUL/eVMMAtg6o/5k I8TA==
+X-Gm-Message-State: AKGB3mIzd6Tkc0Vh+ySdjoLOLXg8yvwmDC/5lyJkSKNWUQv62PZjqDdn nGpcC6Vzo0kEGcJFUfJmQNulf3pF8fMXD4Au8HGeUQ==
+X-Google-Smtp-Source: ACJfBovSe6zgRBox1Xs3MRIlVJlfPn7kKWOMqB1AyudScdATljcjDQTHDTTvic3h9cErrQ2VRdy18mrPkjdTI9kcjcI=
+X-Received: by 10.176.66.228 with SMTP id j91mr1314244uaj.166.1513866965684; Thu, 21 Dec 2017 06:36:05 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.103.89.70 with HTTP; Thu, 21 Dec 2017 06:35:45 -0800 (PST)
+In-Reply-To: <e4f67b45-9b94-df49-2eec-fe31b0f9de0c@derechosdigitales.org>
+References: <757d5b93-bc4e-4dc7-aba3-0610480eab85@avris-iPad> <04ea7dbd-4a91-8ddb-5a53-fe165ee63b18@article19.org> <e4f67b45-9b94-df49-2eec-fe31b0f9de0c@derechosdigitales.org>
+From: Joseph Lorenzo Hall <joe@cdt.org>
+Date: Thu, 21 Dec 2017 09:35:45 -0500
+Message-ID: <CABtrr-U-LCqYF_06Aa6gMJDgPxGetX_-kTXdGwC0N08-NrFQ3Q@mail.gmail.com>
+To: Gisela Perez de Acha <gisela@derechosdigitales.org>
+Cc: Hrpc <hrpc@irtf.org>
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/KY7ohnn7GkkgJ7aB8j6K_cuRzfQ>
+Subject: Re: [hrpc] HRPC, next
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 21 Dec 2017 14:36:10 -0000
+
++1
+
+On Tue, Dec 19, 2017 at 1:35 PM, Gisela Perez de Acha
+<gisela@derechosdigitales.org> wrote:
+>
+> Hello everyone,
+>
+> I have to say I was a bit shocked as well. I don't really understand the
+> process for HRPC documents anymore.
+>
+> First we said we needed more traction on the list, and I do believe
+> there has been a lot of discussion. But then, it doesn't make sense to
+> discuss things endlessly in HRPC if the drafts will never become
+> research group documents. Especially if they also fit with the RG
+> charter. Being new to this list and group, I have to say I feel a bit
+> demotivated.
+>
+> That said, Mallory would make an excellent co-chair: she was the
+> technical coordinator at one of the most prominent digital civil society
+> organisations, APC, and she also has a strong human rights background. I
+> urge decision-makers in this process to be as transparent as possible
+> and take our opinions into consideration.
+>
+> Cheers from Mexico,
+>
+> --------
+> Gisela P=C3=A9rez de Acha
+> derechosdigitales.org
+>
+>
+>
+>
+>
+>
+>> Hi,
+>>
+>> I am a bit surprised by some of the remarks;
+>> draft-tenoever-hrpc-guidelines did not get any discussion on the list
+>> whereas draft-tenoever-hrpc-association has been discussed at length in
+>> 3 hrpc sessions and gotten a lot of discussions on the list (also after
+>> last session), as well as acks for RG adoption.
+>>
+>> Your reasoning that we can make drafts a work-item but not an RG draft
+>> does not make a lot of sense to me since RG drafts _are_ the work items
+>> of the RG.
+>>
+>> Where it comes to a new co-chair I think we need to look for someone who
+>> has the time, knowledge, motivation, experience and willingness to work
+>> on this. We received notice from one volunteer who is very interested in
+>> co-chairing and who has been a contributor on this list for a long time:
+>> Mallory Knodel. So I hope we will consider her as co-chair.
+>>
+>> Best,
+>>
+>> Niels
+>>
+>> Niels ten Oever
+>> Head of Digital
+>>
+>> Article 19
+>> www.article19.org
+>>
+>> PGP fingerprint    2458 0B70 5C4A FD8A 9488
+>>                    643A 0ED8 3F3A 468A C8B3
+>>
+>> On 12/18/2017 12:54 PM, Avri wrote:
+>>> Hi,
+>>>
+>>> Been quiet, reading the comments in the various messages, listening to
+>>> the views of people on the documents.
+>>>
+>>> As far as I can tell at this point, there is strong support
+>>> for draft-tenoever-hrpc-guidelines becoming a RG document and would be
+>>> glad to see it become one.  I think this is important, not only because
+>>> RFC 8280 is a bit heavy, but because while 8280 does a good job of
+>>> establishing a hypothesis and of giving a set of considerations that we
+>>> can study, the work is not yet done.  The hypothesis needs to be tested=
+,
+>>> and the considerations need to used and refined once we can determine
+>>> the degree to which they are useful and fit for purpose.
+>>>
+>>> On the other documents, I think I would like to see more comment and
+>>> more support.  I also do not think that finished work necessarily needs
+>>> to become a RG draft. If indeed a private doc is considered ready, we
+>>> can still request publication.  As I have often told by others, this is
+>>> a research group and every document does not need to become a research
+>>> document in order to prove its worth.  So at this point, I do not feel
+>>> there is a strong need for turning the 451 report into a RG draft in
+>>> order to publish it.  If, and when, the RG believes it is ready for
+>>> publication, I believe we can just request publication and go through
+>>> the IRTF process (but I will confirm that).
+>>>
+>>> As far as the association draft goes, while I agree that it is not quit=
+e
+>>> ready for RG document status, I do believe it is one that should become
+>>> a work item.  I also think the same for the anonymity draft - once I ge=
+t
+>>> the impression we have many people who think it is ready.
+>>>
+>>> In terms of published work, I would also like to see the group branch
+>>> out into academic journals if possible, though I do not think the work
+>>> has yet reached the level were it is ready for most journals.
+>>>
+>>> In terms of the group and the possible need for a new co-chair, I have
+>>> spoken to Allison but we are waiting to see what Niels=E2=80=99 final d=
+ecision
+>>> is - he has said he was thinking of stepping down, but has not actually
+>>> done so, and remains the co-chair as of now.  If he does step down,
+>>> while the choice is not mine but the IRTF Chair=E2=80=99s, I would like=
+ to bring
+>>> in a co-chair with the social sciences skills to bring the benefits of
+>>> scientific rigor to the RG=E2=80=99s work.  One of the hopes when we st=
+arted
+>>> this group was that it could be equally strong in Internet engineering,
+>>> human rights, and social sciences. I believe that while it is crucial
+>>> that work be useful to engineers, it is also important that it be valid
+>>> from a scientific point of view - the notion that there is a link
+>>> between human rights and technology is still a theory that does not hav=
+e
+>>> wide acceptance.  If the work is to stand the test of time, I believe i=
+t
+>>> needs to be acceptable to all three, engineers, human rights experts an=
+d
+>>> social scientists.
+>>>
+>>>
+>>> Those are my thoughts at this point, curious to ready what thers have t=
+o
+>>> say in the continuing discussion.
+>>>
+>>> Thanks
+>>> Avri
+>>>
+>>>
+>>> _______________________________________________
+>>> hrpc mailing list
+>>> hrpc@irtf.org
+>>> https://www.irtf.org/mailman/listinfo/hrpc
+>>>
+>>
+>>
+>>
+>> _______________________________________________
+>> hrpc mailing list
+>> hrpc@irtf.org
+>> https://www.irtf.org/mailman/listinfo/hrpc
+>>
+>
+>
+> _______________________________________________
+> hrpc mailing list
+> hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+>
+
+
+
+--=20
+Joseph Lorenzo Hall
+Chief Technologist, Center for Democracy & Technology [https://www.cdt.org]
+1401 K ST NW STE 200, Washington DC 20005-3497
+e: joe@cdt.org, p: 202.407.8825, pgp: https://josephhall.org/gpg-key
+Fingerprint: 3CA2 8D7B 9F6D DBD3 4B10  1607 5F86 6987 40A9 A871
+
+
+From nobody Fri Dec 22 06:24:55 2017
+Return-Path: <mallory@apc.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id D5F7912EAB3 for <hrpc@ietfa.amsl.com>; Fri, 22 Dec 2017 06:24:54 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -4.209
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.209 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_MED=-2.3, T_RP_MATCHES_RCVD=-0.01] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id dGgfcy0TMit4 for <hrpc@ietfa.amsl.com>; Fri, 22 Dec 2017 06:24:50 -0800 (PST)
+Received: from mail.gn.apc.org (mail.gn.apc.org [37.220.108.136]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 57C8812EAB2 for <hrpc@irtf.org>; Fri, 22 Dec 2017 06:24:50 -0800 (PST)
+Received: from localhost (localhost [127.0.0.1]) by mail.gn.apc.org (Postfix) with ESMTP id 7E4DD203096A for <hrpc@irtf.org>; Fri, 22 Dec 2017 14:24:48 +0000 (GMT)
+X-Virus-Scanned: by amavisd-new at mail.gn.apc.org
+Received: from mail.gn.apc.org ([127.0.0.1]) by localhost (mail.gn.apc.org [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id TrP_oWstYAUu for <hrpc@irtf.org>; Fri, 22 Dec 2017 14:24:44 +0000 (GMT)
+Received: from anonymous ([10.254.254.3])  (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) (Authenticated sender: mallory) by mail.gn.apc.org (Postfix) with ESMTPSA id A6AF4202DBCE for <hrpc@irtf.org>; Fri, 22 Dec 2017 14:24:42 +0000 (GMT)
+To: hrpc@irtf.org
+References: <757d5b93-bc4e-4dc7-aba3-0610480eab85@avris-iPad> <04ea7dbd-4a91-8ddb-5a53-fe165ee63b18@article19.org> <e4f67b45-9b94-df49-2eec-fe31b0f9de0c@derechosdigitales.org>
+From: Mallory Knodel <mallory@apc.org>
+Message-ID: <26c2c0d6-fea7-a33b-5de2-eeba0124c345@apc.org>
+Date: Fri, 22 Dec 2017 19:54:33 +0530
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Thunderbird/52.3.0
+MIME-Version: 1.0
+In-Reply-To: <e4f67b45-9b94-df49-2eec-fe31b0f9de0c@derechosdigitales.org>
+Content-Type: multipart/signed; micalg=pgp-sha256; protocol="application/pgp-signature"; boundary="J1PAEXdBa7A2Hr9lqQrWF5jIAs672UORa"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/dxYscMUMGUJCSzvw78L9oP7BKiY>
+Subject: Re: [hrpc] HRPC, next
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 22 Dec 2017 14:24:55 -0000
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--J1PAEXdBa7A2Hr9lqQrWF5jIAs672UORa
+Content-Type: multipart/mixed; boundary="goA9X85naJRpi6lLNpA8PreiSr9mCnMMq";
+ protected-headers="v1"
+From: Mallory Knodel <mallory@apc.org>
+To: hrpc@irtf.org
+Message-ID: <26c2c0d6-fea7-a33b-5de2-eeba0124c345@apc.org>
+Subject: Re: [hrpc] HRPC, next
+References: <757d5b93-bc4e-4dc7-aba3-0610480eab85@avris-iPad>
+ <04ea7dbd-4a91-8ddb-5a53-fe165ee63b18@article19.org>
+ <e4f67b45-9b94-df49-2eec-fe31b0f9de0c@derechosdigitales.org>
+In-Reply-To: <e4f67b45-9b94-df49-2eec-fe31b0f9de0c@derechosdigitales.org>
+
+--goA9X85naJRpi6lLNpA8PreiSr9mCnMMq
+Content-Type: multipart/alternative;
+ boundary="------------7A9D1FFBDCCC7044F8E649DA"
+Content-Language: en-US
+
+This is a multi-part message in MIME format.
+--------------7A9D1FFBDCCC7044F8E649DA
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Hi all,
+
+I've been following the working group since the beginning, both
+online/list and in conversations with both the chairs and authors.
+
+I've maintained infrastructure (and fought attacks) for civil society
+groups via mayfirst.org and apc.org over the last 8 years, and I'm a
+board member of equalit.ie, who provides DDOS protection for civil societ=
+y.
+
+I'm looking forward to facilitating discussion, helping organise
+sessions and building on the important work already done-- such as by
+applying, testing and improving the guidelines on rfc8280 with the draft
+docs. It helps a great deal that my new employer allows me to put a
+significant amount of time to this. (I'm moving from APC to ARTICLE 19
+on 2 January.)
+
+I would really value the opportunity to work closely with Avri as
+co-chair. And I welcome any questions from the group.
+
+Very much looking forward to seeing you all at IETF101 in London and to
+discussion on the list.
+
+Best,
+
+-Mallory
+
+On 20/12/17 12:05 AM, Gisela Perez de Acha wrote:
+> Hello everyone,
+>
+> I have to say I was a bit shocked as well. I don't really understand th=
+e
+> process for HRPC documents anymore.
+>
+> First we said we needed more traction on the list, and I do believe
+> there has been a lot of discussion. But then, it doesn't make sense to
+> discuss things endlessly in HRPC if the drafts will never become
+> research group documents. Especially if they also fit with the RG
+> charter. Being new to this list and group, I have to say I feel a bit
+> demotivated.
+>
+> That said, Mallory would make an excellent co-chair: she was the
+> technical coordinator at one of the most prominent digital civil societ=
+y
+> organisations, APC, and she also has a strong human rights background. =
+I
+> urge decision-makers in this process to be as transparent as possible
+> and take our opinions into consideration.
+>
+> Cheers from Mexico,
+>
+> --------
+> Gisela P=E9rez de Acha
+> derechosdigitales.org
+>
+>
+>
+>
+>
+>
+>> Hi,
+>>
+>> I am a bit surprised by some of the remarks;
+>> draft-tenoever-hrpc-guidelines did not get any discussion on the list
+>> whereas draft-tenoever-hrpc-association has been discussed at length i=
+n
+>> 3 hrpc sessions and gotten a lot of discussions on the list (also afte=
+r
+>> last session), as well as acks for RG adoption.
+>>
+>> Your reasoning that we can make drafts a work-item but not an RG draft=
+
+>> does not make a lot of sense to me since RG drafts _are_ the work item=
+s
+>> of the RG.
+>>
+>> Where it comes to a new co-chair I think we need to look for someone w=
+ho
+>> has the time, knowledge, motivation, experience and willingness to wor=
+k
+>> on this. We received notice from one volunteer who is very interested =
+in
+>> co-chairing and who has been a contributor on this list for a long tim=
+e:
+>> Mallory Knodel. So I hope we will consider her as co-chair.
+>>
+>> Best,
+>>
+>> Niels
+>>
+>> Niels ten Oever
+>> Head of Digital
+>>
+>> Article 19
+>> www.article19.org
+>>
+>> PGP fingerprint    2458 0B70 5C4A FD8A 9488
+>>                    643A 0ED8 3F3A 468A C8B3
+>>
+>> On 12/18/2017 12:54 PM, Avri wrote:
+>>> Hi,
+>>>
+>>> Been quiet, reading the comments in the various messages, listening t=
+o
+>>> the views of people on the documents.
+>>>
+>>> As far as I can tell at this point, there is strong support
+>>> for=A0draft-tenoever-hrpc-guidelines becoming a RG document and would=
+ be
+>>> glad to see it become one. =A0I think this is important, not only bec=
+ause
+>>> RFC 8280 is a bit heavy, but because while 8280 does a good job of
+>>> establishing a hypothesis and of giving a set of considerations that =
+we
+>>> can study, the work is not yet done. =A0The hypothesis needs to be te=
+sted,
+>>> and the considerations need to used and refined once we can determine=
+
+>>> the degree to which they are useful and fit for purpose. =A0
+>>>
+>>> On the other documents, I think I would like to see more comment and
+>>> more support. =A0I also do not think that finished work necessarily n=
+eeds
+>>> to become a RG draft. If indeed a private doc is considered ready, we=
+
+>>> can still request publication. =A0As I have often told by others, thi=
+s is
+>>> a research group and every document does not need to become a researc=
+h
+>>> document in order to prove its worth. =A0So at this point, I do not f=
+eel
+>>> there is a strong need for turning the 451 report into a RG draft in
+>>> order to publish it. =A0If, and when, the RG believes it is ready for=
+
+>>> publication, I believe we can just request publication and go through=
+
+>>> the IRTF process (but I will confirm that).
+>>>
+>>> As far as the association draft goes, while I agree that it is not qu=
+ite
+>>> ready for RG document status, I do believe it is one that should beco=
+me
+>>> a work item. =A0I also think the same for the anonymity draft - once =
+I get
+>>> the impression we have many people who think it is ready.
+>>>
+>>> In terms of published work, I would also like to see the group branch=
+
+>>> out into academic journals if possible, though I do not think the wor=
+k
+>>> has yet reached the level were it is ready for most journals.
+>>>
+>>> In terms of the group and the possible need for a new co-chair, I hav=
+e
+>>> spoken to Allison but we are waiting to see what Niels=92 final decis=
+ion
+>>> is - he has said he was thinking of stepping down, but has not actual=
+ly
+>>> done so, and remains the co-chair as of now. =A0If he does step down,=
+
+>>> while the choice is not mine but the IRTF Chair=92s, I would like to =
+bring
+>>> in a co-chair with the social sciences skills to bring the benefits o=
+f
+>>> scientific rigor to the RG=92s work. =A0One of the hopes when we star=
+ted
+>>> this group was that it could be equally strong in Internet engineerin=
+g,
+>>> human rights, and social sciences. I believe that while it is crucial=
+
+>>> that work be useful to engineers, it is also important that it be val=
+id
+>>> from a scientific point of view - the notion that there is a link
+>>> between human rights and technology is still a theory that does not h=
+ave
+>>> wide acceptance. =A0If the work is to stand the test of time, I belie=
+ve it
+>>> needs to be acceptable to all three, engineers, human rights experts =
+and
+>>> social scientists.
+>>>
+>>>
+>>> Those are my thoughts at this point, curious to ready what thers have=
+ to
+>>> say in the continuing discussion.
+>>>
+>>> Thanks
+>>> Avri
+>>>
+>>>
+>>> _______________________________________________
+>>> hrpc mailing list
+>>> hrpc@irtf.org
+>>> https://www.irtf.org/mailman/listinfo/hrpc
+>>>
+>>
+>>
+>> _______________________________________________
+>> hrpc mailing list
+>> hrpc@irtf.org
+>> https://www.irtf.org/mailman/listinfo/hrpc
+>>
+>
+>
+> _______________________________________________
+> hrpc mailing list
+> hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+
+--=20
+Mallory Knodel
+Association for Progressive Communications :: apc.org <https://apc.org>
+gpg fingerprint :: E3EB 63E0 65A3 B240 BCD9 B071 0C32 A271 BD3C C780
+
+--------------7A9D1FFBDCCC7044F8E649DA
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html;
+      charset=3Dwindows-1252">
+  </head>
+  <body text=3D"#000000" bgcolor=3D"#FFFFFF">
+    <p>Hi all,</p>
+    <p>I've been following the working group since the beginning, both
+      online/list and in conversations with both the chairs and authors.<=
+/p>
+    <p>I've maintained infrastructure (and fought attacks) for civil
+      society groups via mayfirst.org and apc.org over the last 8 years,
+      and I'm a board member of equalit.ie, who provides DDOS protection
+      for civil society.</p>
+    <p>I'm looking forward to facilitating discussion, helping organise
+      sessions and building on the important work already done-- such as
+      by applying, testing and improving the guidelines on rfc8280 with
+      the draft docs. It helps a great deal that my new employer allows
+      me to put a significant amount of time to this. (I'm moving from
+      APC to ARTICLE 19 on 2 January.)</p>
+    <p>I would really value the opportunity to work closely with Avri as
+      co-chair. And I welcome any questions from the group.<br>
+    </p>
+    <p>Very much looking forward to seeing you all at IETF101 in London
+      and to discussion on the list.<br>
+      <br>
+      Best,</p>
+    <p>-Mallory<br>
+    </p>
+    On 20/12/17 12:05 AM, Gisela Perez de Acha wrote:<br>
+    <blockquote type=3D"cite"
+      cite=3D"mid:e4f67b45-9b94-df49-2eec-fe31b0f9de0c@derechosdigitales.=
+org">
+      <pre wrap=3D"">
+Hello everyone,
+
+I have to say I was a bit shocked as well. I don't really understand the
+process for HRPC documents anymore.
+
+First we said we needed more traction on the list, and I do believe
+there has been a lot of discussion. But then, it doesn't make sense to
+discuss things endlessly in HRPC if the drafts will never become
+research group documents. Especially if they also fit with the RG
+charter. Being new to this list and group, I have to say I feel a bit
+demotivated.
+
+That said, Mallory would make an excellent co-chair: she was the
+technical coordinator at one of the most prominent digital civil society
+organisations, APC, and she also has a strong human rights background. I
+urge decision-makers in this process to be as transparent as possible
+and take our opinions into consideration.
+
+Cheers from Mexico,
+
+--------
+Gisela P=E9rez de Acha
+derechosdigitales.org
+
+
+
+
+
+
+</pre>
+      <blockquote type=3D"cite">
+        <pre wrap=3D"">Hi,
+
+I am a bit surprised by some of the remarks;
+draft-tenoever-hrpc-guidelines did not get any discussion on the list
+whereas draft-tenoever-hrpc-association has been discussed at length in
+3 hrpc sessions and gotten a lot of discussions on the list (also after
+last session), as well as acks for RG adoption.
+
+Your reasoning that we can make drafts a work-item but not an RG draft
+does not make a lot of sense to me since RG drafts _are_ the work items
+of the RG.
+
+Where it comes to a new co-chair I think we need to look for someone who
+has the time, knowledge, motivation, experience and willingness to work
+on this. We received notice from one volunteer who is very interested in
+co-chairing and who has been a contributor on this list for a long time:
+Mallory Knodel. So I hope we will consider her as co-chair.
+
+Best,
+
+Niels
+
+Niels ten Oever
+Head of Digital
+
+Article 19
+<a class=3D"moz-txt-link-abbreviated" href=3D"http://www.article19.org">w=
+ww.article19.org</a>
+
+PGP fingerprint    2458 0B70 5C4A FD8A 9488
+                   643A 0ED8 3F3A 468A C8B3
+
+On 12/18/2017 12:54 PM, Avri wrote:
+</pre>
+        <blockquote type=3D"cite">
+          <pre wrap=3D"">Hi,
+
+Been quiet, reading the comments in the various messages, listening to
+the views of people on the documents.
+
+As far as I can tell at this point, there is strong support
+for=A0draft-tenoever-hrpc-guidelines becoming a RG document and would be
+glad to see it become one. =A0I think this is important, not only because=
+
+RFC 8280 is a bit heavy, but because while 8280 does a good job of
+establishing a hypothesis and of giving a set of considerations that we
+can study, the work is not yet done. =A0The hypothesis needs to be tested=
+,
+and the considerations need to used and refined once we can determine
+the degree to which they are useful and fit for purpose. =A0
+
+On the other documents, I think I would like to see more comment and
+more support. =A0I also do not think that finished work necessarily needs=
+
+to become a RG draft. If indeed a private doc is considered ready, we
+can still request publication. =A0As I have often told by others, this is=
+
+a research group and every document does not need to become a research
+document in order to prove its worth. =A0So at this point, I do not feel
+there is a strong need for turning the 451 report into a RG draft in
+order to publish it. =A0If, and when, the RG believes it is ready for
+publication, I believe we can just request publication and go through
+the IRTF process (but I will confirm that).
+
+As far as the association draft goes, while I agree that it is not quite
+ready for RG document status, I do believe it is one that should become
+a work item. =A0I also think the same for the anonymity draft - once I ge=
+t
+the impression we have many people who think it is ready.
+
+In terms of published work, I would also like to see the group branch
+out into academic journals if possible, though I do not think the work
+has yet reached the level were it is ready for most journals.
+
+In terms of the group and the possible need for a new co-chair, I have
+spoken to Allison but we are waiting to see what Niels=92 final decision
+is - he has said he was thinking of stepping down, but has not actually
+done so, and remains the co-chair as of now. =A0If he does step down,
+while the choice is not mine but the IRTF Chair=92s, I would like to brin=
+g
+in a co-chair with the social sciences skills to bring the benefits of
+scientific rigor to the RG=92s work. =A0One of the hopes when we started
+this group was that it could be equally strong in Internet engineering,
+human rights, and social sciences. I believe that while it is crucial
+that work be useful to engineers, it is also important that it be valid
+from a scientific point of view - the notion that there is a link
+between human rights and technology is still a theory that does not have
+wide acceptance. =A0If the work is to stand the test of time, I believe i=
+t
+needs to be acceptable to all three, engineers, human rights experts and
+social scientists.
+
+
+Those are my thoughts at this point, curious to ready what thers have to
+say in the continuing discussion.
+
+Thanks
+Avri
+
+
+_______________________________________________
+hrpc mailing list
+<a class=3D"moz-txt-link-abbreviated" href=3D"mailto:hrpc@irtf.org">hrpc@=
+irtf.org</a>
+<a class=3D"moz-txt-link-freetext" href=3D"https://www.irtf.org/mailman/l=
+istinfo/hrpc">https://www.irtf.org/mailman/listinfo/hrpc</a>
+
+</pre>
+        </blockquote>
+        <pre wrap=3D"">
+
+
+_______________________________________________
+hrpc mailing list
+<a class=3D"moz-txt-link-abbreviated" href=3D"mailto:hrpc@irtf.org">hrpc@=
+irtf.org</a>
+<a class=3D"moz-txt-link-freetext" href=3D"https://www.irtf.org/mailman/l=
+istinfo/hrpc">https://www.irtf.org/mailman/listinfo/hrpc</a>
+
+</pre>
+      </blockquote>
+      <pre wrap=3D"">
+</pre>
+      <br>
+      <fieldset class=3D"mimeAttachmentHeader"></fieldset>
+      <br>
+      <pre wrap=3D"">_______________________________________________
+hrpc mailing list
+<a class=3D"moz-txt-link-abbreviated" href=3D"mailto:hrpc@irtf.org">hrpc@=
+irtf.org</a>
+<a class=3D"moz-txt-link-freetext" href=3D"https://www.irtf.org/mailman/l=
+istinfo/hrpc">https://www.irtf.org/mailman/listinfo/hrpc</a>
+</pre>
+    </blockquote>
+    <br>
+    <div class=3D"moz-signature">-- <br>
+      Mallory Knodel<br>
+      Association for Progressive Communications :: <a
+        href=3D"https://apc.org">apc.org</a><br>
+      gpg fingerprint :: E3EB 63E0 65A3 B240 BCD9 B071 0C32 A271 BD3C
+      C780</div>
+  </body>
+</html>
+
+--------------7A9D1FFBDCCC7044F8E649DA--
+
+--goA9X85naJRpi6lLNpA8PreiSr9mCnMMq--
+
+--J1PAEXdBa7A2Hr9lqQrWF5jIAs672UORa
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQEcBAEBCAAGBQJaPRWmAAoJEAwyonG9PMeA1sYH/2bG3asGhB99RGo/iavHjYhX
+R4PG/hooeuhAjUZsimj5nbaAjADzRQeW6LVNPu0grWwMFrrWtXNskdjq89LWl2Wr
+Sm+Gd1MNVpOtyJpbx3/+HCCLBzHHQphLrdRQ679SUtU4WjsIfCbUvi4t77qYGUZ8
+cWbfRgHX/EOPlcY9CKtsPnVk1lZ7k6I/Sy1oYrr/fRSOUctpD+qGo3LEsdaS4HXe
+4mfP8qADnM0z727zG+GxHcKypQo+Z3ylUJZvVtLp4l150OLD5vS1gntZfB6ROAC4
+jfD3NkAfKUJIotl4sDuyqum2l7SgloSmuUEJBESa9j13vzy8HxWacKoBF35OarA=
+=Z6c+
+-----END PGP SIGNATURE-----
+
+--J1PAEXdBa7A2Hr9lqQrWF5jIAs672UORa--
+

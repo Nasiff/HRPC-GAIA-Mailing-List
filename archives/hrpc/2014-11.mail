@@ -1,0 +1,496 @@
+From lucas@lucasteixeira.com Sat Nov 01 13:19:57 2014
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <lucas@lucasteixeira.com>) id 1XkXev-0005Id-EG
+	for hrpc@article19.io; Sat, 01 Nov 2014 13:19:57 +0100
+Received: from vps784.greenhost.nl ([213.108.108.114] helo=mail.article19.io)
+	by mx1.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <lucas@lucasteixeira.com>)
+	id 1XkXev-0004gd-4n
+	for hrpc@article19.io; Sat, 01 Nov 2014 13:19:57 +0100
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 17F7719C022
+	for <hrpc@article19.io>; Sat,  1 Nov 2014 12:20:18 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+X-Spam-Flag: NO
+X-Spam-Score: -1.919
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.919 tagged_above=-10 required=6.6
+	tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_NONE=-0.0001,
+	RCVD_IN_MSPIKE_H3=-0.01, RCVD_IN_MSPIKE_WL=-0.01,
+	TVD_SPACE_RATIO=0.001] autolearn=ham autolearn_force=no
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id GBNWZcl2dpvA for <hrpc@article19.io>;
+	Sat,  1 Nov 2014 12:20:17 +0000 (UTC)
+Received: from homiemail-a9.g.dreamhost.com (homie.mail.dreamhost.com
+	[208.97.132.208])
+	by mail.article19.io (Postfix) with ESMTP id 0045F19C021
+	for <hrpc@article19.io>; Sat,  1 Nov 2014 12:20:16 +0000 (UTC)
+Received: from homiemail-a9.g.dreamhost.com (localhost [127.0.0.1])
+	by homiemail-a9.g.dreamhost.com (Postfix) with ESMTP id 8E825626079
+	for <hrpc@article19.io>; Sat,  1 Nov 2014 05:19:54 -0700 (PDT)
+Received: from [192.168.1.114] (177-069-213-116.static.ctbctelecom.com.br
+	[177.69.213.116])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	(Authenticated sender: lucas@lucasteixeira.com)
+	by homiemail-a9.g.dreamhost.com (Postfix) with ESMTPSA id E107A62605C
+	for <hrpc@article19.io>; Sat,  1 Nov 2014 05:19:53 -0700 (PDT)
+Message-ID: <5454CF44.2070401@lucasteixeira.com>
+Date: Sat, 01 Nov 2014 10:17:08 -0200
+From: Lucas Teixeira <lucas@lucasteixeira.com>
+User-Agent: Mozilla/5.0 (X11; Linux i686;
+	rv:24.0) Gecko/20100101 Icedove/24.8.1
+MIME-Version: 1.0
+To: hrpc@article19.io
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+X-Spam-Level: /
+X-Spam-Status: No, score=0.0 required=5.0 tests=BAYES_40,
+	TVD_SPACE_RATIO autolearn=disabled version=3.3.2
+X-Spam-Score: 0.0
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 90bded12c98a7585e40e19a32b9e3834
+X-Mailman-Approved-At: Sat, 01 Nov 2014 13:24:40 +0100
+Subject: [hrpc] subscribe
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Sat, 01 Nov 2014 12:19:57 -0000
+
+
+
+
+From compsoftnet@gmail.com Sat Nov 01 23:52:48 2014
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <compsoftnet@gmail.com>) id 1XkhXM-00063o-98
+	for hrpc@article19.io; Sat, 01 Nov 2014 23:52:48 +0100
+Received: from vps784.greenhost.nl ([213.108.108.114] helo=mail.article19.io)
+	by mx1.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <compsoftnet@gmail.com>)
+	id 1XkhXL-0005sY-SM
+	for hrpc@article19.io; Sat, 01 Nov 2014 23:52:48 +0100
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 3D2E519C022
+	for <hrpc@article19.io>; Sat,  1 Nov 2014 22:53:09 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+X-Spam-Flag: NO
+X-Spam-Score: -1.96
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.96 tagged_above=-10 required=6.6
+	tests=[BAYES_05=-0.5, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001,
+	RCVD_IN_DNSWL_LOW=-0.7, RCVD_IN_MSPIKE_H2=-0.661, SPF_PASS=-0.001]
+	autolearn=ham autolearn_force=no
+Authentication-Results: mail.article19.io (amavisd-new);
+	dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 1wm1w5rP7K57 for <hrpc@article19.io>;
+	Sat,  1 Nov 2014 22:53:06 +0000 (UTC)
+Received: from mail-vc0-f171.google.com (mail-vc0-f171.google.com
+	[209.85.220.171])
+	by mail.article19.io (Postfix) with ESMTPS id 7863A19C021
+	for <hrpc@article19.io>; Sat,  1 Nov 2014 22:53:06 +0000 (UTC)
+Received: by mail-vc0-f171.google.com with SMTP id lf12so2696962vcb.2
+	for <hrpc@article19.io>; Sat, 01 Nov 2014 15:52:43 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;
+	h=mime-version:date:message-id:subject:from:to:content-type;
+	bh=prIyOXo0NRjm1KRVUr+3YWYrKyAxEnKKR0uQQ09b3Vs=;
+	b=BJNqQKn3jVjdfe8iyXkHDMPX38guKbyF4YW/NpM/U9gtcDApZON/VYnRV7+6yGC3YT
+	qPLfG6kzdaFIbBj9L8L1DnWzd3r4EYli3AdmjREVVKK3OmZS9AWNfKgRidk38x6OH2wJ
+	vXi7WS7uVVupFe9a1O6oJtUEIZ4KMvUKTeAVVYmJx/lFxwz0SkXw1Ko8XFdKq3ZDrE5Q
+	NaCapX5H3wcaNukhlFUrf8hP+sgrJmwiwMTm5j8NN3MtmdOPcaUAGqigQ9dBJgMCJkYq
+	wUEQ00eSsvLFcwjqA7ZUUPgBvT7QAjgKqydVTM2Qo9O7NVgzEThi3ruJ1cysNdRZvPCb
+	szng==
+MIME-Version: 1.0
+X-Received: by 10.220.76.134 with SMTP id c6mr64734vck.49.1414882363278; Sat,
+	01 Nov 2014 15:52:43 -0700 (PDT)
+Received: by 10.220.128.2 with HTTP; Sat, 1 Nov 2014 15:52:43 -0700 (PDT)
+Received: by 10.220.128.2 with HTTP; Sat, 1 Nov 2014 15:52:43 -0700 (PDT)
+Date: Sat, 1 Nov 2014 23:52:43 +0100
+Message-ID: <CAGK4d0_8h8raDnXj26JqpqsMJyitAKqu1gJdvmmpw3vH=EV30g@mail.gmail.com>
+From: Akinremi Peter Taiwo <compsoftnet@gmail.com>
+To: hrpc@article19.io
+Content-Type: multipart/alternative; boundary=001a11c2ca04a98e5d0506d3f803
+X-Spam-Level: +
+X-Spam-Status: No, score=1.4 required=5.0 tests=BAYES_50, DKIM_SIGNED,
+	DKIM_VALID, DKIM_VALID_AU, FREEMAIL_FROM, HTML_MESSAGE,
+	SPF_SOFTFAIL autolearn=disabled version=3.3.2
+X-Spam-Score: 1.4
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: a07cf4f22b7e0347d98fbeb4081a69be
+X-Mailman-Approved-At: Mon, 03 Nov 2014 10:32:39 +0100
+Subject: [hrpc] Proposal for research on human rights protocol considerations
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Sat, 01 Nov 2014 22:52:48 -0000
+
+--001a11c2ca04a98e5d0506d3f803
+Content-Type: text/plain; charset=UTF-8
+
+Hi,
+
+Would like to no more on this proposal and engage.
+
+Thank
+
+--001a11c2ca04a98e5d0506d3f803
+Content-Type: text/html; charset=UTF-8
+
+<p>Hi,</p>
+<p>Would like to no more on this proposal and engage.</p>
+<p>Thank</p>
+
+--001a11c2ca04a98e5d0506d3f803--
+
+
+From mail@nielstenoever.net Sun Nov 09 10:39:58 2014
+Received: from [10.10.12.45] (helo=mx2.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <mail@nielstenoever.net>) id 1XnOyU-0003pc-SD
+	for hrpc@article19.io; Sun, 09 Nov 2014 10:39:58 +0100
+Received: from smarthost1.greenhost.nl ([195.190.28.81])
+	by mx2.greenhost.nl with esmtps (TLS1.0:RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <mail@nielstenoever.net>)
+	id 1XnOyU-00076T-QD
+	for hrpc@article19.io; Sun, 09 Nov 2014 10:39:58 +0100
+Received: from smtp.greenhost.nl ([213.108.104.138])
+	by smarthost1.greenhost.nl with esmtps (TLS1.0:RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <mail@nielstenoever.net>)
+	id 1XnOyP-00089U-Jk
+	for hrpc@article19.io; Sun, 09 Nov 2014 10:39:58 +0100
+Message-ID: <545F3629.3090704@nielstenoever.net>
+Date: Sat, 08 Nov 2014 23:38:49 -1000
+From: Niels ten Oever <mail@nielstenoever.net>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:24.0) Gecko/20100101 Icedove/24.8.1
+MIME-Version: 1.0
+To: hrpc@article19.io
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+X-Authenticated-As-Hash: f1842a279235a42f6aa2a2a81130733515c5a4ec
+X-Virus-Scanned: by clamav at smarthost1.samage.net
+X-Spam-Level: --
+X-Spam-Score: -2.9
+X-Spam-Status: No, score=-2.9 required=5.0 tests=ALL_TRUSTED,
+	BAYES_00 autolearn=disabled version=3.3.2
+X-Scan-Signature: 964c6a2bc69af72888bec91466701c23
+X-Mailman-Approved-At: Sun, 09 Nov 2014 10:46:31 +0100
+Subject: [hrpc] test3
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Sun, 09 Nov 2014 09:39:59 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+test3
+- -- 
+Niels ten Oever
+@conflictmedia
+
+PGP fingerprint = 8D9F C567 BEE4 A431 56C4 678B 08B5 A0F2 636D 68E9
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBCgAGBQJUXzYpAAoJEAi1oPJjbWjpOWAH/2h4yNPSZSq67TsMsmlKag5l
+STRa2uUGaZzq27eYLLjG52RNFpJtLMuPUtFqqTOKQ10Zu3JH1/Uwiz8lW1QktOSC
+fxkQ/xIW5b2gyRM17WcsP3mNe5IBxlNnXQR6882/a3W9QrZ7UTjTTgVZzYG/Waux
+whs7qB5WDpYmuQJMmdR8PKTojLWyxf9raFrwFoO9vdTuQfacsTxjdVwEFZ5eEDCp
+rN41ffZY+jGVffUdc6g78lUbR62paovfzSUsbCodIZmi1oUWEhEb+SNS9faBL+OO
+8RwPJ1Vvy4yI13dFfS6//4D2KWHN0uE3wIdls8GquUcxlAzXOgEHSeHM0znVHEs=
+=RjmL
+-----END PGP SIGNATURE-----
+
+
+From mail@nielstenoever.net Sun Nov 09 10:47:23 2014
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <mail@nielstenoever.net>) id 1XnP5f-0003rK-Gx
+	for hrpc@article19.io; Sun, 09 Nov 2014 10:47:23 +0100
+Received: from smarthost1.greenhost.nl ([195.190.28.81])
+	by mx1.greenhost.nl with esmtps (TLS1.0:RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <mail@nielstenoever.net>)
+	id 1XnP5f-0001Nr-EF
+	for hrpc@article19.io; Sun, 09 Nov 2014 10:47:23 +0100
+Received: from smtp.greenhost.nl ([213.108.104.138])
+	by smarthost1.greenhost.nl with esmtps (TLS1.0:RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <mail@nielstenoever.net>)
+	id 1XnP5a-0000KA-1t
+	for hrpc@article19.io; Sun, 09 Nov 2014 10:47:23 +0100
+Message-ID: <545F37E5.6020702@nielstenoever.net>
+Date: Sat, 08 Nov 2014 23:46:13 -1000
+From: Niels ten Oever <mail@nielstenoever.net>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:24.0) Gecko/20100101 Icedove/24.8.1
+MIME-Version: 1.0
+To: hrpc@article19.io
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+X-Authenticated-As-Hash: f1842a279235a42f6aa2a2a81130733515c5a4ec
+X-Virus-Scanned: by clamav at smarthost1.samage.net
+X-Spam-Level: --
+X-Spam-Score: -2.9
+X-Spam-Status: No, score=-2.9 required=5.0 tests=ALL_TRUSTED,
+	BAYES_00 autolearn=disabled version=3.3.1
+X-Scan-Signature: 964c6a2bc69af72888bec91466701c23
+X-Mailman-Approved-At: Sun, 09 Nov 2014 10:48:59 +0100
+Subject: [hrpc] test4
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Sun, 09 Nov 2014 09:47:23 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+test4
+- -- 
+Niels ten Oever
+@conflictmedia
+
+PGP fingerprint = 8D9F C567 BEE4 A431 56C4 678B 08B5 A0F2 636D 68E9
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBCgAGBQJUXzflAAoJEAi1oPJjbWjpR5IIAKMKWAKOzaZz4fzAqEefgeQz
+jRetiL17C5Sc7vE0kLNGFFjcyTOHSuK43KUc/NaBZ3ySEhMHO++egVEsxVwy0sQW
+C9RSzSpJtnap2xznrBSbQPVXcD7ri17EHb3yoDFWFrGOhu9YMk6wwTvigGVJ1rvL
+cuD9d/0vxKjZbgA6PS8+XZpWqVPyozLnNb2gwdrCJ8ObXEFRBX73iXUBKZWCZvEk
+Hy8MQe088Q2kM5o01cGv6GfLBdKltq95LYrYNLHNSJua8+IFIdQuN26TbPJdxr1E
+5xUqNVownDKhCvu3vnZG5V4kNQXQQaL94+sfdEPiZ23gnT4KHSp42TtIWwK8434=
+=oIA1
+-----END PGP SIGNATURE-----
+
+
+From niels@article19.org Sun Nov 09 11:27:43 2014
+Received: from [10.10.12.45] (helo=mx2.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <niels@article19.org>) id 1XnPih-0003vQ-Be
+	for hrpc@article19.io; Sun, 09 Nov 2014 11:27:43 +0100
+Received: from mailgate.article19.org ([62.49.125.10])
+	by mx2.greenhost.nl with esmtp (Exim 4.72)
+	(envelope-from <niels@article19.org>) id 1XnPig-0007kH-VO
+	for hrpc@article19.io; Sun, 09 Nov 2014 11:27:43 +0100
+Received: from mailgate.article19.org (127.0.0.1) id hbt0ps0171sp for
+	<hrpc@article19.io>;
+	Sun, 9 Nov 2014 10:27:40 +0000 (envelope-from <niels@article19.org>)
+Received: from mail.article19.org ([192.168.1.4])
+	by mailgate.article19.org (A19mailgateway)
+	with ESMTP id 201411091027380032096; Sun, 09 Nov 2014 10:27:38 +0000
+Received: from A19MAIL.aricle19.org ([::1]) by A19MAIL.aricle19.org ([::1])
+	with mapi id 14.02.0387.000; Sun, 9 Nov 2014 10:27:37 +0000
+From: Niels ten Oever <niels@article19.org>
+To: "hrpc@article19.io" <hrpc@article19.io>
+Thread-Topic: IETF91 about to start - HRPC presentation at SAAG
+Thread-Index: Ac/8B8fAYRhWIkPGSHSsHYP2Hl0LDQ==
+Date: Sun, 9 Nov 2014 10:27:36 +0000
+Message-ID: <BF4D71141EE5EB4BAF77E4406388D34B3871A39C@A19MAIL.aricle19.org>
+Accept-Language: en-GB, en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [72.130.134.117]
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Mlf-Version: 7.4.6.1945
+X-Mlf-UniqueId: o201411091027380032096
+X-Spam-Level: /
+X-Spam-Status: No, score=0.2 required=5.0 tests=BAYES_50,
+	RP_MATCHES_RCVD autolearn=disabled version=3.3.2
+X-Spam-Score: 0.2
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 2394e6fd9f1e9f86011669f8146dc264
+Subject: [hrpc] IETF91 about to start - HRPC presentation at SAAG
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Sun, 09 Nov 2014 10:27:43 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----=0A=
+Hash: SHA512=0A=
+=0A=
+Dear all,=0A=
+=0A=
+Welcome to this list. Please pardon me for the earlier test messages,=0A=
+I was making the final tweaks before IETF91 is about to start.=0A=
+=0A=
+Thursday we'll briefly present the proposal at the Security Area Open=0A=
+Meeting in Coral 3, which is held between 13-15 PM HAST (audio=0A=
+streaming here: http://ietf91streaming.dnsalias.net/ietf/ietf913.m3u ).=0A=
+=0A=
+If you are here in Honolulu we would be very interested in discussing=0A=
+the draft with you in person, just drop me and/or Joana (cc) an email=0A=
+to work out the details.=0A=
+=0A=
+Thank you for your interest in this topic.=0A=
+=0A=
+Best,=0A=
+=0A=
+Niels=0A=
+=0A=
+=0A=
+- -- =0A=
+Niels ten Oever=0A=
+Head of Digital=0A=
+=0A=
+Article 19=0A=
+www.article19.org=0A=
+=0A=
+PGP fingerprint =3D 8D9F C567 BEE4 A431 56C4 678B 08B5 A0F2 636D 68E9=0A=
+-----BEGIN PGP SIGNATURE-----=0A=
+Version: GnuPG v1.4.12 (GNU/Linux)=0A=
+=0A=
+iQEcBAEBCgAGBQJUX0FbAAoJEAi1oPJjbWjpzyAH/Auv7kRSXNAM2m/mHQxHYJt+=0A=
+WhsFaR+KsnBV38rmN/Rzahm1MbhSaiINvMpizG4aaUFs15ni0BS1vSOnhfMWdWXr=0A=
+QahNgkKJiJynvpvbATnDi0NAaMqBrpw7m1Z/0ba52VFRa5DV7u6bPFrOyBGtHMRY=0A=
+kBkPXgv6l19KD59GRyhHTsaA85JH4vAJM6fwVGkc8N4zepdv4+6hUsJq4M4J8xYt=0A=
+weNJXgzssg2tMWnlAKMzQ6UxqxLkAaBExiz76yW6nMWTBI2d++R9EuuVx1Cbq8QG=0A=
+XwsJDtANAjiwX9/6u5xuF2qOBVSupoWLKQJkzvzcjiWwl277Ntkc3kQp/DFdLyY=3D=0A=
+=3DraCH=0A=
+-----END PGP SIGNATURE-----=0A=
+
+
+From bortzmeyer@nic.fr Fri Nov 14 06:35:36 2014
+Received: from [10.10.12.45] (helo=mx2.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <bortzmeyer@nic.fr>) id 1Xp9Xj-0004y2-La
+	for hrpc@article19.io; Fri, 14 Nov 2014 06:35:35 +0100
+Received: from aetius.bortzmeyer.org ([217.70.190.232]
+	helo=mail.bortzmeyer.org)
+	by mx2.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <bortzmeyer@nic.fr>) id 1Xp9Xj-0007Ty-2l
+	for hrpc@article19.io; Fri, 14 Nov 2014 06:35:35 +0100
+Received: by mail.bortzmeyer.org (Postfix, from userid 10)
+	id 513263C0A6; Fri, 14 Nov 2014 06:35:34 +0100 (CET)
+Received: by tyrion (Postfix, from userid 1000)
+	id 03BE9F01428; Thu, 13 Nov 2014 21:35:08 -0800 (PST)
+Date: Thu, 13 Nov 2014 19:35:08 -1000
+From: Stephane Bortzmeyer <bortzmeyer@nic.fr>
+To: hrpc@article19.io
+Message-ID: <20141114053508.GA25277@laperouse.bortzmeyer.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+X-Transport: UUCP rules
+X-Operating-System: Ubuntu 14.04 (trusty)
+User-Agent: Mutt/1.5.21 (2010-09-15)
+X-Spam-Level: /
+X-Spam-Status: No, score=0.8 required=5.0 tests=BAYES_50 autolearn=disabled
+	version=3.3.2
+X-Spam-Score: 0.8
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: f0eed3f1d89bc5fb772880ef8d54351a
+Subject: [hrpc] Technical remarks on draft-doria-hrpc-proposal-00
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Fri, 14 Nov 2014 05:35:36 -0000
+
+[Most of the remarks here have been done AFK at the Security Area Open
+Meeting during IETF 91 in Honululu. I repeat them here because
+sometimes oral remarks, like UDP packets, are lost in transit.]
+
+I first suggest that this work inside IETF/IRTF is certainly welcome
+and useful but we should also clearly state in the draft that we
+recognize that, today, the problem is, most of the time, not in the
+protocols (IETF/IRTF activity) but in software, architecture and
+business. For instance, to have full access to email (access being a
+HR), whatever your native language, fully internationalised email
+addresses are certainly necessary. All the standards exist (RFC 6530
+and its friends) but their deployment is very limited (except in
+Asia). So, there is certainly work to do, but it is not IETF/IRTF
+work, it is implementation and deployment.
+
+Section 2.1 of the draft could use some corrections. (By the way,
+there is no section 2.2: what was the idea?)
+
+2.1.3 is titled "HTML" why it should be "HTTP". But there is more
+important. The draft observes rightly that "Websites made it extremely
+easy for individuals to publish their ideas, opinions and thoughts."
+But it does not imply that it comes from specific properties of
+HTTP. Said otherwise, if we replaced HTTP with FTP or Gopher, what
+would be different, from the point of view of HR? IMHO, this is the
+sort of things to put in the draft, identify precised characteristics
+of protocols that "solidify, enable or threaten human rights". For
+HTTP, I would say there are none in most of the RFCs mentioned, but
+that proposals like the expired draft
+draft-tbray-http-legally-restricted-status certainly are interesting
+for the HR.
+
+2.1.5 grossly exaggerates the role of IDN, which are only a very small
+component in the internationalisation of the Internet. Even for
+"having their own URLs", they are only a part of the story (an URL is
+not made of just a domain name). This reminds me of the governance
+circus, where a disproportionate amount of effort was put in the IDN
+debate. It would be more interesting to identify the points where
+protocols are not yet internationalised enough. A good example is the
+work of the PRECIS working group <http://tools.ietf.org/wg/precis/>,
+for internationalised identifiers.
+
+I would also would like IPv6 to be mentioned: the lack of IPv4
+addresses severely limit access for people (with CGN and stuff like
+that, you can be a passive consumer but hosting content, for instance,
+is much more complicated) and I do not find too far-fetched to say
+that the deployment of IPv6 is partly a HR issue.
+

@@ -1,0 +1,2676 @@
+
+From nobody Fri Feb  1 03:26:38 2019
+Return-Path: <mallory@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id DAA3613121E; Fri,  1 Feb 2019 03:26:36 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.9 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id jhRXZRiTPxgv; Fri,  1 Feb 2019 03:26:34 -0800 (PST)
+Received: from smarthost1.greenhost.nl (smarthost1.greenhost.nl [195.190.28.88]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 7F17D13121D; Fri,  1 Feb 2019 03:26:33 -0800 (PST)
+Received: from smtp.greenhost.nl ([213.108.110.112]) by smarthost1.greenhost.nl with esmtps (TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128) (Exim 4.84_2) (envelope-from <mallory@article19.org>) id 1gpWxq-00071Y-87; Fri, 01 Feb 2019 12:26:30 +0100
+From: Mallory Knodel <mallory@article19.org>
+To: systers@ietf.org, hrpc@irtf.org, pearg@irtf.org
+Openpgp: preference=signencrypt
+Autocrypt: addr=mallory@article19.org; prefer-encrypt=mutual; keydata= mQENBEx0TWcBCAC8sirY3nlDnRwY6XWmsvZtM9kmEK6H8no3ZuQ723PKwHOddw1nOykh0in/ /QGRmwtyVzsfLh6/94UUZTn10oo+xGAfw2gf1on5IJTIiphykk732PNnUakVGWwHNKQquTVc kLrydUaFVMb89BAXqExBKlMg2ciEjzbYMCs3I/qZAZ0Wr5nF3RQS8O78elTNAgWTZ98yKTZV DlRoDpnvbfwtIPqnISoSjDEvEUBdpykvS3jHqlR1f6Mx6Xs97S5CORaer/0qTcDm0PAb1Z9l IhMsFl05tNt2FpgS4/RN8NyLasAQNOlScpTJbAfRuyyvRm1N8GLIL1KX+YYeLyqzhdhZABEB AAG0Jk1hbGxvcnkgS25vZGVsIDxtYWxsb3J5QGFydGljbGUxOS5vcmc+iQFWBBMBCABAAhsD BwsJCAcDAgEGFQgCCQoLBBYCAwECHgECF4AWIQTj62PgZaOyQLzZsHEMMqJxvTzHgAUCWqj1 ZQUJEBXbfgAKCRAMMqJxvTzHgIH0B/0aBKxyGbYB1LHsvTw6tYdcGmdzJ2i2O3EvYdQXESS0 IhkJj+lx4vuzK8Vdxtu7avbUfGX4z+CmCxjdBNWYUE8WTNNWVuSBxjCIyHnulBq13KtNxQUi 3k0em/o89gN2xP7r6iRuxYZ5OA3sNpAAwRj1vyiC99eZMc6dvqLipSnmysasQXhkf+WWSCHb o9VlwaPEFpbBoUeiElmEKNByaTzlG6hM3XfFI4FPFWMTB8nRNAsDTEaL0Auv9JkMMHrppJIV PQkiC66eo1hrlegpkH+1t+TUF8oZHpDm9zh1cESWO2/8DS7IgI3Io84/xEkYBeZUieBmiXV/ na2Kmh14Sn0puQENBEx0TWcBCADiak/YuMW4BbaWL0U9sNg4zO3Qy1OFeye8fJjR8O/wWVSq cqA+sxjzRUee2fHCp6kVLedy6dVfiKmr59p21r4selOdslKaWmEGtz2oYnGpyPB/jKjfleE5 cIkXCdqgDAhfbfuVdF7heHpfhUy4m3yOJl2+CluT/CG9AfaCtyrwqMJzLWK4vmkGXxnBgb92 mGK0WFB2oRydz+SsiobgpCAqJSLcr8ZHQ54SbD9yxxYPv8IsSjt4eJoZCFI7INBsz4i7aj/q 4xcxQ+xiUwyqCZUvrzMxpw7c8TXuPHStDyhnsKkFjxhlY5avNeu0VPwk72C64I+y93gpPrL3 vL0tEmU9ABEBAAGJATwEGAECACYCGwwWIQTj62PgZaOyQLzZsHEMMqJxvTzHgAUCWqj1ZgUJ EBXbfwAKCRAMMqJxvTzHgNThCACaXIGUWF9TSOmRvIPcdD7cImpZ0FPjbalUiuPeo1PZ6HJ9 Y7roy6J2Z3hjbv25XendNAQk5C+dXsVUAL35sjsB0HLTQECMeAnl5JBnEpNdSh54ECxNkc38 dod7CNhYcy8K67OKv9a3cDoJ6GHyCn0j9WD6gvd1OV1WqqBkuCcDzdtP9Hx8j97zksOWl3Eo nT67L+CuDcBsfstRSuYwgLaI7yZBZi42WLOxRksW8mEIBTZzmXwHma/YGhYWEv6XuaY1x0Vv AEVeifsRrWOQKdtZXG1eQ9iRy5a4xJMmzCf0eFlUlaNSicqpRkoBv0/FHML1ytn5fXi1BPeI m3Zrhkzj
+Message-ID: <5df84d02-4473-9041-aca0-c950e063b26a@article19.org>
+Date: Fri, 1 Feb 2019 14:26:27 +0300
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Thunderbird/60.4.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Language: en-US
+Content-Transfer-Encoding: quoted-printable
+X-Virus-Scanned: by clamav at smarthost1.samage.net
+X-Scan-Signature: 258bd43c1b7c380ff6f1b27dffaa1ebc
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/-nlmzwVBmrEo6mlZcXaHXsmcljU>
+Subject: [hrpc] Open applications at ARTICLE 19 for IETF, ICANN, IEEE
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.29
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 01 Feb 2019 11:26:37 -0000
+
+Hi all,
+
+I would like to share two opportunities to take up work in the IETF (and
+beyond) with ARTICLE 19.
+
+1. The first is a Senior Programme Officer position to lead our IETF and
+ICANN portfolio. You can find this open call here:
+
+2. Second, we have three fellowship positions open to cover these areas:
+
+ * Algorithmic decision making in both established and emerging spaces,
+like the Institute of Electrical and Electronics Engineers (IEEE) and
+the Partnership on AI (PAI).
+ * Public Interest Internet Standards in the IRTF and IETF.
+ * Radio Network Hardware in either the IEEE 802 LAN/MAN Standards
+Committee (LMSC) or the Third Generation Partnership Project (3GPP).
+
+Each Fellow will be expected to participate in three Internet
+governance-related meetings over the course of the year. Costs incurred
+during participation in meetings and conferences as part of this program
+will be covered by the Fellowship. Fellows will also receive a monthly
+honorarium of USD 300 over the duration of their fellowship.
+
+You can find instructions to apply to the fellowship here:
+https://share.article19.io/index.php/s/f9SzmAYzBizdMg5
+
+Thanks for sharing,
+-Mallory
+--=20
+Mallory Knodel
+Head of Digital :: article19.org
+gpg fingerprint :: E3EB 63E0 65A3 B240 BCD9  B071 0C32 A271 BD3C C780
+
+
+
+From nobody Fri Feb  1 03:27:55 2019
+Return-Path: <mallory@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 96A5113121D; Fri,  1 Feb 2019 03:27:53 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.9 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id wEvdhwxCBBXy; Fri,  1 Feb 2019 03:27:52 -0800 (PST)
+Received: from smarthost1.greenhost.nl (smarthost1.greenhost.nl [195.190.28.88]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id C59C512DF72; Fri,  1 Feb 2019 03:27:51 -0800 (PST)
+Received: from smtp.greenhost.nl ([213.108.110.112]) by smarthost1.greenhost.nl with esmtps (TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128) (Exim 4.84_2) (envelope-from <mallory@article19.org>) id 1gpWz7-0007Fd-FK; Fri, 01 Feb 2019 12:27:50 +0100
+From: Mallory Knodel <mallory@article19.org>
+To: systers@ietf.org, hrpc@irtf.org, pearg@irtf.org
+References: <5df84d02-4473-9041-aca0-c950e063b26a@article19.org>
+Openpgp: preference=signencrypt
+Autocrypt: addr=mallory@article19.org; prefer-encrypt=mutual; keydata= mQENBEx0TWcBCAC8sirY3nlDnRwY6XWmsvZtM9kmEK6H8no3ZuQ723PKwHOddw1nOykh0in/ /QGRmwtyVzsfLh6/94UUZTn10oo+xGAfw2gf1on5IJTIiphykk732PNnUakVGWwHNKQquTVc kLrydUaFVMb89BAXqExBKlMg2ciEjzbYMCs3I/qZAZ0Wr5nF3RQS8O78elTNAgWTZ98yKTZV DlRoDpnvbfwtIPqnISoSjDEvEUBdpykvS3jHqlR1f6Mx6Xs97S5CORaer/0qTcDm0PAb1Z9l IhMsFl05tNt2FpgS4/RN8NyLasAQNOlScpTJbAfRuyyvRm1N8GLIL1KX+YYeLyqzhdhZABEB AAG0Jk1hbGxvcnkgS25vZGVsIDxtYWxsb3J5QGFydGljbGUxOS5vcmc+iQFWBBMBCABAAhsD BwsJCAcDAgEGFQgCCQoLBBYCAwECHgECF4AWIQTj62PgZaOyQLzZsHEMMqJxvTzHgAUCWqj1 ZQUJEBXbfgAKCRAMMqJxvTzHgIH0B/0aBKxyGbYB1LHsvTw6tYdcGmdzJ2i2O3EvYdQXESS0 IhkJj+lx4vuzK8Vdxtu7avbUfGX4z+CmCxjdBNWYUE8WTNNWVuSBxjCIyHnulBq13KtNxQUi 3k0em/o89gN2xP7r6iRuxYZ5OA3sNpAAwRj1vyiC99eZMc6dvqLipSnmysasQXhkf+WWSCHb o9VlwaPEFpbBoUeiElmEKNByaTzlG6hM3XfFI4FPFWMTB8nRNAsDTEaL0Auv9JkMMHrppJIV PQkiC66eo1hrlegpkH+1t+TUF8oZHpDm9zh1cESWO2/8DS7IgI3Io84/xEkYBeZUieBmiXV/ na2Kmh14Sn0puQENBEx0TWcBCADiak/YuMW4BbaWL0U9sNg4zO3Qy1OFeye8fJjR8O/wWVSq cqA+sxjzRUee2fHCp6kVLedy6dVfiKmr59p21r4selOdslKaWmEGtz2oYnGpyPB/jKjfleE5 cIkXCdqgDAhfbfuVdF7heHpfhUy4m3yOJl2+CluT/CG9AfaCtyrwqMJzLWK4vmkGXxnBgb92 mGK0WFB2oRydz+SsiobgpCAqJSLcr8ZHQ54SbD9yxxYPv8IsSjt4eJoZCFI7INBsz4i7aj/q 4xcxQ+xiUwyqCZUvrzMxpw7c8TXuPHStDyhnsKkFjxhlY5avNeu0VPwk72C64I+y93gpPrL3 vL0tEmU9ABEBAAGJATwEGAECACYCGwwWIQTj62PgZaOyQLzZsHEMMqJxvTzHgAUCWqj1ZgUJ EBXbfwAKCRAMMqJxvTzHgNThCACaXIGUWF9TSOmRvIPcdD7cImpZ0FPjbalUiuPeo1PZ6HJ9 Y7roy6J2Z3hjbv25XendNAQk5C+dXsVUAL35sjsB0HLTQECMeAnl5JBnEpNdSh54ECxNkc38 dod7CNhYcy8K67OKv9a3cDoJ6GHyCn0j9WD6gvd1OV1WqqBkuCcDzdtP9Hx8j97zksOWl3Eo nT67L+CuDcBsfstRSuYwgLaI7yZBZi42WLOxRksW8mEIBTZzmXwHma/YGhYWEv6XuaY1x0Vv AEVeifsRrWOQKdtZXG1eQ9iRy5a4xJMmzCf0eFlUlaNSicqpRkoBv0/FHML1ytn5fXi1BPeI m3Zrhkzj
+Message-ID: <129651c9-99e0-9ec1-0f38-77712b020c8a@article19.org>
+Date: Fri, 1 Feb 2019 14:27:46 +0300
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Thunderbird/60.4.0
+MIME-Version: 1.0
+In-Reply-To: <5df84d02-4473-9041-aca0-c950e063b26a@article19.org>
+Content-Type: text/plain; charset=utf-8
+Content-Language: en-US
+Content-Transfer-Encoding: 7bit
+X-Virus-Scanned: by clamav at smarthost1.samage.net
+X-Scan-Signature: 12f61b0c8dc8dcc8c992b8e1fde77987
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/zO306A9eFvRPnSdYduQ5fXZ09PE>
+Subject: Re: [hrpc] Open applications at ARTICLE 19 for IETF, ICANN, IEEE
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.29
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 01 Feb 2019 11:27:54 -0000
+
+Apologies, here the link to the Senior Programme Officer position:
+https://article.peoplehr.net/Pages/JobBoard/Opening.aspx?v=c85cdc59-d757-4f17-b44e-86af66e7ca14
+
+On 01/02/2019 14:26, Mallory Knodel wrote:
+> Hi all,
+> 
+> I would like to share two opportunities to take up work in the IETF
+> (and beyond) with ARTICLE 19.
+> 
+> 1. The first is a Senior Programme Officer position to lead our IETF
+> and ICANN portfolio. You can find this open call here:
+> https://article.peoplehr.net/Pages/JobBoard/Opening.aspx?v=c85cdc59-d757-4f17-b44e-86af66e7ca14
+>
+>  2. Second, we have three fellowship positions open to cover these
+> areas:
+> 
+> * Algorithmic decision making in both established and emerging
+> spaces, like the Institute of Electrical and Electronics Engineers
+> (IEEE) and the Partnership on AI (PAI). * Public Interest Internet
+> Standards in the IRTF and IETF. * Radio Network Hardware in either
+> the IEEE 802 LAN/MAN Standards Committee (LMSC) or the Third
+> Generation Partnership Project (3GPP).
+> 
+> Each Fellow will be expected to participate in three Internet 
+> governance-related meetings over the course of the year. Costs
+> incurred during participation in meetings and conferences as part of
+> this program will be covered by the Fellowship. Fellows will also
+> receive a monthly honorarium of USD 300 over the duration of their
+> fellowship.
+> 
+> You can find instructions to apply to the fellowship here: 
+> https://share.article19.io/index.php/s/f9SzmAYzBizdMg5
+> 
+> Thanks for sharing, -Mallory
+> 
+
+
+-- 
+Mallory Knodel
+Head of Digital :: article19.org
+gpg fingerprint :: E3EB 63E0 65A3 B240 BCD9  B071 0C32 A271 BD3C C780
+
+
+From nobody Fri Feb  1 09:49:18 2019
+Return-Path: <hernani.marques@pep.foundation>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id F10E7131132 for <hrpc@ietfa.amsl.com>; Fri,  1 Feb 2019 09:49:15 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.12
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.12 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, FROM_EXCESS_BASE64=0.979, RCVD_IN_DNSWL_LOW=-0.7, RCVD_IN_SORBS_WEB=1.5, URIBL_BLOCKED=0.001] autolearn=no autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id W1buYUjR3GlS for <hrpc@ietfa.amsl.com>; Fri,  1 Feb 2019 09:49:13 -0800 (PST)
+Received: from dragon.pibit.ch (dragon.pibit.ch [94.231.81.244]) (using TLSv1.2 with cipher ADH-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 65D4913112C for <hrpc@irtf.org>; Fri,  1 Feb 2019 09:49:13 -0800 (PST)
+Received: from localhost (localhost [127.0.0.1]) by dragon.pibit.ch (Postfix) with ESMTP id B2439171C06B; Fri,  1 Feb 2019 18:49:10 +0100 (CET)
+Received: from dragon.pibit.ch ([127.0.0.1]) by localhost (dragon.pibit.ch [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 2zck_QryzKsI; Fri,  1 Feb 2019 18:49:08 +0100 (CET)
+Received: from [192.168.43.10] (125.233.197.178.dynamic.wless.lssmb00p-cgnat.res.cust.swisscom.ch [178.197.233.125]) by dragon.pibit.ch (Postfix) with ESMTPSA id C71E1171C05E; Fri,  1 Feb 2019 18:49:07 +0100 (CET)
+To: "hrpc@irtf.org" <hrpc@irtf.org>
+Cc: "Bernie Hoeneisen (bernhard.hoeneisen AT ucom.ch)" <bernie@ietf.hoeneisen.ch>, Alexey Melnikov <aamelnikov@fastmail.fm>
+From: =?UTF-8?B?SGVybsOibmkgTWFycXVlcyAocOKJoXAgZm91bmRhdGlvbik=?= <hernani.marques@pep.foundation>
+Openpgp: id=31733E0C598D3A1CF70955D6CB5738652768F7E9
+Message-ID: <575532d2-18f2-4cf4-2e62-1acb2b579208@pep.foundation>
+Date: Fri, 1 Feb 2019 18:49:07 +0100
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Thunderbird/60.4.0
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha512; protocol="application/pgp-signature"; boundary="gSIvAawuhZQWiK598Q44yI1IM15tOl0Ys"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/_LU-TrYDY6edSF_N8WqVg2kvqWw>
+Subject: [hrpc] MEDUP: New non-WG mailing list to fix privacy/usability issues (in, e.g., email, XMPP)
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.29
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 01 Feb 2019 17:49:16 -0000
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--gSIvAawuhZQWiK598Q44yI1IM15tOl0Ys
+Content-Type: multipart/mixed; boundary="Jxn3l5RhNWSy8xHchMq2G9tlHpnd7WZTl";
+ protected-headers="v1"
+From: =?UTF-8?B?SGVybsOibmkgTWFycXVlcyAocOKJoXAgZm91bmRhdGlvbik=?=
+ <hernani.marques@pep.foundation>
+To: "hrpc@irtf.org" <hrpc@irtf.org>
+Cc: "Bernie Hoeneisen (bernhard.hoeneisen AT ucom.ch)"
+ <bernie@ietf.hoeneisen.ch>, Alexey Melnikov <aamelnikov@fastmail.fm>
+Message-ID: <575532d2-18f2-4cf4-2e62-1acb2b579208@pep.foundation>
+Subject: MEDUP: New non-WG mailing list to fix privacy/usability issues (in,
+ e.g., email, XMPP)
+
+--Jxn3l5RhNWSy8xHchMq2G9tlHpnd7WZTl
+Content-Type: multipart/mixed;
+ boundary="------------C2CFA937B467B9778D46F195"
+Content-Language: en-US
+
+This is a multi-part message in MIME format.
+--------------C2CFA937B467B9778D46F195
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear HRPC folks
+
+I just want to inform you that Alexey (area director ART, CC) kindly
+created us a mailing list, which explicitly mentions HRPC work with RFC
+8280 as a guiding document (by some of its principles) to achieve
+privacy in a usable, interoperable and decentralized manner (e.g., for
+email & XMPP):
+
+Sign up here:
+
+https://www.ietf.org/mailman/admin/medup/members/list
+
+
+MEDUP =3D {Missing Elements for Decentralized and Usable Privacy}
+
+Description:
+
+"This list is for discussions of enhancements to application protocols
+for usable privacy.
+
+RFC 8280 has identified and documented important principles in such as
+Data Minimization, End-to-End and Interoperability in order to enable
+access to Human Rights. While (partial) implementations of these
+concepts are already available, today's applications widely lack Privacy
+support that ordinary users can easily handle.
+
+In MEDUP these issues are addressed based on Opportunistic Security (RFC
+7435) principles. Updates/usage clarifications to application level
+protocols such as email and XMPP are in scope."
+
+
+As soon as some more people are subscribed, Bernie & me will bring up
+some discussions on pretty Easy privacy (pEp) drafts, where also
+(increasingly) practical software already exists and which is designed
+and implemented along the lines described above, even thought we might
+be missing elements or need to change some of them in order to better
+meet the principles we strive for.
+
+By that, the list is of course open to contributions of other projects
+with similar goals, which -- discussing with each other -- can find the
+best solutions in protocols and formats to meet important HRPC
+principles for usable privacy. That's also the reason why the list name,
+spelled out, is immediately descriptive. :)
+
+
+Greets & nice WE!
+
+Hernani
+
+--=20
+p=E2=89=A1p foundation: https://pep.foundation/
+
+--------------C2CFA937B467B9778D46F195
+Content-Type: application/pgp-keys;
+ name="0xCB5738652768F7E9.asc"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: attachment;
+ filename="0xCB5738652768F7E9.asc"
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mQINBFWozlEBEADAIFgjylzzPH7JKRJPbiEGoSsrSaCrbWLdy4sNGD4fS7GsuZ9f
+o/E9iYzC7WwGhN8rB4jsLv/ZfGVbAsmpypvZdReVs/BPidR8Vo1WMOK3lww1L6j8
+7UV7TwUzG72u0zMXCUWMtX3+7kWZVlohXPCzDe7xyLu5tdfPWIAxDrI3h/+a4qAR
+ySVo8RwzILDwjbLF8at0w52oTRIWcr9CAus8ktRKBhc3MiUsSXHGgZLujUsXKAYg
+Vmh53uEVsjigeHZh6XPrzQPTnQ/VDcqNSRl4n+fQ2e/sZV7CQttcqb9zfj8P6Lyk
+jG3pe1AUSm9A0o75bi8PUluPWyH0wdt4D29xabFFyBANyYqKiLyZvnBqGSkqswnW
+00QoYtMaEBh7nyuoUCa0bTMCRn8NaXRCnuINx+E2llqJqeQ0sMJ5WSQe4RbkWRsF
+PJOdiouLyHEZUpyQlMFesu/mN565eZsw3a7u9hxnoFgX0tF0hoONMRSAU1y3aZeb
+a+DvwXDQcSaHmBARQ2v8qWdql16Zhvf7KFo5Cris9jNknInzs2L6pHVZN8AY2ESO
+2UXQJ+Fyy5BEHXS4LzEnWRPLYkAE5eVi+ZDcRMQeO2L3ZenqhcRRcQUAaRObho0L
+WzE+EE8ZvQxlA5hn/4/lHQLk8ZiEgenl+y/mtL8TeXB1HO4DrqahXvlu2QARAQAB
+tDxIZXJuw6JuaSBNYXJxdWVzIChw4omhcCBmb3VuZGF0aW9uKSA8aGVybmFuaUBw
+ZXAuZm91bmRhdGlvbj6JAjkEEwEIACMFAlcnOjUCGyMHCwkIBwMCAQYVCAIJCgsE
+FgIDAQIeAQIXgAAKCRDLVzhlJ2j36SSQEAC7L0ZgFNXZAsXUzDIj7ZcyG41jcIaF
+oBz+VyIz/72zsr7tR469bq9QulnEdhr5Zxa+sZauT+tktmehpQpkwAZRXb4jHawS
+MVGwzssKehUe+sN9rrkIKvFbKMHcL/ZUiaFKNL0dX/tbtA/lZGwMSGlE9x1BWPKX
+JrqiKUpvk278jFwkOfx+mzVSuuIcIn2o25BM6n4wxQnDizcES2Z9nXyYzSBagvW0
+v2LsOEatYgCFoTxuO37uPHXL3NlhipRx5dfIxKjX5zr2DOxKcS7SPio9cGJ8Z5gB
+jfC3ByoZfQVmrR0lfIxZVtFTzR8my+fOLDhL5U+3RVbGHHHjzJZY03a8RUpcWsMr
++lsogSH4h5z8QgkwfhTyBAUIcewHU5128dRG8m+wfTTHnQFCpmd0Ql3beRbAhN/e
+xQx5aJq81rPD7dunQtKB7iyiDpHjLWJ22aBr75GjSfF05Gr4LgLMFkATzrpnlXyR
+uLtZ0TTURWw+pximLJu/Smn5CKUClJayGOgp8a6bmNlxn6li6SZVoyu/S9RCUWTB
+z2dsv+iDjk/La7gcLxwrtkf2wFxvauaax5BjXoEnOAsD12wF3Snr6ymARh65rZ+C
+/HaiRpUXoUFIWUh0gRnJHa+EOxXq2wKBJul5toTlOEiqK93vVwKLlPgjiEY5NHEU
+7zpE7skkXYqKhIkCPAQTAQgAJgIbIwcLCQgHAwIBBhUIAgkKCwQWAgMBAh4BAheA
+BQJXJzpdAhkBAAoJEMtXOGUnaPfpktIP/iTLClFO8y+KN00z7cHxbistBKjkFlS+
+Q4RzNmXQXgXMaB9pMvIbCP6Fm11q13GGT2MLm5gpoIBH50/fCXxWPGaeMRyKvv3p
+PDbSwm7J7hDP5H2yCGclkzs0NntiZXbOmLhFdZjsIhi2GnNSrUve6MOUM18p0ph3
+f0+Ia3Ki3HaURLD4sGUJ12ig8tLI82nt+NaxEKCaD7b7KtV2XtMQ7RAVwax8to2m
+PBWzZReX4nMmqX8LNXhn1DFkCSGCl45umK7i39Em4+OYpLyWy3vMmKuGXA6uVenl
+WQbKuaw+Rer+MUOTM2sABfm5ffiNMGBO94JEGvgwSVUCmrqyBsZ846q+FTlJnapY
+/D63bIeINuX20TYxpzZSKh0U9sVKU6cd3koeH6CFYPLEICQBzDFZ7GTg9MJbAbGp
+y/P3klwdfHo8AcM6QIH7MIdfrkk5WljF1vz3FvWcGmoqmGRdrHt/JBsDw94p/d6G
+n/HWAX3gJvrF6+BTDUZ6pmhRFXrk71/M7Qz7FI2NzIv5XWmzYhxkQ58om1adBhx/
+PQZmCFJeXkp0pIBSWa3vuca6LOwsvipRoMhXSm9UCYFmYtsny871dIEMWfDaYisV
+mBSKRw2mZnAo/sjARxjqrPUEAIbzGJL3ePnyqj0P0mLYOqiEi+wxMEUzYpCn9WZc
+r1I/JWQ1Bri+iQIcBBIBCAAGBQJXe+cuAAoJEH+zxRJjw92vLy8P/1xWquKLJ1E6
+n0aDRPLRKV3dcdTS1CzXLbGOp1IkPrg35hAJtiqhlYDWqY7Ff/oHzYFwi1iClHwq
+FCTx3U2nGAU6O7/TVR99c9FTV4UdbO/et3J+rb6dRm3e+DoqCgBq/uvCrg7I8Gcw
+vTLOnIxXeL9N7ZIzV7Ac5rdowvzCMhGClRrT3im3fBpbe4EbHPfrTtBclZhL52rg
+2EYrfwu8b3OeNgNzEfS+T0GM9O9ZeTVU6xqtqCfyYYzTSOTL0nLxabl5QjSq+Xn1
+9Ye7tDGDIE47Tt1XCMQANwpfQzDYbJhYeXhX9fUw1oDIX0EbGJI/X7aHhDPn+bFY
+RsBUS7x/tuD6STnbDLanNjRvyBpttMkMwW9udO0QmMwApZ1PqyB+xGoKQCQhnN6y
+6RQDUjMBD180J0i6f9K5zezwrAqWjQo8fU7S5Q02d91iRk3msZtbNR6nM+ulVX8s
+8iKhHDBiJdzW8WT/wc2R06ch8LQ20sNscU4ZrdcC5IOL5uadCT0NTCr85vC47Qgw
+2Ywe7lYwvamkU9GeM0xIs5ZaLkC9PpWOGnQbrpFDod0nL+mot+/bdtI8fX+p99aC
+xmHAG9GIt4V0unAVvFo6HQUKN5h49sfLQk5nZqAfhrxFgoKPeL5IvTxls+D1+/1W
+UHBc9FkdnBLYOQz+IXKfpjf6Gus5u2dTtERIZXJuw6JuaSBNYXJxdWVzIChw4omh
+cCBmb3VuZGF0aW9uKSA8aGVybmFuaS5tYXJxdWVzQHBlcC5mb3VuZGF0aW9uPokC
+OQQTAQgAIwUCVyc6TgIbIwcLCQgHAwIBBhUIAgkKCwQWAgMBAh4BAheAAAoJEMtX
+OGUnaPfpn3gP/1V3n9Xt8ha1juDe11jq0y0g1jQr1JMhZOoBOp6ttSpYCe9HCoJw
+VyvO1iGLex6XHSe8zrWvP38aihFoK7jQBc8xwYht1DcpTM7HFyXJ5/Pch8BNS4ds
+c8eozvm96pBPPmFDcm+igG6dkO81/9oLqP8+Bagz8G58BktcFhvnjmLrkJftJAJQ
+4LyP5KlXgmUIxu9l//Wa8AMkty+feHTIIbrQGDTM44a9N+uHwJ4OQjHNvvOprg4U
+ZAhehLAzCk+gi68uHfhH0AtKwZ/v/lag7OYle0KZelxFsHnVE+Dhe8HlyKqtCCOC
+vkWGtz5CBJDO/V/xUQXBSJxJd4Q4w9Gyf0mJ+Ljr8iu1fyaEor68u1ZGkaWbzQSF
+8Ycx7o6MWV1fAyFpUNUs3M3vpmJpwrWQdNeCpQaczexnNcrzrYdFDLx8z7MMHEy8
+6QSmjmaDSA+VgAHzV3oo4R3Wu3wZKDwm4eFDBj8N5IBxMMfjfinnJb01WkAeRtAq
+K9KdXeWGs6eO6OBm8OSpao2V/lw3IZIiCdowPaEFzw96DwmES/zTAis74mENrhnb
+vDrzFVFkNOUdf2Sn9x81FJ7X13TEjENUhJJI87W+Ttk9eKUarkjtKdHfVpEMnO3L
+g6NJiAvwpcYfarzfmorrwp1pscLZBEFGiAuHVgNzY1YwXMirPVnY7MnziQIcBBIB
+CAAGBQJXe+cvAAoJEH+zxRJjw92v9lAP/2LhBOb9ztjDKSNJMn1IXJK9ALYor7wG
+3JrQvwJGdfKRj8b3p8nlGCtFpo32h/7t/9lNxPJmONJcc76Y+fqviseRNk05iGCO
+IycL8Q+2bLvzQP1w3exvo2imgJGgtZFZqQR6K/D70TrTwcyzpW6h+lN3ZmZu4Izv
+2pdtJMh83PZus0A1cHQUhIjCl46+uNT0BaEAdDpqcC59EWFFwPj+zEhZgTtrAU9c
+hSXj6s4254WMKa3BIuy90bWqyMuJt8+mLYTfnpNxaYrMX/puC5hs1WQi0BQVXdLR
+ooSOgYDaip0mXiOyqXHS0V94fuiONqzYYBjQBkpheorVuMDZL49bh2c2VyANxAaf
+cZSN82isbQG1anl6LJRRiGm6BYC+Ew8OWmVkCEWOK43G6IQ+Nl5Bmv+FyIoBQzaZ
+4ioR987nC82cLCbtaMMs9ib5cTZBEIAeDaD0THl08pCLkfR4nPLG/u+dTE5zxSrC
+P4o7OKLLnYTcOkU9WdhfZV/6a6iBJy3uvuFDoeoJG3Zv037gHFsmd83mo6xm9qls
+RyY3vOTtxJRxsn6mn4/RetutDxJxvubNZaxxL33coGm8GcMM3BaOdZiRgPOR9E5S
+MUrlnpaMwWno/mO9ivifW/BFSetfGN37wGeOcoMwwSCfj4OK9WVhfJFqFweL4StM
+BCQ6OZLcxWb3tDpIZXJuw6JuaSBNYXJxdWVzIChw4omhcCBwcm9qZWN0KSA8aGVy
+bmFuaUBwZXAtcHJvamVjdC5vcmc+iQI5BBMBCAAjBQJXJzp2AhsjBwsJCAcDAgEG
+FQgCCQoLBBYCAwECHgECF4AACgkQy1c4ZSdo9+kEng//VY+l7xtGPe9q/FwmZ4Zy
+APJn/hnwDjGhPeuEgsT4IgX220NB3UEXFAx8tCSuGY85862dC/AGQeGnzoM5u7rl
+TRFGuv92EtE2n/2Lfbte6yb5MRmzTgdR7cP1aNpvjCN+kEp4FfmHl1XPBFyX6WLE
+QG+ZnUDFIyHt2I7dehdN8UogJHdIfZ9y3IEhwPqAYq4CRkf7P8Zkk2km2Jh8Xjjg
+L5dsjCQKuNAnyktDpxUM3N/ifsOfrNulEIKlDA2yW3kcGL3CPj2ugwXgkSykeXaB
+zVoqbqRcPOO8/J7mVEOoLVjPwYq8f5NGWq2U0rbJnRTHX4benaxw7rCi+6nbAEHT
+j0zbpx6FH8fezuzx86dWlFngqzQDOkiZWzc7ql/eb7pzHXuQ3QC1D+zzNn9TSTSD
+AjRFpgIuPWkAb/7/WyRfwqd0XzqinisA78I+E+0MOhjpQab/i9hoQRB2LfGaI+gB
+taRX3aRotXNT1E5R1fq67r890Sjt3XTzADK9B6RqpMa6T0LDe4zS2CYnDbUBjljs
+YGR5WZ7K03Qx2p9qfCFBTt2wvy2J0b526b0yCRINc6TWDs/SlRqSs/ATaPSbOKfV
+UhXI8k0k2SV6FSBEPwIY0cUSRPSoANfv+IXjiW3RBbjNkvpbVtu98CDSbMBefAc3
+X8oVtrZ+rigZzd41QAhaOp2JAhwEEgEIAAYFAld75y8ACgkQf7PFEmPD3a8pNw//
+fQnOl3/RamWxLz3Vs2Righ3M1kZg+NjQ48mIqmSZLzwu9MQTn71nOUdyBnkmEm+b
+sYviNPQha93wYx4i2ioLKNSXyDa1dBbQloidQm0b3TkeU+5a/CN7r2OauReNvc4V
+gVupxaeUyEToFW/RnQihbu17zZkwqTmKolQ3hd//1P9nFGccYU/G4DQUonuBzCV6
+uOIKZ43KBA8vm4nk8uAW0PNLJHOaVM+vuDgLqx/r703RE1YaebvNC3IuXTfXpQHC
+GMa/gJQpxGmqLjlKDC63k1lYAk5gApkfj36+RPAiWYpGvo3i0EXTrXlwehqRJoYA
+8lNswk7LcvSFXfKugomMtCtH4vJUNL1sgE8tpWhQD73K8q3cHXLPIC3Tk0If+7h3
+xdnZArLLQrXEWFsIoRcQDLGVmJhy0Bynl+uNuTwmJRTvMUfXZk0PDu+UdjaK2rDv
+t38i/K9DkOa5lT39M0yV/RX1W286cjXnKdrHRp4lC9QN9soFuEuCzgjiSKYl+xKa
+oLGaJwvoxNAmduuLmuVitsriNFf+bi1PSEfDBBHq521Q9D5u3jhGZofGu2HOazCO
+GhZs041SQ/OP1P8+LjjxwSEpGsQJFdET87oqApCkMy43IEOB0DtOIKSVrdE46QBZ
+MAGA1KyssNkVozEKH0NU/gGOmjzkt7nS8qWvYIvcKN60Qkhlcm7Dom5pIE1hcnF1
+ZXMgKHDiiaFwIHByb2plY3QpIDxoZXJuYW5pLm1hcnF1ZXNAcGVwLXByb2plY3Qu
+b3JnPokCOQQTAQgAIwUCVyc6hgIbIwcLCQgHAwIBBhUIAgkKCwQWAgMBAh4BAheA
+AAoJEMtXOGUnaPfprZcQAL4wyuQHrMUb56gfvipTZNAV0YQopEeUtJlNPT3MDYTy
+D4AiTDmsDZwYaPI7O5m2bNSeLOmhAdqkUXhUOvEIWI0ABqkWVHL93nSEzFiI5HYI
+bmh0UqpYf0myXQdWE1qjN6n1xnqk1mmZ7RSuIJ/9zwliiX5Qyr/RVfxOVU3iBskn
+5iwGNs0N2anU6oA6EoD3VsuV650aIJN1c1e7bOd0QT4Z+FuYHPqsuZ/gnbD7AKJI
+rpO/DoWMG/Ayzw3M746Ff6GKlQFaCmMja6pkfX8NqylbPY+lDlznu9LYXK3z/7gc
+NSZL3y53d1G5DvbK33sDXpHEpQOVbl6cAR6cgN0jyjh5Pg4VXKWTntAMlK9E/f+3
+HmH7EILxF6x9kl/TJet94igOvAU3v6Ktd3CPhc2XLvp6oik7NbE4hOFmkgJYq1pW
+9hffzh9NGzF5l10r9Z4j0bvxbbqXZCsn2/WvK4FhidZhyHgceM/kbH6jZdOEZPw+
+Kxxlfsy4CeNDexas2OO1coz68lBiO6uD9+QgoV207hy4D5txTRF3YnR3TDdPbxiX
+nA8T/xNKOfMvWzfT4pmsuQdK9+DLmDPHDCZli3/5fLh2B2tb/r/SxLRNEaJjLEzb
+gPxxH53G5FOvjGR4isUbsZz0n2K2KZSxzVAEpkG1qmMhtGM4KZB2l+KTHBpxzElR
+iQIcBBIBCAAGBQJXe+cvAAoJEH+zxRJjw92vLwsP/RnUNo/RJim4FlBbQ9l5sbcp
+aCMyEKRMv0YYLT6QpoNziseauPxpQ1ITLeruwuq4C7ZkTNy+sj9NsC4R360YR0Dl
+10rLmYEM49gPOO5RQXpJFQsmpwZRFqFN0Ct2lIFYD3XhMyH8/yV+DPJ9EafZQlC9
+L6+Q+up9iK1JdnqisdPGHduXK9sApujb6lkS8kF3PV2BitdLTgsVk0tGrs182Fkg
+Q68rMpubCB/IUkTuuU58VWKGfsXhrndxRb9g7l2/6S+1MWUXochI5Bl3D/XtemP9
+aIL21EApXj32/rfczx/y34okbs1ePPGJDTC2Qwprkcna5VPQWOE0Aq+Ic/Dy3GPW
+T67IfblVV3/iar7z01L8nKkCBWx3VVLOFgVpOeGKEjttHlqK+xaamIgHKRi4blqX
+GXIT19RQ8o/krDV3U1EOC/vLQn168vGJ3iOI/zISEG6Va0hYAV10ebhGi7S9VIrZ
+9qM4gA26RhP0i4JtxPo0gjdbtUMosTxBrDKLZyAqgRn2eNOaRz/aO0xtj/HrUbUV
+yDZANaVf69rn03yejq1/pNrDHfPwPma3TmEBM1ieZ1ciGT9uwnIQOde5pNsYGk6B
+5M85ZgDgj9YaPrKobL1lDcq7KddAks/L+SHWI9o1jj799FJJwukwTUsPe4LRmxny
+dcdD3O0O7RzdwurQV1jjtC9IZXJuYW5pIE1hcnF1ZXMgKHBFcCkgPGhlcm5hbmlA
+cGVwLXByb2plY3Qub3JnPohGBBMRAgAGBQJV7/dAAAoJEHuDbkH3q5zl2OgAn12X
+bKVf0usg/exDv8tOxOzPTr8eAJ9b4QFCS/Bayw5zE3Fy650owknfJIkCHAQQAQIA
+BgUCVfCW0wAKCRA9g02NGPgJNGo+D/0ew5kut7hDw8dADIPpHaaSHfCu+7TskdQx
+Usbrg/4wvmiQ5lZvFBDtbqvtBHXVQ1Oj2xtPRRdlL5wuiBqf6hpnR8dQclggnALa
+kVi8D+c38AKQFFBpAPTraa6bCRawSS74+nOyrSpR/hUsYXmDyOvQCBxKpwS7Qi/O
+b/JpfVZpLwD+297Z+ILNFixbYlYuA7V8z+ErQdkhSpkgtBoeB20gbw/FmqyQKvtM
+0ul43mINJpNzYP4yvU4YsDCNClGOYWLLPFLcnvVowmhRmMO7rM0eF6FfhLOGhbb3
+1H8akl2Op2C7EiMv2D8DGiZtV5QtVt9r/PCdl9LLEnw1kjULA50yCD0F4eXFLPLU
+1S6APqKFtSv9esSINLjo0q1b4S5ekmUEqhBMRHvREPwGmsWjodp7pe1QPNPqb7pr
+NAOwBxyKveXWIbL0TaYbPhBQ4az7cUsWmlW9Bgn08zu9Jl9t9SdoEp6BV8qk7y6V
+mimMLYe2pST5dZjweb7+u4Sfnfttxlt6kwu+hyz/c1RX9VdvgkzaJ+8i+pWvHyij
+miStQTiHtJEcKbzhgHcEDfOkvFMGmNpHlVuB8skUnb9HeGheb6QZ2mRmCwZlKQQI
+MDYHE6xOIw8RJBHiIhvXOr73mXcORAsBvEAkGKQRldjtuQpb2dWEaL8oz3p4TA6v
+I/8y4qj7mYkCHAQQAQgABgUCVe/3TgAKCRBLSiQj0EHGPcmQD/9ngwa9R8nsM0CT
+CMioJEbWJ4INnaDND8uvnPzRT+vyUkTJzM+RCvVOoGgrmCFeqOeCQhdf20ExsANs
+qtv9XQEyDDI7PvnAnprJLSYozfpYscPe7N2MSwTBiPz70t03L5j6YfJhooCok921
+U0+xCNUl3LXzfIkXTxMC0z77VxSqEiHiPgQH4owqnDuEhRPte/ZtzvMgCRIk8L8+
+9UZazl8hF4r9XPP+h8EFVJW0MB2ANICvmHcspiVd6QJdPTYHZIwZ2LMrb5Dt1Qwy
+NkTDKvoImgR6qiaR06GDyMhis6l8seu6GuAtOZGh2RGsGGPDPozcTi1kdytFmGC0
+W2J+bMoYeEMiAH4Ip4o4KvLwvEIhU1RTMWg3Qo172w1Y2FLQSQLar5kVvjHfAdpg
+AeZMliPl7+ydziDF+EYP2p4d6kw6aPZNoB7uD1mhdgxts0lBuU3iRQwhOQTcrrJj
+/2DtUPdoFGoR5OTVDrmb1lodw5WWzI8FtTZ7C6ZyGPjj+V7COTSHGP4R7YLXKrPF
+K+5AjxzozK+cIgvYSZol8ZfAusxzz5mHXeTZqpHkQNdfCCHWCJ7og2W5baprUgkQ
+n2O9AqEMSLQW9hpMGbzKIVh6ZFl6n2is/dZubS5aCH9+bNJqEi8Vd/pMsW9MMEet
+eGKc1WoGtDFFDM0YocgvF1CsSfGfMIkCOQQTAQgAIwUCVajOUQIbIwcLCQgHAwIB
+BhUIAgkKCwQWAgMBAh4BAheAAAoJEMtXOGUnaPfpw2sP/3YEftsFv83sPLBclsA5
+HFNRr4FsXzbRv9F7grDsqnvecgD8ItwUJ0G/Z/0uqXCPKecnq6mNhRZiX+AtNkGi
+Mle6xcWI2kacAi/L61GPyXWohsy7d42ej+FK2/lyKScTg979XBAXGJCCfyGoaVU0
+Rt9zlHyOOB3091YC4gSYkMJ2i7jsdp7lqqvTwM6oPnEQkS75XliTDKesvYdrK87M
+TcF5tlBNVq0ycGmpGDOY5+d5HvkaJyhfUeJcknvMPIcObsH674vyhTejXabQg2uU
+hiWyOFEz4T2Xw72XdvtXhB8eIGNJOrGP8HqG0fhejoyXV7m2n0X9taYB+VqFrRnT
+9WeoStaMHzLhEAvOgLIXGe5bDPVkE0fV6SASvClAATtgsrunsYIuhQ5qHmcAxofC
+r0D4CA4YDhnRQbdbRaEKrHPFKkdtw9W8D2HO8X0xq6FmykYNuKI9k7w5oPgzuGnf
+tBX/8VpKEaSAOaIX4q4MrelsbyaJ8Ujx4fUFaGHQW2s1rmmJf8BnEEntyDSi3Tq7
+JABSeA0O5/JUJS9a4rSMvvssdtYSSAtBD0N8yZTtdjdhaFffPbpv0PKmuNbjX1Fs
+0NOJDPWKwrSohXDWqr36ott5ap3/3wf/5upgKNR8AKoqjCF0hmPS2L3S+LNnqlZY
+8eomhf9YA1gSN49yR+2hAje7iQI8BBMBCAAmAhsjBwsJCAcDAgEGFQgCCQoLBBYC
+AwECHgECF4AFAlZfiokCGQEACgkQy1c4ZSdo9+lrTg/9FOyKWzceXttk0a3cnUpo
+p7AQkQC9FfE9QQzFOW4VHk1ZKTlH7V1QrOrzU5fadd8C71oHbf75fVTlmNtcl9OE
+0fnx0T6G+FKvTyJV+W9LIRbsNe8+q7eRRtf/HsjQdblEIqkdUlAhVRgCjBI6K/re
+MYVoz5FxSGoIMjfxds1K3kQICxS+uu+zRm6ff8VuWHMSESC34IxlIvfBf3vbPYnU
+Phu4Cn0UTxH3pmHmk+teJ1uFWiX98HAxDpv0ZobKNa9imcSCKhYTqdm89XBXND01
+bUd44w3RCmSqgzEQoRi0Jj+ieg4XSn98lOItIBPE2pi92NskdSJr7C5++0fO9xrz
+URZjqGiEPmiegW+OMvnI6X9O2SBzXYU7GBiqpprWsa/y0WKRJ8O+kEVzGUI1Bnge
+qvZ52QHGN9v5Wnho0gvAWgiAmDVn6n3yfcnI+SBJHmvy+Im6TI8aNSX4G9xQjVuk
+M/iWyjsNzAyxjtdkbuOBiKAOADDqTC39HwsGoHXuKIzEZMGTFx7vA1yutogtg8Mf
+UsqX18Ilt8p6v+dtJJY14MzF9fyVIfVr83Fc0IPuv3f59+7VQPY4AO9rUN+bcjgg
+dKY9peLGizcT1msWew4byIIjU39EfCx1ojfYkDFmV6fQOMOLWT62RgIiyORRKI0M
+a2LnrHUqPDU6kWM78skVH+eJAhwEEgEIAAYFAld75y8ACgkQf7PFEmPD3a8koxAA
+joGdnDNipBywNv9l5QW0pdKesUwSKNA4lxfIuSwDLw7ZTabmMHH6WBZjNmcbw7ro
+kvuSV5+njrkFG1qTumy+JXtniT7dboEr/lXkibu2EEB8z0QNShMxm3Cf68HRsGQR
+lAwglnqDnZEOkv5AGWYjxqOfRRCKCIGCGHZkKYVK3K8DU+09ifaAxuR2KLJuPMzY
+wD8moZkBlyEzT5FhOb6hVCG9uHBeCZcayrMsTFhOKU4Y5GKTNgsE4x6FbZoGCFhT
+wx1MGkoCvzScPhxmes5kpr/AUZgwaseHWfsaC5XgDqji3Hhu21e6Ez4NkH3Z1CUH
+LEHzGodxpKJ2EkWVi5ofSzD+19MI3A0qwUgDdGVNMDP0k9SvwMPngA5s6hht7sD+
+6mtSnuHwiNLNZk39Qt7sHUYg4AQRCIwzUrQuJ0PUtFIzox+pMQcVIgVM5rwxnNbq
+U+iWgSBeadc3PfAr6yF3gJy8U7pN7JSjiEuhNWu83cPm3zuIIVhDwjJKQzs+rNun
+M4PtithYloEgpoG5tMtbK5qIGIQixddlqXcUQtoiA3gFXO6xQjeqKWJMnxp9q+cB
++LhKromZENljj8M0UCtzB4UGu4UIeDGKAPsZUCHjwL3LThyK+9EtLH97oz/Q9IgX
+H9cEW4Ksisct3MAscra29MPACt2xTRKUiXzNVBlhcAa0Pkhlcm5hbmkgTWFycXVl
+cyAocEVwIENvdW5jaWwpIDxoZXJuYW5pLm1hcnF1ZXNAcGVwLmZvdW5kYXRpb24+
+iQI5BBMBCAAjBQJWX4p+AhsjBwsJCAcDAgEGFQgCCQoLBBYCAwECHgECF4AACgkQ
+y1c4ZSdo9+lsdw/9Ea0y2n0Indyhw8RaC7u/Lu+OV5a03ATiWuV16vyYFXiJaVTC
+ildscXCRpSRHrT84zk4eYf6ysRuzlXZUcg009nF6lajuzDm6E66ZJXkoInGpwEcG
+Mx5odUeSKxcaZ5IQveEWyJahLbHf4FgQts2r8BsChkoSEvhxojBhHQT5FYxdYNcK
+nrNj63UZw+xwTbg/79PWOjB141OEwNOT4rggXSZ67w8O1JtMtMGYAgI2KiHIxUPr
+uEudiJI8DvXUakX9LJRTpJnqSacgkC/ahL8m5//7ePriUO2FR6ZeDkGp5z6g59+l
+iruJhOcmbjpr7wAo6hVzdkpLT8qu4uuoaWM/kRayEKfhlUj0SCcG751ucTE+yH9H
+MRBDUV/8fhVuoLsEHnq49/J/cVx7qr1y4EfDDaN8zW8ILe4vcZwGgbD0lI5r6tey
+2YyvwVEKDEe1vIiarbRsHa+6haX885SAyooIfdqKDcn6NGM12AVAPOIe2+2Q7GZV
+6AACD+j7GWX/jiNaV4HwJ2/SsNBFPw2/lDowsHnhFdvwEROynRlGG3FbHMGJ5HrN
+hQJWWZDPF40hDpuJpQRUuc5uzOzQUptag9m5gfxCQNQXCtlIpIJ3CdlJJjPzndIH
+ktV6/eo2xiAn24b2yBeiBnKjET6OE5iswAd4DO3BjAKTBYYmqD2OMC+QCzSJAhwE
+EgEIAAYFAld75y8ACgkQf7PFEmPD3a9w/hAAnMSIrMoIVgk/o7Xlyh/9TR3WTRsm
+cxM3Vmz+KI4hzCXde9JK8a+vrZMhSH/ZBBanFPQolu7zRbj7+MeY/g4cJZDsuHBM
+1+vhwjxwFPWXRBWdNZFJIzz14PF1TVGbsaQw2r9q6cg6u64pZYA3G/scfcRxPMsb
+QnVBz0Lg7f2Jrav3TkuwvjnKpnZc0iZ6QuIyAwUdth8TY7y3hXY56VwT1rrtOHXX
+E0RKaDfCoyep8rRG/+qhiZT1WGzq7LDAIeCR5DdleCaT+bXMsK1N6Xk2il6vXjed
+vGOtl12I9IgqC30tqqJMpWrRb1KFX60l6oCOYqrAqysajf1BFJeDmiZgpxLcePLD
+9XrzNHqKrK7ZRVGmc7aKSvxIyWRrorYDh42MEtw8b/k6ZkXdH2yk+PZUPDMNXGVk
+6o4kNhV0g0xL8lIqCk+Oo823F0jTYcasf3vRe1OxsKPJuH+INOJMAkmYUvi/QOKz
+/pycJLPadN/PVuLD/yTkdfnPP9rcj73uQpjgwTfG8N7XVgmYrbYmT21PWU4cHprU
+AVexEBMaQtaz7k37rgfqjZyIfGFzrBAVBRmnDm/+KZid4SnHvIMQqC5UaZFImxfY
+ZcgSY5sqLjNJmiaTKpKBcE/vss7hyZvsmwvlxT652CNvdtYSehDO/F9LZBlIZojv
+5RO7TalIRpTCERS5Ag0EVajOUQEQALy+1UBEbXWX5iE1YezJ1qHy2DtT+0JUHiEM
+bY2iGO/cV4qXOwC5+w6ASp2Udoy52iHznW6AcktoQF/bf8JCxXGGISJMI0tS+1b6
+1NuKW+vkXDiSgYn5X5V+mjqS4fFmTMoqo5ig4jqIunmEuwLlJxkP30s8tUeGMRzc
+WSF5MvSKqQu0yXqg7N4MhEzMt4M4dV+I59HyoORJ805VBOFhr8jCtlg4ug0HrySl
+LqRp20hhKL8lBUA5opyQkMNSbA+I0S5gFq9sZz31lLVC7sYm6ckap6FBziAwcfnT
+fnFL4YFfTH4CIdkDFElCZ9318/cSnqbbhilRzvXh8aZfZl5wGntS6cIMJYbbKKGw
+dsPTkA5IR5yEVH1RbvD/m1d4cu5jqGfTeeRNMIngVirIa7W1Z49x/tTKykUM6/mh
+eqnzEqbbJsXLrnKN6Y+eu6mJLQgQhj/HNfk09j/wtgo1aRQgL/UVZDVTcuP0MuG9
+tTeZ39nt6dFaI3+IsTa4QhnDcO1dJ+eYsuCJmVY3CtuZ5Sh3GcNGk6sX+eeEMkfZ
+0jN9uwIWqhva5dqvetoO0VMfQyZiAauNxB0cjo2Cpl+xv+vQHEqPfFcYdY3QCay5
+Alsn3ttd6Ht+S2IB/BukcO9N+EmYT1HgJkS1c4UR6x512b0NTGRC6yMFAGSshsx3
+z9DInGvRABEBAAGJAh8EGAEIAAkFAlWozlECGwwACgkQy1c4ZSdo9+kphw//Sw7J
+i9eTyfJHdzRXNa1cA335dY1QYKq9/6eGhSjcyRGz4bHyHUDt5G5dmKwmaYrPGS3H
+r2H1+Z3w9BD5X/V1ZVgsKYYVM18N0CsnarJdcugdwC1difyMzo2NJGz6btuFey6Z
+iMZo6EQKgsH/0sLChHSLM5sjBgdmWswkWh7L8oNrFv/p091FVj6rFeda/e7g3xK2
+NjPSk3+oX5aLgcCrUSeWJCZflyEL6NEf3EOAahzzoqUfN9D6aTjZWPSmTVTO21t8
+s86XeSPuYBVGGODyIkCXWJxkm2WXY5AoPLYJWmmm9TwOJE0FgM/nTj04cBNW91q8
+tCCaCx//2dGfW+EdAMew/G8aa2cJgbF7iJs5IWpMRUxujMM7rWJdxXjAh6Y3FiVc
+5UtYO87HmthC953QiJntDTa/72Oi7HrGw/wUtSRm2S9G/jdpXZ7WBaPD0R4/QcXS
+9590nMfFahWfQs6cdAOtLBJzCL6JMX4sHqaycwxErzd0jvtohCGJW0Ksc8GjTxWt
+mgBpCVzkTidkWgXICzd7EKE36z5Ir6jvN7NLe4qbPQF+uDWmxQqAK92/Iwt/NBAL
+Q2oWAiHN5j8v2/ObJDuZH5Q4DGzzVmXYAeKjVMyH9Upsutnu8iYrvghKyC1RKKPP
+jqzJvcZkDO24NIw8RM1VxPH/3UxXFg+hWD+7KMw=3D
+=3DNrbg
+-----END PGP PUBLIC KEY BLOCK-----
+
+--------------C2CFA937B467B9778D46F195--
+
+--Jxn3l5RhNWSy8xHchMq2G9tlHpnd7WZTl--
+
+--gSIvAawuhZQWiK598Q44yI1IM15tOl0Ys
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEMXM+DFmNOhz3CVXWy1c4ZSdo9+kFAlxUhpMACgkQy1c4ZSdo
+9+lDhQ//ZVDthY/LKbASOVBMpNfDmUfPJ4dB/ySHsZxswA4SyspMBnsd4/Qsdsfm
+pf5xaU77t7a1ZPXvRot7BRrsU7M3bmF9V7+pSnQ+1f3NZl0Sacs+q6HGfJfRNGPK
+QX3K+GumobneQbQaydoQHwXZGAnzhILaBPce88lWuq5rC8cyKShvJcXnAcrPcf8J
+7IIDSbQ5+e654nZYr37mNzMROA5MAsarEeYLmL/awu4pTS8i1XN8I8JeDj5UU/BR
+XedUKQXwspVijNAvfNvxTqbnul3B/us3dC8U2h7QzS7IOoC5LXPNehGeQjhi6/9z
+TDlSnm2qIROFRItZ95uB3obBqwQM72BgCu35AwAoo08/67sGsCD9YxvsxZS+vvu2
+cjhCcuhaPwZZKCp5+YqUqOwTrtA+fH6wWvDI2/c62vV0L+3Ub8ZjrULRPY77xiGO
+jA/4MMSOd+PnHh1s/XWyXtnB6LYpPCRtkYn2bvlP+uYsBglr1PsOz4BknrgAyn2e
+yjvIREmJ6zRLWdqCpr5hLK1f0BbAG8qa7+VPiNQjbQELhSqzl/L+9r6SiNj0hiPJ
+e5VFuQ3FC3u9ZuZs+T9F4SVNf+3v+dPmwPDihTZsgvJ2QOWxCnPcnPjtcAWROCof
+/oDASfQVa6ZxwhHW68a6kt5yT/rYQQUaaziXXPJMXMSDfjUsXps=
+=3kVy
+-----END PGP SIGNATURE-----
+
+--gSIvAawuhZQWiK598Q44yI1IM15tOl0Ys--
+
+
+From nobody Fri Feb  1 09:55:22 2019
+Return-Path: <hernani.marques@pep.foundation>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 4046B131189 for <hrpc@ietfa.amsl.com>; Fri,  1 Feb 2019 09:55:14 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 1.28
+X-Spam-Level: *
+X-Spam-Status: No, score=1.28 tagged_above=-999 required=5 tests=[BAYES_05=-0.5, FROM_EXCESS_BASE64=0.979, RCVD_IN_DNSWL_LOW=-0.7, RCVD_IN_SORBS_WEB=1.5, URIBL_BLOCKED=0.001] autolearn=no autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id UUtin87taV2F for <hrpc@ietfa.amsl.com>; Fri,  1 Feb 2019 09:55:12 -0800 (PST)
+Received: from dragon.pibit.ch (dragon.pibit.ch [94.231.81.244]) (using TLSv1.2 with cipher ADH-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 46792131174 for <hrpc@irtf.org>; Fri,  1 Feb 2019 09:55:12 -0800 (PST)
+Received: from localhost (localhost [127.0.0.1]) by dragon.pibit.ch (Postfix) with ESMTP id A63D0171C06B for <hrpc@irtf.org>; Fri,  1 Feb 2019 18:55:10 +0100 (CET)
+Received: from dragon.pibit.ch ([127.0.0.1]) by localhost (dragon.pibit.ch [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id TdUH8Ysn_fSH for <hrpc@irtf.org>; Fri,  1 Feb 2019 18:55:08 +0100 (CET)
+Received: from [192.168.43.10] (125.233.197.178.dynamic.wless.lssmb00p-cgnat.res.cust.swisscom.ch [178.197.233.125]) by dragon.pibit.ch (Postfix) with ESMTPSA id 82908171C05E for <hrpc@irtf.org>; Fri,  1 Feb 2019 18:55:08 +0100 (CET)
+To: hrpc@irtf.org
+References: <575532d2-18f2-4cf4-2e62-1acb2b579208@pep.foundation>
+From: =?UTF-8?B?SGVybsOibmkgTWFycXVlcyAocOKJoXAgZm91bmRhdGlvbik=?= <hernani.marques@pep.foundation>
+Openpgp: id=31733E0C598D3A1CF70955D6CB5738652768F7E9
+Message-ID: <6d7f9df7-1a54-7090-68dc-f8a779378fae@pep.foundation>
+Date: Fri, 1 Feb 2019 18:55:07 +0100
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Thunderbird/60.4.0
+MIME-Version: 1.0
+In-Reply-To: <575532d2-18f2-4cf4-2e62-1acb2b579208@pep.foundation>
+Content-Type: multipart/signed; micalg=pgp-sha512; protocol="application/pgp-signature"; boundary="NyFZqTr2TC0nkDz7RBRcDQBvznQFkUVYV"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/uXNZLLiNmjaxdrJng7Ga1dikyy0>
+Subject: Re: [hrpc] MEDUP: New non-WG mailing list to fix privacy/usability issues (in, e.g., email, XMPP)
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.29
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 01 Feb 2019 17:55:21 -0000
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--NyFZqTr2TC0nkDz7RBRcDQBvznQFkUVYV
+Content-Type: multipart/mixed; boundary="N0H34rwzsxhoOmjtI593TVQXvBXBrrBLi";
+ protected-headers="v1"
+From: =?UTF-8?B?SGVybsOibmkgTWFycXVlcyAocOKJoXAgZm91bmRhdGlvbik=?=
+ <hernani.marques@pep.foundation>
+To: hrpc@irtf.org
+Message-ID: <6d7f9df7-1a54-7090-68dc-f8a779378fae@pep.foundation>
+Subject: Re: MEDUP: New non-WG mailing list to fix privacy/usability issues
+ (in, e.g., email, XMPP)
+References: <575532d2-18f2-4cf4-2e62-1acb2b579208@pep.foundation>
+In-Reply-To: <575532d2-18f2-4cf4-2e62-1acb2b579208@pep.foundation>
+
+--N0H34rwzsxhoOmjtI593TVQXvBXBrrBLi
+Content-Type: multipart/mixed;
+ boundary="------------82749872934512B68BFCCA94"
+Content-Language: en-US
+
+This is a multi-part message in MIME format.
+--------------82749872934512B68BFCCA94
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+On 01.02.19 18:49, Hern=C3=A2ni Marques (p=E2=89=A1p foundation) wrote:
+
+> Sign up here:
+>=20
+> https://www.ietf.org/mailman/admin/medup/members/list
+
+Oups, wrong link (too many tabs, sorry xD):
+
+https://www.ietf.org/mailman/listinfo/medup
+
+--=20
+p=E2=89=A1p foundation: https://pep.foundation/
+
+--------------82749872934512B68BFCCA94
+Content-Type: application/pgp-keys;
+ name="0xCB5738652768F7E9.asc"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: attachment;
+ filename="0xCB5738652768F7E9.asc"
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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3D
+=3DNrbg
+-----END PGP PUBLIC KEY BLOCK-----
+
+--------------82749872934512B68BFCCA94--
+
+--N0H34rwzsxhoOmjtI593TVQXvBXBrrBLi--
+
+--NyFZqTr2TC0nkDz7RBRcDQBvznQFkUVYV
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEMXM+DFmNOhz3CVXWy1c4ZSdo9+kFAlxUh/sACgkQy1c4ZSdo
+9+kQYw//Sz+u6PY6cb0npLNK4PnfdpJNlw9V8JkbkB6/MbiXEbx0V5cmt/vIHg/U
+HwmVcPgxSqi7UzuOxKsCBzZbiYJ0fd2I1EXL7cR0viFVJH21elS2MipTphuDAHRH
+pAIlDRv3lP3jjKzbiU/94Php5SGqcN7dzDtKgJYB9/3ApNvWl5rbcIIR2ypl1YUB
+yQkdN7/cQdToFUsboHBiD/dKhoUA6vZqMS187jzP2bDph1W7HKOqIt47WMofWFf5
+YliV6kYTP2zEBDSmgYWS/xSgKDuWga2FyqpfCwuOeTuVlO+KTJpLP/OWIlnK3b10
+WdosCKyJl2LbL8VpIfX18Nyn0J2v0/R5w+B2T2+YtLLAlclXm9orL+WbX9c6b4VM
+6WVm1V7U15p5mXTKPxWDi9ymimz9zbD7QA7at002Drv/Zf5FYaNSph6QmmpdrbWC
+l2QPcUcge05lTQ6qKYhdSyMFVDJBgmWi7UVkAkTTkYER+amTUkh0KhZllOPlwtvE
+4093f20p0plG7Q//Oj1G03yJJU1AKXF8Hb6vZ89CddZJwEUNTg+3+KY1PMViowJv
+kMwJpo1TSLoT5f2U7xlEjp9d1kxvWks4CHopCBF1o4mctmusWd/1xI/HTSYOo+9j
+z2x02vlrnb8pgJxk10Mw2ojHKfxl3TNjEVNbeNsMxNAPzl0k8ck=
+=sx3Y
+-----END PGP SIGNATURE-----
+
+--NyFZqTr2TC0nkDz7RBRcDQBvznQFkUVYV--
+
+
+From nobody Tue Feb  5 05:35:19 2019
+Return-Path: <vittorio.bertola@open-xchange.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 82AD11294D0 for <hrpc@ietfa.amsl.com>; Tue,  5 Feb 2019 05:35:18 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -4.199
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.199 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_MED=-2.3, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id u0PAZDCdlwrH for <hrpc@ietfa.amsl.com>; Tue,  5 Feb 2019 05:35:14 -0800 (PST)
+Received: from mx4.open-xchange.com (alcatraz.open-xchange.com [87.191.39.187]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id ED3F51310BA for <hrpc@irtf.org>; Tue,  5 Feb 2019 05:35:13 -0800 (PST)
+Received: from open-xchange.com (unknown [10.20.30.10]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by mx4.open-xchange.com (Postfix) with ESMTPS id 165526A24B; Tue,  5 Feb 2019 14:35:11 +0100 (CET)
+Received: from appsuite-gw1.open-xchange.com (appsuite-gw1.open-xchange.com [10.20.28.81]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by open-xchange.com (Postfix) with ESMTPSA id 05B453C1F5A; Tue,  5 Feb 2019 14:35:11 +0100 (CET)
+Date: Tue, 5 Feb 2019 14:35:10 +0100 (CET)
+From: Vittorio Bertola <vittorio.bertola@open-xchange.com>
+To: =?UTF-8?Q?Hern=C3=A2ni_Marques_=28p=E2=89=A1p_foundation=29?= <hernani.marques@pep.foundation>, hrpc@irtf.org
+Cc: "Bernie Hoeneisen (bernhard.hoeneisen AT ucom.ch)" <bernie@ietf.hoeneisen.ch>, Alexey Melnikov <aamelnikov@fastmail.fm>
+Message-ID: <2089635218.10444.1549373710958@appsuite.open-xchange.com>
+In-Reply-To: <575532d2-18f2-4cf4-2e62-1acb2b579208@pep.foundation>
+References: <575532d2-18f2-4cf4-2e62-1acb2b579208@pep.foundation>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;  boundary="----=_Part_10441_524228062.1549373710933"
+X-Priority: 3
+Importance: Medium
+X-Mailer: Open-Xchange Mailer v7.10.1-Rev3
+X-Originating-Client: open-xchange-appsuite
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/X1-b3-z2S8ulpICobcZg3KiZIIY>
+Subject: Re: [hrpc] MEDUP: New non-WG mailing list to fix privacy/usability issues (in, e.g., email, XMPP)
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.29
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 05 Feb 2019 13:35:19 -0000
+
+------=_Part_10441_524228062.1549373710933
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello Hernani,
+
+I think that easy end-to-end email encryption is overdue and I welcome any =
+effort to get there. However, now speaking as a major email server software=
+ vendor, I would like to understand better the scope of this initiative; th=
+e charter says that updating "application level protocols such as email" (w=
+hich by the way is not clear in itself, since there is no "email" protocol =
+but there are several) is in the scope of this mailing list, which however =
+is not an IETF working group (is it expected to lead to one?).
+
+Now, if you want to update IMAP, there's already an IETF WG (EXTRA) that do=
+es that, not to mention the JMAP WG if you prefer JMAP. There's nothing for=
+ SMTP as far as I know, but even in that case I am sure there would be many=
+ other parties that would need to join such a discussion, and they are defi=
+nitely not on HRPC. Also, the IRTF already has PEARG for more speculative d=
+iscussion, and its charter includes these matters.
+
+Bottom line: I am happily joining the mailing list, but I would like to und=
+erstand what's the plan, and how this differs from all these other efforts =
+up to the point of requiring yet another mailing list that I have to subscr=
+ibe to :-)
+
+Ciao,
+
+
+>     Il 1 febbraio 2019 alle 18.49 "Hern=C3=A2ni Marques (p=E2=89=A1p foun=
+dation)" < hernani.marques@pep.foundation mailto:hernani.marques@pep.founda=
+tion > ha scritto:
+>=20
+>=20
+>     Dear HRPC folks
+>=20
+>     I just want to inform you that Alexey (area director ART, CC) kindly
+>     created us a mailing list, which explicitly mentions HRPC work with R=
+FC
+>     8280 as a guiding document (by some of its principles) to achieve
+>     privacy in a usable, interoperable and decentralized manner (e.g., fo=
+r
+>     email & XMPP):
+>=20
+>     Sign up here:
+>=20
+>     https://www.ietf.org/mailman/admin/medup/members/list
+>=20
+>=20
+>     MEDUP =3D {Missing Elements for Decentralized and Usable Privacy}
+>=20
+>     Description:
+>=20
+>     "This list is for discussions of enhancements to application protocol=
+s
+>     for usable privacy.
+>=20
+>     RFC 8280 has identified and documented important principles in such a=
+s
+>     Data Minimization, End-to-End and Interoperability in order to enable
+>     access to Human Rights. While (partial) implementations of these
+>     concepts are already available, today's applications widely lack Priv=
+acy
+>     support that ordinary users can easily handle.
+>=20
+>     In MEDUP these issues are addressed based on Opportunistic Security (=
+RFC
+>     7435) principles. Updates/usage clarifications to application level
+>     protocols such as email and XMPP are in scope."
+>=20
+>=20
+>     As soon as some more people are subscribed, Bernie & me will bring up
+>     some discussions on pretty Easy privacy (pEp) drafts, where also
+>     (increasingly) practical software already exists and which is designe=
+d
+>     and implemented along the lines described above, even thought we migh=
+t
+>     be missing elements or need to change some of them in order to better
+>     meet the principles we strive for.
+>=20
+>     By that, the list is of course open to contributions of other project=
+s
+>     with similar goals, which -- discussing with each other -- can find t=
+he
+>     best solutions in protocols and formats to meet important HRPC
+>     principles for usable privacy. That's also the reason why the list na=
+me,
+>     spelled out, is immediately descriptive. :)
+>=20
+>=20
+>     Greets & nice WE!
+>=20
+>     Hernani
+>=20
+>     --
+>     p=E2=89=A1p foundation: https://pep.foundation/
+>     _______________________________________________
+>     hrpc mailing list
+>     hrpc@irtf.org mailto:hrpc@irtf.org
+>     https://www.irtf.org/mailman/listinfo/hrpc
+>=20
+
+--=20
+Vittorio Bertola
+Head of Policy & Innovation
+
+Cell: =09+39 348 7015022
+Direct Chat: =09vittorio.bertola https://chat.open-xchange.com/direct/vitto=
+rio.bertola
+Email: =09vittorio.bertola@open-xchange.com mailto:vittorio.bertola@open-xc=
+hange.com
+
+Twitter: @openexchange http://twitter.com/openexchange - Facebook: OpenXcha=
+nge https://www.facebook.com/OpenXchange - Web: www.open-xchange.com http:/=
+/www.open-xchange.com
+Open-Xchange AG, Hohenzollernring 72, 50672 Cologne, District Court Cologne=
+ HRB 95366
+Managing Board: Rafael Laguna de la Vera, Carsten Dirks, Michael Knapstein,=
+ Stephan Martin
+Chairman of the Board: Richard Seibt
+
+European Office:
+Open-Xchange GmbH, Olper Huette 5f, D-57462 Olpe, Germany, District Court S=
+iegen, HRB 8718
+Managing Director: Frank Hoberg
+
+US Office:
+Open-Xchange. Inc., 530 Lytton Avenue, Palo Alto, CA 94301, USA
+
+Confidentiality Warning: This message and any attachments are intended only=
+ for the use of the intended recipient(s), are confidential, and may be pri=
+vileged. If you are not the intended recipient, you are hereby notified tha=
+t any review, retransmission, conversion to hard copy, copying, circulation=
+ or other use of this message and any attachments is strictly prohibited. I=
+f you are not the intended recipient, please notify the sender immediately =
+by return e-mail, and delete this message and any attachments from your sys=
+tem.
+
+------=_Part_10441_524228062.1549373710933
+Content-Type: multipart/related; 
+ boundary="----=_Part_10442_123764643.1549373710933"
+
+------=_Part_10442_123764643.1549373710933
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html>
+ <head>=20
+  <meta charset=3D"UTF-8">=20
+ </head>
+ <body>
+  <div>
+   Hello Hernani,
+   <br>
+  </div>
+  <div>
+   <br>
+  </div>
+  <div>
+   I think that easy end-to-end email encryption is overdue and I welcome a=
+ny effort to get there. However, now speaking as a major email server softw=
+are vendor, I would like to understand better the scope of this initiative;=
+ the charter says that updating "application level protocols such as email"=
+ (which by the way is not clear in itself, since there is no "email" protoc=
+ol but there are several) is in the scope of this mailing list, which howev=
+er is not an IETF working group (is it expected to lead to one?).=20
+  </div>
+  <div>
+   <br>
+  </div>
+  <div>
+   Now, if you want to update IMAP, there's already an IETF WG (EXTRA) that=
+ does that, not to mention the JMAP WG if you prefer JMAP. There's nothing =
+for SMTP as far as I know, but even in that case I am sure there would be m=
+any other parties that would need to join such a discussion, and they are d=
+efinitely not on HRPC. Also, the IRTF already has PEARG for more speculativ=
+e discussion, and its charter includes these matters.
+   <br>
+  </div>
+  <div>
+   <br>
+  </div>
+  <div>
+   Bottom line: I am happily joining the mailing list, but I would like to =
+understand what's the plan, and how this differs from all these other effor=
+ts up to the point of requiring yet another mailing list that I have to sub=
+scribe to :-)
+   <br>
+  </div>
+  <div>
+   <br>
+  </div>
+  <div>
+   Ciao,
+   <br>
+  </div>
+  <div>
+   <br>
+  </div>
+  <blockquote type=3D"cite">
+   <div>
+    Il 1 febbraio 2019 alle 18.49 "Hern=C3=A2ni Marques (p=E2=89=A1p founda=
+tion)" &lt;
+    <a href=3D"mailto:hernani.marques@pep.foundation">hernani.marques@pep.f=
+oundation</a>&gt; ha scritto:
+   </div>
+   <div>
+    <br>
+   </div>
+   <div>
+    <br>
+   </div>
+   <div>
+    Dear HRPC folks
+   </div>
+   <div>
+    <br>
+   </div>
+   <div>
+    I just want to inform you that Alexey (area director ART, CC) kindly
+   </div>
+   <div>
+    created us a mailing list, which explicitly mentions HRPC work with RFC
+   </div>
+   <div>
+    8280 as a guiding document (by some of its principles) to achieve
+   </div>
+   <div>
+    privacy in a usable, interoperable and decentralized manner (e.g., for
+   </div>
+   <div>
+    email &amp; XMPP):
+   </div>
+   <div>
+    <br>
+   </div>
+   <div>
+    Sign up here:
+   </div>
+   <div>
+    <br>
+   </div>
+   <div>
+    <a href=3D"https://www.ietf.org/mailman/admin/medup/members/list" rel=
+=3D"noopener" target=3D"_blank">https://www.ietf.org/mailman/admin/medup/me=
+mbers/list</a>
+    <br>
+   </div>
+   <div>
+    <br>
+   </div>
+   <div>
+    <br>
+   </div>
+   <div>
+    MEDUP =3D {Missing Elements for Decentralized and Usable Privacy}
+   </div>
+   <div>
+    <br>
+   </div>
+   <div>
+    Description:
+   </div>
+   <div>
+    <br>
+   </div>
+   <div>
+    "This list is for discussions of enhancements to application protocols
+   </div>
+   <div>
+    for usable privacy.
+   </div>
+   <div>
+    <br>
+   </div>
+   <div>
+    RFC 8280 has identified and documented important principles in such as
+   </div>
+   <div>
+    Data Minimization, End-to-End and Interoperability in order to enable
+   </div>
+   <div>
+    access to Human Rights. While (partial) implementations of these
+   </div>
+   <div>
+    concepts are already available, today's applications widely lack Privac=
+y
+   </div>
+   <div>
+    support that ordinary users can easily handle.
+   </div>
+   <div>
+    <br>
+   </div>
+   <div>
+    In MEDUP these issues are addressed based on Opportunistic Security (RF=
+C
+   </div>
+   <div>
+    7435) principles. Updates/usage clarifications to application level
+   </div>
+   <div>
+    protocols such as email and XMPP are in scope."
+   </div>
+   <div>
+    <br>
+   </div>
+   <div>
+    <br>
+   </div>
+   <div>
+    As soon as some more people are subscribed, Bernie &amp; me will bring =
+up
+   </div>
+   <div>
+    some discussions on pretty Easy privacy (pEp) drafts, where also
+   </div>
+   <div>
+    (increasingly) practical software already exists and which is designed
+   </div>
+   <div>
+    and implemented along the lines described above, even thought we might
+   </div>
+   <div>
+    be missing elements or need to change some of them in order to better
+   </div>
+   <div>
+    meet the principles we strive for.
+   </div>
+   <div>
+    <br>
+   </div>
+   <div>
+    By that, the list is of course open to contributions of other projects
+   </div>
+   <div>
+    with similar goals, which -- discussing with each other -- can find the
+   </div>
+   <div>
+    best solutions in protocols and formats to meet important HRPC
+   </div>
+   <div>
+    principles for usable privacy. That's also the reason why the list name=
+,
+   </div>
+   <div>
+    spelled out, is immediately descriptive. :)
+   </div>
+   <div>
+    <br>
+   </div>
+   <div>
+    <br>
+   </div>
+   <div>
+    Greets &amp; nice WE!
+   </div>
+   <div>
+    <br>
+   </div>
+   <div>
+    Hernani
+   </div>
+   <div>
+    <br>
+   </div>
+   <div>
+    --
+   </div>
+   <div>
+    p=E2=89=A1p foundation:=20
+    <a href=3D"https://pep.foundation/" rel=3D"noopener" target=3D"_blank">=
+https://pep.foundation/</a>
+    <br>
+   </div>
+   <div>
+    _______________________________________________
+   </div>
+   <div>
+    hrpc mailing list
+   </div>
+   <div>
+    <a href=3D"mailto:hrpc@irtf.org">hrpc@irtf.org</a>
+    <br>
+   </div>
+   <div>
+    <a href=3D"https://www.irtf.org/mailman/listinfo/hrpc" rel=3D"noopener"=
+ target=3D"_blank">https://www.irtf.org/mailman/listinfo/hrpc</a>
+    <br>
+   </div>
+  </blockquote>
+  <div>
+   <br>
+  </div>
+  <div class=3D"io-ox-signature">
+   <div class=3D"default-style">
+    --=20
+    <br>
+    <strong>Vittorio Bertola</strong>=20
+    <br>Head of Policy &amp; Innovation=20
+    <br>
+    <br>
+   </div>
+   <table style=3D"border-collapse: collapse;" class=3D"mce-item-table" wid=
+th=3D"100%" cellspacing=3D"0" cellpadding=3D"2" border=3D"0">
+    <tbody>
+     <tr>
+      <td style=3D"padding: 2px; font-family: verdana, sans-serif; font-siz=
+e: 8pt;" width=3D"120">Cell:</td>
+      <td style=3D"padding: 2px; font-family: verdana, sans-serif; font-siz=
+e: 8pt;">+39 348 7015022</td>
+     </tr>
+     <tr>
+      <td style=3D"padding: 2px; font-family: verdana, sans-serif; font-siz=
+e: 8pt;" width=3D"120">Direct Chat:</td>
+      <td style=3D"padding: 2px; font-family: verdana, sans-serif; font-siz=
+e: 8pt;"><a href=3D"https://chat.open-xchange.com/direct/vittorio.bertola">=
+vittorio.bertola</a><br></td>
+     </tr>
+     <tr>
+      <td style=3D"padding: 2px; font-family: verdana, sans-serif; font-siz=
+e: 8pt;" width=3D"100">Email:</td>
+      <td style=3D"padding: 2px; font-family: verdana, sans-serif; font-siz=
+e: 8pt;"><a href=3D"mailto:vittorio.bertola@open-xchange.com">vittorio.bert=
+ola@open-xchange.com</a><br></td>
+     </tr>
+    </tbody>
+   </table>
+   <table style=3D"border-collapse: collapse;" class=3D"mce-item-table" wid=
+th=3D"100%" cellspacing=3D"0" cellpadding=3D"2" border=3D"0">
+    <tbody>
+     <tr>
+      <td colspan=3D"2" style=3D"padding: 2px; font-family: verdana, sans-s=
+erif; font-size: 8pt;"><br></td>
+     </tr>
+     <tr>
+      <td colspan=3D"2" style=3D"padding: 2px; font-family: verdana, sans-s=
+erif; font-size: 8pt;">Twitter: <a href=3D"http://twitter.com/openexchange"=
+>@openexchange</a> - Facebook: <a href=3D"https://www.facebook.com/OpenXcha=
+nge">OpenXchange</a> - Web: <a href=3D"http://www.open-xchange.com"> www.op=
+en-xchange.com</a><br></td>
+     </tr>
+     <tr>
+      <td style=3D"padding: 2px; border-bottom: 1px solid #000; border-righ=
+t: 1px solid #000; border-top: 1px solid #000;" width=3D"200" valign=3D"mid=
+del" align=3D"center"><img src=3D"cid:de892f5845cc410cafa225bc50abe5cd" id=
+=3D"de892f5845cc410cafa225bc50abe5cd"></td>
+      <td style=3D"padding: 2px; border-bottom: 1px solid #000; border-top:=
+ 1px solid #000; font-family: verdana, sans-serif; font-size: 8pt;">Open-Xc=
+hange AG, Hohenzollernring 72, 50672 Cologne, District Court Cologne HRB 95=
+366<br>Managing Board: Rafael Laguna de la Vera, Carsten Dirks, Michael Kna=
+pstein, Stephan Martin <br>Chairman of the Board: Richard Seibt<br><br>Euro=
+pean Office: <br>Open-Xchange GmbH, Olper Huette 5f, D-57462 Olpe, Germany,=
+ District Court Siegen, HRB 8718 <br>Managing Director: Frank Hoberg<br><br=
+>US Office: <br>Open-Xchange. Inc., 530 Lytton Avenue, Palo Alto, CA 94301,=
+ USA <br></td>
+     </tr>
+     <tr>
+      <td colspan=3D"2" style=3D"padding: 2px; font-family: verdana, sans-s=
+erif; font-size: 8pt;"><br></td>
+     </tr>
+     <tr>
+      <td colspan=3D"2" style=3D"padding: 2px; font-family: verdana, sans-s=
+erif; font-size: 8pt; color: #ccc;">Confidentiality Warning: This message a=
+nd any attachments are intended only for the use of the intended recipient(=
+s), are confidential, and may be privileged. If you are not the intended re=
+cipient, you are hereby notified that any review, retransmission, conversio=
+n to hard copy, copying, circulation or other use of this message and any a=
+ttachments is strictly prohibited. If you are not the intended recipient, p=
+lease notify the sender immediately by return e-mail, and delete this messa=
+ge and any attachments from your system.</td>
+     </tr>
+    </tbody>
+   </table>
+  </div>=20
+ </body>
+</html>
+------=_Part_10442_123764643.1549373710933
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-ID: <de892f5845cc410cafa225bc50abe5cd>
+Content-Disposition: inline
+
+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
+m7eWVgPWRtlPTTrYbS0buGppTNL7tErtqWqWbmUR3dzDQkYJavqertlO2rcRgz+wUzrYZmwq2Rg2
+2brH6WxRsAUx+KDnV8vv0ma8azku8nU8ZVd4dk96z/TufUBjKvziSa9MgaLfFThOAPyMKMX+8ta0
+xiKRJVtxeRFwBXCYlhtM+Lr8am/Ie0VlO+Dv5PvfS37x30irjlX2VlK08+RFenSkmW68yv8BXSm7
+LkwwJDUAAAAASUVORK5CYIIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+------=_Part_10442_123764643.1549373710933--
+
+------=_Part_10441_524228062.1549373710933--
+
+
+From nobody Thu Feb  7 12:14:16 2019
+Return-Path: <bernie@ietf.hoeneisen.ch>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 53728129C6A for <hrpc@ietfa.amsl.com>; Thu,  7 Feb 2019 12:14:14 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.899
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.899 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_NONE=-0.0001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id CzKqo2xWwi1x for <hrpc@ietfa.amsl.com>; Thu,  7 Feb 2019 12:14:11 -0800 (PST)
+Received: from softronics.hoeneisen.ch (softronics.hoeneisen.ch [62.2.86.178]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 72C84129A85 for <hrpc@irtf.org>; Thu,  7 Feb 2019 12:14:10 -0800 (PST)
+Received: from localhost ([127.0.0.1]) by softronics.hoeneisen.ch with esmtp (Exim 4.86_2) (envelope-from <bernie@ietf.hoeneisen.ch>) id 1grq3i-0000x6-9H; Thu, 07 Feb 2019 21:14:06 +0100
+Date: Thu, 7 Feb 2019 21:14:06 +0100 (CET)
+From: "Bernie Hoeneisen (bernhard.hoeneisen AT ucom.ch)" <bernie@ietf.hoeneisen.ch>
+X-X-Sender: bhoeneis@softronics.hoeneisen.ch
+To: Vittorio Bertola <vittorio.bertola@open-xchange.com>
+cc: =?UTF-8?Q?Hern=C3=A2ni_Marques_=28p=E2=89=A1p_foundation=29?= <hernani.marques@pep.foundation>, hrpc@irtf.org
+In-Reply-To: <2089635218.10444.1549373710958@appsuite.open-xchange.com>
+Message-ID: <alpine.DEB.2.20.1902072036450.31678@softronics.hoeneisen.ch>
+References: <575532d2-18f2-4cf4-2e62-1acb2b579208@pep.foundation> <2089635218.10444.1549373710958@appsuite.open-xchange.com>
+User-Agent: Alpine 2.20 (DEB 67 2015-01-07)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII; format=flowed
+X-SA-Exim-Connect-IP: 127.0.0.1
+X-SA-Exim-Mail-From: bernie@ietf.hoeneisen.ch
+X-SA-Exim-Scanned: No (on softronics.hoeneisen.ch); SAEximRunCond expanded to false
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/KzvJhI1-dhwFI2Y4-umv4_pUrKo>
+Subject: Re: [hrpc] MEDUP: New non-WG mailing list to fix privacy/usability issues (in, e.g., email, XMPP)
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.29
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 07 Feb 2019 20:14:14 -0000
+
+Dear Vittorio
+
+On Tue, 5 Feb 2019, Vittorio Bertola wrote:
+
+> Hello Hernani,
+
+As your questions are mainly related to IETF process, Hernani asked me to 
+answer your email.
+
+> I think that easy end-to-end email encryption is overdue and I welcome 
+> any effort to get there. However, now speaking as a major email server 
+> software vendor, I would like to understand better the scope of this 
+> initiative; the charter says
+
+I presume you are refering to the Maling list description (as there is 
+no charter for MEDUP at this point in time).
+
+> that updating "application level protocols such as email" (which by the 
+> way is not clear in itself, since there is no "email" protocol but there 
+> are several) is in the scope of this mailing list,
+
+With respect to email MEDUP includes mainly RFC822 or rather its latest 
+successor: https://tools.ietf.org/html/rfc5322
+
+> which however is not an IETF working group (is it expected to lead to 
+> one?).
+
+We are working on a BoF proposal with the intention to form an IETF 
+Working Group.
+
+> Now, if you want to update IMAP, there's already an IETF WG (EXTRA) that 
+> does that, not to mention the JMAP WG if you prefer JMAP.
+
+MEDUP is not specific to IMAP.
+
+> There's nothing for SMTP as far as I know,
+
+MEDUP is not specific to SMTP either.
+
+> but even in that case I am sure there would be many other parties that 
+> would need to join such a discussion, and they are definitely not on 
+> HRPC.
+
+Feel free to inform other parties about this mailing list as you deem 
+useful.
+
+> Also, the IRTF already has PEARG for more speculative discussion, 
+> and its charter includes these matters.
+
+The PEARG list has been informed already.
+
+> Bottom line: I am happily joining the mailing list, but I would like to 
+> understand what's the plan, and how this differs from all these other 
+> efforts up to the point of requiring yet another mailing list that I 
+> have to subscribe to :-)
+
+Please find more information on:
+- https://mailarchive.ietf.org/arch/msg/medup/mbrbhFekt_srXShzpCa4RiXgPbY
+- https://mailarchive.ietf.org/arch/msg/pearg/oBjgAwG3_eoR6tpLQGTE_9OggzQ
+The former also includes a list of Internet-Drafts describing the MEDUP 
+challenges.
+
+You may also want to visit https://pep.foundation to find more 
+information on the topic.
+
+Hope that helps!
+
+cheers,
+  Bernie
+

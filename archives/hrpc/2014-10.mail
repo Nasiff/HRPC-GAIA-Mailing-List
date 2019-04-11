@@ -1,0 +1,512 @@
+From joana@varonferraz.com Sat Oct 25 05:45:40 2014
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <joana@varonferraz.com>) id 1XhsIO-0007jh-0f
+	for hrpc@article19.io; Sat, 25 Oct 2014 05:45:40 +0200
+Received: from vps784.greenhost.nl ([213.108.108.114] helo=mail.article19.io)
+	by mx1.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <joana@varonferraz.com>)
+	id 1XhsIN-0004xj-VD
+	for hrpc@article19.io; Sat, 25 Oct 2014 05:45:39 +0200
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id CED5813003C
+	for <hrpc@article19.io>; Sat, 25 Oct 2014 03:45:53 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+X-Spam-Flag: NO
+X-Spam-Score: -0.022
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.022 tagged_above=-10 required=6.6
+	tests=[BAYES_40=-0.001, HTML_MESSAGE=0.001, RCVD_IN_MSPIKE_H4=-0.01,
+	RCVD_IN_MSPIKE_WL=-0.01, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001]
+	autolearn=ham autolearn_force=no
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 3_a0Bq2YxCTh for <hrpc@article19.io>;
+	Sat, 25 Oct 2014 03:45:52 +0000 (UTC)
+Received: from smarthost1.greenhost.nl (smarthost1.greenhost.nl
+	[195.190.28.81])
+	by mail.article19.io (Postfix) with ESMTPS id DA14613003B
+	for <hrpc@article19.io>; Sat, 25 Oct 2014 03:45:52 +0000 (UTC)
+Received: from smtp.greenhost.nl ([213.108.104.138])
+	by smarthost1.greenhost.nl with esmtps (TLS1.0:RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <joana@varonferraz.com>)
+	id 1XhsIH-0008At-C4
+	for hrpc@article19.io; Sat, 25 Oct 2014 05:45:38 +0200
+User-Agent: K-9 Mail for Android
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----6L3F1JRG6NT9A4XESOL43WIA3YHRVV"
+Content-Transfer-Encoding: 7bit
+From: Joana <joana@varonferraz.com>
+Date: Sat, 25 Oct 2014 12:45:22 +0900
+To: hrpc@article19.io
+Message-ID: <7790C113-4C71-4A59-BA2A-EF2F4B1D0F2C@varonferraz.com>
+X-Authenticated-As-Hash: 0663834574f9da71d8f82ee71c27915bbc5237b0
+X-Virus-Scanned: by clamav at smarthost1.samage.net
+X-Scan-Signature: 964c6a2bc69af72888bec91466701c23
+Subject: [Hrpc] testing
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Sat, 25 Oct 2014 03:45:40 -0000
+
+------6L3F1JRG6NT9A4XESOL43WIA3YHRVV
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+--=20
+@joana_varon
+PGP 0x016B8E73
+------6L3F1JRG6NT9A4XESOL43WIA3YHRVV
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<br>
+-- <br>
+@joana_varon<br>
+PGP 0x016B8E73
+------6L3F1JRG6NT9A4XESOL43WIA3YHRVV--
+
+
+
+From niels@article19.org Mon Oct 27 11:57:49 2014
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <niels@article19.org>) id 1Xihzh-00035E-73
+	for hrpc@article19.io; Mon, 27 Oct 2014 11:57:49 +0100
+Received: from vps784.greenhost.nl ([213.108.108.114] helo=mail.article19.io)
+	by mx1.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <niels@article19.org>) id 1Xihzg-0004PP-Sv
+	for hrpc@article19.io; Mon, 27 Oct 2014 11:57:49 +0100
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 074EB14000C
+	for <hrpc@article19.io>; Mon, 27 Oct 2014 10:58:05 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+X-Spam-Flag: NO
+X-Spam-Score: -2.568
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.568 tagged_above=-10 required=6.6
+	tests=[BAYES_00=-1.9, RP_MATCHES_RCVD=-0.668]
+	autolearn=ham autolearn_force=no
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id udlOtlZ8-EUH for <hrpc@article19.io>;
+	Mon, 27 Oct 2014 10:58:04 +0000 (UTC)
+Received: from mailgate.article19.org (mailgate.article19.org [62.49.125.10])
+	by mail.article19.io (Postfix) with ESMTP id 1B1A014000B
+	for <hrpc@article19.io>; Mon, 27 Oct 2014 10:58:04 +0000 (UTC)
+Received: from mailgate.article19.org (127.0.0.1) id h9oiim0171sd for
+	<hrpc@article19.io>;
+	Mon, 27 Oct 2014 10:42:23 +0000 (envelope-from <niels@article19.org>)
+Received: from mail.article19.org ([192.168.1.4])
+	by mailgate.article19.org (A19mailgateway)
+	with ESMTP id 201410271042210047540; Mon, 27 Oct 2014 10:42:21 +0000
+Received: from A19MAIL.aricle19.org ([::1]) by A19MAIL.aricle19.org ([::1])
+	with mapi id 14.02.0387.000; Mon, 27 Oct 2014 10:42:21 +0000
+From: Niels ten Oever <niels@article19.org>
+To: "hrpc@article19.io" <hrpc@article19.io>
+Thread-Topic: Draft released
+Thread-Index: Ac/x0q+bJVRKVhXPS72r+BykXwQlaA==
+Date: Mon, 27 Oct 2014 10:42:21 +0000
+Message-ID: <BF4D71141EE5EB4BAF77E4406388D34B07688FF7@A19MAIL.aricle19.org>
+Accept-Language: en-GB, en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [210.91.168.1]
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Mlf-Version: 7.4.6.1945
+X-Mlf-UniqueId: o201410271042210047540
+X-Spam-Level: -
+X-Spam-Status: No, score=-1.9 required=5.0 tests=BAYES_00 autolearn=disabled
+	version=3.3.2
+X-Spam-Score: -1.9
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 938925967a2432a0d8c7279c30be63be
+Subject: [Hrpc] Draft released
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Mon, 27 Oct 2014 10:57:49 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----=0A=
+Hash: SHA512=0A=
+=0A=
+You can find it here:=0A=
+http://www.ietf.org/id/draft-doria-hrpc-proposal-00.txt=0A=
+=0A=
+Welcome to the list. This is a final testing email.=0A=
+=0A=
+Best,=0A=
+=0A=
+Niels=0A=
+=0A=
+- -- =0A=
+Niels ten Oever=0A=
+Head of Digital=0A=
+=0A=
+Article 19=0A=
+www.article19.org=0A=
+=0A=
+PGP fingerprint =3D 8D9F C567 BEE4 A431 56C4 678B 08B5 A0F2 636D 68E9=0A=
+-----BEGIN PGP SIGNATURE-----=0A=
+Version: GnuPG v1.4.12 (GNU/Linux)=0A=
+=0A=
+iQEcBAEBCgAGBQJUTiFUAAoJEAi1oPJjbWjpTXgIAKmnc9d9a5tsWhRKBkVCBNsy=0A=
+f2G55fjEsu81Fzomxy0HX8+bZSHzqwpg8JH2sf1Tpg3RzQk6xX3p1/1cnZsFO2n6=0A=
+lSfahC0jkcffumShPM9KBCr3yhfglifiKniPu5Fmwni6ZDHr3EhvS/8C2PnmDmkU=0A=
+RDf7Tf8N1+vEiQ0PHQiQoWUw3mrq5g14TVQyy9zX3/a54WutflbWaItNk6SgMH7h=0A=
+MqomtfMw9hBwxPQk1V9EVLeayXar3AlKqg8WWyGcWVNuRF/eKf4d5O1sy/OLZRa5=0A=
+mL7th+TEunQkLnTvaAX6W4HUI1UkRMtOAuJmAo1ATSHK60OiZSWj8Z+4SSUwD/8=3D=0A=
+=3DDBCk=0A=
+-----END PGP SIGNATURE-----=0A=
+
+
+From avri@acm.org Mon Oct 27 11:58:59 2014
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72) (envelope-from <avri@acm.org>)
+	id 1Xii0p-00035c-JV
+	for hrpc@article19.io; Mon, 27 Oct 2014 11:58:59 +0100
+Received: from vps784.greenhost.nl ([213.108.108.114] helo=mail.article19.io)
+	by mx1.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <avri@acm.org>) id 1Xii0p-0004U4-2L
+	for hrpc@article19.io; Mon, 27 Oct 2014 11:58:59 +0100
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 3C4BB14000C
+	for <hrpc@article19.io>; Mon, 27 Oct 2014 10:59:15 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+X-Spam-Flag: NO
+X-Spam-Score: 0.166
+X-Spam-Level: 
+X-Spam-Status: No, score=0.166 tagged_above=-10 required=6.6
+	tests=[BAYES_05=-0.5, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001,
+	SPF_SOFTFAIL=0.665] autolearn=no autolearn_force=no
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Dksi1MPefepl for <hrpc@article19.io>;
+	Mon, 27 Oct 2014 10:59:14 +0000 (UTC)
+Received: from atl4mhfb03.myregisteredsite.com
+	(atl4mhfb03.myregisteredsite.com [209.17.115.61])
+	by mail.article19.io (Postfix) with ESMTPS id 260C914000B
+	for <hrpc@article19.io>; Mon, 27 Oct 2014 10:59:14 +0000 (UTC)
+Received: from atl4mhob14.myregisteredsite.com
+	(atl4mhob14.myregisteredsite.com [209.17.115.52])
+	by atl4mhfb03.myregisteredsite.com (8.14.4/8.14.4) with ESMTP id
+	s9RAtAqB022594
+	for <hrpc@article19.io>; Mon, 27 Oct 2014 06:55:11 -0400
+Received: from mailpod.hostingplatform.com ([10.30.71.205])
+	by atl4mhob14.myregisteredsite.com (8.14.4/8.14.4) with ESMTP id
+	s9RAt9x6008963
+	for <hrpc@article19.io>; Mon, 27 Oct 2014 06:55:09 -0400
+Received: (qmail 27764 invoked by uid 0); 27 Oct 2014 10:55:09 -0000
+X-TCPREMOTEIP: 210.91.168.1
+X-Authenticated-UID: avri@ella.com
+Received: from unknown (HELO ?127.0.0.1?) (avri@ella.com@210.91.168.1)
+	by 0 with ESMTPA; 27 Oct 2014 10:55:08 -0000
+Message-ID: <544E247E.8060209@acm.org>
+Date: Mon, 27 Oct 2014 19:54:54 +0900
+From: Avri Doria <avri@acm.org>
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64;
+	rv:24.0) Gecko/20100101 Thunderbird/24.6.0
+MIME-Version: 1.0
+To: hrpc@article19.io
+References: <20141027101519.4548.2821.idtracker@ietfa.amsl.com>
+In-Reply-To: <20141027101519.4548.2821.idtracker@ietfa.amsl.com>
+X-Forwarded-Message-Id: <20141027101519.4548.2821.idtracker@ietfa.amsl.com>
+Content-Type: multipart/alternative;
+	boundary="------------020008040102020301000600"
+X-Antivirus: avast! (VPS 141027-0, 10/27/2014), Outbound message
+X-Antivirus-Status: Not-Tested
+X-Spam-Level: +
+X-Spam-Status: No, score=1.5 required=5.0 tests=BAYES_50, HTML_MESSAGE,
+	SPF_SOFTFAIL autolearn=disabled version=3.3.2
+X-Spam-Score: 1.5
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: d481a3ce71df9aadb04040cd05ada01e
+Subject: [Hrpc] Fwd: New Version Notification for
+	draft-doria-hrpc-proposal-00.txt
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Mon, 27 Oct 2014 10:59:00 -0000
+
+This is a multi-part message in MIME format.
+--------------020008040102020301000600
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+
+-------- Original Message --------
+Subject: 	New Version Notification for draft-doria-hrpc-proposal-00.txt
+Date: 	Mon, 27 Oct 2014 03:15:19 -0700
+From: 	internet-drafts@ietf.org
+To: 	Avri Doria <avri@acm.org>, Joana Varon <joana@varonferraz.com>,
+Joana Varon <joana@varonferraz.com>, Niels ten Oever
+<niels@article19.org>, Niels ten Oever <niels@article19.org>, Avri Doria
+<avri@acm.org>
+
+
+
+A new version of I-D, draft-doria-hrpc-proposal-00.txt
+has been successfully submitted by Avri Doria and posted to the
+IETF repository.
+
+Name:		draft-doria-hrpc-proposal
+Revision:	00
+Title:		Proposal for research on human rights protocol considerations
+Document date:	2014-10-27
+Group:		Individual Submission
+Pages:		9
+URL:            http://www.ietf.org/internet-drafts/draft-doria-hrpc-proposal-00.txt
+Status:         https://datatracker.ietf.org/doc/draft-doria-hrpc-proposal/
+Htmlized:       http://tools.ietf.org/html/draft-doria-hrpc-proposal-00
+
+
+Abstract:
+   Work has been done on privacy issues that should be considered when
+   creating an Internet protocol.  This draft suggests that similar
+   considerations may apply for other human rights such as freedom of
+   expression or freedom of association.  A proposal is made for
+   initiating IRTF work researching the possible connections between
+   human rights and Internet standards and protocols.  The goal would be
+   to create an informational RFC concerning human rights protocol
+   considerations.
+
+   Discussion on this draft at: hrpc@article19.io
+
+                                                                                  
+
+
+Please note that it may take a couple of minutes from the time of submission
+until the htmlized version and diff are available at tools.ietf.org.
+
+The IETF Secretariat
+
+
+
+
+
+
+--------------020008040102020301000600
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body bgcolor="#FFFFFF" text="#330033">
+    <br>
+    <div class="moz-forward-container"><br>
+      <br>
+      -------- Original Message --------
+      <table class="moz-email-headers-table" cellpadding="0"
+        cellspacing="0" border="0">
+        <tbody>
+          <tr>
+            <th align="RIGHT" nowrap="nowrap" valign="BASELINE">Subject:
+            </th>
+            <td>New Version Notification for
+              draft-doria-hrpc-proposal-00.txt</td>
+          </tr>
+          <tr>
+            <th align="RIGHT" nowrap="nowrap" valign="BASELINE">Date: </th>
+            <td>Mon, 27 Oct 2014 03:15:19 -0700</td>
+          </tr>
+          <tr>
+            <th align="RIGHT" nowrap="nowrap" valign="BASELINE">From: </th>
+            <td><a class="moz-txt-link-abbreviated" href="mailto:internet-drafts@ietf.org">internet-drafts@ietf.org</a></td>
+          </tr>
+          <tr>
+            <th align="RIGHT" nowrap="nowrap" valign="BASELINE">To: </th>
+            <td>Avri Doria <a class="moz-txt-link-rfc2396E" href="mailto:avri@acm.org">&lt;avri@acm.org&gt;</a>, Joana Varon
+              <a class="moz-txt-link-rfc2396E" href="mailto:joana@varonferraz.com">&lt;joana@varonferraz.com&gt;</a>, Joana Varon
+              <a class="moz-txt-link-rfc2396E" href="mailto:joana@varonferraz.com">&lt;joana@varonferraz.com&gt;</a>, Niels ten Oever
+              <a class="moz-txt-link-rfc2396E" href="mailto:niels@article19.org">&lt;niels@article19.org&gt;</a>, Niels ten Oever
+              <a class="moz-txt-link-rfc2396E" href="mailto:niels@article19.org">&lt;niels@article19.org&gt;</a>, Avri Doria
+              <a class="moz-txt-link-rfc2396E" href="mailto:avri@acm.org">&lt;avri@acm.org&gt;</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <pre>A new version of I-D, draft-doria-hrpc-proposal-00.txt
+has been successfully submitted by Avri Doria and posted to the
+IETF repository.
+
+Name:		draft-doria-hrpc-proposal
+Revision:	00
+Title:		Proposal for research on human rights protocol considerations
+Document date:	2014-10-27
+Group:		Individual Submission
+Pages:		9
+URL:            <a class="moz-txt-link-freetext" href="http://www.ietf.org/internet-drafts/draft-doria-hrpc-proposal-00.txt">http://www.ietf.org/internet-drafts/draft-doria-hrpc-proposal-00.txt</a>
+Status:         <a class="moz-txt-link-freetext" href="https://datatracker.ietf.org/doc/draft-doria-hrpc-proposal/">https://datatracker.ietf.org/doc/draft-doria-hrpc-proposal/</a>
+Htmlized:       <a class="moz-txt-link-freetext" href="http://tools.ietf.org/html/draft-doria-hrpc-proposal-00">http://tools.ietf.org/html/draft-doria-hrpc-proposal-00</a>
+
+
+Abstract:
+   Work has been done on privacy issues that should be considered when
+   creating an Internet protocol.  This draft suggests that similar
+   considerations may apply for other human rights such as freedom of
+   expression or freedom of association.  A proposal is made for
+   initiating IRTF work researching the possible connections between
+   human rights and Internet standards and protocols.  The goal would be
+   to create an informational RFC concerning human rights protocol
+   considerations.
+
+   Discussion on this draft at: <a class="moz-txt-link-abbreviated" href="mailto:hrpc@article19.io">hrpc@article19.io</a>
+
+                                                                                  
+
+
+Please note that it may take a couple of minutes from the time of submission
+until the htmlized version and diff are available at tools.ietf.org.
+
+The IETF Secretariat
+
+
+
+</pre>
+      <br>
+    </div>
+    <br>
+  </body>
+</html>
+
+--------------020008040102020301000600--
+
+
+From ludo@greenhost.nl Mon Oct 27 12:06:19 2014
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <ludo@greenhost.nl>) id 1Xii7v-00037Z-LN
+	for hrpc@article19.io; Mon, 27 Oct 2014 12:06:19 +0100
+Received: from vps784.greenhost.nl ([213.108.108.114] helo=mail.article19.io)
+	by mx1.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <ludo@greenhost.nl>) id 1Xii7v-0004nE-4a
+	for hrpc@article19.io; Mon, 27 Oct 2014 12:06:19 +0100
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 403AE14000E
+	for <hrpc@article19.io>; Mon, 27 Oct 2014 11:06:35 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+X-Spam-Flag: NO
+X-Spam-Score: -1.898
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.898 tagged_above=-10 required=6.6
+	tests=[BAYES_00=-1.9, SPF_FAIL=0.001, TVD_SPACE_RATIO=0.001]
+	autolearn=no autolearn_force=no
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id PdfnKotFlX3j for <hrpc@article19.io>;
+	Mon, 27 Oct 2014 11:06:34 +0000 (UTC)
+Received: from bobafett.puscii.nl (bobafett.puscii.nl [94.142.245.199])
+	by mail.article19.io (Postfix) with ESMTPS id C444614000C
+	for <hrpc@article19.io>; Mon, 27 Oct 2014 11:06:34 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by bobafett.puscii.nl (Postfix) with ESMTP id 3A052CDBAA
+	for <hrpc@article19.io>; Mon, 27 Oct 2014 10:48:51 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at bobafett.puscii.nl
+Received: from bobafett.puscii.nl ([127.0.0.1])
+	by localhost (bobafett.puscii.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id YVR0eh3Z0POK for <hrpc@article19.io>;
+	Mon, 27 Oct 2014 10:48:50 +0000 (UTC)
+Received: by puscii.nl (sSMTP sendmail emulation);
+	Mon, 27 Oct 2014 11:48:21 +0100
+Date: Mon, 27 Oct 2014 11:48:21 +0100
+From: Ludo <ludo@greenhost.nl>
+To: hrpc@article19.io
+Message-ID: <20141027104821.GA3752@romanesco.puscii.taz>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha1;
+	protocol="application/pgp-signature"; boundary="BXVAT5kNtrzKuDFl"
+Content-Disposition: inline
+User-Agent: Mutt/1.5.23 (2014-03-12)
+X-Spam-Level: --
+X-Spam-Status: No, score=-2.5 required=5.0 tests=BAYES_00, RP_MATCHES_RCVD,
+	SPF_FAIL, TVD_SPACE_RATIO autolearn=disabled version=3.3.2
+X-Spam-Score: -2.5
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: a350ae07b5350cdad28cef237d2e7179
+X-Mailman-Approved-At: Mon, 27 Oct 2014 12:13:46 +0100
+Subject: [Hrpc] test
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Mon, 27 Oct 2014 11:06:20 -0000
+
+
+--BXVAT5kNtrzKuDFl
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+test!
+
+--BXVAT5kNtrzKuDFl
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAEBAgAGBQJUTiL1AAoJEMThVK4DEkI28bkP/i02Kwlv0fe8PBNwp0do6FZP
+bmFECU+meiSUHR1SPukgwcnqY5nlLKaqyj5TB//aHLMOhe2oyOMrEr+Qafj3wjA+
+D/PXseo6Qm1/IFXWwQLYjXXdT0Qb8X5jZTtaI9Z0clUqJOj8tkN0XWsLOFY/ZbrV
+LoTS1DG8u95DA1Jdsfxdfs+tGtnYPG1iEjMDVzvPHU7nApaFEWAzXyrPA8Q5AFCS
+j+KITBNXemHWe/mrUOxsU4AzueRzhYrSiTMq8SDddBCg7+VPmID+MIMYcl/Niw54
+Y8/SaoyExHyeAHgsJ9LpAcjFlsjn+dICJ2SbANI3JIuZyxzhrurhL93XKo36DIVL
+q2LEMdLq8W51OeZ4GFzMOiOWGyyhems2FhaCY6hgmUF3di1QUk8MyXWVyJQBNyFy
+z/gQ+uSHzGeqef4OPvocWI7zYa5V5NYrQRq6FtDbgV5sU3fyu061Va+ah4ZofpmV
+4DLUjbcDWUVKV1rS6u/QMuAPRpBugu+yjJMOMQcJ56wdy690OtOUt4TipWtYBpE4
+FajNZjNyKsXN9ZVsxy1TJdpvG7TS8Pf3zdsZU4UegXIkPZEjjkA8FG8xVHzMKy95
+bA+z94/44y/nyjNquX6k9gziYTPNDInf4DOWJ8Tusxk8WsY6qn2wO61D/UHW864E
+Wo0Zv3kYiUIvMs5Jg2Xq
+=ySXw
+-----END PGP SIGNATURE-----
+
+--BXVAT5kNtrzKuDFl--
+

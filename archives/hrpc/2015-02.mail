@@ -1,0 +1,2114 @@
+From niels@article19.org Tue Feb 03 17:52:47 2015
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <niels@article19.org>) id 1YIgiV-0007f2-0T
+	for hrpc@article19.io; Tue, 03 Feb 2015 17:52:47 +0100
+Received: from vps784.greenhost.nl ([213.108.108.114] helo=mail.article19.io)
+	by mx1.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <niels@article19.org>) id 1YIgiU-0004z8-By
+	for hrpc@article19.io; Tue, 03 Feb 2015 17:52:46 +0100
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 85BC5CC03D
+	for <hrpc@article19.io>; Tue,  3 Feb 2015 16:53:48 +0000 (UTC)
+X-Spam-Flag: NO
+X-Spam-Score: -2.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.9 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_00=-1.9] autolearn=ham autolearn_force=no
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id a9JBVSAMyZCm for <hrpc@article19.io>;
+	Tue,  3 Feb 2015 16:53:47 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 0D4CFCC03E
+	for <hrpc@article19.io>; Tue,  3 Feb 2015 16:53:47 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id RZQqHhdEcX4w for <hrpc@article19.io>;
+	Tue,  3 Feb 2015 16:53:46 +0000 (UTC)
+Received: from [192.168.0.4] (121-82-193-89f1.kyt1.eonet.ne.jp [121.82.193.89])
+	by mail.article19.io (Postfix) with ESMTPSA id 42561CC03D
+	for <hrpc@article19.io>; Tue,  3 Feb 2015 16:53:45 +0000 (UTC)
+Message-ID: <54D0FCD7.60302@article19.org>
+Date: Tue, 03 Feb 2015 16:52:39 +0000
+From: Niels ten Oever <niels@article19.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:31.0) Gecko/20100101 Icedove/31.4.0
+MIME-Version: 1.0
+To: "hrpc@article19.io" <hrpc@article19.io>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Level: +
+X-Spam-Status: No, score=1.6 required=5.0 tests=BAYES_50,
+	SPF_NEUTRAL autolearn=disabled version=3.3.2
+X-Spam-Score: 1.6
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 00ca572c58d2a72aaa1283be2358df10
+Subject: [hrpc] first screening of RFC7230 for Human Rights leads
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Tue, 03 Feb 2015 16:52:47 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Dear all,
+
+I went through RFC7230 [0] over the last days and found some hooks
+that might be interesting. This is by no means a full analysis, but I
+hope it can form an input for the discussion.
+
+A thought that stuck with me after reading the first chapter of Laura
+Denardis' book Protocol Politics is the feature of IP which she calls
+'disinterestness', but we can also find this in RFC1958 which says
+that the intelligence of the network is found in the endpoints, rather
+than in the network. The network is there to transport datagrams
+(packets), nothing more, nothing less.
+This is relevant for our research because it helps us to look at both
+what is organized in protocols, but maybe even more, in what is not
+regulated or standardize which is what makes the Internet an enabling
+environment for freedom of expression.
+
+1.
+In the abstract, HTTP is described as a protocol for distributed and
+collaborative information systems. This has clear technical
+implications, but it could also described equality of nodes, which
+might make this translatable in rights implications. I'm especially
+thinking about the right to receive and impart information and ideas
+through any media and regardless of frontiers. A distributed system
+affirms and enables that by design.
+
+Perhaps a good start is to note the words that keep on coming back in
+a rights context, and word mine all RFCs for these words?
+
+Some of these words could be: connectivity, distributed,
+collabarative, reliable, scalable, caching
+
+This could be one way of selecting new and more RFCs, and perhaps
+auto-grouping them per theme.
+
+2.
+[self-descriptive message payloads] -> This means that both content
+and description are to defined by the author/host system, so people
+can categorize, frame and describe their content themselves, instead
+of it being auto categorized.
+
+3.
+[QUOTE]
+   Likewise, servers do not need to be aware of each client's purpose:
+an HTTP request can be
+   considered in isolation rather than being associated with a
+specific type of client
+   or a predetermined sequence of application steps.
+[/QUOTE]
+
+This supports innovation, development, and flexibility. Would this
+have any rights implications? Or is this just very practical way of
+defining a broadly used protocol? Could be linked to  'IP
+disinterestness' (as mentioned above), which creates space for freedom
+of expression and freedom of assembly, by supplying tools but not
+defining the way in which it needs to be done.
+
+4.
+[QUOTE]
+An HTTP "client" is a
+   program that establishes a connection to a server for the purpose of
+   sending one or more HTTP requests.
+[/QUOTE]
+
+Interestingly, as interaction starts with the request from a client.
+The primacy of every action lies with the client. Which could point to
+souvereignty, autonomy and/or freedom of choice. Are all services
+based on a request? Are all protocols initiated by request? Would be
+interesting to have a statement about the primacy of the client. How
+does this relate to cookies, consent, etc? In other words: does all
+automation start with clients?
+
+Obviously not, because one can scan for open ports, ping user agents,
+etc. But then one can configure a user agent to respond to this or not
+(like putting robots.txt on your webserver signals that you don't want
+your site to be indexed by Google).
+
+This seems to point to deepening of this topic:
+
+[QUOTE]
+   The implementation diversity of HTTP means that not all user agents
+   can make interactive suggestions to their user or provide adequate
+   warning for security or privacy concerns.
+[/QUOTE]
+
+Eventhough security and privacy concerns are valid (one does not want
+to give away more information than necessary), this could also fit
+within a freedom of expression context where a user is free to hold an
+opinions (and thus not hold or impart others!).
+
+5.
+In the client request Accept-Languages are defined. Perhaps we can
+relate this to the research into IDNs (see draft) and/or use this
+[QUOTE] to show the ambition of the Internet community to
+   reflect the diversity of users and to be in line with Article 2 of
+   the Universal Declaration of Human Rights which clearly stipulates
+   that 'everyone is entitles to all rights and freedoms [..], without
+   distinction of any kind, such as [..] language [..].
+[/QUOTE from ID]
+
+6.
+Caching is crucial for enabling better access to information in areas
+with slow connection. Could we state that through caching access to
+information is improved? Further research to be done in RFC7234.
+
+7.
+What (social) requirements could be meant here? :
+
+[QUOTE]
+   Additional (social) requirements are placed on implementations,
+   resource owners, and protocol element registrations when they apply
+   beyond the scope of a single communication.
+[/QUOTE]
+
+8.
+Strong point for slow and/or instable connections, support
+connectivity where there is bad connection. Excellent protection of
+the right to receive and impart info. I think we could frame this
+under connecivity as well.
+
+[QUOTE]
+6.3.1.  Retrying Requests
+
+   Connections can be closed at any time, with or without intention.
+   Implementations ought to anticipate the need to recover from
+   asynchronous close events.
+[/QUOTE]
+
+Looking forward to discuss!
+
+Best,
+
+Niels
+
+[0] https://tools.ietf.org/html/rfc7230
+
+
+- --=20
+Niels ten Oever
+Head of Digital
+
+Article 19
+www.article19.org
+
+PGP fingerprint    8D9F C567 BEE4 A431 56C4
+                   678B 08B5 A0F2 636D 68E9
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJU0PzWAAoJEAi1oPJjbWjpU9AH/3ROPlwEq6Yvt4FxSsTltXkV
+ESIATnAYmSRVSD/u5MCPGm45WuM+sYhUpD9IGbxRrpKIOAotm331vBqCl2XEdQpk
+NA1cFbsTgPBfvtcwWoWrAhBJwv1WLW1T7g5G82zsSE9rx2hPL8pCaitV1UqSdFaa
+G25Z2j7I++86jmDsdw6RTbfxkumlPSoRMcn0hpXxkG7MOAAAvqG+EkwgGxjxfh+T
+cuGVm6ZDuvWbZvlPI+UF5adHEFFBFFk84sewD5rt/5nuYbtBnLDS5hlL0EDVaRep
+frakByy8mjwW6DYsIM+Vq/LYHjL3XwLqphVIo9kd+Iz6VYYvzTjnRDh2kXHRm9k=3D
+=3DNBg3
+-----END PGP SIGNATURE-----
+
+
+From dkg@fifthhorseman.net Wed Feb 04 04:57:43 2015
+Received: from [10.10.12.45] (helo=mx2.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <dkg@fifthhorseman.net>) id 1YIr5y-0008PU-Sr
+	for hrpc@article19.io; Wed, 04 Feb 2015 04:57:42 +0100
+Received: from che.mayfirst.org ([209.234.253.108])
+	by mx2.greenhost.nl with esmtp (Exim 4.72)
+	(envelope-from <dkg@fifthhorseman.net>) id 1YIr5w-00066d-LR
+	for hrpc@article19.io; Wed, 04 Feb 2015 04:57:42 +0100
+Received: from fifthhorseman.net (ool-6c3a0662.static.optonline.net
+	[108.58.6.98])
+	by che.mayfirst.org (Postfix) with ESMTPSA id D0EAFF986
+	for <hrpc@article19.io>; Tue,  3 Feb 2015 22:57:34 -0500 (EST)
+Received: by fifthhorseman.net (Postfix, from userid 1000)
+	id A67122002B; Tue,  3 Feb 2015 18:20:45 -0500 (EST)
+From: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+To: hrpc@article19.io
+In-Reply-To: <54D0FCD7.60302@article19.org>
+References: <54D0FCD7.60302@article19.org>
+User-Agent: Notmuch/0.18.2 (http://notmuchmail.org) Emacs/24.4.1
+	(x86_64-pc-linux-gnu)
+Date: Tue, 03 Feb 2015 18:20:45 -0500
+Message-ID: <87siem8tv6.fsf@alice.fifthhorseman.net>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Level: ++
+X-Spam-Status: No, score=2.4 required=5.0 tests=BAYES_50,
+	DATE_IN_PAST_03_06 autolearn=disabled version=3.3.2
+X-Spam-Score: 2.4
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: ff2974bc666473b4fc0321629ce2ea1e
+Subject: Re: [hrpc] first screening of RFC7230 for Human Rights leads
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Wed, 04 Feb 2015 03:57:43 -0000
+
+Hi Niels--
+
+Thanks for this effort!  A few thoughts from me below, spurred by your
+initial commentary.  I apologize in advance that (when trying to read
+critically at least) i adopt something of a devil's advocate position.
+My comments are supportive in that i'd like to see this HR analysis
+proceed from a strong and well-thought-through perspective.
+
+On Tue 2015-02-03 11:52:39 -0500, Niels ten Oever wrote:
+> I went through RFC7230 [0] over the last days and found some hooks
+> that might be interesting.
+ [...]
+> This is relevant for our research because it helps us to look at both
+> what is organized in protocols, but maybe even more, in what is not
+> regulated or standardize which is what makes the Internet an enabling
+> environment for freedom of expression.
+
+The idea here i think might be framed as the network being
+"content-neutral".  This is supported in some sense by the satirical
+April Fools' Day RFC 3514, which introduces the "evil bit":
+
+ https://tools.ietf.org/html/rfc3514
+
+>>   Because NAT [RFC3022] boxes modify packets, they SHOULD set the evil
+>>   bit on such packets.  "Transparent" http and email proxies SHOULD se=
+t
+>>   the evil bit on their reply packets to the innocent client host.
+
+There are more serious RFCs that take the idea of a content-neutral or
+content-agnostic network as a given too (for one thing, it's a common
+engineering practice to layer designs by introducing deliberate
+agnosticism about the layers above or below the system being specified)
+
+Unfortunately, not all proposed standards hold this line on content
+neutrality:
+
+  https://tools.ietf.org/html/draft-nottingham-safe-hint-05
+
+(of course, the above draft isn't an official RFC yet -- should we be
+comparing drafts-that-didn't make it with drafts that ended up becoming
+RFCs?)
+
+With a corpus as large as the RFCs, how should this project avoid
+confirmation bias?  If we look for the things we want to find, it seems
+like we should probably also make sure to look for things we *don't*
+want to find, to see whether they're there too. (see also: Biblical
+Exegesis =E2=98=BA)
+
+
+> 1.
+> In the abstract, HTTP is described as a protocol for distributed and
+> collaborative information systems. This has clear technical
+> implications, but it could also described equality of nodes, which
+> might make this translatable in rights implications. I'm especially
+> thinking about the right to receive and impart information and ideas
+> through any media and regardless of frontiers. A distributed system
+> affirms and enables that by design.
+>
+> Perhaps a good start is to note the words that keep on coming back in
+> a rights context, and word mine all RFCs for these words?
+>
+> Some of these words could be: connectivity, distributed,
+> collabarative, reliable, scalable, caching
+>
+> This could be one way of selecting new and more RFCs, and perhaps
+> auto-grouping them per theme.
+>
+> 2.
+> [self-descriptive message payloads] -> This means that both content
+> and description are to defined by the author/host system, so people
+> can categorize, frame and describe their content themselves, instead
+> of it being auto categorized.
+
+i find it a bit funny that in 1. above you're proposing auto-grouping
+the RFCs themselves (presumably after fetching them via HTTP), and in
+2. here you're saying that the protocol is designed in opposition to
+"auto categorization".
+
+I'm wary of the term "auto" in places like this, because i think it
+removes agency.  who is doing the categorization?  even if it's
+"automatic", it's under the control of someone.
+
+I think the point you're trying to make is that the definition of HTTP
+represents a communication between peers, and peers get to have the
+conversation without having to talk to (or get approval from) anyone
+else if they don't want to.
+
+ (technically, this might not be entirely true: DNS and (for HTTPS) the
+   X.509 certificate authority cartel are in some ways mandatory
+   "brokers" when negotiating the creation of an HTTP session, even if
+   they don't get a say about the content of the communication once the
+   session is created)
+
+
+> 3.
+> [QUOTE]
+>    Likewise, servers do not need to be aware of each client's purpose: =
+an HTTP request can be
+>    considered in isolation rather than being associated with a specific=
+ type of client
+>    or a predetermined sequence of application steps.
+> [/QUOTE]
+>
+> This supports innovation, development, and flexibility. Would this
+> have any rights implications? Or is this just very practical way of
+> defining a broadly used protocol? Could be linked to  'IP
+> disinterestness' (as mentioned above), which creates space for freedom
+> of expression and freedom of assembly, by supplying tools but not
+> defining the way in which it needs to be done.
+
+This property is usually called "statelessness" for the server (and not
+in a "smash the state" sense!).  Statelessness a useful property from a
+technical perspective because it means you can have the server crash and
+not have to worry about what happens to the client when it comes back up
+(the client can just carry on as it was).
+
+In practice, of course, everyone wants to introduce state because it
+makes certain kinds of workflows (e.g. multipage forms, logged-in
+accounts, widespread user surveillance) much more convenient.  Hence
+cookies and other similar mechanisms.
+
+But the point of defining HTTP as a stateless protocol is so that
+servers *can* be implemented statelessly, for those who have engineering
+constraints that preclude keeping state on the server side (e.g. a
+machine with no way to write internal storage).
+
+NFS (the "network filesystem") is another protocol that has jumped
+through many hoops to keep "statelessness" for the server.  see:
+
+ https://tools.ietf.org/html/rfc1094#section-1.3
+
+However, NFS as of version 4 has gradually acquired server-side state
+(that is, state shared between the client and the server), while
+retaining some mechanisms aimed at easing this requirement for servers
+that fit certain profiles:
+
+  https://tools.ietf.org/html/rfc3530#section-8.14
+
+
+otoh, aiming for statelessness itself doesn't have to be motivated
+purely by technical goals.  For example, if you design a protocol that
+*requires* the server to maintain state about its users (e.g. internet
+relay chat (IRC) servers retain state about who is connected and what
+channels they're connected to), you make it impossible for someone who
+*doesn't* want to track their users to implement the protocol in a
+non-tracking way.
+
+Whether the push for statelessness in some internet protocols derives in
+part from this urge to safeguard against ubiquitous surveillance is
+pretty hard to say, of course.
+
+
+> 4.
+> [QUOTE]
+> An HTTP "client" is a
+>    program that establishes a connection to a server for the purpose of
+>    sending one or more HTTP requests.
+> [/QUOTE]
+>
+> Interestingly, as interaction starts with the request from a client.
+> The primacy of every action lies with the client. Which could point to
+> souvereignty, autonomy and/or freedom of choice. Are all services
+> based on a request? Are all protocols initiated by request? Would be
+> interesting to have a statement about the primacy of the client. How
+> does this relate to cookies, consent, etc? In other words: does all
+> automation start with clients?
+
+I'm not sure this is anything but a technical label.  In the
+client/server network communications model, the server is defined as
+being the "listener".  the client is the one that initiates a
+connection.
+
+Not all protocols are client/server, though the stuff in the IETF tends
+to be client-server because it's simpler to describe.
+
+peer-to-peer protocols like bittorrent aren't client/server, for
+example.  But i don't think the IETF has ever even tried to standardize
+bittorrent. And while the protocol at a high level might not be
+client/server, each individual communication that happens during a
+bittorrent session (i'm not sure i'm using the right BT terms here -- i
+don't know much about the protocol) is probably using a client/server
+model, where one peer (the client at that moment) sends a message to
+another peer (the server at that moment).
+
+TCP itself supports a "simultaneous open" mode, where neither side is
+the client or the server:
+
+  https://tools.ietf.org/html/rfc793#page-32
+
+But there are very few attempts to use simultaneous open in the wild (i
+think that STUN or TURN might use it, but i don't recall the details)
+
+Some lower-level protocols like Ethernet (also not standardized by the
+IETF) are by definition broadcast -- everyone in a given broadcast
+domain receives every message, and the recipients are just expected to
+filter out traffic that isn't aimed at them.
+
+The IETF has some protocols like IP multicast that enable subscription
+mechanisms that might take advantage of this lower-level broadcast
+technique:
+
+ https://tools.ietf.org/html/rfc1112
+
+> Obviously not, because one can scan for open ports, ping user agents,
+> etc.
+
+by scanning for open ports, you're acting as a (TCP or UDP) client.  I'm
+not sure what you mean by "ping user agents".  the traditional ping
+(ICMP echo request) happens at the IP layer, from host to host, where
+"user agent" has no definition that i know of.
+
+> But then one can configure a user agent to respond to this or not
+> (like putting robots.txt on your webserver signals that you don't want
+> your site to be indexed by Google).
+
+i think this text might confuse some people because of the terms used.
+in a googlebot=E2=86=92webserver connection, the "user agent" is googlebo=
+t, and
+the "origin server" is the web server.  Putting robots.txt in your web
+server is a configuration of the origin server.  And robots.txt is
+purely advisory, encouraging (hoping?) that the connecting user agents
+will respect the request.
+
+> This seems to point to deepening of this topic:
+>
+> [QUOTE]
+>    The implementation diversity of HTTP means that not all user agents
+>    can make interactive suggestions to their user or provide adequate
+>    warning for security or privacy concerns.
+> [/QUOTE]
+>
+> Eventhough security and privacy concerns are valid (one does not want
+> to give away more information than necessary), this could also fit
+> within a freedom of expression context where a user is free to hold an
+> opinions (and thus not hold or impart others!).
+
+If we're reading this in respect to human rights, i'd be more inclined
+to take it from a disability rights perspective; you can't specify
+something into the protocol that assumes that the end user has a visual
+display that works for them, or is physically capable of selecting
+choices from a presented menu, etc.
+
+
+> 5.
+> In the client request Accept-Languages are defined. Perhaps we can
+> relate this to the research into IDNs (see draft) and/or use this
+> [QUOTE] to show the ambition of the Internet community to
+>    reflect the diversity of users and to be in line with Article 2 of
+>    the Universal Declaration of Human Rights which clearly stipulates
+>    that 'everyone is entitles to all rights and freedoms [..], without
+>    distinction of any kind, such as [..] language [..].
+> [/QUOTE from ID]
+
+I agree with this view.  You can also argue it from the reverse, which
+is that traditionally, Internet protocols concerned themselves only with
+characters expressable by US-ASCII (which limits to languages that use
+the latin alphabet), and the story of protocol development has been one
+of expansion that covers more of the diversity of human communications
+for the content that the protocol transmits.
+
+Interestingly, though, most protocols retain the ASCII-only simplicity
+for protocol messages themselves.  For example, HTTP headers are all
+defined in ASCII.  HTML tags are all named in ASCII, even when the
+content of the page is entirely in ideograms.  And the framing messages
+(e.g. EHLO, DATA, etc) in SMTP are still ASCII and will probably always
+be.  There's a subtle substrate of linguistic dominance threaded in
+there if you want to go looking for it.
+
+For that matter, the RFCs themselves are all written in English (or some
+weird and formalized approximation thereof).
+
+
+> 6.
+> Caching is crucial for enabling better access to information in areas
+> with slow connection. Could we state that through caching access to
+> information is improved? Further research to be done in RFC7234.
+
+Caching is also a place where intermediaries are introduced into what
+would otherwise be a peering relationship, though.  Caching proxies can
+modify content, spoof content outright, or refuse to serve content.
+
+the httpbis working group regularly fends off proposals for
+machine-in-the-middle (MitM) caching proxies for https, which come
+complete with arguments very similar to "enabling better access to
+information":
+
+https://tools.ietf.org/html/draft-loreto-httpbis-explicitly-auth-proxy
+
+actually says "possibility to enhance delivery performance" :/
+
+I consider these arguments to be dangerous to the idea of network
+security, and i'm glad that the IETF has avoided standardizing this sort
+of thing so far.
+
+
+> 7.
+> What (social) requirements could be meant here? :
+>
+> [QUOTE]
+>    Additional (social) requirements are placed on implementations,
+>    resource owners, and protocol element registrations when they apply
+>    beyond the scope of a single communication.
+> [/QUOTE]
+
+i'm having a hard time parsing this myself, but i think they're saying
+"most of the requirements we state in this document have to do with what
+happens explicitly in a single connection.  some other requirements,
+though, have scope larger than a single communication, such as how to
+add a new element to this protocol, whether clients should open multiple
+connections to a given server, or whether a server should publish URIs
+for its own resources that it would fail to parse on subsequent
+connections."  These larger-scoped requirements are the "social"
+requirements.
+
+> 8.
+> Strong point for slow and/or instable connections, support
+> connectivity where there is bad connection. Excellent protection of
+> the right to receive and impart info. I think we could frame this
+> under connecivity as well.
+>
+> [QUOTE]
+> 6.3.1.  Retrying Requests
+>
+>    Connections can be closed at any time, with or without intention.
+>    Implementations ought to anticipate the need to recover from
+>    asynchronous close events.
+> [/QUOTE]
+
+this is definitely about the ethic of trying to connect, and robust
+communications in general.  Without this baseline assumption, most
+internet standards be even worse than the (admittedly not very good)
+experience we've come to expect.  But it's not necessarily about
+supporting connections where the underlying links might be bad.  I'd
+argue that it's more about responsible handling (and awareness) of error
+conditions.
+
+Postel's law, which was taken as gospel for many years (and is named
+after Jon Postel, the first RFC editor, and the author of numerous early
+RFCs), emphasizes connectivity in a formulation that usually runs
+something like this : "Be liberal in what you receive, and conservative
+in what you send".
+
+But within the tech security community, Postel's law is now under attack
+(or at least, heavy revision).  In particular, it is understood to often
+lead to buggy, non-predictable implementations that are likely to harbor
+security vulnerabilities (e.g. imagine if a TCP implementation accepted
+packets that had a "close enough" sequence number, instead of requiring
+a correct match).  Modern security-conscious standards are much more
+likely to adopt Postel's law in a more minimalist form, encouraging
+implementors to drop or reject ill-formed input, while dealing
+gracefully with the resulting failure conditions.
+
+This results in less "papering over" of failures from the remote peer,
+while still providing robust communications.  Maybe the underlying ethics
+here are (a) transparency and (b) robustness?  Both of these are
+user-centric notions -- the user should not be misled by the tools, and
+the tools should not disobey the user.
+
+           --dkg
+
+
+From stephen.farrell@cs.tcd.ie Wed Feb 04 11:07:21 2015
+Received: from [10.10.12.45] (helo=mx2.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <stephen.farrell@cs.tcd.ie>) id 1YIwrh-0000oZ-Np
+	for hrpc@article19.io; Wed, 04 Feb 2015 11:07:21 +0100
+Received: from mercury.scss.tcd.ie ([134.226.56.6])
+	by mx2.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <stephen.farrell@cs.tcd.ie>)
+	id 1YIwre-00050V-On
+	for hrpc@article19.io; Wed, 04 Feb 2015 11:07:21 +0100
+Received: from localhost (localhost [127.0.0.1])
+	by mercury.scss.tcd.ie (Postfix) with ESMTP id 4E151BF0D;
+	Wed,  4 Feb 2015 10:07:49 +0000 (GMT)
+X-Virus-Scanned: Debian amavisd-new at scss.tcd.ie
+Received: from mercury.scss.tcd.ie ([127.0.0.1])
+	by localhost (mercury.scss.tcd.ie [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id sLexXEc81oyQ; Wed,  4 Feb 2015 10:07:48 +0000 (GMT)
+Received: from [10.87.48.73] (unknown [86.42.17.67])
+	by mercury.scss.tcd.ie (Postfix) with ESMTPSA id E3963BEFB;
+	Wed,  4 Feb 2015 10:07:47 +0000 (GMT)
+Message-ID: <54D1EF53.60209@cs.tcd.ie>
+Date: Wed, 04 Feb 2015 10:07:15 +0000
+From: Stephen Farrell <stephen.farrell@cs.tcd.ie>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:31.0) Gecko/20100101 Thunderbird/31.4.0
+MIME-Version: 1.0
+To: Daniel Kahn Gillmor <dkg@fifthhorseman.net>, hrpc@article19.io
+References: <54D0FCD7.60302@article19.org>
+	<87siem8tv6.fsf@alice.fifthhorseman.net>
+In-Reply-To: <87siem8tv6.fsf@alice.fifthhorseman.net>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Spam-Level: /
+X-Spam-Status: No, score=0.8 required=5.0 tests=BAYES_50, RCVD_IN_DNSWL_NONE,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.2
+X-Spam-Score: 0.8
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 51a43cd7ff6838d9e9bce89dbcde6c26
+Subject: Re: [hrpc] first screening of RFC7230 for Human Rights leads
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Wed, 04 Feb 2015 10:07:22 -0000
+
+
+One snippet...
+
+On 03/02/15 23:20, Daniel Kahn Gillmor wrote:
+> Unfortunately, not all proposed standards hold this line on content
+> neutrality:
+> 
+>   https://tools.ietf.org/html/draft-nottingham-safe-hint-05
+> 
+> (of course, the above draft isn't an official RFC yet -- should we be
+> comparing drafts-that-didn't make it with drafts that ended up becoming
+> RFCs?)
+
+AFAIK that draft is not continuing to publication. The IESG
+ballot positions are at [1]. I don't know if the author plans to
+bring it back or somewhere else in the same or some other form.
+
+So I'd not concentrate on that, unless you're interested in how
+the IETF process has (so far) stopped a bad idea from becoming
+an RFC and proposed standard. If you are interested in the latter,
+then I'm happy to help explain some of the minutiae, e.g. that
+10 yes or no-objections IESG ballots are needed for a proposed
+standard. (This was the first time I've ever seen 6 abstain
+ballots on a draft in my 4 years on the IESG.)
+
+S.
+
+[1] https://datatracker.ietf.org/doc/draft-nottingham-safe-hint/ballot/
+
+
+From dkg@fifthhorseman.net Wed Feb 04 16:19:14 2015
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <dkg@fifthhorseman.net>) id 1YJ1jW-0001J3-Kv
+	for hrpc@article19.io; Wed, 04 Feb 2015 16:19:14 +0100
+Received: from che.mayfirst.org ([209.234.253.108])
+	by mx1.greenhost.nl with esmtp (Exim 4.72)
+	(envelope-from <dkg@fifthhorseman.net>) id 1YJ1jV-0005Zx-PT
+	for hrpc@article19.io; Wed, 04 Feb 2015 16:19:14 +0100
+Received: from fifthhorseman.net (unknown [38.109.115.130])
+	by che.mayfirst.org (Postfix) with ESMTPSA id B08D4F984;
+	Wed,  4 Feb 2015 10:19:08 -0500 (EST)
+Received: by fifthhorseman.net (Postfix, from userid 1000)
+	id 332211FF68; Wed,  4 Feb 2015 10:19:08 -0500 (EST)
+From: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+To: Stephen Farrell <stephen.farrell@cs.tcd.ie>, hrpc@article19.io
+In-Reply-To: <54D1EF53.60209@cs.tcd.ie>
+References: <54D0FCD7.60302@article19.org>
+	<87siem8tv6.fsf@alice.fifthhorseman.net> <54D1EF53.60209@cs.tcd.ie>
+User-Agent: Notmuch/0.18.2 (http://notmuchmail.org) Emacs/24.4.1
+	(x86_64-pc-linux-gnu)
+Date: Wed, 04 Feb 2015 10:19:08 -0500
+Message-ID: <87pp9p7lhv.fsf@alice.fifthhorseman.net>
+MIME-Version: 1.0
+Content-Type: text/plain
+X-Spam-Level: /
+X-Spam-Status: No, score=0.8 required=5.0 tests=BAYES_50 autolearn=disabled
+	version=3.3.2
+X-Spam-Score: 0.8
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 2394e6fd9f1e9f86011669f8146dc264
+Subject: Re: [hrpc] first screening of RFC7230 for Human Rights leads
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Wed, 04 Feb 2015 15:19:15 -0000
+
+On Wed 2015-02-04 05:07:15 -0500, Stephen Farrell wrote:
+> One snippet...
+>
+> On 03/02/15 23:20, Daniel Kahn Gillmor wrote:
+>> Unfortunately, not all proposed standards hold this line on content
+>> neutrality:
+>> 
+>>   https://tools.ietf.org/html/draft-nottingham-safe-hint-05
+>> 
+>> (of course, the above draft isn't an official RFC yet -- should we be
+>> comparing drafts-that-didn't make it with drafts that ended up becoming
+>> RFCs?)
+>
+> AFAIK that draft is not continuing to publication. The IESG
+> ballot positions are at [1]. I don't know if the author plans to
+> bring it back or somewhere else in the same or some other form.
+
+I'm happy to hear this -- i think that draft represents a serious
+possibility of chilling effects on speech (not to mention removal of
+power from the hands of the end user), without much of a benefit in
+other areas.  for example, i don't believe the existence of the RFC
+would have actually stopped any would-be filter/censor from trying to
+MitM HTTP or HTTPS connections.
+
+> So I'd not concentrate on that, unless you're interested in how
+> the IETF process has (so far) stopped a bad idea from becoming
+> an RFC and proposed standard.
+
+For the purposes of looking for human rights leads, i think the process
+itself would be useful as background, but in particular it could be
+useful to read the comments in drafts that did not make it to RFC
+status, to see how those arguments are presented.
+
+I think the question we're asking is something like "in what ways do
+RFCs reflect a human rights agenda?"  It would be instructive to observe
+how things that *do not become* RFCs get shot down or set aside, since
+that filtering process could also reflect a human rights agenda.
+
+I don't know how to structure this research, though -- i'll leave that
+to the experts :)
+
+     --dkg
+
+
+From bortzmeyer@nic.fr Wed Feb 04 16:45:02 2015
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <bortzmeyer@nic.fr>) id 1YJ28U-0001LC-GT
+	for hrpc@article19.io; Wed, 04 Feb 2015 16:45:02 +0100
+Received: from mx4.nic.fr ([192.134.4.12])
+	by mx1.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <bortzmeyer@nic.fr>) id 1YJ28T-0006GF-Qy
+	for hrpc@article19.io; Wed, 04 Feb 2015 16:45:02 +0100
+Received: from mx4.nic.fr (localhost [127.0.0.1])
+	by mx4.nic.fr (Postfix) with SMTP id 37AE9280385;
+	Wed,  4 Feb 2015 16:45:01 +0100 (CET)
+Received: from relay1.nic.fr (relay1.nic.fr [192.134.4.162])
+	by mx4.nic.fr (Postfix) with ESMTP id 32DC328012B;
+	Wed,  4 Feb 2015 16:45:01 +0100 (CET)
+Received: from bortzmeyer.nic.fr (unknown [IPv6:2001:67c:1348:7::86:133])
+	by relay1.nic.fr (Postfix) with ESMTP id 3084B4C0029;
+	Wed,  4 Feb 2015 16:44:31 +0100 (CET)
+Date: Wed, 4 Feb 2015 16:44:31 +0100
+From: Stephane Bortzmeyer <bortzmeyer@nic.fr>
+To: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+Message-ID: <20150204154431.GA12839@nic.fr>
+References: <54D0FCD7.60302@article19.org>
+	<87siem8tv6.fsf@alice.fifthhorseman.net>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <87siem8tv6.fsf@alice.fifthhorseman.net>
+X-Operating-System: Debian GNU/Linux 8.0
+X-Kernel: Linux 3.16.0-4-686-pae i686
+X-Charlie: Je suis Charlie
+Organization: NIC France
+X-URL: http://www.nic.fr/
+User-Agent: Mutt/1.5.23 (2014-03-12)
+X-Spam-Level: ----
+X-Spam-Status: No, score=-4.2 required=5.0 tests=BAYES_50, RCVD_IN_DNSWL_HI,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.2
+X-Spam-Score: -4.2
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: a07cf4f22b7e0347d98fbeb4081a69be
+Cc: hrpc@article19.io
+Subject: Re: [hrpc] first screening of RFC7230 for Human Rights leads
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Wed, 04 Feb 2015 15:45:03 -0000
+
+On Tue, Feb 03, 2015 at 06:20:45PM -0500,
+ Daniel Kahn Gillmor <dkg@fifthhorseman.net> wrote 
+ a message of 283 lines which said:
+
+> Interestingly, though, most protocols retain the ASCII-only
+> simplicity for protocol messages themselves.  For example, HTTP
+> headers are all defined in ASCII.  HTML tags are all named in ASCII,
+> even when the content of the page is entirely in ideograms.  And the
+> framing messages (e.g. EHLO, DATA, etc) in SMTP are still ASCII and
+> will probably always be.  There's a subtle substrate of linguistic
+> dominance threaded in there if you want to go looking for it.
+
+The rationale for this choice is RFC 2277. To summarize it: "protocol
+elements", never seen by the ordinary user (such as GET and POST in
+HTTP) are in ASCII. Text elements have to be in Unicode.
+
+[BTW, HTML is not an IETF standard.]
+
+
+From niels@article19.org Mon Feb 09 08:01:25 2015
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <niels@article19.org>) id 1YKiLV-00018B-QG
+	for hrpc@article19.io; Mon, 09 Feb 2015 08:01:25 +0100
+Received: from vps784.greenhost.nl ([213.108.108.114] helo=mail.article19.io)
+	by mx1.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <niels@article19.org>) id 1YKiLU-0003Vj-CK
+	for hrpc@article19.io; Mon, 09 Feb 2015 08:01:25 +0100
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 74A1414002F
+	for <hrpc@article19.io>; Mon,  9 Feb 2015 07:02:37 +0000 (UTC)
+X-Spam-Flag: NO
+X-Spam-Score: -2.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.9 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_00=-1.9] autolearn=ham autolearn_force=no
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id lIgSxqCmLUyb for <hrpc@article19.io>;
+	Mon,  9 Feb 2015 07:02:35 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 05937140031
+	for <hrpc@article19.io>; Mon,  9 Feb 2015 07:02:35 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id yRHxoI9UEwU1 for <hrpc@article19.io>;
+	Mon,  9 Feb 2015 07:02:34 +0000 (UTC)
+Received: from [10.196.197.150] (86-193.icannmeeting.org [199.91.193.86])
+	by mail.article19.io (Postfix) with ESMTPSA id 6546814002F
+	for <hrpc@article19.io>; Mon,  9 Feb 2015 07:02:33 +0000 (UTC)
+Message-ID: <54D85B3A.2050106@article19.org>
+Date: Mon, 09 Feb 2015 07:01:14 +0000
+From: Niels ten Oever <niels@article19.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:31.0) Gecko/20100101 Icedove/31.4.0
+MIME-Version: 1.0
+To: hrpc@article19.io
+References: <54D0FCD7.60302@article19.org>
+	<87siem8tv6.fsf@alice.fifthhorseman.net>
+In-Reply-To: <87siem8tv6.fsf@alice.fifthhorseman.net>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Level: +
+X-Spam-Status: No, score=1.6 required=5.0 tests=BAYES_50,
+	SPF_NEUTRAL autolearn=disabled version=3.3.2
+X-Spam-Score: 1.6
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 6fdd8fc92e0876959553adcced2c9235
+Subject: Re: [hrpc] first screening of RFC7230 for Human Rights leads
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Mon, 09 Feb 2015 07:01:26 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi dkg,
+
+Thanks for your elaborate response. No problems with a critical
+stance, even for the sake of the argument, there is no progress
+without critical thinking. Please be harsh :)
+
+Further reaction inline:
+
+
+On 02/03/2015 11:20 PM, Daniel Kahn Gillmor wrote:
+> Hi Niels--
+>=20
+> Thanks for this effort!  A few thoughts from me below, spurred by
+> your initial commentary.  I apologize in advance that (when trying
+> to read critically at least) i adopt something of a devil's
+> advocate position. My comments are supportive in that i'd like to
+> see this HR analysis proceed from a strong and well-thought-through
+> perspective.
+>=20
+> On Tue 2015-02-03 11:52:39 -0500, Niels ten Oever wrote:
+>> I went through RFC7230 [0] over the last days and found some
+>> hooks that might be interesting.
+> [...]
+>> This is relevant for our research because it helps us to look at
+>> both what is organized in protocols, but maybe even more, in what
+>> is not regulated or standardize which is what makes the Internet
+>> an enabling environment for freedom of expression.
+>=20
+> The idea here i think might be framed as the network being=20
+> "content-neutral".  This is supported in some sense by the
+> satirical April Fools' Day RFC 3514, which introduces the "evil
+> bit":
+>=20
+> https://tools.ietf.org/html/rfc3514
+>=20
+>>> Because NAT [RFC3022] boxes modify packets, they SHOULD set the
+>>> evil bit on such packets.  "Transparent" http and email proxies
+>>> SHOULD set the evil bit on their reply packets to the innocent
+>>> client host.
+>=20
+> There are more serious RFCs that take the idea of a content-neutral
+> or content-agnostic network as a given too (for one thing, it's a
+> common engineering practice to layer designs by introducing
+> deliberate agnosticism about the layers above or below the system
+> being specified)
+
+This is a great lead. Do you have any leads on where
+content-agnosticism has been the best described in an RFC ? Content
+agnosticism, together with connectivity could be the basis of
+enabling of freedom of expression on the network.
+
+>=20
+> Unfortunately, not all proposed standards hold this line on
+> content neutrality:
+>=20
+> https://tools.ietf.org/html/draft-nottingham-safe-hint-05
+>=20
+> (of course, the above draft isn't an official RFC yet -- should we
+> be comparing drafts-that-didn't make it with drafts that ended up
+> becoming RFCs?)
+>=20
+
+I agree that it would be interesting to also look at RFCs that did
+not make it, or ones that are still drafts, but I would like to keep
+that for later and first see what we can still from the existing
+body of RFCs, because that is already a lot.
+
+Are there any RFCs that you know of that breach content agnosticism?
+I imagine this could happen in congestion protocols, no? Or would
+that be on the implementation level?
+
+> With a corpus as large as the RFCs, how should this project avoid=20
+> confirmation bias?  If we look for the things we want to find, it
+> seems like we should probably also make sure to look for things we
+> *don't* want to find, to see whether they're there too. (see also:
+> Biblical Exegesis =E2=98=BA)
+>=20
+
+I completely agree. But knowing what we are looking for, will also
+help us finding the things we don't want to see.
+
+>=20
+>> 1. In the abstract, HTTP is described as a protocol for
+>> distributed and collaborative information systems. This has clear
+>> technical implications, but it could also described equality of
+>> nodes, which might make this translatable in rights implications.
+>> I'm especially thinking about the right to receive and impart
+>> information and ideas through any media and regardless of
+>> frontiers. A distributed system affirms and enables that by
+>> design.
+>>=20
+>> Perhaps a good start is to note the words that keep on coming
+>> back in a rights context, and word mine all RFCs for these
+>> words?
+>>=20
+>> Some of these words could be: connectivity, distributed,=20
+>> collabarative, reliable, scalable, caching
+>>=20
+>> This could be one way of selecting new and more RFCs, and
+>> perhaps auto-grouping them per theme.
+
+
+Adding stateless, statefull, content-neutral, transparent, robust,
+user-centric and content agnostic to this list and removing caching
+(as per discussion below).
+
+New list:
+connectivity, distributed, collaborative, reliable, scalable,
+stateless, statefull, content-neutral, content agnostic, transparent,
+robust, robustness, user-centric.
+
+>>=20
+>> 2. [self-descriptive message payloads] -> This means that both
+>> content and description are to defined by the author/host system,
+>> so people can categorize, frame and describe their content
+>> themselves, instead of it being auto categorized.
+>=20
+> i find it a bit funny that in 1. above you're proposing
+> auto-grouping the RFCs themselves (presumably after fetching them
+> via HTTP), and in 2. here you're saying that the protocol is
+> designed in opposition to "auto categorization".
+>=20
+> I'm wary of the term "auto" in places like this, because i think
+> it removes agency.  who is doing the categorization?  even if it's=20
+> "automatic", it's under the control of someone.
+
+Of course, just meant it to make it easier for us to select relevant
+RFCs, and overcoming the confirmation bias to some level.
+>=20
+> I think the point you're trying to make is that the definition of
+> HTTP represents a communication between peers, and peers get to
+> have the conversation without having to talk to (or get approval
+> from) anyone else if they don't want to.
+>=20
+> (technically, this might not be entirely true: DNS and (for HTTPS)
+> the X.509 certificate authority cartel are in some ways mandatory=20
+> "brokers" when negotiating the creation of an HTTP session, even
+> if they don't get a say about the content of the communication once
+> the session is created)
+>=20
+>=20
+>> 3. [QUOTE] Likewise, servers do not need to be aware of each
+>> client's purpose: an HTTP request can be considered in isolation
+>> rather than being associated with a specific type of client or a
+>> predetermined sequence of application steps. [/QUOTE]
+>>=20
+>> This supports innovation, development, and flexibility. Would
+>> this have any rights implications? Or is this just very practical
+>> way of defining a broadly used protocol? Could be linked to  'IP=20
+>> disinterestness' (as mentioned above), which creates space for
+>> freedom of expression and freedom of assembly, by supplying tools
+>> but not defining the way in which it needs to be done.
+>=20
+> This property is usually called "statelessness" for the server (and
+> not in a "smash the state" sense!).  Statelessness a useful
+> property from a technical perspective because it means you can have
+> the server crash and not have to worry about what happens to the
+> client when it comes back up (the client can just carry on as it
+> was).
+>=20
+> In practice, of course, everyone wants to introduce state because
+> it makes certain kinds of workflows (e.g. multipage forms,
+> logged-in accounts, widespread user surveillance) much more
+> convenient.  Hence cookies and other similar mechanisms.
+>=20
+> But the point of defining HTTP as a stateless protocol is so that=20
+> servers *can* be implemented statelessly, for those who have
+> engineering constraints that preclude keeping state on the server
+> side (e.g. a machine with no way to write internal storage).
+>=20
+> NFS (the "network filesystem") is another protocol that has jumped=20
+> through many hoops to keep "statelessness" for the server.  see:
+>=20
+> https://tools.ietf.org/html/rfc1094#section-1.3
+
+
+
+Fascinating that the argument for statelessness is reliability and
+stability and introducing the concept of 'idempotence'. I would
+almost like to ask the same questions as before: is there a
+description of engineering standards (preferably in an RFC) that
+says that a protocol should be stateless unless there are other
+compelling reasons not to?
+>=20
+> However, NFS as of version 4 has gradually acquired server-side
+> state (that is, state shared between the client and the server),
+> while retaining some mechanisms aimed at easing this requirement
+> for servers that fit certain profiles:
+>=20
+> https://tools.ietf.org/html/rfc3530#section-8.14
+>=20
+>=20
+
+
+Under 8.14.1 it is mentioned that the transition needs to be done
+transparent for the client, but transparency doesn't necessary imply
+consent, right? Might be interesting to dig a bit deeper in what
+transparency means on this level (and how it relates to consent).
+
+> otoh, aiming for statelessness itself doesn't have to be motivated=20
+> purely by technical goals.  For example, if you design a protocol
+> that *requires* the server to maintain state about its users (e.g.
+> internet relay chat (IRC) servers retain state about who is
+> connected and what channels they're connected to), you make it
+> impossible for someone who *doesn't* want to track their users to
+> implement the protocol in a non-tracking way.
+>=20
+> Whether the push for statelessness in some internet protocols
+> derives in part from this urge to safeguard against ubiquitous
+> surveillance is pretty hard to say, of course.
+>=20
+
+
+I could imagine there are also plenty of other reasons to be for a
+more stateless architecture (like the ones mentioned in the NFS
+RFC), all seem equally valid to me, am not sure intentionality is
+crucial here.
+
+>=20
+>> 4. [QUOTE] An HTTP "client" is a program that establishes a
+>> connection to a server for the purpose of sending one or more
+>> HTTP requests. [/QUOTE]
+>>=20
+>> Interestingly, as interaction starts with the request from a
+>> client. The primacy of every action lies with the client. Which
+>> could point to souvereignty, autonomy and/or freedom of choice.
+>> Are all services based on a request? Are all protocols initiated
+>> by request? Would be interesting to have a statement about the
+>> primacy of the client. How does this relate to cookies, consent,
+>> etc? In other words: does all automation start with clients?
+>=20
+> I'm not sure this is anything but a technical label.  In the=20
+> client/server network communications model, the server is defined
+> as being the "listener".  the client is the one that initiates a=20
+> connection.
+>=20
+
+OK, that makes my remarks a tautology, thanks for the clarification!
+
+> Not all protocols are client/server, though the stuff in the IETF
+> tends to be client-server because it's simpler to describe.
+>=20
+> peer-to-peer protocols like bittorrent aren't client/server, for=20
+> example.  But i don't think the IETF has ever even tried to
+> standardize bittorrent. And while the protocol at a high level
+> might not be client/server, each individual communication that
+> happens during a bittorrent session (i'm not sure i'm using the
+> right BT terms here -- i don't know much about the protocol) is
+> probably using a client/server model, where one peer (the client at
+> that moment) sends a message to another peer (the server at that
+> moment).
+>=20
+> TCP itself supports a "simultaneous open" mode, where neither side
+> is the client or the server:
+>=20
+> https://tools.ietf.org/html/rfc793#page-32
+>=20
+> But there are very few attempts to use simultaneous open in the
+> wild (i think that STUN or TURN might use it, but i don't recall
+> the details)
+>=20
+> Some lower-level protocols like Ethernet (also not standardized by
+> the IETF) are by definition broadcast -- everyone in a given
+> broadcast domain receives every message, and the recipients are
+> just expected to filter out traffic that isn't aimed at them.
+>=20
+> The IETF has some protocols like IP multicast that enable
+> subscription mechanisms that might take advantage of this
+> lower-level broadcast technique:
+>=20
+> https://tools.ietf.org/html/rfc1112
+>=20
+
+We have been thinking of including multicast in the research, but it
+seems (but correct me if I am wrong) that multicast does not see a lot
+of implementation in the wild, or am I overseeing something?
+
+<<snip>>
+
+>> This seems to point to deepening of this topic:
+>>=20
+>> [QUOTE] The implementation diversity of HTTP means that not all
+>> user agents can make interactive suggestions to their user or
+>> provide adequate warning for security or privacy concerns.=20
+>> [/QUOTE]
+>>=20
+>> Eventhough security and privacy concerns are valid (one does not
+>> want to give away more information than necessary), this could
+>> also fit within a freedom of expression context where a user is
+>> free to hold an opinions (and thus not hold or impart others!).
+>=20
+> If we're reading this in respect to human rights, i'd be more
+> inclined to take it from a disability rights perspective; you can't
+> specify something into the protocol that assumes that the end user
+> has a visual display that works for them, or is physically capable
+> of selecting choices from a presented menu, etc.
+>=20
+
+Probably you're right, so probably we should keep this aside for a
+moment so we keep the focus on Freedom of Expression and Freedom of
+Assembly.
+
+>=20
+>> 5. In the client request Accept-Languages are defined. Perhaps we
+>> can relate this to the research into IDNs (see draft) and/or use
+>> this [QUOTE] to show the ambition of the Internet community to=20
+>> reflect the diversity of users and to be in line with Article 2
+>> of the Universal Declaration of Human Rights which clearly
+>> stipulates that 'everyone is entitles to all rights and freedoms
+>> [..], without distinction of any kind, such as [..] language
+>> [..]. [/QUOTE from ID]
+>=20
+> I agree with this view.  You can also argue it from the reverse,
+> which is that traditionally, Internet protocols concerned
+> themselves only with characters expressable by US-ASCII (which
+> limits to languages that use the latin alphabet), and the story of
+> protocol development has been one of expansion that covers more of
+> the diversity of human communications for the content that the
+> protocol transmits.
+>=20
+> Interestingly, though, most protocols retain the ASCII-only
+> simplicity for protocol messages themselves.  For example, HTTP
+> headers are all defined in ASCII.  HTML tags are all named in
+> ASCII, even when the content of the page is entirely in ideograms.
+> And the framing messages (e.g. EHLO, DATA, etc) in SMTP are still
+> ASCII and will probably always be.  There's a subtle substrate of
+> linguistic dominance threaded in there if you want to go looking
+> for it.
+>=20
+> For that matter, the RFCs themselves are all written in English (or
+> some weird and formalized approximation thereof).
+>=20
+
+Excellent points, adding this to the analysis of Article 2 issues.
+
+>=20
+>> 6. Caching is crucial for enabling better access to information
+>> in areas with slow connection. Could we state that through
+>> caching access to information is improved? Further research to be
+>> done in RFC7234.
+>=20
+> Caching is also a place where intermediaries are introduced into
+> what would otherwise be a peering relationship, though.  Caching
+> proxies can modify content, spoof content outright, or refuse to
+> serve content.
+>=20
+> the httpbis working group regularly fends off proposals for=20
+> machine-in-the-middle (MitM) caching proxies for https, which come=20
+> complete with arguments very similar to "enabling better access to=20
+> information":
+>=20
+> https://tools.ietf.org/html/draft-loreto-httpbis-explicitly-auth-proxy
+>
+>  actually says "possibility to enhance delivery performance" :/
+>=20
+> I consider these arguments to be dangerous to the idea of network=20
+> security, and i'm glad that the IETF has avoided standardizing this
+> sort of thing so far.
+>=20
+
+Good point, will probably be too hard to balance rights here, so
+dropping caching.
+
+>=20
+>> 7. What (social) requirements could be meant here? :
+>>=20
+>> [QUOTE] Additional (social) requirements are placed on
+>> implementations, resource owners, and protocol element
+>> registrations when they apply beyond the scope of a single
+>> communication. [/QUOTE]
+>=20
+> i'm having a hard time parsing this myself, but i think they're
+> saying "most of the requirements we state in this document have to
+> do with what happens explicitly in a single connection.  some other
+> requirements, though, have scope larger than a single
+> communication, such as how to add a new element to this protocol,
+> whether clients should open multiple connections to a given server,
+> or whether a server should publish URIs for its own resources that
+> it would fail to parse on subsequent connections."  These
+> larger-scoped requirements are the "social" requirements.
+>=20
+
+Interesting understanding of the phrase :), might be interesting to
+quizz Mark Notthingham about this.
+
+>> 8. Strong point for slow and/or instable connections, support=20
+>> connectivity where there is bad connection. Excellent protection
+>> of the right to receive and impart info. I think we could frame
+>> this under connecivity as well.
+>>=20
+>> [QUOTE] 6.3.1.  Retrying Requests
+>>=20
+>> Connections can be closed at any time, with or without
+>> intention. Implementations ought to anticipate the need to
+>> recover from asynchronous close events. [/QUOTE]
+>=20
+> this is definitely about the ethic of trying to connect, and
+> robust communications in general.  Without this baseline
+> assumption, most internet standards be even worse than the
+> (admittedly not very good) experience we've come to expect.  But
+> it's not necessarily about supporting connections where the
+> underlying links might be bad.  I'd argue that it's more about
+> responsible handling (and awareness) of error conditions.
+>=20
+> Postel's law, which was taken as gospel for many years (and is
+> named after Jon Postel, the first RFC editor, and the author of
+> numerous early RFCs), emphasizes connectivity in a formulation that
+> usually runs something like this : "Be liberal in what you receive,
+> and conservative in what you send".
+>=20
+> But within the tech security community, Postel's law is now under
+> attack (or at least, heavy revision).  In particular, it is
+> understood to often lead to buggy, non-predictable implementations
+> that are likely to harbor security vulnerabilities (e.g. imagine if
+> a TCP implementation accepted packets that had a "close enough"
+> sequence number, instead of requiring a correct match).  Modern
+> security-conscious standards are much more likely to adopt Postel's
+> law in a more minimalist form, encThisouraging implementors to drop
+> or reject ill-formed input, while dealing gracefully with the
+> resulting failure conditions.
+>=20
+> This results in less "papering over" of failures from the remote
+> peer, while still providing robust communications.  Maybe the
+> underlying ethics here are (a) transparency and (b) robustness?
+> Both of these are user-centric notions -- the user should not be
+> misled by the tools, and the tools should not disobey the user.
+>=20
+
+This might be an interesting point for research as well, since it is
+about balancing fault tolerance (connectivity) and security.
+
+Am definitely adding user-centric, robustness and transparency to the
+list of topics to look for. It seems that we are slowly coming up with
+relevant technical concepts that impact rights online, so this is
+really helpful.
+
+Looking at RFCs through the lens of these concepts might be
+methodology we are looking for.
+
+> --dkg
+
+Best,
+
+Niels
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJU2Fs6AAoJEAi1oPJjbWjpWIAH/RO1nRiKM+Y0JjxdUyhHXI5C
+lmkP34pyp9Nz9Ug0CQ+SczArh7JbKPe0xW8EPHEilN+SiAgpDI9DvZPdXT+n2MDq
+F9Fv+kHIMdkzokyjE7SMhDfrbB8T2buS2oVqUQ2zFA3qIiaV2uLM/wSK0d3OvXhT
+OJnwH8L0VZ/gCZSWIfJpX9DQKPdGWNC5o2qiC1GtPqhaqDFKRAK4Y14ONkS1dlWn
+qRVVcd1tZ8ASiCuz8/uQ4+QdT0sXeUKWZuFw4EcDaskDqaRZ3FA+I9y7pUOop3kI
+fnjAN+58mTdjq2Y5ZygWmZnXlQXB4NyaWyWIqZxr4qrF0GCHQdoSVc1FEhY/skY=3D
+=3DC35E
+-----END PGP SIGNATURE-----
+
+
+From dkg@fifthhorseman.net Mon Feb 09 08:48:34 2015
+Received: from [10.10.12.45] (helo=mx2.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <dkg@fifthhorseman.net>) id 1YKj58-0001B8-3m
+	for hrpc@article19.io; Mon, 09 Feb 2015 08:48:34 +0100
+Received: from che.mayfirst.org ([209.234.253.108])
+	by mx2.greenhost.nl with esmtp (Exim 4.72)
+	(envelope-from <dkg@fifthhorseman.net>) id 1YKj57-0007V4-HX
+	for hrpc@article19.io; Mon, 09 Feb 2015 08:48:34 +0100
+Received: from fifthhorseman.net (ool-6c3a0662.static.optonline.net
+	[108.58.6.98])
+	by che.mayfirst.org (Postfix) with ESMTPSA id 2E59BF984;
+	Mon,  9 Feb 2015 02:48:29 -0500 (EST)
+Received: by fifthhorseman.net (Postfix, from userid 1000)
+	id 207E21FF47; Mon,  9 Feb 2015 02:48:25 -0500 (EST)
+From: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+To: Niels ten Oever <niels@article19.org>, hrpc@article19.io
+In-Reply-To: <54D85B3A.2050106@article19.org>
+References: <54D0FCD7.60302@article19.org>
+	<87siem8tv6.fsf@alice.fifthhorseman.net>
+	<54D85B3A.2050106@article19.org>
+User-Agent: Notmuch/0.18.2 (http://notmuchmail.org) Emacs/24.4.1
+	(x86_64-pc-linux-gnu)
+Date: Mon, 09 Feb 2015 02:48:25 -0500
+Message-ID: <87vbjbv83a.fsf@alice.fifthhorseman.net>
+MIME-Version: 1.0
+Content-Type: text/plain
+X-Spam-Level: /
+X-Spam-Status: No, score=0.8 required=5.0 tests=BAYES_50 autolearn=disabled
+	version=3.3.2
+X-Spam-Score: 0.8
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 488b5a33f748713be529de57fa847022
+Subject: Re: [hrpc] first screening of RFC7230 for Human Rights leads
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Mon, 09 Feb 2015 07:48:34 -0000
+
+On Mon 2015-02-09 02:01:14 -0500, Niels ten Oever wrote:
+> This is a great lead. Do you have any leads on where
+> content-agnosticism has been the best described in an RFC ? Content
+> agnosticism, together with connectivity could be the basis of
+> enabling of freedom of expression on the network.
+
+I can't think of any such RFCs off the top of my head.
+
+TCP is a classic protocol example of a "layered" approach, where it is
+relatively agnostic about what happens in the layers above and below it:
+
+  https://tools.ietf.org/html/rfc793
+
+But i don't think the RFC makes any explicit claims to that agnosticism.
+
+You can see in that early RFC, though, that the authors don't even take
+IP for granted (as the layer "below" TCP), stating:
+
+  The interface between TCP and lower level protocol is essentially
+  unspecified except that it is assumed there is a mechanism whereby the
+  two levels can asynchronously pass information to each other.
+  Typically, one expects the lower level protocol to specify this
+  interface.  TCP is designed to work in a very general environment of
+  interconnected networks.  The lower level protocol which is assumed
+  throughout this document is the Internet Protocol [2].
+
+for the layer "above" TCP, the RFC frames it simply as:
+
+   The data that flows on a connection may be thought of as a stream of
+   octets.
+
+Though it does also take some pains to mark out "urgent mode", which can
+identify some parts of a TCP stream as higher-priority than others.  I'm
+unaware of anyone actually using TCP's "urgent mode", though.   Perhaps
+others with more TCP knowledge can weigh in on this.
+
+Urgent mode appears to be deprecated in
+https://tools.ietf.org/html/rfc6093, which i have not read fully.
+
+> Fascinating that the argument for statelessness is reliability and
+> stability and introducing the concept of 'idempotence'. I would
+> almost like to ask the same questions as before: is there a
+> description of engineering standards (preferably in an RFC) that
+> says that a protocol should be stateless unless there are other
+> compelling reasons not to?
+
+i don't know of such a reference :( hopefully someone with more
+knowledge of the RFCs can dig something up.
+
+> We have been thinking of including multicast in the research, but it
+> seems (but correct me if I am wrong) that multicast does not see a lot
+> of implementation in the wild, or am I overseeing something?
+
+i think you're correct that multicast hasn't seen wide adoption.
+
+Regards,
+
+        --dkg
+
+
+From niels@article19.org Tue Feb 10 07:25:51 2015
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <niels@article19.org>) id 1YL4Gd-0002sO-8k
+	for hrpc@article19.io; Tue, 10 Feb 2015 07:25:51 +0100
+Received: from vps784.greenhost.nl ([213.108.108.114] helo=mail.article19.io)
+	by mx1.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <niels@article19.org>) id 1YL4Gc-0000yw-R5
+	for hrpc@article19.io; Tue, 10 Feb 2015 07:25:51 +0100
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id C36D2130028
+	for <hrpc@article19.io>; Tue, 10 Feb 2015 06:27:05 +0000 (UTC)
+X-Spam-Flag: NO
+X-Spam-Score: -2.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.9 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_00=-1.9] autolearn=ham autolearn_force=no
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id Gy6kCB32-OwT for <hrpc@article19.io>;
+	Tue, 10 Feb 2015 06:27:04 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 3F452130029
+	for <hrpc@article19.io>; Tue, 10 Feb 2015 06:27:04 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id 4IxalqANQyPi for <hrpc@article19.io>;
+	Tue, 10 Feb 2015 06:27:04 +0000 (UTC)
+Received: from [10.196.197.150] (33-193.icannmeeting.org [199.91.193.33])
+	by mail.article19.io (Postfix) with ESMTPSA id 2E7D5130028
+	for <hrpc@article19.io>; Tue, 10 Feb 2015 06:27:02 +0000 (UTC)
+Message-ID: <54D9A466.7030108@article19.org>
+Date: Tue, 10 Feb 2015 06:25:42 +0000
+From: Niels ten Oever <niels@article19.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:31.0) Gecko/20100101 Icedove/31.4.0
+MIME-Version: 1.0
+To: "hrpc@article19.io" <hrpc@article19.io>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Level: +
+X-Spam-Status: No, score=1.6 required=5.0 tests=BAYES_50,
+	SPF_NEUTRAL autolearn=disabled version=3.3.2
+X-Spam-Score: 1.6
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: e3f2e3bd4740624ec693f7a12728aa38
+Subject: [hrpc] interviews @ IETF meeting in Dallas
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Tue, 10 Feb 2015 06:25:51 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Dear all,
+
+To increase our understanding of the perception of human rights and
+user rights among authors we thought it might be a good idea to
+interview RFC authors and main actors in the IETF. Since the Dallas
+meeting is coming up quickly, and these are busy people I thought it
+might be a good idea to already ask people for a timeslot of ~30
+minutes. I was thinking of the following people:
+
+- - Head of IAB
+	Russ Housley
+
+- - Chair of IETF
+	Jari Arkko
+
+- - Area Directors (https://www.ietf.org/iesg/members.html) (one per
+area, but allow them to self-select)
+	Applications area
+		Barry Leiba
+		Pete Resnick
+	Internet Area
+		Brian Haberman
+		Ted Lemon
+	Real-time Applications and Infrastructure
+		Ricard Barnes
+		Alissa Cooper
+	Routing Area
+		Alia Atlas
+		Adrian Farrel
+	Security Area
+		Stephen Farrel
+		Kathleen Moriarty
+	Transport Area
+		Spencer Dawkins
+		Martin Stiemerling
+
+- - Chairs of WGs
+	httpbis
+		Mark Nottingham
+
+Do you think this is a good list to start with?
+
+I also drafted some questions for the interview, please let me know if
+you think these are the questions that will give us the best results.
+
+1. What is your current role in the IETF, IRTF and/or surrounding
+environment and how has it changed over the years?
+
+# Of course this is part of our pre-research, but it's always
+interesting to hear how people self-define their position.
+
+2. Which RFCs that you (co-)authorted do you deem the most relevant ones?
+
+3. How useful do you think security considerations are in RFCs, and
+why are they important?
+
+4. Do you see any relationship between security and human rights?
+Please elaborate.
+
+5. Do you think the RFCs you (co-)authored could impact users rights,
+especially freedom of expression of freedom of assembly in a postive
+or negative way?
+
+6. Do you think freedom of expression could be protected or enhanced
+on a protocol and/or standard level? If so, how? If not, why not?
+
+7. Do you think the protocol and/or standard making process can be
+improved to safeguard the right to freedom of expression and/or the
+right to association? If so, how?
+
+8. Can you point us at an RFC that you think is especially relevant
+for this research?
+
+9. Do you have any suggestions on how we could proceed with this research=
+?
+
+Looking forward to your comments.
+=09
+Best,
+
+Niels
+
+
+- --=20
+Niels ten Oever
+Head of Digital
+
+Article 19
+www.article19.org
+
+PGP fingerprint    8D9F C567 BEE4 A431 56C4
+                   678B 08B5 A0F2 636D 68E9
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJU2aRmAAoJEAi1oPJjbWjpXu4H+QGYgbWly5MKB/PJvMKLQGNA
+8ubODHYTC8urH16+p90xr849oFPISOFgcZt3PxYQnNIrS/8j9iOV+QhSbM1vKmMs
+bvaTefJg9aQs6VqdhgA6hkFgaMfB7mFF/DQLfpk5tFbWwWiifm2qKAjTXYQH9Wh9
+Ts0leAG8E4AkVG0XpDVnanXxpXOzNb4jbtCP/j5fUs+tzZhlGdJTiLZwFKrb7iCr
+9PqVyCv/noPbZiu0J6t1PegC/Nza8LQ2450fv8TJmO26DqwWp5KIsyBDnVzWWfLu
+ndypqEhYnN2NSMu6mIkPqHbzwgXG6VjxCvSmJbVlCZ4GhZN9AAU2w9nCuDZi3aw=3D
+=3Dj5G+
+-----END PGP SIGNATURE-----
+
+
+From lars@netapp.com Tue Feb 10 09:51:33 2015
+Received: from [10.10.12.45] (helo=mx2.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <lars@netapp.com>) id 1YL6Xc-0003BI-LW
+	for hrpc@article19.io; Tue, 10 Feb 2015 09:51:32 +0100
+Received: from mx144.netapp.com ([216.240.21.25])
+	by mx2.greenhost.nl with esmtps (TLS1.0:RSA_ARCFOUR_SHA1:16)
+	(Exim 4.72) (envelope-from <lars@netapp.com>) id 1YL6Xb-0004Kv-PF
+	for hrpc@article19.io; Tue, 10 Feb 2015 09:51:32 +0100
+X-IronPort-AV: E=Sophos;i="5.09,549,1418112000"; 
+	d="asc'?scan'208";a="22344839"
+Received: from hioexcmbx06-prd.hq.netapp.com ([10.122.105.39])
+	by mx144-out.netapp.com with ESMTP; 10 Feb 2015 00:51:25 -0800
+Received: from HIOEXCMBX01-PRD.hq.netapp.com (10.122.105.34) by
+	hioexcmbx06-prd.hq.netapp.com (10.122.105.39) with Microsoft SMTP
+	Server (TLS) id 15.0.995.29; Tue, 10 Feb 2015 00:51:23 -0800
+Received: from HIOEXCMBX01-PRD.hq.netapp.com ([10.122.105.34]) by
+	hioexcmbx01-prd.hq.netapp.com ([10.122.105.34]) with mapi id
+	15.00.0995.031; Tue, 10 Feb 2015 00:51:23 -0800
+From: "Eggert, Lars" <lars@netapp.com>
+To: Niels ten Oever <niels@article19.org>
+Thread-Topic: [hrpc] interviews @ IETF meeting in Dallas
+Thread-Index: AQHQRPqDmfbtpdtIvkaIN3G/v1mjMZzqGaEA
+Date: Tue, 10 Feb 2015 08:51:23 +0000
+Message-ID: <8F374B80-84A7-44B7-B6AE-35BF216FAF26@netapp.com>
+References: <54D9A466.7030108@article19.org>
+In-Reply-To: <54D9A466.7030108@article19.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-mailer: Apple Mail (2.2070.6)
+x-originating-ip: [10.120.60.37]
+Content-Type: multipart/signed;
+	boundary="Apple-Mail=_7B18136B-0422-444D-BE73-2E2916FDEBD7";
+	protocol="application/pgp-signature"; micalg=pgp-sha1
+MIME-Version: 1.0
+X-Spam-Level: ----
+X-Spam-Status: No, score=-4.3 required=5.0 tests=BAYES_50, RCVD_IN_DNSWL_HI,
+	SPF_PASS, T_RP_MATCHES_RCVD autolearn=disabled version=3.3.2
+X-Spam-Score: -4.3
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 8b3222cd26cce149ddb9ffa05c4da76e
+Cc: "hrpc@article19.io" <hrpc@article19.io>
+Subject: Re: [hrpc] interviews @ IETF meeting in Dallas
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Tue, 10 Feb 2015 08:51:33 -0000
+
+--Apple-Mail=_7B18136B-0422-444D-BE73-2E2916FDEBD7
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=us-ascii
+
+Hi,
+
+On 2015-2-10, at 07:25, Niels ten Oever <niels@article19.org> wrote:
+> - Head of IAB
+> - Chair of IETF
+> - Area Directors
+>=20
+> Do you think this is a good list to start with?
+
+these folks are typically extremely busy during an IETF week, so you may =
+not be able to schedule time with very many of them.
+
+Can you do the interview by email?
+
+Lars
+
+
+--Apple-Mail=_7B18136B-0422-444D-BE73-2E2916FDEBD7
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="signature.asc"
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Message signed with OpenPGP using GPGMail
+
+-----BEGIN PGP SIGNATURE-----
+
+iQCVAwUBVNnGiNZcnpRveo1xAQJ8LAP/R9Ilen8SuYOagYL2Zn1K5z0juPY80m4l
+IeGBESJ1yE5HO0m/alg1oZnrR/ce9bQwQGbkXTqBrq/fPI2fhu2yL2cOmnnbpiNw
+tApsCmoPnVy9R2jU4ujwf0How8OXzRUgtqux94eRmHS2TjV58DAOMQ5sIzdBNAiU
+hfJd3o2buAI=
+=XmN5
+-----END PGP SIGNATURE-----
+
+--Apple-Mail=_7B18136B-0422-444D-BE73-2E2916FDEBD7--
+
+
+From niels@article19.org Tue Feb 10 09:58:57 2015
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <niels@article19.org>) id 1YL6en-0003D5-1J
+	for hrpc@article19.io; Tue, 10 Feb 2015 09:58:57 +0100
+Received: from vps784.greenhost.nl ([213.108.108.114] helo=mail.article19.io)
+	by mx1.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <niels@article19.org>) id 1YL6em-0004Xq-OD
+	for hrpc@article19.io; Tue, 10 Feb 2015 09:58:56 +0100
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id E8B42130028
+	for <hrpc@article19.io>; Tue, 10 Feb 2015 09:00:11 +0000 (UTC)
+X-Spam-Flag: NO
+X-Spam-Score: -2.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.9 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_00=-1.9] autolearn=ham autolearn_force=no
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id Obz_wHhnl23L for <hrpc@article19.io>;
+	Tue, 10 Feb 2015 09:00:11 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 45F0914002F
+	for <hrpc@article19.io>; Tue, 10 Feb 2015 09:00:11 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id DlpZHYEMVT1I for <hrpc@article19.io>;
+	Tue, 10 Feb 2015 09:00:11 +0000 (UTC)
+Received: from [10.196.197.150] (33-193.icannmeeting.org [199.91.193.33])
+	by mail.article19.io (Postfix) with ESMTPSA id 4CF03130028
+	for <hrpc@article19.io>; Tue, 10 Feb 2015 09:00:09 +0000 (UTC)
+Message-ID: <54D9C849.6060503@article19.org>
+Date: Tue, 10 Feb 2015 08:58:49 +0000
+From: Niels ten Oever <niels@article19.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:31.0) Gecko/20100101 Icedove/31.4.0
+MIME-Version: 1.0
+To: "hrpc@article19.io" <hrpc@article19.io>
+References: <54D9A466.7030108@article19.org>
+	<8F374B80-84A7-44B7-B6AE-35BF216FAF26@netapp.com>
+In-Reply-To: <8F374B80-84A7-44B7-B6AE-35BF216FAF26@netapp.com>
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Level: +
+X-Spam-Status: No, score=1.6 required=5.0 tests=BAYES_50,
+	SPF_NEUTRAL autolearn=disabled version=3.3.2
+X-Spam-Score: 1.6
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: dfea3049d3b923820beb462d65569822
+Subject: Re: [hrpc] interviews @ IETF meeting in Dallas
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Tue, 10 Feb 2015 08:58:57 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi,
+
+On 02/10/2015 08:51 AM, Eggert, Lars wrote:
+> Hi,
+>=20
+> On 2015-2-10, at 07:25, Niels ten Oever <niels@article19.org>
+> wrote:
+>> - Head of IAB - Chair of IETF - Area Directors
+>>=20
+>> Do you think this is a good list to start with?
+>=20
+> these folks are typically extremely busy during an IETF week, so
+> you may not be able to schedule time with very many of them.
+>=20
+> Can you do the interview by email?
+
+The initial idea was to film the interviews, which is of course not
+possible if we do it per email. Perhaps we could try to schedule the
+interview, and if they're unavailable do it per email?
+
+Best,
+
+Niels
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJU2chJAAoJEAi1oPJjbWjp+SUIAKFVJYp8gxGq0wHdK9DQm7G3
+uDWYT1wif4tWNsaHNpcPYptYqXTXUn/89WZRQoVveRV7Gkg7HHRUBlwwbF6Gpz1q
+AYmYB82S1B3cLaUOgd5oFGUNoNAV+foEIgBq3HEpe5QdQlQsdkqt4rLoeHhAnkNB
+fMWTdbB+sYnndRbKc+OevK75hgXg58yuFD8MIJnMM0IeFcgqZ0tUerv12r5Uai1D
+IB7wlkq4kk7rVLlfkskNDDJD1e3XukOjEQv9kubbIjxSVLcPFsLyzvOdBoqXRhz0
+/iPO1AqBJh0+f4MjS1gYUK5BPgpXxYwynGUqq4GcZGTc7enX7LiP9Cjn4Q4FInc=3D
+=3DViDc
+-----END PGP SIGNATURE-----
+
+
+From lars@netapp.com Tue Feb 10 11:11:22 2015
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <lars@netapp.com>) id 1YL7ms-0003M4-RI
+	for hrpc@article19.io; Tue, 10 Feb 2015 11:11:22 +0100
+Received: from mx141.netapp.com ([216.240.21.12])
+	by mx1.greenhost.nl with esmtps (TLS1.0:RSA_ARCFOUR_SHA1:16)
+	(Exim 4.72) (envelope-from <lars@netapp.com>) id 1YL7mp-0007jP-1C
+	for hrpc@article19.io; Tue, 10 Feb 2015 11:11:22 +0100
+X-IronPort-AV: E=Sophos;i="5.09,549,1418112000"; 
+	d="asc'?scan'208";a="22900266"
+Received: from hioexcmbx08-prd.hq.netapp.com ([10.122.105.41])
+	by mx141-out.netapp.com with ESMTP; 10 Feb 2015 02:11:16 -0800
+Received: from HIOEXCMBX01-PRD.hq.netapp.com (10.122.105.34) by
+	hioexcmbx08-prd.hq.netapp.com (10.122.105.41) with Microsoft SMTP
+	Server (TLS) id 15.0.995.29; Tue, 10 Feb 2015 02:11:15 -0800
+Received: from HIOEXCMBX01-PRD.hq.netapp.com ([10.122.105.34]) by
+	hioexcmbx01-prd.hq.netapp.com ([10.122.105.34]) with mapi id
+	15.00.0995.031; Tue, 10 Feb 2015 02:11:15 -0800
+From: "Eggert, Lars" <lars@netapp.com>
+To: Niels ten Oever <niels@article19.org>
+Thread-Topic: [hrpc] interviews @ IETF meeting in Dallas
+Thread-Index: AQHQRPqDmfbtpdtIvkaIN3G/v1mjMZzqGaEAgAACF4CAABQ8AA==
+Date: Tue, 10 Feb 2015 10:11:14 +0000
+Message-ID: <431A8C49-EB38-48F7-B9D1-CAA0ED784109@netapp.com>
+References: <54D9A466.7030108@article19.org>
+	<8F374B80-84A7-44B7-B6AE-35BF216FAF26@netapp.com>
+	<54D9C849.6060503@article19.org>
+In-Reply-To: <54D9C849.6060503@article19.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-mailer: Apple Mail (2.2070.6)
+x-originating-ip: [10.120.60.37]
+Content-Type: multipart/signed;
+	boundary="Apple-Mail=_B9DBA9C6-A326-4D2A-A6E9-4276D72E5039";
+	protocol="application/pgp-signature"; micalg=pgp-sha1
+MIME-Version: 1.0
+X-Spam-Level: ----
+X-Spam-Status: No, score=-4.3 required=5.0 tests=BAYES_50, RCVD_IN_DNSWL_HI,
+	SPF_PASS, T_RP_MATCHES_RCVD autolearn=disabled version=3.3.2
+X-Spam-Score: -4.3
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: a350ae07b5350cdad28cef237d2e7179
+Cc: "hrpc@article19.io" <hrpc@article19.io>
+Subject: Re: [hrpc] interviews @ IETF meeting in Dallas
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Tue, 10 Feb 2015 10:11:23 -0000
+
+--Apple-Mail=_B9DBA9C6-A326-4D2A-A6E9-4276D72E5039
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain;
+	charset=us-ascii
+
+On 2015-2-10, at 09:58, Niels ten Oever <niels@article19.org> wrote:
+> 
+> The initial idea was to film the interviews, which is of course not
+> possible if we do it per email.
+
+You might be able to record Skype or Webex interviews.
+
+Lars
+
+--Apple-Mail=_B9DBA9C6-A326-4D2A-A6E9-4276D72E5039
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="signature.asc"
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Message signed with OpenPGP using GPGMail
+
+-----BEGIN PGP SIGNATURE-----
+
+iQCVAwUBVNnZQtZcnpRveo1xAQIAvwQAhkU5aM/uEfaaqRBf5tU2QtVIrJttfIlp
+gnJvD6VvrxlYjUWspXzmbQ7LPeTzSMrsTnZp7yWp7AxIoqKlpVTxHprGgpl0yQ4T
+kET4wntZSN7zmvKJ8DHDJ5hk1iK/Y+0CNCFwdbYXxuokCnNqITmUtkaLZBV511YZ
+sOIhlIdhmAE=
+=ladF
+-----END PGP SIGNATURE-----
+
+--Apple-Mail=_B9DBA9C6-A326-4D2A-A6E9-4276D72E5039--
+
+
+From avri@acm.org Thu Feb 26 06:40:58 2015
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72) (envelope-from <avri@acm.org>)
+	id 1YQrBy-0006X1-Fq
+	for hrpc@article19.io; Thu, 26 Feb 2015 06:40:58 +0100
+Received: from atl4mhob15.myregisteredsite.com ([209.17.115.53])
+	by mx1.greenhost.nl with esmtp (Exim 4.72)
+	(envelope-from <avri@acm.org>) id 1YQrBx-0000gD-CH
+	for hrpc@article19.io; Thu, 26 Feb 2015 06:40:58 +0100
+Received: from mailpod.hostingplatform.com ([10.30.71.204])
+	by atl4mhob15.myregisteredsite.com (8.14.4/8.14.4) with ESMTP id
+	t1Q5esOD013684
+	for <hrpc@article19.io>; Thu, 26 Feb 2015 00:40:54 -0500
+Received: (qmail 26400 invoked by uid 0); 26 Feb 2015 05:40:54 -0000
+X-TCPREMOTEIP: 68.15.42.104
+X-Authenticated-UID: avri@ella.com
+Received: from unknown (HELO ?127.0.0.1?) (avri@ella.com@68.15.42.104)
+	by 0 with ESMTPA; 26 Feb 2015 05:40:54 -0000
+Message-ID: <54EDFB10.4070204@acm.org>
+Date: Thu, 26 Feb 2015 00:40:48 +0800
+From: Avri Doria <avri@acm.org>
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64;
+	rv:31.0) Gecko/20100101 Thunderbird/31.5.0
+MIME-Version: 1.0
+To: "hrpc@article19.io" <hrpc@article19.io>
+Content-Type: multipart/alternative;
+	boundary="------------060907000500000505090804"
+X-Antivirus: avast! (VPS 150225-3, 02/26/2015), Outbound message
+X-Antivirus-Status: Not-Tested
+X-Spam-Level: ++
+X-Spam-Status: No, score=2.5 required=5.0 tests=BAYES_50, DATE_IN_PAST_12_24,
+	HTML_MESSAGE, RCVD_IN_DNSWL_NONE,
+	SPF_SOFTFAIL autolearn=disabled version=3.3.2
+X-Spam-Score: 2.5
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: d3d6c6694e059b137bd8e4e2c0542d46
+Subject: [hrpc] Meeting in Dallas
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Thu, 26 Feb 2015 05:40:59 -0000
+
+This is a multi-part message in MIME format.
+--------------060907000500000505090804
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+As an applicant Research Group, we requested and got a time slot for
+Dallas: Friday March 27 11:50-13:20
+
+Niels and I are presenttly putting together an agenda.  While we will be
+putting out an update of  draft-doria-hrpc-proposal, we would like to
+include more items on the agenda than just this draft and wonder whether
+others have any research to report in the area of human rights protocol
+considerations.  Other suggestions for relevant discussions are also
+welcome.
+
+This is what have at the moment
+
+Agenda (to start) -
+agenda bash
+applicant research group status
+draft-doria-hrpc-proposal-00
+other ....
+what's next
+
+Niels will be chairing, I will be remote
+
+thanks
+
+avri
+
+
+
+
+
+
+--------------060907000500000505090804
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+X-MIME-Autoconverted: from 8bit to quoted-printable by atl4mhob15.myregisteredsite.com id t1Q5esOD013684
+
+<html>
+  <head>
+    <meta http-equiv=3D"content-type" content=3D"text/html;
+      charset=3Dwindows-1252">
+  </head>
+  <body bgcolor=3D"#FFFFFF" text=3D"#330033">
+    Hi,<br>
+    <br>
+    As an applicant Research Group, we requested and got a time slot for
+    Dallas: Friday March 27 11:50-13:20<br>
+    <br>
+    Niels and I are presenttly putting together an agenda.=A0 While we
+    will be putting out an update of=A0 draft-doria-hrpc-proposal, we
+    would like to include more items on the agenda than just this draft
+    and wonder whether others have any research to report in the area of
+    human rights protocol considerations.=A0 Other suggestions for
+    relevant discussions are also welcome.<br>
+    <br>
+    This is what have at the moment<br>
+    <br>
+    Agenda (to start) -<br>
+    agenda bash<br>
+    applicant research group status<br>
+    draft-doria-hrpc-proposal-00<br>
+    other ....<br>
+    what's next<br>
+    <br>
+    Niels will be chairing, I will be remote<br>
+    <br>
+    thanks<br>
+    <br>
+    avri<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </body>
+</html>
+
+--------------060907000500000505090804--
+

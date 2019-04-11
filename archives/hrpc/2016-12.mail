@@ -1,0 +1,931 @@
+
+From nobody Sun Dec  4 11:54:31 2016
+Return-Path: <avri@acm.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 1BE611295BD; Sun,  4 Dec 2016 11:54:30 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.235
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.235 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_NONE=-0.0001, SPF_SOFTFAIL=0.665] autolearn=no autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 4Gfy5bVTsWG0; Sun,  4 Dec 2016 11:54:28 -0800 (PST)
+Received: from smtprelay.hostedemail.com (smtprelay0223.hostedemail.com [216.40.44.223]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 068B81295AD; Sun,  4 Dec 2016 11:54:28 -0800 (PST)
+Received: from filter.hostedemail.com (clb03-v110.bra.tucows.net [216.40.38.60]) by smtprelay08.hostedemail.com (Postfix) with ESMTP id CD3E729DD97; Sun,  4 Dec 2016 19:54:26 +0000 (UTC)
+X-Session-Marker: 6176726940646F7269612E6F7267
+X-Spam-Summary: 2, -5, 0, , d41d8cd98f00b204, avri@acm.org, :::::, RULES_HIT:41:152:355:379:800:854:871:967:973:988:989:1000:1260:1261:1313:1314:1345:1437:1516:1518:1534:1541:1575:1594:1711:1730:1747:1777:1792:1960:1963:2194:2198:2199:2200:2393:2525:2553:2560:2563:2682:2685:2693:2741:2859:2911:2933:2937:2939:2942:2945:2947:2951:2954:3022:3138:3139:3140:3141:3142:3353:3865:3866:3867:3868:3871:3872:3874:3934:3936:3938:3941:3944:3947:3950:3953:3956:3959:4184:4250:4425:4559:5007:6117:6119:6506:6747:6748:7281:7652:7909:8660:8985:9010:9025:10004:10848:11604:11658:11914:12043:12050:12109:12114:12663:13019:13148:13230:14096:14180:14181:14227:14658:14659:14721:14877:21060:21080:21212:21433:30022:30054:30083:30090, 0, RBL:none, CacheIP:none, Bayesian:0.5, 0.5, 0.5, Netcheck:none, DomainCache:0, MSF:not bulk, SPF:fp, MSBL:0, DNSBL:none, Custom_rules:0:0:0, LFtime:3, LUA_SUMMARY:none
+X-HE-Tag: apple62_2654d2b5db945
+X-Filterd-Recvd-Size: 3578
+Received: from [127.0.0.1] (unknown [189.166.204.160]) (Authenticated sender: avri@doria.org) by omf12.hostedemail.com (Postfix) with ESMTPA; Sun,  4 Dec 2016 19:54:23 +0000 (UTC)
+From: avri doria <avri@acm.org>
+To: hrpc@irtf.org
+Message-ID: <1ee78d09-fd33-1851-6786-5645f4833671@acm.org>
+Date: Sun, 4 Dec 2016 13:54:21 -0600
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Thunderbird/45.5.1
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha256; protocol="application/pgp-signature"; boundary="5w8lMta492080Lx4o4ulmkCH1c26kcpLo"
+X-Antivirus: avast! (VPS 161204-0, 12/04/2016), Outbound message
+X-Antivirus-Status: Clean
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/axMG-zKws7WCwXSmHtiAGaA1EAk>
+Cc: "irsg@irtf.org" <irsg@irtf.org>
+Subject: [hrpc] Human Rights Research Group Call on draft-irtf-hrpc-research-07
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+Reply-To: avri@acm.org
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Sun, 04 Dec 2016 19:54:30 -0000
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--5w8lMta492080Lx4o4ulmkCH1c26kcpLo
+Content-Type: multipart/mixed; boundary="3MSDrQvaiUPxWuNJLfu6fFakUpotEt5H6";
+ protected-headers="v1"
+From: avri doria <avri@acm.org>
+Reply-To: avri@acm.org
+To: hrpc@irtf.org
+Cc: "irsg@irtf.org" <irsg@irtf.org>
+Message-ID: <1ee78d09-fd33-1851-6786-5645f4833671@acm.org>
+Subject: Human Rights Research Group Call on draft-irtf-hrpc-research-07
+
+--3MSDrQvaiUPxWuNJLfu6fFakUpotEt5H6
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+With this note, I am starting a Research Group call on the draft
+
+https://tools.ietf.org/html/draft-irtf-hrpc-research-07
+
+
+  Research into Human Rights Protocol Considerations
+
+
+While RFC 5743 "Definition of an Internet Research Task Force (IRTF) Docu=
+ment Stream" does not mandate a Last Call or any specific action to prove=
+ that a document has the correct maturity and review for publication, it =
+is safe to think of this call as similar to a first IETF last call.  If s=
+ubstantive changes to the document are produced based on the reviews we g=
+et, there will probably be another call on a later revision of the draft.=
+ If, or when, there are no substantive changes made we will be able to mo=
+ve on to IRSG Review of the draft.  If we don't get a wide enough review,=
+ we will need to figure out what to do next.
+
+Given that I am hoping to use this call as a way to get a larger audience=
+ to review that draft, and the fact that we are coming into one of the gl=
+obal holiday times, I will leave this call open until 9 Jan 2017.
+
+Please send all comment to the HRPC email list: hrpc@irtf.org.  I do hope=
+ that some good discussions occur on this list where the resolution to an=
+y issues may be forged. Discussion has been shown to improve this draft.
+
+Happy reviewing
+
+Avri Doria
+
+BTW, I copied the IRSG list on this hoping to get wider review group.
+
+
+
+--3MSDrQvaiUPxWuNJLfu6fFakUpotEt5H6--
+
+--5w8lMta492080Lx4o4ulmkCH1c26kcpLo
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQEcBAEBCAAGBQJYRHRtAAoJEOo+L8tCe36H8JEH/2BKX33zxuQJTqhSYDyqWnW4
+m6G+ZfSI3xDWiMmcb0T3rhgLsun0WGKK0tcvktr1p1H7p8NmWeqNM5my586jxmFl
+jnbwK9y5L7rNnK3el02OfsBveod4o0/kdtAkGDtCtxldu0lJdT7wYxJrLSRkXKxy
+C4mgu4uiwCzRh+8HK2Mq5uSnpmdkNwHZEAv83kywp/oCl2tY9lH0nvTEOUU00GvD
+Tx6Ct+5xflS7KFoIYbcqQxsyUnscPotBjEkALpG8ebblmcX9Y732aMozD/A+j6L+
+MfenjsPc7S6+8T0E3zEawZXGw9AnZlVh4buG2Tx3QypSvPbXMCGYXLt9HO9PGD0=
+=Ln9p
+-----END PGP SIGNATURE-----
+
+--5w8lMta492080Lx4o4ulmkCH1c26kcpLo--
+
+
+From nobody Tue Dec  6 10:26:52 2016
+Return-Path: <bortzmeyer@nic.fr>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 16942129566 for <hrpc@ietfa.amsl.com>; Tue,  6 Dec 2016 10:26:51 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.9 tagged_above=-999 required=5 tests=[BAYES_00=-1.9] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Qj8pG07pJr-v for <hrpc@ietfa.amsl.com>; Tue,  6 Dec 2016 10:26:49 -0800 (PST)
+Received: from mail.bortzmeyer.org (aetius.bortzmeyer.org [IPv6:2001:4b98:dc0:41:216:3eff:fece:1902]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id BECAA129A7A for <hrpc@irtf.org>; Tue,  6 Dec 2016 10:25:46 -0800 (PST)
+Received: by mail.bortzmeyer.org (Postfix, from userid 10) id 7EEC131DB0; Tue,  6 Dec 2016 19:25:34 +0100 (CET)
+Received: by godin (Postfix, from userid 1000) id 64177EC0B1E; Tue,  6 Dec 2016 19:18:48 +0100 (CET)
+Date: Tue, 6 Dec 2016 19:18:48 +0100
+From: Stephane Bortzmeyer <bortzmeyer@nic.fr>
+To: avri doria <avri@acm.org>
+Message-ID: <20161206181848.GA29937@laperouse.bortzmeyer.org>
+References: <1ee78d09-fd33-1851-6786-5645f4833671@acm.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <1ee78d09-fd33-1851-6786-5645f4833671@acm.org>
+X-Transport: UUCP rules
+X-Operating-System: Ubuntu 16.04 (xenial)
+X-Charlie: Je suis Charlie
+User-Agent: Mutt/1.5.24 (2015-08-30)
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/etavVhxyLsNIwbZThthYAZG6BL8>
+Cc: hrpc@irtf.org
+Subject: Re: [hrpc] Human Rights Research Group Call on draft-irtf-hrpc-research-07
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 06 Dec 2016 18:26:51 -0000
+
+On Sun, Dec 04, 2016 at 01:54:21PM -0600,
+ avri doria <avri@acm.org> wrote 
+ a message of 91 lines which said:
+
+> With this note, I am starting a Research Group call on the draft
+> 
+> https://tools.ietf.org/html/draft-irtf-hrpc-research-07
+> 
+>   Research into Human Rights Protocol Considerations
+
+I've read -07 and I find it fine. I won't repeat my comments about
+previous versions but, for this one, I specially like the section 6,
+which now nicely captures the various positions on the relationship
+between HR and protocols.
+
+Editorial:
+
+> the questions posed in the considerations Section 4 part of this
+> document
+
+Just "section 4" instead of "considerations Section 4 part"?
+
+> peer-to-peer remains imporant
+
+important
+
+Also, mention of RFC 1766 should be replaced with RFC 4646.
+
+
+Personal remarks:
+
+Mentioning NETmundial seems useless, it was just "governance circus".
+
+
+From nobody Sat Dec 10 01:31:08 2016
+Return-Path: <bortzmeyer@nic.fr>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 716FE12960C for <hrpc@ietfa.amsl.com>; Sat, 10 Dec 2016 01:31:07 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.9 tagged_above=-999 required=5 tests=[BAYES_00=-1.9] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id DF87xrJ0_gZd for <hrpc@ietfa.amsl.com>; Sat, 10 Dec 2016 01:31:06 -0800 (PST)
+Received: from mail.bortzmeyer.org (aetius.bortzmeyer.org [217.70.190.232]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id DA381129536 for <hrpc@irtf.org>; Sat, 10 Dec 2016 01:31:05 -0800 (PST)
+Received: by mail.bortzmeyer.org (Postfix, from userid 10) id EC48D31D88; Sat, 10 Dec 2016 10:31:01 +0100 (CET)
+Received: by godin (Postfix, from userid 1000) id A45A9EC0AE3; Sat, 10 Dec 2016 09:24:22 +0000 (GMT)
+Date: Sat, 10 Dec 2016 09:24:22 +0000
+From: Stephane Bortzmeyer <bortzmeyer@nic.fr>
+To: hrpc@irtf.org
+Message-ID: <20161210092422.GA7243@laperouse.bortzmeyer.org>
+References: <1ee78d09-fd33-1851-6786-5645f4833671@acm.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <1ee78d09-fd33-1851-6786-5645f4833671@acm.org>
+X-Transport: UUCP rules
+X-Operating-System: Ubuntu 16.04 (xenial)
+X-Charlie: Je suis Charlie
+User-Agent: Mutt/1.5.24 (2015-08-30)
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/cIzbEpT56wYuw8SSKvtGZt7eQYw>
+Subject: Re: [hrpc] Human Rights Research Group Call on draft-irtf-hrpc-research-07
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Sat, 10 Dec 2016 09:31:07 -0000
+
+On Sun, Dec 04, 2016 at 01:54:21PM -0600,
+ avri doria <avri@acm.org> wrote 
+ a message of 91 lines which said:
+
+> With this note, I am starting a Research Group call on the draft
+> 
+> https://tools.ietf.org/html/draft-irtf-hrpc-research-07
+> 
+>   Research into Human Rights Protocol Considerations
+
+This is Human Rights Day, good opportunity to read the draft and post
+reviews :-)
+
+
+From nobody Tue Dec 20 08:09:39 2016
+Return-Path: <bortzmeyer@nic.fr>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 753AE129AF3 for <hrpc@ietfa.amsl.com>; Tue, 20 Dec 2016 08:09:38 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -10
+X-Spam-Level: 
+X-Spam-Status: No, score=-10 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_HI=-5, RP_MATCHES_RCVD=-3.1] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id FjLnYmC7at6c for <hrpc@ietfa.amsl.com>; Tue, 20 Dec 2016 08:09:37 -0800 (PST)
+Received: from mx4.nic.fr (mx4.nic.fr [IPv6:2001:67c:2218:2::4:12]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id D162C129AA9 for <hrpc@irtf.org>; Tue, 20 Dec 2016 08:09:09 -0800 (PST)
+Received: from mx4.nic.fr (localhost [127.0.0.1]) by mx4.nic.fr (Postfix) with SMTP id 23D0D2801AD for <hrpc@irtf.org>; Tue, 20 Dec 2016 17:09:08 +0100 (CET)
+Received: from relay2.nic.fr (relay2.nic.fr [192.134.4.163]) by mx4.nic.fr (Postfix) with ESMTP id 1D87728011C for <hrpc@irtf.org>; Tue, 20 Dec 2016 17:09:08 +0100 (CET)
+Received: from b12.nic.fr (b12.tech.ipv6.nic.fr [IPv6:2001:67c:1348:7::86:133]) by relay2.nic.fr (Postfix) with ESMTP id BB416B38027 for <hrpc@irtf.org>; Tue, 20 Dec 2016 17:08:20 +0100 (CET)
+Received: by b12.nic.fr (Postfix, from userid 1000) id AE953430ED; Tue, 20 Dec 2016 17:08:20 +0100 (CET)
+Date: Tue, 20 Dec 2016 17:08:20 +0100
+From: Stephane Bortzmeyer <bortzmeyer@nic.fr>
+To: hrpc@irtf.org
+Message-ID: <20161220160820.xyauhsce43g5ldsb@nic.fr>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="ihvu4o7p2aerleww"
+Content-Disposition: inline
+X-Operating-System: Debian GNU/Linux stretch/sid
+X-Kernel: Linux 4.7.0-1-amd64 x86_64
+X-Charlie: Je suis Charlie
+Organization: NIC France
+X-URL: http://www.nic.fr/
+User-Agent: NeoMutt/20161126 (1.7.1)
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/dJN7eccfEYzCl0mgm_MRlKyPiaQ>
+Subject: [hrpc] [sthaug@nethelp.no: Re: I-D Action: draft-vixie-dns-rpz-04.txt]
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 20 Dec 2016 16:09:38 -0000
+
+--ihvu4o7p2aerleww
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+I know that everyone is busy re-reading draft-irtf-hrpc-research for
+the Last Call but I want to inform you about a discussion which is
+relevant for HRPC, in the IETF working group dnsop. RPZ is a technique
+to more easily implement lies in a DNS resolver, useful (among other
+things for censorship).
+
+The discussion in dnsop, as predictable, revolves around "people are
+doing it, so they should at least do it in a technically correct way"
+and "we don't standardize bad techniques, period".
+
+
+--ihvu4o7p2aerleww
+Content-Type: message/rfc822
+Content-Disposition: inline
+
+Return-Path: dnsop-bounces@ietf.org
+Received: from hebe.prod-int.prive.th3.nic.fr [10.1.81.80]
+	by b12.tech.prive.nic.fr with IMAP (fetchmail-6.3.26)
+	for <bortzmeyer@localhost> (single-drop); Mon, 19 Dec 2016 09:19:08 +0100 (CET)
+Received: from hebe.prod-int.prive.th3.nic.fr (LHLO zimbra.afnic.fr)
+ (10.1.81.80) by zimbra.afnic.fr with LMTP; Mon, 19 Dec 2016 09:16:50 +0100
+ (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by zimbra.afnic.fr (Postfix) with ESMTP id 9ECAD2D7CCA8
+	for <bortzmeyer@afnic.fr>; Mon, 19 Dec 2016 09:16:50 +0100 (CET)
+X-Spam-Flag: NO
+X-Spam-Score: -3.567
+X-Spam-Level: 
+X-Spam-Status: No, score=-3.567 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_00=-1.9, DKIM_SIGNED=0.1,
+	DKIM_VALID=-0.1, HEADER_FROM_DIFFERENT_DOMAINS=0.001,
+	RP_MATCHES_RCVD=-0.668] autolearn=unavailable autolearn_force=no
+Authentication-Results: zimbra.afnic.fr (amavisd-new);
+	dkim=pass (1024-bit key) header.d=ietf.org
+Received: from zimbra.afnic.fr ([127.0.0.1])
+	by localhost (zimbra.afnic.fr [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id dtuHkNnE6n_g for <bortzmeyer@afnic.fr>;
+	Mon, 19 Dec 2016 09:16:50 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by zimbra.afnic.fr (Postfix) with ESMTP id 495D32D7CC65
+	for <bortzmeyer@afnic.fr>; Mon, 19 Dec 2016 09:16:50 +0100 (CET)
+X-Virus-Scanned: amavisd-new at zimbra.afnic.fr
+Received: from zimbra.afnic.fr ([127.0.0.1])
+	by localhost (zimbra.afnic.fr [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id fByUzCSvldwW for <bortzmeyer@afnic.fr>;
+	Mon, 19 Dec 2016 09:16:50 +0100 (CET)
+Received: from relay1.nic.fr (relay1.nic.fr [192.134.4.162])
+	by zimbra.afnic.fr (Postfix) with ESMTP id 2B2FD2D7CC5B
+	for <bortzmeyer@hermes.nic.fr>; Mon, 19 Dec 2016 09:16:50 +0100 (CET)
+Received: by relay1.nic.fr (Postfix)
+	id 26EC54C003F; Mon, 19 Dec 2016 09:16:50 +0100 (CET)
+Delivered-To: bortzmeyer@nic.fr
+Received: from mx5.nic.fr (mx5.nic.fr [IPv6:2001:67c:2218:2::4:13])
+	by relay1.nic.fr (Postfix) with ESMTP id 25B894C003D;
+	Mon, 19 Dec 2016 09:16:50 +0100 (CET)
+Received: from mx5.nic.fr (localhost [127.0.0.1])
+	by mx5.nic.fr (Postfix) with SMTP id 245A93003A1;
+	Mon, 19 Dec 2016 09:16:50 +0100 (CET)
+Received: by mx5.nic.fr (Postfix, from userid 1137)
+	id DEDE13003C5; Mon, 19 Dec 2016 09:16:49 +0100 (CET)
+Received: from mail.ietf.org (mail.ietf.org [4.31.198.44])
+	(using TLSv1.2 with cipher DHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(Client did not present a certificate)
+	by mx5.nic.fr (Postfix) with ESMTPS id B1B923003AE;
+	Mon, 19 Dec 2016 09:16:49 +0100 (CET)
+Received: from ietfa.amsl.com (localhost [IPv6:::1])
+	by ietfa.amsl.com (Postfix) with ESMTP id CFFEB129547;
+	Mon, 19 Dec 2016 00:16:34 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=ietf.org; s=ietf1;
+	t=1482135395; bh=z3t6kiDPmV7lwtVa6bB3sSBCVQa18nlGS9/H/dtV7L0=;
+	h=Date:To:From:In-Reply-To:References:Cc:Subject:List-Id:
+	 List-Unsubscribe:List-Archive:List-Post:List-Help:List-Subscribe;
+	b=kAqEC6+nHOKVVNax1yYxwGd0qLbOFIeOYX3Oauqw4fvcdUY2wzUw0PEey5b1vxKtV
+	 ZMKDvMbMdrOPR0bLKJr5dQfoQL871A8uRN/t/ATRhiLySVh+DOucqN2ze9iee4jTFz
+	 1P+ndRMHFd1qY/DSB8aq/SDEfHzUWkuluE6XXJDw=
+X-Original-To: dnsop@ietfa.amsl.com
+Delivered-To: dnsop@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1])
+ by ietfa.amsl.com (Postfix) with ESMTP id 1AB4F129522
+ for <dnsop@ietfa.amsl.com>; Mon, 19 Dec 2016 00:16:32 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+Received: from mail.ietf.org ([4.31.198.44])
+ by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024)
+ with ESMTP id sDPt7brOxhis for <dnsop@ietfa.amsl.com>;
+ Mon, 19 Dec 2016 00:16:30 -0800 (PST)
+Received: from bizet.nethelp.no (bizet.nethelp.no [IPv6:2001:8c0:9e04:500::1])
+ by ietfa.amsl.com (Postfix) with ESMTP id 0A74E126B6D
+ for <dnsop@ietf.org>; Mon, 19 Dec 2016 00:16:29 -0800 (PST)
+Received: from localhost (bizet.nethelp.no [IPv6:2001:8c0:9e04:500::1])
+ by bizet.nethelp.no (Postfix) with ESMTP id 30252E6066;
+ Mon, 19 Dec 2016 09:16:28 +0100 (CET)
+Date: Mon, 19 Dec 2016 09:16:28 +0100 (CET)
+Message-Id: <20161219.091628.74720462.sthaug@nethelp.no>
+To: ac@main.me
+Old-From: sthaug@nethelp.no
+In-Reply-To: <20161219072930.8E646129530@ietfa.amsl.com>
+References: <20161219050559.6F643129497@ietfa.amsl.com>
+ <5CAA0C17-B3F6-4518-90EC-9B0C59D75194@fl1ger.de>
+ <20161219072930.8E646129530@ietfa.amsl.com>
+X-Mailer: Mew version 3.3 on Emacs 21.3 / Mule 5.0 (SAKAKI)
+Mime-Version: 1.0
+Archived-At: <https://mailarchive.ietf.org/arch/msg/dnsop/DmqJZjnCUe1DqxT-mxLM4ii-_Hw>
+Cc: dnsop@ietf.org, dns@fl1ger.de
+Old-Subject: Re: [DNSOP] I-D Action: draft-vixie-dns-rpz-04.txt
+X-BeenThere: dnsop@ietf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: IETF DNSOP WG mailing list <dnsop.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/dnsop>,
+ <mailto:dnsop-request@ietf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/dnsop/>
+List-Post: <mailto:dnsop@ietf.org>
+List-Help: <mailto:dnsop-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/dnsop>,
+ <mailto:dnsop-request@ietf.org?subject=subscribe>
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Errors-To: dnsop-bounces@ietf.org
+Sender: "DNSOP" <dnsop-bounces@ietf.org>
+X-PMX-Version: 6.0.0.2142326, Antispam-Engine: 2.7.2.2107409, Antispam-Data: 2016.12.19.80916
+X-PerlMx-Spam: Gauge=IIIIIIIII, Probability=9%, Report='
+ MULTIPLE_RCPTS 0.1, HTML_00_01 0.05, HTML_00_10 0.05, MIME_LOWER_CASE 0.05, BODYTEXTP_SIZE_3000_LESS 0, BODY_SIZE_1800_1899 0, BODY_SIZE_2000_LESS 0, BODY_SIZE_5000_LESS 0, BODY_SIZE_7000_LESS 0, DKIM_SIGNATURE 0, IN_REP_TO 0, LEGITIMATE_NEGATE 0, LEGITIMATE_SIGNS 0, MSG_THREAD 0, NO_REAL_NAME 0, REFERENCES 0, SINGLE_URI_IN_BODY 0, __ANY_URI 0, __BOUNCE_CHALLENGE_SUBJ 0, __BOUNCE_NDR_SUBJ_EXEMPT 0, __CP_NOT_1 0, __CP_URI_IN_BODY 0, __CT 0, __CTE 0, __CT_TEXT_PLAIN 0, __FORWARDED_MSG 0, __HAS_CC_HDR 0, __HAS_FROM 0, __HAS_LIST_HEADER 0, __HAS_LIST_HELP 0, __HAS_LIST_SUBSCRIBE 0, __HAS_LIST_UNSUBSCRIBE 0, __HAS_MSGID 0, __HAS_X_MAILER 0, __HTTPS_URI 0, __IN_REP_TO 0, __MIME_TEXT_ONLY 0, __MIME_TEXT_P 0, __MIME_TEXT_P1 0, __MIME_VERSION 0, __MULTIPLE_RCPTS_CC_X2 0, __NO_HTML_TAG_RAW 0, __REFERENCES 0, __SANE_MSGID 0, __SINGLE_URI_TEXT 0, __SUBJ_ALPHA_NEGATE 0, __TO_MALFORMED_2 0,
+ __TO_NO_NAME 0, __URI_IN_BODY 0, __URI_NS , __URI_WITH_PATH 0'
+X-Bogosity: Ham, tests=bogofilter, spamicity=0.000000, version=1.2.4
+Old-Subject: Re: [DNSOP] I-D Action: draft-vixie-dns-rpz-04.txt
+From: sthaug@nethelp.no
+Subject: Re: I-D Action: draft-vixie-dns-rpz-04.txt
+
+> > So if this is the IP of a phishing site or the IP of an command and
+> > control host that tells its bot to execute criminal action you still
+> > valid the accuracy of the answer higher then possible damage this
+> > could do to your user?
+> > 
+> yes. 
+> 
+> In your example, ethically, it is a problem that should be addressed on IP, not on DNS
+> 
+> It is never okay to tell lies.
+
+Unfortunately the real world isn't that simple.
+
+Sometimes you are required by law to tell lies. Case in point: Various
+domains belonging to Pirate Bay and several other torrent providers
+have been explicitly blocked in Norway - explicitly as in: The biggest
+ISPs in Norway (I happen to work for one of these) have been told by
+the Oslo district court to block access to a list of domains supplied
+by the court, and that this is to be implemented through DNS blocking
+(lies, if you will).
+
+It doesn't matter whether I *like* this or not, and it also doesn't
+matter whether the domains in question are easily available by using
+OpenDNS, Google Public DNS, running your own name server, etc. ISPs
+are still required to block access as long as the verdict from the
+Oslo district court is valid.
+
+Today this blocking is done without using RPZ. Having RPZ standardized
+and implemented in more DNS software would make it possible to perform
+the same blocking as mentioned above with fewer moving parts and thus
+a simpler system less likely to have "interesting" failure modes.
+
+Note that it makes absolutely no difference to the blocking described
+above whether the RPZ draft is published as an RFC or not - in both
+cases the blocking would still be performed, because it is required
+by law.
+
+Steinar Haug, AS2116
+
+_______________________________________________
+DNSOP mailing list
+DNSOP@ietf.org
+https://www.ietf.org/mailman/listinfo/dnsop
+
+--ihvu4o7p2aerleww--
+
+
+From nobody Tue Dec 20 09:17:33 2016
+Return-Path: <avri@acm.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 46B8C129B9D for <hrpc@ietfa.amsl.com>; Tue, 20 Dec 2016 09:17:32 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.235
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.235 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_NONE=-0.0001, SPF_SOFTFAIL=0.665] autolearn=no autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id T0Wz7glO70lB for <hrpc@ietfa.amsl.com>; Tue, 20 Dec 2016 09:17:31 -0800 (PST)
+Received: from smtprelay.hostedemail.com (smtprelay0004.hostedemail.com [216.40.44.4]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 02D70129B80 for <hrpc@irtf.org>; Tue, 20 Dec 2016 09:17:27 -0800 (PST)
+Received: from filter.hostedemail.com (clb03-v110.bra.tucows.net [216.40.38.60]) by smtprelay07.hostedemail.com (Postfix) with ESMTP id BCC0EC1F81 for <hrpc@irtf.org>; Tue, 20 Dec 2016 17:17:24 +0000 (UTC)
+X-Session-Marker: 6176726940646F7269612E6F7267
+X-Spam-Summary: 2, -10, 0, , d41d8cd98f00b204, avri@acm.org, :, RULES_HIT:41:355:379:599:800:854:960:967:973:988:989:1042:1260:1261:1277:1311:1313:1314:1345:1359:1381:1437:1515:1516:1518:1534:1541:1593:1594:1683:1711:1730:1747:1777:1792:2198:2199:2393:2525:2540:2553:2565:2682:2685:2859:2933:2937:2939:2942:2945:2947:2951:2954:3022:3138:3139:3140:3141:3142:3352:3865:3867:3868:3870:3871:3872:3873:3874:3934:3936:3938:3941:3944:3947:3950:3953:3956:3959:4184:4250:4860:5007:6117:6119:7652:7903:8660:8985:9010:9025:10004:10400:10848:10904:11232:11658:11914:12043:12109:12114:12291:12379:12438:12683:12740:12760:13069:13071:13148:13208:13229:13230:13311:13357:13618:13846:14096:14097:14180:14181:14721:14764:14777:14877:21060:21067:21080:21366:21433:21450:30022:30054:30056:30060, 0, RBL:none, CacheIP:none, Bayesian:0.5, 0.5, 0.5, Netcheck:none, DomainCache:0, MSF:not bulk, SPF:fp, MSBL:0, DNSBL:none, Custom_rules:0:0:0, LFtime:3, LUA_SUMMARY:none
+X-HE-Tag: boys39_2390c51a5d52a
+X-Filterd-Recvd-Size: 2048
+Received: from [127.0.0.1] (wsip-68-15-42-104.ri.ri.cox.net [68.15.42.104]) (Authenticated sender: avri@doria.org) by omf11.hostedemail.com (Postfix) with ESMTPA for <hrpc@irtf.org>; Tue, 20 Dec 2016 17:17:24 +0000 (UTC)
+References: <20161220160820.xyauhsce43g5ldsb@nic.fr>
+To: hrpc@irtf.org
+From: avri doria <avri@acm.org>
+Message-ID: <5145b994-2fd3-2d68-25c9-d1af338f027d@acm.org>
+Date: Tue, 20 Dec 2016 12:17:21 -0500
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Thunderbird/45.5.1
+MIME-Version: 1.0
+In-Reply-To: <20161220160820.xyauhsce43g5ldsb@nic.fr>
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: 7bit
+X-Antivirus: avast! (VPS 161220-0, 12/20/2016), Outbound message
+X-Antivirus-Status: Clean
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/tBr-fKFKhpebajJOjXVtsQLHGrU>
+Subject: Re: [hrpc] [sthaug@nethelp.no: Re: I-D Action: draft-vixie-dns-rpz-04.txt]
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+Reply-To: avri@acm.org
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 20 Dec 2016 17:17:32 -0000
+
+Hi,
+
+Have also been following that.
+Would be interesting to see the guidelines tested against the RPZ.
+Might be a nice draft for Copenhagen.
+
+avri
+
+Ps. I hope people are reading and reviewing.  The silence has been quite
+noticeable.
+Reminder: <https://tools.ietf.org/html/draft-irtf-hrpc-research-07> in
+HRPC RG Last Call
+
+On 20-Dec-16 11:08, Stephane Bortzmeyer wrote:
+> I know that everyone is busy re-reading draft-irtf-hrpc-research for
+> the Last Call but I want to inform you about a discussion which is
+> relevant for HRPC, in the IETF working group dnsop. RPZ is a technique
+> to more easily implement lies in a DNS resolver, useful (among other
+> things for censorship).
+>
+> The discussion in dnsop, as predictable, revolves around "people are
+> doing it, so they should at least do it in a technically correct way"
+> and "we don't standardize bad techniques, period".
+>
+>
+>
+> _______________________________________________
+> hrpc mailing list
+> hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+
+
+---
+This email has been checked for viruses by Avast antivirus software.
+https://www.avast.com/antivirus
+
+
+From nobody Mon Dec 26 00:26:27 2016
+Return-Path: <sm@elandsys.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 7612D1295DA for <hrpc@ietfa.amsl.com>; Mon, 26 Dec 2016 00:26:26 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -4.89
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.89 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, RCVD_IN_DNSWL_NONE=-0.0001, RP_MATCHES_RCVD=-3.1, T_DKIM_INVALID=0.01] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=fail (1024-bit key) reason="fail (message has been altered)" header.d=opendkim.org header.b=O+jBr2ll; dkim=fail (1024-bit key) reason="fail (message has been altered)" header.d=elandsys.com header.b=ezqQobau
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id S87WY1KK9bQP for <hrpc@ietfa.amsl.com>; Mon, 26 Dec 2016 00:26:24 -0800 (PST)
+Received: from mx.ipv6.elandsys.com (mx.ipv6.elandsys.com [IPv6:2001:470:f329:1::1]) by ietfa.amsl.com (Postfix) with ESMTP id C19BF1295D5 for <hrpc@irtf.org>; Mon, 26 Dec 2016 00:26:24 -0800 (PST)
+Received: from SUBMAN.elandsys.com (IDENT:sm@localhost [127.0.0.1]) (authenticated bits=0) by mx.elandsys.com (8.14.5/8.14.5) with ESMTP id uBQ8Q32w021577 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO); Mon, 26 Dec 2016 00:26:09 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=opendkim.org; s=mail2010; t=1482740772; x=1482827172; bh=NQ7mZwHOF0QIXFp3qHZaXtkEvXNYB8Ce2JtT/SjVFS8=; h=Date:To:From:Subject; b=O+jBr2llz3X3uhkie64jOSvvkGdWgR6uT2/jQVV8Jiykz73Uvjde2ldu/0Nj8CXd+ rA2cvxKik6d6NPB5Hj5itt878pA2/zjwSK+GugXQ/v7RGaPADkW+6bVJ8FxKvSiWS3 ikpO3cjLzLERuyWgC5U6GCc0lHjs1BNGfPrNk/xM=
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=elandsys.com; s=mail; t=1482740772; x=1482827172; i=@elandsys.com; bh=NQ7mZwHOF0QIXFp3qHZaXtkEvXNYB8Ce2JtT/SjVFS8=; h=Date:To:From:Subject; b=ezqQobau53WEmaK+RjRdGUeXAG6aDY+qJJ5v0UTEHLoT7gqcqjsW8X9ZtHwOC+sJe ozjBjte2KFmDVkaurOg9Cr+W9dcgijolCjqMK/JHA76Tzr8fAbUEmx5KkMVG31DbWX DtGS1zXUY6BkzZAh7ThLkYZnc9proejs99yhpEEQ=
+Message-Id: <6.2.5.6.2.20161224235445.0b10dab0@elandnews.com>
+X-Mailer: QUALCOMM Windows Eudora Version 6.2.5.6
+Date: Sun, 25 Dec 2016 22:35:11 -0800
+To: Niels ten Oever <niels@article19.org>, Corinne Cath <corinnecath@gmail.com>, hrpc@irtf.org
+From: S Moonesamy <sm+ietf@elandsys.com>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"; format=flowed
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/6cJyMhtW-LSf94mr8Ce8A80r52g>
+Subject: [hrpc] Comments about draft-irtf-hrpc-research-07
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 26 Dec 2016 08:26:26 -0000
+
+Hi Niels, Corinne,
+
+I have a few comments about draft-irtf-hrpc-research-07.  First of 
+all I would like to commend Article 19 and the Oxford Internet 
+Institute for their efforts to research human rights issues.  I did a 
+quick search on ietf.org and the following thread showed up in the 
+search results: 
+https://www.ietf.org/mail-archive/web/ietf/current/msg98613.html 
+People from different parts of the world have different ways of 
+looking at topics such as human rights.
+
+The Abstract states that "This documents aims to be a consensus 
+document of the Human Rights Protocol Consideration Research Group of 
+the Internet Research Task Force (IRTF)".  Will it be the consensus 
+of the representatives from companies or organizations from one 
+country, a few countries or more than that?
+
+Section 2 cites RFC 2606 for "Open standards Conform".  I gather that 
+the reference is a mistake as RFC 2606 does not pertain to open standards.
+
+Section 3.2.3.2.1 is about the removal of DNS records.  The second 
+sentence in that section could be read as meaning that the US-based 
+registry in charge of .com was involved in the first example which is 
+referenced.  The usage of "real-world events" is not clear.  Does it 
+mean events which could be described as political or something else?
+
+Section 3.2.3.2.2 using dns.telecomix.org as an example.  The domain 
+name does not exist:
+
+   ;; QUESTION SECTION:
+   ;dns.telecomix.org.             IN      A
+
+   ;; AUTHORITY SECTION:
+   telecomix.org.          3600    IN      SOA     ns3.binero.se. 
+registry.binero.se. 1482364800 86400 5400 604800 3600
+
+
+Section 3.2.3.3.1 discusses about cryptography.  There was an IAB 
+appeal related to that in 2014.  Was that mentioned during the 
+interviews (Section 3.1.2)?  I could not find a reference to the 
+appeal as it is not listed on the IAB web site.
+
+Section 3.3.3.6 discusses about Virtual Private Networks.  A few 
+years ago, I asked for feedback about BCP 162 [1] about logging 
+recommendations due to the lack of privacy considerations.  Would 
+this be viewed as an issue in respect to human rights?
+
+There is the following question in Section 4.1.1.1.5:  "Does your 
+protocol allow Unicode encoded in UTF-8 only?"  Does that mean that a 
+protocol supporting UTF-8 only does not enable internationalization?
+
+One of the definitions for an "Open Standard" (Section 4.1.1.1.7) has 
+the following: "available in multiple complete implementations by 
+competing vendors, or as a complete implementation equally available 
+to all parties".  How many of the IETF protocols qualify for 
+this?  For what it is worth, there is a short thread about standards 
+at https://www.ietf.org/mail-archive/web/ietf/current/msg88209.html
+
+A point that may have been missed in that Section is protocol 
+maintenance, e.g. is there a process to fix a defect in the 
+specification and does that process actually work?
+
+The "know what is being decided" is unfortunately not easy especially 
+when decisions are not taken in a timely manner.  What is the use of 
+making "his or her voice heard on the issue" if that voice is not 
+given due consideration when the decision is taken?  Does the "right 
+to non-discrimination" apply here?
+
+There is the following in Section 4.1.1.1.7 "Open standards are 
+important as they allow for permissionless innovation, which is 
+important to maintain the freedom and ability to freely create and 
+deploy new protocols on top of the communications constructs that 
+currently exist".  Could the authors please provide an example of 
+this "permissionless innovation" in relation to "open 
+standards"?  The example referenced in the draft is not about a protocol.
+
+Section 4.1.1.1.8 is about "heterogeneity by design".  On reading RFC 
+1958 again I noticed that Section 5.2 of the document list export 
+controls as an issue of secondary importance.  The explanation was 
+that "all of the technology required to implement Internet standards 
+can be fabricated in each country".  Does it affect a technical 
+specification when it cannot be implemented due to restrictions 
+affecting cryptography?  Is there heterogeneity by design if there 
+are restrictions to "extension points" or export controls on a 
+"mandatory to implement" feature in a standard?
+
+Section 4.1.1.1.13 discusses about decentralization.  Do points of 
+control affect the "right to freedom of expression"?
+
+There is a discussion of an outage at 
+https://news.ycombinator.com/item?id=12759520  Is it the protocol, 
+namely DNS, which is brittle?
+
+Section 4.1.1.1.9 discusses about privacy considerations and lists 
+"Right to non-discrimination" under "Impacts".  This seems to be 
+based on the constitution of a country which protects unpopular 
+individuals from retaliation -- and their ideas from suppression -- 
+at the hand of an intolerant society.  Isn't this about "freedom of 
+speech" and anonymity instead of the "right to 
+non-discrimination"?   Is it actually "right to non-discrimination" 
+or is it the "right to equality"?
+
+I have mentioned previously that people are encouraged to participate 
+in the IETF and contribute through mailing lists but are completely 
+disenfranchised relative to other people who attend IETF 
+meetings.  It is odd if a person were to talk about human rights and 
+he/she ignore such issues.
+
+Section 9 states that there are no security considerations as the 
+document concerns research.  If there weren't any considerations, 
+would several of the participants (Section 3.1.2) opt to remain anonymous?
+
+Regards,
+S. Moonesamy
+
+
+From nobody Thu Dec 29 18:20:14 2016
+Return-Path: <ajs@anvilwalrusden.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 280B1129A40 for <hrpc@ietfa.amsl.com>; Thu, 29 Dec 2016 18:20:13 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.9 tagged_above=-999 required=5 tests=[BAYES_00=-1.9] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id o1c9OesLYGeY for <hrpc@ietfa.amsl.com>; Thu, 29 Dec 2016 18:20:11 -0800 (PST)
+Received: from mx2.yitter.info (mx2.yitter.info [50.116.54.116]) by ietfa.amsl.com (Postfix) with ESMTP id 5F2AE129434 for <hrpc@irtf.org>; Thu, 29 Dec 2016 18:20:11 -0800 (PST)
+Received: from localhost (localhost [127.0.0.1]) by mx2.yitter.info (Postfix) with ESMTP id 6E66D1145C for <hrpc@irtf.org>; Fri, 30 Dec 2016 02:20:13 +0000 (UTC)
+X-Virus-Scanned: Debian amavisd-new at crankycanuck.ca
+Received: from mx2.yitter.info ([127.0.0.1]) by localhost (mx2.yitter.info [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 5yfZhCQUgPIW for <hrpc@irtf.org>; Fri, 30 Dec 2016 02:20:12 +0000 (UTC)
+Received: from mx2.yitter.info (192-0-220-231.cpe.teksavvy.com [192.0.220.231]) by mx2.yitter.info (Postfix) with ESMTPSA id 5476B1047F for <hrpc@irtf.org>; Fri, 30 Dec 2016 02:20:12 +0000 (UTC)
+Date: Thu, 29 Dec 2016 21:20:08 -0500
+From: Andrew Sullivan <ajs@anvilwalrusden.com>
+To: hrpc@irtf.org
+Message-ID: <20161230022007.GD3304@mx2.yitter.info>
+References: <1ee78d09-fd33-1851-6786-5645f4833671@acm.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <1ee78d09-fd33-1851-6786-5645f4833671@acm.org>
+User-Agent: Mutt/1.5.24 (2015-08-30)
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/Xg3kvm9FsCIGYTdPIUJLlcwfBjE>
+Subject: Re: [hrpc] Human Rights Research Group Call on draft-irtf-hrpc-research-07
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 30 Dec 2016 02:20:13 -0000
+
+Dear colleagues,
+
+This is my much-overdue response to draft-irtf-hrpc-research.  I
+apologize for the dilatory notes.  I have failed to send these remarks
+on every previous occasion, partly because the authors are much better
+at turning around drafts than I am at completing my reviews.
+
+I should say that in general I think this is a useful draft and even
+if the authors reject my suggestions I would have no objection to the
+RG publishing the draft.
+
+Part of the reason that I have struggled with this draft is because,
+while I do not really disagree with many of its conclusions or
+recommendations, I have a number of concerns about how it gets to
+those conclusions.  I've made some oblique references to these points
+in various mic lines and list postings, but I haven't done a good job
+of laying out the concern, so this is an effort to do it more
+completely.
+
+My concern is that the draft cannot decide whether it is a human
+rights ethics _for_ the Internet protocols, or a HR ethics _of_
+the Internet protocols.
+
+The trouble shows up early on.  For instance, section 1 says, "The
+purpose of the Internet to be a global network of networks that
+provides unfettered connectivity to all users and for any content
+[RFC1958]" In my reading, RFC 1958 does not actually offer a claim
+about the purpose of the Internet.  Perhaps of greater concern, RFC
+1958 explicitly notes that its own purpose is not "to lay down dogma
+about how Internet protocols should be designed".  That is, while RFC
+1958 is about "architecture", it strives not to be prescriptive.  It's
+therefore strange to see it cited as the source for "this objective"
+of the Internet.
+
+Now, it is true that RFC 3935 says, "The Internet isn't value-neutral,
+and neither is the IETF."  But the rest of the text is in fact silent
+on _which_ values the Internet has, because the document is about the
+IETF, and not the Internet.  And while RFC 3935 continues to talk
+about the technologies that the IETF "choose[s] to create" as opposed
+to ones that are possible, it seems to me that it actually expresses
+implicitly a value of the Internet as such.  That value can found an
+ethic all of its own.
+
+If there is an ethic of the Internet, it is this: that more
+internetworking is better because that makes the Internet better
+connected.  This is a (more or less) pure engineering value that follows
+directly from the recognition of network effects.  Once you have
+network effects, a given network is more valuable from the connections
+it can make.  But that has special consequences for the Internet,
+because internetworking is not flat.  It is instead networking of
+networks, which means that any given connection to the Internet must
+always be treated as the connection of another network.  This requires
+a formal indifference to the nature of the network on the other
+side of that connection, an acknowledgement that the newly-connected
+network might be patchy or unreliable, and also an assumption that the
+network so connected is not itself the locus of intelligence.  We're
+not building the Catanet.
+
+Now, it seems to me that there are two stances that the draft takes
+with respect to why human rights ought to matter for Internet
+protocols.  One of them is more troublesome for the draft's purpose
+than the other.  The first is that there are human rights, and that
+Internet protocols need to be built to support them.  We might call
+this the "extrinsic value" position.  The second is that there are
+human rights, and the expression of them aligns nicely with the
+(above-outlined) positive engineering value of the Internet; we might
+call this the "concordant value" position[1].  We can see this tension in
+the following bit from section 1:
+
+   Therefore, important human rights enabling characteristics
+   of the Internet might be degraded if they're not properly defined,
+   described and protected as such.  And, the other way around, not
+   protecting human right enabling characteristics could also result in
+   (partial) loss of functionality and connectivity, and other inherent
+   parts of the Internet's architecture of networks.[2]
+
+The first sentence of these is a claim about extrinsic values and why
+Internet protocol designers ought to care about those.  The second is
+about how protecting human rights contributes to the values of the
+Internet.  My basic concern is that this dual motivation at once
+threatens both the goal (of 3935) and the effort.  The goal is
+threatened because the extrinsic motivation changes the meaning of
+"work better".  The effort is threatened because it obscures the
+engineering value of "the network for its own sake", and subsumes that
+value beneath externally-supplied values.
+
+For the draft, a consequence of all the above is that the motivation
+for the human rights considerations is not clearly stated in terms
+that a sceptic might endorse.  The comparison with the security and
+privacy considerations is instructive.  Those seem, to my eye, to be
+motivated by the value of security or privacy (as appropriate), but
+the failure to take them into consideration is framed mostly in terms
+of the harm _to the Internet_ that arises if the issue is not taken
+into account.  Perhaps in the case of the hrpc draft the extrinsic
+motivations are more reasonable, because this is not an IETF
+document.  But if one thinks that technologies are neutral, and that
+it is the _use_ of the technologies that can trample on rights, the
+focus on human rights might sound like an attempt to make the IETF
+into a political actor.
+
+In order to make this clearer, it might help if the draft discussed
+more plainly three possible interactions: how considering rights
+might be good for the purposes of the Internet protocols (perhaps
+because it makes them more useful and therefore more likely to be
+adopted, or because it makes them more resilient to certain kinds of
+attacks, or whatever); how considering rights might be useful in
+extrinsic value terms (this seems mostly to be what section 3 does);
+and how considering rights might be good for the overall
+socio-political environment into which the Internet is deployed (some
+of section 1 and some of section 6 seems to be doing this).
+
+Finally, in my view, that very section 6 continues to be troublesome.
+It argues that protocols _are_ politics despite outlining some views
+that do not seem to support such a view at all.  It says
+
+   However, these protocols and standards do not
+   exist outside of their technical context nor outside of their
+   political, historical, economic, legal or cultural context.  This is
+   best exemplified by the way in which protocols have become part and
+   parcel of political processes and public policies
+
+The first of these sentences is trivially true: _nothing_ exists
+outside if its context, so protocols and standards don't either.  But
+the best exemplification of that is not that people use protocols as
+part of their political arguments or public policies.  Indeed, if one
+believed that protocols are merely tools and that it is the use of the
+tool (not the tool as such) that determines its political
+consequences, one could argue that protocols need to be _protected_
+from being dragged into such discussions.  So there is a faint hint of
+circularity in section 6's reasoning about why rights are important
+for protocols.  This may be because the section never really takes
+seriously the position that a tool need not itself have a value
+charge, and that the value comes entirely in its use.  It's true that
+this view of technology fell out of fashion at least after the second
+War and arguably earlier.  But it's a position entirely in keeping
+with the Aristotelian tradition.  Moreover, it is rather far from
+obvious to me that some of the citations in the section actually agree
+with the positions in whose support they are being cited.
+
+This leads to a problem for the following recommendation:
+
+        At this point
+   is difficult to say whether hard-coding human rights into protocols
+   is wise or feasible.  It is however important to make conscious and
+   explicit design decisions that take into account the human rights
+   protocol considerations guidelines developed above.  This will ensure
+   that the impact protocols can have on human rights is clear and
+   explicit, both for developers and for users.  In addition, it ensures
+   that the impact of specific protocol on human rights is carefully
+   considered and that concrete design decisions are documented in the
+   protocol.
+
+Why is it important to make the design decisions this way?  Why is it
+important that the impact on human rights is clear and explicit?  If a
+protocol designer thinks the protocol's _use_ is what makes for the
+consequences for others' rights, what is the motivation for that
+individual to think about the rights-effects?  (Motivating this all in
+terms of the consequences for the network might be effective in this
+case.)
+
+I hope these remarks are useful to the authors.
+
+Best regards,
+
+A
+
+
+[1] As an aside, there's an "intrinsic value" position: that the
+Internet inherently is a mechanism for expressing human rights in its
+very nature, and so only human rights values are Internet protocol
+values.  I don't think the draft proposes this, though I note that
+there are people who feel strongly that the Internet _should_ work
+this way.  That's a political problem for the IETF, perhaps, but it's
+not an issue for this draft.
+
+[2] It's worth noting that the opening of this paragraph contains
+historical claims that are in really deep need of citations, because I've
+read almost nothing about the early Internet that suggests "everyone"
+could join, much less contribute code.  The DoD near-end-of-ARPANET
+project certainly didn't let "everyone" join.  The NSFnet AUP was
+_entirely_ clear that not "everyone" could join or contribute code,
+even if the AUP was honoured more in the breach.  The late-1990s and
+early-2000s open source literature has obscured the difficulty for
+mere mortals of connecting to the Internet in earlier periods.  I was
+a motivated-to-connect undergraduate in Ontario, Canada in the late
+1980s/early 1990s, and the best I could do was a commercial dial-up
+system that provided a kind of gateway to parts of the Internet
+(undergraduates didn't rate connection to ONet in those days).
+
+-- 
+Andrew Sullivan
+ajs@anvilwalrusden.com
+

@@ -1,0 +1,3003 @@
+
+From nobody Tue Apr  3 04:44:47 2018
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 75B9212E8A1; Tue,  3 Apr 2018 04:44:39 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.099
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.099 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FREEMAIL_FORGED_FROMDOMAIN=0.25, FREEMAIL_FROM=0.001, HEADER_FROM_DIFFERENT_DOMAINS=0.249, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-0.7, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 8mouz9FoEqlo; Tue,  3 Apr 2018 04:44:37 -0700 (PDT)
+Received: from mail-io0-x231.google.com (mail-io0-x231.google.com [IPv6:2607:f8b0:4001:c06::231]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 6EECD1243F6; Tue,  3 Apr 2018 04:44:37 -0700 (PDT)
+Received: by mail-io0-x231.google.com with SMTP id x77so15381451ioi.2; Tue, 03 Apr 2018 04:44:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20161025;  h=mime-version:sender:from:date:message-id:subject:to:cc; bh=r0NLE5gmf/1xnZpeUG8FzuT/A1XTGDJmLcudbSg3cdY=; b=pHj61/+ePmONTt+47JyOWn0r1zbJSqqmKmdBrVRFV/zQKG2wYErmz8IWuB2T9khJlG 5+Bf9B4D40cUfL0LYENRCq3Fw9ZY7Jlwk66/EKUYU2cXhKwmUUGUPZKhYMbGLb2kTeI8 cMeSLoEVSROGS52Za+7L3Q43oPqnYd8nS9nZWkMBD3moS+xdBYS+q2sZ3GmXsdUTMaUr AhfUn4/d3qLLiCZ0QF9DfR2gwnqD0ZH/FpJbxEOcjCNLgorWYyM+4Py1J2Ve6k703XJi GO82+iBvC7zhStXFKVOVcD4IWrIM3rUZTpKtwDSkLPvFJTViFXkDHf7boMIhu7FuOOZ3 8trg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:sender:from:date:message-id:subject :to:cc; bh=r0NLE5gmf/1xnZpeUG8FzuT/A1XTGDJmLcudbSg3cdY=; b=snQ8OfarTtEU7iVhC95o3Ss8Y1T+adC8w6nRztrXnx7OBS7NB4ys9VbxJ77U9ZT9kC IEkV6OR7cBJwZWhHoqzX5KkUdsVQwD15YenO0iBl/zZr1Klh3dMSE7YH/LNrPIrxpND1 /YKo3AjhRPG+VRVwCAWwTAjvnB9MXFGVKo8xIxH8RaIQ5GcDFJE6tFOLz7ZlalcQhKwz 506xZ5hhrIyvaRKGZa2uI9fmObZPlGBrnKhJ/bQT0ht8Z6Rhecx0U2q+nOZ6V+oNNLPA I+ICM2s1FUcRxY3Ngkum6kXtR7sSCPOYPz2NTRg5K6Nx6lSD++pq9+qA6fv3StYQVqz9 OJ+w==
+X-Gm-Message-State: ALQs6tBIqoL87mAzLCTbFFYGmiONovZt0ok057olWZGcrKOAm6nTTvik rtbkLQVaH9GFRPrgO6eLbZSSu9+bNAGcUb1e2RgdwPkw
+X-Google-Smtp-Source: AIpwx490uw11cx7pe1cnQMjunQAKeH2U9q+0p+G+hGFe6BLDUv/MUE4zGp3sH/M0azltfzn0c3auT8fjE8y29wWlx8Q=
+X-Received: by 10.107.30.135 with SMTP id e129mr11143280ioe.183.1522755876360;  Tue, 03 Apr 2018 04:44:36 -0700 (PDT)
+MIME-Version: 1.0
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.79.198.5 with HTTP; Tue, 3 Apr 2018 04:44:35 -0700 (PDT)
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+Date: Tue, 3 Apr 2018 12:44:35 +0100
+X-Google-Sender-Auth: ksxlYXq-j21o0xP33oxHgk3NNks
+Message-ID: <CAPaG1AnJjDQh4N+kiT-QhgiFyNwi69TM74jcYFx6xQiwPXB+EQ@mail.gmail.com>
+To: din@irtf.org
+Cc: gaia <gaia@irtf.org>
+Content-Type: multipart/alternative; boundary="001a1140f5d217176d0568f03bc3"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/G0aA3VmWH3Bgid_3Vq5z0luCRHE>
+Subject: [gaia] Hyperledger evaluation on a mesh network
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 03 Apr 2018 11:44:39 -0000
+
+--001a1140f5d217176d0568f03bc3
+Content-Type: text/plain; charset="UTF-8"
+
+we recently did an evaluation of the hyperledger fabric in a community
+wireless network within the famous guifi.net..
+
+will be of interest https://arxiv.org/pdf/1804.00561.pdf
+
+Regards
+
+-- 
+
+Arjuna Sathiaseelan
+University of Cambridge | Ammbr Research Labs
+Personal: http://www.cl.cam.ac.uk/~as2330/
+N4D Lab: http://www.cl.cam.ac.uk/~as2330/n4d
+
+--001a1140f5d217176d0568f03bc3
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">we recently did an evaluation of the hyperledger fabric in=
+ a community wireless network within the famous <a href=3D"http://guifi.net=
+">guifi.net</a>..<div><br></div><div>will be of interest=C2=A0<a href=3D"ht=
+tps://arxiv.org/pdf/1804.00561.pdf">https://arxiv.org/pdf/1804.00561.pdf</a=
+></div><div><br></div><div>Regards<br clear=3D"all"><div><br></div>-- <br><=
+div class=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div><=
+br></div><div>Arjuna Sathiaseelan<br>University of Cambridge | Ammbr Resear=
+ch Labs<br>Personal: <a href=3D"http://www.cl.cam.ac.uk/~as2330/" target=3D=
+"_blank">http://www.cl.cam.ac.uk/~as2330/</a><br>N4D Lab: <a href=3D"http:/=
+/www.cl.cam.ac.uk/~as2330/n4d" target=3D"_blank">http://www.cl.cam.ac.uk/~a=
+s2330/n4d</a></div></div></div></div></div>
+</div></div>
+
+--001a1140f5d217176d0568f03bc3--
+
+
+From nobody Tue Apr  3 11:49:47 2018
+Return-Path: <coffin@isoc.org>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id DAA1B12EA59 for <gaia@ietfa.amsl.com>; Tue,  3 Apr 2018 11:49:45 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.999
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.999 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, MIME_QP_LONG_LINE=0.001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=isoc.org
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id H-sXqfGMwWOU for <gaia@ietfa.amsl.com>; Tue,  3 Apr 2018 11:49:42 -0700 (PDT)
+Received: from NAM03-CO1-obe.outbound.protection.outlook.com (mail-co1nam03on0601.outbound.protection.outlook.com [IPv6:2a01:111:f400:fe48::601]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 96F4C12D80F for <gaia@irtf.org>; Tue,  3 Apr 2018 11:49:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=isoc.org; s=selector1;  h=From:Date:Subject:Message-ID:Content-Type:MIME-Version; bh=ORYUk/tFwyE7q+6SfK3aTvA3vrXOoF2CBIyLPF9JD9g=; b=o7rjyn5Q391qKRnRSR41hjdli6lVMKctZEhtbG9coROUaWO1o6aU0ASX42vWt3ZytBmRKrNxxM2+2zlspVcihlqEsgsKpKk9KLlQ39CEs5VgQ14F/wczvZdCAfP+aavhu9JkZeJJ8+dybqi6a+KuxjL5MiCS4km6fSy35BzGTLg=
+Received: from DM3PR0601MB1916.namprd06.prod.outlook.com (10.164.251.6) by DM3PR0601MB2075.namprd06.prod.outlook.com (10.164.251.151) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.631.10; Tue, 3 Apr 2018 18:49:40 +0000
+Received: from DM3PR0601MB1916.namprd06.prod.outlook.com ([fe80::7449:25e9:e542:c1da]) by DM3PR0601MB1916.namprd06.prod.outlook.com ([fe80::7449:25e9:e542:c1da%13]) with mapi id 15.20.0631.013; Tue, 3 Apr 2018 18:49:40 +0000
+From: Jane Coffin <coffin@isoc.org>
+To: "gaia@irtf.org" <gaia@irtf.org>
+CC: "paul.fuxjaeger@gmx.at" <paul.fuxjaeger@gmx.at>
+Thread-Topic: Wireless Meshup - Excellent Event in Berlin in May - Battlemesh meets Wireless Community Weekend
+Thread-Index: AQHTy3yFphqfQwjMP0i6s+rk+NcHtg==
+Date: Tue, 3 Apr 2018 18:49:40 +0000
+Message-ID: <C05E3EF8-AA95-41AA-9ACE-C939505CDB4A@isoc.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+user-agent: Microsoft-MacOutlook/10.b.0.180311
+authentication-results: spf=none (sender IP is ) smtp.mailfrom=coffin@isoc.org; 
+x-originating-ip: [2001:4870:400e:404:5c4b:f6e2:d7fd:d0e7]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1; DM3PR0601MB2075; 7:UGF6o20lsbFR3XIiBOSJ7BCCnatXUO6sci6LYiGaIuQIiXuFmnd1716wF4BMLtluaxinjdh56Xes2hxH6qoM+AfaWsJvgxmRKAoChISKELGbxZeQGZB2PO6pvVq3hVJtqpX7s6V43p7L8mztNhX/Ei+3bMz1NPHvfMaJAxBRKea6y+dqiD+7mKOspYmKL4ehZuu8vXtlEwYRaYqgmU1xcFcI2aZLsKZlEkTrXieovINCxdNHg0nJshe5FxekWH5K
+x-ms-exchange-antispam-srfa-diagnostics: SOS;
+x-ms-office365-filtering-correlation-id: 79915a65-7b53-4eac-f225-08d59993a812
+x-microsoft-antispam: UriScan:; BCL:0; PCL:0; RULEID:(7020095)(4652020)(5600026)(4604075)(3008032)(4534165)(4627221)(201703031133081)(201702281549075)(2017052603328)(7153060)(49563074)(7193020); SRVR:DM3PR0601MB2075; 
+x-ms-traffictypediagnostic: DM3PR0601MB2075:
+x-microsoft-antispam-prvs: <DM3PR0601MB20759DEF08E039A409145869B3A50@DM3PR0601MB2075.namprd06.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(127643986962959)(148322886591682)(278428928389397)(165176249663242)(209352067349851)(5213294742642)(231250463719595);
+x-exchange-antispam-report-cfa-test: BCL:0; PCL:0; RULEID:(102415395)(6040522)(2401047)(8121501046)(5005006)(2017080701011)(3002001)(10201501046)(3231221)(944501327)(52105095)(93006095)(93001095)(6041310)(20161123562045)(201703131423095)(201702281528075)(20161123555045)(201703061421075)(201703061406153)(20161123558120)(20161123564045)(20161123560045)(6072148)(201708071742011); SRVR:DM3PR0601MB2075; BCL:0; PCL:0; RULEID:; SRVR:DM3PR0601MB2075; 
+x-forefront-prvs: 0631F0BC3D
+x-forefront-antispam-report: SFV:NSPM; SFS:(10009020)(346002)(396003)(376002)(39840400004)(366004)(39380400002)(189003)(199004)(252514010)(54164003)(53754006)(58126008)(53376002)(561944003)(6512007)(68736007)(33656002)(99936001)(106356001)(3280700002)(966005)(81156014)(105586002)(53366004)(14454004)(8936002)(81166006)(6116002)(1730700003)(46003)(478600001)(8676002)(97736004)(486006)(2906002)(2351001)(53936002)(36756003)(186003)(6306002)(6506007)(3660700001)(16799955002)(82746002)(1720100001)(102836004)(86362001)(5250100002)(5640700003)(2501003)(8666007)(6486002)(5660300001)(476003)(4326008)(99286004)(305945005)(6916009)(25786009)(2616005)(316002)(7736002)(59450400001)(2900100001)(6436002)(83716003)(15974865002)(62704002)(493534005); DIR:OUT; SFP:1101; SCL:1; SRVR:DM3PR0601MB2075; H:DM3PR0601MB1916.namprd06.prod.outlook.com; FPR:; SPF:None; LANG:en; PTR:InfoNoRecords; MX:1; A:1; 
+received-spf: None (protection.outlook.com: isoc.org does not designate permitted sender hosts)
+x-microsoft-antispam-message-info: wRNXNkK4Q5kj+2TryKjNUURpKUoTB84+xoqNkWfoVGWaZ1E0GDNk9+YNwJiqomxmnEPNT6+43vzzMXy1vouyV/Lo0AImhWZrj1Qbvrfmnym5jcy4EYCFn/sIB32sB5xitWXcQ+532pyldpi58b7lUjfnq4mIo+yBClI0AtUJ2S1JysqM6GB5J3vF2CaGfU+3/pPf4QO3h97l47x8bdAx+N//0grtWhB1q58CzR1DgiMev2qSCIMuvYNdTXQhCaqViDHBMcRtG6kDE7w9CzeBT2E4yNQhtRw1YGR2YdKgUIk/BH2WgfQyj7gESmwqMtzkN+S0dLmCnqq1+g00QBi11WcB1/7eS7C/2IfaSYqdrCbSJEn3CSPCYCTWneFDWhMgWGFfZ2Uz5srpru7X3B4q4gVe4o3dCPwRhG0/K9keSNc=
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/signed; protocol="application/pkcs7-signature"; micalg=sha256; boundary="B_3605612785_1645339954"
+MIME-Version: 1.0
+X-OriginatorOrg: isoc.org
+X-MS-Exchange-CrossTenant-Network-Message-Id: 79915a65-7b53-4eac-f225-08d59993a812
+X-MS-Exchange-CrossTenant-originalarrivaltime: 03 Apr 2018 18:49:40.1224 (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 89f84dfb-7285-4810-bc4d-8b9b5794554f
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM3PR0601MB2075
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/dT1VKDg3F6b9M0aLfbQyDvcdq54>
+Subject: [gaia] Wireless Meshup - Excellent Event in Berlin in May - Battlemesh meets Wireless Community Weekend
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 03 Apr 2018 18:49:46 -0000
+
+--B_3605612785_1645339954
+Content-type: text/plain;
+	charset="UTF-8"
+Content-transfer-encoding: quoted-printable
+
+Hi All =E2=80=93
+=20
+There is an excellent event coming up in May =E2=80=93 =E2=80=9CThe Wireless Meshup=E2=80=9D =
+=E2=80=93 Berlin=E2=80=99s Wireless Community Weekend and Battlemesh are joining forces =
+in Berlin.  Details are below.=20
+=20
+The team could use some sponsorship assistance for fellowships.  Details an=
+d contact info are below!
+
+**************
+=20
+The Wireless Meshup 2018 in Berlin - Call for Presentations
+=20
+You have an idea or an ongoing project related to mesh routing protocols?
+You are involved in a community networking project and want to present it?
+You want to provide an update on policy topics?
+You want to do a workshop on a specific topic? Or an intro for beginners?
+You see important issues that you think should be discussed?
+=20
+--> Submit your proposal to the Wireless Meshup Wiki <--
+=20
+https://www.wireless-meshup.org/doku.php/schedule
+=20
+=20
+*Format and topic of talks*
+We welcome proposals of anything you think may be of interest to mesh routi=
+ng and community networking enthusiasts. Format is very flexible: presentati=
+on, talk, discussion, debate, practical workshop, or film screening. The def=
+ault slot length is one hour (40 minutes talk + 10 minutes questions + 10 mi=
+nutes break until next one).
+=20
+=20
+*Lightning talks*
+Lightning talks are short talks which can be put in the programm during the=
+ event, it's the perfect opportunity to present fresh projects/ideas. They a=
+re limited to 10 minutes followed by 5 minutes of questions.
+=20
+=20
+*Submissions*
+To enter a proposal, please head over to https://www.wireless-meshup.org/do=
+ku.php/schedule and add it directly to the list. This list is editable witho=
+ut creating an account. In case self-editing fails for some reason, please p=
+ut your proposal into a short mail to organizers@battlemesh.org:
+=20
+=20
+Please provide:
+* Topic headline
+* Short description
+* Name and organization
+* Format and duration
+* Your time availability
+=20
+=20
+*Tentative Deadline*
+Please add your proposals until 15th of April - so we can start building th=
+e talk schedule in time.
+=20
+=20
+*Contact*
+For any question, please contact us through organizers@battlemesh.org
+=20
+=20
+*Travel Scolarships*
+Thanks to our supporters we are happy to provide some travel scholarships t=
+hat are given not only but prefered to people not living in Europe to enable=
+ members of wireless communities to attend the event.
+https://www.wireless-meshup.org/doku.php/travelscolarships
+=20
+=20
+--> Please forward this message to any groups/individuals who might be inte=
+rested!
+=20
+=20
+Thanks!
+The Orga Team
+=20
+=20
+ Best,
+Jane
+=20
+=20
+Internet Society | www.internetsociety.org
+Skype:  janercoffin
+Mobile/WhatsApp:  +1.202.247.8429
+
+=20
+Internet Society | www.internetsociety.org
+
+Skype:  janercoffin
+
+Mobile/WhatsApp:  +1.202.247.8429
+=EF=BB=BFOn 3/30/18, 8:35 AM, "Jane Coffin" <coffin@isoc.org> wrote:
+
+    Hello Goodpeople of GAIA -
+   =20
+    Happy Friday wherever you may be around the world.
+   =20
+    Huge thanks to all those that participated in the meeting at IETF 101 i=
+n London last week. =20
+   =20
+    Leandro and I will be sending you an email next week about next steps f=
+or online collaboration and our goals for a draft BCP for Montreal on access=
+.
+   =20
+    Please also see this info about Tech Fellowships to IETF 102 in Montrea=
+l.
+   =20
+    Have great weekends wherever you may be.
+   =20
+    Best,
+    Jane/Leandro
+    *********************************
+    Subject: ** APPLY NOW for the Internet Society Fellowship to IETF 102 -=
+ Montreal **
+    =20
+    Hello All,
+    =20
+    The Internet Society is inviting applications for its Fellowship to the=
+ Internet Engineering Task Force (IETF). The Fellowship programme allows tec=
+hnologists, engineers and researchers from emerging and developing economies=
+ to attend an Internet Engineering Task Force (IETF) meeting.
+    =20
+    The IETF is the Internet's premier standards-making body, responsible f=
+or the development of protocols used in IP-based networks. IETF participants=
+ represent an international community of network designers, operators, vendo=
+rs, and researchers involved in the technical operation of the Internet and =
+the continuing evolution of Internet architecture.
+   =20
+    Fellowships will be awarded through a competitive application process. =
+The current selection round is for the following:
+    =20
+    * IETF 102, July 14-20, 2018, Montreal, Canada
+    =20
+    Information of the IETF fellowship programme (including expectations, s=
+election criteria, etc.) can be found at: http://bit.ly/2xtyGSE
+    =20
+    PLEASE USE THE BELOW LINKS TO APPLY FOR THE PROGRAMME:
+    =20
+    First-Time Fellows (individuals who have never been awarded an Internet=
+ Society Fellowship to the IETF)
+    =20
+    Returning Fellows (individuals who have previously been awarded an Inte=
+rnet Society Fellowship to the IETF)
+    =20
+    Before applying for the Internet Society Fellowship to the IETF 102 Mee=
+ting in Montreal, please read the self-assessment guide and ensure that you =
+are able to satisfy the requirements of the checklist.
+    =20
+    Applications will close on 1 April, 2018 and successful candidates will=
+ be notified on 20 April, 2018.
+    =20
+    We encourage you to apply for this opportunity or pass this information=
+ about the programme to individuals in your network that have a keen interes=
+t in the open standards development activities of the IETF.
+    =20
+    If you have questions, please do not hesitate to contact Niel Harper at=
+ harper@isoc.org.
+    =20
+    Regards,
+    =20
+    -----------------------------
+    Niel Harper
+    Director, NGL & Fellowships
+    Internet Society
+    1775 Wiehle Avenue
+    Reston, VA 20190
+    Email: harper@isoc.org
+    Skype: OlokunBB
+    =20
+    Follow us on Twitter @ISOC_NextGen
+   =20
+   =20
+   =20
+    =20
+    Internet Society | www.internetsociety.org
+   =20
+    Skype:  janercoffin
+   =20
+    Mobile/WhatsApp:  +1.202.247.8429
+    =EF=BB=BFOn 3/22/18, 11:22 AM, "gaia on behalf of Jon Crowcroft" <gaia-bounce=
+s@irtf.org on behalf of Jon.Crowcroft@cl.cam.ac.uk> wrote:
+   =20
+        tweeted this, but in case people not following that:
+        some colleagues  measured home IoT usage - be aware, quite a lot of=
+ data (by gaia standards):-
+       =20
+        https://arxiv.org/abs/1803.05368
+       =20
+        cheers
+        j
+       =20
+        _______________________________________________
+        gaia mailing list
+        gaia@irtf.org
+        https://www.irtf.org/mailman/listinfo/gaia
+       =20
+   =20
+
+--B_3605612785_1645339954
+Content-Type: application/pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="smime.p7s"
+
+MIIRjQYJKoZIhvcNAQcCoIIRfjCCEXoCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0B
+BwGggg8JMIIGGDCCBQCgAwIBAgIRAIx1fBf4uve27MtrfFJmAnQwDQYJKoZIhvcNAQELBQAw
+gZsxCzAJBgNVBAYTAkdCMRswGQYDVQQIExJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAOBgNVBAcT
+B1NhbGZvcmQxGjAYBgNVBAoTEUNPTU9ETyBDQSBMaW1pdGVkMUEwPwYDVQQDEzhDT01PRE8g
+U0hBLTI1NiBDbGllbnQgQXV0aGVudGljYXRpb24gYW5kIFNlY3VyZSBFbWFpbCBDQTAeFw0x
+NzAzMDMwMDAwMDBaFw0yMDAzMDIyMzU5NTlaMIIBFjELMAkGA1UEBhMCVVMxDjAMBgNVBBET
+BTIwMTkwMQswCQYDVQQIEwJWQTEPMA0GA1UEBxMGUmVzdG9uMRIwEAYDVQQJEwlTdWl0ZSAy
+MDExGzAZBgNVBAkTEjE3NzUgV2llaGxlIEF2ZW51ZTEZMBcGA1UEChMQSW50ZXJuZXQgU29j
+aWV0eTE2MDQGA1UECxMtSXNzdWVkIHRocm91Z2ggSW50ZXJuZXQgU29jaWV0eSBFLVBLSSBN
+YW5hZ2VyMR8wHQYDVQQLExZDb3Jwb3JhdGUgU2VjdXJlIEVtYWlsMRQwEgYDVQQDEwtKYW5l
+IENvZmZpbjEeMBwGCSqGSIb3DQEJARYPY29mZmluQGlzb2Mub3JnMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEAxOFL6I8nwUcXFJxbOkkijvQM5i2c05ifwmn0suMy3Xf3EKUg
+47+fYDpcFOCwdWi7hXlh0TxXdoAK6wKRb8G9PeG1sRIkcRtSaf4Bx9uHcO4v5wu5ornnuklt
+7bky1g+7Jse/Bre4ZrySEz74ogsAkLZd73/+uZ6SbTjuPMdAAgfc8UaUKqwF0KYLE/WB4Dq/
++VBv32gJatDShiyKR1WIWGbP0mAaF4jPg0DenATNZtbAKi1P9mta2YoH3+IrfokdVk009wA2
+VqUieYMSkuGBgzbL54bYsfuMjRnxuy+qgvNY+KaWmRZXnrKC0UtHxqO2UaACYRQ9DE1tqvRY
+UoPeFwIDAQABo4IB1zCCAdMwHwYDVR0jBBgwFoAUkmFrguGioKpP7GfxwqP3tIAAwewwHQYD
+VR0OBBYEFDJzhFKMF3xbiM4gA2IhGPUK+s1SMA4GA1UdDwEB/wQEAwIFoDAMBgNVHRMBAf8E
+AjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMEBggrBgEFBQcDAjBGBgNVHSAEPzA9MDsGDCsGAQQB
+sjEBAgEDBTArMCkGCCsGAQUFBwIBFh1odHRwczovL3NlY3VyZS5jb21vZG8ubmV0L0NQUzBd
+BgNVHR8EVjBUMFKgUKBOhkxodHRwOi8vY3JsLmNvbW9kb2NhLmNvbS9DT01PRE9TSEEyNTZD
+bGllbnRBdXRoZW50aWNhdGlvbmFuZFNlY3VyZUVtYWlsQ0EuY3JsMIGQBggrBgEFBQcBAQSB
+gzCBgDBYBggrBgEFBQcwAoZMaHR0cDovL2NydC5jb21vZG9jYS5jb20vQ09NT0RPU0hBMjU2
+Q2xpZW50QXV0aGVudGljYXRpb25hbmRTZWN1cmVFbWFpbENBLmNydDAkBggrBgEFBQcwAYYY
+aHR0cDovL29jc3AuY29tb2RvY2EuY29tMBoGA1UdEQQTMBGBD2NvZmZpbkBpc29jLm9yZzAN
+BgkqhkiG9w0BAQsFAAOCAQEAHRcuCMvcxM7tuARpHR3ZYRNGdjYOR3FXD7vOtTRKkVWK1oVL
+Fb+YGqlUXvmrcEqS/FTq6mq0Iicvmj2zSr5DkkDURIm4ijPLs6ReOFMAL8mMm350zSqE8X5y
+Ep54iMNJ/mJstAg01UFvaV9MS+Ic8b2yhXLym6B4mYbfQZMuRVtmC9q8FPLylzdGsX4O7fjg
+0RLGuGJ8T79Mt4+FG84efRdwpo2wPYdYD7dsx5XcU52Uvc7wZdo0i2D4w0LgPOZvjIMX7XlA
+lNDtVUQYuw65+KgCqzx6NtuAJo4rqGJe4BToylL6S6IH6hao84GbG12otsnuqbc100VhOMeZ
+40pzCjCCBK8wggOXoAMCAQICEQDgI8sVEoNTia1hbnpUZ2shMA0GCSqGSIb3DQEBCwUAMG8x
+CzAJBgNVBAYTAlNFMRQwEgYDVQQKEwtBZGRUcnVzdCBBQjEmMCQGA1UECxMdQWRkVHJ1c3Qg
+RXh0ZXJuYWwgVFRQIE5ldHdvcmsxIjAgBgNVBAMTGUFkZFRydXN0IEV4dGVybmFsIENBIFJv
+b3QwHhcNMTQxMjIyMDAwMDAwWhcNMjAwNTMwMTA0ODM4WjCBmzELMAkGA1UEBhMCR0IxGzAZ
+BgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4GA1UEBxMHU2FsZm9yZDEaMBgGA1UEChMR
+Q09NT0RPIENBIExpbWl0ZWQxQTA/BgNVBAMTOENPTU9ETyBTSEEtMjU2IENsaWVudCBBdXRo
+ZW50aWNhdGlvbiBhbmQgU2VjdXJlIEVtYWlsIENBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEAibEN2npTGU5wUh28VqYGJre4SeCW51Gr8fBaE0kVo7SMG2C8elFCp3mMpCLf
+F2FOkdV2IwoU00oCf7YdCYBupQQ92bq7Fv6hh6kuQ1JDFnyvMlDIpk9a6QjYz5MlnHuI6DBk
+5qT4VoD9KiQUMxeZrETlaYujRgZLwjPU6UCfBrCxrJNAubUIkzqcKlOjENs9IGE8VQOO2U52
+JQIhKfqjfHF2T+7hX4Hp+1SA28N7NVK3hN4iPSwwLTF/Wb1SN7AzaS1D6/rWpfGXd2dRjNnu
+J+u8pQc4doykqTj/34z1A6xJvsr3c5k6DzKrnJU6Ez0ORjpXdGFQvsZAP8vk4p+iIQIDAQAB
+o4IBFzCCARMwHwYDVR0jBBgwFoAUrb2YejS0Jvf6xCZU7wO94CTLVBowHQYDVR0OBBYEFJJh
+a4LhoqCqT+xn8cKj97SAAMHsMA4GA1UdDwEB/wQEAwIBhjASBgNVHRMBAf8ECDAGAQH/AgEA
+MB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBgNVHSAECjAIMAYGBFUdIAAwRAYD
+VR0fBD0wOzA5oDegNYYzaHR0cDovL2NybC51c2VydHJ1c3QuY29tL0FkZFRydXN0RXh0ZXJu
+YWxDQVJvb3QuY3JsMDUGCCsGAQUFBwEBBCkwJzAlBggrBgEFBQcwAYYZaHR0cDovL29jc3Au
+dXNlcnRydXN0LmNvbTANBgkqhkiG9w0BAQsFAAOCAQEAGypurFXBOquIxdjtzVXzqmthK8AJ
+ECOZD8Vmam+x9bS1d14PAmEA330F/hKzpICAAPz7HVtqcgIKQbwFusFY1SbC6tVNhPv+gpjP
+WBvjImOcUvi7BTarfVil3qs7Y+Xa1XPv7OD7e+Kj//BCI5zKto1NPuRLGAOyqC3U2LtCS5Bp
+hRDbpjc06HvgARClnMo6x59PiDRuimXQGoq7qdzKyjbR9PzCZCk1r9axp3ER0gNDsY8+muye
+MlP0dpLKhjQHuSzK5hxK2JkNwYbikJL7WkJqIyEQ6WXH9dW7fuqMhSACYurROgcsWcWZM/I4
+ieW26RZ6H3kU9koQGib6fIr7mzCCBDYwggMeoAMCAQICAQEwDQYJKoZIhvcNAQEFBQAwbzEL
+MAkGA1UEBhMCU0UxFDASBgNVBAoTC0FkZFRydXN0IEFCMSYwJAYDVQQLEx1BZGRUcnVzdCBF
+eHRlcm5hbCBUVFAgTmV0d29yazEiMCAGA1UEAxMZQWRkVHJ1c3QgRXh0ZXJuYWwgQ0EgUm9v
+dDAeFw0wMDA1MzAxMDQ4MzhaFw0yMDA1MzAxMDQ4MzhaMG8xCzAJBgNVBAYTAlNFMRQwEgYD
+VQQKEwtBZGRUcnVzdCBBQjEmMCQGA1UECxMdQWRkVHJ1c3QgRXh0ZXJuYWwgVFRQIE5ldHdv
+cmsxIjAgBgNVBAMTGUFkZFRydXN0IEV4dGVybmFsIENBIFJvb3QwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQC39xoz5vIABC054E5b7R+8bA/Ntfojts7emxEzl6QpTH2Tn71K
+vJPtAxrjj8/lbVBa1pcplFqAsEl62y6V/bjKvzc4LR4+kUGtcFbH8E8/6DKedMrIkFTpxl8P
+eJ2aQDwOrGGqXhSPnoehalDc15pOrwWzpnGUnHGzUGAKxxOdOAeGAqjpqGkmGJCrTLBPI6s6
+T4TY386f4Wlvu9dC12tE5Met7m1BX3JacQg3s3llpFmglDf3AC8NwpJy2tA4ctsUqEXEXSp9
+t7TWxO6szRNEt8kr3UMAJfphuWlqWCMRt6czj1Z1WfXNKddGtworZbbTQm8Vsrh7++/pXVPV
+NFonAgMBAAGjgdwwgdkwHQYDVR0OBBYEFK29mHo0tCb3+sQmVO8DveAky1QaMAsGA1UdDwQE
+AwIBBjAPBgNVHRMBAf8EBTADAQH/MIGZBgNVHSMEgZEwgY6AFK29mHo0tCb3+sQmVO8DveAk
+y1QaoXOkcTBvMQswCQYDVQQGEwJTRTEUMBIGA1UEChMLQWRkVHJ1c3QgQUIxJjAkBgNVBAsT
+HUFkZFRydXN0IEV4dGVybmFsIFRUUCBOZXR3b3JrMSIwIAYDVQQDExlBZGRUcnVzdCBFeHRl
+cm5hbCBDQSBSb290ggEBMA0GCSqGSIb3DQEBBQUAA4IBAQCwm+CFJcLWI+IPlgaSnUGYnNmE
+eYHZHlsUByM2ZY+w2He7rEFsR2CDUbD5Mj3n/PYmE8eAFqW/WvyHz3h5iSGa4kwHCoY1vPLe
+UcTSlrfcfk7ucP0cOesMAlEULY69FuDB30Z15ySt7PRCtIWTcBBnup0GNUoY0yt6zFFCoXpj
+0ea7ocUrwja+Ew3mvWN+eXunCQ1Aq2rdj4rD9vaMGkIFUdRF9Z+nYiFoFSBDPJnnfL0k2KmR
+F3OIP1YbMTgYtHEPms3IDp6OLhvhjJiDyx8x8URMxgRzSXZgD8f4vReAay7pzEwOWpp5DyAK
+LtWeYyYeVZKU2IIXWnvQvMePToYEMYICSDCCAkQCAQEwgbEwgZsxCzAJBgNVBAYTAkdCMRsw
+GQYDVQQIExJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAOBgNVBAcTB1NhbGZvcmQxGjAYBgNVBAoT
+EUNPTU9ETyBDQSBMaW1pdGVkMUEwPwYDVQQDEzhDT01PRE8gU0hBLTI1NiBDbGllbnQgQXV0
+aGVudGljYXRpb24gYW5kIFNlY3VyZSBFbWFpbCBDQQIRAIx1fBf4uve27MtrfFJmAnQwDQYJ
+YIZIAWUDBAIBBQCgaTAvBgkqhkiG9w0BCQQxIgQgN8f3wLnsTRxy99b3KYYoKBzxPdZxjQ6q
+QefnrnVSis0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTgw
+NDAzMTkwNjI1WjANBgkqhkiG9w0BAQEFAASCAQBe7XzbKIOeBwCjnXKmLJBdwrIRb1XZKUxV
+mE78vf5AU5mqvW69dMm3H3fdkQSpPrXWLYo8s6qorYBAtEsCQ3G1NyF6qtC+ukfrSQBvkg7a
+xK8xRsnnRmHAkzTwE3mpOyinZbUJM7OS49fxLAHRKXjMIuIJdItsMSut5/4y+ZRuZg5tu3+S
+Wtri+bST9ifEYfFGHA7LygAc77h0Tjwvva7wBtkpa9P6Vu+97BTDQzRXCIDZwYPzamG73/12
++FFFdnYs064iYzFREG1FKwI/w2AyrbHmXvVEM+M56OGgLQkq1hKNfNyf9CRvbn7jN83PCXCo
+0F9MVS+5vGyHh1bXwxui
+
+--B_3605612785_1645339954--
+
+
+From nobody Tue Apr  3 15:23:34 2018
+Return-Path: <willi.uebelherr@riseup.net>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id F258012D886 for <gaia@ietfa.amsl.com>; Tue,  3 Apr 2018 15:23:32 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.71
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.71 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, GB_AFFORDABLE=1, RCVD_IN_DNSWL_LOW=-0.7, SPF_PASS=-0.001, T_RP_MATCHES_RCVD=-0.01, URIBL_BLOCKED=0.001] autolearn=no autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=riseup.net
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id FXO6LYWBIKmn for <gaia@ietfa.amsl.com>; Tue,  3 Apr 2018 15:23:31 -0700 (PDT)
+Received: from mx1.riseup.net (mx1.riseup.net [198.252.153.129]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 368A1126C2F for <gaia@irtf.org>; Tue,  3 Apr 2018 15:23:31 -0700 (PDT)
+Received: from piha.riseup.net (piha-pn.riseup.net [10.0.1.163]) (using TLSv1 with cipher ECDHE-RSA-AES256-SHA (256/256 bits)) (Client CN "*.riseup.net", Issuer "COMODO RSA Domain Validation Secure Server CA" (verified OK)) by mx1.riseup.net (Postfix) with ESMTPS id AFD281A0A98; Tue,  3 Apr 2018 15:23:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=riseup.net; s=squak; t=1522794210; bh=cD62iLBDhbFQuhRcQ5HPzcjnGWKLX+09pLVXcL++WlM=; h=Subject:References:From:To:Cc:Date:In-Reply-To:From; b=W5MMCqQey3R9BaI+bGYPdklS/SuUG1MV+8bNDHgo0I5BdG62CWKSbVXswxwMkfstD 6ThaySGi8ZvBXeJGx0i21cK+fUUUGIXBLus3D5814SamRR12BXIRVgE2WIOIkIIrGO 6TKtn7Ey12YUBxV70rEgzqBZQ2bcSqR6IJIZF6uY=
+X-Riseup-User-ID: F830B5250BB7AE09076E5F60CF3CA0BE03C96AFBF230F08339BDB852D38B0DF4
+Received: from [127.0.0.1] (localhost [127.0.0.1]) by piha.riseup.net with ESMTPSA id 523B4211A8; Tue,  3 Apr 2018 15:23:29 -0700 (PDT)
+References: <4B6296ABAE1FC944984F6C9FE996FE19015425500B@DC6010.fgv.br>
+From: willi uebelherr <willi.uebelherr@riseup.net>
+To: IRTF gaia <gaia@irtf.org>
+Cc: Best Bits <bestbits@lists.bestbits.net>, IGF gov <governance@lists.riseup.net>, ISOC Internet Policy <internetpolicy@elists.isoc.org>
+X-Forwarded-Message-Id: <4B6296ABAE1FC944984F6C9FE996FE19015425500B@DC6010.fgv.br>
+Message-ID: <3fc66c2d-9b8c-ae62-173f-7e94b4458159@riseup.net>
+Date: Tue, 3 Apr 2018 18:23:25 -0400
+MIME-Version: 1.0
+In-Reply-To: <4B6296ABAE1FC944984F6C9FE996FE19015425500B@DC6010.fgv.br>
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 8bit
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/oAcjMkwqNi6p9IwqljbPdXt2WQ4>
+Subject: Re: [gaia] Network self-determination: When building the Internet becomes a right
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 03 Apr 2018 22:23:33 -0000
+
+Liebe freunde
+
+Luca Belli of Brazil distributes his naivety.
+
+"Network self-determination"?
+Can we find a network anywhere on our planet, that determine itself? 
+Only we the people can do that. A network is a description of 
+inter-connected devices in the structure of a net. We use this devices, 
+define her processing and the interrelation of the different part in 
+this connections of connections.
+
+"When building the Internet becomes a right"?
+Never. Who will be able to do that? Who have the capacity to do that? 
+All this people in the private/state telecommunication area don't 
+understand, what is telecommunication. They act only to organise 
+moneyflows. No more.
+
+Only we itself can create our telecommunication in form of an InterNet. 
+And we don't need any permission. The only, what we need is to 
+understand, what is a InterNet: A transportsystem of digital data in 
+paketform.
+
+But be clear, InterNet means "Inter-connection of local Net-works". And 
+not in any bus or star structure. In a Net-structure. This means, that 
+every node in this net is connected to his neighbors.
+
+
+-------- Weitergeleitete Nachricht --------
+Betreff: [gaia] Network self-determination: When building the Internet 
+becomes a right
+Datum: Fri, 30 Mar 2018 22:38:07 +0000
+Von: Luca Belli <luca.belli@fgv.br>
+An: gaia@irtf.org <gaia@irtf.org>
+
+Dear GAIA members,
+I thought this might be of interest
+Kind regards
+Luca
+
+Network self-determination: When building the Internet becomes a right
+There is no doubt that network self-determination reinforces the 
+distributed nature of the Internet and there is no reason why 
+individuals should not have the possibility to build the Internet 
+themselves, improving their standards of living while bridging digital 
+divides.
+By: Luca Belli<http://www.ietfjournal.org/contributing_authors/luca-belli/>
+Date: March 28, 2018
+[line break image]
+
+Anyone reading this article would agree that the Internet and 
+communication technologies play an increasingly essential role in every 
+connected individual‚Äôs life. Access to well-functioning network 
+infrastructure on affordable and non-discriminatory terms facilitates 
+significantly the full enjoyment of one‚Äôs fundamental rights. Internet 
+users can easily access knowledge and education, conduct businesses by 
+trading goods and services online, and utilize digital public services, 
+from paying taxes to applying to schools and receiving remote medical 
+consultations.
+
+As connected individuals, we can safely state that the Internet has 
+become an integral part of our lives and our environment, affecting 
+substantially how we form our opinions, how we socialize and learn and, 
+ultimately, what opportunities we are able to grasp over the course of 
+our lives. But what about the unconnected?
+The current digital (r)evolution can also deepen divides in our 
+societies, due to the uneven distribution of digital dividends between 
+those for which connectivity is available and easily affordable and 
+those who are either unconnected or face considerable challenges to 
+connect.[1]<http://www.ietfjournal.org/network-self-determination-when-building-the-internet-becomes-a-right/#_ftn1>
+
+This article briefly explores how groups of unconnected and scarcely 
+connected individuals can regain control over their digital futures, 
+building their own community networks and enjoying what I define as 
+‚Äúnetwork 
+self-determination.‚Äù[2]<http://www.ietfjournal.org/network-self-determination-when-building-the-internet-becomes-a-right/#_ftn2> 
+I argue that network self-determination leads to several positive 
+externalities for the affected communities while preserving the Internet 
+as a distributed, interoperable and generative network of networks.
+
+In this perspective, concrete examples of communities enjoying network 
+self-determination seem to prove that ‚Äúthe design and development of the 
+Internet infrastructure have a growing impact on 
+society‚Äù[3]<http://www.ietfjournal.org/network-self-determination-when-building-the-internet-becomes-a-right/#_ftn3> 
+and foster a digital environment that enables human rights.
+
+Continues here 
+http://www.ietfjournal.org/network-self-determination-when-building-the-internet-becomes-a-right/
+
+
+Feel free to share https://twitter.com/1lucabelli/status/979020870231449601
+
+
+
+[FGV Direito Rio]
+
+Luca Belli, PhD
+Senior Researcher
+Head of Internet Governance @ FGV<http://internet-governance.fgv.br/>
+luca.belli@fgv.br
++55 21 3799 5763
+@1lucabelli<https://twitter.com/1lucabelli>
+
+[http://www.fgv.br/mailing/Direito_Rio/assinatura_email/Ondas.png]
+
+
+
+
+
+From nobody Thu Apr  5 16:55:05 2018
+Return-Path: <ekenyanito@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id DEA0112E05D for <gaia@ietfa.amsl.com>; Thu,  5 Apr 2018 16:55:03 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.698
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.698 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, GB_AFFORDABLE=1, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-0.7, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=no autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id vu0DmZMxvPBC for <gaia@ietfa.amsl.com>; Thu,  5 Apr 2018 16:55:01 -0700 (PDT)
+Received: from mail-wm0-x230.google.com (mail-wm0-x230.google.com [IPv6:2a00:1450:400c:c09::230]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 139C912E055 for <gaia@irtf.org>; Thu,  5 Apr 2018 16:55:01 -0700 (PDT)
+Received: by mail-wm0-x230.google.com with SMTP id t67so9823722wmt.0 for <gaia@irtf.org>; Thu, 05 Apr 2018 16:55:00 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20161025;  h=subject:to:references:from:openpgp:message-id:date:user-agent :mime-version:in-reply-to:content-language; bh=M+IAmp5p9iax6J7kD3/lFfQENdnD+Hx2/M75kmydfUo=; b=d6TqLN7P3eWjriECfg+jHvsziF7hHzthGAzNhGdOBHGaG7SbBQhAUJtNvZSGbcdw9o I3CRo4rm6rp565YGzMeF5ytRko65IhMF2+gQJ5o1mM6JujLxHQVfjOIgW+S8XIUE0rdg xa6u83Fjkxhghw+czzWnSAH7Tiqe6YU6QHpWY6HgWWIZ43r03nqtCmjxOS6kPdc6y6+L 5bb40AVkB35YFphDQxXPasdmEnf2YA1XZZL7yY0xsWd87A1+T02+P1Vl/6KxQZZL0zPo yafMMKmtqIojXgSIAshfJXeB/kIeyCYPKL+A80Sm4Ng0vh0uPfpZE9xPzHqEOF13U6MT QkeA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:subject:to:references:from:openpgp:message-id :date:user-agent:mime-version:in-reply-to:content-language; bh=M+IAmp5p9iax6J7kD3/lFfQENdnD+Hx2/M75kmydfUo=; b=nWYdL3vEiU7KN8DEVWyJN8y0mFcWjzgrmQteplRol2v8wKgEFRiExaY1vrnYaeZbDa F+d0wo9JsW+W5Jwh0wB+8sNVzFCa+ZARfNT9OFZg75wnRbwr/9rR3KULPZFwudAXZUoD DcfzicCa16MBeRyh+WdrGUaHMpV2+H9KUpzZD0Ldr74igodXtQsDU+OorPOeqnjAM+2d ESxgNpr+Py9gQ8L6/UsPczCpDC6aj5zdVXU4t3/rhJGEJFq1v+TO+evucPZouQoQEKGc nt9huipcL8aIkmV89dKxSCabbTwtqJRFGNd5/D6fSWlM395oaOYxvXKABrE+xyXflRX3 EzUw==
+X-Gm-Message-State: ALQs6tB+g/ky1SKWq7NrFXNgFvddQ3XXI3+AqqPTSYobvY2LZiKocGns FErTJubeR33CY1wccRbuG9Bww575
+X-Google-Smtp-Source: AIpwx4+wKWZP68Ba02APPoIyJQIYIpKkeob3j2TtqmSPZmksF/QvzTzp9mKEdxrT/adOimcD4iUpTg==
+X-Received: by 10.28.159.140 with SMTP id i134mr13045847wme.96.1522972499197;  Thu, 05 Apr 2018 16:54:59 -0700 (PDT)
+Received: from [192.168.100.12] ([41.90.91.168]) by smtp.gmail.com with ESMTPSA id m62sm14457506wmc.25.2018.04.05.16.54.57 for <gaia@irtf.org> (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128); Thu, 05 Apr 2018 16:54:58 -0700 (PDT)
+To: gaia@irtf.org
+References: <4B6296ABAE1FC944984F6C9FE996FE190154254B65@DC6010.fgv.br> <4B6296ABAE1FC944984F6C9FE996FE19015425500B@DC6010.fgv.br>
+From: Ephraim Percy Kenyanito <ekenyanito@gmail.com>
+Openpgp: preference=signencrypt
+Message-ID: <03a57904-a4f0-2790-2a68-f57e1229232f@gmail.com>
+Date: Fri, 6 Apr 2018 02:54:55 +0300
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Thunderbird/52.7.0
+MIME-Version: 1.0
+In-Reply-To: <4B6296ABAE1FC944984F6C9FE996FE19015425500B@DC6010.fgv.br>
+Content-Type: multipart/alternative; boundary="------------04DDF2F46AA1CA053AE11D5C"
+Content-Language: en-US
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/aprwr3ZzIWT4cx2AwllONNO9CxM>
+Subject: Re: [gaia] Network self-determination: When building the Internet becomes a right
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 05 Apr 2018 23:55:04 -0000
+
+This is a multi-part message in MIME format.
+--------------04DDF2F46AA1CA053AE11D5C
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: 8bit
+
+Thank you.
+
+
+
+--
+
+Best Regards,
+
+Ephraim Percy Kenyanito
+
+Legal Researcher/ Policy Analyst
+Website:†https://ephraimkenyanito.com/
+Twitter: @ekenyanito <https://twitter.com/ekenyanito>
+PGP†Fingerprint: B0FA394AF73DEB7AA1FDC7360CFED26DE6BA8DC1
+On 31/03/18 01:38, Luca Belli wrote:
+> Dear GAIA members,
+>
+> I thought this might be of interest
+>
+> Kind regards
+>
+> Luca
+>
+> †
+>
+>
+>   Network self-determination: When building the Internet becomes a right
+>
+> There is no doubt that network self-determination reinforces the
+> distributed nature of the Internet and there is no reason why
+> individuals should not have the possibility to build the Internet
+> themselves, improving their standards of living while bridging digital
+> divides.
+>
+>
+>         By: Luca Belli
+>         <http://www.ietfjournal.org/contributing_authors/luca-belli/>
+>
+>
+>         Date: March 28, 2018
+>
+> line break image
+>
+> †
+>
+> Anyone reading this article would agree that the Internet and
+> communication technologies play an increasingly essential role in
+> every connected individualís life. Access to well-functioning network
+> infrastructure on affordable and non-discriminatory terms facilitates
+> significantly the full enjoyment of oneís fundamental rights. Internet
+> users can easily access knowledge and education, conduct businesses by
+> trading goods and services online, and utilize digital public
+> services, from paying taxes to applying to schools and receiving
+> remote medical consultations.
+>
+> †
+>
+> As connected individuals, we can safely state that the Internet has
+> become an integral part of our lives and our environment, affecting
+> substantially how we form our opinions, how we socialize and learn
+> and, ultimately, what opportunities we are able to grasp over the
+> course of our lives. But what about the unconnected?
+>
+> The current digital (r)evolution can also deepen divides in our
+> societies, due to the uneven distribution of digital dividends between
+> those for which connectivity is available and easily affordable and
+> those who are either unconnected or face considerable challenges to
+> connect.[1]
+> <http://www.ietfjournal.org/network-self-determination-when-building-the-internet-becomes-a-right/#_ftn1>
+>
+> †
+>
+> This article briefly explores how groups of unconnected and scarcely
+> connected individuals can regain control over their digital futures,
+> building their own community networks and enjoying what I define as
+> ìnetwork self-determination.î[2]
+> <http://www.ietfjournal.org/network-self-determination-when-building-the-internet-becomes-a-right/#_ftn2>I
+> argue that network self-determination leads to several positive
+> externalities for the affected communities while preserving the
+> Internet as a distributed, interoperable and generative network of
+> networks.
+>
+> †
+>
+> In this perspective, concrete examples of communities enjoying network
+> self-determination seem to prove that ìthe design and development of
+> the Internet infrastructure have a growing impact on societyî[3]
+> <http://www.ietfjournal.org/network-self-determination-when-building-the-internet-becomes-a-right/#_ftn3>and
+> foster a digital environment that enables human rights.
+>
+> †
+>
+> /Continues
+> here/http://www.ietfjournal.org/network-self-determination-when-building-the-internet-becomes-a-right/
+>
+> †
+>
+> †
+>
+> Feel free to share
+> https://twitter.com/1lucabelli/status/979020870231449601
+>
+> †
+>
+> †
+>
+> †
+>
+> FGV Direito Rio
+>
+> 	
+>
+> *Luca Belli, PhD*
+> /Senior Researcher /
+> /Head of /*/Internet Governance @ FGV
+> <http://internet-governance.fgv.br/>/**//*
+>
+> luca.belli@fgv.br
+> +55 21 3799 *5763*
+>
+> */@1lucabelli <https://twitter.com/1lucabelli>/***
+>
+> http://www.fgv.br/mailing/Direito_Rio/assinatura_email/Ondas.png
+>
+> †
+>
+> †
+>
+>
+>
+> _______________________________________________
+> gaia mailing list
+> gaia@irtf.org
+> https://www.irtf.org/mailman/listinfo/gaia
+
+
+--------------04DDF2F46AA1CA053AE11D5C
+Content-Type: multipart/related;
+ boundary="------------02BBC8CBCEE581EB34920104"
+
+
+--------------02BBC8CBCEE581EB34920104
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;
+      charset=windows-1252">
+  </head>
+  <body text="#000000" bgcolor="#FFFFFF">
+    <p>Thank you.</p>
+    <p><br>
+    </p>
+    <br>
+    <div>
+      <p><span
+          style="background-color:rgba(255,255,255,0);font-size:13pt">--</span></p>
+    </div>
+    <p>Best Regards,</p>
+    <div
+style="color:rgb(34,34,34);font-family:arial;font-style:normal;font-weight:normal;letter-spacing:normal;line-height:normal;text-align:start;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;background-color:rgb(255,255,255)"><span
+        style="color:rgb(136,136,136);line-height:normal">
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td style="width:auto;line-height:1;padding:0px 0px
+                3px;vertical-align:bottom" align="left" valign="bottom">
+                <div
+style="margin:0px;font-size:18px;font-weight:bold;color:rgb(51,51,51);font-family:&quot;Proxima
+                  Nova&quot;,Helvetica,Arial,sans-serif">Ephraim Percy
+                  Kenyanito</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <font size="2"><span style="font-family:&quot;Quattrocento
+            Sans&quot;,sans-serif">Legal Researcher/ Policy Analyst</span></font><span
+          style="font-size:10pt;font-family:arial,sans-serif"><br>
+        </span></span></div>
+    <span style="color:rgb(136,136,136);line-height:normal"><span
+        style="font-size:10pt;font-family:arial,sans-serif">Website:†</span></span><span
+style="color:rgb(136,136,136);font-family:arial,sans-serif;font-size:10pt;line-height:15.3333px"><a
+        href="https://ephraimkenyanito.com/"
+        style="color:rgb(17,85,204)" target="_blank">https://ephraimkenyanito.com/</a></span>
+    <div style="color:rgb(136,136,136);font-family:arial,sans-serif">
+      <div style="font-family:arial;line-height:normal"><span
+          style="font-size:10pt;font-family:arial,sans-serif">Twitter: <a
+            href="https://twitter.com/ekenyanito" target="_blank">@ekenyanito</a></span></div>
+    </div>
+    <span
+style="color:rgb(136,136,136);font-family:Arial,sans-serif;font-size:13.3333px"><span
+        style="font-size:10pt">PGP†</span></span><span
+style="color:rgb(136,136,136);font-family:Arial,sans-serif;font-size:13.3333px">Fingerprint:
+      B0FA394AF73DEB7AA1FDC7360CFED26DE6BA8DC1</span>
+    <div class="moz-cite-prefix">On 31/03/18 01:38, Luca Belli wrote:<br>
+    </div>
+    <blockquote type="cite"
+      cite="mid:4B6296ABAE1FC944984F6C9FE996FE19015425500B@DC6010.fgv.br">
+      <meta http-equiv="Content-Type" content="text/html;
+        charset=windows-1252">
+      <style>
+<!--
+@font-face
+	{font-family:"Cambria Math"}
+@font-face
+	{font-family:Calibri}
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif}
+h1
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif}
+h4
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif}
+a:link, span.MsoHyperlink
+	{color:#0563C1;
+	text-decoration:underline}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#954F72;
+	text-decoration:underline}
+span.EstiloDeEmail17
+	{font-family:"Calibri",sans-serif;
+	color:windowtext}
+span.Ttulo1Char
+	{font-family:"Times New Roman",serif;
+	font-weight:bold}
+span.Ttulo4Char
+	{font-family:"Times New Roman",serif;
+	font-weight:bold}
+..MsoChpDefault
+	{font-family:"Calibri",sans-serif}
+@page WordSection1
+	{margin:70.85pt 3.0cm 70.85pt 3.0cm}
+-->
+</style>
+      <style type="text/css" id="owaParaStyle">P {margin-top:0;margin-bottom:0;}</style>
+      <div style="direction: ltr;font-family: Tahoma;color:
+        #000000;font-size: 10pt;"><font size="2"><span lang="EN-US">Dear
+            GAIA members,
+          </span></font>
+        <div style="font-family: Times New Roman; color: #000000;
+          font-size: 16px">
+          <div>
+            <div class="WordSection1">
+              <p class="MsoNormal"><font size="2" face="Tahoma"><span
+                    lang="EN-US">I thought this might be of interest</span></font></p>
+              <p class="MsoNormal"><font size="2" face="Tahoma"><span
+                    lang="EN-US">Kind regards<br>
+                  </span></font></p>
+              <p class="MsoNormal"><font size="2" face="Tahoma"><span
+                    lang="EN-US">Luca</span></font></p>
+              <p class="MsoNormal"><span lang="EN-US">†</span></p>
+              <h1><span lang="EN-US">Network self-determination: When
+                  building the Internet becomes a right</span></h1>
+              <p class="MsoNormal"><span lang="EN-US">There is no doubt
+                  that network self-determination reinforces the
+                  distributed nature of the Internet and there is no
+                  reason why individuals should not have the possibility
+                  to build the Internet themselves, improving their
+                  standards of living while bridging digital divides.</span></p>
+              <h4 style="margin-top:0cm; line-height:15.0pt;
+                font-style:italic!important; text-transform:capitalize">
+                <span lang="EN-US">By: </span><a
+                  href="http://www.ietfjournal.org/contributing_authors/luca-belli/"
+                  target="_blank" moz-do-not-send="true"><span
+                    style="color:#039BE5" lang="EN-US">Luca Belli</span></a><span
+                  lang="EN-US"></span></h4>
+              <h4 style="margin-top:0cm; line-height:15.0pt;
+                font-style:italic!important; text-transform:capitalize">
+                <span lang="EN-US">Date: March 28, 2018</span></h4>
+              <p class="MsoNormal"><span style=""><img
+                    id="Imagem_x0020_3"
+                    src="cid:part4.1B2FD704.0CD63769@gmail.com"
+                    alt="line break image" class="" height="35"
+                    width="174" border="0"></span></p>
+              <p class="MsoNormal">†</p>
+              <p class="MsoNormal"><span lang="EN-US">Anyone reading
+                  this article would agree that the Internet and
+                  communication technologies play an increasingly
+                  essential role in every connected individualís life.
+                  Access to well-functioning network infrastructure on
+                  affordable and non-discriminatory terms facilitates
+                  significantly the full enjoyment of oneís fundamental
+                  rights. Internet users can easily access knowledge and
+                  education, conduct businesses by trading goods and
+                  services online, and utilize digital public services,
+                  from paying taxes to applying to schools and receiving
+                  remote medical consultations.</span></p>
+              <p class="MsoNormal"><span lang="EN-US">†</span></p>
+              <p class="MsoNormal"><span lang="EN-US">As connected
+                  individuals, we can safely state that the Internet has
+                  become an integral part of our lives and our
+                  environment, affecting substantially how we form our
+                  opinions, how we socialize and learn and, ultimately,
+                  what opportunities we are able to grasp over the
+                  course of our lives. But what about the unconnected?</span></p>
+              <p class="MsoNormal"><span lang="EN-US">The current
+                  digital (r)evolution can also deepen divides in our
+                  societies, due to the uneven distribution of digital
+                  dividends between those for which connectivity is
+                  available and easily affordable and those who are
+                  either unconnected or face considerable challenges to
+                  connect.</span><a name="_ftnref1"
+                  moz-do-not-send="true"></a><a
+href="http://www.ietfjournal.org/network-self-determination-when-building-the-internet-becomes-a-right/#_ftn1"
+                  target="_blank" moz-do-not-send="true"><span
+                    lang="EN-US">[1]</span></a><span lang="EN-US"></span></p>
+              <p class="MsoNormal"><span lang="EN-US">†</span></p>
+              <p class="MsoNormal"><span lang="EN-US">This article
+                  briefly explores how groups of unconnected and
+                  scarcely connected individuals can regain control over
+                  their digital futures, building their own community
+                  networks and enjoying what I define as ìnetwork
+                  self-determination.î</span><a name="_ftnref2"
+                  moz-do-not-send="true"></a><a
+href="http://www.ietfjournal.org/network-self-determination-when-building-the-internet-becomes-a-right/#_ftn2"
+                  target="_blank" moz-do-not-send="true"><span
+                    lang="EN-US">[2]</span></a><span lang="EN-US"> I
+                  argue that network self-determination leads to several
+                  positive externalities for the affected communities
+                  while preserving the Internet as a distributed,
+                  interoperable and generative network of networks.</span></p>
+              <p class="MsoNormal"><span lang="EN-US">†</span></p>
+              <p class="MsoNormal"><span lang="EN-US">In this
+                  perspective, concrete examples of communities enjoying
+                  network self-determination seem to prove that ìthe
+                  design and development of the Internet infrastructure
+                  have a growing impact on societyî</span><a
+                  name="_ftnref3" moz-do-not-send="true"></a><a
+href="http://www.ietfjournal.org/network-self-determination-when-building-the-internet-becomes-a-right/#_ftn3"
+                  target="_blank" moz-do-not-send="true"><span
+                    lang="EN-US">[3]</span></a><span lang="EN-US"> and
+                  foster a digital environment that enables human
+                  rights.</span></p>
+              <p class="MsoNormal"><span lang="EN-US">†</span></p>
+              <p class="MsoNormal"><i><span lang="EN-US">Continues here</span></i><span
+                  lang="EN-US">
+                </span><a
+href="http://www.ietfjournal.org/network-self-determination-when-building-the-internet-becomes-a-right"
+                  target="_blank" moz-do-not-send="true"><span
+                    lang="EN-US">http://www.ietfjournal.org/network-self-determination-when-building-the-internet-becomes-a-right</span></a><span
+                  lang="EN-US">/
+                  <br>
+                  †</span></p>
+              <p class="MsoNormal"><span lang="EN-US">†</span></p>
+              <p class="MsoNormal"><span lang="EN-US">Feel free to share
+                </span><a
+                  href="https://twitter.com/1lucabelli/status/979020870231449601"
+                  target="_blank" moz-do-not-send="true"><span
+                    lang="EN-US">https://twitter.com/1lucabelli/status/979020870231449601</span></a><span
+                  lang="EN-US"></span></p>
+              <p class="MsoNormal"><span lang="EN-US">†</span></p>
+              <p class="MsoNormal"><span lang="EN-US">†</span></p>
+              <p class="MsoNormal"><span lang="EN-US">†</span></p>
+              <table class="MsoNormalTable" style="width:456.75pt"
+                width="0" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr style="height:78.0pt">
+                    <td rowspan="2" style="width:223.5pt; padding:0cm
+                      0cm 0cm 0cm; height:78.0pt" width="298">
+                      <p class="MsoNormal" style="text-align:center"
+                        align="center"><span style=""><img
+                            id="_x0000_i1026"
+src="http://www.fgv.br/mailing/Direito_Rio/assinatura_email/Marca_FGV_Direito_Rio.png"
+                            alt="FGV Direito Rio" moz-do-not-send="true"
+                            height="146" width="298" border="0"></span><span
+                          style="font-size:12.0pt"></span></p>
+                    </td>
+                    <td style="width:233.25pt; padding:0cm 0cm 0cm 0cm;
+                      height:78.0pt" width="311">
+                      <p class="MsoNormal" style="margin-left:3.7pt"><b><span
+                            style="font-size:10.5pt;
+                            font-family:&quot;Arial&quot;,sans-serif;
+                            color:#008ECF" lang="EN-US">Luca Belli, PhD</span></b><span
+                          style="font-size:10.5pt;
+                          font-family:&quot;Arial&quot;,sans-serif;
+                          color:#666666" lang="EN-US"><br>
+                          <i>Senior Researcher </i><br>
+                          <i>Head of </i></span><b><i><span
+                              style="font-size:10.5pt;
+                              font-family:&quot;Arial&quot;,sans-serif;
+                              color:#666666"><a
+                                href="http://internet-governance.fgv.br/"
+                                target="_blank" moz-do-not-send="true"><span
+                                  style="color:#0563C1" lang="EN-US">Internet
+                                  Governance @ FGV</span></a></span></i></b><b><i><span
+                              style="font-size:10.5pt;
+                              font-family:&quot;Arial&quot;,sans-serif;
+                              color:#666666" lang="EN-US"></span></i></b></p>
+                      <p class="MsoNormal" style="margin-left:3.7pt"><span
+                          style="font-size:9.0pt;
+                          font-family:&quot;Arial&quot;,sans-serif;
+                          color:#666666" lang="EN-US"><a class="moz-txt-link-abbreviated" href="mailto:luca.belli@fgv.br">luca.belli@fgv.br</a></span><span
+                          style="font-size:10.5pt;
+                          font-family:&quot;Arial&quot;,sans-serif;
+                          color:#666666" lang="EN-US"><br>
+                          +55 21 3799 <b>5763</b></span></p>
+                      <p class="MsoNormal" style="margin-left:3.7pt"><b><i><span
+                              style="font-size:10.5pt;
+                              font-family:&quot;Arial&quot;,sans-serif;
+                              color:#666666"><a
+                                href="https://twitter.com/1lucabelli"
+                                target="_blank" moz-do-not-send="true"><span
+                                  style="color:#0563C1" lang="EN-US">@1lucabelli</span></a></span></i></b><b><span
+                            style="font-size:10.5pt;
+                            font-family:&quot;Arial&quot;,sans-serif;
+                            color:#666666" lang="EN-US"></span></b></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding:0cm 0cm 0cm 0cm">
+                      <p class="MsoNormal"><span style=""><img
+                            id="_x0000_i1025"
+                            src="http://www.fgv.br/mailing/Direito_Rio/assinatura_email/Ondas.png"
+alt="http://www.fgv.br/mailing/Direito_Rio/assinatura_email/Ondas.png"
+                            moz-do-not-send="true" height="58"
+                            width="260" border="0"></span><span
+                          style="font-size:12.0pt"></span></p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="MsoNormal"><span style="">†</span></p>
+              <p class="MsoNormal">†</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <fieldset class="mimeAttachmentHeader"></fieldset>
+      <br>
+      <pre wrap="">_______________________________________________
+gaia mailing list
+<a class="moz-txt-link-abbreviated" href="mailto:gaia@irtf.org">gaia@irtf.org</a>
+<a class="moz-txt-link-freetext" href="https://www.irtf.org/mailman/listinfo/gaia">https://www.irtf.org/mailman/listinfo/gaia</a>
+</pre>
+    </blockquote>
+    <br>
+  </body>
+</html>
+
+--------------02BBC8CBCEE581EB34920104
+Content-Type: image/png;
+ name="image001.png"
+Content-Transfer-Encoding: base64
+Content-ID: <part4.1B2FD704.0CD63769@gmail.com>
+Content-Disposition: inline;
+ filename="image001.png"
+
+iVBORw0KGgoAAAANSUhEUgAAAK4AAAAjCAMAAAA6/MHaAAAABGdBTUEAALGPC/xhBQAAACBj
+SFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABEVBMVEUAAAAAX6kA
+X6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kA
+X6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kA
+X6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kA
+X6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kA
+X6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAX6kAAAB5OgKr
+AAAAWXRSTlMAauPaVhCg9/y1IohzFdPrLXiHiwGNlw/KngPJpfE39oD4sAazQrIJQL4KwTHq
+8mbc6IYZqvPwnxEk5M5YaRw+3phf4hrb2Ey/4AuO5p0T1Oms7qu0MsD9lJUAZrwAAAABYktH
+RACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAACC0lEQVRYw83Y51ICMRAA4BVRsVBUBKWq
+CAo2VEBQORFFsfeS938RYZxwySa5O52RZH/dseTyUbIpAP8fIz4y6lfkxsYnApNTQ0B4jmnS
+jxlpLhjq58IR3UasJWRWqTXJS7WEzCm15nhtLSHzUZXWEG90gbAR47zxRTZngDcaI3wsJRht
+ks9p9wpaQlIDL9YSks4Yos0ur9DL1RzWhtaM8DLaPOSz9KawjrTBRMoAL6cF2EjT22KJ1wIY
+4EVagMzAuxnntQZ4BS3AVpi+lERa7V6JFiCyjWsB1bLenbzzo3fLxCH29nPyZgeVau2w/gst
+QONIpWW9gZoqjk8AmsQlClKvVcYdyrpOn3KJRkul7TU6c4P0og3nru+Rea2yrEtBm1E0kzWV
+TCpCtMDDZxK9drei13HYXITUDb14ofMHr9OX5DLI6SrsUvKzuHtb4PfARV6LG5zoL+hWkn5q
+bseS5Vy9bYCr7rUyqjKvhUqJfIArC+jNre/u/kGRbD7Wao6VwTEaT7T3ymApZQmFT1Y+9UxP
+kcFURJd+trYrDBvdWtFra4ulIPLq12Ivq2U3W31v7pnevWhcuLJeXst7cwV6rXcbY3tfkZbz
+vpmhZb1Yy2++zdCKXlsrevVrsZfVYq8JWoD3tEpr4GEMsFstrDXxqMv2iloTDxKpV6Y18Zi2
+N94+PqtfJXmuPqRD8G/vNey9NLXnSgAAAABJRU5ErkJggg==
+--------------02BBC8CBCEE581EB34920104--
+
+--------------04DDF2F46AA1CA053AE11D5C--
+
+
+From nobody Mon Apr 16 00:42:31 2018
+Return-Path: <sarbanibelur@iitb.ac.in>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 79BF9126BFD for <gaia@ietfa.amsl.com>; Mon, 16 Apr 2018 00:42:29 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.001
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.001 tagged_above=-999 required=5 tests=[BAYES_40=-0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id j5HffksGrI4X for <gaia@ietfa.amsl.com>; Mon, 16 Apr 2018 00:42:26 -0700 (PDT)
+Received: from smtp2.iitb.ac.in (smtp2.iitb.ac.in [103.21.125.13]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 0E40B1241F8 for <gaia@irtf.org>; Mon, 16 Apr 2018 00:42:25 -0700 (PDT)
+Received: from ldns3.iitb.ac.in (ldns3.iitb.ac.in [10.200.12.3]) by smtp2.iitb.ac.in (Postfix) with SMTP id A9C38270 for <gaia@irtf.org>; Mon, 16 Apr 2018 13:12:21 +0530 (IST)
+Received: (qmail 23044 invoked by uid 510); 16 Apr 2018 13:12:21 +0530
+X-Qmail-Scanner-Diagnostics: from 10.200.12.201 by ldns3 (envelope-from <sarbanibelur@iitb.ac.in>, uid 501) with qmail-scanner-2.11 spamassassin: 3.4.1. mhr: 1.0. {clamdscan: 0.99.4/24483}  Clear:RC:1(10.200.12.201):. Processed in 0.055027 secs; 16 Apr 2018 13:12:21 +0530
+Received: from unknown (HELO smtp-auth.iitb.ac.in) (10.200.12.201) by ldns2.iitb.ac.in with SMTP; 16 Apr 2018 13:12:21 +0530
+Received: from [10.107.63.141] (unknown [10.107.63.141]) (using TLSv1.2 with cipher DHE-RSA-AES128-SHA (128/128 bits)) (No client certificate requested) (Authenticated sender: sarbanibelur) by smtp-auth.iitb.ac.in (Postfix) with ESMTPSA id 3D7EC5FA56; Mon, 16 Apr 2018 13:12:21 +0530 (IST)
+References: <90d85c1a-b328-b2a7-049c-b117834075fc@iitb.ac.in>
+To: gaia@irtf.org, Sri Chandra <sri.chandra@ieee.org>, Munir Mohammed <m.mohammed@ieee.org>
+From: Sarbani Banerjee Belur <sarbanibelur@iitb.ac.in>
+X-Forwarded-Message-Id: <90d85c1a-b328-b2a7-049c-b117834075fc@iitb.ac.in>
+Message-ID: <67e77991-515a-07ca-070c-92d0397a64ee@iitb.ac.in>
+Date: Mon, 16 Apr 2018 13:12:21 +0530
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Thunderbird/45.8.0
+MIME-Version: 1.0
+In-Reply-To: <90d85c1a-b328-b2a7-049c-b117834075fc@iitb.ac.in>
+Content-Type: multipart/alternative; boundary="------------CCB95DD63BFA86333E861CBB"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/ybVlZRx613Cn78ngfWEMW7_TCII>
+Subject: [gaia] Invitation to participate in IEEE-SA workstreams 'Affordability' and 'Accessibility'
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 16 Apr 2018 07:42:29 -0000
+
+This is a multi-part message in MIME format.
+--------------CCB95DD63BFA86333E861CBB
+Content-Type: text/plain; charset=windows-1252; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Dear All,
+
+This is to inform you that IEEE Standards Association has recently 
+formed two workstreams 'Affordability' and 'Accessibility' as part of 
+the Industry Connections (IC) Digital Inclusion through Trust and Agency 
+(DITA). Details of this program can be looked at in this weblink 
+http://standards.ieee.org/develop/indconn/digital_inclusion/.
+
+This is a unique platform where technologists,academics, and industry 
+executives come together to build consensus and develop a framework 
+towards solutions that facilitate digital inclusion,trust, personal data 
+agency and security for all members of the global community.As you and 
+your organization have been working in the area of rural connectivity or 
+developing products and services, your participation in the DITA 
+workstreams 'Affordability' and 'Accessibility' will enrich this 
+initiative greatly. DITA is being chaired by Dr. Greg Adamson and the 
+Affordability and Accessibility workstreams within DITA are led by Dr. 
+Sarbani Banerjee Belur, Gram Marg, IIT Bombay.
+
+The main objective of the DITA program is to identify and create 
+consensus throughout technologies that have potential to alter policy 
+and business landscape, with particular focus on disruptive innovation.
+
+In case you are willing to participate in the program, please send in 
+your approval via a mail to Munir Mohammed (m.mohammed)@ieee.org 
+<mailto:g.adamson@ieee.org>). We shall get back to you with details 
+regarding the program and details about the workstreams.
+
+Looking forward to your participation.
+Thanks
+
+Dr. Sarbani Banerjee Belur
+
+Workstream Lead, IEEE-SA DITA IC Program
+
+-- 
+Dr. Sarbani Banerjee Belur
+Senior Project Research Scientist
+Program Manager
+Gram Marg: Rural Broadband Project
+Department of Electrical Engineering
+IIT Bombay
+Powai
+Mumbai 400076
+Mob: +91 9867282979
+      +91 7045620077
+Website:www.grammarg.in
+Homepage:http://homepages.iitb.ac.in/~sarbanibelur/
+Blog: sarbanibelur.blogspot.com
+
+
+
+--------------CCB95DD63BFA86333E861CBB
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    <span
+style="font-size:12.0pt;mso-bidi-font-family:Arial;color:#222222;background:white"
+      lang="EN-US">Dear All,</span><span
+      style="font-size:12.0pt;mso-bidi-font-family: Arial;color:#222222"
+      lang="EN-US"></span><br>
+    <div class="moz-forward-container"><span
+        style="font-size:12.0pt;mso-bidi-font-family:
+        Arial;color:#222222" lang="EN-US"></span>
+      <p class="MsoNormal" style="line-height:normal"><span
+          style="font-size:12.0pt;mso-bidi-font-family:
+          Arial;color:#222222" lang="EN-US"> <span
+            style="background:white">This is to inform you that IEEE
+            Standards Association has recently formed </span><span
+            style="background:white">two workstreams 'Affordability' and
+            'Accessibility' as part of the </span><span
+            style="background:white">Industry Connections (IC) Digital
+            Inclusion through Trust and Agency </span><span
+            style="background:white">(DITA). Details of this program can
+            be looked at in this weblink </span></span><span
+          lang="EN-US"><a moz-do-not-send="true"
+            href="http://standards.ieee.org/develop/indconn/digital_inclusion/"
+            target="_blank"><span
+              style="font-size:12.0pt;mso-bidi-font-family:Arial;
+              color:#1155CC;background:white">http://standards.ieee.org/develop/indconn/digital_inclusion/</span></a></span><span
+style="font-size:12.0pt;mso-bidi-font-family:Arial;color:#222222;
+          background:white" lang="EN-US">.</span><span
+          style="font-size:12.0pt;mso-bidi-font-family:
+          Arial;color:#222222" lang="EN-US"><br>
+          <br>
+          <span style="background:white">This is a unique platform where
+            technologists,academics, and industry executives come
+            together to build consensus and develop a framework towards
+            solutions that facilitate digital inclusion,trust, personal
+            data agency and security for all members of the global
+            community.As you and your organization have been working in
+            the area of rural connectivity or developing products and
+            services, your participation in the DITA workstreams
+            'Affordability' and 'Accessibility' will enrich this
+            initiative greatly. DITA is being chaired by Dr. Greg
+            Adamson and the Affordability and Accessibility workstreams
+            within DITA are led by Dr. Sarbani Banerjee Belur, Gram
+            Marg, IIT Bombay. </span><br>
+          <br>
+          <span style="background:white">The main objective of the DITA
+            program is to identify and create consensus </span><span
+            style="background:white">throughout technologies that have
+            potential to alter policy and business </span><span
+            style="background:white">landscape, with particular focus on
+            disruptive innovation.</span><br>
+          <br>
+          <span style="background:white">In case you are willing to
+            participate in the program, please send in your </span><span
+            style="background:white">approval via a mail to<span
+              class="apple-converted-space">†Munir Mohammed (</span></span></span><span
+          style="font-size:12.0pt" lang="EN-US"><a
+            moz-do-not-send="true" href="mailto:g.adamson@ieee.org"><span
+style="mso-bidi-font-family:Arial;color:#1155CC;background:white">m.mohammed)@ieee.org</span></a></span><span
+style="font-size:12.0pt;mso-bidi-font-family:Arial;color:#222222;
+          background:white" lang="EN-US">). We shall get back to you
+          with details regarding the program and details about the
+          workstreams.</span><span style="font-size:
+          12.0pt;mso-bidi-font-family:Arial;color:#222222" lang="EN-US"><br>
+          <br>
+          <span style="background:white">Looking forward to your
+            participation.</span><br>
+          <span style="background:white">Thanks<o:p></o:p></span></span></p>
+      <p class="MsoNormal" style="line-height:normal"><span
+style="font-size:12.0pt;mso-bidi-font-family:Arial;color:#222222;background:white"
+          lang="EN-US"><o:p></o:p>Dr. Sarbani Banerjee Belur<o:p></o:p></span></p>
+      <p class="MsoNormal" style="line-height:normal"><span
+style="font-size:12.0pt;mso-bidi-font-family:Arial;color:#222222;background:white"
+          lang="EN-US">Workstream Lead, IEEE-SA DITA IC Program</span></p>
+      <pre class="moz-signature" cols="72">-- 
+Dr. Sarbani Banerjee Belur
+Senior Project Research Scientist
+Program Manager
+Gram Marg: Rural Broadband Project
+Department of Electrical Engineering
+IIT Bombay
+Powai
+Mumbai 400076
+Mob: +91 9867282979
+     +91 7045620077
+Website: <a moz-do-not-send="true" class="moz-txt-link-abbreviated" href="http://www.grammarg.in">www.grammarg.in</a>
+Homepage: <a moz-do-not-send="true" class="moz-txt-link-freetext" href="http://homepages.iitb.ac.in/%7Esarbanibelur/">http://homepages.iitb.ac.in/~sarbanibelur/</a>
+Blog: sarbanibelur.blogspot.com</pre>
+      <br>
+    </div>
+  </body>
+</html>
+
+--------------CCB95DD63BFA86333E861CBB--
+
+
+From nobody Fri Apr 20 07:18:07 2018
+Return-Path: <william.liu@aut.ac.nz>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id C40D812D95A for <gaia@ietfa.amsl.com>; Wed, 11 Apr 2018 23:38:17 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 0.8
+X-Spam-Level: 
+X-Spam-Status: No, score=0.8 tagged_above=-999 required=5 tests=[BAYES_50=0.8,  RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id a8hWVAqGnPVB for <gaia@ietfa.amsl.com>; Wed, 11 Apr 2018 23:38:15 -0700 (PDT)
+Received: from lightmoon.aut.ac.nz (lightmoon.aut.ac.nz [156.62.1.33]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id F1CEA12D953 for <gaia@irtf.org>; Wed, 11 Apr 2018 23:38:14 -0700 (PDT)
+Received: (from root@localhost) by lightmoon.aut.ac.nz (8.14.9/8.14.9) id w3C6cB84013061 for gaia@irtf.org; Thu, 12 Apr 2018 18:38:11 +1200
+Received: from horuhoru.aut.ac.nz(156.62.1.171) by lightmoon.aut.ac.nz via smap (V2.0) id xma013058; Thu, 12 Apr 18 18:38:09 +1200
+Received: from unknown ([156.62.1.171] helo=eredun2.aut.ac.nz) by horuhoru.aut.ac.nz with SMTP (2.5.5); 12 Apr 2018 18:38:09 +1200
+Received: from holyfield.autuni.aut.ac.nz (holyfield.aut.ac.nz [156.62.45.127]) by eredun2.aut.ac.nz (8.14.9/8.14.9) with ESMTP id w3C6c80f023336 for <gaia@irtf.org>; Thu, 12 Apr 2018 18:38:09 +1200
+Received: from DEMPSEY.autuni.aut.ac.nz ([169.254.3.58]) by holyfield.autuni.aut.ac.nz ([156.62.45.127]) with mapi id 14.03.0389.001; Thu, 12 Apr 2018 18:38:09 +1200
+From: William Liu <william.liu@aut.ac.nz>
+To: "gaia@irtf.org" <gaia@irtf.org>
+Thread-Topic: ICC 2018 Call for Participation - announcement
+Thread-Index: AQHT0O5gEdHAUhOkjE29hko06QUXHKP6selggAAMkbCAAAGV0IAADJ1wgAAA9ECAAA0hkIAAP/LAgAAAS9CAAABuAIAAADtggAGRHICAAAJx8A==
+Date: Thu, 12 Apr 2018 06:38:08 +0000
+Message-ID: <75C3076859BB4145BD0008D393EDCFF70123EBABA9@Dempsey.autuni.aut.ac.nz>
+References: <BEF87E27-BEC6-4D78-A161-63A23A9CF629@umkc.edu> <75C3076859BB4145BD0008D393EDCFF70123EB7978@Dempsey.autuni.aut.ac.nz> <75C3076859BB4145BD0008D393EDCFF70123EBAA54@Dempsey.autuni.aut.ac.nz>
+In-Reply-To: <75C3076859BB4145BD0008D393EDCFF70123EBAA54@Dempsey.autuni.aut.ac.nz>
+Accept-Language: en-GB, en-NZ, en-US
+Content-Language: en-US
+X-MS-TNEF-Correlator: 
+x-originating-ip: [156.62.17.30]
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/M8Ep7S9FIubfmAGPid96qn-J2jQ>
+X-Mailman-Approved-At: Fri, 20 Apr 2018 07:18:05 -0700
+Subject: [gaia] ICC 2018 Call for Participation - announcement
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 12 Apr 2018 06:38:18 -0000
+
+Q2FsbCBmb3IgUGFydGljaXBhdGlvbg0KSUVFRSBJbnRlcm5hdGlvbmFsIENvbmZlcmVuY2Ugb24g
+Q29tbXVuaWNhdGlvbnMgKElDQykgS2Fuc2FzIENpdHksIE1pc3NvdXJpLCBVU0EgTWF5IDIwIC0g
+MjQsIDIwMTggaHR0cDovL2ljYzIwMTguaWVlZS1pY2Mub3JnLw0KDQpFYXJseSByZWdpc3RyYXRp
+b24gZGVhZGxpbmU6IEFwcmlsIDIzLCAyMDE4IGh0dHA6Ly9pY2MyMDE4LmllZWUtaWNjLm9yZy9y
+ZWdpc3RyYXRpb24NCg0KSUNDIDIwMTggd2lsbCBmZWF0dXJlIDcga2V5bm90ZXMNCgktIEphbWVz
+IFRob21wc29uIChFeGVjdXRpdmUgVmljZSBQcmVzaWRlbnQgYW5kIENoaWVmIFRlY2hub2xvZ3kg
+T2ZmaWNlciwgUXVhbGNvbW0gVGVjaG5vbG9naWVzLCBJbmMuKQ0KCS0gTmljayBNY0tlb3duIChL
+bGVpbmVyIFBlcmtpbnMsIE1heWZpZWxkLCBTZXF1b2lhIENhcGl0YWwgUHJvZmVzc29yLCBTdGFu
+Zm9yZCBVbml2ZXJzaXR5KQ0KCS0gRWxpc2EgQmVydGlubyAoS2xlaW5lciBQZXJraW5zLCBTYW11
+ZWwgQ29udGUgVGVybSBQcm9mZXNzb3Igb2YgQ29tcHV0ZXIgU2NpZW5jZSwgUHVyZHVlIFVuaXZl
+cnNpdHkpDQoJLSBZb25nWGluZyBaaG91IChWaWNlIFByZXNpZGVudCBhbmQgSGVhZCBvZiBNSU1P
+IGFuZCBTcGVjdHJ1bSBSZXNlYXJjaCAgIENvbXBldGVuY3kgQ2VudGVyLCBIdWF3ZWkpDQoJLSBK
+b2huIFNhdyAoQ1RPLCBTcHJpbnQpDQoJLSBUaHlhZ2EgTmFuZGFnb3BhbCAoRGVwdXR5IERpdmlz
+aW9uIERpcmVjdG9yLCBOU0YpDQoJLSBQYXVsIFRpbGdobWFuIChQcm9ncmFtIE1hbmFnZXIsIERB
+UlBBKQ0KDQpJQ0MgMjAxOCB3aWxsIGhhdmUgYSBwYW5lbCBvbiBQQVdSIChQbGF0Zm9ybSBmb3Ig
+QWR2YW5jZWQgV2lyZWxlc3MgUmVzZWFyY2gpIHdoZXJlIHRoZSByZWNlbnRseSBhbm5vdW5jZWQg
+d2lubmVycywgUE9XREVSLVJFTkVXIGFuZCBDT1NNT1MsIHdpbGwgZGlzY3VzcyB0aGVpciBwbGF0
+Zm9ybS4NCg0KSUNDIFN5bXBvc2lhIHdpbGwgcHJlc2VudCA5NzAgcGFwZXJzIG92ZXIgdGhyZWUg
+ZGF5cy4NCg0KSUNDIDIwMTggSW5kdXN0cnkgUHJvZ3JhbSB3aWxsIGhhdmUgYSBudW1iZXIgb2Yg
+ZXhjaXRpbmcgQ1RPL0V4ZWN1dGl2ZSBGb3J1bXMsIHByZXNlbnRhdGlvbnMsIGFuZCBwYW5lbHMu
+CQ0KDQpJQ0MgMjAxOCB3aWxsIGZlYXR1cmUgMjQgdHV0b3JpYWxzIG9uIGVtZXJnaW5nIHRvcGlj
+cy4NCg0KSUNDIDIwMTggd2lsbCBoYXZlIDIwIHdvcmtzaG9wcyB3aGVyZSAzMDArIHBhcGVycyB3
+aWxsIGJlIHByZXNlbnRlZC4gQWxzbywgaXQgaW5jbHVkZXMgTjJXb21lbi1XSUNFIFByb2Zlc3Np
+b25hbCBEZXZlbG9wbWVudCBXb3Jrc2hvcC4NCiANCkFuZCBtdWNoIG1vcmUgLi4uDQo=
+
+
+From nobody Sat Apr 21 05:45:06 2018
+Return-Path: <leandro@ac.upc.edu>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 89E60126DD9 for <gaia@ietfa.amsl.com>; Sat, 21 Apr 2018 05:45:01 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -4.199
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.199 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_MED=-2.3, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id ixhSnHFFlVmf for <gaia@ietfa.amsl.com>; Sat, 21 Apr 2018 05:44:56 -0700 (PDT)
+Received: from roura.ac.upc.es (roura.ac.upc.edu [147.83.33.10]) by ietfa.amsl.com (Postfix) with ESMTP id CDD65126D45 for <gaia@irtf.org>; Sat, 21 Apr 2018 05:44:55 -0700 (PDT)
+Received: from correu-1.ac.upc.es (correu-1.ac.upc.es [147.83.30.91]) by roura.ac.upc.es (8.13.8/8.13.8) with ESMTP id w3LCirjg013280 for <gaia@irtf.org>; Sat, 21 Apr 2018 14:44:53 +0200
+Received: from leandro.home (unknown [93.176.131.32]) by correu-1.ac.upc.es (Postfix) with ESMTPSA id E63F8366 for <gaia@irtf.org>; Sat, 21 Apr 2018 14:44:47 +0200 (CEST)
+From: Leandro Navarro <leandro@ac.upc.edu>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_6E27F544-B026-42FE-9C60-9186D138A4A0"
+Mime-Version: 1.0 (Mac OS X Mail 11.3 \(3445.6.18\))
+Message-Id: <68D1C0AE-3668-4976-8A8E-84370E517765@ac.upc.edu>
+Date: Sat, 21 Apr 2018 14:44:46 +0200
+To: gaia <gaia@irtf.org>
+X-Mailer: Apple Mail (2.3445.6.18)
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/MMlwMopoajOMRnItfyJ4TtlTzm8>
+Subject: [gaia] Update about recent and upcoming GAIA activities to participate
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Sat, 21 Apr 2018 12:45:01 -0000
+
+--Apple-Mail=_6E27F544-B026-42FE-9C60-9186D138A4A0
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+Dear members of the GAIA WG, a few items to share:
+
+* Call for topics to discuss in the next GAIA WG meeting at IETF 102 =
+Montreal (14 Jul 2018 - 20 Jul 2018) =
+https://www.ietf.org/how/meetings/102/ =
+<https://www.ietf.org/how/meetings/102/>
+Tell us (can be off-list) about topics/presentations/documents you=E2=80=99=
+d like to share/discuss by mid may (Friday 18).
+
+A reminder for upcoming calls for papers and participation:
+
+* The ANRW =E2=80=9918 takes place in Montreal, Quebec, Canada, the =
+venue of the IETF-102 meeting , on Monday, July 16, 2018.
+Paper submission deadline (extended) 	April 23, 2018 (really close!)
+https://irtf.org/anrw/2018/ <https://irtf.org/anrw/2018/>=20
+
+* 14th Asian Internet Engineering Conference (AINTEC), Thailand, 12-14 =
+November 2018, (after IETF 103 https://www.ietf.org/how/meetings/103/ =
+<https://www.ietf.org/how/meetings/103/> also there)
+Abstract registration  18 August 2018
+Full paper submission 2 September 2018
+Conference	12-14 November 2018 =20
+https://interlab.ait.ac.th/aintec2018/ =
+<https://interlab.ait.ac.th/aintec2018/> =20
+
+
+Notes and links from IETF 101:
+
+ * The IETF 101 plenary: The Future of Internet Access =
+https://www.ietf.org/live/ietf101-techplenary/ =
+<https://www.ietf.org/live/ietf101-techplenary/>
+A panel of experts in community networks, the use of spectrum, and =
+satellite access networks discussed recent developments in these areas =
+and their implications for the Internet=E2=80=99s future development. =
+Moderated by Jane Coffin, responsible for development strategy at the =
+Internet Society.
+=20
+The slides:
+Go local: community networks (Leandro Navarro)=C2=A0 =
+<https://datatracker.ietf.org/meeting/101/materials/slides-101-ietf-sessb-=
+go-local-community-networks-leandro-navarro-00>
+How To Connect Everyone (Steve Song)=C2=A0 =
+<https://datatracker.ietf.org/meeting/101/materials/slides-101-ietf-sessb-=
+how-to-connect-everyone-steve-song-00>
+The Future is Up in the Sky (Jonathan Brewer) =
+<https://datatracker.ietf.org/meeting/101/materials/slides-101-ietf-sessb-=
+the-future-is-up-in-the-sky-jonathan-brewer-00>
+=20
+* GAIA WG IETF 101 meeting: (agenda and slides: =
+https://datatracker.ietf.org/meeting/101/session/gaia )
+
+Raw notes of the meeting: (thanks for the anon contributions to the =
+notes during the session)
+
+Insights into RIFE field trial
+Dirk Trossen, RIFE Project
+A description of the RIFE field trial, as part of the guifi.net =
+<http://guifi.net/> network, of an ICN, DTN network
+Deployment flexibility; Service routing; Dual stack: IP, ICN
+Deployments:=20
+    - Tarragona (Catalonia): WiFi based, 6 supernodes, 15 AP=20
+    - laboratory (Barcelona): 3 supernodes WiFi + Eth
+
+Connecting the edges. The UMOBILE project
+Sotiris Diamantopoulos, Research Associate, Athena Research Center
+Information centric & delay-tolerant networking, edge, new application =
+models & services
+Avoid centralisation, move services close to the user, facilitate =
+mobility
+Routing: DABBER protocol, contextualization: social awareness,=20
+
+PiCasso:  Information-Centric Edge Computing Platform for Community Mesh =
+Networks
+Mesh Networking Experience:  qMp case
+Adisorn Lertsinsrubtavee & Mennan Selimi, Cambridge University
+QMP mesh network in Barcelona, a 80 node mesh of about 200 nodes
+Focus: is it possible to run a lot of services in the network?
+network went from 30 to 80 nodes within 2 years
+discovered highly skewed bandwidth distribution, reason: some users are =
+changing transmission power/?? of their devices
+solution: deploy additional devices in strategic places
+Distribute services to the edge with lightweight virutalization (Docker =
+based) with the Picasso service. Automated decision about service =
+location, monitoring system, smart forwarding.
+Results: reduction in latency of service delivery
+
+Questions:
+    Q??: how did you measure the bandwidth capacities?
+    A: we measured with a linux command ?? It's a production network so =
+we were careful not to cause overhead
+    Q: ??, univ of essex: are .. (sorry, didn't catch that)
+    Q: V. Chryssos: what kind of services did you deploy & why these
+    A: first was TahoeLAFS, second was videostream (peerstreamer)
+
+Vassilis Chryssos, Administrator, Sarantaporo.gr =
+<http://sarantaporo.gr/>
+"Empowering local communities to build, maintain and expand their =
+community network"
+Social aspects of the Sarantaporo.gr <http://sarantaporo.gr/> community =
+network.
+Sarantaporo: isolated area, no telcos present
+villagers started building community mesh network, soon 15 neighbor =
+villages joined
+vision: eradicate digital divide, give young ppl a motvation to stay in =
+their region (by giving them opportunities)
+network: 24 backbones connecting 11 villages, 3 farms & 1 camp; 95 =
+access points in the villages; >50 active community memebers (the =
+villagers building & maintaining their network)
+Q juliusz chroboczek: what's the scale of the map on the picture? A: -> =
+map shows ~60 km range
+suggestions for improvements through drawings on maps
+org provides training for villagers to empower them to DIY their network
+Example: Workshop in Flamboro (for farmers, elderly ppl etc, mots >50 =
+yrs old) on how to make an ethernet cable, what is a p2p link, how to =
+troubleshoot their own network
+=3D> Why do they do this? If they don't have internet, their =
+grandchildren won't come!
+Do planning in paper maps from sat images
+Good practices: Support via Instant Messaging app. Celebration, Support, =
+update on progress
+WiFi and Internet connectivity quality very important
+Important: what services can ppl use, what do they need? (don't just =
+deploy ~something~)
+Participants gained awareness on privacy, personal data, surveillance =
+possibilities by learning how the internet works
+The magic? Local riding club expanded the network on their own; older =
+community members support new members, autonomously organize workshops, =
+women participate, farmers use it for their work, collectively buy =
+fertilizer; doctors use it for precriptions,=20
+Next: more workshops, expand
+
+Questions:
+Q: Luis Martinez: How are costs of the network covered (Internet =
+connection, maintenance)?
+A: through EU funding, ISOC(?), local people (node owners) contributing =
+60 =E2=82=AC/year. Also voluntary work (everybody's volunteering).
+A: Hybrid model: ppl in athens cooperate with locals when there's a =
+problem. Internet: Local university provides their internet
+
+Q Adison: sustainability of the network as people join or leave.
+A: As the community grows, more contributions are expected (individual =
+contribs, fests), but they haven't solved the sust problem
+
+Q Richard ??: RE: workshops, What do ppl have difficulties with, has =
+your model been replicated?
+A: things they can't visualized, they can't comprehend. =3D> visualize =
+backbone using maps, don't overcomplicate things.
+A: But! 90% of problems can be solved with basic knowledge on how to =
+make cables, alogn links, position nodes
+A: Regarding "export" of the idea: Hasn't happened yet, but next(this?) =
+summer, they'll migrate to a new village(? not sure if I caught that)
+A: Don't make the partiticpants feel like they're on their own when you =
+leave.
+
+Q: Gareth Thyson: Are there many participants or does the system rely on =
+a few very engaged ppl? What do you do if these peolpe leave?
+A: We've worked w many ppl who have come & gone; we see that in each =
+village there's 1-2 ppl championing the project and inspire others to =
+join. If somebody leaves, someone ese will usually take over, but it =
+takes a lot of community building effort.
+
+Community Cellular Network:  Towards 5G
+Mohamed Kassem, University of Edinburgh, Scotland
+>40% of world population is living in rural areas, often unconnected =
+(52% of world population)
+reason: infrastructure costs (for minimum revenue bc not densely =
+populated or low-income area), non-affordability
+but! universal internet is not just a problem of developing countries: =
+rural areas in UK (for example) are often affected too
+one objective of 5G: close this gap. other ideas: google baloons, =
+leveraging low frequencies (700 mHz), etc.
+New deployment model for the cellular net in rural areas simplicity, =
+scalability, applicablility to new emerged services, cost efficient, =
+adaptability
+Three main components: access nets (LTE small cells), TVWS backhaul (8 =
+MHz channel), Core in the cloud
+TVWS usability:
+selected area in scotland (60 Km) to assess whether TV Whitespace an be =
+used to build low-cost middle mile infrastructure
+usually, availability is used as metric whether TVWS is usable. But this =
+is often inaccurate/overly optimistic! =3D> look at TVWS *usability* =
+instead. Usability is a metric that denotes quality, not quantity
+Problem: TVWS spectrum is fragmented. For high capacity, the possible =
+6/8 mHz channels aren't sufficient. Solution: aggregate too-small =
+channels into usable ones
+Idea was deployed recently in Balquhidder. Focus not so much on distance =
+(1 Km), but on high-quality link.
+
+Questions:
+Q Andres, Cambridge: In DBs, models usually overestimate ??; how (didn't =
+catch that, sry)
+A: In our analysis, we focus on the receiver side. it might be that =
+channel is very interfered with on receiver,, which explains the
+
+Q: Andres, Cambrdige: Have you ot any experience with transport =
+protocols
+A: No, main focus is on PHY performance
+Q: Adisorn, Cambridge: relationship with 5G?
+A: we are thrying to resolve the bottleneck
+A: work with any regulator? No
+
+Q: ?? Richard: The high bandwidth that you need, is that p2p?
+
+IoT Networks and TTN Community IoT
+Jon Brewer, NSRC
+IoT protocols are designed with device & network constraints in mind: =
+low poer/cpu/size; radio propagation issues, etc
+Unfortunately, wifi is still the most popular iot protocol. wifi devices =
+are cheap, but problematic in terms of security, battery consumption...
+Enter IEEE 802.15.4(n): star/tree/mesh topologies, power saving, 128-bit =
+encryption keys, PAN/LAN solution w/out mobility, can be set up by =
+anyone. But! not low-cost because no economics of scale.
+Bad Stuff:=20
+- Lo-Fi, Motenio etc-- cheap toys run unencrypted serial across 433, =
+868, 915 MHz
+- sigfox-- low power, proprietary, limited to 140 12-byte msgs/day, =
+optional encryption, mobility possible (when channel persistent), only =
+sigfox can run rigfox network!
+- weightless/nbIoT ("5G")-- open standard, low power, public key =
+encrypted, mobility scaling, only mobile operators can operate it.
+- LTE-M ("5G")-- uses LTE bse stations, possibly periodic transmissions, =
+can only be run by mobile operators
+- LoRa/LoRaWAN-- bidirectional comms, star-only, multiple levels of =
+encryption, anyone can run a LoRaWAN network. The Thing network builds =
+cmmunity IoT networks all over the world
+Questions:
+    Jon, Cambridge: There's a cool measurement of IoT homes, alarming in =
+terms of data (??)... If you run a lorawan network you'll find you're =
+not alone. we found 12 in london last year, but there's an issue with =
+networks coexisting.
+    J. Ignacio, QMUL: Openness: LoRa one chipset company, IP issues, =
+SigFox: closed
+    Security of the infrastructure.
+
+
+Discussion of informational best practices document and next steps for =
+GAIARG
+Chairs/All
+No time left, further comments in the mailing list.
+
+Your comments are welcome :-)
+
+--
+Jane Coffin and Leandro Navarro (GAIA WG co-chairs)
+
+
+--Apple-Mail=_6E27F544-B026-42FE-9C60-9186D138A4A0
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; line-break: after-white-space;" class=3D""><meta=
+ http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" =
+class=3D""><div style=3D"word-wrap: break-word; -webkit-nbsp-mode: =
+space; line-break: after-white-space;" class=3D""><div id=3D"magicdomid2" =
+class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Dear members =
+of the GAIA WG, a few items to share:</span></div><div id=3D"magicdomid2" =
+class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z"><br =
+class=3D""></span></div><div id=3D"magicdomid2" class=3D"">* <b =
+class=3D"">Call for topics to discuss in the next GAIA WG meeting</b> =
+at&nbsp;IETF 102 Montreal (14 Jul 2018 - 20 Jul 2018) <a =
+href=3D"https://www.ietf.org/how/meetings/102/" =
+class=3D"">https://www.ietf.org/how/meetings/102/</a></div><div =
+id=3D"magicdomid2" class=3D"">Tell us (can be off-list) about =
+topics/presentations/documents you=E2=80=99d like to share/discuss by =
+mid may (Friday 18).</div><div id=3D"magicdomid2" class=3D""><br =
+class=3D""></div><div id=3D"magicdomid2" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">A reminder for =
+upcoming calls for papers and participation:<br class=3D""><br =
+class=3D"">* The&nbsp;<b class=3D"">ANRW&nbsp;=E2=80=9918</b> takes =
+place in Montreal, Quebec, Canada, the venue of the&nbsp;IETF-102 =
+meeting&nbsp;, on Monday, July 16, 2018.<br class=3D"">Paper submission =
+deadline (extended)&nbsp;<span class=3D"Apple-tab-span" =
+style=3D"white-space:pre">	</span>April 23, 2018 <font =
+color=3D"#831100" class=3D""><b class=3D"">(really close!)</b></font><br =
+class=3D""><a href=3D"https://irtf.org/anrw/2018/" =
+class=3D"">https://irtf.org/anrw/2018/</a>&nbsp;</span></div><div =
+id=3D"magicdomid2" class=3D""><br class=3D""></div><div id=3D"magicdomid2"=
+ class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">*<b class=3D""> =
+14th Asian Internet Engineering Conference&nbsp;</b>(AINTEC), =
+Thailand,&nbsp;</span>12-14 November 2018, (after IETF 103 <a =
+href=3D"https://www.ietf.org/how/meetings/103/" =
+class=3D"">https://www.ietf.org/how/meetings/103/</a> also =
+there)</div><div id=3D"magicdomid2" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Abstract =
+registration &nbsp;18 August 2018<br class=3D"">Full paper =
+submission&nbsp;2&nbsp;September 2018<br class=3D"">Conference<span =
+class=3D"Apple-tab-span" style=3D"white-space:pre">	</span>12-14 =
+November 2018&nbsp;&nbsp;<br class=3D""><a =
+href=3D"https://interlab.ait.ac.th/aintec2018/" =
+class=3D"">https://interlab.ait.ac.th/aintec2018/</a>&nbsp;&nbsp;<br =
+class=3D""><br class=3D""><br class=3D""><b class=3D"">Notes and links =
+from IETF 101:<br class=3D""></b><br class=3D"">&nbsp;</span>* <b =
+class=3D"">The IETF 101 plenary:&nbsp;The Future of Internet =
+Access&nbsp;</b><a href=3D"https://www.ietf.org/live/ietf101-techplenary/"=
+ class=3D"">https://www.ietf.org/live/ietf101-techplenary/</a></div><div =
+id=3D"magicdomid2" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">A panel of =
+experts in community networks, the use of spectrum, and satellite access =
+networks discussed recent developments in these areas and their =
+implications for the Internet=E2=80=99s future =
+development.&nbsp;</span>Moderated by&nbsp;Jane Coffin, responsible for =
+development strategy at the&nbsp;Internet Society.</div><div =
+id=3D"magicdomid2" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">&nbsp;<br =
+class=3D"">The slides:<br class=3D""><a =
+href=3D"https://datatracker.ietf.org/meeting/101/materials/slides-101-ietf=
+-sessb-go-local-community-networks-leandro-navarro-00" class=3D"">Go =
+local: community networks (Leandro Navarro)&nbsp;</a><br class=3D""><a =
+href=3D"https://datatracker.ietf.org/meeting/101/materials/slides-101-ietf=
+-sessb-how-to-connect-everyone-steve-song-00" class=3D"">How To Connect =
+Everyone (Steve Song)&nbsp;</a><br class=3D""><a =
+href=3D"https://datatracker.ietf.org/meeting/101/materials/slides-101-ietf=
+-sessb-the-future-is-up-in-the-sky-jonathan-brewer-00" class=3D"">The =
+Future is Up in the Sky (Jonathan Brewer)</a><br =
+class=3D"">&nbsp;</span></div><div id=3D"magicdomid2" class=3D""><b =
+class=3D"">* GAIA WG IETF 101 meeting</b>: (agenda and slides: <a =
+href=3D"https://datatracker.ietf.org/meeting/101/session/gaia" =
+class=3D"">https://datatracker.ietf.org/meeting/101/session/gaia</a> =
+)</div><div id=3D"magicdomid2" class=3D""><br class=3D""></div><div =
+id=3D"magicdomid2" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Raw notes of =
+the </span>meeting: (thanks for the anon contributions to the notes =
+during the session)</div><div id=3D"magicdomid3" class=3D""><br =
+class=3D""></div><div id=3D"magicdomid4" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z b"><b =
+class=3D"">Insights into RIFE field trial</b></span></div><div =
+id=3D"magicdomid5" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z b"><b =
+class=3D"">Dirk Trossen, RIFE Project</b></span></div><div =
+id=3D"magicdomid6" class=3D"">A description of the RIFE field trial, as =
+part of the <a href=3D"http://guifi.net/" class=3D"">guifi.net</a> =
+network, of an ICN, DTN network</div><div id=3D"magicdomid8" =
+class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Depl</span><span=
+ class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">o</span><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">yment =
+flexibility;&nbsp;</span>Service routing; Dual stack: IP, ICN</div><div =
+id=3D"magicdomid11" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Deployments:&nbs=
+p;</span></div><div id=3D"magicdomid12" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">&nbsp;&nbsp;&nbs=
+p; - Tarragona (Catalonia): WiFi based, 6 supernodes, 15 =
+AP&nbsp;</span></div><div id=3D"magicdomid13" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">&nbsp;&nbsp;&nbs=
+p; - laboratory (Barcelona): 3 supernodes WiFi + Eth</span></div><div =
+id=3D"magicdomid14" class=3D""><br class=3D""></div><div =
+id=3D"magicdomid15" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z b"><b =
+class=3D"">Connecting the edges. The UMOBILE =
+project</b></span></div><div id=3D"magicdomid16" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z b"><b =
+class=3D"">Sotiris Diamantopoulos, Research Associate, Athena Research =
+Center</b></span></div><div id=3D"magicdomid17" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Information =
+centric &amp; delay-tolerant networking, edge, new application models =
+&amp; services</span></div><div id=3D"magicdomid18" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Avoid =
+centralisation, move services close to the user, facilitate =
+mobility</span></div><div id=3D"magicdomid19" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Routing: =
+DABBER protocol, contextualization: social =
+awareness,&nbsp;</span></div><div id=3D"magicdomid20" class=3D""><br =
+class=3D""></div><div id=3D"magicdomid21" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z b"><b =
+class=3D"">PiCasso:&nbsp; Information-Centric Edge Computing Platform =
+for Community Mesh Networks</b></span></div><div id=3D"magicdomid22" =
+class=3D""><span class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z =
+b"><b class=3D"">Mesh Networking Experience:&nbsp; qMp =
+case</b></span></div><div id=3D"magicdomid23" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z b"><b =
+class=3D"">Adisorn Lertsinsrubtavee &amp; Mennan Selimi, Cambridge =
+University</b></span></div><div id=3D"magicdomid24" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">QMP mesh =
+network in Barcelona, a 80 node mesh of about 200 nodes</span></div><div =
+id=3D"magicdomid25" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">Focus: is it possible =
+to run a lot of services in the network?</span></div><div =
+id=3D"magicdomid26" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">network went from 30 to =
+80 nodes within 2 years</span></div><div id=3D"magicdomid27" =
+class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">discovered highly =
+skewed bandwidth distribution, reason: some users are changing =
+transmission power/?? of their devices</span></div><div =
+id=3D"magicdomid28" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">solution: deploy =
+additional devices in strategic places</span></div><div =
+id=3D"magicdomid29" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Distribute =
+services to the edge with lightweight virutalization (Docker based) with =
+the Picasso service. Automated decision about service location, =
+monitoring system, smart forwarding.</span></div><div id=3D"magicdomid30" =
+class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Results: =
+reduction in latency of service delivery</span></div><div =
+id=3D"magicdomid31" class=3D""><br class=3D""></div><div =
+id=3D"magicdomid32" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">Questions:</span></div><d=
+iv id=3D"magicdomid33" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">&nbsp; &nbsp; Q??: how =
+did you measure the bandwidth capacities?</span></div><div =
+id=3D"magicdomid33" class=3D"">&nbsp; &nbsp; A: we measured with a linux =
+command ?? It's a production network so we were careful not to cause =
+overhead</div><div id=3D"magicdomid35" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">&nbsp; &nbsp; Q: ??, =
+univ of essex: are .. (sorry, didn't catch that)</span></div><div =
+id=3D"magicdomid36" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">&nbsp; &nbsp; =
+Q:&nbsp;</span><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">V. =
+Chryssos</span><span class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">: =
+what kind of services did you deploy &amp; why these</span></div><div =
+id=3D"magicdomid36" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">&nbsp; &nbsp; A: first =
+was </span><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">TahoeLAFS,</span=
+><span class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw"> second was =
+videostream</span><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z"> =
+(peerstreamer)</span></div><div id=3D"magicdomid38" class=3D""><br =
+class=3D""></div><div id=3D"magicdomid39" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z b"><b =
+class=3D"">Vassilis Chryssos, Administrator, <a =
+href=3D"http://sarantaporo.gr/" =
+class=3D"">Sarantaporo.gr</a></b></span></div><div id=3D"magicdomid40" =
+class=3D""><span class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z =
+b"><b class=3D"">"Empowering local communities to build, maintain and =
+expand their community network"</b></span></div><div id=3D"magicdomid41" =
+class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Social aspects =
+of the <a href=3D"http://sarantaporo.gr/" class=3D"">Sarantaporo.gr</a> =
+community network.</span></div><div id=3D"magicdomid42" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">Sarantaporo: isolated =
+area, no telcos present</span></div><div id=3D"magicdomid43" =
+class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">villagers started =
+building community mesh network, soon 15 neighbor villages =
+joined</span></div><div id=3D"magicdomid44" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">vision: eradicate =
+digital divide, give young ppl a motvation to stay in their region (by =
+giving them opportunities)</span></div><div id=3D"magicdomid45" =
+class=3D""><span class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">network:=
+ 24 backbones connecting 11 villages, 3 farms &amp; 1 camp; 95 access =
+points in the villages; &gt;50 active community memebers (the villagers =
+building &amp; maintaining their network)</span></div><div =
+id=3D"magicdomid46" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">Q juliusz chroboczek: =
+what's the scale of the map on the picture? A:&nbsp;</span>-&gt; map =
+shows ~60 km range</div><div id=3D"magicdomid48" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">suggestions for =
+improvements through drawings on maps</span></div><div id=3D"magicdomid49"=
+ class=3D""><span class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">org =
+provides training for villagers to empower them to DIY their =
+network</span></div><div id=3D"magicdomid50" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">Example: Workshop in =
+Flamboro (for farmers, elderly ppl etc, mots &gt;50 yrs old) on how to =
+make an ethernet cable, what is a p2p link, how to troubleshoot their =
+own network</span></div><div id=3D"magicdomid51" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">=3D&gt; Why do they do =
+this? If they don't have internet, their grandchildren won't =
+come!</span></div><div id=3D"magicdomid52" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Do planning in =
+paper maps from sat images</span></div><div id=3D"magicdomid53" =
+class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Good =
+practices: Support via Instant Messaging app. Celebration, Support, =
+update on progress</span></div><div id=3D"magicdomid54" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">WiFi and =
+Internet connectivity quality very important</span></div><div =
+id=3D"magicdomid55" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">Important: what =
+services can ppl use, what do they need? (don't just deploy =
+~something~)</span></div><div id=3D"magicdomid56" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">Participants gained =
+awareness on privacy, personal data, surveillance possibilities by =
+learning how the internet works</span></div><div id=3D"magicdomid57" =
+class=3D""><span class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">The =
+magic? Local riding club expanded the network on their own; older =
+community members support new members, autonomously organize workshops, =
+women participate, farmers use it for their work, collectively buy =
+fertilizer; doctors use it for precriptions,&nbsp;</span></div><div =
+id=3D"magicdomid58" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">Next: more workshops, =
+expand</span></div><div id=3D"magicdomid59" class=3D""><br =
+class=3D""></div><div id=3D"magicdomid60" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">Questions:</span></div><d=
+iv id=3D"magicdomid60" class=3D"">Q: Luis Martinez: How are costs of the =
+network covered (Internet connection, maintenance)?</div><div =
+id=3D"magicdomid60" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">A: through EU funding, =
+ISOC(?), local people</span><span =
+class=3D"author-a-1jz74zywv2z71zez89zz78zz81zfkin"> (node =
+owners)</span><span class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw"> =
+contributing 6</span><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">0 </span><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">=E2=82=AC/year. Also =
+voluntary work (everybody's volunteering).</span></div><div =
+id=3D"magicdomid60" class=3D"">A: Hybrid model: ppl in athens cooperate =
+with locals when there's a problem. Internet: Local university provides =
+their internet</div><div id=3D"magicdomid60" class=3D""><br =
+class=3D""></div><div id=3D"magicdomid60" class=3D"">Q Adison: =
+sustainability of the network as people join or leave.</div><div =
+id=3D"magicdomid60" class=3D"">A: As the community grows, more =
+contributions are expected (individual contribs, fests), but they =
+haven't solved the sust problem</div><div id=3D"magicdomid60" =
+class=3D""><br class=3D""></div><div id=3D"magicdomid60" class=3D"">Q =
+Richard ??: RE: workshops, What do ppl have difficulties with, has your =
+model been replicated?</div><div id=3D"magicdomid60" class=3D"">A: =
+things they can't visualized, they can't comprehend. =3D&gt; visualize =
+backbone using maps, don't overcomplicate things.</div><div =
+id=3D"magicdomid60" class=3D"">A: But! 90% of problems can be solved =
+with basic knowledge on how to make cables, alogn links, position =
+nodes</div><div id=3D"magicdomid60" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">A: Regarding "export" =
+of the idea: Hasn't happened yet, but next(this?) summer, they'll =
+migrate to a new </span><span =
+class=3D"author-a-nz87zz70zg6z79zgz66zz75z7z78zz75zz87zz70z5d">village</sp=
+an><span class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">(? not sure if =
+I caught that)</span></div><div id=3D"magicdomid60" class=3D"">A: Don't =
+make the partiticpants feel like they're on their own when you =
+leave.</div><div id=3D"magicdomid71" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw"><br =
+class=3D""></span></div><div id=3D"magicdomid71" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">Q:&nbsp;</span><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Gareth</span><sp=
+an class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw"> </span><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Thyson</span><sp=
+an class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">:&nbsp;</span>Are =
+there many participants or does the system rely on a few very engaged =
+ppl? What do you do if these peolpe leave?</div><div id=3D"magicdomid71" =
+class=3D"">A: We've worked w many ppl who have come &amp; gone; we see =
+that in each village there's 1-2 ppl championing the project and inspire =
+others to join. If somebody leaves, someone ese will usually take over, =
+but it takes a lot of community building effort.</div><div =
+id=3D"magicdomid74" class=3D""><br class=3D""></div><div =
+id=3D"magicdomid75" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z b"><b =
+class=3D"">Community Cellular Network:&nbsp; Towards =
+5G</b></span></div><div id=3D"magicdomid76" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z b"><b =
+class=3D"">Mohamed Kassem, University of Edinburgh, =
+Scotland</b></span></div><div id=3D"magicdomid77" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">&gt;40% of world =
+population is living in rural areas, often unconnected (52% of world =
+population)</span></div><div id=3D"magicdomid78" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">reason: infrastructure =
+costs (for minimum revenue bc not densely populated or low-income area), =
+non-affordability</span></div><div id=3D"magicdomid79" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">but! universal internet =
+is not just a problem of developing countries: rural areas in UK (for =
+example) are often affected too</span></div><div id=3D"magicdomid80" =
+class=3D""><span class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">one =
+objective of 5G: close this gap. other </span><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">i</span><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">dea</span><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">s</span><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">: go</span><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">o</span><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">gle baloons, leveraging =
+low frequencies (700 mHz), </span><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">etc.</span></div=
+><div id=3D"magicdomid81" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">New deployment =
+model for the cellular net in rural areas simplicity, </span><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">sca</span><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">lability, =
+applicablility to new emerged services, cost efficient, =
+adaptability</span></div><div id=3D"magicdomid82" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Three main =
+components: access nets (LTE small cells), TVWS backhaul (8 MHz =
+channel), Core in the cloud</span></div><div id=3D"magicdomid83" =
+class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">TVWS =
+usability:</span></div><div id=3D"magicdomid84" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">selected area in =
+scotland </span><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">(60 Km) =
+</span><span class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">to assess =
+whether TV Whitespace an be used to build low-cost middle mile =
+infrastructure</span></div><div id=3D"magicdomid85" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">usually, availability =
+is used as metric whether TVWS is usable. But this is often =
+inaccurate/overly optimistic! =3D&gt; look at TVWS *usability* instead. =
+Usability is a metric that denotes quality, not =
+quantity</span></div><div id=3D"magicdomid86" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">Problem: TVWS spectrum =
+is fragmented. For high capacity, the possible 6/8 mHz channels aren't =
+sufficient. Solution: aggregate too-small channels into usable =
+ones</span></div><div id=3D"magicdomid87" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">Idea was deployed =
+recently in Balquhidder. Focus not so much on distance</span><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z"> (1 =
+Km)</span><span class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">, but =
+on high-quality link.</span></div><div id=3D"magicdomid88" class=3D""><br =
+class=3D""></div><div id=3D"magicdomid89" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">Questions:</span></div><d=
+iv id=3D"magicdomid90" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">Q Andres, =
+Cambri</span><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">d</span><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">ge: In DBs, models =
+usually overestimate ??; how (didn't catch that, sry)</span></div><div =
+id=3D"magicdomid90" class=3D"">A: In our analysis, we focus on the =
+receiver side. it might be that channel is very interfered with on =
+receiver,, which explains the</div><div id=3D"magicdomid90" class=3D""><br=
+ class=3D""></div><div id=3D"magicdomid90" class=3D"">Q: Andres, =
+Cambrdige: Have you ot any experience with transport protocols</div><div =
+id=3D"magicdomid93" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">A: No, main focus is on =
+PHY performance</span></div><div id=3D"magicdomid94" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">Q:&nbsp;</span><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Adisorn, =
+Cambridge</span><span class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">: =
+</span><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">relationship =
+with 5G?</span></div><div id=3D"magicdomid94" class=3D"">A: we are =
+thrying to resolve the bottleneck</div><div id=3D"magicdomid94" =
+class=3D"">A: work with any regulator? No</div><div id=3D"magicdomid94" =
+class=3D""><span class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw"><br =
+class=3D""></span></div><div id=3D"magicdomid94" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">Q: ??</span><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z"> =
+Richard</span><span class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">: =
+The high bandwidth that you need, is that p2p?</span></div><div =
+id=3D"magicdomid99" class=3D""><br class=3D""></div><div =
+id=3D"magicdomid100" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z b"><b =
+class=3D"">IoT Networks and TTN Community IoT</b></span></div><div =
+id=3D"magicdomid101" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z b"><b =
+class=3D"">Jon Brewer, NSRC</b></span></div><div id=3D"magicdomid102" =
+class=3D""><span class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">IoT =
+protocols are designed with device &amp; network constraints in mind: =
+low poer/cpu/size; radio propagation issues, etc</span></div><div =
+id=3D"magicdomid103" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">Unfortunately, wifi is =
+still the most popular iot protocol. wifi devices are cheap, but =
+problematic in terms of security, battery =
+consumption...</span></div><div id=3D"magicdomid104" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">Enter IEEE 802.15.4(n): =
+star/tree/mesh topologies, power saving, 128-bit encryption keys, =
+PAN/LAN solution w/out mobility, can be set up by anyone. But! not =
+low-cost because no economics of scale.</span></div><div =
+id=3D"magicdomid105" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">Bad =
+Stuff:&nbsp;</span></div><div id=3D"magicdomid106" class=3D""><ul =
+class=3D"list-indent1"><li class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">- Lo-Fi, Motenio etc-- =
+cheap toys run unencrypted serial across 433, 868, 915 =
+MHz</span></li></ul></div><div id=3D"magicdomid107" class=3D""><ul =
+class=3D"list-indent1"><li class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">- sigfox-- low power, =
+proprietary, limited to 140 12-byte msgs/day, optional encryption, =
+mobility possible (when channel persistent), only sigfox can run rigfox =
+network!</span></li></ul></div><div id=3D"magicdomid108" class=3D""><ul =
+class=3D"list-indent1"><li class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">- weightless/nbIoT =
+("5G")-- open standard, low power, public key encrypted, mobility =
+scaling, only mobile operators can operate =
+it.</span></li></ul></div><div id=3D"magicdomid109" class=3D""><ul =
+class=3D"list-indent1"><li class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">- LTE-M ("5G")-- uses =
+LTE bse stations, possibly periodic transmissions, can only be run by =
+mobile operators</span></li></ul></div><div id=3D"magicdomid110" =
+class=3D""><ul class=3D"list-indent1"><li class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">- LoRa/LoRaWAN-- =
+bidirectional comms, star-only, multiple levels of encryption, anyone =
+can run a LoRaWAN network. The Thing network builds cmmunity IoT =
+networks all over the world</span></li></ul></div><div =
+id=3D"magicdomid112" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">Questions:</span></div><d=
+iv id=3D"magicdomid113" class=3D""><span =
+class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">&nbsp;&nbsp;&nbsp; =
+</span><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Jon, =
+Cambridge</span><span class=3D"author-a-nz65zz122z9z67zqww8mnllz70zfw">: =
+There's a cool measurement of IoT homes, alarming in terms of data =
+(??)... If you run a lorawan network you'll find you're not alone. we =
+found 12 in london last year, but there's an issue with networks =
+coexisting.</span></div><div id=3D"magicdomid114" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">&nbsp;&nbsp;&nbs=
+p; J. Ignacio, QMUL: Openness: LoRa one chipset company, IP issues, =
+SigFox: closed</span></div><div id=3D"magicdomid115" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">&nbsp;&nbsp;&nbs=
+p; Security of the infrastructure.</span></div><div id=3D"magicdomid116" =
+class=3D""><br class=3D""></div><div id=3D"magicdomid117" class=3D""><br =
+class=3D""></div><div id=3D"magicdomid118" class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z b"><b =
+class=3D"">Discussion of informational best practices document and next =
+steps for GAIARG</b></span></div><div id=3D"magicdomid119" =
+class=3D""><span class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z =
+b"><b class=3D"">Chairs/All</b></span></div><div id=3D"magicdomid121" =
+class=3D""><span =
+class=3D"author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">No time left, =
+further comments in the mailing list.</span></div><div =
+id=3D"magicdomid122" class=3D""><br class=3D""></div><div =
+id=3D"magicdomid123" class=3D"">Your comments are welcome :-)</div><div =
+class=3D"">
+<div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; orphans: =
+auto; text-align: start; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><br class=3D""></div><div style=3D"color: rgb(0, 0, 0); =
+letter-spacing: normal; orphans: auto; text-align: start; text-indent: =
+0px; text-transform: none; white-space: normal; widows: auto; =
+word-spacing: 0px; -webkit-text-stroke-width: 0px; word-wrap: =
+break-word; -webkit-nbsp-mode: space; -webkit-line-break: =
+after-white-space;" class=3D"">--</div><div style=3D"color: rgb(0, 0, =
+0); letter-spacing: normal; orphans: auto; text-align: start; =
+text-indent: 0px; text-transform: none; white-space: normal; widows: =
+auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; word-wrap: =
+break-word; -webkit-nbsp-mode: space; -webkit-line-break: =
+after-white-space;" class=3D"">Jane Coffin and Leandro Navarro (GAIA WG =
+co-chairs)</div>
+
+</div>
+
+</div><br class=3D""></body></html>=
+
+--Apple-Mail=_6E27F544-B026-42FE-9C60-9186D138A4A0--
+
+
+From nobody Sat Apr 21 06:45:38 2018
+Return-Path: <vchryssos@sarantaporo.gr>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 25DF1127077 for <gaia@ietfa.amsl.com>; Sat, 21 Apr 2018 06:45:36 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.609
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.609 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-0.7, SPF_PASS=-0.001, T_DKIMWL_WL_MED=-0.01, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=sarantaporo-gr.20150623.gappssmtp.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id R15ILv9Z8HAE for <gaia@ietfa.amsl.com>; Sat, 21 Apr 2018 06:45:31 -0700 (PDT)
+Received: from mail-oi0-x22c.google.com (mail-oi0-x22c.google.com [IPv6:2607:f8b0:4003:c06::22c]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 174FF126CC7 for <gaia@irtf.org>; Sat, 21 Apr 2018 06:45:31 -0700 (PDT)
+Received: by mail-oi0-x22c.google.com with SMTP id 188-v6so10440491oih.8 for <gaia@irtf.org>; Sat, 21 Apr 2018 06:45:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sarantaporo-gr.20150623.gappssmtp.com; s=20150623; h=mime-version:in-reply-to:references:from:date:message-id:subject:to :cc; bh=nbbqR5JbaT2q8OGtPk3FIhgisQp0uZGf6XNmzrYS+rc=; b=H0ERAykYshSDAgQEqDc+JvreT44Wr3UkvIIwyp7ye4QwZIV35JVpIjPRp3y7jN+LCt SYDpYaIcLwPjMOaxh/3mftP61d5uFECDfOy4dIAHNh1V3CUNmQEx0RZQIbdNT97M+zpC boPGqoA3+6pKGNIMrkRQW9Pl0lNAhihgs3zyTTJo3CGE9slXOXmLeJ1cUX8U3dsBjmVU CcFK67QoWm+cvtOiRE1nZORgJbkt9bhKWyRKxilXKfRNZ80maWCGugFFk6LDIGgY2lfW xnK7WuGjbElfRfnaZqNtKihiMv9Q8yiT+pOYVPUZo5KJLydO6Ah1rnAnsEyJexC9CM6E RqNg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:in-reply-to:references:from:date :message-id:subject:to:cc; bh=nbbqR5JbaT2q8OGtPk3FIhgisQp0uZGf6XNmzrYS+rc=; b=jIzFoy8XYDyRIwNbVo9XF5DD6ffxkQkkeho+XIcLQDLV9XwO79jEFpHkHQm5FQ2isF NTiVrd3s9C3QdE33o1X4U9IDki2JEyHXMHds036tPRZ0hL4U847x3e10m6aHT1/OVD2y 40ns0QEiEFCqDIRSOUhviDC8IvglDGmQtuBHs27IWOld++MlV0GZSQAJi03GZPBO31Gb Poi8TNYX1mBBrN4Df7C1VCnEd19a8yZHXu+jot1bHOv7MYJNpMS3xKsvUi7ZOvq/MbsY +4YO3kA+bVe2j5tYl0Jcm/gLouB6ZmUMVCmqLn00djELeEGrAEVsi71XP6ri4NHQrB9F FWIg==
+X-Gm-Message-State: ALQs6tDJohLtKY5Ijt4/9yL2FrI6fsg3eMobttH5HYY1QngJXMvYEnjN GKnx5OdwhAauIwp9VZF2+wWGBkR22Lwh2o/ey8VI/g==
+X-Google-Smtp-Source: AIpwx49hT4+d9jd1pCIw3POHzhzX6qV0VR76XnTTNcWi5HKx1/M/vN6kUR7nxJXiG8RULcPw7YwVslIdzkugQ2O64pE=
+X-Received: by 2002:aca:4f91:: with SMTP id d139-v6mr9004461oib.267.1524318330217;  Sat, 21 Apr 2018 06:45:30 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.201.15.90 with HTTP; Sat, 21 Apr 2018 06:45:09 -0700 (PDT)
+X-Originating-IP: [77.69.9.175]
+In-Reply-To: <68D1C0AE-3668-4976-8A8E-84370E517765@ac.upc.edu>
+References: <68D1C0AE-3668-4976-8A8E-84370E517765@ac.upc.edu>
+From: Vasilis Chryssos <vchryssos@sarantaporo.gr>
+Date: Sat, 21 Apr 2018 16:45:09 +0300
+Message-ID: <CABGqjDbZzdVdek8oSNK_BF=QtLycB1jen6YFOpy3m9+waNAsXQ@mail.gmail.com>
+To: Leandro Navarro <leandro@ac.upc.edu>
+Cc: gaia <gaia@irtf.org>
+Content-Type: multipart/alternative; boundary="00000000000098fe2b056a5c0453"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/PjyfsseAug8lH9bbM-nifDPMcZM>
+Subject: Re: [gaia] Update about recent and upcoming GAIA activities to participate
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Sat, 21 Apr 2018 13:45:36 -0000
+
+--00000000000098fe2b056a5c0453
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Some clarifications on Leandro's questions about the Sarantaporo.gr
+presentation, below..
+
+cheers!
+
+2018-04-21 15:44 GMT+03:00 Leandro Navarro <leandro@ac.upc.edu>:
+
+> Dear members of the GAIA WG, a few items to share:
+>
+> * *Call for topics to discuss in the next GAIA WG meeting* at IETF 102
+> Montreal (14 Jul 2018 - 20 Jul 2018) https://www.ietf.org/how/
+> meetings/102/
+> Tell us (can be off-list) about topics/presentations/documents you=E2=80=
+=99d like
+> to share/discuss by mid may (Friday 18).
+>
+> A reminder for upcoming calls for papers and participation:
+>
+> * The *ANRW =E2=80=9918* takes place in Montreal, Quebec, Canada, the ven=
+ue of
+> the IETF-102 meeting , on Monday, July 16, 2018.
+> Paper submission deadline (extended)  April 23, 2018 *(really close!)*
+> https://irtf.org/anrw/2018/
+>
+> ** 14th Asian Internet Engineering Conference *(AINTEC), Thailand, 12-14
+> November 2018, (after IETF 103 https://www.ietf.org/how/meetings/103/
+> also there)
+> Abstract registration  18 August 2018
+> Full paper submission 2 September 2018
+> Conference 12-14 November 2018
+> https://interlab.ait.ac.th/aintec2018/
+>
+>
+>
+> *Notes and links from IETF 101:*
+>  * *The IETF 101 plenary: The Future of Internet Access *
+> https://www.ietf.org/live/ietf101-techplenary/
+> A panel of experts in community networks, the use of spectrum, and
+> satellite access networks discussed recent developments in these areas an=
+d
+> their implications for the Internet=E2=80=99s future development. Moderat=
+ed
+> by Jane Coffin, responsible for development strategy at the Internet
+> Society.
+>
+> The slides:
+> Go local: community networks (Leandro Navarro)
+> <https://datatracker.ietf.org/meeting/101/materials/slides-101-ietf-sessb=
+-go-local-community-networks-leandro-navarro-00>
+> How To Connect Everyone (Steve Song)
+> <https://datatracker.ietf.org/meeting/101/materials/slides-101-ietf-sessb=
+-how-to-connect-everyone-steve-song-00>
+> The Future is Up in the Sky (Jonathan Brewer)
+> <https://datatracker.ietf.org/meeting/101/materials/slides-101-ietf-sessb=
+-the-future-is-up-in-the-sky-jonathan-brewer-00>
+>
+> ** GAIA WG IETF 101 meeting*: (agenda and slides:
+> https://datatracker.ietf.org/meeting/101/session/gaia )
+>
+> Raw notes of the meeting: (thanks for the anon contributions to the notes
+> during the session)
+>
+> *Insights into RIFE field trial*
+> *Dirk Trossen, RIFE Project*
+> A description of the RIFE field trial, as part of the guifi.net network,
+> of an ICN, DTN network
+> Deployment flexibility; Service routing; Dual stack: IP, ICN
+> Deployments:
+>     - Tarragona (Catalonia): WiFi based, 6 supernodes, 15 AP
+>     - laboratory (Barcelona): 3 supernodes WiFi + Eth
+>
+> *Connecting the edges. The UMOBILE project*
+> *Sotiris Diamantopoulos, Research Associate, Athena Research Center*
+> Information centric & delay-tolerant networking, edge, new application
+> models & services
+> Avoid centralisation, move services close to the user, facilitate mobilit=
+y
+> Routing: DABBER protocol, contextualization: social awareness,
+>
+> *PiCasso:  Information-Centric Edge Computing Platform for Community Mesh
+> Networks*
+> *Mesh Networking Experience:  qMp case*
+> *Adisorn Lertsinsrubtavee & Mennan Selimi, Cambridge University*
+> QMP mesh network in Barcelona, a 80 node mesh of about 200 nodes
+> Focus: is it possible to run a lot of services in the network?
+> network went from 30 to 80 nodes within 2 years
+> discovered highly skewed bandwidth distribution, reason: some users are
+> changing transmission power/?? of their devices
+> solution: deploy additional devices in strategic places
+> Distribute services to the edge with lightweight virutalization (Docker
+> based) with the Picasso service. Automated decision about service locatio=
+n,
+> monitoring system, smart forwarding.
+> Results: reduction in latency of service delivery
+>
+> Questions:
+>     Q??: how did you measure the bandwidth capacities?
+>     A: we measured with a linux command ?? It's a production network so w=
+e
+> were careful not to cause overhead
+>     Q: ??, univ of essex: are .. (sorry, didn't catch that)
+>     Q: V. Chryssos: what kind of services did you deploy & why these
+>     A: first was TahoeLAFS, second was videostream (peerstreamer)
+>
+> *Vassilis Chryssos, Administrator, Sarantaporo.gr <http://sarantaporo.gr/=
+>*
+> *"Empowering local communities to build, maintain and expand their
+> community network"*
+> Social aspects of the Sarantaporo.gr <http://sarantaporo.gr/> community
+> network.
+> Sarantaporo: isolated area, no telcos present
+> villagers started building community mesh network, soon 15 neighbor
+> villages joined
+> vision: eradicate digital divide, give young ppl a motvation to stay in
+> their region (by giving them opportunities)
+> network: 24 backbones connecting 11 villages, 3 farms & 1 camp; 95 access
+> points in the villages; >50 active community memebers (the villagers
+> building & maintaining their network)
+> Q juliusz chroboczek: what's the scale of the map on the picture? A: ->
+> map shows ~60 km range
+> suggestions for improvements through drawings on maps
+> org provides training for villagers to empower them to DIY their network
+> Example: Workshop in Flamboro (for farmers, elderly ppl etc, mots >50 yrs
+> old) on how to make an ethernet cable, what is a p2p link, how to
+> troubleshoot their own network
+> =3D> Why do they do this? If they don't have internet, their grandchildre=
+n
+> won't come!
+> Do planning in paper maps from sat images
+> Good practices: Support via Instant Messaging app. Celebration, Support,
+> update on progress
+> WiFi and Internet connectivity quality very important
+> Important: what services can ppl use, what do they need? (don't just
+> deploy ~something~)
+> Participants gained awareness on privacy, personal data, surveillance
+> possibilities by learning how the internet works
+> The magic? Local riding club expanded the network on their own; older
+> community members support new members, autonomously organize workshops,
+> women participate, farmers use it for their work, collectively buy
+> fertilizer; doctors use it for precriptions,
+> Next: more workshops, expand
+>
+> Questions:
+> Q: Luis Martinez: How are costs of the network covered (Internet
+> connection, maintenance)?
+> A: through EU funding, ISOC(?)
+>
+
+reference to ISOC's grant to Sarantaporo.gr
+<http://www.sarantaporo.gr/node/405>
+
+
+> local people (node owners) contributing 60 =E2=82=AC/year. Also voluntary=
+ work
+> (everybody's volunteering).
+> A: Hybrid model: ppl in athens cooperate with locals when there's a
+> problem. Internet: Local university provides their internet
+>
+> Q Adison: sustainability of the network as people join or leave.
+> A: As the community grows, more contributions are expected (individual
+> contribs, fests), but they haven't solved the sust problem
+>
+> Q Richard ??: RE: workshops, What do ppl have difficulties with, has your
+> model been replicated?
+> A: things they can't visualized, they can't comprehend. =3D> visualize
+> backbone using maps, don't overcomplicate things.
+> A: But! 90% of problems can be solved with basic knowledge on how to make
+> cables, alogn links, position nodes
+> A: Regarding "export" of the idea: Hasn't happened yet, but next(this?)
+> summer, they'll migrate to a new village(? not sure if I caught that)
+>
+
+This summer we're visiting a village in Epirus region
+<http://www.sarantaporo.gr/node/408> to transfer know-how and set up
+together their first CN node
+
+
+> A: Don't make the partiticpants feel like they're on their own when you
+> leave.
+>
+> Q: Gareth Thyson: Are there many participants or does the system rely on
+> a few very engaged ppl? What do you do if these peolpe leave?
+> A: We've worked w many ppl who have come & gone; we see that in each
+> village there's 1-2 ppl championing the project and inspire others to joi=
+n.
+> If somebody leaves, someone ese will usually take over, but it takes a lo=
+t
+> of community building effort.
+>
+> *Community Cellular Network:  Towards 5G*
+> *Mohamed Kassem, University of Edinburgh, Scotland*
+> >40% of world population is living in rural areas, often unconnected (52%
+> of world population)
+> reason: infrastructure costs (for minimum revenue bc not densely populate=
+d
+> or low-income area), non-affordability
+> but! universal internet is not just a problem of developing countries:
+> rural areas in UK (for example) are often affected too
+> one objective of 5G: close this gap. other ideas: google baloons,
+> leveraging low frequencies (700 mHz), etc.
+> New deployment model for the cellular net in rural areas simplicity, scal=
+ability,
+> applicablility to new emerged services, cost efficient, adaptability
+> Three main components: access nets (LTE small cells), TVWS backhaul (8 MH=
+z
+> channel), Core in the cloud
+> TVWS usability:
+> selected area in scotland (60 Km) to assess whether TV Whitespace an be
+> used to build low-cost middle mile infrastructure
+> usually, availability is used as metric whether TVWS is usable. But this
+> is often inaccurate/overly optimistic! =3D> look at TVWS *usability* inst=
+ead.
+> Usability is a metric that denotes quality, not quantity
+> Problem: TVWS spectrum is fragmented. For high capacity, the possible 6/8
+> mHz channels aren't sufficient. Solution: aggregate too-small channels in=
+to
+> usable ones
+> Idea was deployed recently in Balquhidder. Focus not so much on distance
+> (1 Km), but on high-quality link.
+>
+> Questions:
+> Q Andres, Cambridge: In DBs, models usually overestimate ??; how (didn't
+> catch that, sry)
+> A: In our analysis, we focus on the receiver side. it might be that
+> channel is very interfered with on receiver,, which explains the
+>
+> Q: Andres, Cambrdige: Have you ot any experience with transport protocols
+> A: No, main focus is on PHY performance
+> Q: Adisorn, Cambridge: relationship with 5G?
+> A: we are thrying to resolve the bottleneck
+> A: work with any regulator? No
+>
+> Q: ?? Richard: The high bandwidth that you need, is that p2p?
+>
+> *IoT Networks and TTN Community IoT*
+> *Jon Brewer, NSRC*
+> IoT protocols are designed with device & network constraints in mind: low
+> poer/cpu/size; radio propagation issues, etc
+> Unfortunately, wifi is still the most popular iot protocol. wifi devices
+> are cheap, but problematic in terms of security, battery consumption...
+> Enter IEEE 802.15.4(n): star/tree/mesh topologies, power saving, 128-bit
+> encryption keys, PAN/LAN solution w/out mobility, can be set up by anyone=
+.
+> But! not low-cost because no economics of scale.
+> Bad Stuff:
+>
+>    - - Lo-Fi, Motenio etc-- cheap toys run unencrypted serial across 433,
+>    868, 915 MHz
+>
+>
+>    - - sigfox-- low power, proprietary, limited to 140 12-byte msgs/day,
+>    optional encryption, mobility possible (when channel persistent), only
+>    sigfox can run rigfox network!
+>
+>
+>    - - weightless/nbIoT ("5G")-- open standard, low power, public key
+>    encrypted, mobility scaling, only mobile operators can operate it.
+>
+>
+>    - - LTE-M ("5G")-- uses LTE bse stations, possibly periodic
+>    transmissions, can only be run by mobile operators
+>
+>
+>    - - LoRa/LoRaWAN-- bidirectional comms, star-only, multiple levels of
+>    encryption, anyone can run a LoRaWAN network. The Thing network builds
+>    cmmunity IoT networks all over the world
+>
+> Questions:
+>     Jon, Cambridge: There's a cool measurement of IoT homes, alarming in
+> terms of data (??)... If you run a lorawan network you'll find you're not
+> alone. we found 12 in london last year, but there's an issue with network=
+s
+> coexisting.
+>     J. Ignacio, QMUL: Openness: LoRa one chipset company, IP issues,
+> SigFox: closed
+>     Security of the infrastructure.
+>
+>
+> *Discussion of informational best practices document and next steps for
+> GAIARG*
+> *Chairs/All*
+> No time left, further comments in the mailing list.
+>
+> Your comments are welcome :-)
+>
+> --
+> Jane Coffin and Leandro Navarro (GAIA WG co-chairs)
+>
+>
+> _______________________________________________
+> gaia mailing list
+> gaia@irtf.org
+> https://www.irtf.org/mailman/listinfo/gaia
+>
+>
+
+
+--=20
+
+*Vassilis Chryssos*
+Board Member / Administrator
+
+*Sarantaporo.gr Non Profit Organization*
+28 Karaiskaki str., 10554 Psirri, Athens, Greece
+Tel: +30 211 8002730, Mob: +30 694 794 8786
+Email: vchryssos@sarantaporo.gr, Web: www.sarantaporo.gr
+
+--00000000000098fe2b056a5c0453
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Some clarifications on Leandro&#39;s questions  about=
+ the Sarantaporo.gr presentation, below..<br><br></div>cheers!<br><div><div=
+ class=3D"gmail_extra"><br><div class=3D"gmail_quote">2018-04-21 15:44 GMT+=
+03:00 Leandro Navarro <span dir=3D"ltr">&lt;<a href=3D"mailto:leandro@ac.up=
+c.edu" target=3D"_blank">leandro@ac.upc.edu</a>&gt;</span>:<br><blockquote =
+class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex"><div style=3D"word-wrap:break-word;line-break:after-whit=
+e-space"><div style=3D"word-wrap:break-word;line-break:after-white-space"><=
+div id=3D"m_-8793363298104199642magicdomid2"><span class=3D"m_-879336329810=
+4199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Dear members of the=
+ GAIA WG, a few items to share:</span></div><div id=3D"m_-87933632981041996=
+42magicdomid2"><span class=3D"m_-8793363298104199642author-a-z87z2z86zqoa84=
+z66zhz78zz81z1z122zwz88z"><br></span></div><div id=3D"m_-879336329810419964=
+2magicdomid2">* <b>Call for topics to discuss in the next GAIA WG meeting</=
+b> at=C2=A0IETF 102 Montreal (14 Jul 2018 - 20 Jul 2018) <a href=3D"https:/=
+/www.ietf.org/how/meetings/102/" target=3D"_blank">https://www.ietf.org/how=
+/<wbr>meetings/102/</a></div><div id=3D"m_-8793363298104199642magicdomid2">=
+Tell us (can be off-list) about topics/presentations/documents you=E2=80=99=
+d like to share/discuss by mid may (Friday 18).</div><div id=3D"m_-87933632=
+98104199642magicdomid2"><br></div><div id=3D"m_-8793363298104199642magicdom=
+id2"><span class=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78zz=
+81z1z122zwz88z">A reminder for upcoming calls for papers and participation:=
+<br><br>* The=C2=A0<b>ANRW=C2=A0=E2=80=9918</b> takes place in Montreal, Qu=
+ebec, Canada, the venue of the=C2=A0IETF-102 meeting=C2=A0, on Monday, July=
+ 16, 2018.<br>Paper submission deadline (extended)=C2=A0<span class=3D"m_-8=
+793363298104199642Apple-tab-span" style=3D"white-space:pre-wrap">	</span>Ap=
+ril 23, 2018 <font color=3D"#831100"><b>(really close!)</b></font><br><a hr=
+ef=3D"https://irtf.org/anrw/2018/" target=3D"_blank">https://irtf.org/anrw/=
+2018/</a>=C2=A0</span></div><div id=3D"m_-8793363298104199642magicdomid2"><=
+br></div><div id=3D"m_-8793363298104199642magicdomid2"><span class=3D"m_-87=
+93363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">*<b> 14th=
+ Asian Internet Engineering Conference=C2=A0</b>(AINTEC), Thailand,=C2=A0</=
+span>12-14 November 2018, (after IETF 103 <a href=3D"https://www.ietf.org/h=
+ow/meetings/103/" target=3D"_blank">https://www.ietf.org/how/<wbr>meetings/=
+103/</a> also there)</div><div id=3D"m_-8793363298104199642magicdomid2"><sp=
+an class=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122=
+zwz88z">Abstract registration =C2=A018 August 2018<br>Full paper submission=
+=C2=A02=C2=A0September 2018<br>Conference<span class=3D"m_-8793363298104199=
+642Apple-tab-span" style=3D"white-space:pre-wrap">	</span>12-14 November 20=
+18=C2=A0=C2=A0<br><a href=3D"https://interlab.ait.ac.th/aintec2018/" target=
+=3D"_blank">https://interlab.ait.ac.th/<wbr>aintec2018/</a>=C2=A0=C2=A0<br>=
+<br><br><b>Notes and links from IETF 101:<br></b><br>=C2=A0</span>* <b>The =
+IETF 101 plenary:=C2=A0The Future of Internet Access=C2=A0</b><a href=3D"ht=
+tps://www.ietf.org/live/ietf101-techplenary/" target=3D"_blank">https://www=
+.ietf.org/<wbr>live/ietf101-techplenary/</a></div><div id=3D"m_-87933632981=
+04199642magicdomid2"><span class=3D"m_-8793363298104199642author-a-z87z2z86=
+zqoa84z66zhz78zz81z1z122zwz88z">A panel of experts in community networks, t=
+he use of spectrum, and satellite access networks discussed recent developm=
+ents in these areas and their implications for the Internet=E2=80=99s futur=
+e development.=C2=A0</span>Moderated by=C2=A0Jane Coffin, responsible for d=
+evelopment strategy at the=C2=A0Internet Society.</div><div id=3D"m_-879336=
+3298104199642magicdomid2"><span class=3D"m_-8793363298104199642author-a-z87=
+z2z86zqoa84z66zhz78zz81z1z122zwz88z">=C2=A0<br>The slides:<br><a href=3D"ht=
+tps://datatracker.ietf.org/meeting/101/materials/slides-101-ietf-sessb-go-l=
+ocal-community-networks-leandro-navarro-00" target=3D"_blank">Go local: com=
+munity networks (Leandro Navarro)=C2=A0</a><br><a href=3D"https://datatrack=
+er.ietf.org/meeting/101/materials/slides-101-ietf-sessb-how-to-connect-ever=
+yone-steve-song-00" target=3D"_blank">How To Connect Everyone (Steve Song)=
+=C2=A0</a><br><a href=3D"https://datatracker.ietf.org/meeting/101/materials=
+/slides-101-ietf-sessb-the-future-is-up-in-the-sky-jonathan-brewer-00" targ=
+et=3D"_blank">The Future is Up in the Sky (Jonathan Brewer)</a><br>=C2=A0</=
+span></div><div id=3D"m_-8793363298104199642magicdomid2"><b>* GAIA WG IETF =
+101 meeting</b>: (agenda and slides: <a href=3D"https://datatracker.ietf.or=
+g/meeting/101/session/gaia" target=3D"_blank">https://datatracker.ietf.org/=
+<wbr>meeting/101/session/gaia</a> )</div><div id=3D"m_-8793363298104199642m=
+agicdomid2"><br></div><div id=3D"m_-8793363298104199642magicdomid2"><span c=
+lass=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz8=
+8z">Raw notes of the </span>meeting: (thanks for the anon contributions to =
+the notes during the session)</div><div id=3D"m_-8793363298104199642magicdo=
+mid3"><br></div><div id=3D"m_-8793363298104199642magicdomid4"><span class=
+=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z m=
+_-8793363298104199642b"><b>Insights into RIFE field trial</b></span></div><=
+div id=3D"m_-8793363298104199642magicdomid5"><span class=3D"m_-879336329810=
+4199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z m_-87933632981041996=
+42b"><b>Dirk Trossen, RIFE Project</b></span></div><div id=3D"m_-8793363298=
+104199642magicdomid6">A description of the RIFE field trial, as part of the=
+ <a href=3D"http://guifi.net/" target=3D"_blank">guifi.net</a> network, of =
+an ICN, DTN network</div><div id=3D"m_-8793363298104199642magicdomid8"><spa=
+n class=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122z=
+wz88z">Depl</span><span class=3D"m_-8793363298104199642author-a-nz65zz122z9=
+z67zqww8mnllz70zfw">o</span><span class=3D"m_-8793363298104199642author-a-z=
+87z2z86zqoa84z66zhz78zz81z1z122zwz88z">yment flexibility;=C2=A0</span>Servi=
+ce routing; Dual stack: IP, ICN</div><div id=3D"m_-8793363298104199642magic=
+domid11"><span class=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz=
+78zz81z1z122zwz88z">Deployments:=C2=A0</span></div><div id=3D"m_-8793363298=
+104199642magicdomid12"><span class=3D"m_-8793363298104199642author-a-z87z2z=
+86zqoa84z66zhz78zz81z1z122zwz88z">=C2=A0=C2=A0=C2=A0 - Tarragona (Catalonia=
+): WiFi based, 6 supernodes, 15 AP=C2=A0</span></div><div id=3D"m_-87933632=
+98104199642magicdomid13"><span class=3D"m_-8793363298104199642author-a-z87z=
+2z86zqoa84z66zhz78zz81z1z122zwz88z">=C2=A0=C2=A0=C2=A0 - laboratory (Barcel=
+ona): 3 supernodes WiFi + Eth</span></div><div id=3D"m_-8793363298104199642=
+magicdomid14"><br></div><div id=3D"m_-8793363298104199642magicdomid15"><spa=
+n class=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122z=
+wz88z m_-8793363298104199642b"><b>Connecting the edges. The UMOBILE project=
+</b></span></div><div id=3D"m_-8793363298104199642magicdomid16"><span class=
+=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z m=
+_-8793363298104199642b"><b>Sotiris Diamantopoulos, Research Associate, Athe=
+na Research Center</b></span></div><div id=3D"m_-8793363298104199642magicdo=
+mid17"><span class=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78=
+zz81z1z122zwz88z">Information centric &amp; delay-tolerant networking, edge=
+, new application models &amp; services</span></div><div id=3D"m_-879336329=
+8104199642magicdomid18"><span class=3D"m_-8793363298104199642author-a-z87z2=
+z86zqoa84z66zhz78zz81z1z122zwz88z">Avoid centralisation, move services clos=
+e to the user, facilitate mobility</span></div><div id=3D"m_-87933632981041=
+99642magicdomid19"><span class=3D"m_-8793363298104199642author-a-z87z2z86zq=
+oa84z66zhz78zz81z1z122zwz88z">Routing: DABBER protocol, contextualization: =
+social awareness,=C2=A0</span></div><div id=3D"m_-8793363298104199642magicd=
+omid20"><br></div><div id=3D"m_-8793363298104199642magicdomid21"><span clas=
+s=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z =
+m_-8793363298104199642b"><b>PiCasso:=C2=A0 Information-Centric Edge Computi=
+ng Platform for Community Mesh Networks</b></span></div><div id=3D"m_-87933=
+63298104199642magicdomid22"><span class=3D"m_-8793363298104199642author-a-z=
+87z2z86zqoa84z66zhz78zz81z1z122zwz88z m_-8793363298104199642b"><b>Mesh Netw=
+orking Experience:=C2=A0 qMp case</b></span></div><div id=3D"m_-87933632981=
+04199642magicdomid23"><span class=3D"m_-8793363298104199642author-a-z87z2z8=
+6zqoa84z66zhz78zz81z1z122zwz88z m_-8793363298104199642b"><b>Adisorn Lertsin=
+srubtavee &amp; Mennan Selimi, Cambridge University</b></span></div><div id=
+=3D"m_-8793363298104199642magicdomid24"><span class=3D"m_-87933632981041996=
+42author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">QMP mesh network in Barc=
+elona, a 80 node mesh of about 200 nodes</span></div><div id=3D"m_-87933632=
+98104199642magicdomid25"><span class=3D"m_-8793363298104199642author-a-nz65=
+zz122z9z67zqww8mnllz70zfw">Focus: is it possible to run a lot of services i=
+n the network?</span></div><div id=3D"m_-8793363298104199642magicdomid26"><=
+span class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz70zfw"=
+>network went from 30 to 80 nodes within 2 years</span></div><div id=3D"m_-=
+8793363298104199642magicdomid27"><span class=3D"m_-8793363298104199642autho=
+r-a-nz65zz122z9z67zqww8mnllz70zfw">discovered highly skewed bandwidth distr=
+ibution, reason: some users are changing transmission power/?? of their dev=
+ices</span></div><div id=3D"m_-8793363298104199642magicdomid28"><span class=
+=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz70zfw">solution:=
+ deploy additional devices in strategic places</span></div><div id=3D"m_-87=
+93363298104199642magicdomid29"><span class=3D"m_-8793363298104199642author-=
+a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Distribute services to the edge w=
+ith lightweight virutalization (Docker based) with the Picasso service. Aut=
+omated decision about service location, monitoring system, smart forwarding=
+.</span></div><div id=3D"m_-8793363298104199642magicdomid30"><span class=3D=
+"m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Res=
+ults: reduction in latency of service delivery</span></div><div id=3D"m_-87=
+93363298104199642magicdomid31"><br></div><div id=3D"m_-8793363298104199642m=
+agicdomid32"><span class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zq=
+ww8mnllz70zfw">Questions:</span></div><div id=3D"m_-8793363298104199642magi=
+cdomid33"><span class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8=
+mnllz70zfw">=C2=A0 =C2=A0 Q??: how did you measure the bandwidth capacities=
+?</span></div><div id=3D"m_-8793363298104199642magicdomid33">=C2=A0 =C2=A0 =
+A: we measured with a linux command ?? It&#39;s a production network so we =
+were careful not to cause overhead</div><div id=3D"m_-8793363298104199642ma=
+gicdomid35"><span class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqw=
+w8mnllz70zfw">=C2=A0 =C2=A0 Q: ??, univ of essex: are .. (sorry, didn&#39;t=
+ catch that)</span></div><div id=3D"m_-8793363298104199642magicdomid36"><sp=
+an class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz70zfw">=
+=C2=A0 =C2=A0 Q:=C2=A0</span><span class=3D"m_-8793363298104199642author-a-=
+z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">V. Chryssos</span><span class=3D"m_=
+-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz70zfw">: what kind of =
+services did you deploy &amp; why these</span></div><div id=3D"m_-879336329=
+8104199642magicdomid36"><span class=3D"m_-8793363298104199642author-a-nz65z=
+z122z9z67zqww8mnllz70zfw">=C2=A0 =C2=A0 A: first was </span><span class=3D"=
+m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Taho=
+eLAFS,</span><span class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zq=
+ww8mnllz70zfw"> second was videostream</span><span class=3D"m_-879336329810=
+4199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z"> (peerstreamer)</sp=
+an></div><div id=3D"m_-8793363298104199642magicdomid38"><br></div><div id=
+=3D"m_-8793363298104199642magicdomid39"><span class=3D"m_-87933632981041996=
+42author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z m_-8793363298104199642b">=
+<b>Vassilis Chryssos, Administrator, <a href=3D"http://sarantaporo.gr/" tar=
+get=3D"_blank">Sarantaporo.gr</a></b></span></div><div id=3D"m_-87933632981=
+04199642magicdomid40"><span class=3D"m_-8793363298104199642author-a-z87z2z8=
+6zqoa84z66zhz78zz81z1z122zwz88z m_-8793363298104199642b"><b>&quot;Empowerin=
+g local communities to build, maintain and expand their community network&q=
+uot;</b></span></div><div id=3D"m_-8793363298104199642magicdomid41"><span c=
+lass=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz8=
+8z">Social aspects of the <a href=3D"http://sarantaporo.gr/" target=3D"_bla=
+nk">Sarantaporo.gr</a> community network.</span></div><div id=3D"m_-8793363=
+298104199642magicdomid42"><span class=3D"m_-8793363298104199642author-a-nz6=
+5zz122z9z67zqww8mnllz70zfw">Sarantaporo: isolated area, no telcos present</=
+span></div><div id=3D"m_-8793363298104199642magicdomid43"><span class=3D"m_=
+-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz70zfw">villagers start=
+ed building community mesh network, soon 15 neighbor villages joined</span>=
+</div><div id=3D"m_-8793363298104199642magicdomid44"><span class=3D"m_-8793=
+363298104199642author-a-nz65zz122z9z67zqww8mnllz70zfw">vision: eradicate di=
+gital divide, give young ppl a motvation to stay in their region (by giving=
+ them opportunities)</span></div><div id=3D"m_-8793363298104199642magicdomi=
+d45"><span class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz=
+70zfw">network: 24 backbones connecting 11 villages, 3 farms &amp; 1 camp; =
+95 access points in the villages; &gt;50 active community memebers (the vil=
+lagers building &amp; maintaining their network)</span></div><div id=3D"m_-=
+8793363298104199642magicdomid46"><span class=3D"m_-8793363298104199642autho=
+r-a-nz65zz122z9z67zqww8mnllz70zfw">Q juliusz chroboczek: what&#39;s the sca=
+le of the map on the picture? A:=C2=A0</span>-&gt; map shows ~60 km range</=
+div><div id=3D"m_-8793363298104199642magicdomid48"><span class=3D"m_-879336=
+3298104199642author-a-nz65zz122z9z67zqww8mnllz70zfw">suggestions for improv=
+ements through drawings on maps</span></div><div id=3D"m_-87933632981041996=
+42magicdomid49"><span class=3D"m_-8793363298104199642author-a-nz65zz122z9z6=
+7zqww8mnllz70zfw">org provides training for villagers to empower them to DI=
+Y their network</span></div><div id=3D"m_-8793363298104199642magicdomid50">=
+<span class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz70zfw=
+">Example: Workshop in Flamboro (for farmers, elderly ppl etc, mots &gt;50 =
+yrs old) on how to make an ethernet cable, what is a p2p link, how to troub=
+leshoot their own network</span></div><div id=3D"m_-8793363298104199642magi=
+cdomid51"><span class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8=
+mnllz70zfw">=3D&gt; Why do they do this? If they don&#39;t have internet, t=
+heir grandchildren won&#39;t come!</span></div><div id=3D"m_-87933632981041=
+99642magicdomid52"><span class=3D"m_-8793363298104199642author-a-z87z2z86zq=
+oa84z66zhz78zz81z1z122zwz88z">Do planning in paper maps from sat images</sp=
+an></div><div id=3D"m_-8793363298104199642magicdomid53"><span class=3D"m_-8=
+793363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Good pra=
+ctices: Support via Instant Messaging app. Celebration, Support, update on =
+progress</span></div><div id=3D"m_-8793363298104199642magicdomid54"><span c=
+lass=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz8=
+8z">WiFi and Internet connectivity quality very important</span></div><div =
+id=3D"m_-8793363298104199642magicdomid55"><span class=3D"m_-879336329810419=
+9642author-a-nz65zz122z9z67zqww8mnllz70zfw">Important: what services can pp=
+l use, what do they need? (don&#39;t just deploy ~something~)</span></div><=
+div id=3D"m_-8793363298104199642magicdomid56"><span class=3D"m_-87933632981=
+04199642author-a-nz65zz122z9z67zqww8mnllz70zfw">Participants gained awarene=
+ss on privacy, personal data, surveillance possibilities by learning how th=
+e internet works</span></div><div id=3D"m_-8793363298104199642magicdomid57"=
+><span class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz70zf=
+w">The magic? Local riding club expanded the network on their own; older co=
+mmunity members support new members, autonomously organize workshops, women=
+ participate, farmers use it for their work, collectively buy fertilizer; d=
+octors use it for precriptions,=C2=A0</span></div><div id=3D"m_-87933632981=
+04199642magicdomid58"><span class=3D"m_-8793363298104199642author-a-nz65zz1=
+22z9z67zqww8mnllz70zfw">Next: more workshops, expand</span></div><div id=3D=
+"m_-8793363298104199642magicdomid59"><br></div><div id=3D"m_-87933632981041=
+99642magicdomid60"><span class=3D"m_-8793363298104199642author-a-nz65zz122z=
+9z67zqww8mnllz70zfw">Questions:</span></div><div id=3D"m_-87933632981041996=
+42magicdomid60">Q: Luis Martinez: How are costs of the network covered (Int=
+ernet connection, maintenance)?</div><div id=3D"m_-8793363298104199642magic=
+domid60"><span class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8m=
+nllz70zfw">A: through EU funding, ISOC(?)<br></span></div></div></div></blo=
+ckquote><div><br></div><div>reference to <a href=3D"http://www.sarantaporo.=
+gr/node/405">ISOC&#39;s grant to Sarantaporo.gr</a> <br></div><div>=C2=A0</=
+div><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-lef=
+t:1px #ccc solid;padding-left:1ex"><div style=3D"word-wrap:break-word;line-=
+break:after-white-space"><div style=3D"word-wrap:break-word;line-break:afte=
+r-white-space"><div id=3D"m_-8793363298104199642magicdomid60"><span class=
+=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz70zfw">local peo=
+ple</span><span class=3D"m_-8793363298104199642author-a-1jz74zywv2z71zez89z=
+z78zz81zfkin"> (node owners)</span><span class=3D"m_-8793363298104199642aut=
+hor-a-nz65zz122z9z67zqww8mnllz70zfw"> contributing 6</span><span class=3D"m=
+_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">0 </s=
+pan><span class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz7=
+0zfw">=E2=82=AC/year. Also voluntary work (everybody&#39;s volunteering).</=
+span></div><div id=3D"m_-8793363298104199642magicdomid60">A: Hybrid model: =
+ppl in athens cooperate with locals when there&#39;s a problem. Internet: L=
+ocal university provides their internet</div><div id=3D"m_-8793363298104199=
+642magicdomid60"><br></div><div id=3D"m_-8793363298104199642magicdomid60">Q=
+ Adison: sustainability of the network as people join or leave.</div><div i=
+d=3D"m_-8793363298104199642magicdomid60">A: As the community grows, more co=
+ntributions are expected (individual contribs, fests), but they haven&#39;t=
+ solved the sust problem</div><div id=3D"m_-8793363298104199642magicdomid60=
+"><br></div><div id=3D"m_-8793363298104199642magicdomid60">Q Richard ??: RE=
+: workshops, What do ppl have difficulties with, has your model been replic=
+ated?</div><div id=3D"m_-8793363298104199642magicdomid60">A: things they ca=
+n&#39;t visualized, they can&#39;t comprehend. =3D&gt; visualize backbone u=
+sing maps, don&#39;t overcomplicate things.</div><div id=3D"m_-879336329810=
+4199642magicdomid60">A: But! 90% of problems can be solved with basic knowl=
+edge on how to make cables, alogn links, position nodes</div><div id=3D"m_-=
+8793363298104199642magicdomid60"><span class=3D"m_-8793363298104199642autho=
+r-a-nz65zz122z9z67zqww8mnllz70zfw">A: Regarding &quot;export&quot; of the i=
+dea: Hasn&#39;t happened yet, but next(this?) summer, they&#39;ll migrate t=
+o a new </span><span class=3D"m_-8793363298104199642author-a-nz87zz70zg6z79=
+zgz66zz75z7z78zz75zz87zz70z5d">village</span><span class=3D"m_-879336329810=
+4199642author-a-nz65zz122z9z67zqww8mnllz70zfw">(? not sure if I caught that=
+)</span></div></div></div></blockquote><div><br></div><div>This summer we&#=
+39;re <a href=3D"http://www.sarantaporo.gr/node/408">visiting a village in =
+Epirus region</a> to transfer know-how and set up together their first CN n=
+ode<br></div><div>=C2=A0</div><blockquote class=3D"gmail_quote" style=3D"ma=
+rgin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div style=3D"=
+word-wrap:break-word;line-break:after-white-space"><div style=3D"word-wrap:=
+break-word;line-break:after-white-space"><div id=3D"m_-8793363298104199642m=
+agicdomid60">A: Don&#39;t make the partiticpants feel like they&#39;re on t=
+heir own when you leave.</div><div id=3D"m_-8793363298104199642magicdomid71=
+"><span class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz70z=
+fw"><br></span></div><div id=3D"m_-8793363298104199642magicdomid71"><span c=
+lass=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz70zfw">Q:=C2=
+=A0</span><span class=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66zh=
+z78zz81z1z122zwz88z">Gareth</span><span class=3D"m_-8793363298104199642auth=
+or-a-nz65zz122z9z67zqww8mnllz70zfw"> </span><span class=3D"m_-8793363298104=
+199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">Thyson</span><span c=
+lass=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz70zfw">:=C2=
+=A0</span>Are there many participants or does the system rely on a few very=
+ engaged ppl? What do you do if these peolpe leave?</div><div id=3D"m_-8793=
+363298104199642magicdomid71">A: We&#39;ve worked w many ppl who have come &=
+amp; gone; we see that in each village there&#39;s 1-2 ppl championing the =
+project and inspire others to join. If somebody leaves, someone ese will us=
+ually take over, but it takes a lot of community building effort.</div><div=
+ id=3D"m_-8793363298104199642magicdomid74"><br></div><div id=3D"m_-87933632=
+98104199642magicdomid75"><span class=3D"m_-8793363298104199642author-a-z87z=
+2z86zqoa84z66zhz78zz81z1z122zwz88z m_-8793363298104199642b"><b>Community Ce=
+llular Network:=C2=A0 Towards 5G</b></span></div><div id=3D"m_-879336329810=
+4199642magicdomid76"><span class=3D"m_-8793363298104199642author-a-z87z2z86=
+zqoa84z66zhz78zz81z1z122zwz88z m_-8793363298104199642b"><b>Mohamed Kassem, =
+University of Edinburgh, Scotland</b></span></div><div id=3D"m_-87933632981=
+04199642magicdomid77"><span class=3D"m_-8793363298104199642author-a-nz65zz1=
+22z9z67zqww8mnllz70zfw">&gt;40% of world population is living in rural area=
+s, often unconnected (52% of world population)</span></div><div id=3D"m_-87=
+93363298104199642magicdomid78"><span class=3D"m_-8793363298104199642author-=
+a-nz65zz122z9z67zqww8mnllz70zfw">reason: infrastructure costs (for minimum =
+revenue bc not densely populated or low-income area), non-affordability</sp=
+an></div><div id=3D"m_-8793363298104199642magicdomid79"><span class=3D"m_-8=
+793363298104199642author-a-nz65zz122z9z67zqww8mnllz70zfw">but! universal in=
+ternet is not just a problem of developing countries: rural areas in UK (fo=
+r example) are often affected too</span></div><div id=3D"m_-879336329810419=
+9642magicdomid80"><span class=3D"m_-8793363298104199642author-a-nz65zz122z9=
+z67zqww8mnllz70zfw">one objective of 5G: close this gap. other </span><span=
+ class=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zw=
+z88z">i</span><span class=3D"m_-8793363298104199642author-a-nz65zz122z9z67z=
+qww8mnllz70zfw">dea</span><span class=3D"m_-8793363298104199642author-a-z87=
+z2z86zqoa84z66zhz78zz81z1z122zwz88z">s</span><span class=3D"m_-879336329810=
+4199642author-a-nz65zz122z9z67zqww8mnllz70zfw">: go</span><span class=3D"m_=
+-8793363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">o</spa=
+n><span class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz70z=
+fw">gle baloons, leveraging low frequencies (700 mHz), </span><span class=
+=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">=
+etc.</span></div><div id=3D"m_-8793363298104199642magicdomid81"><span class=
+=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">=
+New deployment model for the cellular net in rural areas simplicity, </span=
+><span class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz70zf=
+w">sca</span><span class=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z6=
+6zhz78zz81z1z122zwz88z">lability, applicablility to new emerged services, c=
+ost efficient, adaptability</span></div><div id=3D"m_-8793363298104199642ma=
+gicdomid82"><span class=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66=
+zhz78zz81z1z122zwz88z">Three main components: access nets (LTE small cells)=
+, TVWS backhaul (8 MHz channel), Core in the cloud</span></div><div id=3D"m=
+_-8793363298104199642magicdomid83"><span class=3D"m_-8793363298104199642aut=
+hor-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">TVWS usability:</span></div><=
+div id=3D"m_-8793363298104199642magicdomid84"><span class=3D"m_-87933632981=
+04199642author-a-nz65zz122z9z67zqww8mnllz70zfw">selected area in scotland <=
+/span><span class=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78z=
+z81z1z122zwz88z">(60 Km) </span><span class=3D"m_-8793363298104199642author=
+-a-nz65zz122z9z67zqww8mnllz70zfw">to assess whether TV Whitespace an be use=
+d to build low-cost middle mile infrastructure</span></div><div id=3D"m_-87=
+93363298104199642magicdomid85"><span class=3D"m_-8793363298104199642author-=
+a-nz65zz122z9z67zqww8mnllz70zfw">usually, availability is used as metric wh=
+ether TVWS is usable. But this is often inaccurate/overly optimistic! =3D&g=
+t; look at TVWS *usability* instead. Usability is a metric that denotes qua=
+lity, not quantity</span></div><div id=3D"m_-8793363298104199642magicdomid8=
+6"><span class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz70=
+zfw">Problem: TVWS spectrum is fragmented. For high capacity, the possible =
+6/8 mHz channels aren&#39;t sufficient. Solution: aggregate too-small chann=
+els into usable ones</span></div><div id=3D"m_-8793363298104199642magicdomi=
+d87"><span class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz=
+70zfw">Idea was deployed recently in Balquhidder. Focus not so much on dist=
+ance</span><span class=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66z=
+hz78zz81z1z122zwz88z"> (1 Km)</span><span class=3D"m_-8793363298104199642au=
+thor-a-nz65zz122z9z67zqww8mnllz70zfw">, but on high-quality link.</span></d=
+iv><div id=3D"m_-8793363298104199642magicdomid88"><br></div><div id=3D"m_-8=
+793363298104199642magicdomid89"><span class=3D"m_-8793363298104199642author=
+-a-nz65zz122z9z67zqww8mnllz70zfw">Questions:</span></div><div id=3D"m_-8793=
+363298104199642magicdomid90"><span class=3D"m_-8793363298104199642author-a-=
+nz65zz122z9z67zqww8mnllz70zfw">Q Andres, Cambri</span><span class=3D"m_-879=
+3363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">d</span><s=
+pan class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz70zfw">=
+ge: In DBs, models usually overestimate ??; how (didn&#39;t catch that, sry=
+)</span></div><div id=3D"m_-8793363298104199642magicdomid90">A: In our anal=
+ysis, we focus on the receiver side. it might be that channel is very inter=
+fered with on receiver,, which explains the</div><div id=3D"m_-879336329810=
+4199642magicdomid90"><br></div><div id=3D"m_-8793363298104199642magicdomid9=
+0">Q: Andres, Cambrdige: Have you ot any experience with transport protocol=
+s</div><div id=3D"m_-8793363298104199642magicdomid93"><span class=3D"m_-879=
+3363298104199642author-a-nz65zz122z9z67zqww8mnllz70zfw">A: No, main focus i=
+s on PHY performance</span></div><div id=3D"m_-8793363298104199642magicdomi=
+d94"><span class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz=
+70zfw">Q:=C2=A0</span><span class=3D"m_-8793363298104199642author-a-z87z2z8=
+6zqoa84z66zhz78zz81z1z122zwz88z">Adisorn, Cambridge</span><span class=3D"m_=
+-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz70zfw">: </span><span =
+class=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz=
+88z">relationship with 5G?</span></div><div id=3D"m_-8793363298104199642mag=
+icdomid94">A: we are thrying to resolve the bottleneck</div><div id=3D"m_-8=
+793363298104199642magicdomid94">A: work with any regulator? No</div><div id=
+=3D"m_-8793363298104199642magicdomid94"><span class=3D"m_-87933632981041996=
+42author-a-nz65zz122z9z67zqww8mnllz70zfw"><br></span></div><div id=3D"m_-87=
+93363298104199642magicdomid94"><span class=3D"m_-8793363298104199642author-=
+a-nz65zz122z9z67zqww8mnllz70zfw">Q: ??</span><span class=3D"m_-879336329810=
+4199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z"> Richard</span><spa=
+n class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz70zfw">: =
+The high bandwidth that you need, is that p2p?</span></div><div id=3D"m_-87=
+93363298104199642magicdomid99"><br></div><div id=3D"m_-8793363298104199642m=
+agicdomid100"><span class=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z=
+66zhz78zz81z1z122zwz88z m_-8793363298104199642b"><b>IoT Networks and TTN Co=
+mmunity IoT</b></span></div><div id=3D"m_-8793363298104199642magicdomid101"=
+><span class=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1=
+z122zwz88z m_-8793363298104199642b"><b>Jon Brewer, NSRC</b></span></div><di=
+v id=3D"m_-8793363298104199642magicdomid102"><span class=3D"m_-879336329810=
+4199642author-a-nz65zz122z9z67zqww8mnllz70zfw">IoT protocols are designed w=
+ith device &amp; network constraints in mind: low poer/cpu/size; radio prop=
+agation issues, etc</span></div><div id=3D"m_-8793363298104199642magicdomid=
+103"><span class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz=
+70zfw">Unfortunately, wifi is still the most popular iot protocol. wifi dev=
+ices are cheap, but problematic in terms of security, battery consumption..=
+.</span></div><div id=3D"m_-8793363298104199642magicdomid104"><span class=
+=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz70zfw">Enter IEE=
+E 802.15.4(n): star/tree/mesh topologies, power saving, 128-bit encryption =
+keys, PAN/LAN solution w/out mobility, can be set up by anyone. But! not lo=
+w-cost because no economics of scale.</span></div><div id=3D"m_-87933632981=
+04199642magicdomid105"><span class=3D"m_-8793363298104199642author-a-nz65zz=
+122z9z67zqww8mnllz70zfw">Bad Stuff:=C2=A0</span></div><div id=3D"m_-8793363=
+298104199642magicdomid106"><ul class=3D"m_-8793363298104199642list-indent1"=
+><li><span class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz=
+70zfw">- Lo-Fi, Motenio etc-- cheap toys run unencrypted serial across 433,=
+ 868, 915 MHz</span></li></ul></div><div id=3D"m_-8793363298104199642magicd=
+omid107"><ul class=3D"m_-8793363298104199642list-indent1"><li><span class=
+=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz70zfw">- sigfox-=
+- low power, proprietary, limited to 140 12-byte msgs/day, optional encrypt=
+ion, mobility possible (when channel persistent), only sigfox can run rigfo=
+x network!</span></li></ul></div><div id=3D"m_-8793363298104199642magicdomi=
+d108"><ul class=3D"m_-8793363298104199642list-indent1"><li><span class=3D"m=
+_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz70zfw">- weightless/n=
+bIoT (&quot;5G&quot;)-- open standard, low power, public key encrypted, mob=
+ility scaling, only mobile operators can operate it.</span></li></ul></div>=
+<div id=3D"m_-8793363298104199642magicdomid109"><ul class=3D"m_-87933632981=
+04199642list-indent1"><li><span class=3D"m_-8793363298104199642author-a-nz6=
+5zz122z9z67zqww8mnllz70zfw">- LTE-M (&quot;5G&quot;)-- uses LTE bse station=
+s, possibly periodic transmissions, can only be run by mobile operators</sp=
+an></li></ul></div><div id=3D"m_-8793363298104199642magicdomid110"><ul clas=
+s=3D"m_-8793363298104199642list-indent1"><li><span class=3D"m_-879336329810=
+4199642author-a-nz65zz122z9z67zqww8mnllz70zfw">- LoRa/LoRaWAN-- bidirection=
+al comms, star-only, multiple levels of encryption, anyone can run a LoRaWA=
+N network. The Thing network builds cmmunity IoT networks all over the worl=
+d</span></li></ul></div><div id=3D"m_-8793363298104199642magicdomid112"><sp=
+an class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz70zfw">Q=
+uestions:</span></div><div id=3D"m_-8793363298104199642magicdomid113"><span=
+ class=3D"m_-8793363298104199642author-a-nz65zz122z9z67zqww8mnllz70zfw">=C2=
+=A0=C2=A0=C2=A0 </span><span class=3D"m_-8793363298104199642author-a-z87z2z=
+86zqoa84z66zhz78zz81z1z122zwz88z">Jon, Cambridge</span><span class=3D"m_-87=
+93363298104199642author-a-nz65zz122z9z67zqww8mnllz70zfw">: There&#39;s a co=
+ol measurement of IoT homes, alarming in terms of data (??)... If you run a=
+ lorawan network you&#39;ll find you&#39;re not alone. we found 12 in londo=
+n last year, but there&#39;s an issue with networks coexisting.</span></div=
+><div id=3D"m_-8793363298104199642magicdomid114"><span class=3D"m_-87933632=
+98104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z">=C2=A0=C2=A0=C2=
+=A0 J. Ignacio, QMUL: Openness: LoRa one chipset company, IP issues, SigFox=
+: closed</span></div><div id=3D"m_-8793363298104199642magicdomid115"><span =
+class=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz=
+88z">=C2=A0=C2=A0=C2=A0 Security of the infrastructure.</span></div><div id=
+=3D"m_-8793363298104199642magicdomid116"><br></div><div id=3D"m_-8793363298=
+104199642magicdomid117"><br></div><div id=3D"m_-8793363298104199642magicdom=
+id118"><span class=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78=
+zz81z1z122zwz88z m_-8793363298104199642b"><b>Discussion of informational be=
+st practices document and next steps for GAIARG</b></span></div><div id=3D"=
+m_-8793363298104199642magicdomid119"><span class=3D"m_-8793363298104199642a=
+uthor-a-z87z2z86zqoa84z66zhz78zz81z1z122zwz88z m_-8793363298104199642b"><b>=
+Chairs/All</b></span></div><div id=3D"m_-8793363298104199642magicdomid121">=
+<span class=3D"m_-8793363298104199642author-a-z87z2z86zqoa84z66zhz78zz81z1z=
+122zwz88z">No time left, further comments in the mailing list.</span></div>=
+<div id=3D"m_-8793363298104199642magicdomid122"><br></div><div id=3D"m_-879=
+3363298104199642magicdomid123">Your comments are welcome :-)</div><div>
+<div style=3D"color:rgb(0,0,0);letter-spacing:normal;text-align:start;text-=
+indent:0px;text-transform:none;white-space:normal;word-spacing:0px;word-wra=
+p:break-word"><br></div><div style=3D"color:rgb(0,0,0);letter-spacing:norma=
+l;text-align:start;text-indent:0px;text-transform:none;white-space:normal;w=
+ord-spacing:0px;word-wrap:break-word">--</div><div style=3D"color:rgb(0,0,0=
+);letter-spacing:normal;text-align:start;text-indent:0px;text-transform:non=
+e;white-space:normal;word-spacing:0px;word-wrap:break-word">Jane Coffin and=
+ Leandro Navarro (GAIA WG co-chairs)</div>
+
+</div>
+
+</div><br></div><br>______________________________<wbr>_________________<br=
+>
+gaia mailing list<br>
+<a href=3D"mailto:gaia@irtf.org">gaia@irtf.org</a><br>
+<a href=3D"https://www.irtf.org/mailman/listinfo/gaia" rel=3D"noreferrer" t=
+arget=3D"_blank">https://www.irtf.org/mailman/<wbr>listinfo/gaia</a><br>
+<br></blockquote></div><br><br clear=3D"all"><br>-- <br><div class=3D"gmail=
+_signature" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div d=
+ir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr=
+"><br><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><b>Vassilis Chryssos=
+</b><br>Board Member / Administrator<br></div><div><br></div><div><b>Sarant=
+aporo.gr Non Profit Organization</b></div><div>28 Karaiskaki str., 10554 Ps=
+irri, Athens, Greece<br></div><div>Tel: <a href=3D"tel:%2B30%20211%20800273=
+0" value=3D"+302118002730" target=3D"_blank">+30 211 8002730</a>, Mob: +30 =
+694 794 8786</div><div><span style=3D"font-size:12.8px">Email: <a href=3D"m=
+ailto:vchryssos@sarantaporo.gr" target=3D"_blank">vchryssos@sarantaporo.gr<=
+/a>, Web: <a href=3D"http://www.sarantaporo.gr" target=3D"_blank">www.saran=
+taporo.gr</a></span></div></div></div></div></div><br></div></div></div></d=
+iv></div></div></div></div></div></div>
+</div></div></div>
+
+--00000000000098fe2b056a5c0453--
+

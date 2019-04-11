@@ -1,0 +1,2929 @@
+
+From nobody Tue Jun 12 23:40:32 2018
+Return-Path: <leandro@ac.upc.edu>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 78CB5130EA0 for <gaia@ietfa.amsl.com>; Tue, 12 Jun 2018 23:40:29 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -4.2
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.2 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_MED=-2.3, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id MeHyhVk5db9q for <gaia@ietfa.amsl.com>; Tue, 12 Jun 2018 23:40:26 -0700 (PDT)
+Received: from roura.ac.upc.es (roura.ac.upc.edu [147.83.33.10]) by ietfa.amsl.com (Postfix) with ESMTP id 2E006130DFA for <gaia@irtf.org>; Tue, 12 Jun 2018 23:40:26 -0700 (PDT)
+Received: from correu-1.ac.upc.es (correu-1.ac.upc.es [147.83.30.91]) by roura.ac.upc.es (8.13.8/8.13.8) with ESMTP id w5D6eP10004650 for <gaia@irtf.org>; Wed, 13 Jun 2018 08:40:25 +0200
+Received: from [192.168.44.164] (unknown [31.221.185.154]) by correu-1.ac.upc.es (Postfix) with ESMTPSA id 97B36379 for <gaia@irtf.org>; Wed, 13 Jun 2018 08:40:19 +0200 (CEST)
+From: Leandro Navarro <leandro@ac.upc.edu>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_9166771D-A5DE-46F6-BC91-FD0C64B9C3B0"
+Mime-Version: 1.0 (Mac OS X Mail 11.4 \(3445.8.2\))
+Message-Id: <03B34773-7C98-40AC-9731-883DE2AE5AF9@ac.upc.edu>
+References: <7f0720c8-cca5-37d5-82c2-a17f8be93a72@utoronto.ca>
+To: gaia <gaia@irtf.org>
+Date: Wed, 13 Jun 2018 08:40:14 +0200
+X-Mailer: Apple Mail (2.3445.8.2)
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/v9PXwlVEmI70fzXb0L7TNBRV2_o>
+Subject: [gaia] Related events
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.26
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 13 Jun 2018 06:40:30 -0000
+
+--Apple-Mail=_9166771D-A5DE-46F6-BC91-FD0C64B9C3B0
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+Hi everyone, info about an upcoming related event in Toronto, and a =
+recent event in Benasque from guifi.net:=20
+
+> I think I mentioned, but wanted to share again, the link for our
+> upcoming event here in Toronto on July 13-18: State of Our Networks
+> (https://ournetworks.ca/), about the past, present, and future of
+> building our own network infrastructures.
+>=20
+> This is our second year, and our theme for 2018 is how we Do It With
+> Others (DIWO) as opposed to just DIY. We have an ambitious schedule =
+with
+> a kickoff Internet Yami-ichi (flea market) Friday, July 13, a 2 day
+> conference full of talks, demos, and workshops from July 14-15 and
+> project sprints following.
+>=20
+> The full program is online:
+> https://ournetworks.ca/conference/program/
+>=20
+> If you know anyone who will be in the area, please share! We are
+> planning on livestreaming the weekend events and test out an over-IPFS
+> stream.
+
+
+A recent event on June 2-3: The guifi.net Community Network had its =
+annual gathering in the Benasque valley.
+The program and videos here: http://sax.guifi.net/2018/ (videos in =
+several languages: castilian spanish, patu=C3=A9s =
+<https://es.wikipedia.org/wiki/Patu%C3%A9s>, catalan)
+
+Kind regards,
+--
+Leandro Navarro
+http://people.ac.upc.edu/leandro	 http://dsg.ac.upc.edu
+
+
+--Apple-Mail=_9166771D-A5DE-46F6-BC91-FD0C64B9C3B0
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; line-break: after-white-space;" =
+class=3D""><div>Hi everyone, info about an upcoming related event in =
+Toronto, and a recent event in Benasque from <a href=3D"http://guifi.net" =
+class=3D"">guifi.net</a>:&nbsp;<br class=3D""><br class=3D""><blockquote =
+type=3D"cite" class=3D""><div class=3D""><div class=3D"">I think I =
+mentioned, but wanted to share again, the link for our<br =
+class=3D"">upcoming event here in Toronto on July 13-18: State of Our =
+Networks<br class=3D"">(<a href=3D"https://ournetworks.ca/" =
+class=3D"">https://ournetworks.ca/</a>), about the past, present, and =
+future of<br class=3D"">building our own network infrastructures.<br =
+class=3D""><br class=3D"">This is our second year, and our theme for =
+2018 is how we Do It With<br class=3D"">Others (DIWO) as opposed to just =
+DIY. We have an ambitious schedule with<br class=3D"">a kickoff Internet =
+Yami-ichi (flea market) Friday, July 13, a 2 day<br class=3D"">conference =
+full of talks, demos, and workshops from July 14-15 and<br =
+class=3D"">project sprints following.<br class=3D""><br class=3D"">The =
+full program is online:<br class=3D""><a =
+href=3D"https://ournetworks.ca/conference/program/" =
+class=3D"">https://ournetworks.ca/conference/program/</a><br =
+class=3D""><br class=3D"">If you know anyone who will be in the area, =
+please share! We are<br class=3D"">planning on livestreaming the weekend =
+events and test out an over-IPFS<br class=3D"">stream.<br =
+class=3D""></div></div></blockquote></div><div><br class=3D""></div><div>A=
+ recent event on June 2-3: The <a href=3D"http://guifi.net" =
+class=3D"">guifi.net</a> Community Network had its annual gathering in =
+the Benasque valley.</div><div>The program and videos here:&nbsp;<a =
+href=3D"http://sax.guifi.net/2018/" =
+class=3D"">http://sax.guifi.net/2018/</a> (videos in several languages: =
+castilian spanish,&nbsp;<a =
+href=3D"https://es.wikipedia.org/wiki/Patu%C3%A9s" class=3D"">patu=C3=A9s<=
+/a>, catalan)</div><div><br class=3D""></div><div>Kind =
+regards,</div><div class=3D"">
+<div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; orphans: =
+auto; text-align: start; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">--<br class=3D"">Leandro Navarro<br class=3D""><a =
+href=3D"http://people.ac.upc.edu/leandro" =
+class=3D"">http://people.ac.upc.edu/leandro</a><span =
+class=3D"Apple-tab-span" style=3D"white-space: pre;">	=
+</span>&nbsp;http://dsg.ac.upc.edu</div>
+
+</div>
+
+<br class=3D""></body></html>=
+
+--Apple-Mail=_9166771D-A5DE-46F6-BC91-FD0C64B9C3B0--
+
+
+From nobody Thu Jun 14 07:27:01 2018
+Return-Path: <becha@xs4all.nl>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 3E9D9130DC0 for <gaia@ietfa.amsl.com>; Thu, 14 Jun 2018 07:27:00 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.2
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.2 tagged_above=-999 required=5 tests=[BAYES_05=-0.5, RCVD_IN_DNSWL_LOW=-0.7, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id A8MeoQTzul98 for <gaia@ietfa.amsl.com>; Thu, 14 Jun 2018 07:26:57 -0700 (PDT)
+Received: from lb3-smtp-cloud7.xs4all.net (lb3-smtp-cloud7.xs4all.net [194.109.24.31]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 4A32912777C for <gaia@irtf.org>; Thu, 14 Jun 2018 07:26:57 -0700 (PDT)
+Received: from xs9.xs4all.nl ([194.109.21.9]) by smtp-cloud7.xs4all.net with ESMTP id TTDBf8gyb6brUTTDBft5cP; Thu, 14 Jun 2018 16:26:55 +0200
+Received: from xs9.xs4all.nl (IDENT:28329@localhost [127.0.0.1]) by xs9.xs4all.nl (8.14.9/8.14.9/Debian-xs4all~5) with ESMTP id w5EEQpjR025145 for <gaia@irtf.org>; Thu, 14 Jun 2018 16:26:51 +0200
+Received: from localhost (becha@localhost) by xs9.xs4all.nl (8.14.9/8.14.9/Submit) with ESMTP id w5EEQpOu025142 for <gaia@irtf.org>; Thu, 14 Jun 2018 16:26:51 +0200
+Date: Thu, 14 Jun 2018 16:26:51 +0200 (CEST)
+From: Vesna Manojlovic <becha@xs4all.nl>
+To: gaia@irtf.org
+Message-ID: <alpine.DEB.2.11.1806141626140.19667@xs9.xs4all.nl>
+User-Agent: Alpine 2.11 (DEB 23 2013-08-11)
+X-NCC-RegId: eu.zz
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-CMAE-Envelope: MS4wfLbEc5cLfbqh4I9Blpv63KhANCpPEA0fT7/ql9sILzR6fEYahHOpEzUUfTG7EEbiQIuVSla4w/s+mfYvIzjvS+G5iLFNJ5dlnlhCXZ4+yozb3iDSo0A/ NWfjxTZj656yk7Q6Vu/DgS1p0h05eWTo76xel3dekjMU8l8X1deiVNbh
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/Bf11zgi0N1F0_M6PLKUGl0zXHIs>
+Subject: [gaia] Two more weeks to apply for funding: RIPE NCC Community Projects Fund (fwd)
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.26
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 14 Jun 2018 14:27:01 -0000
+
+Dear all,
+
+For the second time, RIPE NCC is giving financial support to the
+projects that work "for the good of the Internet".
+
+Applications are open till 29 June 2018:
+https://www.ripe.net/participate/forms/apply/rcpf-application-form/
+
+Take a look at the projects that "won" last time:
+https://www.ripe.net/support/cpf/funding-recipients-2017
+
+Read more on RIPE Labs : guidelines, terms & conditions, background:
+https://labs.ripe.net/Members/alastair_strachan/ripe-ncc-community-projects-fund
+
+Any questions?  projectsfund@ripe.net
+
+Regards,
+and good luck!
+
+Vesna
+
+--
+community, cooperation, commons, squirrels // http://becha.home.xs4all.nl
+nature, anarchy, utopia, un-anthropocene // https://www.unciv.nl // 
+@Ms_Multicolor
+
+
+From nobody Thu Jun 21 03:09:14 2018
+Return-Path: <leandro@ac.upc.edu>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id CD13C130E61 for <gaia@ietfa.amsl.com>; Thu, 21 Jun 2018 03:09:12 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -4.199
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.199 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_MED=-2.3, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id I4bHQkIPw00r for <gaia@ietfa.amsl.com>; Thu, 21 Jun 2018 03:09:08 -0700 (PDT)
+Received: from roura.ac.upc.es (roura.ac.upc.edu [147.83.33.10]) by ietfa.amsl.com (Postfix) with ESMTP id 19ECB130DD9 for <gaia@irtf.org>; Thu, 21 Jun 2018 03:09:07 -0700 (PDT)
+Received: from correu-2.ac.upc.es (correu-2.ac.upc.es [147.83.30.92]) by roura.ac.upc.es (8.13.8/8.13.8) with ESMTP id w5LA96U3003183; Thu, 21 Jun 2018 12:09:06 +0200
+Received: from dync-35-207.ac.upc.es (dync-35-207.ac.upc.es [147.83.35.207]) by correu-2.ac.upc.es (Postfix) with ESMTPSA id F24CF30A; Thu, 21 Jun 2018 12:09:00 +0200 (CEST)
+From: Leandro Navarro <leandro@ac.upc.edu>
+Message-Id: <3684C003-391A-46A8-B9D0-55E6F485C4B7@ac.upc.edu>
+Content-Type: multipart/signed; boundary="Apple-Mail=_0CBEE871-2B6D-4A0B-B1A0-431262530FAD"; protocol="application/pkcs7-signature"; micalg=sha1
+Mime-Version: 1.0 (Mac OS X Mail 11.4 \(3445.8.2\))
+Date: Thu, 21 Jun 2018 12:08:59 +0200
+In-Reply-To: <C02906A1-F822-46E3-A9E1-5550F7265BAF@ac.upc.edu>
+Cc: Jane Coffin <coffin@isoc.org>
+To: "gaia@irtf.org" <gaia@irtf.org>
+References: <76152A2C-E4E3-4445-9E68-52D88D1EB244@isoc.org> <C02906A1-F822-46E3-A9E1-5550F7265BAF@ac.upc.edu>
+X-Mailer: Apple Mail (2.3445.8.2)
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/ZdCL0jNMGisCzGgROndCIUXotR0>
+Subject: Re: [gaia] IETF 102 - Montreal, Canada - 14-20 July - WG Meeting
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.26
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 21 Jun 2018 10:09:14 -0000
+
+--Apple-Mail=_0CBEE871-2B6D-4A0B-B1A0-431262530FAD
+Content-Type: multipart/alternative;
+	boundary="Apple-Mail=_62EF0F48-B1DB-4B31-A720-3F75C89ED35A"
+
+
+--Apple-Mail=_62EF0F48-B1DB-4B31-A720-3F75C89ED35A
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+Hi everyone in GAIA,=20
+
+We have a slot in the first draft of the program: =
+https://datatracker.ietf.org/meeting/102/agenda =
+<https://datatracker.ietf.org/meeting/102/agenda>
+Tuesday 17 	15:50-17:20 	 Tuesday Afternoon session II 	  =20
+Global Access to the Internet for All=20
+
+That is just the day after the IRTF conference: =
+https://irtf.org/anrw/2018/ <https://irtf.org/anrw/2018/>
+
+A reminder to let us know (off list) asap if you want to present so we =
+can prepare the agenda, with preference for diversity (new speakers), =
+and order of arrival.=20
+
+Regards, Jane and Leandro (co-chairs).
+
+> On 6 May 2018, at 15:36, Leandro Navarro <leandro@ac.upc.edu> wrote:
+>=20
+> Hi everyone in GAIA,=20
+>=20
+> We=E2=80=99ll have a WG meeting as part of IETF 102 =
+<https://www.ietf.org/how/meetings/102/> in Montreal. The exact day/time =
+is not yet defined, but will be after ANRW=E2=80=9918 =
+<https://irtf.org/anrw/2018/> (Monday July 16).
+>=20
+> As with previous meetings, this is a great opportunity for those =
+nearby to meet, share ideas, talk about projects, research, results, =
+plans and discuss. Remote participation and presentation will be =
+available.
+>=20
+> The event will have one part for presentations, and another to discuss =
+about best current practices (and draft a document out of that).
+>=20
+> If you plan to come and present let us know off-list so we can prepare =
+the agenda. Tell us before the end of this month to allocate a few =
+slots, with preference for diversity (new speakers), and order of =
+arrival.=20
+>=20
+> Regarding best current practices, our working idea is to collect case =
+studies about different ways to develop networking infrastructures and =
+services. Let us know if you have ideas about how to structure the =
+document, its content, or willing to report on a specific experience. =
+There are related reports or developments, please share to build a good =
+list of sources, collaborations, references to develop this document.
+>=20
+> We can have a conference call sometime in June to discuss and prepare =
+a proposal to discuss in our IETF 102 meeting.
+>=20
+> Regards, Jane and Leandro.
+>=20
+> _______________________________________________
+> gaia mailing list
+> gaia@irtf.org
+> https://www.irtf.org/mailman/listinfo/gaia
+
+--
+Leandro Navarro
+http://people.ac.upc.edu/leandro	 http://dsg.ac.upc.edu
+
+
+--Apple-Mail=_62EF0F48-B1DB-4B31-A720-3F75C89ED35A
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; line-break: after-white-space;" class=3D"">Hi =
+everyone in GAIA,&nbsp;<div class=3D""><br class=3D""></div><div =
+class=3D"">We have a slot in the first draft of the program:&nbsp;<a =
+href=3D"https://datatracker.ietf.org/meeting/102/agenda" =
+class=3D"">https://datatracker.ietf.org/meeting/102/agenda</a><br =
+class=3D"">Tuesday 17&nbsp;<span class=3D"Apple-tab-span" =
+style=3D"white-space: pre;">	</span>15:50-17:20&nbsp;<span =
+class=3D"Apple-tab-span" style=3D"white-space: pre;">	=
+</span>&nbsp;Tuesday&nbsp;Afternoon session II&nbsp;<span =
+class=3D"Apple-tab-span" style=3D"white-space: pre;">	</span>&nbsp; =
+&nbsp;<br class=3D"">Global Access to the Internet for All&nbsp;<div =
+class=3D""><br class=3D""><div class=3D"">That is just the day after the =
+IRTF conference:&nbsp;<a href=3D"https://irtf.org/anrw/2018/" =
+class=3D"">https://irtf.org/anrw/2018/</a></div><div class=3D""><br =
+class=3D""></div><div class=3D"">A reminder to let us know (off list) =
+asap if you want to present so we can prepare the agenda, with =
+preference for diversity (new speakers), and order of =
+arrival.&nbsp;</div><div class=3D""><br class=3D""></div><div =
+class=3D"">Regards, Jane and Leandro (co-chairs).</div><div><br =
+class=3D""><blockquote type=3D"cite" class=3D""><div class=3D"">On 6 May =
+2018, at 15:36, Leandro Navarro &lt;<a href=3D"mailto:leandro@ac.upc.edu" =
+class=3D"">leandro@ac.upc.edu</a>&gt; wrote:</div><br =
+class=3D"Apple-interchange-newline"><div class=3D""><meta =
+http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" =
+class=3D""><div style=3D"word-wrap: break-word; -webkit-nbsp-mode: =
+space; line-break: after-white-space;" class=3D"">Hi everyone in =
+GAIA,&nbsp;<div class=3D""><br class=3D""></div><div class=3D"">We=E2=80=99=
+ll have a WG meeting as part of&nbsp;<a =
+href=3D"https://www.ietf.org/how/meetings/102/" class=3D"">IETF =
+102</a>&nbsp;in Montreal. The exact day/time is not yet defined, but =
+will be after&nbsp;<a href=3D"https://irtf.org/anrw/2018/" =
+class=3D"">ANRW=E2=80=9918</a>&nbsp;(Monday July 16).</div><div =
+class=3D""><br class=3D""></div><div class=3D"">As with previous =
+meetings, this is a great opportunity for those nearby to meet, share =
+ideas, talk about projects, research, results, plans and discuss. Remote =
+participation and presentation will be available.</div><div class=3D""><br=
+ class=3D""></div><div class=3D"">The event will have one part for =
+presentations, and another to discuss about best current practices (and =
+draft a document out of that).</div><div class=3D""><br =
+class=3D""></div><div class=3D"">If you plan to come and&nbsp;<u =
+class=3D"">present</u>&nbsp;let us know off-list so we can prepare the =
+agenda. Tell us before the end of this month to allocate a few slots, =
+with preference for diversity (new speakers), and order of =
+arrival.&nbsp;</div><div class=3D""><br class=3D""></div><div =
+class=3D"">Regarding best current practices, our working idea is to =
+collect case studies about different ways to develop networking =
+infrastructures and services. Let us know if you have ideas about how to =
+structure the document, its content, or willing to report on a specific =
+experience. There are related reports or developments, please share to =
+build a good list of sources, collaborations, references to develop this =
+document.</div><div class=3D""><br class=3D""></div><div class=3D"">We =
+can have a conference call sometime in June to discuss and prepare a =
+proposal to discuss in our IETF 102 meeting.</div><div class=3D""><br =
+class=3D""></div><div class=3D"">Regards, Jane and Leandro.<br =
+class=3D""><div class=3D""></div></div><div class=3D""><br =
+class=3D""></div></div>_______________________________________________<br =
+class=3D"">gaia mailing list<br class=3D""><a =
+href=3D"mailto:gaia@irtf.org" class=3D"">gaia@irtf.org</a><br =
+class=3D"">https://www.irtf.org/mailman/listinfo/gaia<br =
+class=3D""></div></blockquote></div><br class=3D""><div class=3D"">
+<div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; orphans: =
+auto; text-align: start; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">--<br class=3D"">Leandro Navarro<br class=3D""><a =
+href=3D"http://people.ac.upc.edu/leandro" =
+class=3D"">http://people.ac.upc.edu/leandro</a><span =
+class=3D"Apple-tab-span" style=3D"white-space: pre;">	=
+</span>&nbsp;http://dsg.ac.upc.edu</div>
+
+</div>
+<br class=3D""></div></div></body></html>=
+
+--Apple-Mail=_62EF0F48-B1DB-4B31-A720-3F75C89ED35A--
+
+--Apple-Mail=_0CBEE871-2B6D-4A0B-B1A0-431262530FAD
+Content-Disposition: attachment;
+	filename=smime.p7s
+Content-Type: application/pkcs7-signature;
+	name=smime.p7s
+Content-Transfer-Encoding: base64
+
+MIAGCSqGSIb3DQEHAqCAMIACAQExCzAJBgUrDgMCGgUAMIAGCSqGSIb3DQEHAQAAoIIP8zCCB7Aw
+ggaYoAMCAQICEHBAQND9yjwZP6I8J2HqcM4wDQYJKoZIhvcNAQEFBQAwgfMxCzAJBgNVBAYTAkVT
+MTswOQYDVQQKEzJBZ2VuY2lhIENhdGFsYW5hIGRlIENlcnRpZmljYWNpbyAoTklGIFEtMDgwMTE3
+Ni1JKTEoMCYGA1UECxMfU2VydmVpcyBQdWJsaWNzIGRlIENlcnRpZmljYWNpbzE1MDMGA1UECxMs
+VmVnZXUgaHR0cHM6Ly93d3cuY2F0Y2VydC5uZXQvdmVyYXJyZWwgKGMpMDMxNTAzBgNVBAsTLEpl
+cmFycXVpYSBFbnRpdGF0cyBkZSBDZXJ0aWZpY2FjaW8gQ2F0YWxhbmVzMQ8wDQYDVQQDEwZFQy1B
+Q0MwHhcNMDMxMDMxMTA0MDM5WhcNMTkxMDMxMTA0MDM5WjCCATExCzAJBgNVBAYTAkVTMTswOQYD
+VQQKEzJBZ2VuY2lhIENhdGFsYW5hIGRlIENlcnRpZmljYWNpbyAoTklGIFEtMDgwMTE3Ni1JKTE0
+MDIGA1UEBxMrUGFzc2F0Z2UgZGUgbGEgQ29uY2VwY2lvIDExIDA4MDA4IEJhcmNlbG9uYTEuMCwG
+A1UECxMlU2VydmVpcyBQdWJsaWNzIGRlIENlcnRpZmljYWNpbyBFQ1YtMjE1MDMGA1UECxMsVmVn
+ZXUgaHR0cHM6Ly93d3cuY2F0Y2VydC5uZXQvdmVyQ0lDLTIgKGMpMDMxNTAzBgNVBAsTLEVudGl0
+YXQgcHVibGljYSBkZSBjZXJ0aWZpY2FjaW8gZGUgY2l1dGFkYW5zMREwDwYDVQQDEwhFQy1JRENh
+dDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALvfQMPUHBF5Is8qVLPN8uu3hETNS0hB
+ngFHgNHhgGAxacmu7Smuqe+r12DtKV3A8nS1eVdWSgsz7LVSVjQQTLawXMwDyF+fadXGx5AnF7/y
+JgAl401CJCDqacuAto70APf9DZmoPD4Egp5PuO5rCiKp3Jf6e+H0CPJMqLnIyTxeX32LwHYK0qCw
+OhgxiBvtJmjdMfsnQ1TKn6YXjuxl57r/RQCxG2X57HquxaZKFzPN9G1JZ8QOtxgBJj3krNEtSRFu
+pYZNs0bD7iTF9offV8n/pVJ6Q8z+iDVn7RD+INUtLJm+iRxQQcUyK1yN+lECZGrOYX0Tg+14Qpv9
+lqyr61kCAwEAAaOCAv0wggL5MB0GA1UdEgQWMBSBEmVjX2FjY0BjYXRjZXJ0Lm5ldDAfBgNVHREE
+GDAWgRRlY19pZGNhdEBjYXRjZXJ0Lm5ldDASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQE
+AwIBBjAdBgNVHQ4EFgQUzZLARUY0dg3S9FuidB2rz2y2C7kwggExBgNVHSMEggEoMIIBJIAUoMOL
+RKo3pUW/l4Ba0fF4opvpXY2hgfmkgfYwgfMxCzAJBgNVBAYTAkVTMTswOQYDVQQKEzJBZ2VuY2lh
+IENhdGFsYW5hIGRlIENlcnRpZmljYWNpbyAoTklGIFEtMDgwMTE3Ni1JKTEoMCYGA1UECxMfU2Vy
+dmVpcyBQdWJsaWNzIGRlIENlcnRpZmljYWNpbzE1MDMGA1UECxMsVmVnZXUgaHR0cHM6Ly93d3cu
+Y2F0Y2VydC5uZXQvdmVyYXJyZWwgKGMpMDMxNTAzBgNVBAsTLEplcmFycXVpYSBFbnRpdGF0cyBk
+ZSBDZXJ0aWZpY2FjaW8gQ2F0YWxhbmVzMQ8wDQYDVQQDEwZFQy1BQ0OCEO4rPevUId4UqGKsBPPd
+xAEwgdoGA1UdIASB0jCBzzCBzAYLKwYBBAH1eAEDAQwwgbwwLAYIKwYBBQUHAgEWIGh0dHBzOi8v
+d3d3LmNhdGNlcnQubmV0L3ZlckNJQy0yMIGLBggrBgEFBQcCAjB/Gn1BcXVlc3QgY2VydGlmaWNh
+dCBzkmVtZXQg+m5pY2EgaSBleGNsdXNpdmFtZW50IGEgRW50aXRhdHMgZGUgQ2VydGlmaWNhY2nz
+IGRlIENsYXNzZSAyLiBWZWdldSBodHRwczovL3d3dy5jYXRjZXJ0Lm5ldC92ZXJDSUMtMjBiBgNV
+HR8EWzBZMFegVaBThidodHRwOi8vZXBzY2QuY2F0Y2VydC5uZXQvY3JsL2VjLWFjYy5jcmyGKGh0
+dHA6Ly9lcHNjZDIuY2F0Y2VydC5uZXQvY3JsL2VjLWFjYy5jcmwwDQYJKoZIhvcNAQEFBQADggEB
+ABlHX+4TA2Yok/Xxy1cns4hCRyOCms1R1DUbsq8VrFEzwwR8DjjuirQBJSm8sSsIfEl/pycJRlWV
+8GIGV0rtM8iad7/qXF8Eq0T5qL7A+wvCbMqyZ2jMO86k8+eUXPBgRMqM535UZJdzIjTjVYiw/65d
+9BviTf4MBMVRQPZ/956F0dh5ovhapRP27WfsaE9UCRm4Ix96gIOw2wGIdgzkNg8vReYuf2OSl8BM
+qXrDak4/HbsBRngRFCa1doiaim3O+rCrpUN63UqOjaaNJGT0W3Sp9dPsXKafdSOfLYATVmUU8T1Y
+oNCb0QLnRUAsWODxeVklqs+xmjFJtjYasPI6ZjQwggg7MIIHI6ADAgECAhANxuIKogUDf1OtolHs
+OWEwMA0GCSqGSIb3DQEBBQUAMIIBMTELMAkGA1UEBhMCRVMxOzA5BgNVBAoTMkFnZW5jaWEgQ2F0
+YWxhbmEgZGUgQ2VydGlmaWNhY2lvIChOSUYgUS0wODAxMTc2LUkpMTQwMgYDVQQHEytQYXNzYXRn
+ZSBkZSBsYSBDb25jZXBjaW8gMTEgMDgwMDggQmFyY2Vsb25hMS4wLAYDVQQLEyVTZXJ2ZWlzIFB1
+YmxpY3MgZGUgQ2VydGlmaWNhY2lvIEVDVi0yMTUwMwYDVQQLEyxWZWdldSBodHRwczovL3d3dy5j
+YXRjZXJ0Lm5ldC92ZXJDSUMtMiAoYykwMzE1MDMGA1UECxMsRW50aXRhdCBwdWJsaWNhIGRlIGNl
+cnRpZmljYWNpbyBkZSBjaXV0YWRhbnMxETAPBgNVBAMTCEVDLUlEQ2F0MB4XDTE0MDYyNzE2NTY0
+OFoXDTE4MDYyNzE2NTY0OFowgdcxCzAJBgNVBAYTAkVTMTUwMwYDVQQLEyxWZWdldSBodHRwczov
+L3d3dy5jYXRjZXJ0LmNhdC92ZXJpZENBVCAoYykwMzExMC8GA1UECxMoU2VydmVpcyBQdWJsaWNz
+IGRlIENlcnRpZmljYWNpbyBDUElYU0EtMjEXMBUGA1UEBBMOTkFWQVJSTyBNT0xERVMxEDAOBgNV
+BCoTB0xFQU5EUk8xEjAQBgNVBAUTCTM4NTUxOTgyQTEfMB0GA1UEAxMWTEVBTkRSTyBOQVZBUlJP
+IE1PTERFUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALCiPrRVCtUfMRCdud1b/qsC
+H35wgmoycK9eVAG+zlxQ5qeJEZk82HuLABA/ftOJBxrvgcl8Oa6xcWUooXffPdcl25Is/vCX+H4x
+C3OvJEXwcvSq3DLOLiwmYm5/0XYV65IkXvhf/6Hn2PTurzubvN+G1bQOLNMmwSYN8NEwibBd+Fsl
+qynUzSYjhIwAfdYhWPVDnWeoO1Whclvq2FC/Jcj4Ni2e7b5QgFwumljShXQD0KVjIcH+At1ik5kM
+5X/rDVUqda5GLCgQLppgIQ1eRLiTHiJ9JOphyJ+8YXc10TnbiYmc+Bqs2/wTF1Z0zhju9nxvMFpe
+z5rX4iyelO3BN/MCAwEAAaOCA6QwggOgMB8GA1UdEgQYMBaBFGVjX2lkY2F0QGNhdGNlcnQubmV0
+MA4GA1UdDwEB/wQEAwIF4DAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwEQYJYIZIAYb4
+QgEBBAQDAgWgMB0GA1UdDgQWBBS1YbpqBMSlILZqLwLkUPvuCi1wATAfBgNVHSMEGDAWgBTNksBF
+RjR2DdL0W6J0HavPbLYLuTCB9AYDVR0gBIHsMIHpMIHmBgwrBgEEAfV4AQMBVgEwgdUwLAYIKwYB
+BQUHAgEWIGh0dHBzOi8vd3d3LmNhdGNlcnQuY2F0L3ZlcmlkQ0FUMIGkBggrBgEFBQcCAjCBlxqB
+lEFxdWVzdCDpcyB1biBjZXJ0aWZpY2F0IHBlcnNvbmFsIGlkQ0FULCByZWNvbmVndXQgZCdpZGVu
+dGlmaWNhY2nzLCBzaWduYXR1cmEgaSB4aWZyYXQgZGUgY2xhc3NlIDIgaW5kaXZpZHVhbC4gVmVn
+ZXUgaHR0cHM6Ly93d3cuY2F0Y2VydC5jYXQvdmVyaWRDQVQwbwYIKwYBBQUHAQEEYzBhMCMGCCsG
+AQUFBzABhhdodHRwOi8vb2NzcC5jYXRjZXJ0LmNhdDA6BggrBgEFBQcwAoYuaHR0cDovL3d3dy5j
+YXRjZXJ0LmNhdC9kZXNjYXJyZWdhL2VjX2lkY2F0LmNydDAvBggrBgEFBQcBAwQjMCEwCAYGBACO
+RgEBMAsGBgQAjkYBAwIBDzAIBgYEAI5GAQQwKAYKKwYBBAH1eAEEAgQaExhOb24tQ3J5cHRvZ3Jh
+cGhpYyBEZXZpY2UwgaAGA1UdEQSBmDCBlYESbGVhbmRyb0BhYy51cGMuZWR1pH8wfTELMAkGA1UE
+BhMCRVMxKTAnBgNVBAoTIEFnZW5jaWEgQ2F0YWxhbmEgZGUgQ2VydGlmaWNhY2lvMQ4wDAYDVQQL
+EwVJRENBVDESMBAGA1UEBRMJMzg1NTE5ODJBMR8wHQYDVQQDExZMRUFORFJPIE5BVkFSUk8gTU9M
+REVTMC0GA1UdCQQmMCQwEAYIKwYBBQUHCQQxBBMCRVMwEAYIKwYBBQUHCQUxBBMCRVMwZgYDVR0f
+BF8wXTBboFmgV4YpaHR0cDovL2Vwc2NkLmNhdGNlcnQubmV0L2NybC9lYy1pZGNhdC5jcmyGKmh0
+dHA6Ly9lcHNjZDIuY2F0Y2VydC5uZXQvY3JsL2VjLWlkY2F0LmNybDANBgkqhkiG9w0BAQUFAAOC
+AQEAcw2ASyTkRnT2WFJ+62l7j0ttK5v9j4qkwWzBo0rnGJ+JYNWVYLT0JzCzkA13iRygOrkcz71h
+HKc9feLAUiXH0ojkAQ6ynYBjwU3q60co0pvqAazSOvc0rVlQ7WR48ZJGhUDNyqPY3v+sntJ9CkLO
+gxopdze9b2YFKwGW+o96ve8KJUszwWid9io5PvxPoCv/RxHm9pz8q7ewdEvgg81dZbjZvqEYuPdh
+S59O6Dnut+skweATPrlNJogijfW68p3hOqkyDQCs/h/kRdAru6s+P9Sg7rHXZ3Pf9IDI8cg9/oHq
+pADBTNGs021aP4tvGUaSgzz/M2Fb+HVRRJXzZNqBtjGCBY8wggWLAgEBMIIBRzCCATExCzAJBgNV
+BAYTAkVTMTswOQYDVQQKEzJBZ2VuY2lhIENhdGFsYW5hIGRlIENlcnRpZmljYWNpbyAoTklGIFEt
+MDgwMTE3Ni1JKTE0MDIGA1UEBxMrUGFzc2F0Z2UgZGUgbGEgQ29uY2VwY2lvIDExIDA4MDA4IEJh
+cmNlbG9uYTEuMCwGA1UECxMlU2VydmVpcyBQdWJsaWNzIGRlIENlcnRpZmljYWNpbyBFQ1YtMjE1
+MDMGA1UECxMsVmVnZXUgaHR0cHM6Ly93d3cuY2F0Y2VydC5uZXQvdmVyQ0lDLTIgKGMpMDMxNTAz
+BgNVBAsTLEVudGl0YXQgcHVibGljYSBkZSBjZXJ0aWZpY2FjaW8gZGUgY2l1dGFkYW5zMREwDwYD
+VQQDEwhFQy1JRENhdAIQDcbiCqIFA39TraJR7DlhMDAJBgUrDgMCGgUAoIIDGzAYBgkqhkiG9w0B
+CQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0xODA2MjExMDA4NjBaMCMGCSqGSIb3DQEJ
+BDEWBBQLqop8DieD7rQPf29lYsW5QuYeEzCCAVoGCSsGAQQBgjcQBDGCAUswggFHMIIBMTELMAkG
+A1UEBhMCRVMxOzA5BgNVBAoTMkFnZW5jaWEgQ2F0YWxhbmEgZGUgQ2VydGlmaWNhY2lvIChOSUYg
+US0wODAxMTc2LUkpMTQwMgYDVQQHEytQYXNzYXRnZSBkZSBsYSBDb25jZXBjaW8gMTEgMDgwMDgg
+QmFyY2Vsb25hMS4wLAYDVQQLEyVTZXJ2ZWlzIFB1YmxpY3MgZGUgQ2VydGlmaWNhY2lvIEVDVi0y
+MTUwMwYDVQQLEyxWZWdldSBodHRwczovL3d3dy5jYXRjZXJ0Lm5ldC92ZXJDSUMtMiAoYykwMzE1
+MDMGA1UECxMsRW50aXRhdCBwdWJsaWNhIGRlIGNlcnRpZmljYWNpbyBkZSBjaXV0YWRhbnMxETAP
+BgNVBAMTCEVDLUlEQ2F0AhANxuIKogUDf1OtolHsOWEwMIIBXAYLKoZIhvcNAQkQAgsxggFLoIIB
+RzCCATExCzAJBgNVBAYTAkVTMTswOQYDVQQKEzJBZ2VuY2lhIENhdGFsYW5hIGRlIENlcnRpZmlj
+YWNpbyAoTklGIFEtMDgwMTE3Ni1JKTE0MDIGA1UEBxMrUGFzc2F0Z2UgZGUgbGEgQ29uY2VwY2lv
+IDExIDA4MDA4IEJhcmNlbG9uYTEuMCwGA1UECxMlU2VydmVpcyBQdWJsaWNzIGRlIENlcnRpZmlj
+YWNpbyBFQ1YtMjE1MDMGA1UECxMsVmVnZXUgaHR0cHM6Ly93d3cuY2F0Y2VydC5uZXQvdmVyQ0lD
+LTIgKGMpMDMxNTAzBgNVBAsTLEVudGl0YXQgcHVibGljYSBkZSBjZXJ0aWZpY2FjaW8gZGUgY2l1
+dGFkYW5zMREwDwYDVQQDEwhFQy1JRENhdAIQDcbiCqIFA39TraJR7DlhMDANBgkqhkiG9w0BAQEF
+AASCAQB58U7885YuKTWun6dmA9oTo6VlYyuaZ8vSTqoRYJsl7Vl/9ko4sRH186erbHbz5hoJKub2
+lU1E4nVWymwHmi3w4iLH0OpZTuopH9M1T8ncYXZ9QQ2ca/ZC5LEeGNHGXBrE5F9yURG79A/Wij1Y
+P6b9e1SldyCZvIcmGRgkIna7tRUy7PC2AuiiibBuuRe9O1dqEzLa7Jj3Pp09W5G/IUYZ1mdvrZj6
+g6u1/MB60ttjFEpF+en5tuxzrNCwHf4hZ2u5yWABxmIdgqY59Cr870E3/0f7TQLnfK1BhUW/Os9Y
+7T49mNmCtMu91UuFUA5jcGzay+/qV7PNaG8FVIbY3BK0AAAAAAAA
+--Apple-Mail=_0CBEE871-2B6D-4A0B-B1A0-431262530FAD--
+
+
+From nobody Tue Jun 26 00:19:08 2018
+Return-Path: <mzennaro@ictp.it>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id EBD90130DE6 for <gaia@ietfa.amsl.com>; Tue, 26 Jun 2018 00:19:07 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.9 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_HI=-5, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id x1cQdFazjOE4 for <gaia@ietfa.amsl.com>; Tue, 26 Jun 2018 00:19:05 -0700 (PDT)
+Received: from smtp1.ictp.it (smtp1.ictp.it [140.105.16.51]) by ietfa.amsl.com (Postfix) with ESMTP id A660812872C for <gaia@irtf.org>; Tue, 26 Jun 2018 00:19:05 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1]) by smtp1.ictp.it (Postfix) with ESMTP id C37BA69B for <gaia@irtf.org>; Tue, 26 Jun 2018 09:19:03 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at smtp1.ictp.it
+Received: from smtp1.ictp.it ([127.0.0.1]) by localhost (smtp1.ictp.it [127.0.0.1]) (amavisd-new, port 10025) with LMTP id QmijkWmrAalk for <gaia@irtf.org>; Tue, 26 Jun 2018 09:19:02 +0200 (CEST)
+Received: from arpl-webcast.ictp.it (arpl-webcast.ictp.it [140.105.28.20]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by smtp1.ictp.it (Postfix) with ESMTPSA id E225C478D1C for <gaia@irtf.org>; Tue, 26 Jun 2018 09:19:02 +0200 (CEST)
+From: Marco Zennaro <mzennaro@ictp.it>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Mime-Version: 1.0 (Mac OS X Mail 11.4 \(3445.8.2\))
+Message-Id: <4B049555-15ED-46DA-A8FD-6C151583E2A5@ictp.it>
+Date: Tue, 26 Jun 2018 09:19:28 +0200
+To: gaia <gaia@irtf.org>
+X-Mailer: Apple Mail (2.3445.8.2)
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/E68dvpGP1xzweN6j2E421ptMYYM>
+Subject: [gaia] Bringing the Internet to the (Developing) World | News | Communications of the ACM
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.26
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 26 Jun 2018 07:19:08 -0000
+
+Article on Internet connectivity in the developing world on =
+Communications of the ACM.
+
+=
+https://cacm.acm.org/news/229046-bringing-the-internet-to-the-developing-w=
+orld/fulltext#comments=20
+
+Best,
+Marco
+
+Marco Zennaro, PhD // Research Officer // T/ICT4D Lab // ICTP // =
+wireless.ictp.it
+
+
+
+
+From nobody Tue Jun 26 11:00:23 2018
+Return-Path: <leandro@ac.upc.edu>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id C98C11310EE for <gaia@ietfa.amsl.com>; Tue, 26 Jun 2018 11:00:21 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -4.199
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.199 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_MED=-2.3, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id R7UvQR4HXDlu for <gaia@ietfa.amsl.com>; Tue, 26 Jun 2018 11:00:17 -0700 (PDT)
+Received: from roura.ac.upc.es (roura.ac.upc.es [147.83.33.10]) by ietfa.amsl.com (Postfix) with ESMTP id 09A2A1310EB for <gaia@irtf.org>; Tue, 26 Jun 2018 11:00:16 -0700 (PDT)
+Received: from correu-2.ac.upc.es (correu-2.ac.upc.es [147.83.30.92]) by roura.ac.upc.es (8.13.8/8.13.8) with ESMTP id w5QI0FdZ022964; Tue, 26 Jun 2018 20:00:15 +0200
+Received: from leandro.home (unknown [93.176.128.158]) by correu-2.ac.upc.es (Postfix) with ESMTPSA id 8F5F5EE; Tue, 26 Jun 2018 20:00:09 +0200 (CEST)
+From: Leandro Navarro <leandro@ac.upc.edu>
+Message-Id: <DC857C0D-0730-49D4-AD03-EB21E861B11E@ac.upc.edu>
+Content-Type: multipart/signed; boundary="Apple-Mail=_19552A20-1FD2-4C40-ABA6-8AE225B5A5BF"; protocol="application/pkcs7-signature"; micalg=sha1
+Mime-Version: 1.0 (Mac OS X Mail 11.4 \(3445.8.2\))
+Date: Tue, 26 Jun 2018 20:00:07 +0200
+In-Reply-To: <3684C003-391A-46A8-B9D0-55E6F485C4B7@ac.upc.edu>
+Cc: Jane Coffin <coffin@isoc.org>
+To: "gaia@irtf.org" <gaia@irtf.org>
+References: <76152A2C-E4E3-4445-9E68-52D88D1EB244@isoc.org> <C02906A1-F822-46E3-A9E1-5550F7265BAF@ac.upc.edu> <3684C003-391A-46A8-B9D0-55E6F485C4B7@ac.upc.edu>
+X-Mailer: Apple Mail (2.3445.8.2)
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/q4zaqwZ2pHxNQh0Mj7rEzz9yz-s>
+Subject: Re: [gaia] IETF 102 - Montreal, Canada - 14-20 July - WG Meeting
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.26
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 26 Jun 2018 18:00:22 -0000
+
+--Apple-Mail=_19552A20-1FD2-4C40-ABA6-8AE225B5A5BF
+Content-Type: multipart/alternative;
+	boundary="Apple-Mail=_C0BD9366-DC7B-4F57-B8D2-2EC345123E3C"
+
+
+--Apple-Mail=_C0BD9366-DC7B-4F57-B8D2-2EC345123E3C
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+Hi, the 90 min slot in the agenda is confirmed. Anyone else willing to =
+take one of the remaining slots? (for on-site or remote presentation)
+
+Any other suggestion about topics for a BCP document?
+
+Apart from case studies about different ways to develop networking =
+infrastructures and services, suggested previously,
+for instance we=E2=80=99re doing research and experiments in Internet =
+access sharing (aggregation/crowdsourcing of unused/spare internet =
+connectivity) through a mesh (we do it in guifi.net <http://guifi.net/> =
+in wireless meshes, but can be done in mobile nets too) as a way to =
+reduce the cost and incrementally increase the capacity of Internet =
+connectivity.
+
+Kind regards, Leandro.
+
+> On 21 Jun 2018, at 12:08, Leandro Navarro <leandro@ac.upc.edu> wrote:
+>=20
+> Hi everyone in GAIA,=20
+>=20
+> We have a slot in the first draft of the program: =
+https://datatracker.ietf.org/meeting/102/agenda =
+<https://datatracker.ietf.org/meeting/102/agenda>
+> Tuesday 17 	15:50-17:20 	 Tuesday Afternoon session II 	  =20
+> Global Access to the Internet for All=20
+>=20
+> That is just the day after the IRTF conference: =
+https://irtf.org/anrw/2018/ <https://irtf.org/anrw/2018/>
+>=20
+> A reminder to let us know (off list) asap if you want to present so we =
+can prepare the agenda, with preference for diversity (new speakers), =
+and order of arrival.=20
+>=20
+> Regards, Jane and Leandro (co-chairs).
+>=20
+>> On 6 May 2018, at 15:36, Leandro Navarro <leandro@ac.upc.edu =
+<mailto:leandro@ac.upc.edu>> wrote:
+>>=20
+>> Hi everyone in GAIA,=20
+>>=20
+>> We=E2=80=99ll have a WG meeting as part of IETF 102 =
+<https://www.ietf.org/how/meetings/102/> in Montreal. The exact day/time =
+is not yet defined, but will be after ANRW=E2=80=9918 =
+<https://irtf.org/anrw/2018/> (Monday July 16).
+>>=20
+>> As with previous meetings, this is a great opportunity for those =
+nearby to meet, share ideas, talk about projects, research, results, =
+plans and discuss. Remote participation and presentation will be =
+available.
+>>=20
+>> The event will have one part for presentations, and another to =
+discuss about best current practices (and draft a document out of that).
+>>=20
+>> If you plan to come and present let us know off-list so we can =
+prepare the agenda. Tell us before the end of this month to allocate a =
+few slots, with preference for diversity (new speakers), and order of =
+arrival.=20
+>>=20
+>> Regarding best current practices, our working idea is to collect case =
+studies about different ways to develop networking infrastructures and =
+services. Let us know if you have ideas about how to structure the =
+document, its content, or willing to report on a specific experience. =
+There are related reports or developments, please share to build a good =
+list of sources, collaborations, references to develop this document.
+>>=20
+>> We can have a conference call sometime in June to discuss and prepare =
+a proposal to discuss in our IETF 102 meeting.
+>>=20
+>> Regards, Jane and Leandro.
+>>=20
+>> _______________________________________________
+>> gaia mailing list
+>> gaia@irtf.org <mailto:gaia@irtf.org>
+>> https://www.irtf.org/mailman/listinfo/gaia
+>=20
+> --
+> Leandro Navarro
+> http://people.ac.upc.edu/leandro <http://people.ac.upc.edu/leandro>	 =
+http://dsg.ac.upc.edu
+>=20
+> _______________________________________________
+> gaia mailing list
+> gaia@irtf.org
+> https://www.irtf.org/mailman/listinfo/gaia
+
+--
+Leandro Navarro
+http://people.ac.upc.edu/leandro	 http://dsg.ac.upc.edu
+
+
+--Apple-Mail=_C0BD9366-DC7B-4F57-B8D2-2EC345123E3C
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; line-break: after-white-space;" class=3D"">Hi, =
+the 90 min slot in the agenda is confirmed. Anyone else willing to take =
+one of the remaining slots? (for on-site or remote presentation)<div =
+class=3D""><br class=3D""></div><div class=3D"">Any other suggestion =
+about topics for a BCP document?</div><div class=3D""><br =
+class=3D""></div><div class=3D"">Apart from&nbsp;case studies about =
+different ways to develop networking infrastructures and services, =
+suggested previously,</div><div class=3D"">for instance we=E2=80=99re =
+doing research and experiments in Internet access sharing =
+(aggregation/crowdsourcing of unused/spare internet connectivity) =
+through a mesh (we do it in <a href=3D"http://guifi.net" =
+class=3D"">guifi.net</a>&nbsp;in wireless meshes, but can be done in =
+mobile nets too) as a way to reduce the cost and incrementally increase =
+the capacity of Internet connectivity.</div><div class=3D""><div><br =
+class=3D""></div><div>Kind regards, Leandro.</div><div><br =
+class=3D""><blockquote type=3D"cite" class=3D""><div class=3D"">On 21 =
+Jun 2018, at 12:08, Leandro Navarro &lt;<a =
+href=3D"mailto:leandro@ac.upc.edu" class=3D"">leandro@ac.upc.edu</a>&gt; =
+wrote:</div><br class=3D"Apple-interchange-newline"><div class=3D""><meta =
+http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" =
+class=3D""><div style=3D"word-wrap: break-word; -webkit-nbsp-mode: =
+space; line-break: after-white-space;" class=3D"">Hi everyone in =
+GAIA,&nbsp;<div class=3D""><br class=3D""></div><div class=3D"">We have =
+a slot in the first draft of the program:&nbsp;<a =
+href=3D"https://datatracker.ietf.org/meeting/102/agenda" =
+class=3D"">https://datatracker.ietf.org/meeting/102/agenda</a><br =
+class=3D"">Tuesday 17&nbsp;<span class=3D"Apple-tab-span" =
+style=3D"white-space: pre;">	</span>15:50-17:20&nbsp;<span =
+class=3D"Apple-tab-span" style=3D"white-space: pre;">	=
+</span>&nbsp;Tuesday&nbsp;Afternoon session II&nbsp;<span =
+class=3D"Apple-tab-span" style=3D"white-space: pre;">	</span>&nbsp; =
+&nbsp;<br class=3D"">Global Access to the Internet for All&nbsp;<div =
+class=3D""><br class=3D""><div class=3D"">That is just the day after the =
+IRTF conference:&nbsp;<a href=3D"https://irtf.org/anrw/2018/" =
+class=3D"">https://irtf.org/anrw/2018/</a></div><div class=3D""><br =
+class=3D""></div><div class=3D"">A reminder to let us know (off list) =
+asap if you want to present so we can prepare the agenda, with =
+preference for diversity (new speakers), and order of =
+arrival.&nbsp;</div><div class=3D""><br class=3D""></div><div =
+class=3D"">Regards, Jane and Leandro (co-chairs).</div><div class=3D""><br=
+ class=3D""><blockquote type=3D"cite" class=3D""><div class=3D"">On 6 =
+May 2018, at 15:36, Leandro Navarro &lt;<a =
+href=3D"mailto:leandro@ac.upc.edu" class=3D"">leandro@ac.upc.edu</a>&gt; =
+wrote:</div><br class=3D"Apple-interchange-newline"><div class=3D""><meta =
+http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" =
+class=3D""><div style=3D"word-wrap: break-word; -webkit-nbsp-mode: =
+space; line-break: after-white-space;" class=3D"">Hi everyone in =
+GAIA,&nbsp;<div class=3D""><br class=3D""></div><div class=3D"">We=E2=80=99=
+ll have a WG meeting as part of&nbsp;<a =
+href=3D"https://www.ietf.org/how/meetings/102/" class=3D"">IETF =
+102</a>&nbsp;in Montreal. The exact day/time is not yet defined, but =
+will be after&nbsp;<a href=3D"https://irtf.org/anrw/2018/" =
+class=3D"">ANRW=E2=80=9918</a>&nbsp;(Monday July 16).</div><div =
+class=3D""><br class=3D""></div><div class=3D"">As with previous =
+meetings, this is a great opportunity for those nearby to meet, share =
+ideas, talk about projects, research, results, plans and discuss. Remote =
+participation and presentation will be available.</div><div class=3D""><br=
+ class=3D""></div><div class=3D"">The event will have one part for =
+presentations, and another to discuss about best current practices (and =
+draft a document out of that).</div><div class=3D""><br =
+class=3D""></div><div class=3D"">If you plan to come and&nbsp;<u =
+class=3D"">present</u>&nbsp;let us know off-list so we can prepare the =
+agenda. Tell us before the end of this month to allocate a few slots, =
+with preference for diversity (new speakers), and order of =
+arrival.&nbsp;</div><div class=3D""><br class=3D""></div><div =
+class=3D"">Regarding best current practices, our working idea is to =
+collect case studies about different ways to develop networking =
+infrastructures and services. Let us know if you have ideas about how to =
+structure the document, its content, or willing to report on a specific =
+experience. There are related reports or developments, please share to =
+build a good list of sources, collaborations, references to develop this =
+document.</div><div class=3D""><br class=3D""></div><div class=3D"">We =
+can have a conference call sometime in June to discuss and prepare a =
+proposal to discuss in our IETF 102 meeting.</div><div class=3D""><br =
+class=3D""></div><div class=3D"">Regards, Jane and Leandro.<br =
+class=3D""><div class=3D""></div></div><div class=3D""><br =
+class=3D""></div></div>_______________________________________________<br =
+class=3D"">gaia mailing list<br class=3D""><a =
+href=3D"mailto:gaia@irtf.org" class=3D"">gaia@irtf.org</a><br =
+class=3D""><a href=3D"https://www.irtf.org/mailman/listinfo/gaia" =
+class=3D"">https://www.irtf.org/mailman/listinfo/gaia</a><br =
+class=3D""></div></blockquote></div><br class=3D""><div class=3D"">
+<div style=3D"letter-spacing: normal; text-align: start; text-indent: =
+0px; text-transform: none; white-space: normal; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; line-break: after-white-space;" class=3D"">--<br=
+ class=3D"">Leandro Navarro<br class=3D""><a =
+href=3D"http://people.ac.upc.edu/leandro" =
+class=3D"">http://people.ac.upc.edu/leandro</a><span =
+class=3D"Apple-tab-span" style=3D"white-space: pre;">	</span>&nbsp;<a =
+href=3D"http://dsg.ac.upc.edu" class=3D"">http://dsg.ac.upc.edu</a></div>
+
+</div>
+<br =
+class=3D""></div></div></div>_____________________________________________=
+__<br class=3D"">gaia mailing list<br class=3D""><a =
+href=3D"mailto:gaia@irtf.org" class=3D"">gaia@irtf.org</a><br =
+class=3D"">https://www.irtf.org/mailman/listinfo/gaia<br =
+class=3D""></div></blockquote></div><br class=3D""><div class=3D"">
+<div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; orphans: =
+auto; text-align: start; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">--<br class=3D"">Leandro Navarro<br class=3D""><a =
+href=3D"http://people.ac.upc.edu/leandro" =
+class=3D"">http://people.ac.upc.edu/leandro</a><span =
+class=3D"Apple-tab-span" style=3D"white-space: pre;">	=
+</span>&nbsp;http://dsg.ac.upc.edu</div>
+
+</div>
+<br class=3D""></div></body></html>=
+
+--Apple-Mail=_C0BD9366-DC7B-4F57-B8D2-2EC345123E3C--
+
+--Apple-Mail=_19552A20-1FD2-4C40-ABA6-8AE225B5A5BF
+Content-Disposition: attachment;
+	filename=smime.p7s
+Content-Type: application/pkcs7-signature;
+	name=smime.p7s
+Content-Transfer-Encoding: base64
+
+MIAGCSqGSIb3DQEHAqCAMIACAQExCzAJBgUrDgMCGgUAMIAGCSqGSIb3DQEHAQAAoIIP8zCCB7Aw
+ggaYoAMCAQICEHBAQND9yjwZP6I8J2HqcM4wDQYJKoZIhvcNAQEFBQAwgfMxCzAJBgNVBAYTAkVT
+MTswOQYDVQQKEzJBZ2VuY2lhIENhdGFsYW5hIGRlIENlcnRpZmljYWNpbyAoTklGIFEtMDgwMTE3
+Ni1JKTEoMCYGA1UECxMfU2VydmVpcyBQdWJsaWNzIGRlIENlcnRpZmljYWNpbzE1MDMGA1UECxMs
+VmVnZXUgaHR0cHM6Ly93d3cuY2F0Y2VydC5uZXQvdmVyYXJyZWwgKGMpMDMxNTAzBgNVBAsTLEpl
+cmFycXVpYSBFbnRpdGF0cyBkZSBDZXJ0aWZpY2FjaW8gQ2F0YWxhbmVzMQ8wDQYDVQQDEwZFQy1B
+Q0MwHhcNMDMxMDMxMTA0MDM5WhcNMTkxMDMxMTA0MDM5WjCCATExCzAJBgNVBAYTAkVTMTswOQYD
+VQQKEzJBZ2VuY2lhIENhdGFsYW5hIGRlIENlcnRpZmljYWNpbyAoTklGIFEtMDgwMTE3Ni1JKTE0
+MDIGA1UEBxMrUGFzc2F0Z2UgZGUgbGEgQ29uY2VwY2lvIDExIDA4MDA4IEJhcmNlbG9uYTEuMCwG
+A1UECxMlU2VydmVpcyBQdWJsaWNzIGRlIENlcnRpZmljYWNpbyBFQ1YtMjE1MDMGA1UECxMsVmVn
+ZXUgaHR0cHM6Ly93d3cuY2F0Y2VydC5uZXQvdmVyQ0lDLTIgKGMpMDMxNTAzBgNVBAsTLEVudGl0
+YXQgcHVibGljYSBkZSBjZXJ0aWZpY2FjaW8gZGUgY2l1dGFkYW5zMREwDwYDVQQDEwhFQy1JRENh
+dDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALvfQMPUHBF5Is8qVLPN8uu3hETNS0hB
+ngFHgNHhgGAxacmu7Smuqe+r12DtKV3A8nS1eVdWSgsz7LVSVjQQTLawXMwDyF+fadXGx5AnF7/y
+JgAl401CJCDqacuAto70APf9DZmoPD4Egp5PuO5rCiKp3Jf6e+H0CPJMqLnIyTxeX32LwHYK0qCw
+OhgxiBvtJmjdMfsnQ1TKn6YXjuxl57r/RQCxG2X57HquxaZKFzPN9G1JZ8QOtxgBJj3krNEtSRFu
+pYZNs0bD7iTF9offV8n/pVJ6Q8z+iDVn7RD+INUtLJm+iRxQQcUyK1yN+lECZGrOYX0Tg+14Qpv9
+lqyr61kCAwEAAaOCAv0wggL5MB0GA1UdEgQWMBSBEmVjX2FjY0BjYXRjZXJ0Lm5ldDAfBgNVHREE
+GDAWgRRlY19pZGNhdEBjYXRjZXJ0Lm5ldDASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQE
+AwIBBjAdBgNVHQ4EFgQUzZLARUY0dg3S9FuidB2rz2y2C7kwggExBgNVHSMEggEoMIIBJIAUoMOL
+RKo3pUW/l4Ba0fF4opvpXY2hgfmkgfYwgfMxCzAJBgNVBAYTAkVTMTswOQYDVQQKEzJBZ2VuY2lh
+IENhdGFsYW5hIGRlIENlcnRpZmljYWNpbyAoTklGIFEtMDgwMTE3Ni1JKTEoMCYGA1UECxMfU2Vy
+dmVpcyBQdWJsaWNzIGRlIENlcnRpZmljYWNpbzE1MDMGA1UECxMsVmVnZXUgaHR0cHM6Ly93d3cu
+Y2F0Y2VydC5uZXQvdmVyYXJyZWwgKGMpMDMxNTAzBgNVBAsTLEplcmFycXVpYSBFbnRpdGF0cyBk
+ZSBDZXJ0aWZpY2FjaW8gQ2F0YWxhbmVzMQ8wDQYDVQQDEwZFQy1BQ0OCEO4rPevUId4UqGKsBPPd
+xAEwgdoGA1UdIASB0jCBzzCBzAYLKwYBBAH1eAEDAQwwgbwwLAYIKwYBBQUHAgEWIGh0dHBzOi8v
+d3d3LmNhdGNlcnQubmV0L3ZlckNJQy0yMIGLBggrBgEFBQcCAjB/Gn1BcXVlc3QgY2VydGlmaWNh
+dCBzkmVtZXQg+m5pY2EgaSBleGNsdXNpdmFtZW50IGEgRW50aXRhdHMgZGUgQ2VydGlmaWNhY2nz
+IGRlIENsYXNzZSAyLiBWZWdldSBodHRwczovL3d3dy5jYXRjZXJ0Lm5ldC92ZXJDSUMtMjBiBgNV
+HR8EWzBZMFegVaBThidodHRwOi8vZXBzY2QuY2F0Y2VydC5uZXQvY3JsL2VjLWFjYy5jcmyGKGh0
+dHA6Ly9lcHNjZDIuY2F0Y2VydC5uZXQvY3JsL2VjLWFjYy5jcmwwDQYJKoZIhvcNAQEFBQADggEB
+ABlHX+4TA2Yok/Xxy1cns4hCRyOCms1R1DUbsq8VrFEzwwR8DjjuirQBJSm8sSsIfEl/pycJRlWV
+8GIGV0rtM8iad7/qXF8Eq0T5qL7A+wvCbMqyZ2jMO86k8+eUXPBgRMqM535UZJdzIjTjVYiw/65d
+9BviTf4MBMVRQPZ/956F0dh5ovhapRP27WfsaE9UCRm4Ix96gIOw2wGIdgzkNg8vReYuf2OSl8BM
+qXrDak4/HbsBRngRFCa1doiaim3O+rCrpUN63UqOjaaNJGT0W3Sp9dPsXKafdSOfLYATVmUU8T1Y
+oNCb0QLnRUAsWODxeVklqs+xmjFJtjYasPI6ZjQwggg7MIIHI6ADAgECAhANxuIKogUDf1OtolHs
+OWEwMA0GCSqGSIb3DQEBBQUAMIIBMTELMAkGA1UEBhMCRVMxOzA5BgNVBAoTMkFnZW5jaWEgQ2F0
+YWxhbmEgZGUgQ2VydGlmaWNhY2lvIChOSUYgUS0wODAxMTc2LUkpMTQwMgYDVQQHEytQYXNzYXRn
+ZSBkZSBsYSBDb25jZXBjaW8gMTEgMDgwMDggQmFyY2Vsb25hMS4wLAYDVQQLEyVTZXJ2ZWlzIFB1
+YmxpY3MgZGUgQ2VydGlmaWNhY2lvIEVDVi0yMTUwMwYDVQQLEyxWZWdldSBodHRwczovL3d3dy5j
+YXRjZXJ0Lm5ldC92ZXJDSUMtMiAoYykwMzE1MDMGA1UECxMsRW50aXRhdCBwdWJsaWNhIGRlIGNl
+cnRpZmljYWNpbyBkZSBjaXV0YWRhbnMxETAPBgNVBAMTCEVDLUlEQ2F0MB4XDTE0MDYyNzE2NTY0
+OFoXDTE4MDYyNzE2NTY0OFowgdcxCzAJBgNVBAYTAkVTMTUwMwYDVQQLEyxWZWdldSBodHRwczov
+L3d3dy5jYXRjZXJ0LmNhdC92ZXJpZENBVCAoYykwMzExMC8GA1UECxMoU2VydmVpcyBQdWJsaWNz
+IGRlIENlcnRpZmljYWNpbyBDUElYU0EtMjEXMBUGA1UEBBMOTkFWQVJSTyBNT0xERVMxEDAOBgNV
+BCoTB0xFQU5EUk8xEjAQBgNVBAUTCTM4NTUxOTgyQTEfMB0GA1UEAxMWTEVBTkRSTyBOQVZBUlJP
+IE1PTERFUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALCiPrRVCtUfMRCdud1b/qsC
+H35wgmoycK9eVAG+zlxQ5qeJEZk82HuLABA/ftOJBxrvgcl8Oa6xcWUooXffPdcl25Is/vCX+H4x
+C3OvJEXwcvSq3DLOLiwmYm5/0XYV65IkXvhf/6Hn2PTurzubvN+G1bQOLNMmwSYN8NEwibBd+Fsl
+qynUzSYjhIwAfdYhWPVDnWeoO1Whclvq2FC/Jcj4Ni2e7b5QgFwumljShXQD0KVjIcH+At1ik5kM
+5X/rDVUqda5GLCgQLppgIQ1eRLiTHiJ9JOphyJ+8YXc10TnbiYmc+Bqs2/wTF1Z0zhju9nxvMFpe
+z5rX4iyelO3BN/MCAwEAAaOCA6QwggOgMB8GA1UdEgQYMBaBFGVjX2lkY2F0QGNhdGNlcnQubmV0
+MA4GA1UdDwEB/wQEAwIF4DAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwEQYJYIZIAYb4
+QgEBBAQDAgWgMB0GA1UdDgQWBBS1YbpqBMSlILZqLwLkUPvuCi1wATAfBgNVHSMEGDAWgBTNksBF
+RjR2DdL0W6J0HavPbLYLuTCB9AYDVR0gBIHsMIHpMIHmBgwrBgEEAfV4AQMBVgEwgdUwLAYIKwYB
+BQUHAgEWIGh0dHBzOi8vd3d3LmNhdGNlcnQuY2F0L3ZlcmlkQ0FUMIGkBggrBgEFBQcCAjCBlxqB
+lEFxdWVzdCDpcyB1biBjZXJ0aWZpY2F0IHBlcnNvbmFsIGlkQ0FULCByZWNvbmVndXQgZCdpZGVu
+dGlmaWNhY2nzLCBzaWduYXR1cmEgaSB4aWZyYXQgZGUgY2xhc3NlIDIgaW5kaXZpZHVhbC4gVmVn
+ZXUgaHR0cHM6Ly93d3cuY2F0Y2VydC5jYXQvdmVyaWRDQVQwbwYIKwYBBQUHAQEEYzBhMCMGCCsG
+AQUFBzABhhdodHRwOi8vb2NzcC5jYXRjZXJ0LmNhdDA6BggrBgEFBQcwAoYuaHR0cDovL3d3dy5j
+YXRjZXJ0LmNhdC9kZXNjYXJyZWdhL2VjX2lkY2F0LmNydDAvBggrBgEFBQcBAwQjMCEwCAYGBACO
+RgEBMAsGBgQAjkYBAwIBDzAIBgYEAI5GAQQwKAYKKwYBBAH1eAEEAgQaExhOb24tQ3J5cHRvZ3Jh
+cGhpYyBEZXZpY2UwgaAGA1UdEQSBmDCBlYESbGVhbmRyb0BhYy51cGMuZWR1pH8wfTELMAkGA1UE
+BhMCRVMxKTAnBgNVBAoTIEFnZW5jaWEgQ2F0YWxhbmEgZGUgQ2VydGlmaWNhY2lvMQ4wDAYDVQQL
+EwVJRENBVDESMBAGA1UEBRMJMzg1NTE5ODJBMR8wHQYDVQQDExZMRUFORFJPIE5BVkFSUk8gTU9M
+REVTMC0GA1UdCQQmMCQwEAYIKwYBBQUHCQQxBBMCRVMwEAYIKwYBBQUHCQUxBBMCRVMwZgYDVR0f
+BF8wXTBboFmgV4YpaHR0cDovL2Vwc2NkLmNhdGNlcnQubmV0L2NybC9lYy1pZGNhdC5jcmyGKmh0
+dHA6Ly9lcHNjZDIuY2F0Y2VydC5uZXQvY3JsL2VjLWlkY2F0LmNybDANBgkqhkiG9w0BAQUFAAOC
+AQEAcw2ASyTkRnT2WFJ+62l7j0ttK5v9j4qkwWzBo0rnGJ+JYNWVYLT0JzCzkA13iRygOrkcz71h
+HKc9feLAUiXH0ojkAQ6ynYBjwU3q60co0pvqAazSOvc0rVlQ7WR48ZJGhUDNyqPY3v+sntJ9CkLO
+gxopdze9b2YFKwGW+o96ve8KJUszwWid9io5PvxPoCv/RxHm9pz8q7ewdEvgg81dZbjZvqEYuPdh
+S59O6Dnut+skweATPrlNJogijfW68p3hOqkyDQCs/h/kRdAru6s+P9Sg7rHXZ3Pf9IDI8cg9/oHq
+pADBTNGs021aP4tvGUaSgzz/M2Fb+HVRRJXzZNqBtjGCBY8wggWLAgEBMIIBRzCCATExCzAJBgNV
+BAYTAkVTMTswOQYDVQQKEzJBZ2VuY2lhIENhdGFsYW5hIGRlIENlcnRpZmljYWNpbyAoTklGIFEt
+MDgwMTE3Ni1JKTE0MDIGA1UEBxMrUGFzc2F0Z2UgZGUgbGEgQ29uY2VwY2lvIDExIDA4MDA4IEJh
+cmNlbG9uYTEuMCwGA1UECxMlU2VydmVpcyBQdWJsaWNzIGRlIENlcnRpZmljYWNpbyBFQ1YtMjE1
+MDMGA1UECxMsVmVnZXUgaHR0cHM6Ly93d3cuY2F0Y2VydC5uZXQvdmVyQ0lDLTIgKGMpMDMxNTAz
+BgNVBAsTLEVudGl0YXQgcHVibGljYSBkZSBjZXJ0aWZpY2FjaW8gZGUgY2l1dGFkYW5zMREwDwYD
+VQQDEwhFQy1JRENhdAIQDcbiCqIFA39TraJR7DlhMDAJBgUrDgMCGgUAoIIDGzAYBgkqhkiG9w0B
+CQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0xODA2MjYxODAwMDhaMCMGCSqGSIb3DQEJ
+BDEWBBSkcIUAQD/hXVQhtTHRHF1kbn1eHjCCAVoGCSsGAQQBgjcQBDGCAUswggFHMIIBMTELMAkG
+A1UEBhMCRVMxOzA5BgNVBAoTMkFnZW5jaWEgQ2F0YWxhbmEgZGUgQ2VydGlmaWNhY2lvIChOSUYg
+US0wODAxMTc2LUkpMTQwMgYDVQQHEytQYXNzYXRnZSBkZSBsYSBDb25jZXBjaW8gMTEgMDgwMDgg
+QmFyY2Vsb25hMS4wLAYDVQQLEyVTZXJ2ZWlzIFB1YmxpY3MgZGUgQ2VydGlmaWNhY2lvIEVDVi0y
+MTUwMwYDVQQLEyxWZWdldSBodHRwczovL3d3dy5jYXRjZXJ0Lm5ldC92ZXJDSUMtMiAoYykwMzE1
+MDMGA1UECxMsRW50aXRhdCBwdWJsaWNhIGRlIGNlcnRpZmljYWNpbyBkZSBjaXV0YWRhbnMxETAP
+BgNVBAMTCEVDLUlEQ2F0AhANxuIKogUDf1OtolHsOWEwMIIBXAYLKoZIhvcNAQkQAgsxggFLoIIB
+RzCCATExCzAJBgNVBAYTAkVTMTswOQYDVQQKEzJBZ2VuY2lhIENhdGFsYW5hIGRlIENlcnRpZmlj
+YWNpbyAoTklGIFEtMDgwMTE3Ni1JKTE0MDIGA1UEBxMrUGFzc2F0Z2UgZGUgbGEgQ29uY2VwY2lv
+IDExIDA4MDA4IEJhcmNlbG9uYTEuMCwGA1UECxMlU2VydmVpcyBQdWJsaWNzIGRlIENlcnRpZmlj
+YWNpbyBFQ1YtMjE1MDMGA1UECxMsVmVnZXUgaHR0cHM6Ly93d3cuY2F0Y2VydC5uZXQvdmVyQ0lD
+LTIgKGMpMDMxNTAzBgNVBAsTLEVudGl0YXQgcHVibGljYSBkZSBjZXJ0aWZpY2FjaW8gZGUgY2l1
+dGFkYW5zMREwDwYDVQQDEwhFQy1JRENhdAIQDcbiCqIFA39TraJR7DlhMDANBgkqhkiG9w0BAQEF
+AASCAQANlw4m9vbO4xqu3wH8w9QDkSp18xbbK2Z/fYob4EWKdb7J3Av7Wxg+HjCN04cynV0jbTn8
+ZDvMmYNIpHa18xST67GTN0H4NoZzrtK6mmUI3KNwVuLaMbxE/X1neJMJSk7o9QGTuuXF/WFNcbFg
+OA66DQcmCETDZlbs1yRGLE0rt/1XAuBNz/Z76RIrRziBhISJ/tYp+lCmPgf/LmFoewKFgav0hwly
+eqjTYkdzY4s9RPU68fn8dEQAA10bSXqgLzInajtDn5Y61hULe7NWatHmrSvqTg7jQJal4V0ffwC3
+TaJHvquyEXqfs1jKBJca+2ghb8Wdp9kikZ+x0hlxQboGAAAAAAAA
+--Apple-Mail=_19552A20-1FD2-4C40-ABA6-8AE225B5A5BF--
+
+
+From nobody Tue Jun 26 12:05:30 2018
+Return-Path: <coffin@isoc.org>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 18BE0130E1E for <gaia@ietfa.amsl.com>; Tue, 26 Jun 2018 12:05:29 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.998
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.998 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, HTML_MESSAGE=0.001, MIME_QP_LONG_LINE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=isoc.org
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id WDZJ6L1xsVSW for <gaia@ietfa.amsl.com>; Tue, 26 Jun 2018 12:05:26 -0700 (PDT)
+Received: from NAM01-BY2-obe.outbound.protection.outlook.com (mail-by2nam01on0067.outbound.protection.outlook.com [104.47.34.67]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id C037A130E1A for <gaia@irtf.org>; Tue, 26 Jun 2018 12:05:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=isoc.org; s=selector1;  h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck; bh=sgYavfCA2TSBrLsbyxkM3BUcfDYmcpygh9oyFy9FYCE=; b=P3nszB4eT+w3cPVHyUuZhL4csSRxzsbba681srARjBjGpUFMMwqzE5CP59VmYrD7SHrVitN/NY4IsENQhvaCUIh7KmYev+yX9WXvbt/nczPdFxy6qPLD3eFHFNj9kifAfakEzMpkK/KwMT8F9wNyR/tXlV3GrEENmMuDvR1eWpA=
+Received: from DM3PR0601MB1916.namprd06.prod.outlook.com (10.164.251.6) by DM3PR0601MB1995.namprd06.prod.outlook.com (10.164.251.25) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.906.20; Tue, 26 Jun 2018 19:05:25 +0000
+Received: from DM3PR0601MB1916.namprd06.prod.outlook.com ([fe80::b916:2bae:4ab4:8662]) by DM3PR0601MB1916.namprd06.prod.outlook.com ([fe80::b916:2bae:4ab4:8662%4]) with mapi id 15.20.0884.024; Tue, 26 Jun 2018 19:05:24 +0000
+From: Jane Coffin <coffin@isoc.org>
+To: "gaia@irtf.org" <gaia@irtf.org>
+Thread-Topic: [isoc-ny] NYC Mesh monthly meetup tonight Monday June 26
+Thread-Index: AQHUDXzca7KZYRDlkU+bndNluhiinKRyoz0A
+Date: Tue, 26 Jun 2018 19:05:24 +0000
+Message-ID: <D9F4FED3-67DE-4EFA-BC4F-B61867FC5172@isoc.org>
+References: <mailman.5938.1530038297.12204.announce-isoc-ny.org@lists.isoc-ny.org>
+In-Reply-To: <mailman.5938.1530038297.12204.announce-isoc-ny.org@lists.isoc-ny.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+user-agent: Microsoft-MacOutlook/10.e.1.180613
+authentication-results: spf=none (sender IP is ) smtp.mailfrom=coffin@isoc.org; 
+x-originating-ip: [2001:4870:400e:402:dd29:e68c:362d:5dd]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1; DM3PR0601MB1995; 7:9V7vUOBOxoQi5IMRpFJY8IoWAK8pHfvcokDFGgKtjj+rsD592Li7fhUiIQf4gOkRpKwYPNuOX/ALu79j99yj19dFBSUULdByRpAx2k7ZzAqZU7yqGIQskJtYID/gTRbWMTJ1m1yIRpZ4MwtumKslqsv9Ukp/suefELLfNe5LgRAE/lxpGrYyIfFA/+kWDcDEODjwSyCpdiKgOKowrw9NIy910Sslwx/rRmTRGavWIrxK/fjScj41At3Hn7hjLMb8
+x-ms-exchange-antispam-srfa-diagnostics: SOS;
+x-ms-office365-filtering-correlation-id: 3892412b-57b6-4172-ad41-08d5db97c5e7
+x-microsoft-antispam: UriScan:; BCL:0; PCL:0; RULEID:(7020095)(4652020)(8989117)(4534165)(4627221)(201703031133081)(201702281549075)(8990107)(5600026)(711020)(2017052603328)(7153060)(49563074)(7193020); SRVR:DM3PR0601MB1995; 
+x-ms-traffictypediagnostic: DM3PR0601MB1995:
+x-microsoft-antispam-prvs: <DM3PR0601MB19954D9B4DA9AC5022C45796B3490@DM3PR0601MB1995.namprd06.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(28532068793085)(42944971172136)(31418570063057)(157321974039653)(21748063052155);
+x-ms-exchange-senderadcheck: 1
+x-exchange-antispam-report-cfa-test: BCL:0; PCL:0; RULEID:(102415395)(6040522)(2401047)(8121501046)(5005006)(3231254)(944501410)(52105095)(93006095)(93001095)(10201501046)(3002001)(149027)(150027)(6041310)(20161123558120)(20161123560045)(20161123562045)(201703131423095)(201702281528075)(20161123555045)(201703061421075)(201703061406153)(20161123564045)(6072148)(201708071742011)(7699016); SRVR:DM3PR0601MB1995; BCL:0; PCL:0; RULEID:; SRVR:DM3PR0601MB1995; 
+x-forefront-prvs: 071518EF63
+x-forefront-antispam-report: SFV:NSPM; SFS:(10009020)(366004)(396003)(376002)(39840400004)(136003)(346002)(189003)(199004)(966005)(478600001)(606006)(14454004)(7736002)(2351001)(2900100001)(86362001)(316002)(58126008)(1730700003)(8676002)(2501003)(5250100002)(81166006)(53936002)(81156014)(83716003)(105586002)(236005)(106356001)(6116002)(36756003)(8936002)(2906002)(6486002)(25786009)(53386004)(486006)(97736004)(2616005)(476003)(6916009)(6506007)(6512007)(54896002)(2473003)(6306002)(99936001)(53546011)(76176011)(229853002)(15974865002)(102836004)(99286004)(186003)(68736007)(46003)(5640700003)(11346002)(446003)(33656002)(256004)(82746002)(6436002)(5660300001)(55874002)(24704002); DIR:OUT; SFP:1101; SCL:1; SRVR:DM3PR0601MB1995; H:DM3PR0601MB1916.namprd06.prod.outlook.com; FPR:; SPF:None; LANG:en; PTR:InfoNoRecords; MX:1; A:1; 
+received-spf: None (protection.outlook.com: isoc.org does not designate permitted sender hosts)
+x-microsoft-antispam-message-info: nXrhGDs6Ax3HmdL5H6zYnGhEaRw5xQa+Ijj3eCw6X/RI1vjLYnMc0PLIAVyE0IAyj5iCc8GaGFd9UP0NPKXJKZbT9xWzHMBzB549IgYJW6XGuRUz7HbFzI1Jycn0k3UuUEZV6t0kIiH3cmC4eEj97Ml3pEraRksItzUL+0dJXKje34i5xugRwOghwcBWiFDXFiCwIrY71RBqhsOcjMb8bcXB2cKCVmY6IkWuj1xU047vPZxOlQmE0pmqXCVrkNs+cbXiMK5g/RLL1aKNchbPwJOQch3u8ePhiDhnTbtURe0wLfd/PXl7eSl9EQ1JeF1tKWslk/Bq7a2E9DFJjYOWkvRfAFljLJ1IIKBrv6t89Lw=
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-type: multipart/signed; protocol="application/pkcs7-signature"; micalg=sha256; boundary="B_3612870324_1344828287"
+MIME-Version: 1.0
+X-OriginatorOrg: isoc.org
+X-MS-Exchange-CrossTenant-Network-Message-Id: 3892412b-57b6-4172-ad41-08d5db97c5e7
+X-MS-Exchange-CrossTenant-originalarrivaltime: 26 Jun 2018 19:05:24.7913 (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 89f84dfb-7285-4810-bc4d-8b9b5794554f
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM3PR0601MB1995
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/BCOPN4xzDbaesJDviGJbj3_LrmI>
+Subject: [gaia] FW: [isoc-ny] NYC Mesh monthly meetup tonight Monday June 26
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.26
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 26 Jun 2018 19:05:29 -0000
+
+--B_3612870324_1344828287
+Content-type: multipart/mixed;
+	boundary="B_3612870324_106223006"
+
+
+--B_3612870324_106223006
+Content-type: multipart/alternative;
+	boundary="B_3612870324_1816004688"
+
+
+--B_3612870324_1816004688
+Content-type: text/plain;
+	charset="UTF-8"
+Content-transfer-encoding: quoted-printable
+
+Hi Folks =E2=80=93
+
+
+The NYC Mesh team has nearly tripled its network over the last 2 years.
+
+=20
+
+The link below in the email from Joly is to a meet-up they hold.
+
+=20
+
+See also the link to NYC Mesh =E2=80=9CHow to get started=E2=80=9D doc =E2=80=93 Brian Hall f=
+rom that team wrote this doc:
+
+https://nycmesh.net/how/=20
+
+=20
+
+See the link below to a very active WISP community=E2=80=93 where you can find so=
+me help/trouble-shooting for Ubiquiti gear/set-up:
+
+https://community.ubnt.com/=20
+
+=20
+
+Best,
+
+Jane
+
+=20
+
+=20
+
+Internet Society | www.internetsociety.org
+
+Skype:  janercoffin
+
+Mobile/WhatsApp:  +1.202.247.8429
+
+=20
+
+From: Announce <announce-bounces@lists.isoc-ny.org> on behalf of ISOC-NY an=
+nouncements <announce@lists.isoc-ny.org>
+Reply-To: "admin@isoc-ny.org" <admin@isoc-ny.org>
+Date: Tuesday, June 26, 2018 at 2:38 PM
+To: announce_list <announce@isoc-ny.org>
+Subject: [isoc-ny] NYC Mesh monthly meetup tonight Monday June 26
+
+=20
+
+NYC Mesh has been on an install tear recently. Just take a look at their tw=
+itter.
+
+
+=E2=80=8BHere's your chance to meet up with the team over drinks on Ave A.
+
+=20
+
+https://www.meetup.com/nycmesh/events/zbgnppyxkbfc/
+
+=20
+
+=E2=80=8B
+
+=20
+
+--=20
+
+=20
+
+Joly MacFie
+
+President - Internet Society New York Chapter (ISOC-NY)
+
+http://isoc-ny.org          218 565 9365
+
+
+--B_3612870324_1816004688
+Content-type: text/html;
+	charset="UTF-8"
+Content-transfer-encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:schema=
+s-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/office/20=
+04/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta http-equiv=3DC=
+ontent-Type content=3D"text/html; charset=3Dutf-8"><meta name=3DGenerator content=3D=
+"Microsoft Word 15 (filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle18
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style></head><body lang=3DEN-US link=3Dblue vlink=3Dpurple><div class=3DWordSe=
+ction1><p class=3DMsoNormal><span style=3D'font-size:10.5pt'>Hi Folks =E2=80=93<o:p></=
+o:p></span></p><p class=3DMsoNormal><span style=3D'font-size:10.5pt'><br>The NYC=
+ Mesh team has nearly tripled its network over the last 2 years.<o:p></o:p><=
+/span></p><p class=3DMsoNormal><span style=3D'font-size:10.5pt'><o:p>&nbsp;</o:p=
+></span></p><p class=3DMsoNormal><span style=3D'font-size:10.5pt'>The link below=
+ in the email from Joly is to a meet-up they hold.<o:p></o:p></span></p><p c=
+lass=3DMsoNormal><span style=3D'font-size:10.5pt'><o:p>&nbsp;</o:p></span></p><p=
+ class=3DMsoNormal><span style=3D'font-size:10.5pt'>See also the link to NYC Mes=
+h =E2=80=9CHow to get started=E2=80=9D doc =E2=80=93 Brian Hall from that team wrote this doc:=
+<o:p></o:p></span></p><p class=3DMsoNormal><span style=3D'font-size:10.5pt'><a h=
+ref=3D"https://nycmesh.net/how/">https://nycmesh.net/how/</a> <o:p></o:p></spa=
+n></p><p class=3DMsoNormal><span style=3D'font-size:10.5pt'><o:p>&nbsp;</o:p></s=
+pan></p><p class=3DMsoNormal><span style=3D'font-size:10.5pt'>See the link below=
+ to a very active WISP community=E2=80=93 where you can find some help/trouble-sho=
+oting for Ubiquiti gear/set-up:<o:p></o:p></span></p><p class=3DMsoNormal><spa=
+n style=3D'font-size:10.5pt'><a href=3D"https://community.ubnt.com/">https://com=
+munity.ubnt.com/</a> <o:p></o:p></span></p><p class=3DMsoNormal><span style=3D'f=
+ont-size:10.5pt'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span style=3D=
+'font-size:10.5pt'>Best,<o:p></o:p></span></p><p class=3DMsoNormal><span style=
+=3D'font-size:10.5pt'>Jane<o:p></o:p></span></p><p class=3DMsoNormal><span style=
+=3D'font-size:10.5pt'><o:p>&nbsp;</o:p></span></p><div><p class=3DMsoNormal><spa=
+n style=3D'font-size:10.5pt;color:black'><o:p>&nbsp;</o:p></span></p><div><p c=
+lass=3DMsoNormal><span style=3D'font-size:10.5pt;color:black'>Internet Society |=
+ www.internetsociety.org<o:p></o:p></span></p></div><div><p class=3DMsoNormal>=
+<span style=3D'font-size:10.5pt;color:black'>Skype: &nbsp;janercoffin<o:p></o:=
+p></span></p></div></div><p class=3DMsoNormal><span style=3D'font-size:10.5pt;co=
+lor:black'>Mobile/WhatsApp: &nbsp;+1.202.247.8429</span><span style=3D'font-si=
+ze:10.5pt'><o:p></o:p></span></p><p class=3DMsoNormal><span style=3D'font-size:1=
+0.5pt'><o:p>&nbsp;</o:p></span></p><div style=3D'border:none;border-top:solid =
+#B5C4DF 1.0pt;padding:3.0pt 0in 0in 0in'><p class=3DMsoNormal><b><span style=3D'=
+font-size:12.0pt;color:black'>From: </span></b><span style=3D'font-size:12.0pt=
+;color:black'>Announce &lt;announce-bounces@lists.isoc-ny.org&gt; on behalf =
+of ISOC-NY announcements &lt;announce@lists.isoc-ny.org&gt;<br><b>Reply-To: =
+</b>&quot;admin@isoc-ny.org&quot; &lt;admin@isoc-ny.org&gt;<br><b>Date: </b>=
+Tuesday, June 26, 2018 at 2:38 PM<br><b>To: </b>announce_list &lt;announce@i=
+soc-ny.org&gt;<br><b>Subject: </b>[isoc-ny] NYC Mesh monthly meetup tonight =
+Monday June 26<o:p></o:p></span></p></div><div><p class=3DMsoNormal><o:p>&nbsp=
+;</o:p></p></div><div><div><p class=3DMsoNormal><span style=3D'font-size:12.0pt'=
+>NYC Mesh has been on an install tear recently. Just take a look at&nbsp;<a =
+href=3D"https://twitter.com/nycmesh"><span style=3D'color:#1155CC'>their twitter=
+.</span></a><o:p></o:p></span></p></div><p class=3DMsoNormal><span style=3D'font=
+-size:12.0pt'><br clear=3Dall style=3D'text-decoration-style:initial;text-decora=
+tion-color:initial'></span><o:p></o:p></p><div><div><p class=3DMsoNormal><span=
+ style=3D'font-size:12.0pt'>=E2=80=8BHere's your chance to meet up with the team ove=
+r drinks on Ave A.<o:p></o:p></span></p></div><div><p class=3DMsoNormal><span =
+style=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></p></div><div><p class=3DMso=
+Normal><span style=3D'font-size:12.0pt'><a href=3D"https://www.meetup.com/nycmes=
+h/events/zbgnppyxkbfc/">https://www.meetup.com/nycmesh/events/zbgnppyxkbfc/<=
+/a><o:p></o:p></span></p></div><div><p class=3DMsoNormal><span style=3D'font-siz=
+e:12.0pt'><o:p>&nbsp;</o:p></span></p></div><div><p class=3DMsoNormal><span st=
+yle=3D'font-size:12.0pt'>=E2=80=8B<o:p></o:p></span></p></div></div><div><p class=3DMs=
+oNormal><o:p>&nbsp;</o:p></p></div><p class=3DMsoNormal>-- <o:p></o:p></p><div=
+><div><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><div><p class=3DMsoNormal>Joly M=
+acFie<o:p></o:p></p></div><div><p class=3DMsoNormal>President - Internet Socie=
+ty New York Chapter (ISOC-NY)<o:p></o:p></p></div><div><p class=3DMsoNormal><s=
+pan style=3D'font-size:9.5pt'><a href=3D"http://isoc-ny.org" target=3D"_blank">htt=
+p://isoc-ny.org</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>218 565 9365<o:=
+p></o:p></p></div></div></div></div></div></body></html>
+
+--B_3612870324_1816004688--
+
+
+--B_3612870324_106223006
+Content-type: text/plain; name="ATT00001.txt";
+ x-mac-creator="4F50494D"
+Content-ID: <BFD10A75A829AB438261D729911C9CF7@namprd06.prod.outlook.com>
+Content-disposition: attachment;
+	filename="ATT00001.txt"
+Content-transfer-encoding: base64
+
+
+X19fXw0KDQpJbnRlcm5ldCBTb2NpZXR5IC0gTllDIE1ldHJvcG9saXRhbiBBcmVhIENoYXB0
+ZXINCmh0dHA6Ly9pc29jLW55Lm9yZw0KDQonVGhlIEludGVybmV0IGlzIGZvciBFdmVyeW9u
+ZS4iDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQpBbm5v
+dW5jZSBtYWlsaW5nIGxpc3QNCkFubm91bmNlQGxpc3RzLmlzb2Mtbnkub3JnDQpodHRwOi8v
+bGlzdHMuaXNvYy1ueS5vcmcvbGlzdGluZm8uY2dpL2Fubm91bmNlLWlzb2Mtbnkub3JnDQo=
+--B_3612870324_106223006--
+
+--B_3612870324_1344828287
+Content-type: application/pkcs7-signature; name="smime.p7s"
+Content-transfer-encoding: base64
+Content-disposition: attachment;
+	filename="smime.p7s"
+
+MIIRjQYJKoZIhvcNAQcCoIIRfjCCEXoCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0B
+BwGggg8JMIIGGDCCBQCgAwIBAgIRAIx1fBf4uve27MtrfFJmAnQwDQYJKoZIhvcNAQELBQAw
+gZsxCzAJBgNVBAYTAkdCMRswGQYDVQQIExJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAOBgNVBAcT
+B1NhbGZvcmQxGjAYBgNVBAoTEUNPTU9ETyBDQSBMaW1pdGVkMUEwPwYDVQQDEzhDT01PRE8g
+U0hBLTI1NiBDbGllbnQgQXV0aGVudGljYXRpb24gYW5kIFNlY3VyZSBFbWFpbCBDQTAeFw0x
+NzAzMDMwMDAwMDBaFw0yMDAzMDIyMzU5NTlaMIIBFjELMAkGA1UEBhMCVVMxDjAMBgNVBBET
+BTIwMTkwMQswCQYDVQQIEwJWQTEPMA0GA1UEBxMGUmVzdG9uMRIwEAYDVQQJEwlTdWl0ZSAy
+MDExGzAZBgNVBAkTEjE3NzUgV2llaGxlIEF2ZW51ZTEZMBcGA1UEChMQSW50ZXJuZXQgU29j
+aWV0eTE2MDQGA1UECxMtSXNzdWVkIHRocm91Z2ggSW50ZXJuZXQgU29jaWV0eSBFLVBLSSBN
+YW5hZ2VyMR8wHQYDVQQLExZDb3Jwb3JhdGUgU2VjdXJlIEVtYWlsMRQwEgYDVQQDEwtKYW5l
+IENvZmZpbjEeMBwGCSqGSIb3DQEJARYPY29mZmluQGlzb2Mub3JnMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEAxOFL6I8nwUcXFJxbOkkijvQM5i2c05ifwmn0suMy3Xf3EKUg
+47+fYDpcFOCwdWi7hXlh0TxXdoAK6wKRb8G9PeG1sRIkcRtSaf4Bx9uHcO4v5wu5ornnuklt
+7bky1g+7Jse/Bre4ZrySEz74ogsAkLZd73/+uZ6SbTjuPMdAAgfc8UaUKqwF0KYLE/WB4Dq/
++VBv32gJatDShiyKR1WIWGbP0mAaF4jPg0DenATNZtbAKi1P9mta2YoH3+IrfokdVk009wA2
+VqUieYMSkuGBgzbL54bYsfuMjRnxuy+qgvNY+KaWmRZXnrKC0UtHxqO2UaACYRQ9DE1tqvRY
+UoPeFwIDAQABo4IB1zCCAdMwHwYDVR0jBBgwFoAUkmFrguGioKpP7GfxwqP3tIAAwewwHQYD
+VR0OBBYEFDJzhFKMF3xbiM4gA2IhGPUK+s1SMA4GA1UdDwEB/wQEAwIFoDAMBgNVHRMBAf8E
+AjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMEBggrBgEFBQcDAjBGBgNVHSAEPzA9MDsGDCsGAQQB
+sjEBAgEDBTArMCkGCCsGAQUFBwIBFh1odHRwczovL3NlY3VyZS5jb21vZG8ubmV0L0NQUzBd
+BgNVHR8EVjBUMFKgUKBOhkxodHRwOi8vY3JsLmNvbW9kb2NhLmNvbS9DT01PRE9TSEEyNTZD
+bGllbnRBdXRoZW50aWNhdGlvbmFuZFNlY3VyZUVtYWlsQ0EuY3JsMIGQBggrBgEFBQcBAQSB
+gzCBgDBYBggrBgEFBQcwAoZMaHR0cDovL2NydC5jb21vZG9jYS5jb20vQ09NT0RPU0hBMjU2
+Q2xpZW50QXV0aGVudGljYXRpb25hbmRTZWN1cmVFbWFpbENBLmNydDAkBggrBgEFBQcwAYYY
+aHR0cDovL29jc3AuY29tb2RvY2EuY29tMBoGA1UdEQQTMBGBD2NvZmZpbkBpc29jLm9yZzAN
+BgkqhkiG9w0BAQsFAAOCAQEAHRcuCMvcxM7tuARpHR3ZYRNGdjYOR3FXD7vOtTRKkVWK1oVL
+Fb+YGqlUXvmrcEqS/FTq6mq0Iicvmj2zSr5DkkDURIm4ijPLs6ReOFMAL8mMm350zSqE8X5y
+Ep54iMNJ/mJstAg01UFvaV9MS+Ic8b2yhXLym6B4mYbfQZMuRVtmC9q8FPLylzdGsX4O7fjg
+0RLGuGJ8T79Mt4+FG84efRdwpo2wPYdYD7dsx5XcU52Uvc7wZdo0i2D4w0LgPOZvjIMX7XlA
+lNDtVUQYuw65+KgCqzx6NtuAJo4rqGJe4BToylL6S6IH6hao84GbG12otsnuqbc100VhOMeZ
+40pzCjCCBK8wggOXoAMCAQICEQDgI8sVEoNTia1hbnpUZ2shMA0GCSqGSIb3DQEBCwUAMG8x
+CzAJBgNVBAYTAlNFMRQwEgYDVQQKEwtBZGRUcnVzdCBBQjEmMCQGA1UECxMdQWRkVHJ1c3Qg
+RXh0ZXJuYWwgVFRQIE5ldHdvcmsxIjAgBgNVBAMTGUFkZFRydXN0IEV4dGVybmFsIENBIFJv
+b3QwHhcNMTQxMjIyMDAwMDAwWhcNMjAwNTMwMTA0ODM4WjCBmzELMAkGA1UEBhMCR0IxGzAZ
+BgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4GA1UEBxMHU2FsZm9yZDEaMBgGA1UEChMR
+Q09NT0RPIENBIExpbWl0ZWQxQTA/BgNVBAMTOENPTU9ETyBTSEEtMjU2IENsaWVudCBBdXRo
+ZW50aWNhdGlvbiBhbmQgU2VjdXJlIEVtYWlsIENBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEAibEN2npTGU5wUh28VqYGJre4SeCW51Gr8fBaE0kVo7SMG2C8elFCp3mMpCLf
+F2FOkdV2IwoU00oCf7YdCYBupQQ92bq7Fv6hh6kuQ1JDFnyvMlDIpk9a6QjYz5MlnHuI6DBk
+5qT4VoD9KiQUMxeZrETlaYujRgZLwjPU6UCfBrCxrJNAubUIkzqcKlOjENs9IGE8VQOO2U52
+JQIhKfqjfHF2T+7hX4Hp+1SA28N7NVK3hN4iPSwwLTF/Wb1SN7AzaS1D6/rWpfGXd2dRjNnu
+J+u8pQc4doykqTj/34z1A6xJvsr3c5k6DzKrnJU6Ez0ORjpXdGFQvsZAP8vk4p+iIQIDAQAB
+o4IBFzCCARMwHwYDVR0jBBgwFoAUrb2YejS0Jvf6xCZU7wO94CTLVBowHQYDVR0OBBYEFJJh
+a4LhoqCqT+xn8cKj97SAAMHsMA4GA1UdDwEB/wQEAwIBhjASBgNVHRMBAf8ECDAGAQH/AgEA
+MB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBgNVHSAECjAIMAYGBFUdIAAwRAYD
+VR0fBD0wOzA5oDegNYYzaHR0cDovL2NybC51c2VydHJ1c3QuY29tL0FkZFRydXN0RXh0ZXJu
+YWxDQVJvb3QuY3JsMDUGCCsGAQUFBwEBBCkwJzAlBggrBgEFBQcwAYYZaHR0cDovL29jc3Au
+dXNlcnRydXN0LmNvbTANBgkqhkiG9w0BAQsFAAOCAQEAGypurFXBOquIxdjtzVXzqmthK8AJ
+ECOZD8Vmam+x9bS1d14PAmEA330F/hKzpICAAPz7HVtqcgIKQbwFusFY1SbC6tVNhPv+gpjP
+WBvjImOcUvi7BTarfVil3qs7Y+Xa1XPv7OD7e+Kj//BCI5zKto1NPuRLGAOyqC3U2LtCS5Bp
+hRDbpjc06HvgARClnMo6x59PiDRuimXQGoq7qdzKyjbR9PzCZCk1r9axp3ER0gNDsY8+muye
+MlP0dpLKhjQHuSzK5hxK2JkNwYbikJL7WkJqIyEQ6WXH9dW7fuqMhSACYurROgcsWcWZM/I4
+ieW26RZ6H3kU9koQGib6fIr7mzCCBDYwggMeoAMCAQICAQEwDQYJKoZIhvcNAQEFBQAwbzEL
+MAkGA1UEBhMCU0UxFDASBgNVBAoTC0FkZFRydXN0IEFCMSYwJAYDVQQLEx1BZGRUcnVzdCBF
+eHRlcm5hbCBUVFAgTmV0d29yazEiMCAGA1UEAxMZQWRkVHJ1c3QgRXh0ZXJuYWwgQ0EgUm9v
+dDAeFw0wMDA1MzAxMDQ4MzhaFw0yMDA1MzAxMDQ4MzhaMG8xCzAJBgNVBAYTAlNFMRQwEgYD
+VQQKEwtBZGRUcnVzdCBBQjEmMCQGA1UECxMdQWRkVHJ1c3QgRXh0ZXJuYWwgVFRQIE5ldHdv
+cmsxIjAgBgNVBAMTGUFkZFRydXN0IEV4dGVybmFsIENBIFJvb3QwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQC39xoz5vIABC054E5b7R+8bA/Ntfojts7emxEzl6QpTH2Tn71K
+vJPtAxrjj8/lbVBa1pcplFqAsEl62y6V/bjKvzc4LR4+kUGtcFbH8E8/6DKedMrIkFTpxl8P
+eJ2aQDwOrGGqXhSPnoehalDc15pOrwWzpnGUnHGzUGAKxxOdOAeGAqjpqGkmGJCrTLBPI6s6
+T4TY386f4Wlvu9dC12tE5Met7m1BX3JacQg3s3llpFmglDf3AC8NwpJy2tA4ctsUqEXEXSp9
+t7TWxO6szRNEt8kr3UMAJfphuWlqWCMRt6czj1Z1WfXNKddGtworZbbTQm8Vsrh7++/pXVPV
+NFonAgMBAAGjgdwwgdkwHQYDVR0OBBYEFK29mHo0tCb3+sQmVO8DveAky1QaMAsGA1UdDwQE
+AwIBBjAPBgNVHRMBAf8EBTADAQH/MIGZBgNVHSMEgZEwgY6AFK29mHo0tCb3+sQmVO8DveAk
+y1QaoXOkcTBvMQswCQYDVQQGEwJTRTEUMBIGA1UEChMLQWRkVHJ1c3QgQUIxJjAkBgNVBAsT
+HUFkZFRydXN0IEV4dGVybmFsIFRUUCBOZXR3b3JrMSIwIAYDVQQDExlBZGRUcnVzdCBFeHRl
+cm5hbCBDQSBSb290ggEBMA0GCSqGSIb3DQEBBQUAA4IBAQCwm+CFJcLWI+IPlgaSnUGYnNmE
+eYHZHlsUByM2ZY+w2He7rEFsR2CDUbD5Mj3n/PYmE8eAFqW/WvyHz3h5iSGa4kwHCoY1vPLe
+UcTSlrfcfk7ucP0cOesMAlEULY69FuDB30Z15ySt7PRCtIWTcBBnup0GNUoY0yt6zFFCoXpj
+0ea7ocUrwja+Ew3mvWN+eXunCQ1Aq2rdj4rD9vaMGkIFUdRF9Z+nYiFoFSBDPJnnfL0k2KmR
+F3OIP1YbMTgYtHEPms3IDp6OLhvhjJiDyx8x8URMxgRzSXZgD8f4vReAay7pzEwOWpp5DyAK
+LtWeYyYeVZKU2IIXWnvQvMePToYEMYICSDCCAkQCAQEwgbEwgZsxCzAJBgNVBAYTAkdCMRsw
+GQYDVQQIExJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAOBgNVBAcTB1NhbGZvcmQxGjAYBgNVBAoT
+EUNPTU9ETyBDQSBMaW1pdGVkMUEwPwYDVQQDEzhDT01PRE8gU0hBLTI1NiBDbGllbnQgQXV0
+aGVudGljYXRpb24gYW5kIFNlY3VyZSBFbWFpbCBDQQIRAIx1fBf4uve27MtrfFJmAnQwDQYJ
+YIZIAWUDBAIBBQCgaTAvBgkqhkiG9w0BCQQxIgQg+//CPEkzAdqHcFdMoSycz4wgoIPZGrNG
+f5Ev4BE0gfYwGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTgw
+NjI2MTkwNTI0WjANBgkqhkiG9w0BAQEFAASCAQAuvmn5c07knuLKHKg3YDZSRMXO11xcQVQQ
+Kqzr6yjbscJ/TxXX8z1YLC/8EgpyseCjyqOw2V/X112CMY+arDM/38mDwkFVtKqfbaTfHoyc
+1aInqz7bbOL8GYPVe6dKAt2s5oM8i0ada6kRnrI8+/WRdoqba5l4UVK0UH7OpLD+waZwTgIf
+lzu7DrnK65Rs2bhHfBr2SLOd2k8UQD12aH5yft+j++c261bm+lk0aSSxvsN+UfnV9kbawM9j
+wAfCJHLdsmEzmQg1yS87+bOeOA0wTt9MT6po9fkE3o08UqJ0iV2fHA4Ncldj1xFt8zmUSoTZ
+TvRkuSrnomdFWI8agpqT
+
+--B_3612870324_1344828287--
+
+
+From nobody Tue Jun 26 13:54:14 2018
+Return-Path: <ycompanys@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 606A7130EAF for <gaia@ietfa.amsl.com>; Thu, 14 Jun 2018 12:13:35 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.998
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.998 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id dPdx3YW9SXqE for <gaia@ietfa.amsl.com>; Thu, 14 Jun 2018 12:13:33 -0700 (PDT)
+Received: from mail-ot0-x241.google.com (mail-ot0-x241.google.com [IPv6:2607:f8b0:4003:c0f::241]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id F3E5C130E74 for <gaia@irtf.org>; Thu, 14 Jun 2018 12:13:32 -0700 (PDT)
+Received: by mail-ot0-x241.google.com with SMTP id q17-v6so8361113otg.2 for <gaia@irtf.org>; Thu, 14 Jun 2018 12:13:32 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20161025;  h=mime-version:from:date:message-id:subject:to; bh=PkreuGU+ZQKNmZqRPtVxKAKgU3FDh4J6ZGMG4kHrXl4=; b=VWrt4/ewM+rsR7LHtALLVbRiLwZyy7PBjX2jIAH+2+WvpjrRl5WhpE16Tj0BsrLZ+a MpFb6CYvgjBNQJ3ZVx3g76L0aA1HhvlyxKxQg6O/ANxEZDcO2c9qioKbuJzMq+2akW+f al0NMcNZ4hFUwa7aKwkCCw2UpezW178gSR1teen5lD/tUbUGMftYjxR6XwNtjzx+hSuy FXzrK40AqAwk4rK2yZKdMLM61YVP5+Z6fd0QrN7ccSk/vEt3RY5koU8uQ0fCC/a21Og+ cci6+dBQoGmRLJ4ucQdTl1kfXDj214jFa/ohWEsYVcRPT6gq88dGusDe9PniJeKt6BIy rwcg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:from:date:message-id:subject:to; bh=PkreuGU+ZQKNmZqRPtVxKAKgU3FDh4J6ZGMG4kHrXl4=; b=HpiZos/62C8U1L6cXjtIlf9licniGmSx5KFTh0uObErDmYtw1CXRUHdDQVWTqIwPsa 78bQfZyikOrv6ZpCPGvupgi4lWxTm1qbwGbBjMNoc0hz2xxHd2ormrRdct5aqovb4i4K Lu8SuDFkWnHDbGN9i26r9ckox3g+UfM2o6QRSRsCtqFLZkF2psswUKCAa9128h+ePHep X0Gg0IB+GZB6al2rRaZo9+nlvrLfr8pL5N3Nr5ZJhWdBi/TfYZ0a4vsIT8lS49rIxIK1 +Ou0OtHNFNdpM8rYuzgni0tTpZMMBlaUG4iKqUCruuaZZ4w/pAatBJ5fbm4yb0iLQL9H qHHg==
+X-Gm-Message-State: APt69E0e/jyGA9FL6ORdVKosc5haPYH5ZLLtP8NQwRoXoalOk6RE09Ks HALxVKUtvQPUIf7x+MEorH6Lafw2e0oDC9aTsPw=
+X-Google-Smtp-Source: ADUXVKIDa/x2/SRhcqpcJzUkPGXlp2Ar/tKJ2FVHXaMVt224q45OUEg38vuVZ+Ew5nF2cVrahuR+ZP/SQDK4rHEV9yw=
+X-Received: by 2002:a9d:2010:: with SMTP id n16-v6mr1947507ota.275.1529003612195;  Thu, 14 Jun 2018 12:13:32 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 2002:ac9:25d2:0:0:0:0:0 with HTTP; Thu, 14 Jun 2018 12:13:10 -0700 (PDT)
+From: Yosem Companys <ycompanys@gmail.com>
+Date: Thu, 14 Jun 2018 12:13:10 -0700
+Message-ID: <CANhci9HRsxJgr0Vu_gUnNOL50FFgxRorrBL5nhijdr+-WYWRSQ@mail.gmail.com>
+To: Liberation Technologies <liberationtech@lists.stanford.edu>
+Content-Type: multipart/alternative; boundary="0000000000002a5195056e9ee5c6"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/oxT890u35eLs-kiMKc4lPv8hh2I>
+X-Mailman-Approved-At: Tue, 26 Jun 2018 13:54:12 -0700
+Subject: [gaia] Stanford Liberationtech Needs Your Help
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.26
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 14 Jun 2018 19:13:36 -0000
+
+--0000000000002a5195056e9ee5c6
+Content-Type: text/plain; charset="UTF-8"
+
+Hi All,
+
+The Program on Liberation Technologies at Stanford University (LT)
+<http://cddrl.fsi.stanford.edu/libtech> has been going strong since circa
+2006. Since then, LT has helped thousands design, use, and research
+technologies that foster the public good.
+
+Recently, the decision was made to spin off LT as an independent entity.
+I'm one of the people tasked with doing so. Here are LT's major needs:
+
+   - Recruit people to develop a new website, logo, and graphics.
+   - Identify a legal jurisdiction with strong security and privacy laws
+   and regulations and a server provider with a stellar reputation at
+   protecting user security and privacy to host the site.
+   - Determine whether to maintain LT's mailing lists on Mailman
+   <https://mailman.stanford.edu/mailman/listinfo/liberationtech> or to
+   transition them to a content management system (e.g., Discourse.org).
+   - Assess the best legal structure for LT (e.g., digital cooperative).
+
+Any ideas? Thanks for your help and advice.
+
+Best,
+Yosem
+
+P.S. I'm sending this email on behalf LT's co-founders and not Stanford
+University.
+
+--0000000000002a5195056e9ee5c6
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi All,<div><br></div><div>The <a href=3D"http://cddrl.fsi=
+.stanford.edu/libtech">Program on Liberation Technologies at Stanford Unive=
+rsity (LT)</a> has been going strong since circa 2006. Since then, LT has h=
+elped thousands design, use, and research technologies that foster the publ=
+ic good.</div><div><br></div><div><span style=3D"font-size:small;background=
+-color:rgb(255,255,255);text-decoration-style:initial;text-decoration-color=
+:initial;float:none;display:inline">Recently, the=C2=A0</span>decision was =
+made to spin off LT as an independent entity. I&#39;m one of the people tas=
+ked with doing so. Here are LT&#39;s major needs:</div><div><ul><li>Recruit=
+ people to develop a new website, logo, and graphics.</li><li>Identify a le=
+gal jurisdiction with strong security and privacy laws and regulations and =
+<span style=3D"font-size:small;background-color:rgb(255,255,255);text-decor=
+ation-style:initial;text-decoration-color:initial;float:none;display:inline=
+">a server provider with a stellar reputation at protecting user security a=
+nd privacy</span>=C2=A0to host the site.=C2=A0<br></li><li>Determine whethe=
+r to maintain LT&#39;s mailing lists on <a href=3D"https://mailman.stanford=
+.edu/mailman/listinfo/liberationtech">Mailman</a> or to transition them to =
+a content management system (e.g., Discourse.org).</li><li>Assess the best =
+legal structure for LT (e.g., digital cooperative).</li></ul><div>Any ideas=
+? Thanks for your help and advice.=C2=A0</div></div><div><br></div><div>Bes=
+t,</div><div>Yosem</div><div><br></div><div>P.S. I&#39;m sending this email=
+ on behalf LT&#39;s co-founders and not Stanford University.<br class=3D"gm=
+ail-Apple-interchange-newline">
+
+</div></div>
+
+--0000000000002a5195056e9ee5c6--
+
+
+From infrared@cs.washington.edu  Tue Jun 26 13:38:45 2018
+Return-Path: <infrared@cs.washington.edu>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 9FA6D130ECB for <gaia@ietfa.amsl.com>; Tue, 26 Jun 2018 13:38:45 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.988
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.988 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, T_KAM_HTML_FONT_INVALID=0.01, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=cs.washington.edu
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id ZIcDxrU-bpIP for <gaia@ietfa.amsl.com>; Tue, 26 Jun 2018 13:38:41 -0700 (PDT)
+Received: from mail-ua0-x230.google.com (mail-ua0-x230.google.com [IPv6:2607:f8b0:400c:c08::230]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id AC5CD130ED3 for <gaia@irtf.org>; Tue, 26 Jun 2018 13:38:40 -0700 (PDT)
+Received: by mail-ua0-x230.google.com with SMTP id u21-v6so2487851uao.0 for <gaia@irtf.org>; Tue, 26 Jun 2018 13:38:40 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=cs.washington.edu; s=goo201206; h=mime-version:in-reply-to:references:from:date:message-id:subject:to; bh=Vnbom4ILjPhHr3qSrYCiKdIfxrCLBbvpYhxE4LWF6Xw=; b=HIHZy/RtSVze1GNZSuQVzEq7TQSrjRq5n3kNuXcPLB2kQGVQmwMg2t+xEn4SHJes79 JfgUwdbupyNbPL1idvmCgNfSsMxqcnAWe3e2VY0v8gu6Rwve+Nx/nRXXLXDK1UAPaFIA vztcvmGGn4hr70LJMXM9DslovNB+JHRP78Ilg=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:in-reply-to:references:from:date :message-id:subject:to; bh=Vnbom4ILjPhHr3qSrYCiKdIfxrCLBbvpYhxE4LWF6Xw=; b=Tb4nDooBaP8rnUp/u7Id64UtAHQ54whJT87mNyBNRCSAQt9ytIqXaWXvEFfqfm6EC0 nCsFplzFJ3bgtW8+8S1eID5q7VYzEhYjjmb3T3VsA4iJE9coiEQNbrcFXdd0yO9DRSTG gAeI0tPdPrZZvjsK7je0H4AZDr5ISeD6SOxtk7I7bSrXPpAPtOc+7gPT5HrxWGp9P36C A0rVo9MpmbZekSZ2Ksy50c4kA32ZYhw1vRifh8UbYwZ2eej6wNbuCCvgo33ZzRnVgrWL aH0RKRIcmvLocg3Jc9IMburnVyukUC8koy3l1Ca+LBfqhJ50w9XiFHWPXEjHX8zcp0ag +CKA==
+X-Gm-Message-State: APt69E0rz3UQMcSbONBGD/aWW0xtX2qbiaUdm43vpW3vrf7dpVgfTdgT NzXM9JORqI3h+h9KvJ38TSiS7KB0zDsG5RC8rRzglPLQ
+X-Google-Smtp-Source: AAOMgpdzlOsYUdlu150G52QpvliAqWT8cs8uyS+CW452LPiaLm7URxDmJ6BpedefHB4HMc+AFty7j6fJrD6+dfPFQ5A=
+X-Received: by 2002:a9f:30c5:: with SMTP id k5-v6mr1967723uab.13.1530045519167;  Tue, 26 Jun 2018 13:38:39 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 2002:a67:210f:0:0:0:0:0 with HTTP; Tue, 26 Jun 2018 13:38:18 -0700 (PDT)
+In-Reply-To: <CANmJCwChnHF=5DQ-TPSrgwXG4rT2rKu7rw6bPciGnu5uF64eYQ@mail.gmail.com>
+References: <CANmJCwChnHF=5DQ-TPSrgwXG4rT2rKu7rw6bPciGnu5uF64eYQ@mail.gmail.com>
+From: Esther Jang <infrared@cs.washington.edu>
+Date: Tue, 26 Jun 2018 13:38:18 -0700
+Message-ID: <CAFcJ7OG6KM6g4VtHoczoS+srCVMaEVCtCeANnORFX2Y4TSxxvw@mail.gmail.com>
+To: gaia@irtf.org
+Content-Type: multipart/alternative; boundary="000000000000a91799056f917b18"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/ALJ7WCWMDwiRJOpIvW2jY0PgyDw>
+X-Mailman-Approved-At: Tue, 26 Jun 2018 13:54:12 -0700
+Subject: [gaia] Fwd: ICTD 2019 Call for Participation - Papers/Posters due July 22, 2018
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.26
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 26 Jun 2018 20:42:16 -0000
+
+--000000000000a91799056f917b18
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Please note that the submission deadline for ICTD 2019 in Ahmedabad, India
+is less than 1 month away!
+This is a great conference for the technology for social good community and
+we are looking for broad participation.
+
+---------- Forwarded message ----------
+From: ICTD 2019 <ictd2019@gmail.com>
+Date: Tue, Jun 26, 2018 at 1:03 PM
+Subject: ICTD 2019 Call for Participation - Papers/Posters due July 22, 201=
+8
+To:
+
+
+Please forward this along to your email lists!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*ICTD 2019***Call for Participation***Deadline for Papers and Posters: July
+22, 2018 Conference: Jan 4-7, 2019, Ahmedabad, IndiaThe 10th International
+Conference on Information and Communication Technologies and Development
+(ICTD 2019), being hosted at the Indian Institute of Management (Ahmedabad,
+India) January 4-7, 2019, invites you to submit your work. To be held in
+cooperation with ACM SIGCAS, ICTD 2019 will provide an international forum
+for scholarly researchers to explore the role of information and
+communication technologies (ICTs) in the context of social, political, and
+economic development. Information and communication technologies (ICTs)
+have become more pervasive in the lives of people around the world. They
+are being used in various facets of daily life ranging from markets to
+health care, education to governance, family life to artistic expression.
+Diverse groups across the world interact with, are impacted by, and can
+shape the design of these technologies. The ICTD conference provides a
+forum for analyzing, critiquing, refining, and inventing new ways in which
+individuals, communities, and societies interact with and make use of these
+tools and platforms. There are multidisciplinary challenges associated with
+the engineering, application, and adoption of ICTs in =E2=80=9Cdeveloping=
+=E2=80=9D regions
+and/or for development, with implications for design, policy, and
+practice.For the purposes of this conference, the term =E2=80=9CICT=E2=80=
+=9D comprises
+electronic technologies for information processing and communication, as
+well as systems, use of big data, interventions, and platforms that are
+built on such technologies. =E2=80=9CDevelopment=E2=80=9D includes, but is =
+not restricted
+to, poverty alleviation, education, agriculture, healthcare, general
+communication, gender equality, governance, infrastructure, environment,
+and sustainable livelihoods. The conference program will reflect the
+multidisciplinary nature of ICTD research and publishing traditions, with
+anticipated contributions from fields including (but not limited to)
+anthropology, computer science, communication, data science, design,
+economics, electrical engineering, geography, human-computer interaction,
+information studies, information systems, political science, public health,
+and sociology.To stay up to date, please follow us on Facebook
+(http://facebook.com/ictdx <http://facebook.com/ictdx>) and Twitter
+(@ictdx). You can find more information on our website (http://ictdx.org
+<http://ictdx.org/>).CategoriesFULL PAPERSAn ICTD Full Paper, 7-10 pages in
+the ACM two-column format (excluding references, but including figures and
+tables), must make a new and complete research contribution, articulate how
+it is advancing the field of ICTD,  and provide complete and substantial
+support for its results and conclusions. Papers will be evaluated via
+double-blind peer review by a multidisciplinary panel of at least three
+reviewers, one of whom will come from outside the paper=E2=80=99s disciplin=
+ary
+domain in order to ensure broad readability. Authors of accepted papers
+will be invited to give an oral presentation at the conference. Papers are
+archived by default in the ACM Digital Library (unless otherwise requested
+by authors). A subset of these papers will be selected for publication in
+the Information Technology and International Development (ITID) journal as
+well. Submit at https://ictdx.cs.washington.edu/submit/
+<https://ictdx.cs.washington.edu/submit/>.FULL PAPERS WITHOUT
+PUBLICATIONNew this year! We recognize that, in some disciplines, papers in
+conference proceedings have less publication value. Handing over the
+copyright to ACM may also be undesirable. To allow scholars in these fields
+to present their research at ICTD, we welcome an additional kind of
+submission under Papers--papers accepted for publication in the preceding
+year and a half (from Jan. 1, 2017 through July 22, 2018). Inclusion of
+these papers into the conference program will depend on relevance to the
+conference program and availability of slots. Accepted papers will be
+invited for an oral presentation. Authors are requested to submit their
+paper as an email attachment with information about the (1) authors, (2)
+publication venue, (3) publication status, and (4) (expected) date of
+publication to submissions@ictdx.org <submissions@ictdx.org> by Sep. 1,
+2018.POSTERSAn ICTD Poster, up to 4 pages in the ACM two-column format
+(excluding references, but including figures and tables), can report on
+practitioner projects, research work in progress, dissertation progress,
+and other content that would enrich the conference. A complete research
+contribution is not mandatory. Posters will be reviewed in the same
+timeline as (but differently than) Papers. Accepted Posters will be
+presented as posters at the conference and will be archived in the ACM
+Digital Library (unless otherwise requested by authors). Submit at
+https://ictdx.cs.washington.edu/submit/
+<https://ictdx.cs.washington.edu/submit/>.OPEN SESSIONSOpen Sessions will
+welcome a variety of submissions and formats. These will be submitted in
+the form of extended abstracts and will include proposals for panels,
+workshops, doctoral colloquium submissions, and more. While some open
+sessions have been pre-decided (doctoral colloquium, young researchers,
+etc.), others are up to the authors to define. They can choose to submit to
+the sessions that have been determined in advance, or propose one of their
+own. A Google form for participation will be posted on Jul. 16 at
+https://www.ictdx.org/participate/ <https://www.ictdx.org/participate/>.
+Due Sep. 1, 2018. Dates & DeadlinesJul. 22, 2018: Deadline for Papers and
+PostersSep. 1, 2018: Notifications sentOct. 15, 2018: Camera-readies
+dueJan. 4-7, 2019: Presentations at ICTD 2019 in AhmedabadAll submissions
+are due at 11:59pm Indian Standard Time.OrganizersGENERALRajesh Chandwani
+(Indian Institute of Management, Ahmedabad India)Pushpendra Singh
+(Indraprastha Institute of Information Technology, Delhi India)PRACTICENeil
+Patel (Awaaz.De, Ahmedabad India)PROGRAMNeha Kumar (Georgia Tech, Atlanta
+USA)Rajesh Veeraraghavan (Georgetown University, Washington DC
+USA)POSTERSDavid Nemer (University of Kentucky, Lexington USA)Syed
+Ishtiaque Ahmed (University of Toronto, Toronto Canada)OPEN SESSIONSAditya
+Vashistha (University of Washington, Seattle USA)Michaelanne Dye (Georgia
+Tech, Atlanta USA)DEMOSKurtis Heimerl (University of Washington, Seattle
+USA)DOCTORAL CONSORTIUMNimmi Rangaswamy (Indian Institute of Information
+Technology, Hyderabad)Vigneswara Ilavarasan (Indian Institute of
+Technology, Delhi)TRAVELShriram Venkatraman (Indraprastha Institute of
+Information Technology, Delhi)Anupriya Tuli (Indraprastha Institute of
+Information Technology, Delhi)Deepika Yadav (Indraprastha Institute of
+Information Technology, Delhi)WEB & SOCIAL MEDIANaveena Karusala
+(University of Washington, Seattle USA)Esther Jang (University of
+Washington, Seattle USA)DESIGNShruti Dalvi (Georgia Tech, Atlanta
+USA)ACCESSIBILITYVaishnav Kameswaran (University of Michigan, Ann Arbor
+USA)*
+
+--000000000000a91799056f917b18
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><span class=3D"gmail-im" style=3D"color:rgb(80,0,80);font-=
+size:12.8px;text-decoration-style:initial;text-decoration-color:initial"><d=
+iv style=3D"font-size:12.8px;background-color:rgb(255,255,255);text-decorat=
+ion-style:initial;text-decoration-color:initial">Please note that the submi=
+ssion deadline for ICTD 2019 in Ahmedabad, India is less than 1 month away!=
+</div></span><div style=3D"font-size:12.8px;text-decoration-style:initial;t=
+ext-decoration-color:initial">This is a great conference for the technology=
+ for social good community and we are looking for broad participation.</div=
+><br><div class=3D"gmail_quote">---------- Forwarded message ----------<br>=
+From: <b class=3D"gmail_sendername">ICTD 2019</b> <span dir=3D"ltr">&lt;<a =
+href=3D"mailto:ictd2019@gmail.com">ictd2019@gmail.com</a>&gt;</span><br>Dat=
+e: Tue, Jun 26, 2018 at 1:03 PM<br>Subject: ICTD 2019 Call for Participatio=
+n - Papers/Posters due July 22, 2018<br>To: <br><br><br><div dir=3D"ltr"><s=
+pan style=3D"font-size:12.8px;text-decoration-style:initial;text-decoration=
+-color:initial;float:none;display:inline">Please forward this along to your=
+ email lists!=C2=A0</span><div style=3D"font-size:12.8px;text-decoration-st=
+yle:initial;text-decoration-color:initial"><div><div><br></div><div><b id=
+=3D"m_3148229624037562284gmail-m_7970011746072827451gmail-m_-27334062952648=
+42551gmail-docs-internal-guid-d9a6e587-3d9e-2b26-e377-83f1b58ad378" style=
+=3D"font-weight:normal"><p dir=3D"ltr" style=3D"line-height:1.38;margin-top=
+:0pt;margin-bottom:0pt;text-align:center"><span style=3D"font-size:18pt;fon=
+t-family:Georgia;color:rgb(0,0,255);background-color:transparent;font-weigh=
+t:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-a=
+lign:baseline;white-space:pre-wrap">ICTD 2019</span></p><p dir=3D"ltr" styl=
+e=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt;text-align:center"><=
+span style=3D"font-size:18pt;font-family:Georgia;background-color:transpare=
+nt;font-weight:700;font-style:normal;font-variant:normal;text-decoration:no=
+ne;vertical-align:baseline;white-space:pre-wrap"><font color=3D"#000000">**=
+*Call for Participation***</font></span></p><p dir=3D"ltr" style=3D"line-he=
+ight:1.38;margin-top:0pt;margin-bottom:0pt;text-align:center"><span style=
+=3D"font-size:12pt;font-family:Georgia;color:rgb(255,0,0);background-color:=
+transparent;font-weight:700;font-style:normal;font-variant:normal;text-deco=
+ration:none;vertical-align:baseline;white-space:pre-wrap">Deadline for Pape=
+rs and Posters: July 22, 2018</span><span style=3D"font-size:12pt;font-fami=
+ly:Georgia;color:rgb(255,0,0);background-color:transparent;font-weight:400;=
+font-style:normal;font-variant:normal;text-decoration:none;vertical-align:b=
+aseline;white-space:pre-wrap"> </span></p><p dir=3D"ltr" style=3D"line-heig=
+ht:1.38;margin-top:0pt;margin-bottom:0pt;text-align:center"><span style=3D"=
+font-size:12pt;font-family:Georgia;background-color:transparent;font-weight=
+:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-al=
+ign:baseline;white-space:pre-wrap"><font color=3D"#000000">Conference: Jan =
+4-7, 2019, Ahmedabad, India</font></span></p><br><p dir=3D"ltr" style=3D"li=
+ne-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:1=
+0pt;font-family:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255)=
+;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none=
+;vertical-align:baseline;white-space:pre-wrap">The 10th International Confe=
+rence on </span><span style=3D"font-size:10pt;font-family:Arial;color:rgb(3=
+4,34,34);background-color:rgb(255,255,255);font-weight:700;font-style:norma=
+l;font-variant:normal;text-decoration:none;vertical-align:baseline;white-sp=
+ace:pre-wrap">Information and Communication Technologies and Development (I=
+CTD 2019)</span><span style=3D"font-size:10pt;font-family:Arial;color:rgb(3=
+4,34,34);background-color:rgb(255,255,255);font-weight:400;font-style:norma=
+l;font-variant:normal;text-decoration:none;vertical-align:baseline;white-sp=
+ace:pre-wrap">, being hosted at the </span><span style=3D"font-size:10pt;fo=
+nt-family:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255);font-=
+weight:700;font-style:normal;font-variant:normal;text-decoration:none;verti=
+cal-align:baseline;white-space:pre-wrap">Indian Institute of Management (Ah=
+medabad, India) January 4-7, 2019,</span><span style=3D"font-size:10pt;font=
+-family:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255);font-we=
+ight:400;font-style:normal;font-variant:normal;text-decoration:none;vertica=
+l-align:baseline;white-space:pre-wrap"> invites you to submit your work. To=
+ be held in cooperation with ACM SIGCAS, ICTD 2019 will provide an internat=
+ional forum for scholarly researchers to explore the role of information an=
+d communication technologies (ICTs) in the context of social, political, an=
+d economic development. </span></p><br><p dir=3D"ltr" style=3D"line-height:=
+1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-f=
+amily:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255);font-weig=
+ht:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-=
+align:baseline;white-space:pre-wrap">Information and communication technolo=
+gies (ICTs) have become more pervasive in the lives of people around the wo=
+rld. They are being used in various facets of daily life ranging from marke=
+ts to health care, education to governance, family life to artistic express=
+ion. Diverse groups across the world interact with, are impacted by, and ca=
+n shape the design of these technologies. The ICTD conference provides a fo=
+rum for analyzing, critiquing, refining, and inventing new ways in which in=
+dividuals, communities, and societies interact with and make use of these t=
+ools and platforms. There are multidisciplinary challenges associated with =
+the engineering, application, and adoption of ICTs in =E2=80=9Cdeveloping=
+=E2=80=9D regions and/or for development, with implications for design, pol=
+icy, and practice.</span></p><br><p dir=3D"ltr" style=3D"line-height:1.38;m=
+argin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:=
+Arial;color:rgb(34,34,34);background-color:rgb(255,255,255);font-weight:400=
+;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:=
+baseline;white-space:pre-wrap">For the purposes of this conference, the ter=
+m =E2=80=9CICT=E2=80=9D comprises electronic technologies for information p=
+rocessing and communication, as well as systems, use of big data, intervent=
+ions, and platforms that are built on such technologies. =E2=80=9CDevelopme=
+nt=E2=80=9D includes, but is not restricted to, poverty alleviation, educat=
+ion, agriculture, healthcare, general communication, gender equality, gover=
+nance, infrastructure, environment, and sustainable livelihoods. The confer=
+ence program will reflect the multidisciplinary nature of ICTD research and=
+ publishing traditions, with anticipated contributions from fields includin=
+g (but not limited to) anthropology, computer science, communication, data =
+science, design, economics, electrical engineering, geography, human-comput=
+er interaction, information studies, information systems, political science=
+, public health, and sociology.</span></p><br><p dir=3D"ltr" style=3D"line-=
+height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt=
+;font-family:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255);fo=
+nt-weight:400;font-style:normal;font-variant:normal;text-decoration:none;ve=
+rtical-align:baseline;white-space:pre-wrap">To stay up to date, please foll=
+ow us on Facebook (</span><a href=3D"http://facebook.com/ictdx" style=3D"co=
+lor:rgb(17,85,204);text-decoration:none" target=3D"_blank"><span style=3D"f=
+ont-size:10pt;font-family:Arial;color:rgb(17,85,204);background-color:rgb(2=
+55,255,255);font-weight:400;font-style:normal;font-variant:normal;text-deco=
+ration:underline;vertical-align:baseline;white-space:pre-wrap">http://faceb=
+ook.com/ictdx</span></a><span style=3D"font-size:10pt;font-family:Arial;col=
+or:rgb(34,34,34);background-color:rgb(255,255,255);font-weight:400;font-sty=
+le:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;=
+white-space:pre-wrap">) and Twitter (@ictdx). You can find more information=
+ on our website (</span><a href=3D"http://ictdx.org/" style=3D"color:rgb(17=
+,85,204);text-decoration:none" target=3D"_blank"><span style=3D"font-size:1=
+0pt;font-family:Arial;color:rgb(17,85,204);background-color:rgb(255,255,255=
+);font-weight:400;font-style:normal;font-variant:normal;text-decoration:und=
+erline;vertical-align:baseline;white-space:pre-wrap">http://ictdx.org</span=
+></a><span style=3D"font-size:10pt;font-family:Arial;color:rgb(34,34,34);ba=
+ckground-color:rgb(255,255,255);font-weight:400;font-style:normal;font-vari=
+ant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wra=
+p">).</span></p><br><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt=
+;margin-bottom:0pt"><span style=3D"font-size:18pt;font-family:Georgia;color=
+:rgb(34,34,34);background-color:rgb(255,255,255);font-weight:400;font-style=
+:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;wh=
+ite-space:pre-wrap">Categories</span></p><br><p dir=3D"ltr" style=3D"line-h=
+eight:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;=
+font-family:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255);fon=
+t-weight:700;font-style:normal;font-variant:normal;text-decoration:none;ver=
+tical-align:baseline;white-space:pre-wrap">FULL PAPERS</span></p><br><p dir=
+=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span =
+style=3D"font-size:10pt;font-family:Arial;color:rgb(34,34,34);background-co=
+lor:rgb(255,255,255);font-weight:400;font-style:normal;font-variant:normal;=
+text-decoration:none;vertical-align:baseline;white-space:pre-wrap">An ICTD =
+Full Paper, 7-10 pages in the ACM two-column format (excluding references, =
+but including figures and tables), must make a new and complete research co=
+ntribution, articulate how it is advancing the field of ICTD, =C2=A0and pro=
+vide complete and substantial support for its results and conclusions. Pape=
+rs will be evaluated via double-blind peer review by a multidisciplinary pa=
+nel of at least three reviewers, one of whom will come from outside the pap=
+er=E2=80=99s disciplinary domain in order to ensure broad readability. Auth=
+ors of accepted papers will be invited to give an oral presentation at the =
+conference. Papers are archived by default in the ACM Digital Library </spa=
+n><span style=3D"font-size:10pt;font-family:Arial;color:rgb(34,34,34);backg=
+round-color:rgb(255,255,255);font-weight:700;font-style:normal;font-variant=
+:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">=
+(unless otherwise requested by authors)</span><span style=3D"font-size:10pt=
+;font-family:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255);fo=
+nt-weight:400;font-style:normal;font-variant:normal;text-decoration:none;ve=
+rtical-align:baseline;white-space:pre-wrap">. A subset of these papers will=
+ be selected for publication in the Information Technology and Internationa=
+l Development (ITID) journal as well. </span><span style=3D"font-size:10pt;=
+font-family:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255);fon=
+t-weight:700;font-style:normal;font-variant:normal;text-decoration:none;ver=
+tical-align:baseline;white-space:pre-wrap">Submit at </span><a href=3D"http=
+s://ictdx.cs.washington.edu/submit/" style=3D"color:rgb(17,85,204);text-dec=
+oration:none" target=3D"_blank"><span style=3D"font-size:10pt;font-family:A=
+rial;color:rgb(17,85,204);background-color:rgb(255,255,255);font-weight:700=
+;font-style:normal;font-variant:normal;text-decoration:underline;vertical-a=
+lign:baseline;white-space:pre-wrap">https://ictdx.cs.washington.ed<wbr>u/su=
+bmit/</span></a><span style=3D"font-size:10pt;font-family:Arial;color:rgb(3=
+4,34,34);background-color:rgb(255,255,255);font-weight:700;font-style:norma=
+l;font-variant:normal;text-decoration:none;vertical-align:baseline;white-sp=
+ace:pre-wrap">.</span></p><br><p dir=3D"ltr" style=3D"line-height:1.38;marg=
+in-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Ari=
+al;color:rgb(34,34,34);background-color:rgb(255,255,255);font-weight:700;fo=
+nt-style:normal;font-variant:normal;text-decoration:none;vertical-align:bas=
+eline;white-space:pre-wrap">FULL PAPERS WITHOUT PUBLICATION</span></p><br><=
+p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><=
+span style=3D"font-size:10pt;font-family:Arial;color:rgb(255,0,0);backgroun=
+d-color:rgb(255,255,255);font-weight:700;font-style:normal;font-variant:nor=
+mal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">New =
+this year!</span><span style=3D"font-size:10pt;font-family:Arial;color:rgb(=
+34,34,34);background-color:rgb(255,255,255);font-weight:400;font-style:norm=
+al;font-variant:normal;text-decoration:none;vertical-align:baseline;white-s=
+pace:pre-wrap"> We recognize that, in some disciplines, papers in conferenc=
+e proceedings have less publication value. Handing over the copyright to AC=
+M may also be undesirable. To allow scholars in these fields to present the=
+ir research at ICTD, we welcome an additional kind of submission under Pape=
+rs--papers accepted for publication in the preceding </span><span style=3D"=
+font-size:10pt;font-family:Arial;color:rgb(34,34,34);background-color:rgb(2=
+55,255,255);font-weight:400;font-style:italic;font-variant:normal;text-deco=
+ration:none;vertical-align:baseline;white-space:pre-wrap">year and a half <=
+/span><span style=3D"font-size:10pt;font-family:Arial;color:rgb(34,34,34);b=
+ackground-color:rgb(255,255,255);font-weight:400;font-style:normal;font-var=
+iant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wr=
+ap">(from Jan. 1, 2017 through July 22, 2018). Inclusion of these papers in=
+to the conference program will depend on relevance to the conference progra=
+m and availability of slots. Accepted papers will be invited for an oral pr=
+esentation. Authors are requested to submit their paper as an email attachm=
+ent with information about the (1) authors, (2) publication venue, (3) publ=
+ication status, and (4) (expected) date of publication to </span><span styl=
+e=3D"font-size:10pt;font-family:Arial;color:rgb(17,85,204);background-color=
+:rgb(255,255,255);font-weight:700;font-style:normal;font-variant:normal;tex=
+t-decoration:none;vertical-align:baseline;white-space:pre-wrap"><a href=3D"=
+mailto:submissions@ictdx.org" style=3D"color:rgb(17,85,204)" target=3D"_bla=
+nk">submissions@ictdx.org</a></span><span style=3D"font-size:10pt;font-fami=
+ly:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255);font-weight:=
+400;font-style:normal;font-variant:normal;text-decoration:none;vertical-ali=
+gn:baseline;white-space:pre-wrap"> by </span><span style=3D"font-size:10pt;=
+font-family:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255);fon=
+t-weight:700;font-style:normal;font-variant:normal;text-decoration:none;ver=
+tical-align:baseline;white-space:pre-wrap">Sep. 1, 2018.</span></p><br><p d=
+ir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><spa=
+n style=3D"font-size:10pt;font-family:Arial;color:rgb(34,34,34);background-=
+color:rgb(255,255,255);font-weight:700;font-style:normal;font-variant:norma=
+l;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">POSTER=
+S</span></p><br><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;mar=
+gin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Arial;color:rgb(3=
+4,34,34);background-color:rgb(255,255,255);font-weight:400;font-style:norma=
+l;font-variant:normal;text-decoration:none;vertical-align:baseline;white-sp=
+ace:pre-wrap">An ICTD Poster, up to 4 pages in the ACM two-column format (e=
+xcluding references, but including figures and tables), can report on pract=
+itioner projects, research work in progress, dissertation progress, and oth=
+er content that would enrich the conference. A complete research contributi=
+on is not mandatory. Posters will be reviewed in the same timeline as (but =
+differently than) Papers. Accepted Posters will be presented as posters at =
+the conference and will be archived in the ACM Digital Library (unless othe=
+rwise requested by authors). </span><span style=3D"font-size:10pt;font-fami=
+ly:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255);font-weight:=
+700;font-style:normal;font-variant:normal;text-decoration:none;vertical-ali=
+gn:baseline;white-space:pre-wrap">Submit at </span><a href=3D"https://ictdx=
+.cs.washington.edu/submit/" style=3D"color:rgb(17,85,204);text-decoration:n=
+one" target=3D"_blank"><span style=3D"font-size:10pt;font-family:Arial;colo=
+r:rgb(17,85,204);background-color:rgb(255,255,255);font-weight:700;font-sty=
+le:normal;font-variant:normal;text-decoration:underline;vertical-align:base=
+line;white-space:pre-wrap">https://ictdx.cs.washington.ed<wbr>u/submit/</sp=
+an></a><span style=3D"font-size:10pt;font-family:Arial;color:rgb(34,34,34);=
+background-color:rgb(255,255,255);font-weight:700;font-style:normal;font-va=
+riant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-w=
+rap">.</span></p><br><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0p=
+t;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Arial;color:=
+rgb(34,34,34);background-color:rgb(255,255,255);font-weight:700;font-style:=
+normal;font-variant:normal;text-decoration:none;vertical-align:baseline;whi=
+te-space:pre-wrap">OPEN SESSIONS</span></p><br><p dir=3D"ltr" style=3D"line=
+-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10p=
+t;font-family:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255);f=
+ont-weight:400;font-style:normal;font-variant:normal;text-decoration:none;v=
+ertical-align:baseline;white-space:pre-wrap">Open Sessions will welcome a v=
+ariety of submissions and formats. These will be submitted in the form of e=
+xtended abstracts and will include proposals for panels, workshops, doctora=
+l colloquium submissions, and more. While some open sessions have been pre-=
+decided (doctoral colloquium, young researchers, etc.), others are up to th=
+e authors to define. They can choose to submit to the sessions that have be=
+en determined in advance, or propose one of their own. </span><span style=
+=3D"font-size:10pt;font-family:Arial;color:rgb(34,34,34);background-color:r=
+gb(255,255,255);font-weight:700;font-style:normal;font-variant:normal;text-=
+decoration:none;vertical-align:baseline;white-space:pre-wrap">A Google form=
+ for participation will be posted on Jul. 16 at </span><a href=3D"https://w=
+ww.ictdx.org/participate/" style=3D"color:rgb(17,85,204);text-decoration:no=
+ne" target=3D"_blank"><span style=3D"font-size:10pt;font-family:Arial;color=
+:rgb(17,85,204);background-color:rgb(255,255,255);font-weight:700;font-styl=
+e:normal;font-variant:normal;text-decoration:underline;vertical-align:basel=
+ine;white-space:pre-wrap">https://www.ictdx.org/particip<wbr>ate/</span></a=
+><span style=3D"font-size:10pt;font-family:Arial;color:rgb(34,34,34);backgr=
+ound-color:rgb(255,255,255);font-weight:700;font-style:normal;font-variant:=
+normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">.=
+ Due Sep. 1, 2018. </span></p><br><p dir=3D"ltr" style=3D"line-height:1.38;=
+margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:18pt;font-family=
+:Georgia;color:rgb(34,34,34);background-color:rgb(255,255,255);font-weight:=
+400;font-style:normal;font-variant:normal;text-decoration:none;vertical-ali=
+gn:baseline;white-space:pre-wrap">Dates &amp; Deadlines</span></p><br><p di=
+r=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span=
+ style=3D"font-size:10pt;font-family:Arial;color:rgb(255,0,0);background-co=
+lor:rgb(255,255,255);font-weight:700;font-style:normal;font-variant:normal;=
+text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Jul. 22,=
+ 2018: Deadline for Papers and Posters</span></p><p dir=3D"ltr" style=3D"li=
+ne-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:1=
+0pt;font-family:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255)=
+;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none=
+;vertical-align:baseline;white-space:pre-wrap">Sep. 1, 2018: </span><span s=
+tyle=3D"font-size:10pt;font-family:Arial;color:rgb(34,34,34);background-col=
+or:rgb(255,255,255);font-weight:400;font-style:normal;font-variant:normal;t=
+ext-decoration:none;vertical-align:baseline;white-space:pre-wrap">Notificat=
+ions sent</span></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt=
+;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Arial;color:r=
+gb(34,34,34);background-color:rgb(255,255,255);font-weight:700;font-style:n=
+ormal;font-variant:normal;text-decoration:none;vertical-align:baseline;whit=
+e-space:pre-wrap">Oct. 15, 2018: </span><span style=3D"font-size:10pt;font-=
+family:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255);font-wei=
+ght:400;font-style:normal;font-variant:normal;text-decoration:none;vertical=
+-align:baseline;white-space:pre-wrap">Camera-readies due</span></p><p dir=
+=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span =
+style=3D"font-size:10pt;font-family:Arial;color:rgb(34,34,34);background-co=
+lor:rgb(255,255,255);font-weight:700;font-style:normal;font-variant:normal;=
+text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Jan. 4-7=
+, 2019: </span><span style=3D"font-size:10pt;font-family:Arial;color:rgb(34=
+,34,34);background-color:rgb(255,255,255);font-weight:400;font-style:normal=
+;font-variant:normal;text-decoration:none;vertical-align:baseline;white-spa=
+ce:pre-wrap">Presentations at ICTD 2019 in Ahmedabad</span></p><p dir=3D"lt=
+r" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=
+=3D"font-size:10pt;font-family:Arial;color:rgb(255,0,0);background-color:rg=
+b(255,255,255);font-weight:700;font-style:normal;font-variant:normal;text-d=
+ecoration:none;vertical-align:baseline;white-space:pre-wrap">All submission=
+s are due at 11:59pm Indian Standard Time.</span></p><br><p dir=3D"ltr" sty=
+le=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"fon=
+t-size:18pt;font-family:Georgia;color:rgb(34,34,34);background-color:rgb(25=
+5,255,255);font-weight:400;font-style:normal;font-variant:normal;text-decor=
+ation:none;vertical-align:baseline;white-space:pre-wrap">Organizers</span><=
+/p><br><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-botto=
+m:0pt"><span style=3D"font-size:10pt;font-family:Arial;color:rgb(34,34,34);=
+background-color:rgb(255,255,255);font-weight:700;font-style:normal;font-va=
+riant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-w=
+rap">GENERAL</span></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:=
+0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Arial;colo=
+r:rgb(34,34,34);background-color:rgb(255,255,255);font-weight:400;font-styl=
+e:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;w=
+hite-space:pre-wrap">Rajesh Chandwani (Indian Institute of Management, Ahme=
+dabad India)</span></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:=
+0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Arial;colo=
+r:rgb(34,34,34);background-color:rgb(255,255,255);font-weight:400;font-styl=
+e:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;w=
+hite-space:pre-wrap">Pushpendra Singh (Indraprastha Institute of Informatio=
+n Technology, Delhi India)</span></p><br><p dir=3D"ltr" style=3D"line-heigh=
+t:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font=
+-family:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255);font-we=
+ight:700;font-style:normal;font-variant:normal;text-decoration:none;vertica=
+l-align:baseline;white-space:pre-wrap">PRACTICE</span></p><p dir=3D"ltr" st=
+yle=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"fo=
+nt-size:10pt;font-family:Arial;color:rgb(34,34,34);background-color:rgb(255=
+,255,255);font-weight:400;font-style:normal;font-variant:normal;text-decora=
+tion:none;vertical-align:baseline;white-space:pre-wrap">Neil Patel (Awaaz.D=
+e, Ahmedabad India)</span></p><br><p dir=3D"ltr" style=3D"line-height:1.38;=
+margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family=
+:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255);font-weight:70=
+0;font-style:normal;font-variant:normal;text-decoration:none;vertical-align=
+:baseline;white-space:pre-wrap">PROGRAM</span></p><p dir=3D"ltr" style=3D"l=
+ine-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:=
+10pt;font-family:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255=
+);font-weight:400;font-style:normal;font-variant:normal;text-decoration:non=
+e;vertical-align:baseline;white-space:pre-wrap">Neha Kumar (Georgia Tech, A=
+tlanta USA)</span></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0=
+pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Arial;color=
+:rgb(34,34,34);background-color:rgb(255,255,255);font-weight:400;font-style=
+:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;wh=
+ite-space:pre-wrap">Rajesh Veeraraghavan (Georgetown University, Washington=
+ DC USA)</span></p><br><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:=
+0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Arial;colo=
+r:rgb(34,34,34);background-color:rgb(255,255,255);font-weight:700;font-styl=
+e:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;w=
+hite-space:pre-wrap">POSTERS</span></p><p dir=3D"ltr" style=3D"line-height:=
+1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-f=
+amily:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255);font-weig=
+ht:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-=
+align:baseline;white-space:pre-wrap">David Nemer (University of Kentucky, L=
+exington USA)</span></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top=
+:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Arial;col=
+or:rgb(34,34,34);background-color:rgb(255,255,255);font-weight:400;font-sty=
+le:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;=
+white-space:pre-wrap">Syed Ishtiaque Ahmed (University of Toronto, Toronto =
+Canada)</span></p><br><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0=
+pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Arial;color=
+:rgb(34,34,34);background-color:rgb(255,255,255);font-weight:700;font-style=
+:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;wh=
+ite-space:pre-wrap">OPEN SESSIONS</span></p><p dir=3D"ltr" style=3D"line-he=
+ight:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;f=
+ont-family:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255);font=
+-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vert=
+ical-align:baseline;white-space:pre-wrap">Aditya Vashistha (University of W=
+ashington, Seattle USA)</span></p><p dir=3D"ltr" style=3D"line-height:1.38;=
+margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family=
+:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255);font-weight:40=
+0;font-style:normal;font-variant:normal;text-decoration:none;vertical-align=
+:baseline;white-space:pre-wrap">Michaelanne Dye (Georgia Tech, Atlanta USA)=
+</span></p><br><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;marg=
+in-bottom:0pt"><span style=3D"font-size:10pt;font-family:Arial;color:rgb(34=
+,34,34);background-color:rgb(255,255,255);font-weight:700;font-style:normal=
+;font-variant:normal;text-decoration:none;vertical-align:baseline;white-spa=
+ce:pre-wrap">DEMOS</span></p><p dir=3D"ltr" style=3D"line-height:1.38;margi=
+n-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Aria=
+l;color:rgb(34,34,34);background-color:rgb(255,255,255);font-weight:400;fon=
+t-style:normal;font-variant:normal;text-decoration:none;vertical-align:base=
+line;white-space:pre-wrap">Kurtis Heimerl (University of Washington, Seattl=
+e USA)</span></p><br><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0p=
+t;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Arial;color:=
+rgb(34,34,34);background-color:rgb(255,255,255);font-weight:700;font-style:=
+normal;font-variant:normal;text-decoration:none;vertical-align:baseline;whi=
+te-space:pre-wrap">DOCTORAL CONSORTIUM</span></p><p dir=3D"ltr" style=3D"li=
+ne-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:1=
+0pt;font-family:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255)=
+;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none=
+;vertical-align:baseline;white-space:pre-wrap">Nimmi Rangaswamy (Indian Ins=
+titute of Information Technology, Hyderabad)</span></p><p dir=3D"ltr" style=
+=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-=
+size:10pt;font-family:Arial;color:rgb(34,34,34);background-color:rgb(255,25=
+5,255);font-weight:400;font-style:normal;font-variant:normal;text-decoratio=
+n:none;vertical-align:baseline;white-space:pre-wrap">Vigneswara Ilavarasan =
+(Indian Institute of Technology, Delhi)</span></p><br><p dir=3D"ltr" style=
+=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-=
+size:10pt;font-family:Arial;color:rgb(34,34,34);background-color:rgb(255,25=
+5,255);font-weight:700;font-style:normal;font-variant:normal;text-decoratio=
+n:none;vertical-align:baseline;white-space:pre-wrap">TRAVEL</span></p><p di=
+r=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span=
+ style=3D"font-size:10pt;font-family:Arial;color:rgb(34,34,34);background-c=
+olor:rgb(255,255,255);font-weight:400;font-style:normal;font-variant:normal=
+;text-decoration:none;vertical-align:baseline;white-space:pre-wrap">Shriram=
+ Venkatraman (Indraprastha Institute of Information Technology, Delhi)</spa=
+n></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom=
+:0pt"><span style=3D"font-size:10pt;font-family:Arial;color:rgb(34,34,34);b=
+ackground-color:rgb(255,255,255);font-weight:400;font-style:normal;font-var=
+iant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wr=
+ap">Anupriya Tuli (Indraprastha Institute of Information Technology, Delhi)=
+</span></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-b=
+ottom:0pt"><span style=3D"font-size:10pt;font-family:Arial;color:rgb(34,34,=
+34);background-color:rgb(255,255,255);font-weight:400;font-style:normal;fon=
+t-variant:normal;text-decoration:none;vertical-align:baseline;white-space:p=
+re-wrap">Deepika Yadav (Indraprastha Institute of Information Technology, D=
+elhi)</span></p><br><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt=
+;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Arial;color:r=
+gb(34,34,34);background-color:rgb(255,255,255);font-weight:700;font-style:n=
+ormal;font-variant:normal;text-decoration:none;vertical-align:baseline;whit=
+e-space:pre-wrap">WEB &amp; SOCIAL MEDIA</span></p><p dir=3D"ltr" style=3D"=
+line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size=
+:10pt;font-family:Arial;color:rgb(34,34,34);background-color:rgb(255,255,25=
+5);font-weight:400;font-style:normal;font-variant:normal;text-decoration:no=
+ne;vertical-align:baseline;white-space:pre-wrap">Naveena Karusala (Universi=
+ty of Washington, Seattle USA)</span></p><p dir=3D"ltr" style=3D"line-heigh=
+t:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font=
+-family:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255);font-we=
+ight:400;font-style:normal;font-variant:normal;text-decoration:none;vertica=
+l-align:baseline;white-space:pre-wrap">Esther Jang (University of Washingto=
+n, Seattle USA)</span></p><br><p dir=3D"ltr" style=3D"line-height:1.38;marg=
+in-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Ari=
+al;color:rgb(34,34,34);background-color:rgb(255,255,255);font-weight:700;fo=
+nt-style:normal;font-variant:normal;text-decoration:none;vertical-align:bas=
+eline;white-space:pre-wrap">DESIGN</span></p><p dir=3D"ltr" style=3D"line-h=
+eight:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;=
+font-family:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255);fon=
+t-weight:400;font-style:normal;font-variant:normal;text-decoration:none;ver=
+tical-align:baseline;white-space:pre-wrap">Shruti Dalvi (Georgia Tech, Atla=
+nta USA)</span></p><br><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:=
+0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Arial;colo=
+r:rgb(34,34,34);background-color:rgb(255,255,255);font-weight:700;font-styl=
+e:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;w=
+hite-space:pre-wrap">ACCESSIBILITY</span></p><p dir=3D"ltr" style=3D"line-h=
+eight:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;=
+font-family:Arial;color:rgb(34,34,34);background-color:rgb(255,255,255);fon=
+t-weight:400;font-style:normal;font-variant:normal;text-decoration:none;ver=
+tical-align:baseline;white-space:pre-wrap">Vaishnav Kameswaran (University =
+of Michigan, Ann Arbor USA)</span></p></b></div></div></div></div>
+</div><br></div>
+
+--000000000000a91799056f917b18--
+
+
+From nobody Wed Jun 27 06:36:16 2018
+Return-Path: <coffin@isoc.org>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id CF828130DC6 for <gaia@ietfa.amsl.com>; Wed, 27 Jun 2018 06:36:13 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.999
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.999 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, LOTS_OF_MONEY=0.001, MIME_QP_LONG_LINE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=isoc.org
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id dp4bilckxFCP for <gaia@ietfa.amsl.com>; Wed, 27 Jun 2018 06:36:10 -0700 (PDT)
+Received: from NAM02-SN1-obe.outbound.protection.outlook.com (mail-sn1nam02on0061.outbound.protection.outlook.com [104.47.36.61]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 795EB12D949 for <gaia@irtf.org>; Wed, 27 Jun 2018 06:36:10 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=isoc.org; s=selector1;  h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck; bh=+3+gHhc8QwEfSaTfMOilWav7f/7KCeoxw1KH6IbV2AM=; b=o4uujVAooT1mxZ/HMdJHH35q3Ega76jKMTVbpi97cDvUmIAnP1864BJ9Gu0BezdpyGZiHrtYOJkg7icBnPBNX1ErzJgqyD53NOnSr8BH8CujTmMKCIDNzJ0LPPPr2JJYUTFOT+mzQ0PsRAZkiAazH4WQgt9wSGxhRrsL4/d4j4I=
+Received: from DM3PR0601MB1916.namprd06.prod.outlook.com (10.164.251.6) by DM3PR0601MB1898.namprd06.prod.outlook.com (10.164.250.150) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.884.23; Wed, 27 Jun 2018 13:36:08 +0000
+Received: from DM3PR0601MB1916.namprd06.prod.outlook.com ([fe80::b916:2bae:4ab4:8662]) by DM3PR0601MB1916.namprd06.prod.outlook.com ([fe80::b916:2bae:4ab4:8662%4]) with mapi id 15.20.0884.024; Wed, 27 Jun 2018 13:36:08 +0000
+From: Jane Coffin <coffin@isoc.org>
+To: "gaia@irtf.org" <gaia@irtf.org>
+CC: Mirjam Kuehne <mir@ripe.net>
+Thread-Topic: [see-regional] The RIPE NCC Community Projects Fund and the RIPE Academic Cooperation Initiative
+Thread-Index: AQHUDhnCy05/N1EHskeTrdLlg9/fLqRz2FiA
+Date: Wed, 27 Jun 2018 13:36:08 +0000
+Message-ID: <2BA0CD06-F2D7-413F-B779-886A368C16E7@isoc.org>
+References: <afc49dcc-6d25-00d2-99fc-8fbcecb45486@ripe.net> <e6380934-20ad-cd7c-617a-b3ba427634f5@ripe.net>
+In-Reply-To: <e6380934-20ad-cd7c-617a-b3ba427634f5@ripe.net>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+user-agent: Microsoft-MacOutlook/10.e.1.180613
+authentication-results: spf=none (sender IP is ) smtp.mailfrom=coffin@isoc.org; 
+x-originating-ip: [2001:4870:400e:402:11aa:1cfe:6c3a:a829]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1; DM3PR0601MB1898; 7:+SkTWylz74xeq/nPoJaLsHFyOyknZcqpNd4B8Av8NESf37fhz3LonHvxRgUxvwTWTtxzBBFhdeEtwpr9r10CHlUAeVQTtq7hMsmXETYx+RazuGqvm0mWr3MoIpFodojjm1R/QLOHk/9iBZqlIIH5WPIubGsZjwJj0wMJsOnqsZAUf7ka6dnQ/kskdxxrzj2Q1Wtb4EgbGVAwVA6hIzRoe+hE9j5j3G/WxagkQG0Bi9VHQJyFdy4X0x371S+nZMey
+x-ms-exchange-antispam-srfa-diagnostics: SOS;
+x-ms-office365-filtering-correlation-id: 08b31ddd-df68-4f6f-9eaf-08d5dc32f06f
+x-microsoft-antispam: UriScan:; BCL:0; PCL:0; RULEID:(7020095)(4652020)(8989117)(4534165)(4627221)(201703031133081)(201702281549075)(8990107)(5600026)(711020)(2017052603328)(7153060)(49563074)(7193020); SRVR:DM3PR0601MB1898; 
+x-ms-traffictypediagnostic: DM3PR0601MB1898:
+x-microsoft-antispam-prvs: <DM3PR0601MB1898454CC105A4B094108CB1B3480@DM3PR0601MB1898.namprd06.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(278428928389397)(192374486261705)(5213294742642); 
+x-ms-exchange-senderadcheck: 1
+x-exchange-antispam-report-cfa-test: BCL:0; PCL:0; RULEID:(102415395)(6040522)(2401047)(8121501046)(5005006)(10201501046)(3002001)(93006095)(93001095)(3231254)(944501410)(52105095)(149027)(150027)(6041310)(20161123558120)(20161123560045)(20161123562045)(201703131423095)(201702281528075)(20161123555045)(201703061421075)(201703061406153)(20161123564045)(6072148)(201708071742011)(7699016); SRVR:DM3PR0601MB1898; BCL:0; PCL:0; RULEID:; SRVR:DM3PR0601MB1898; 
+x-forefront-prvs: 0716E70AB6
+x-forefront-antispam-report: SFV:NSPM; SFS:(10009020)(396003)(366004)(376002)(346002)(39850400004)(136003)(189003)(199004)(33656002)(6116002)(15974865002)(6306002)(6486002)(6512007)(2900100001)(2473003)(106356001)(99936001)(105586002)(229853002)(2351001)(217443001)(102836004)(5640700003)(2501003)(36756003)(6436002)(14444005)(82746002)(58126008)(316002)(478600001)(5250100002)(14454004)(46003)(476003)(11346002)(486006)(2616005)(7736002)(186003)(8936002)(83716003)(81166006)(76176011)(8676002)(4326008)(81156014)(99286004)(1730700003)(68736007)(25786009)(256004)(86362001)(966005)(97736004)(5660300001)(2906002)(6916009)(53936002)(6506007)(446003)(305945005)(217873001); DIR:OUT; SFP:1101; SCL:1; SRVR:DM3PR0601MB1898; H:DM3PR0601MB1916.namprd06.prod.outlook.com; FPR:; SPF:None; LANG:en; PTR:InfoNoRecords; MX:1; A:1; 
+received-spf: None (protection.outlook.com: isoc.org does not designate permitted sender hosts)
+x-microsoft-antispam-message-info: uDyRPTlxggHBbR+g9xraXhCAKrHKMPBKVKpGGFOUOGKHX/n0Tsc28i+bghRrlRzXsIz4S6XgVtQgodiTb1AQ4/i1/1AQy1gZzqH2YRvdl+N3SqtV2nbA6+Giwr8xXfJx/AS3LPKCDJaRx/nBHjec9vu2AWsasMlzxqcK7ZwhllLi9LNBiOrIrE69QOw3xYmrsErrH5ynzmDNiP5nSOvIJaxbFuTESf0ThPU8KhlDe34xjX5A+kPRhTD6F5X82v5pJZ3vBpCpES8hnsAZReEQyixA5yaHdNFMb0EsysjPzqJp+axKDJxMxwUUZTIervH1EdyS8ZRYu7fzja3jhB+ytw/7FE22qJtngo/DodBZIHw=
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-type: multipart/signed; protocol="application/pkcs7-signature"; micalg=sha256; boundary="B_3612936967_1535747717"
+MIME-Version: 1.0
+X-OriginatorOrg: isoc.org
+X-MS-Exchange-CrossTenant-Network-Message-Id: 08b31ddd-df68-4f6f-9eaf-08d5dc32f06f
+X-MS-Exchange-CrossTenant-originalarrivaltime: 27 Jun 2018 13:36:08.2646 (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 89f84dfb-7285-4810-bc4d-8b9b5794554f
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM3PR0601MB1898
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/NJ6i97Lln23CtTVR2OxAdh9KL4M>
+Subject: [gaia] FW: [see-regional] The RIPE NCC Community Projects Fund and the RIPE Academic Cooperation Initiative
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.26
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 27 Jun 2018 13:36:15 -0000
+
+--B_3612936967_1535747717
+Content-type: text/plain;
+	charset="UTF-8"
+Content-transfer-encoding: quoted-printable
+
+Folks -
+
+Please note RIPE NCC"s deadline for Community Projects Funding.
+Deadline is in 2 days.
+
+Great opportunity.
+
+Best,
+Jane
+
+=20
+Internet Society | www.internetsociety.org
+
+Skype:  janercoffin
+
+Mobile/WhatsApp:  +1.202.247.8429
+
+=EF=BB=BFOn 6/27/18, 9:21 AM, "see-regional on behalf of Gergana Petrova" <see-re=
+gional-bounces@ripe.net on behalf of gpetrova@ripe.net> wrote:
+
+    Dear all,
+   =20
+    Please see below the calls for the RIPE NCC Community Projects Fund=20
+    (deadline is in two days!) and the RIPE Academic Cooperation Initiative=
+=20
+    (deadline is on 12 August). Please spread among your networks!
+   =20
+    --------------------------------
+    RIPE NCC Community Projects Fund
+    --------------------------------
+    The RIPE NCC provides EUR 250,000 a year to support projects of value t=
+o=20
+    the operation and resilience of the Internet, with a focus on tools and=
+=20
+    services benefitting the technical community in the Europe, the Middle=20
+    East and Central Asia.
+   =20
+    Is your project of benefit to the Internet, particularly the RIPE commu=
+nity?
+    Is your project non-commercial in nature?
+    Do you have a clear project plan and timeline?
+   =20
+    Apply by 29 June at:
+    https://www.ripe.net/community-projects-fund
+   =20
+    Keep in mind that funding:
+    - may be used to purchase equipment, but this cannot be the sole expend=
+iture
+    - cannot be used for humanitarian aid, donations, or to encourage=20
+    political reform
+    - cannot be used to provide scholarships or cover tuition fees
+    - cannot be used to support any form of commercial activity
+   =20
+    -----------------------------------------------
+    RACI - The RIPE Academic Cooperation Initiative
+    -----------------------------------------------
+    RACI is accepting applications from students, academics and researchers=
+=20
+    for the upcoming meetings in autumn 2018. Successful applicants receive=
+=20
+    complimentary tickets, travel and accommodation to the meetings and the=
+=20
+    opportunity to present their research.
+   =20
+    - RIPE NCC Regional Meeting Almaty, 25 September
+    - RIPE 77, Amsterdam, 15-19 October
+   =20
+    Application deadline is 12 August.
+   =20
+    Examples of relevant research topics:
+    - Network measurements and analyses
+    - IPv6 deployment
+    - BGP routing
+    - Network security
+    - Internet governance
+    - Peering and interconnectivity
+    - Internet of Things
+   =20
+    If you are working on interesting research or know someone in your=20
+    network who is, you can find more information and the application form =
+here:
+    https://www.ripe.net/raci
+   =20
+    Please let me know if you have any questions!
+   =20
+    Best regards,
+    Gergana
+   =20
+    --=20
+    Gergana Petrova
+    External Relations
+    RIPE NCC
+   =20
+   =20
+
+--B_3612936967_1535747717
+Content-type: application/pkcs7-signature; name="smime.p7s"
+Content-transfer-encoding: base64
+Content-disposition: attachment;
+	filename="smime.p7s"
+
+MIIRjQYJKoZIhvcNAQcCoIIRfjCCEXoCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0B
+BwGggg8JMIIGGDCCBQCgAwIBAgIRAIx1fBf4uve27MtrfFJmAnQwDQYJKoZIhvcNAQELBQAw
+gZsxCzAJBgNVBAYTAkdCMRswGQYDVQQIExJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAOBgNVBAcT
+B1NhbGZvcmQxGjAYBgNVBAoTEUNPTU9ETyBDQSBMaW1pdGVkMUEwPwYDVQQDEzhDT01PRE8g
+U0hBLTI1NiBDbGllbnQgQXV0aGVudGljYXRpb24gYW5kIFNlY3VyZSBFbWFpbCBDQTAeFw0x
+NzAzMDMwMDAwMDBaFw0yMDAzMDIyMzU5NTlaMIIBFjELMAkGA1UEBhMCVVMxDjAMBgNVBBET
+BTIwMTkwMQswCQYDVQQIEwJWQTEPMA0GA1UEBxMGUmVzdG9uMRIwEAYDVQQJEwlTdWl0ZSAy
+MDExGzAZBgNVBAkTEjE3NzUgV2llaGxlIEF2ZW51ZTEZMBcGA1UEChMQSW50ZXJuZXQgU29j
+aWV0eTE2MDQGA1UECxMtSXNzdWVkIHRocm91Z2ggSW50ZXJuZXQgU29jaWV0eSBFLVBLSSBN
+YW5hZ2VyMR8wHQYDVQQLExZDb3Jwb3JhdGUgU2VjdXJlIEVtYWlsMRQwEgYDVQQDEwtKYW5l
+IENvZmZpbjEeMBwGCSqGSIb3DQEJARYPY29mZmluQGlzb2Mub3JnMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEAxOFL6I8nwUcXFJxbOkkijvQM5i2c05ifwmn0suMy3Xf3EKUg
+47+fYDpcFOCwdWi7hXlh0TxXdoAK6wKRb8G9PeG1sRIkcRtSaf4Bx9uHcO4v5wu5ornnuklt
+7bky1g+7Jse/Bre4ZrySEz74ogsAkLZd73/+uZ6SbTjuPMdAAgfc8UaUKqwF0KYLE/WB4Dq/
++VBv32gJatDShiyKR1WIWGbP0mAaF4jPg0DenATNZtbAKi1P9mta2YoH3+IrfokdVk009wA2
+VqUieYMSkuGBgzbL54bYsfuMjRnxuy+qgvNY+KaWmRZXnrKC0UtHxqO2UaACYRQ9DE1tqvRY
+UoPeFwIDAQABo4IB1zCCAdMwHwYDVR0jBBgwFoAUkmFrguGioKpP7GfxwqP3tIAAwewwHQYD
+VR0OBBYEFDJzhFKMF3xbiM4gA2IhGPUK+s1SMA4GA1UdDwEB/wQEAwIFoDAMBgNVHRMBAf8E
+AjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMEBggrBgEFBQcDAjBGBgNVHSAEPzA9MDsGDCsGAQQB
+sjEBAgEDBTArMCkGCCsGAQUFBwIBFh1odHRwczovL3NlY3VyZS5jb21vZG8ubmV0L0NQUzBd
+BgNVHR8EVjBUMFKgUKBOhkxodHRwOi8vY3JsLmNvbW9kb2NhLmNvbS9DT01PRE9TSEEyNTZD
+bGllbnRBdXRoZW50aWNhdGlvbmFuZFNlY3VyZUVtYWlsQ0EuY3JsMIGQBggrBgEFBQcBAQSB
+gzCBgDBYBggrBgEFBQcwAoZMaHR0cDovL2NydC5jb21vZG9jYS5jb20vQ09NT0RPU0hBMjU2
+Q2xpZW50QXV0aGVudGljYXRpb25hbmRTZWN1cmVFbWFpbENBLmNydDAkBggrBgEFBQcwAYYY
+aHR0cDovL29jc3AuY29tb2RvY2EuY29tMBoGA1UdEQQTMBGBD2NvZmZpbkBpc29jLm9yZzAN
+BgkqhkiG9w0BAQsFAAOCAQEAHRcuCMvcxM7tuARpHR3ZYRNGdjYOR3FXD7vOtTRKkVWK1oVL
+Fb+YGqlUXvmrcEqS/FTq6mq0Iicvmj2zSr5DkkDURIm4ijPLs6ReOFMAL8mMm350zSqE8X5y
+Ep54iMNJ/mJstAg01UFvaV9MS+Ic8b2yhXLym6B4mYbfQZMuRVtmC9q8FPLylzdGsX4O7fjg
+0RLGuGJ8T79Mt4+FG84efRdwpo2wPYdYD7dsx5XcU52Uvc7wZdo0i2D4w0LgPOZvjIMX7XlA
+lNDtVUQYuw65+KgCqzx6NtuAJo4rqGJe4BToylL6S6IH6hao84GbG12otsnuqbc100VhOMeZ
+40pzCjCCBK8wggOXoAMCAQICEQDgI8sVEoNTia1hbnpUZ2shMA0GCSqGSIb3DQEBCwUAMG8x
+CzAJBgNVBAYTAlNFMRQwEgYDVQQKEwtBZGRUcnVzdCBBQjEmMCQGA1UECxMdQWRkVHJ1c3Qg
+RXh0ZXJuYWwgVFRQIE5ldHdvcmsxIjAgBgNVBAMTGUFkZFRydXN0IEV4dGVybmFsIENBIFJv
+b3QwHhcNMTQxMjIyMDAwMDAwWhcNMjAwNTMwMTA0ODM4WjCBmzELMAkGA1UEBhMCR0IxGzAZ
+BgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4GA1UEBxMHU2FsZm9yZDEaMBgGA1UEChMR
+Q09NT0RPIENBIExpbWl0ZWQxQTA/BgNVBAMTOENPTU9ETyBTSEEtMjU2IENsaWVudCBBdXRo
+ZW50aWNhdGlvbiBhbmQgU2VjdXJlIEVtYWlsIENBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEAibEN2npTGU5wUh28VqYGJre4SeCW51Gr8fBaE0kVo7SMG2C8elFCp3mMpCLf
+F2FOkdV2IwoU00oCf7YdCYBupQQ92bq7Fv6hh6kuQ1JDFnyvMlDIpk9a6QjYz5MlnHuI6DBk
+5qT4VoD9KiQUMxeZrETlaYujRgZLwjPU6UCfBrCxrJNAubUIkzqcKlOjENs9IGE8VQOO2U52
+JQIhKfqjfHF2T+7hX4Hp+1SA28N7NVK3hN4iPSwwLTF/Wb1SN7AzaS1D6/rWpfGXd2dRjNnu
+J+u8pQc4doykqTj/34z1A6xJvsr3c5k6DzKrnJU6Ez0ORjpXdGFQvsZAP8vk4p+iIQIDAQAB
+o4IBFzCCARMwHwYDVR0jBBgwFoAUrb2YejS0Jvf6xCZU7wO94CTLVBowHQYDVR0OBBYEFJJh
+a4LhoqCqT+xn8cKj97SAAMHsMA4GA1UdDwEB/wQEAwIBhjASBgNVHRMBAf8ECDAGAQH/AgEA
+MB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBgNVHSAECjAIMAYGBFUdIAAwRAYD
+VR0fBD0wOzA5oDegNYYzaHR0cDovL2NybC51c2VydHJ1c3QuY29tL0FkZFRydXN0RXh0ZXJu
+YWxDQVJvb3QuY3JsMDUGCCsGAQUFBwEBBCkwJzAlBggrBgEFBQcwAYYZaHR0cDovL29jc3Au
+dXNlcnRydXN0LmNvbTANBgkqhkiG9w0BAQsFAAOCAQEAGypurFXBOquIxdjtzVXzqmthK8AJ
+ECOZD8Vmam+x9bS1d14PAmEA330F/hKzpICAAPz7HVtqcgIKQbwFusFY1SbC6tVNhPv+gpjP
+WBvjImOcUvi7BTarfVil3qs7Y+Xa1XPv7OD7e+Kj//BCI5zKto1NPuRLGAOyqC3U2LtCS5Bp
+hRDbpjc06HvgARClnMo6x59PiDRuimXQGoq7qdzKyjbR9PzCZCk1r9axp3ER0gNDsY8+muye
+MlP0dpLKhjQHuSzK5hxK2JkNwYbikJL7WkJqIyEQ6WXH9dW7fuqMhSACYurROgcsWcWZM/I4
+ieW26RZ6H3kU9koQGib6fIr7mzCCBDYwggMeoAMCAQICAQEwDQYJKoZIhvcNAQEFBQAwbzEL
+MAkGA1UEBhMCU0UxFDASBgNVBAoTC0FkZFRydXN0IEFCMSYwJAYDVQQLEx1BZGRUcnVzdCBF
+eHRlcm5hbCBUVFAgTmV0d29yazEiMCAGA1UEAxMZQWRkVHJ1c3QgRXh0ZXJuYWwgQ0EgUm9v
+dDAeFw0wMDA1MzAxMDQ4MzhaFw0yMDA1MzAxMDQ4MzhaMG8xCzAJBgNVBAYTAlNFMRQwEgYD
+VQQKEwtBZGRUcnVzdCBBQjEmMCQGA1UECxMdQWRkVHJ1c3QgRXh0ZXJuYWwgVFRQIE5ldHdv
+cmsxIjAgBgNVBAMTGUFkZFRydXN0IEV4dGVybmFsIENBIFJvb3QwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQC39xoz5vIABC054E5b7R+8bA/Ntfojts7emxEzl6QpTH2Tn71K
+vJPtAxrjj8/lbVBa1pcplFqAsEl62y6V/bjKvzc4LR4+kUGtcFbH8E8/6DKedMrIkFTpxl8P
+eJ2aQDwOrGGqXhSPnoehalDc15pOrwWzpnGUnHGzUGAKxxOdOAeGAqjpqGkmGJCrTLBPI6s6
+T4TY386f4Wlvu9dC12tE5Met7m1BX3JacQg3s3llpFmglDf3AC8NwpJy2tA4ctsUqEXEXSp9
+t7TWxO6szRNEt8kr3UMAJfphuWlqWCMRt6czj1Z1WfXNKddGtworZbbTQm8Vsrh7++/pXVPV
+NFonAgMBAAGjgdwwgdkwHQYDVR0OBBYEFK29mHo0tCb3+sQmVO8DveAky1QaMAsGA1UdDwQE
+AwIBBjAPBgNVHRMBAf8EBTADAQH/MIGZBgNVHSMEgZEwgY6AFK29mHo0tCb3+sQmVO8DveAk
+y1QaoXOkcTBvMQswCQYDVQQGEwJTRTEUMBIGA1UEChMLQWRkVHJ1c3QgQUIxJjAkBgNVBAsT
+HUFkZFRydXN0IEV4dGVybmFsIFRUUCBOZXR3b3JrMSIwIAYDVQQDExlBZGRUcnVzdCBFeHRl
+cm5hbCBDQSBSb290ggEBMA0GCSqGSIb3DQEBBQUAA4IBAQCwm+CFJcLWI+IPlgaSnUGYnNmE
+eYHZHlsUByM2ZY+w2He7rEFsR2CDUbD5Mj3n/PYmE8eAFqW/WvyHz3h5iSGa4kwHCoY1vPLe
+UcTSlrfcfk7ucP0cOesMAlEULY69FuDB30Z15ySt7PRCtIWTcBBnup0GNUoY0yt6zFFCoXpj
+0ea7ocUrwja+Ew3mvWN+eXunCQ1Aq2rdj4rD9vaMGkIFUdRF9Z+nYiFoFSBDPJnnfL0k2KmR
+F3OIP1YbMTgYtHEPms3IDp6OLhvhjJiDyx8x8URMxgRzSXZgD8f4vReAay7pzEwOWpp5DyAK
+LtWeYyYeVZKU2IIXWnvQvMePToYEMYICSDCCAkQCAQEwgbEwgZsxCzAJBgNVBAYTAkdCMRsw
+GQYDVQQIExJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAOBgNVBAcTB1NhbGZvcmQxGjAYBgNVBAoT
+EUNPTU9ETyBDQSBMaW1pdGVkMUEwPwYDVQQDEzhDT01PRE8gU0hBLTI1NiBDbGllbnQgQXV0
+aGVudGljYXRpb24gYW5kIFNlY3VyZSBFbWFpbCBDQQIRAIx1fBf4uve27MtrfFJmAnQwDQYJ
+YIZIAWUDBAIBBQCgaTAvBgkqhkiG9w0BCQQxIgQgCvASfn4xH3ZgeefjPgxVAfKex4qAyCHY
+oW0DYIEuST0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTgw
+NjI3MTMzNjA3WjANBgkqhkiG9w0BAQEFAASCAQBNqrOwwY73J0zYY/nNVGirjOn5hDuhngmh
+K096IjC0Tak6L41OaHLFF7ov0Vtt8KdC3d9h+TGuogcSZQg1nCngVaCeCIWUmYRjzvl5AjTR
+N3p4riAXPEuv3zyP3o8Def85mEqTyUtsmmgIKCTlwqGxV4Sqf6acGqa2UcH/ZDS227FJk0+s
+5b5B93uPSK9zuY06hdM4Vvmm0Dd6muXQqmRPnhx/m2dh/aHCFylDAVJP/SWt+bdYx19X9++V
+pLMCSjtNHtHvZT2OlQRFGTPOa6CxfGAfgsSwGsqigdVJR8DB1NlQreuGeLuk7OPxUu6FzGOF
+NCiJvr4EnRq1tsORLpwJ
+
+--B_3612936967_1535747717--
+
+
+From nobody Wed Jun 27 07:28:57 2018
+Return-Path: <coffin@isoc.org>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 21213130DD6 for <gaia@ietfa.amsl.com>; Wed, 27 Jun 2018 07:28:56 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.999
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.999 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, HTML_MESSAGE=0.001, MIME_QP_LONG_LINE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=isoc.org
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 6jRxgDs4UkRt for <gaia@ietfa.amsl.com>; Wed, 27 Jun 2018 07:28:52 -0700 (PDT)
+Received: from NAM01-BN3-obe.outbound.protection.outlook.com (mail-bn3nam01on0060.outbound.protection.outlook.com [104.47.33.60]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 901C4130DD5 for <gaia@irtf.org>; Wed, 27 Jun 2018 07:28:52 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=isoc.org; s=selector1;  h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck; bh=tSW9QmlZYIlZ0HOIFnDPGHM+RE7+0zAI9zIp68qelGw=; b=f9Lh0YCiEdOu2CTMN8zovfRifByotDOQ+onFeK79BGL9ucAwuA7NqiYD5lhb2IAqk6bP47SMJtHm6Q8amw7vsUbd3p7FwgLEp69oCeQy8LZh4I0LIHWMuOlFJFNan7B+KNp0ykc40fITohkn/xN5QQJYVB6SslQKc3OPdV28rc0=
+Received: from DM3PR0601MB1916.namprd06.prod.outlook.com (10.164.251.6) by DM3PR0601MB1930.namprd06.prod.outlook.com (10.164.251.8) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.884.24; Wed, 27 Jun 2018 14:28:49 +0000
+Received: from DM3PR0601MB1916.namprd06.prod.outlook.com ([fe80::b916:2bae:4ab4:8662]) by DM3PR0601MB1916.namprd06.prod.outlook.com ([fe80::b916:2bae:4ab4:8662%4]) with mapi id 15.20.0884.024; Wed, 27 Jun 2018 14:28:48 +0000
+From: Jane Coffin <coffin@isoc.org>
+To: Leandro Navarro <leandro@ac.upc.edu>, "gaia@irtf.org" <gaia@irtf.org>
+Thread-Topic: [gaia] IETF 102 - Montreal, Canada - 14-20 July - WG Meeting
+Thread-Index: AQHT5T9WxyIQr2L1UECBJG0iThmCdqRqxT+AgAhfSoCAARQ7gA==
+Date: Wed, 27 Jun 2018 14:28:48 +0000
+Message-ID: <1D24AB0B-1FAF-4F0C-BFFE-8AC9B83ED576@isoc.org>
+References: <76152A2C-E4E3-4445-9E68-52D88D1EB244@isoc.org> <C02906A1-F822-46E3-A9E1-5550F7265BAF@ac.upc.edu> <3684C003-391A-46A8-B9D0-55E6F485C4B7@ac.upc.edu> <DC857C0D-0730-49D4-AD03-EB21E861B11E@ac.upc.edu>
+In-Reply-To: <DC857C0D-0730-49D4-AD03-EB21E861B11E@ac.upc.edu>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+user-agent: Microsoft-MacOutlook/10.e.1.180613
+authentication-results: spf=none (sender IP is ) smtp.mailfrom=coffin@isoc.org; 
+x-originating-ip: [2001:4870:400e:402:11aa:1cfe:6c3a:a829]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1; DM3PR0601MB1930; 7:ibO80AOymNvFvwU9zm4HKsCwy4LZ6WVdkzsL31/g9doYRIIlPEYP7qekLjQ8Vij/YRJs4d90HXTHLJ4BiEpBONZ1O3fo1CPODdYlgLTWLPSIynzAupI6XjwYGYm8c+FF5hprPunWuJnSlA7qk3EXPlQECRzxEGjFej61/HD0pqA28cnbfWhWI2u6ZkijL9j8vRsqia50652ajETbauMFL7OO8HELT7/I2VI9HuyfsFHdwr0yH89yFF+RamICiQNV
+x-ms-exchange-antispam-srfa-diagnostics: SOS;
+x-ms-office365-filtering-correlation-id: ae037563-3a08-4e5b-9270-08d5dc3a4c4a
+x-microsoft-antispam: UriScan:; BCL:0; PCL:0; RULEID:(7020095)(4652020)(8989117)(4534165)(4627221)(201703031133081)(201702281549075)(8990107)(5600026)(711020)(2017052603328)(7153060)(49563074)(7193020); SRVR:DM3PR0601MB1930; 
+x-ms-traffictypediagnostic: DM3PR0601MB1930:
+x-microsoft-antispam-prvs: <DM3PR0601MB1930DB5007C7C276F20319F2B3480@DM3PR0601MB1930.namprd06.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(28532068793085)(20558992708506)(120809045254105)(21748063052155)(5213294742642);
+x-ms-exchange-senderadcheck: 1
+x-exchange-antispam-report-cfa-test: BCL:0; PCL:0; RULEID:(102415395)(6040522)(2401047)(8121501046)(5005006)(10201501046)(93006095)(93001095)(3231254)(944501410)(52105095)(3002001)(149027)(150027)(6041310)(20161123558120)(20161123562045)(201703131423095)(201702281528075)(20161123555045)(201703061421075)(201703061406153)(20161123560045)(20161123564045)(6072148)(201708071742011)(7699016); SRVR:DM3PR0601MB1930; BCL:0; PCL:0; RULEID:; SRVR:DM3PR0601MB1930; 
+x-forefront-prvs: 0716E70AB6
+x-forefront-antispam-report: SFV:NSPM; SFS:(10009020)(346002)(376002)(366004)(39850400004)(136003)(396003)(53754006)(189003)(199004)(99286004)(86362001)(11346002)(186003)(446003)(2616005)(476003)(106356001)(486006)(46003)(68736007)(36756003)(105586002)(53936002)(21615005)(81166006)(81156014)(83716003)(102836004)(8676002)(6506007)(76176011)(8936002)(53546011)(7736002)(82746002)(606006)(97736004)(25786009)(6246003)(14454004)(966005)(6116002)(6306002)(316002)(5660300001)(2906002)(53386004)(2900100001)(2501003)(6486002)(229853002)(33656002)(6512007)(6436002)(93886005)(5250100002)(15974865002)(1680700002)(58126008)(99936001)(110136005)(54896002)(478600001)(236005)(561944003)(256004)(2171002)(14444005); DIR:OUT; SFP:1101; SCL:1; SRVR:DM3PR0601MB1930; H:DM3PR0601MB1916.namprd06.prod.outlook.com; FPR:; SPF:None; LANG:en; PTR:InfoNoRecords; MX:1; A:1; 
+received-spf: None (protection.outlook.com: isoc.org does not designate permitted sender hosts)
+x-microsoft-antispam-message-info: 6aYKMdHiGlLtIWJpZUF+9HPrzyp0fnXSMEla2sPYm/RseDOjOc+tawndmzqzgZhtNcCWthkaKtfMqnn3s59pai8W/Yy+MJ0hsjA8Ihu24kfvqt+4O0rXlY6fbK3WrIJ5ZFPWsULKXZNCY5O6vrKFqabF3rykva3yQ/6/oEBy4KanbrTFSUJecj4IptsCuYqKlW60H7l+sQgkhzsbFaIx890wgzvIQOuMfL75nlBDzEygO4nx/qQWSc5YUOW3RPIXnB72aaIXOSaFjT8fg1agmo4v1hunurlHBKI6FItUPU5wd2xF/Ifd6yL0teK7GIeVGTteyi8j17ftahJxjVvpPP/BsC5Rm/jLTmyBs1VXzXE=
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-type: multipart/signed; protocol="application/pkcs7-signature"; micalg=sha256; boundary="B_3612940127_337969245"
+MIME-Version: 1.0
+X-OriginatorOrg: isoc.org
+X-MS-Exchange-CrossTenant-Network-Message-Id: ae037563-3a08-4e5b-9270-08d5dc3a4c4a
+X-MS-Exchange-CrossTenant-originalarrivaltime: 27 Jun 2018 14:28:48.8025 (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 89f84dfb-7285-4810-bc4d-8b9b5794554f
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM3PR0601MB1930
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/hX_bALzLVNllyGhkAMrzrF2OxN4>
+Subject: Re: [gaia] IETF 102 - Montreal, Canada - 14-20 July - WG Meeting
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.26
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 27 Jun 2018 14:28:57 -0000
+
+--B_3612940127_337969245
+Content-type: multipart/alternative;
+	boundary="B_3612940127_1338195465"
+
+
+--B_3612940127_1338195465
+Content-type: text/plain;
+	charset="UTF-8"
+Content-transfer-encoding: quoted-printable
+
+Hi All =E2=80=93
+
+=20
+
+In addition to the excellent GAIA meeting=E2=80=A6
+
+See this link to register for ANRW at IETF 102 (Applied Networking Research=
+ Workshop):=20
+
+https://irtf.org/anrw/2018/attend.html=20
+
+=20
+
+It is free to attend for IETF attendees.
+
+Basics on ANRW:=C2=A0 Basic info on ANRW:=C2=A0 https://irtf.org/anrw/=20
+
+Link to the IETF 102 page:=C2=A0 https://www.ietf.org/how/meetings/102/=20
+
+If you will just drop in for one or two talks, not necessary to register.
+
+If you plan to stay for lunch we would please register soon to help with lo=
+gistics.
+
+=20
+
+For folks from Universities =E2=80=93 you can apply for a one-day pass to attend =
+IETF free.
+
+Let us know if you need that data.
+
+=20
+
+More from us, soon.
+
+=20
+
+Jane/Leandro
+
+=20
+
+Internet Society | www.internetsociety.org
+
+Skype:  janercoffin
+
+Mobile/WhatsApp:  +1.202.247.8429
+
+=20
+
+From: Leandro Navarro <leandro@ac.upc.edu>
+Date: Tuesday, June 26, 2018 at 2:00 PM
+To: "gaia@irtf.org" <gaia@irtf.org>
+Cc: Jane Coffin <coffin@isoc.org>
+Subject: Re: [gaia] IETF 102 - Montreal, Canada - 14-20 July - WG Meeting
+
+=20
+
+Hi, the 90 min slot in the agenda is confirmed. Anyone else willing to take=
+ one of the remaining slots? (for on-site or remote presentation)
+
+=20
+
+Any other suggestion about topics for a BCP document?
+
+=20
+
+Apart from case studies about different ways to develop networking infrastr=
+uctures and services, suggested previously,
+
+for instance we=E2=80=99re doing research and experiments in Internet access shar=
+ing (aggregation/crowdsourcing of unused/spare internet connectivity) throug=
+h a mesh (we do it in guifi.net in wireless meshes, but can be done in mobil=
+e nets too) as a way to reduce the cost and incrementally increase the capac=
+ity of Internet connectivity.
+
+=20
+
+Kind regards, Leandro.
+
+
+
+On 21 Jun 2018, at 12:08, Leandro Navarro <leandro@ac.upc.edu> wrote:
+
+=20
+
+Hi everyone in GAIA,=20
+
+=20
+
+We have a slot in the first draft of the program: https://datatracker.ietf.=
+org/meeting/102/agenda
+Tuesday 17 =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 15:50-17:20 =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0  Tuesday Afternoon sessi=
+on II =C2=A0=C2=A0=C2=A0   =20
+Global Access to the Internet for All=20
+
+=20
+
+That is just the day after the IRTF conference: https://irtf.org/anrw/2018/
+
+=20
+
+A reminder to let us know (off list) asap if you want to present so we can =
+prepare the agenda, with preference for diversity (new speakers), and order =
+of arrival.=20
+
+=20
+
+Regards, Jane and Leandro (co-chairs).
+
+
+
+On 6 May 2018, at 15:36, Leandro Navarro <leandro@ac.upc.edu> wrote:
+
+=20
+
+Hi everyone in GAIA,=20
+
+=20
+
+We=E2=80=99ll have a WG meeting as part of IETF 102 in Montreal. The exact day/ti=
+me is not yet defined, but will be after ANRW=E2=80=9918 (Monday July 16).
+
+=20
+
+As with previous meetings, this is a great opportunity for those nearby to =
+meet, share ideas, talk about projects, research, results, plans and discuss=
+. Remote participation and presentation will be available.
+
+=20
+
+The event will have one part for presentations, and another to discuss abou=
+t best current practices (and draft a document out of that).
+
+=20
+
+If you plan to come and present let us know off-list so we can prepare the =
+agenda. Tell us before the end of this month to allocate a few slots, with p=
+reference for diversity (new speakers), and order of arrival.=20
+
+=20
+
+Regarding best current practices, our working idea is to collect case studi=
+es about different ways to develop networking infrastructures and services. =
+Let us know if you have ideas about how to structure the document, its conte=
+nt, or willing to report on a specific experience. There are related reports=
+ or developments, please share to build a good list of sources, collaboratio=
+ns, references to develop this document.
+
+=20
+
+We can have a conference call sometime in June to discuss and prepare a pro=
+posal to discuss in our IETF 102 meeting.
+
+=20
+
+Regards, Jane and Leandro.
+
+=20
+
+_______________________________________________
+gaia mailing list
+gaia@irtf.org
+https://www.irtf.org/mailman/listinfo/gaia
+
+=20
+
+--
+Leandro Navarro
+http://people.ac.upc.edu/leandro=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0  http://dsg.ac.upc.e=
+du
+
+=20
+
+_______________________________________________
+gaia mailing list
+gaia@irtf.org
+https://www.irtf.org/mailman/listinfo/gaia
+
+=20
+
+--
+Leandro Navarro
+http://people.ac.upc.edu/leandro=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0  http://dsg.ac.upc.e=
+du
+
+=20
+
+
+--B_3612940127_1338195465
+Content-type: text/html;
+	charset="UTF-8"
+Content-transfer-encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:schema=
+s-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/office/20=
+04/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta http-equiv=3DC=
+ontent-Type content=3D"text/html; charset=3Dutf-8"><meta name=3DGenerator content=3D=
+"Microsoft Word 15 (filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.apple-tab-span
+	{mso-style-name:apple-tab-span;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style></head><body lang=3DEN-US link=3Dblue vlink=3Dpurple><div class=3DWordSe=
+ction1><p class=3DMsoNormal><span style=3D'font-size:10.5pt'>Hi All =E2=80=93<o:p></o:=
+p></span></p><p class=3DMsoNormal><span style=3D'font-size:10.5pt'><o:p>&nbsp;</=
+o:p></span></p><p class=3DMsoNormal><span style=3D'font-size:10.5pt'>In addition=
+ to the excellent GAIA meeting=E2=80=A6<o:p></o:p></span></p><p class=3DMsoNormal><s=
+pan style=3D'font-size:10.5pt'>See this link to register for ANRW at IETF 102 =
+(Applied Networking Research Workshop):</span> <span style=3D'font-size:10.5pt=
+'><o:p></o:p></span></p><p class=3DMsoNormal><span style=3D'font-size:10.5pt'><a=
+ href=3D"https://irtf.org/anrw/2018/attend.html">https://irtf.org/anrw/2018/at=
+tend.html</a> <o:p></o:p></span></p><p class=3DMsoNormal><span style=3D'font-siz=
+e:10.5pt'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span style=3D'font-s=
+ize:10.5pt'>It is free to attend for IETF attendees.<o:p></o:p></span></p><p=
+ class=3DMsoNormal><span style=3D'font-size:10.5pt'>Basics on ANRW:=C2=A0 Basic info=
+ on ANRW:=C2=A0 <a href=3D"https://irtf.org/anrw/">https://irtf.org/anrw/</a> <o:p=
+></o:p></span></p><p class=3DMsoNormal><span style=3D'font-size:10.5pt'>Link to =
+the IETF 102 page:=C2=A0 <a href=3D"https://www.ietf.org/how/meetings/102/">https:=
+//www.ietf.org/how/meetings/102/</a> <o:p></o:p></span></p><p class=3DMsoNorma=
+l><span style=3D'font-size:10.5pt'>If you will just drop in for one or two tal=
+ks, not necessary to register.<o:p></o:p></span></p><p class=3DMsoNormal><span=
+ style=3D'font-size:10.5pt'>If you plan to stay for lunch we would please regi=
+ster soon to help with logistics.<o:p></o:p></span></p><p class=3DMsoNormal><s=
+pan style=3D'font-size:10.5pt'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal>=
+<span style=3D'font-size:10.5pt'>For folks from Universities =E2=80=93 you can apply=
+ for a one-day pass to attend IETF free.<o:p></o:p></span></p><p class=3DMsoNo=
+rmal><span style=3D'font-size:10.5pt'>Let us know if you need that data.<o:p><=
+/o:p></span></p><p class=3DMsoNormal><span style=3D'font-size:10.5pt'><o:p>&nbsp=
+;</o:p></span></p><p class=3DMsoNormal><span style=3D'font-size:10.5pt'>More fro=
+m us, soon.<o:p></o:p></span></p><p class=3DMsoNormal><span style=3D'font-size:1=
+0.5pt'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span style=3D'font-size=
+:10.5pt'>Jane/Leandro<o:p></o:p></span></p><div><p class=3DMsoNormal><span sty=
+le=3D'font-size:10.5pt;color:black'><o:p>&nbsp;</o:p></span></p><div><p class=3D=
+MsoNormal><span style=3D'font-size:10.5pt;color:black'>Internet Society | www.=
+internetsociety.org<o:p></o:p></span></p></div><div><p class=3DMsoNormal><span=
+ style=3D'font-size:10.5pt;color:black'>Skype: &nbsp;janercoffin<o:p></o:p></s=
+pan></p></div></div><p class=3DMsoNormal><span style=3D'font-size:10.5pt;color:b=
+lack'>Mobile/WhatsApp: &nbsp;+1.202.247.8429</span><span style=3D'font-size:10=
+.5pt'><o:p></o:p></span></p><p class=3DMsoNormal><span style=3D'font-size:10.5pt=
+'><o:p>&nbsp;</o:p></span></p><div style=3D'border:none;border-top:solid #B5C4=
+DF 1.0pt;padding:3.0pt 0in 0in 0in'><p class=3DMsoNormal><b><span style=3D'font-=
+size:12.0pt;color:black'>From: </span></b><span style=3D'font-size:12.0pt;colo=
+r:black'>Leandro Navarro &lt;leandro@ac.upc.edu&gt;<br><b>Date: </b>Tuesday,=
+ June 26, 2018 at 2:00 PM<br><b>To: </b>&quot;gaia@irtf.org&quot; &lt;gaia@i=
+rtf.org&gt;<br><b>Cc: </b>Jane Coffin &lt;coffin@isoc.org&gt;<br><b>Subject:=
+ </b>Re: [gaia] IETF 102 - Montreal, Canada - 14-20 July - WG Meeting<o:p></=
+o:p></span></p></div><div><p class=3DMsoNormal><o:p>&nbsp;</o:p></p></div><p c=
+lass=3DMsoNormal>Hi, the 90 min slot in the agenda is confirmed. Anyone else w=
+illing to take one of the remaining slots? (for on-site or remote presentati=
+on)<o:p></o:p></p><div><p class=3DMsoNormal><o:p>&nbsp;</o:p></p></div><div><p=
+ class=3DMsoNormal>Any other suggestion about topics for a BCP document?<o:p><=
+/o:p></p></div><div><p class=3DMsoNormal><o:p>&nbsp;</o:p></p></div><div><p cl=
+ass=3DMsoNormal>Apart from&nbsp;case studies about different ways to develop n=
+etworking infrastructures and services, suggested previously,<o:p></o:p></p>=
+</div><div><p class=3DMsoNormal>for instance we=E2=80=99re doing research and experi=
+ments in Internet access sharing (aggregation/crowdsourcing of unused/spare =
+internet connectivity) through a mesh (we do it in <a href=3D"http://guifi.net=
+">guifi.net</a>&nbsp;in wireless meshes, but can be done in mobile nets too)=
+ as a way to reduce the cost and incrementally increase the capacity of Inte=
+rnet connectivity.<o:p></o:p></p></div><div><div><p class=3DMsoNormal><o:p>&nb=
+sp;</o:p></p></div><div><p class=3DMsoNormal>Kind regards, Leandro.<o:p></o:p>=
+</p></div><div><p class=3DMsoNormal><br><br><o:p></o:p></p><blockquote style=3D'=
+margin-top:5.0pt;margin-bottom:5.0pt'><div><p class=3DMsoNormal>On 21 Jun 2018=
+, at 12:08, Leandro Navarro &lt;<a href=3D"mailto:leandro@ac.upc.edu">leandro@=
+ac.upc.edu</a>&gt; wrote:<o:p></o:p></p></div><p class=3DMsoNormal><o:p>&nbsp;=
+</o:p></p><div><div><p class=3DMsoNormal>Hi everyone in GAIA,&nbsp;<o:p></o:p>=
+</p><div><p class=3DMsoNormal><o:p>&nbsp;</o:p></p></div><div><p class=3DMsoNorm=
+al>We have a slot in the first draft of the program:&nbsp;<a href=3D"https://d=
+atatracker.ietf.org/meeting/102/agenda">https://datatracker.ietf.org/meeting=
+/102/agenda</a><br>Tuesday 17&nbsp;<span class=3Dapple-tab-span>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+ </span>15:50-17:20&nbsp;<span class=3Dapple-tab-span>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 </span>&nbs=
+p;Tuesday&nbsp;Afternoon session II&nbsp;<span class=3Dapple-tab-span>=C2=A0=C2=A0=C2=A0 <=
+/span>&nbsp; &nbsp;<br>Global Access to the Internet for All&nbsp;<o:p></o:p=
+></p><div><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><div><p class=3DMsoNormal>Th=
+at is just the day after the IRTF conference:&nbsp;<a href=3D"https://irtf.org=
+/anrw/2018/">https://irtf.org/anrw/2018/</a><o:p></o:p></p></div><div><p cla=
+ss=3DMsoNormal><o:p>&nbsp;</o:p></p></div><div><p class=3DMsoNormal>A reminder t=
+o let us know (off list) asap if you want to present so we can prepare the a=
+genda, with preference for diversity (new speakers), and order of arrival.&n=
+bsp;<o:p></o:p></p></div><div><p class=3DMsoNormal><o:p>&nbsp;</o:p></p></div>=
+<div><p class=3DMsoNormal>Regards, Jane and Leandro (co-chairs).<o:p></o:p></p=
+></div><div><p class=3DMsoNormal><br><br><o:p></o:p></p><blockquote style=3D'mar=
+gin-top:5.0pt;margin-bottom:5.0pt'><div><p class=3DMsoNormal>On 6 May 2018, at=
+ 15:36, Leandro Navarro &lt;<a href=3D"mailto:leandro@ac.upc.edu">leandro@ac.u=
+pc.edu</a>&gt; wrote:<o:p></o:p></p></div><p class=3DMsoNormal><o:p>&nbsp;</o:=
+p></p><div><div><p class=3DMsoNormal>Hi everyone in GAIA,&nbsp;<o:p></o:p></p>=
+<div><p class=3DMsoNormal><o:p>&nbsp;</o:p></p></div><div><p class=3DMsoNormal>W=
+e=E2=80=99ll have a WG meeting as part of&nbsp;<a href=3D"https://www.ietf.org/how/m=
+eetings/102/">IETF 102</a>&nbsp;in Montreal. The exact day/time is not yet d=
+efined, but will be after&nbsp;<a href=3D"https://irtf.org/anrw/2018/">ANRW=E2=80=99=
+18</a>&nbsp;(Monday July 16).<o:p></o:p></p></div><div><p class=3DMsoNormal><o=
+:p>&nbsp;</o:p></p></div><div><p class=3DMsoNormal>As with previous meetings, =
+this is a great opportunity for those nearby to meet, share ideas, talk abou=
+t projects, research, results, plans and discuss. Remote participation and p=
+resentation will be available.<o:p></o:p></p></div><div><p class=3DMsoNormal><=
+o:p>&nbsp;</o:p></p></div><div><p class=3DMsoNormal>The event will have one pa=
+rt for presentations, and another to discuss about best current practices (a=
+nd draft a document out of that).<o:p></o:p></p></div><div><p class=3DMsoNorma=
+l><o:p>&nbsp;</o:p></p></div><div><p class=3DMsoNormal>If you plan to come and=
+&nbsp;<u>present</u>&nbsp;let us know off-list so we can prepare the agenda.=
+ Tell us before the end of this month to allocate a few slots, with preferen=
+ce for diversity (new speakers), and order of arrival.&nbsp;<o:p></o:p></p><=
+/div><div><p class=3DMsoNormal><o:p>&nbsp;</o:p></p></div><div><p class=3DMsoNor=
+mal>Regarding best current practices, our working idea is to collect case st=
+udies about different ways to develop networking infrastructures and service=
+s. Let us know if you have ideas about how to structure the document, its co=
+ntent, or willing to report on a specific experience. There are related repo=
+rts or developments, please share to build a good list of sources, collabora=
+tions, references to develop this document.<o:p></o:p></p></div><div><p clas=
+s=3DMsoNormal><o:p>&nbsp;</o:p></p></div><div><p class=3DMsoNormal>We can have a=
+ conference call sometime in June to discuss and prepare a proposal to discu=
+ss in our IETF 102 meeting.<o:p></o:p></p></div><div><p class=3DMsoNormal><o:p=
+>&nbsp;</o:p></p></div><div><p class=3DMsoNormal>Regards, Jane and Leandro.<o:=
+p></o:p></p></div><div><p class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></div><=
+p class=3DMsoNormal>_______________________________________________<br>gaia ma=
+iling list<br><a href=3D"mailto:gaia@irtf.org">gaia@irtf.org</a><br><a href=3D"h=
+ttps://www.irtf.org/mailman/listinfo/gaia">https://www.irtf.org/mailman/list=
+info/gaia</a><o:p></o:p></p></div></blockquote></div><p class=3DMsoNormal><o:p=
+>&nbsp;</o:p></p><div><div><p class=3DMsoNormal>--<br>Leandro Navarro<br><a hr=
+ef=3D"http://people.ac.upc.edu/leandro">http://people.ac.upc.edu/leandro</a><s=
+pan class=3Dapple-tab-span>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 </span>&nbsp;<a href=3D"http:/=
+/dsg.ac.upc.edu">http://dsg.ac.upc.edu</a><o:p></o:p></p></div></div><p clas=
+s=3DMsoNormal><o:p>&nbsp;</o:p></p></div></div></div><p class=3DMsoNormal>______=
+_________________________________________<br>gaia mailing list<br><a href=3D"m=
+ailto:gaia@irtf.org">gaia@irtf.org</a><br>https://www.irtf.org/mailman/listi=
+nfo/gaia<o:p></o:p></p></div></blockquote></div><p class=3DMsoNormal><o:p>&nbs=
+p;</o:p></p><div><div><p class=3DMsoNormal><span style=3D'color:black'>--<br>Lea=
+ndro Navarro<br><a href=3D"http://people.ac.upc.edu/leandro">http://people.ac.=
+upc.edu/leandro</a><span class=3Dapple-tab-span>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 </span>=
+&nbsp;http://dsg.ac.upc.edu<o:p></o:p></span></p></div></div><p class=3DMsoNor=
+mal><o:p>&nbsp;</o:p></p></div></div></body></html>
+
+--B_3612940127_1338195465--
+
+--B_3612940127_337969245
+Content-type: application/pkcs7-signature; name="smime.p7s"
+Content-transfer-encoding: base64
+Content-disposition: attachment;
+	filename="smime.p7s"
+
+MIIRjQYJKoZIhvcNAQcCoIIRfjCCEXoCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0B
+BwGggg8JMIIGGDCCBQCgAwIBAgIRAIx1fBf4uve27MtrfFJmAnQwDQYJKoZIhvcNAQELBQAw
+gZsxCzAJBgNVBAYTAkdCMRswGQYDVQQIExJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAOBgNVBAcT
+B1NhbGZvcmQxGjAYBgNVBAoTEUNPTU9ETyBDQSBMaW1pdGVkMUEwPwYDVQQDEzhDT01PRE8g
+U0hBLTI1NiBDbGllbnQgQXV0aGVudGljYXRpb24gYW5kIFNlY3VyZSBFbWFpbCBDQTAeFw0x
+NzAzMDMwMDAwMDBaFw0yMDAzMDIyMzU5NTlaMIIBFjELMAkGA1UEBhMCVVMxDjAMBgNVBBET
+BTIwMTkwMQswCQYDVQQIEwJWQTEPMA0GA1UEBxMGUmVzdG9uMRIwEAYDVQQJEwlTdWl0ZSAy
+MDExGzAZBgNVBAkTEjE3NzUgV2llaGxlIEF2ZW51ZTEZMBcGA1UEChMQSW50ZXJuZXQgU29j
+aWV0eTE2MDQGA1UECxMtSXNzdWVkIHRocm91Z2ggSW50ZXJuZXQgU29jaWV0eSBFLVBLSSBN
+YW5hZ2VyMR8wHQYDVQQLExZDb3Jwb3JhdGUgU2VjdXJlIEVtYWlsMRQwEgYDVQQDEwtKYW5l
+IENvZmZpbjEeMBwGCSqGSIb3DQEJARYPY29mZmluQGlzb2Mub3JnMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEAxOFL6I8nwUcXFJxbOkkijvQM5i2c05ifwmn0suMy3Xf3EKUg
+47+fYDpcFOCwdWi7hXlh0TxXdoAK6wKRb8G9PeG1sRIkcRtSaf4Bx9uHcO4v5wu5ornnuklt
+7bky1g+7Jse/Bre4ZrySEz74ogsAkLZd73/+uZ6SbTjuPMdAAgfc8UaUKqwF0KYLE/WB4Dq/
++VBv32gJatDShiyKR1WIWGbP0mAaF4jPg0DenATNZtbAKi1P9mta2YoH3+IrfokdVk009wA2
+VqUieYMSkuGBgzbL54bYsfuMjRnxuy+qgvNY+KaWmRZXnrKC0UtHxqO2UaACYRQ9DE1tqvRY
+UoPeFwIDAQABo4IB1zCCAdMwHwYDVR0jBBgwFoAUkmFrguGioKpP7GfxwqP3tIAAwewwHQYD
+VR0OBBYEFDJzhFKMF3xbiM4gA2IhGPUK+s1SMA4GA1UdDwEB/wQEAwIFoDAMBgNVHRMBAf8E
+AjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMEBggrBgEFBQcDAjBGBgNVHSAEPzA9MDsGDCsGAQQB
+sjEBAgEDBTArMCkGCCsGAQUFBwIBFh1odHRwczovL3NlY3VyZS5jb21vZG8ubmV0L0NQUzBd
+BgNVHR8EVjBUMFKgUKBOhkxodHRwOi8vY3JsLmNvbW9kb2NhLmNvbS9DT01PRE9TSEEyNTZD
+bGllbnRBdXRoZW50aWNhdGlvbmFuZFNlY3VyZUVtYWlsQ0EuY3JsMIGQBggrBgEFBQcBAQSB
+gzCBgDBYBggrBgEFBQcwAoZMaHR0cDovL2NydC5jb21vZG9jYS5jb20vQ09NT0RPU0hBMjU2
+Q2xpZW50QXV0aGVudGljYXRpb25hbmRTZWN1cmVFbWFpbENBLmNydDAkBggrBgEFBQcwAYYY
+aHR0cDovL29jc3AuY29tb2RvY2EuY29tMBoGA1UdEQQTMBGBD2NvZmZpbkBpc29jLm9yZzAN
+BgkqhkiG9w0BAQsFAAOCAQEAHRcuCMvcxM7tuARpHR3ZYRNGdjYOR3FXD7vOtTRKkVWK1oVL
+Fb+YGqlUXvmrcEqS/FTq6mq0Iicvmj2zSr5DkkDURIm4ijPLs6ReOFMAL8mMm350zSqE8X5y
+Ep54iMNJ/mJstAg01UFvaV9MS+Ic8b2yhXLym6B4mYbfQZMuRVtmC9q8FPLylzdGsX4O7fjg
+0RLGuGJ8T79Mt4+FG84efRdwpo2wPYdYD7dsx5XcU52Uvc7wZdo0i2D4w0LgPOZvjIMX7XlA
+lNDtVUQYuw65+KgCqzx6NtuAJo4rqGJe4BToylL6S6IH6hao84GbG12otsnuqbc100VhOMeZ
+40pzCjCCBK8wggOXoAMCAQICEQDgI8sVEoNTia1hbnpUZ2shMA0GCSqGSIb3DQEBCwUAMG8x
+CzAJBgNVBAYTAlNFMRQwEgYDVQQKEwtBZGRUcnVzdCBBQjEmMCQGA1UECxMdQWRkVHJ1c3Qg
+RXh0ZXJuYWwgVFRQIE5ldHdvcmsxIjAgBgNVBAMTGUFkZFRydXN0IEV4dGVybmFsIENBIFJv
+b3QwHhcNMTQxMjIyMDAwMDAwWhcNMjAwNTMwMTA0ODM4WjCBmzELMAkGA1UEBhMCR0IxGzAZ
+BgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4GA1UEBxMHU2FsZm9yZDEaMBgGA1UEChMR
+Q09NT0RPIENBIExpbWl0ZWQxQTA/BgNVBAMTOENPTU9ETyBTSEEtMjU2IENsaWVudCBBdXRo
+ZW50aWNhdGlvbiBhbmQgU2VjdXJlIEVtYWlsIENBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEAibEN2npTGU5wUh28VqYGJre4SeCW51Gr8fBaE0kVo7SMG2C8elFCp3mMpCLf
+F2FOkdV2IwoU00oCf7YdCYBupQQ92bq7Fv6hh6kuQ1JDFnyvMlDIpk9a6QjYz5MlnHuI6DBk
+5qT4VoD9KiQUMxeZrETlaYujRgZLwjPU6UCfBrCxrJNAubUIkzqcKlOjENs9IGE8VQOO2U52
+JQIhKfqjfHF2T+7hX4Hp+1SA28N7NVK3hN4iPSwwLTF/Wb1SN7AzaS1D6/rWpfGXd2dRjNnu
+J+u8pQc4doykqTj/34z1A6xJvsr3c5k6DzKrnJU6Ez0ORjpXdGFQvsZAP8vk4p+iIQIDAQAB
+o4IBFzCCARMwHwYDVR0jBBgwFoAUrb2YejS0Jvf6xCZU7wO94CTLVBowHQYDVR0OBBYEFJJh
+a4LhoqCqT+xn8cKj97SAAMHsMA4GA1UdDwEB/wQEAwIBhjASBgNVHRMBAf8ECDAGAQH/AgEA
+MB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBgNVHSAECjAIMAYGBFUdIAAwRAYD
+VR0fBD0wOzA5oDegNYYzaHR0cDovL2NybC51c2VydHJ1c3QuY29tL0FkZFRydXN0RXh0ZXJu
+YWxDQVJvb3QuY3JsMDUGCCsGAQUFBwEBBCkwJzAlBggrBgEFBQcwAYYZaHR0cDovL29jc3Au
+dXNlcnRydXN0LmNvbTANBgkqhkiG9w0BAQsFAAOCAQEAGypurFXBOquIxdjtzVXzqmthK8AJ
+ECOZD8Vmam+x9bS1d14PAmEA330F/hKzpICAAPz7HVtqcgIKQbwFusFY1SbC6tVNhPv+gpjP
+WBvjImOcUvi7BTarfVil3qs7Y+Xa1XPv7OD7e+Kj//BCI5zKto1NPuRLGAOyqC3U2LtCS5Bp
+hRDbpjc06HvgARClnMo6x59PiDRuimXQGoq7qdzKyjbR9PzCZCk1r9axp3ER0gNDsY8+muye
+MlP0dpLKhjQHuSzK5hxK2JkNwYbikJL7WkJqIyEQ6WXH9dW7fuqMhSACYurROgcsWcWZM/I4
+ieW26RZ6H3kU9koQGib6fIr7mzCCBDYwggMeoAMCAQICAQEwDQYJKoZIhvcNAQEFBQAwbzEL
+MAkGA1UEBhMCU0UxFDASBgNVBAoTC0FkZFRydXN0IEFCMSYwJAYDVQQLEx1BZGRUcnVzdCBF
+eHRlcm5hbCBUVFAgTmV0d29yazEiMCAGA1UEAxMZQWRkVHJ1c3QgRXh0ZXJuYWwgQ0EgUm9v
+dDAeFw0wMDA1MzAxMDQ4MzhaFw0yMDA1MzAxMDQ4MzhaMG8xCzAJBgNVBAYTAlNFMRQwEgYD
+VQQKEwtBZGRUcnVzdCBBQjEmMCQGA1UECxMdQWRkVHJ1c3QgRXh0ZXJuYWwgVFRQIE5ldHdv
+cmsxIjAgBgNVBAMTGUFkZFRydXN0IEV4dGVybmFsIENBIFJvb3QwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQC39xoz5vIABC054E5b7R+8bA/Ntfojts7emxEzl6QpTH2Tn71K
+vJPtAxrjj8/lbVBa1pcplFqAsEl62y6V/bjKvzc4LR4+kUGtcFbH8E8/6DKedMrIkFTpxl8P
+eJ2aQDwOrGGqXhSPnoehalDc15pOrwWzpnGUnHGzUGAKxxOdOAeGAqjpqGkmGJCrTLBPI6s6
+T4TY386f4Wlvu9dC12tE5Met7m1BX3JacQg3s3llpFmglDf3AC8NwpJy2tA4ctsUqEXEXSp9
+t7TWxO6szRNEt8kr3UMAJfphuWlqWCMRt6czj1Z1WfXNKddGtworZbbTQm8Vsrh7++/pXVPV
+NFonAgMBAAGjgdwwgdkwHQYDVR0OBBYEFK29mHo0tCb3+sQmVO8DveAky1QaMAsGA1UdDwQE
+AwIBBjAPBgNVHRMBAf8EBTADAQH/MIGZBgNVHSMEgZEwgY6AFK29mHo0tCb3+sQmVO8DveAk
+y1QaoXOkcTBvMQswCQYDVQQGEwJTRTEUMBIGA1UEChMLQWRkVHJ1c3QgQUIxJjAkBgNVBAsT
+HUFkZFRydXN0IEV4dGVybmFsIFRUUCBOZXR3b3JrMSIwIAYDVQQDExlBZGRUcnVzdCBFeHRl
+cm5hbCBDQSBSb290ggEBMA0GCSqGSIb3DQEBBQUAA4IBAQCwm+CFJcLWI+IPlgaSnUGYnNmE
+eYHZHlsUByM2ZY+w2He7rEFsR2CDUbD5Mj3n/PYmE8eAFqW/WvyHz3h5iSGa4kwHCoY1vPLe
+UcTSlrfcfk7ucP0cOesMAlEULY69FuDB30Z15ySt7PRCtIWTcBBnup0GNUoY0yt6zFFCoXpj
+0ea7ocUrwja+Ew3mvWN+eXunCQ1Aq2rdj4rD9vaMGkIFUdRF9Z+nYiFoFSBDPJnnfL0k2KmR
+F3OIP1YbMTgYtHEPms3IDp6OLhvhjJiDyx8x8URMxgRzSXZgD8f4vReAay7pzEwOWpp5DyAK
+LtWeYyYeVZKU2IIXWnvQvMePToYEMYICSDCCAkQCAQEwgbEwgZsxCzAJBgNVBAYTAkdCMRsw
+GQYDVQQIExJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAOBgNVBAcTB1NhbGZvcmQxGjAYBgNVBAoT
+EUNPTU9ETyBDQSBMaW1pdGVkMUEwPwYDVQQDEzhDT01PRE8gU0hBLTI1NiBDbGllbnQgQXV0
+aGVudGljYXRpb24gYW5kIFNlY3VyZSBFbWFpbCBDQQIRAIx1fBf4uve27MtrfFJmAnQwDQYJ
+YIZIAWUDBAIBBQCgaTAvBgkqhkiG9w0BCQQxIgQgVruVpFkmX4Owg4JTf18BgVxKGsEHOr/i
+8e0p7V3I/T4wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTgw
+NjI3MTQyODQ3WjANBgkqhkiG9w0BAQEFAASCAQBkQqOzewTMtUJPqX1lbCg4DMRNvqpUo2Pb
+FU55ldl+TJnkkeN1ZwqZPSWyqAo0w3akkxrv3WsY2ssaxNZUq2jHsl5J/taKlY9g/GEQ3KJt
+0OXgfxWbZERnOfu90r7PbojPwOFPgyDZVN9ADqLBE9/JnuJE/PeXeGs3cfuARs8Lc/rRmCSA
+G5QxZ5N92dJcHiBhlc+2f8Af3qJjb2yQIXfqrf7ESycwC31O55Gn2ln8PVJRuoHyyzwuRo+x
+RdeRv6XPcep09SvIyqn/tyzdPKnbblcgwQ6ZDmD4Umt2NmOQuhxiY6fhvki/zYfufhwMLy48
+JBEpNTZZnTgS6eo9wWNk
+
+--B_3612940127_337969245--
+
+
+From nobody Fri Jun 29 00:34:49 2018
+Return-Path: <mallory@article19.org>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 58DEF130E10 for <gaia@ietfa.amsl.com>; Fri, 29 Jun 2018 00:34:47 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.901
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.901 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id HpFWfgFUlGLM for <gaia@ietfa.amsl.com>; Fri, 29 Jun 2018 00:34:44 -0700 (PDT)
+Received: from smarthost1.greenhost.nl (smarthost1.greenhost.nl [195.190.28.92]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 81B73130E09 for <gaia@ietfa.amsl.com>; Fri, 29 Jun 2018 00:34:44 -0700 (PDT)
+Received: from smtp.greenhost.nl ([213.108.110.112]) by smarthost1.greenhost.nl with esmtps (TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128) (Exim 4.84_2) (envelope-from <mallory@article19.org>) id 1fYnvU-00051f-Fu; Fri, 29 Jun 2018 09:34:40 +0200
+To: pitg@lists.mayfirst.org, hrpc@irtf.org, gaia@ietfa.amsl.com
+From: Mallory Knodel <mallory@article19.org>
+Openpgp: preference=signencrypt
+Autocrypt: addr=mallory@article19.org; prefer-encrypt=mutual; keydata= xsBNBEx0TWcBCAC8sirY3nlDnRwY6XWmsvZtM9kmEK6H8no3ZuQ723PKwHOddw1nOykh0in/ /QGRmwtyVzsfLh6/94UUZTn10oo+xGAfw2gf1on5IJTIiphykk732PNnUakVGWwHNKQquTVc kLrydUaFVMb89BAXqExBKlMg2ciEjzbYMCs3I/qZAZ0Wr5nF3RQS8O78elTNAgWTZ98yKTZV DlRoDpnvbfwtIPqnISoSjDEvEUBdpykvS3jHqlR1f6Mx6Xs97S5CORaer/0qTcDm0PAb1Z9l IhMsFl05tNt2FpgS4/RN8NyLasAQNOlScpTJbAfRuyyvRm1N8GLIL1KX+YYeLyqzhdhZABEB AAHNJU1hbGxvcnkgS25vZGVsIDxtYWxsb3J5QG1heWZpcnN0Lm9yZz7CwJgEEwECAEICGwMG CwkIBwMCBhUIAgkKCwQWAgMBAh4BAheAAhkBFiEE4+tj4GWjskC82bBxDDKicb08x4AFAlqo 9WUFCRAV234ACgkQDDKicb08x4DklAf+ODKRmP6C2MnBz6vL8N8l3vZJUqoRcYXTn3uTpT05 Wou87ZIZ/P/OV2/uOMKkczLQQydj5S8PxbLTeg+U5f/63hdy99ON+K2b4izg7Qasdl1SqXTH q1pmhbrcbLbVKDJ345fdEg7RuMnv4gd3EaT/yQa99zHy8JHaBKaPEUQAa65HTt2Sy2c6L6BA aMZx1TOZ9/cZ7L1gJyytJbEyvg/JLOatJEI4rewUWU2TMSGJijwjAUBagwDPWyxpz+vXdKsD tqRTpY4xvXaeUQo0QXf0c5j1Gcglzv7ywZcyz1MGD1aLS9/CqeB3I4EMbvH/33LS3jNkfKbV XOTSjmo7l22CNc7ATQRMdE1nAQgA4mpP2LjFuAW2li9FPbDYOMzt0MtThXsnvHyY0fDv8FlU qnKgPrMY80VHntnxwqepFS3ncunVX4ipq+fadta+LHpTnbJSmlphBrc9qGJxqcjwf4yo35Xh OXCJFwnaoAwIX237lXRe4Xh6X4VMuJt8jiZdvgpbk/whvQH2grcq8KjCcy1iuL5pBl8ZwYG/ dphitFhQdqEcnc/krIqG4KQgKiUi3K/GR0OeEmw/cscWD7/CLEo7eHiaGQhSOyDQbM+Iu2o/ 6uMXMUPsYlMMqgmVL68zMacO3PE17jx0rQ8oZ7CpBY8YZWOWrzXrtFT8JO9guuCPsvd4KT6y 97y9LRJlPQARAQABwsB8BBgBAgAmAhsMFiEE4+tj4GWjskC82bBxDDKicb08x4AFAlqo9WYF CRAV238ACgkQDDKicb08x4DU4QgAmlyBlFhfU0jpkbyD3HQ+3CJqWdBT422pVIrj3qNT2ehy fWO66Muidmd4Y279uV3p3TQEJOQvnV7FVAC9+bI7AdBy00BAjHgJ5eSQZxKTXUoeeBAsTZHN /HaHewjYWHMvCuuzir/Wt3A6Cehh8gp9I/Vg+oL3dTldVqqgZLgnA83bT/R8fI/e85LDlpdx KJ0+uy/grg3AbH7LUUrmMIC2iO8mQWYuNlizsUZLFvJhCAU2c5l8B5mv2BoWFhL+l7mmNcdF bwBFXon7Ea1jkCnbWVxtXkPYkcuWuMSTJswn9HhZVJWjUonKqUZKAb9PxRzC9crZ+X14tQT3 iJt2a4ZM4w==
+Message-ID: <6251fd45-da0e-4143-8381-769f43507faa@article19.org>
+Date: Fri, 29 Jun 2018 10:34:36 +0300
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Thunderbird/52.8.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Language: en-US
+Content-Transfer-Encoding: 7bit
+X-Virus-Scanned: by clamav at smarthost1.samage.net
+X-Scan-Signature: e462de357cb394d64966911c06262bc8
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/_tRYarmOniCQSqEUHg7f3kQkqc0>
+Subject: [gaia] Handy schedule, please add
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.26
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 29 Jun 2018 07:34:48 -0000
+
+Hi folks,
+
+Below is a handy schedule with info that I've put together of events
+that might be of interest to engaged or potentially engaged folks at the
+IETF in Montreal. Happy if you'd like to add to the schedule, which can
+then be circulated to folks you might be reaching out to about
+participation in IETF 102:
+
+14-20 July | IETF 102 | Fairmont The Queen Elizabeth
+
+ * Register here: https://www.ietf.org/how/meetings/register
+
+14-15 July @ 9:00-22:00 | IETF Hackathon | Room TBD
+
+ * Register here:
+https://www.ietf.org/registration/ietf102/hackathonregistration.py
+ * Projects from PITG include: HTTP error code 451, human rights review
+of QUIC, MLS implementation see:
+https://trac.ietf.org/trac/ietf/meeting/wiki/102hackathon
+
+16 July @ 18:00-20:00 | PITG meeting | Code lounge
+
+16 July @ 20:00-22:00 | PITG dinner | Bar Furco
+
+ * Please RSVP to mallory@article19.org
+
+17 July @ 15:50-18:20 | GAIA | Room Viger
+
+ * Agenda will be here:
+https://datatracker.ietf.org/meeting/102/materials/agenda-102-gaia-00
+
+19 July @ 15:50-17:50 | HRPC | Room Duluth
+
+ * Agenda will be here:
+https://datatracker.ietf.org/meeting/102/materials/agenda-102-hrpc-00
+
+-- 
+Mallory Knodel
+Head of Digital :: article19.org
+gpg fingerprint :: E3EB 63E0 65A3 B240 BCD9  B071 0C32 A271 BD3C C780
+

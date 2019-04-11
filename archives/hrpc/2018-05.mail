@@ -1,0 +1,1785 @@
+
+From nobody Wed May  2 01:52:52 2018
+Return-Path: <mallory@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id F32151270A0 for <hrpc@ietfa.amsl.com>; Wed,  2 May 2018 01:52:50 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.901
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.901 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id P9Ix49mhGpV1 for <hrpc@ietfa.amsl.com>; Wed,  2 May 2018 01:52:49 -0700 (PDT)
+Received: from smarthost1.greenhost.nl (smarthost1.greenhost.nl [195.190.28.92]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 57121124319 for <hrpc@irtf.org>; Wed,  2 May 2018 01:52:49 -0700 (PDT)
+Received: from smtp.greenhost.nl ([213.108.110.112]) by smarthost1.greenhost.nl with esmtps (TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128) (Exim 4.84_2) (envelope-from <mallory@article19.org>) id 1fDnVF-0006gt-N4 for hrpc@irtf.org; Wed, 02 May 2018 10:52:47 +0200
+To: hrpc@irtf.org
+References: <787AE7BB302AE849A7480A190F8B93302DF0FAF6@OPEXCLILMA3.corporate.adroot.infra.ftgroup> <d55b1de5-36b6-6e1e-b94e-918f36ab38b0@article19.org>
+From: Mallory Knodel <mallory@article19.org>
+Openpgp: preference=signencrypt
+Autocrypt: addr=mallory@article19.org; prefer-encrypt=mutual; keydata= xsBNBEx0TWcBCAC8sirY3nlDnRwY6XWmsvZtM9kmEK6H8no3ZuQ723PKwHOddw1nOykh0in/ /QGRmwtyVzsfLh6/94UUZTn10oo+xGAfw2gf1on5IJTIiphykk732PNnUakVGWwHNKQquTVc kLrydUaFVMb89BAXqExBKlMg2ciEjzbYMCs3I/qZAZ0Wr5nF3RQS8O78elTNAgWTZ98yKTZV DlRoDpnvbfwtIPqnISoSjDEvEUBdpykvS3jHqlR1f6Mx6Xs97S5CORaer/0qTcDm0PAb1Z9l IhMsFl05tNt2FpgS4/RN8NyLasAQNOlScpTJbAfRuyyvRm1N8GLIL1KX+YYeLyqzhdhZABEB AAHNJU1hbGxvcnkgS25vZGVsIDxtYWxsb3J5QG1heWZpcnN0Lm9yZz7CwJgEEwECAEICGwMG CwkIBwMCBhUIAgkKCwQWAgMBAh4BAheAAhkBFiEE4+tj4GWjskC82bBxDDKicb08x4AFAlqo 9WUFCRAV234ACgkQDDKicb08x4DklAf+ODKRmP6C2MnBz6vL8N8l3vZJUqoRcYXTn3uTpT05 Wou87ZIZ/P/OV2/uOMKkczLQQydj5S8PxbLTeg+U5f/63hdy99ON+K2b4izg7Qasdl1SqXTH q1pmhbrcbLbVKDJ345fdEg7RuMnv4gd3EaT/yQa99zHy8JHaBKaPEUQAa65HTt2Sy2c6L6BA aMZx1TOZ9/cZ7L1gJyytJbEyvg/JLOatJEI4rewUWU2TMSGJijwjAUBagwDPWyxpz+vXdKsD tqRTpY4xvXaeUQo0QXf0c5j1Gcglzv7ywZcyz1MGD1aLS9/CqeB3I4EMbvH/33LS3jNkfKbV XOTSjmo7l22CNc7ATQRMdE1nAQgA4mpP2LjFuAW2li9FPbDYOMzt0MtThXsnvHyY0fDv8FlU qnKgPrMY80VHntnxwqepFS3ncunVX4ipq+fadta+LHpTnbJSmlphBrc9qGJxqcjwf4yo35Xh OXCJFwnaoAwIX237lXRe4Xh6X4VMuJt8jiZdvgpbk/whvQH2grcq8KjCcy1iuL5pBl8ZwYG/ dphitFhQdqEcnc/krIqG4KQgKiUi3K/GR0OeEmw/cscWD7/CLEo7eHiaGQhSOyDQbM+Iu2o/ 6uMXMUPsYlMMqgmVL68zMacO3PE17jx0rQ8oZ7CpBY8YZWOWrzXrtFT8JO9guuCPsvd4KT6y 97y9LRJlPQARAQABwsB8BBgBAgAmAhsMFiEE4+tj4GWjskC82bBxDDKicb08x4AFAlqo9WYF CRAV238ACgkQDDKicb08x4DU4QgAmlyBlFhfU0jpkbyD3HQ+3CJqWdBT422pVIrj3qNT2ehy fWO66Muidmd4Y279uV3p3TQEJOQvnV7FVAC9+bI7AdBy00BAjHgJ5eSQZxKTXUoeeBAsTZHN /HaHewjYWHMvCuuzir/Wt3A6Cehh8gp9I/Vg+oL3dTldVqqgZLgnA83bT/R8fI/e85LDlpdx KJ0+uy/grg3AbH7LUUrmMIC2iO8mQWYuNlizsUZLFvJhCAU2c5l8B5mv2BoWFhL+l7mmNcdF bwBFXon7Ea1jkCnbWVxtXkPYkcuWuMSTJswn9HhZVJWjUonKqUZKAb9PxRzC9crZ+X14tQT3 iJt2a4ZM4w==
+Message-ID: <fd43bc96-cd15-95e6-734c-c7c4a1216c04@article19.org>
+Date: Wed, 2 May 2018 11:52:42 +0300
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Thunderbird/52.7.0
+MIME-Version: 1.0
+In-Reply-To: <d55b1de5-36b6-6e1e-b94e-918f36ab38b0@article19.org>
+Content-Type: text/plain; charset=windows-1252
+Content-Language: en-US
+Content-Transfer-Encoding: 7bit
+X-Virus-Scanned: by clamav at smarthost1.samage.net
+X-Scan-Signature: a350ae07b5350cdad28cef237d2e7179
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/qUJEoKlrB5FPAA_RnPek653bNi0>
+Subject: Re: [hrpc] Fwd: draft-andersdotter (was RE: [Int-area] WG adoption call: Availability of Information in Criminal Investigations Involving Large-Scale IP Address Sharing Technologies
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 02 May 2018 08:52:51 -0000
+
+Hi Amelia,
+
+I'm watching the discussion unfold and while I'm not on the list, I
+thought I would share two thoughts about the security argument folks
+have made:
+
+On 23/04/18 11:52, Amelia Andersdotter wrote:
+>       SHOULD only store entire incoming IP addresses for as long as is
+>       necessary to provide the specific service requested by the user.
+> 
+> Med: This is implementation and deployment-specific. Not sure we can mandate a server how to service users.  
+
+If there is a particular security service that is being provided to the
+user, then this recommendation is still sound-- if you have DDoS
+mitigation then analyses or other logging might go beyond three days. It
+fits.
+
+There was also another blunt question from Med about DDoS-- What about DDoS?
+
+First, analyses doesn't need the entire IP address. One could log
+attacks without retaining the full IP address and lots of other information.
+
+Second, adding IP addresses to black or grey lists is not logging.
+
+-Mallory
+
+-- 
+Mallory Knodel
+Head of Digital :: article19.org
+gpg fingerprint :: E3EB 63E0 65A3 B240 BCD9  B071 0C32 A271 BD3C C780
+
+
+From nobody Tue May 15 15:41:53 2018
+Return-Path: <session-request@ietf.org>
+X-Original-To: hrpc@irtf.org
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from ietfa.amsl.com (localhost [IPv6:::1]) by ietfa.amsl.com (Postfix) with ESMTP id 4DCC912E8D2; Tue, 15 May 2018 15:41:52 -0700 (PDT)
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+From: IETF Meeting Session Request Tool <session-request@ietf.org>
+To: <session-request@ietf.org>
+Cc: hrpc-chairs@ietf.org, avri@acm.org, hrpc@irtf.org, irtf-chair@irtf.org
+X-Test-IDTracker: no
+X-IETF-IDTracker: 6.80.0
+Auto-Submitted: auto-generated
+Precedence: bulk
+Message-ID: <152642411225.20064.16371952400405744398.idtracker@ietfa.amsl.com>
+Date: Tue, 15 May 2018 15:41:52 -0700
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/eptPYl_HAzmIj61CR52lNqkpvD4>
+Subject: [hrpc] hrpc - New Meeting Session Request for IETF 102
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 15 May 2018 22:41:52 -0000
+
+A new meeting session request has just been submitted by Avri Doria, a Chair of the hrpc working group.
+
+
+---------------------------------------------------------
+Working Group Name: Human Rights Protocol Considerations
+Area Name: IRTF
+Session Requester: Avri Doria
+
+Number of Sessions: 1
+Length of Session(s):  2 Hours
+Number of Attendees: 80
+Conflicts to Avoid: 
+ First Priority: gaia irtfopen dnsop
+ Second Priority: quic httpbis saag 
+ Third Priority:  dprive
+
+
+People who must be present:
+  Avri Doria
+
+Resources Requested:
+
+Special Requests:
+  Not Monday, preferably Tuesday.  Same day as gaia would be good.
+---------------------------------------------------------
+
+
+From nobody Mon May 28 08:46:31 2018
+Return-Path: <mail@nielstenoever.net>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id AA2C612DA24 for <hrpc@ietfa.amsl.com>; Mon, 28 May 2018 08:46:29 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.501
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.501 tagged_above=-999 required=5 tests=[BAYES_05=-0.5, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Av5Wo6QFui7m for <hrpc@ietfa.amsl.com>; Mon, 28 May 2018 08:46:27 -0700 (PDT)
+Received: from smarthost1.greenhost.nl (smarthost1.greenhost.nl [195.190.28.92]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id CEE0812DA50 for <hrpc@irtf.org>; Mon, 28 May 2018 08:46:26 -0700 (PDT)
+Received: from smtp.greenhost.nl ([213.108.110.112]) by smarthost1.greenhost.nl with esmtps (TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128) (Exim 4.84_2) (envelope-from <mail@nielstenoever.net>) id 1fNKLo-0006Ub-Gr for hrpc@irtf.org; Mon, 28 May 2018 17:46:24 +0200
+To: "hrpc@irtf.org" <hrpc@irtf.org>
+From: Niels ten Oever <mail@nielstenoever.net>
+Openpgp: preference=signencrypt
+Autocrypt: addr=mail@nielstenoever.net; prefer-encrypt=mutual; keydata= xsFNBFgpcR0BEACnfvNwTMlN+pyZT0AFYhWqxG3N4AoPIeNfbxLQH7dk8ZL7Ls05xtORfnu9 ovoaRrZpDufkMviUFidNYePbQNdgf63vWVgwpQR7utluwWraetcmZOu6tayJuyBK2b6d2Z23 MJAQxfa2/GMlN3QkvobaoyKtgbc8rOCgNla7WwkgtiVJ89xbAUHXPFpKWZluVRjaFh4p5C5r 7E5OvUiEGLQ5Cn2ir2PGIyIVqjB+hLTyaI6dIGCz2jtL0RATjmsmYUX7UkU/pz8MPPC2BJ5P KU9pdXMRBhAStxcph8vCo2ze9xSi3+1/5A2ULVtvO4s0hZ+exbTfMxMg3H5CCRFEEJXlQEXa Cd0ZHvqcv5xq8n9w/Ccd0CqYWATIwyP8Jlzd+BY3QGTWnWlgoAbs3Guh/pFYhEFNuuAF5Jk1 k5OlNGsRE/LQJmbT5SE7AtLJLbWewcHlEyIH+K6J8uVa4ExLXmRy+eRkFaxjGy3fLlUpy1Ee 1kU7VsQ/TZ8g8ujsMzxqsdB6y0TD/kVlWaDqPL6F+b+pm3lAuCBGWM1YZROTG58R6pD7sNVm i0ift4dIttAsg+2KoShm9A8kQ3tACXZDgNPC0l7VOqnVayjnF0RmjGeiX7PjOcLQCZ9a5wAH 5mrXMaKvfszqAVkP9HSrk1QVZOipF6vEimL43Czy7Rp1aUaUwwARAQABzSVOaWVscyB0ZW4g T2V2ZXIgPG5pZWxzQGFydGljbGUxOS5vcmc+wsGZBBMBCABDAhsjBQkJZgGABwsJCAcDAgEG FQgCCQoLBBYCAwECHgECF4AWIQQkWAtwXEr9ipSIZDoO2D86RorIswUCWG0tCwIZAQAKCRAO 2D86RorIs3pMD/9W/Tww1uLG0m0jQkBV3TmBOVzS79fVyoj6lEYCNPJigCqOi9wbZSTB2HL6 h4ftSCl4ErGHcIqngRPcNRt7G8/3OoA1h6qRHcqrpS6H4niW1E+rtxIxul+PSsXXZEgDyUSK XXczf4MmRbR6tKGY4hp4KFedSOEL2C0j8htB2um4C8KFyX4gAYMPJoBfZqlrCmXsyLjdjIvN wd7FLLKA6CNVjwYsDgmKiLQm0Np4fz1AW72rnGGktyUT3u0GsbyDmwM6YU80anh647Pc7cyo ie6c21Ajcph1k7BjHAB/EopQzoQVporHFrCNqhpgVXihhlVDGdOD1JSHCgWO4toflJAT6+kP 3uOXeHv6AoLcXKnY/8QWFjwoj9DYtpw4bSsiP++sF3Dg0xaaivvOzU5+IBoSxNTnqj0M7/Fk jergVF60QdwMGukFZDMSjFnX/gvFPbxy4JebvrfzSY5ZJxLjrlswSeVkWTU1DvtfJxJHKTPQ 9dnodrSN3vynJS+u+wRbzQLdSLBgSgGbUVVHu2dyJhXGPwoh/2Gu4gFilV6+dBhcwHwuxlsd 0pdnTdq4wJodT1rDZRgP3QjR+miyFqjahUDMTJlf4BRq6CiWiHb5UfvQvUsPtMLfQafqYCEy 98b4RHnbckPXa+pXRTYz3z9CBuiJTQWTT0CIBVLhyzqQjYrFTM7BTQRYKXEdARAAxYOE3/AF mEfQ0SVVFujYFhZKX+BGXolYytC2a1soZogVYTIIlypxkRtN+ljteFAY3xX/El7cx5Fxj+uX vLKAm9xQRI/DCug7/NGULMk9bDK5bzSGw817cyiL5Kb+0RkWj2Y5ArOAK6XPGBZWZTHwyIaw sSCN9AhDXZQWVRqkR1QXcq3IYKl+OHWMO7+1VfixCSakNf7T/Kiq46rQEPW8Eghk6CVOBR8x UCBbyk5aRW4VSGO6pUD3H21ur+5fTLsVyan1NHhxNNiXfnEJKr+JI5dXSkj7WqA5n8ITaNdF SAttkdT56wAQpxE2h8zaOmBaFUWQ4D8SdXDVymP5QMtLG+ItMMiNV6kXgsRFugAKM5yZtPP9 gIX+ic8QO5iuct37bRXJU/rmrH54Ab0kyAeeRE7oSsfTZPKvgtUh7VLAUEw/wy6TORJHE8JM aX0yYT6h4PGRS3mNM4bka8hjdfcrexI0zSqFOl2I22zQlG3YqSzIvVh98W67hxfAIaCVaTfJ LFPEru3drxNwi6ogdkRmcLGKqqTgeYItrvITyFvzqbrcO2exp0KKEK3cDIZypqHHUf4+uPlD tuExehLsNOMpjP8qhZpFtyLeDS07qunbvstcyvR30wOJ3DyAbHGzq739UyDcO9Jt5jwODyVw k3MK5Em4pJ0+IAJx+F6gta0Bk2MAEQEAAcLBZQQYAQgADwUCWClxHQIbDAUJCWYBgAAKCRAO 2D86RorIs0ykD/4t151SZG9MbeKRVKbs9Ecjady9bO0L3oBos4rhqY12ha8smFlsUzvbgB4C tkBuXQlq+plOBWv+rFEThOzy3bezgEDjlxycoO1W2wJD6E7Fo9fkHT6UOm9fQBkuKRqK83OG nfM02qP1Ky8d7EoZz+nTSMf/DJgWw1YRKrXkMHBwKD83lCENsmePWE5AjMqk8cojPv9Oy1wW y6fHjwx3r+wQSokBNfxgQyAFonmgBbhlic/pZUYRSIcldyUlaomrjFfr4egzmNE7aWDvLwOU YKevBIeJJcqTyfAn3TtJbPCEHOC2+lP6EcmPFyhQdiia+RqOClumqbWOPeQ2VM8j7NWvKKmB NBB5OJ/rmHogbNU+wWPJ723qMBoOp1jIwFNkQhx01W6v55VMwLr+IuBKY1ggJ2BhwQiGpWv4 tMc5oB/qVh3my1VO65ErcJ3S9blpwJdDj5/YDOU7BKEmpRUP+xkaryNzH2x7FzrOOHzJBX6j eYZabGvnTicQlBAzfGpblFqV3YN6EhCF2AHmGLTZ/DrjGYToIsW8cXlEMqN4u8ODEUY0Ohbn ytnopKJKk99bwMoCqDkfQvT3LKDWtZj9NzFndfuoKXsVpwAitrG0mau0/16DKDyVWdtJ9DYm tE40zO6g70VVxUj+dKt2hbJTy/KQTb7Ijhw7wZrGp/P7nhbVyA==
+Message-ID: <b2896e39-2e11-eccd-9429-e956089ed2e8@nielstenoever.net>
+Date: Mon, 28 May 2018 17:46:21 +0200
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Thunderbird/52.8.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Language: en-US
+Content-Transfer-Encoding: 7bit
+X-Authenticated-As-Hash: f1842a279235a42f6aa2a2a81130733515c5a4ec
+X-Virus-Scanned: by clamav at smarthost1.samage.net
+X-Scan-Signature: b23ffabd93680167408d22b6bc748885
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/_8zYddOk_L_7SXSbkLZFNJ4c698>
+Subject: [hrpc] session agenda for Montreal?
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 28 May 2018 15:46:30 -0000
+
+Hi all,
+
+There are a lot of cool technologists and projects in Montreal that we
+could maybe invite to our session there. Where are we with agenda
+setting for the Montreal session?
+
+Best,
+
+Niels
+
+
+From nobody Mon May 28 10:07:09 2018
+Return-Path: <avri@doria.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 08630127419 for <hrpc@ietfa.amsl.com>; Mon, 28 May 2018 10:07:07 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.9 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_NONE=-0.0001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id ImJh9DWV2DhP for <hrpc@ietfa.amsl.com>; Mon, 28 May 2018 10:07:05 -0700 (PDT)
+Received: from smtprelay.hostedemail.com (smtprelay0098.hostedemail.com [216.40.44.98]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 2ABB01200A0 for <hrpc@irtf.org>; Mon, 28 May 2018 10:07:04 -0700 (PDT)
+Received: from filter.hostedemail.com (clb03-v110.bra.tucows.net [216.40.38.60]) by smtprelay04.hostedemail.com (Postfix) with ESMTP id 9F2F9180A8862 for <hrpc@irtf.org>; Mon, 28 May 2018 17:07:02 +0000 (UTC)
+X-Session-Marker: 6176726940646F7269612E6F7267
+X-Spam-Summary: 2, -10, 0, , d41d8cd98f00b204, avri@doria.org, :, RULES_HIT:41:152:355:379:599:800:854:967:973:988:989:1260:1277:1311:1313:1314:1345:1359:1381:1437:1515:1516:1518:1534:1541:1593:1594:1711:1730:1747:1777:1792:2194:2199:2393:2525:2553:2559:2563:2682:2685:2687:2693:2741:2859:2909:2911:2933:2937:2939:2942:2945:2947:2951:2954:3022:3138:3139:3140:3141:3142:3353:3865:3866:3867:3868:3870:3871:3873:3874:3934:3936:3938:3941:3944:3947:3950:3953:3956:3959:4184:4250:4362:4425:4860:5007:6117:7652:7903:9010:9025:9108:9121:10004:10400:10450:10455:10848:11232:11233:11658:11914:12043:12291:12379:12438:12683:12740:12895:13018:13019:13069:13071:13161:13229:13311:13357:13846:13894:14095:14180:14181:14721:14764:19904:19999:21060:21080:21450:21627:21740:30016:30054:30060, 0, RBL:162.220.220.136:@doria.org:.lbl8.mailshell.net-62.8.0.100 64.201.201.201,  CacheIP:none, Bayesian:0.5, 0.5, 0.5, Netcheck:none, DomainCache:0, MSF:not bulk, SPF:fn, MSBL:0, DNSBL:neutral, Custom_rules:0:0:0, LFtime:19, LUA_SUMMARY:none
+X-HE-Tag: sort52_203260e9b9302
+X-Filterd-Recvd-Size: 2040
+Received: from [198.18.10.162] (unknown [162.220.220.136]) (Authenticated sender: avri@doria.org) by omf09.hostedemail.com (Postfix) with ESMTPA for <hrpc@irtf.org>; Mon, 28 May 2018 17:07:01 +0000 (UTC)
+To: hrpc@irtf.org
+References: <b2896e39-2e11-eccd-9429-e956089ed2e8@nielstenoever.net>
+From: avri@doria.org
+Message-ID: <e33fffed-f600-9297-b301-371dec7225ad@doria.org>
+Date: Mon, 28 May 2018 13:07:00 -0400
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Thunderbird/52.8.0
+MIME-Version: 1.0
+In-Reply-To: <b2896e39-2e11-eccd-9429-e956089ed2e8@nielstenoever.net>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+Content-Language: en-US
+X-Antivirus: Avast (VPS 180528-6, 05/28/2018), Outbound message
+X-Antivirus-Status: Clean
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/907WEvE644WxoFTBauzjUt5ApHE>
+Subject: Re: [hrpc] session agenda for Montreal?
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 28 May 2018 17:07:07 -0000
+
+Hi,
+
+Thank you for you ping.
+
+While I did request a slot, I have not yet asked about the list about
+the agenda.
+
+Now that you ask, as good a time as any, who wishes to report at the
+next meeting. Or to speak on their research/practice.  I hope the Review
+team is willing as well as those working on the RG drafts. And of course
+those working on other drafts.
+
+As for speakers, Alison did suggest a speaker, and I have asked her to
+confirm availability before coming to the list with the suggestion. But
+since the subject is open, she suggested Roya Ensafi, who won the ANRP,
+to speak on her current work on internet censorship research.  Will let
+the list know as soon as I know more.
+
+Specific other recommendation are also welcome.
+
+Thank you
+
+avri
+
+
+
+
+On 28-May-18 11:46, Niels ten Oever wrote:
+> Hi all,
+>
+> There are a lot of cool technologists and projects in Montreal that we
+> could maybe invite to our session there. Where are we with agenda
+> setting for the Montreal session?
+>
+> Best,
+>
+> Niels
+>
+> _______________________________________________
+> hrpc mailing list
+> hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+>
+
+
+From nobody Tue May 29 00:57:05 2018
+Return-Path: <cattekwaad@gmail.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id C803E127601 for <hrpc@ietfa.amsl.com>; Tue, 29 May 2018 00:57:01 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.998
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.998 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id bxq0fkwzapuz for <hrpc@ietfa.amsl.com>; Tue, 29 May 2018 00:56:59 -0700 (PDT)
+Received: from mail-wr0-x22a.google.com (mail-wr0-x22a.google.com [IPv6:2a00:1450:400c:c0c::22a]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 4177712D954 for <hrpc@irtf.org>; Tue, 29 May 2018 00:56:59 -0700 (PDT)
+Received: by mail-wr0-x22a.google.com with SMTP id u12-v6so23777726wrn.8 for <hrpc@irtf.org>; Tue, 29 May 2018 00:56:59 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20161025;  h=mime-version:sender:in-reply-to:references:from:date:message-id :subject:to:cc; bh=5mN8NngNyngtD3h3DgoKCrhztc4gAuGV8xT+cYF7bNw=; b=jSZkn8bKwAj6RzKBeAS4lNbulcaZtUNjQ75TgC5urw+8nVXLiCpO+PjaQ6taWAhiTB k2YGvkUat+othncnTveN0Vp3WMRqUVShcGkSMwlxZUarG+g6ckrXK8tCtYS5mlAjA5CV xsfDseks/RdpEO+J7npSj+i3Pp3DdV0sdc92h1q2a64aewBrG2LgBaWkEEEOwuOfGMXH A7bF2ZgGwQT99ncMyYPcYW8jdyHwgHRsrDCyVQH9ry9cgIdLyqlbmLBNeIRID8LJNGAd ZkHvvSiaAIuauRN9oOtTG5fPHkSAyR+7afiIjiUWUS4mrxsT3kTvnB9kcc0zSzNOhCQq r+dw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:sender:in-reply-to:references:from :date:message-id:subject:to:cc; bh=5mN8NngNyngtD3h3DgoKCrhztc4gAuGV8xT+cYF7bNw=; b=irJvWbSo2bAPCfsI6QB5IiTUC8+kTceUpF4f0TUceqpYW5eGQKRZt4jl2ej/vairwo kFu2Tnu5eB1MqI/lAv44mJDGvlSDOv+vCTuRv+wLxo8rXpyfF6P4y7r2vfwba3Jpdz7r eua1wZy0ji/hRif5/jYseThBB1is3rVZr7XTudJm2Ki0B/p4P0Wamn3CpN4goDt7Zdi5 mH6F6fdLQnE2Te+o3Vhh1ercmT8AjkCoxxt9tHNTktllvEwKEY4DHEtrVxPy6mahzFPX nZbekvdZ8xy6cjVUPFQ4OsZOaJNo7FPuductUishNzduCruYeVwIc813kWoOQ7RRZFzl fOUg==
+X-Gm-Message-State: ALKqPwc40vv4QNtISqdQXWWbktDgR8aXofLs9kuV93+rLyTiK2fhs7HJ TgbklCaAMi+nMgJZ1H/CvDbbWRLBDJbYCCqdNds=
+X-Google-Smtp-Source: AB8JxZrZqJTQPIpkvJDjuLjj/Wkry+eQB/x8vPrRuk8iZAa915xl/KuGHTjo6wYy2aezbDH6IqOjKfF4eAbjir8QEK4=
+X-Received: by 2002:adf:ec02:: with SMTP id x2-v6mr11153164wrn.245.1527580617760;  Tue, 29 May 2018 00:56:57 -0700 (PDT)
+MIME-Version: 1.0
+Sender: cattekwaad@gmail.com
+Received: by 2002:adf:826d:0:0:0:0:0 with HTTP; Tue, 29 May 2018 00:56:17 -0700 (PDT)
+In-Reply-To: <e33fffed-f600-9297-b301-371dec7225ad@doria.org>
+References: <b2896e39-2e11-eccd-9429-e956089ed2e8@nielstenoever.net> <e33fffed-f600-9297-b301-371dec7225ad@doria.org>
+From: Corinne Cath <corinnecath@gmail.com>
+Date: Tue, 29 May 2018 09:56:17 +0200
+X-Google-Sender-Auth: WUxO9McjDbmQYYAmDeOOE4530zU
+Message-ID: <CAD499e+V28rqstnGcwZPiRH348De-3+-kKdJh6hUDiczxg0bLg@mail.gmail.com>
+To: Avri Doria <avri@doria.org>
+Cc: Hrpc <hrpc@irtf.org>
+Content-Type: multipart/alternative; boundary="000000000000166560056d5394bd"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/35d1G5gH3HrCCpl1VebWYsgOSwM>
+Subject: Re: [hrpc] session agenda for Montreal?
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 29 May 2018 07:57:02 -0000
+
+--000000000000166560056d5394bd
+Content-Type: text/plain; charset="UTF-8"
+
+Hi all,
+
+Roya is great, would be fun to hear her speak.
+
+Would like to hear what else the chair(s) think should be on the agenda?
+
+Next steps for RFC8280? Ongoing work of 451? Draft political? Seems like we
+have plenty to discuss.
+
+Best,
+
+On Mon, May 28, 2018 at 7:07 PM, <avri@doria.org> wrote:
+
+> Hi,
+>
+> Thank you for you ping.
+>
+> While I did request a slot, I have not yet asked about the list about
+> the agenda.
+>
+> Now that you ask, as good a time as any, who wishes to report at the
+> next meeting. Or to speak on their research/practice.  I hope the Review
+> team is willing as well as those working on the RG drafts. And of course
+> those working on other drafts.
+>
+> As for speakers, Alison did suggest a speaker, and I have asked her to
+> confirm availability before coming to the list with the suggestion. But
+> since the subject is open, she suggested Roya Ensafi, who won the ANRP,
+> to speak on her current work on internet censorship research.  Will let
+> the list know as soon as I know more.
+>
+> Specific other recommendation are also welcome.
+>
+> Thank you
+>
+> avri
+>
+>
+>
+>
+> On 28-May-18 11:46, Niels ten Oever wrote:
+> > Hi all,
+> >
+> > There are a lot of cool technologists and projects in Montreal that we
+> > could maybe invite to our session there. Where are we with agenda
+> > setting for the Montreal session?
+> >
+> > Best,
+> >
+> > Niels
+> >
+> > _______________________________________________
+> > hrpc mailing list
+> > hrpc@irtf.org
+> > https://www.irtf.org/mailman/listinfo/hrpc
+> >
+>
+> _______________________________________________
+> hrpc mailing list
+> hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+>
+
+
+
+-- 
+Corinne Cath
+Ph.D. Candidate, Oxford Internet Institute & Alan Turing Institute
+
+Web: www.oii.ox.ac.uk/people/corinne-cath
+Email: ccath@turing.ac.uk & corinnecath@gmail.com
+Twitter: @C_Cath
+
+--000000000000166560056d5394bd
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:verdana,=
+sans-serif">Hi all,</div><div class=3D"gmail_default" style=3D"font-family:=
+verdana,sans-serif"><br></div><div class=3D"gmail_default" style=3D"font-fa=
+mily:verdana,sans-serif">Roya is great, would be fun to hear her speak.=C2=
+=A0</div><div class=3D"gmail_default" style=3D"font-family:verdana,sans-ser=
+if"><br></div><div class=3D"gmail_default" style=3D"font-family:verdana,san=
+s-serif">Would like to hear what else the chair(s) think should be on the a=
+genda?</div><div class=3D"gmail_default" style=3D"font-family:verdana,sans-=
+serif"><br></div><div class=3D"gmail_default" style=3D"font-family:verdana,=
+sans-serif">Next steps for RFC8280? Ongoing work of 451? Draft political? S=
+eems like we have plenty to discuss.</div><div class=3D"gmail_default" styl=
+e=3D"font-family:verdana,sans-serif"><br></div><div class=3D"gmail_default"=
+ style=3D"font-family:verdana,sans-serif">Best,=C2=A0</div></div><div class=
+=3D"gmail_extra"><br><div class=3D"gmail_quote">On Mon, May 28, 2018 at 7:0=
+7 PM,  <span dir=3D"ltr">&lt;<a href=3D"mailto:avri@doria.org" target=3D"_b=
+lank">avri@doria.org</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_qu=
+ote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex=
+">Hi,<br>
+<br>
+Thank you for you ping.<br>
+<br>
+While I did request a slot, I have not yet asked about the list about<br>
+the agenda.<br>
+<br>
+Now that you ask, as good a time as any, who wishes to report at the<br>
+next meeting. Or to speak on their research/practice.=C2=A0 I hope the Revi=
+ew<br>
+team is willing as well as those working on the RG drafts. And of course<br=
+>
+those working on other drafts.<br>
+<br>
+As for speakers, Alison did suggest a speaker, and I have asked her to<br>
+confirm availability before coming to the list with the suggestion. But<br>
+since the subject is open, she suggested Roya Ensafi, who won the ANRP,<br>
+to speak on her current work on internet censorship research.=C2=A0 Will le=
+t<br>
+the list know as soon as I know more.<br>
+<br>
+Specific other recommendation are also welcome.<br>
+<br>
+Thank you<br>
+<br>
+avri<br>
+<div class=3D"HOEnZb"><div class=3D"h5"><br>
+<br>
+<br>
+<br>
+On 28-May-18 11:46, Niels ten Oever wrote:<br>
+&gt; Hi all,<br>
+&gt;<br>
+&gt; There are a lot of cool technologists and projects in Montreal that we=
+<br>
+&gt; could maybe invite to our session there. Where are we with agenda<br>
+&gt; setting for the Montreal session?<br>
+&gt;<br>
+&gt; Best,<br>
+&gt;<br>
+&gt; Niels<br>
+&gt;<br>
+&gt; ______________________________<wbr>_________________<br>
+&gt; hrpc mailing list<br>
+&gt; <a href=3D"mailto:hrpc@irtf.org">hrpc@irtf.org</a><br>
+&gt; <a href=3D"https://www.irtf.org/mailman/listinfo/hrpc" rel=3D"noreferr=
+er" target=3D"_blank">https://www.irtf.org/mailman/<wbr>listinfo/hrpc</a><b=
+r>
+&gt;<br>
+<br>
+______________________________<wbr>_________________<br>
+hrpc mailing list<br>
+<a href=3D"mailto:hrpc@irtf.org">hrpc@irtf.org</a><br>
+<a href=3D"https://www.irtf.org/mailman/listinfo/hrpc" rel=3D"noreferrer" t=
+arget=3D"_blank">https://www.irtf.org/mailman/<wbr>listinfo/hrpc</a><br>
+</div></div></blockquote></div><br><br clear=3D"all"><div><br></div>-- <br>=
+<div class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><div dir=
+=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr">=
+<div><div dir=3D"ltr"><div><div dir=3D"ltr"><span style=3D"font-family:verd=
+ana,sans-serif">Corinne Cath <br>Ph.D. Candidate, Oxford Internet Institute=
+ &amp; Alan Turing Institute <br><br><span style=3D"color:rgb(68,68,68)">We=
+b: <a href=3D"http://www.oii.ox.ac.uk/people/corinne-cath" target=3D"_blank=
+">www.oii.ox.ac.uk/people/corinne-cath</a> <br>Email: <a href=3D"mailto:cca=
+th@turing.ac.uk" target=3D"_blank">ccath@turing.ac.uk</a> &amp; <a href=3D"=
+mailto:corinnecath@gmail.com" target=3D"_blank">corinnecath@gmail.com</a><b=
+r>Twitter: @C_Cath</span><br></span></div></div></div></div></div></div></d=
+iv></div></div></div></div></div>
+</div>
+
+--000000000000166560056d5394bd--
+
+
+From nobody Tue May 29 02:47:39 2018
+Return-Path: <mail@nielstenoever.net>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 53F75126D73 for <hrpc@ietfa.amsl.com>; Tue, 29 May 2018 02:47:37 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.9 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id SwcIoV_fpKc4 for <hrpc@ietfa.amsl.com>; Tue, 29 May 2018 02:47:34 -0700 (PDT)
+Received: from smarthost1.greenhost.nl (smarthost1.greenhost.nl [195.190.28.92]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 9ED7D126579 for <hrpc@irtf.org>; Tue, 29 May 2018 02:47:34 -0700 (PDT)
+Received: from smtp.greenhost.nl ([213.108.110.112]) by smarthost1.greenhost.nl with esmtps (TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128) (Exim 4.84_2) (envelope-from <mail@nielstenoever.net>) id 1fNbE4-0001hO-95 for hrpc@irtf.org; Tue, 29 May 2018 11:47:32 +0200
+Date: Tue, 29 May 2018 11:47:30 +0200
+From: Niels ten Oever <mail@nielstenoever.net>
+To: hrpc@irtf.org
+Message-ID: <20180529094730.GA26848@mir>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha512; protocol="application/pgp-signature"; boundary="xgyAXRrhYN0wYx8y"
+Content-Disposition: inline
+User-Agent: Mutt/1.9.5 (2018-04-13)
+X-Authenticated-As-Hash: 54a52893e10ae071b73780542c02a8d9e3f33e6f
+X-Virus-Scanned: by clamav at smarthost1.samage.net
+X-Scan-Signature: 118046538f1968b7a7bc35ac7f8c9032
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/sVbfg14NEC9QKGNskAqTq6sCaBo>
+Subject: [hrpc] Fwd: New Version Notification for draft-tenoever-hrpc-association-05.txt
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 29 May 2018 09:47:37 -0000
+
+--xgyAXRrhYN0wYx8y
+Content-Type: multipart/mixed; boundary="7AUc2qLy4jB3hD7Z"
+Content-Disposition: inline
+
+
+--7AUc2qLy4jB3hD7Z
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Hi all,
+
+A new version of the association draft! We (actually largely Gisela) implem=
+ented the issueAs discussed during the last session, we:
+
+- removed the part that was perceived as problematic (about ASes)=20
+    (I asked about this a while ago on the list again, but unfortunately th=
+ere was no support for this
+    https://www.ietf.org/mail-archive/web/hrpc/current/msg01299.html )
+- wrote a new conclusion in line with the rest of the document.
+
+Happy to discuss!
+
+Best,
+
+Niels
+
+--=20
+
+Niels ten Oever
+Researcher and PhD Candidate
+Datactive Research Group
+University of Amsterdam
+
+PGP fingerprint	   2458 0B70 5C4A FD8A 9488 =20
+                   643A 0ED8 3F3A 468A C8B3
+
+
+--7AUc2qLy4jB3hD7Z
+Content-Type: message/rfc822
+Content-Disposition: inline
+
+Return-Path: <internet-drafts@ietf.org>
+Received: from mx2.greenhost.nl (mx2-nfs.lan [10.10.12.45])
+	 by mailstore6.lan (Cyrus v2.4.16-Debian-2.4.16-4+deb7u2) with LMTPA;
+	 Tue, 29 May 2018 09:38:18 +0000
+X-Sieve: CMU Sieve 2.4
+Received: from mail.ietf.org ([4.31.198.44])
+	by mx2.greenhost.nl with esmtps (TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256)
+	(Exim 4.84_2)
+	(envelope-from <internet-drafts@ietf.org>)
+	id 1fNb57-0003AN-LU
+	for mail@nielstenoever.net; Tue, 29 May 2018 11:38:18 +0200
+Received: from ietfa.amsl.com (localhost [IPv6:::1])
+	by ietfa.amsl.com (Postfix) with ESMTP id 3236412EA98;
+	Tue, 29 May 2018 02:38:16 -0700 (PDT)
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+From: internet-drafts@ietf.org
+To: "Niels ten Oever" <mail@nielstenoever.net>, "Gisela de Acha"
+ <gisela@derechosdigitales.org>, "Gisela Perez de Acha"
+ <gisela@derechosdigitales.org>
+Subject: New Version Notification for draft-tenoever-hrpc-association-05.txt
+X-Test-IDTracker: no
+X-IETF-IDTracker: 6.80.1
+Auto-Submitted: auto-generated
+Precedence: bulk
+Message-ID: <152758669619.25421.700431402284592904.idtracker@ietfa.amsl.com>
+Date: Tue, 29 May 2018 02:38:16 -0700
+X-Spam-Level: -
+X-Spam-Status: No, score=-1.6 required=5.0 tests=BAYES_50,RCVD_IN_DNSWL_MED,SPF_PASS autolearn=disabled version=3.4.0
+X-Spam-Score: -1.6
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 9090f8a1960d7f777b94d17b6f36e747
+
+
+A new version of I-D, draft-tenoever-hrpc-association-05.txt
+has been successfully submitted by Niels ten Oever and posted to the
+IETF repository.
+
+Name:		draft-tenoever-hrpc-association
+Revision:	05
+Title:		Freedom of Association on the Internet
+Document date:	2018-05-29
+Group:		Individual Submission
+Pages:		22
+URL:            https://www.ietf.org/internet-drafts/draft-tenoever-hrpc-association-05.txt
+Status:         https://datatracker.ietf.org/doc/draft-tenoever-hrpc-association/
+Htmlized:       https://tools.ietf.org/html/draft-tenoever-hrpc-association-05
+Htmlized:       https://datatracker.ietf.org/doc/html/draft-tenoever-hrpc-association
+Diff:           https://www.ietf.org/rfcdiff?url2=draft-tenoever-hrpc-association-05
+
+Abstract:
+   This document scopes the relation between Internet protocols and the
+   right to freedom of assembly and association.  Increasingly, the
+   Internet mediates our lives, our relationships and our ability to
+   exercise our human rights.  The Internet provides a global public
+   space, but one that is built predominantly on private infrastructure.
+   Since Internet protocols play a central role in the management,
+   development and use of the Internet, the relation between protocols
+   and the aforementioned rights should be documented and any adverse
+   impacts of this relation should be mitigated.
+
+                                                                                  
+
+
+Please note that it may take a couple of minutes from the time of submission
+until the htmlized version and diff are available at tools.ietf.org.
+
+The IETF Secretariat
+
+
+--7AUc2qLy4jB3hD7Z--
+
+--xgyAXRrhYN0wYx8y
+Content-Type: application/pgp-signature; name="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEJFgLcFxK/YqUiGQ6Dtg/OkaKyLMFAlsNIbIACgkQDtg/OkaK
+yLMynQ/+M8pZf9nHs7c9wQqU3e/WA1SvPv091IHermhis5dD1Oqg9LN+T+JVrAwC
+I5LGpjBi/9iT3mPRZKNZSE8ZqzwzPbe3z5g6DxvRHud4m2eTj3NgcCUoljHEhXiK
+HeY1Jr0tkrfrZouf7Zr39ErqnetgyjotRxvsNTfc2irla0ZdhIFcIjGbIUDtphCW
+I8vodsS8SJSXn3ewgjNyAk66ltX8dO3LX9vs3T80sesyfxeIZubneNJAcIO7BZZH
+d4J3zcVA7QoFTuquZxduzClcnEcSUJIJ7NpwRZnBcLU/4+M2oFUNjpR6mIjmWQiz
+a53fWIWlhd3Rtc7bCTOklQyi/8F+TJFCXMeHW/qJrD+cSIOW4zD+VK7bvIQxxTKA
+Xtz6T212LPyGS1cpVqOXT6JCxY4X/3uTAvqcO2NsH4mxE6Xx15iU1cS/LVLSJ3QE
+QqjLODA0lSWp/b5cH4UxJPpqt1YpLidj1VaFVSGoajiTMc8LRuik/lHJeWJ5FrEi
+kNYa7ukmzBe3vdozGQrcMVzdDEW10HZRekPu40jxu679dAB2kAwHsEFDLjmu3a0b
+Jc3Af6MMQ+tP0hJE3oBw9vZ4UfOcQSiIH2M/BTh2rdRVj54WuXavuv+8ZuzdVAgp
+6Jj7sZgcLAWEXRcU4ZbePS/ES7USy4kG6tOl7Z0QMtUwz8PhkPo=
+=xS4B
+-----END PGP SIGNATURE-----
+
+--xgyAXRrhYN0wYx8y--
+
+
+From nobody Tue May 29 02:54:00 2018
+Return-Path: <mallory@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 8953D12E046 for <hrpc@ietfa.amsl.com>; Tue, 29 May 2018 02:53:59 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.9 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id tBi9rTtCBW8r for <hrpc@ietfa.amsl.com>; Tue, 29 May 2018 02:53:56 -0700 (PDT)
+Received: from smarthost1.greenhost.nl (smarthost1.greenhost.nl [195.190.28.92]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id C6B4112D954 for <hrpc@irtf.org>; Tue, 29 May 2018 02:53:56 -0700 (PDT)
+Received: from smtp.greenhost.nl ([213.108.110.112]) by smarthost1.greenhost.nl with esmtps (TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128) (Exim 4.84_2) (envelope-from <mallory@article19.org>) id 1fNbKE-0003RZ-02 for hrpc@irtf.org; Tue, 29 May 2018 11:53:55 +0200
+To: hrpc@irtf.org
+References: <b2896e39-2e11-eccd-9429-e956089ed2e8@nielstenoever.net> <e33fffed-f600-9297-b301-371dec7225ad@doria.org> <CAD499e+V28rqstnGcwZPiRH348De-3+-kKdJh6hUDiczxg0bLg@mail.gmail.com>
+From: Mallory Knodel <mallory@article19.org>
+Openpgp: preference=signencrypt
+Autocrypt: addr=mallory@article19.org; prefer-encrypt=mutual; keydata= xsBNBEx0TWcBCAC8sirY3nlDnRwY6XWmsvZtM9kmEK6H8no3ZuQ723PKwHOddw1nOykh0in/ /QGRmwtyVzsfLh6/94UUZTn10oo+xGAfw2gf1on5IJTIiphykk732PNnUakVGWwHNKQquTVc kLrydUaFVMb89BAXqExBKlMg2ciEjzbYMCs3I/qZAZ0Wr5nF3RQS8O78elTNAgWTZ98yKTZV DlRoDpnvbfwtIPqnISoSjDEvEUBdpykvS3jHqlR1f6Mx6Xs97S5CORaer/0qTcDm0PAb1Z9l IhMsFl05tNt2FpgS4/RN8NyLasAQNOlScpTJbAfRuyyvRm1N8GLIL1KX+YYeLyqzhdhZABEB AAHNJU1hbGxvcnkgS25vZGVsIDxtYWxsb3J5QG1heWZpcnN0Lm9yZz7CwJgEEwECAEICGwMG CwkIBwMCBhUIAgkKCwQWAgMBAh4BAheAAhkBFiEE4+tj4GWjskC82bBxDDKicb08x4AFAlqo 9WUFCRAV234ACgkQDDKicb08x4DklAf+ODKRmP6C2MnBz6vL8N8l3vZJUqoRcYXTn3uTpT05 Wou87ZIZ/P/OV2/uOMKkczLQQydj5S8PxbLTeg+U5f/63hdy99ON+K2b4izg7Qasdl1SqXTH q1pmhbrcbLbVKDJ345fdEg7RuMnv4gd3EaT/yQa99zHy8JHaBKaPEUQAa65HTt2Sy2c6L6BA aMZx1TOZ9/cZ7L1gJyytJbEyvg/JLOatJEI4rewUWU2TMSGJijwjAUBagwDPWyxpz+vXdKsD tqRTpY4xvXaeUQo0QXf0c5j1Gcglzv7ywZcyz1MGD1aLS9/CqeB3I4EMbvH/33LS3jNkfKbV XOTSjmo7l22CNc7ATQRMdE1nAQgA4mpP2LjFuAW2li9FPbDYOMzt0MtThXsnvHyY0fDv8FlU qnKgPrMY80VHntnxwqepFS3ncunVX4ipq+fadta+LHpTnbJSmlphBrc9qGJxqcjwf4yo35Xh OXCJFwnaoAwIX237lXRe4Xh6X4VMuJt8jiZdvgpbk/whvQH2grcq8KjCcy1iuL5pBl8ZwYG/ dphitFhQdqEcnc/krIqG4KQgKiUi3K/GR0OeEmw/cscWD7/CLEo7eHiaGQhSOyDQbM+Iu2o/ 6uMXMUPsYlMMqgmVL68zMacO3PE17jx0rQ8oZ7CpBY8YZWOWrzXrtFT8JO9guuCPsvd4KT6y 97y9LRJlPQARAQABwsB8BBgBAgAmAhsMFiEE4+tj4GWjskC82bBxDDKicb08x4AFAlqo9WYF CRAV238ACgkQDDKicb08x4DU4QgAmlyBlFhfU0jpkbyD3HQ+3CJqWdBT422pVIrj3qNT2ehy fWO66Muidmd4Y279uV3p3TQEJOQvnV7FVAC9+bI7AdBy00BAjHgJ5eSQZxKTXUoeeBAsTZHN /HaHewjYWHMvCuuzir/Wt3A6Cehh8gp9I/Vg+oL3dTldVqqgZLgnA83bT/R8fI/e85LDlpdx KJ0+uy/grg3AbH7LUUrmMIC2iO8mQWYuNlizsUZLFvJhCAU2c5l8B5mv2BoWFhL+l7mmNcdF bwBFXon7Ea1jkCnbWVxtXkPYkcuWuMSTJswn9HhZVJWjUonKqUZKAb9PxRzC9crZ+X14tQT3 iJt2a4ZM4w==
+Message-ID: <247a3e83-bd26-70e1-5f05-090bf6482dea@article19.org>
+Date: Tue, 29 May 2018 12:53:51 +0300
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Thunderbird/52.8.0
+MIME-Version: 1.0
+In-Reply-To: <CAD499e+V28rqstnGcwZPiRH348De-3+-kKdJh6hUDiczxg0bLg@mail.gmail.com>
+Content-Type: text/plain; charset=utf-8
+Content-Language: en-US
+Content-Transfer-Encoding: quoted-printable
+X-Virus-Scanned: by clamav at smarthost1.samage.net
+X-Scan-Signature: 049f1f45ba4289533fd3e2bb72fd36da
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/fKhIufnW5J54w4Nq6SpP9V4x6Po>
+Subject: Re: [hrpc] session agenda for Montreal?
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 29 May 2018 09:54:00 -0000
+
+Hi,
+
+Perhaps we could include short presentations from the hackathon, if
+there are any, especially demos.
+
+For the review team, it would be time better spent presenting an
+overview of reviews done, lessons learned, work in progress and RT plans
+for future reviews and review methodology.
+
+@Joe might be a good idea to see if someone from Citizen Lab could make
+the trip from Toronto to present.
+
+-Mallory
+
+On 29/05/18 10:56, Corinne Cath wrote:
+> Hi all,
+>=20
+> Roya is great, would be fun to hear her speak.=C2=A0
+>=20
+> Would like to hear what else the chair(s) think should be on the agenda=
+?
+>=20
+> Next steps for RFC8280? Ongoing work of 451? Draft political? Seems lik=
+e
+> we have plenty to discuss.
+>=20
+> Best,=C2=A0
+>=20
+> On Mon, May 28, 2018 at 7:07 PM, <avri@doria.org
+> <mailto:avri@doria.org>> wrote:
+>=20
+>     Hi,
+>=20
+>     Thank you for you ping.
+>=20
+>     While I did request a slot, I have not yet asked about the list abo=
+ut
+>     the agenda.
+>=20
+>     Now that you ask, as good a time as any, who wishes to report at th=
+e
+>     next meeting. Or to speak on their research/practice.=C2=A0 I hope =
+the Review
+>     team is willing as well as those working on the RG drafts. And of c=
+ourse
+>     those working on other drafts.
+>=20
+>     As for speakers, Alison did suggest a speaker, and I have asked her=
+ to
+>     confirm availability before coming to the list with the suggestion.=
+ But
+>     since the subject is open, she suggested Roya Ensafi, who won the A=
+NRP,
+>     to speak on her current work on internet censorship research.=C2=A0=
+ Will let
+>     the list know as soon as I know more.
+>=20
+>     Specific other recommendation are also welcome.
+>=20
+>     Thank you
+>=20
+>     avri
+>=20
+>=20
+>=20
+>=20
+>     On 28-May-18 11:46, Niels ten Oever wrote:
+>     > Hi all,
+>     >
+>     > There are a lot of cool technologists and projects in Montreal th=
+at we
+>     > could maybe invite to our session there. Where are we with agenda
+>     > setting for the Montreal session?
+>     >
+>     > Best,
+>     >
+>     > Niels
+>     >
+>     > _______________________________________________
+>     > hrpc mailing list
+>     > hrpc@irtf.org <mailto:hrpc@irtf.org>
+>     > https://www.irtf.org/mailman/listinfo/hrpc
+>     <https://www.irtf.org/mailman/listinfo/hrpc>
+>     >
+>=20
+>     _______________________________________________
+>     hrpc mailing list
+>     hrpc@irtf.org <mailto:hrpc@irtf.org>
+>     https://www.irtf.org/mailman/listinfo/hrpc
+>     <https://www.irtf.org/mailman/listinfo/hrpc>
+>=20
+>=20
+>=20
+>=20
+> --=20
+> Corinne Cath
+> Ph.D. Candidate, Oxford Internet Institute & Alan Turing Institute
+>=20
+> Web: www.oii.ox.ac.uk/people/corinne-cath
+> <http://www.oii.ox.ac.uk/people/corinne-cath>
+> Email: ccath@turing.ac.uk <mailto:ccath@turing.ac.uk> &
+> corinnecath@gmail.com <mailto:corinnecath@gmail.com>
+> Twitter: @C_Cath
+>=20
+>=20
+> _______________________________________________
+> hrpc mailing list
+> hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+>=20
+
+
+--=20
+Mallory Knodel
+Head of Digital :: article19.org
+gpg fingerprint :: E3EB 63E0 65A3 B240 BCD9  B071 0C32 A271 BD3C C780
+
+
+From nobody Tue May 29 03:03:02 2018
+Return-Path: <mail@nielstenoever.net>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id BC1DB127873 for <hrpc@ietfa.amsl.com>; Tue, 29 May 2018 03:02:59 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.9 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id elTAj2Y_g74A for <hrpc@ietfa.amsl.com>; Tue, 29 May 2018 03:02:56 -0700 (PDT)
+Received: from smarthost1.greenhost.nl (smarthost1.greenhost.nl [195.190.28.92]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 2DFF812DA05 for <hrpc@irtf.org>; Tue, 29 May 2018 03:02:55 -0700 (PDT)
+Received: from smtp.greenhost.nl ([213.108.110.112]) by smarthost1.greenhost.nl with esmtps (TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128) (Exim 4.84_2) (envelope-from <mail@nielstenoever.net>) id 1fNbSv-00061V-CW; Tue, 29 May 2018 12:02:54 +0200
+Date: Tue, 29 May 2018 12:00:08 +0200
+From: Niels ten Oever <mail@nielstenoever.net>
+To: Mallory Knodel <mallory@article19.org>
+Cc: hrpc@irtf.org
+Message-ID: <20180529100008.GB26848@mir>
+References: <b2896e39-2e11-eccd-9429-e956089ed2e8@nielstenoever.net> <e33fffed-f600-9297-b301-371dec7225ad@doria.org> <CAD499e+V28rqstnGcwZPiRH348De-3+-kKdJh6hUDiczxg0bLg@mail.gmail.com> <247a3e83-bd26-70e1-5f05-090bf6482dea@article19.org>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha512; protocol="application/pgp-signature"; boundary="JgQwtEuHJzHdouWu"
+Content-Disposition: inline
+In-Reply-To: <247a3e83-bd26-70e1-5f05-090bf6482dea@article19.org>
+User-Agent: Mutt/1.9.5 (2018-04-13)
+X-Authenticated-As-Hash: 54a52893e10ae071b73780542c02a8d9e3f33e6f
+X-Virus-Scanned: by clamav at smarthost1.samage.net
+X-Scan-Signature: 699c009f32949d171c2fe23f2a18a2c3
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/_Kxfzyokkbvm_Z4qR3mZ76sMWpU>
+Subject: Re: [hrpc] session agenda for Montreal?
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 29 May 2018 10:03:00 -0000
+
+--JgQwtEuHJzHdouWu
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+And draft-association and draft-politics.
+
+Maybe someone from Deflect could also give some interesting insights?
+
+Roya's research has been fascinating (esp about using infrastructure to mea=
+sure censorship and other things), very curious to hear what her new talk w=
+ould be about. Happy to also read some papers beforehand!
+
+Best,
+
+Niels
+
+On Tue, May 29, 2018 at 12:53:51PM +0300, Mallory Knodel wrote:
+> Hi,
+>=20
+> Perhaps we could include short presentations from the hackathon, if
+> there are any, especially demos.
+>=20
+> For the review team, it would be time better spent presenting an
+> overview of reviews done, lessons learned, work in progress and RT plans
+> for future reviews and review methodology.
+>=20
+> @Joe might be a good idea to see if someone from Citizen Lab could make
+> the trip from Toronto to present.
+>=20
+> -Mallory
+>=20
+> On 29/05/18 10:56, Corinne Cath wrote:
+> > Hi all,
+> >=20
+> > Roya is great, would be fun to hear her speak.=A0
+> >=20
+> > Would like to hear what else the chair(s) think should be on the agenda?
+> >=20
+> > Next steps for RFC8280? Ongoing work of 451? Draft political? Seems like
+> > we have plenty to discuss.
+> >=20
+> > Best,=A0
+> >=20
+> > On Mon, May 28, 2018 at 7:07 PM, <avri@doria.org
+> > <mailto:avri@doria.org>> wrote:
+> >=20
+> >     Hi,
+> >=20
+> >     Thank you for you ping.
+> >=20
+> >     While I did request a slot, I have not yet asked about the list abo=
+ut
+> >     the agenda.
+> >=20
+> >     Now that you ask, as good a time as any, who wishes to report at the
+> >     next meeting. Or to speak on their research/practice.=A0 I hope the=
+ Review
+> >     team is willing as well as those working on the RG drafts. And of c=
+ourse
+> >     those working on other drafts.
+> >=20
+> >     As for speakers, Alison did suggest a speaker, and I have asked her=
+ to
+> >     confirm availability before coming to the list with the suggestion.=
+ But
+> >     since the subject is open, she suggested Roya Ensafi, who won the A=
+NRP,
+> >     to speak on her current work on internet censorship research.=A0 Wi=
+ll let
+> >     the list know as soon as I know more.
+> >=20
+> >     Specific other recommendation are also welcome.
+> >=20
+> >     Thank you
+> >=20
+> >     avri
+> >=20
+> >=20
+> >=20
+> >=20
+> >     On 28-May-18 11:46, Niels ten Oever wrote:
+> >     > Hi all,
+> >     >
+> >     > There are a lot of cool technologists and projects in Montreal th=
+at we
+> >     > could maybe invite to our session there. Where are we with agenda
+> >     > setting for the Montreal session?
+> >     >
+> >     > Best,
+> >     >
+> >     > Niels
+> >     >
+> >     > _______________________________________________
+> >     > hrpc mailing list
+> >     > hrpc@irtf.org <mailto:hrpc@irtf.org>
+> >     > https://www.irtf.org/mailman/listinfo/hrpc
+> >     <https://www.irtf.org/mailman/listinfo/hrpc>
+> >     >
+> >=20
+> >     _______________________________________________
+> >     hrpc mailing list
+> >     hrpc@irtf.org <mailto:hrpc@irtf.org>
+> >     https://www.irtf.org/mailman/listinfo/hrpc
+> >     <https://www.irtf.org/mailman/listinfo/hrpc>
+> >=20
+> >=20
+> >=20
+> >=20
+> > --=20
+> > Corinne Cath
+> > Ph.D. Candidate, Oxford Internet Institute & Alan Turing Institute
+> >=20
+> > Web: www.oii.ox.ac.uk/people/corinne-cath
+> > <http://www.oii.ox.ac.uk/people/corinne-cath>
+> > Email: ccath@turing.ac.uk <mailto:ccath@turing.ac.uk> &
+> > corinnecath@gmail.com <mailto:corinnecath@gmail.com>
+> > Twitter: @C_Cath
+> >=20
+> >=20
+> > _______________________________________________
+> > hrpc mailing list
+> > hrpc@irtf.org
+> > https://www.irtf.org/mailman/listinfo/hrpc
+> >=20
+>=20
+>=20
+> --=20
+> Mallory Knodel
+> Head of Digital :: article19.org
+> gpg fingerprint :: E3EB 63E0 65A3 B240 BCD9  B071 0C32 A271 BD3C C780
+>=20
+> _______________________________________________
+> hrpc mailing list
+> hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+
+--=20
+
+Niels ten Oever
+Researcher and PhD Candidate
+Datactive Research Group
+University of Amsterdam
+
+PGP fingerprint	   2458 0B70 5C4A FD8A 9488 =20
+                   643A 0ED8 3F3A 468A C8B3
+
+
+--JgQwtEuHJzHdouWu
+Content-Type: application/pgp-signature; name="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEJFgLcFxK/YqUiGQ6Dtg/OkaKyLMFAlsNJKgACgkQDtg/OkaK
+yLMHyw//eFEc5rBLlCWKsngYSirjdFYi/g5sXlIRCQ+/wUd0bmXTnorefGgwC8CO
+PNKLS6iOtGwVb3I+s7NuAknn3LRd6VzIFsmE4FQ37nFBDXfvYu4MvGC3MhM51X2A
+QgVpwmIHte7tvuaT301J9fYoU/yRaISCAniLK9t9pweLk3OwE4/itRyLX7pKGWZy
+13TrfzaMvHBJ/URu+NunK+gjK1uuq0O/ulJdkYNLjKTQAjRSTuBbWPrgGnKzT84c
+nMz1BQnVm9Zyf+6b0PWOri/+s04WhwJkT+BIJN1K9L6aERtXe2fMYSfNZ5Qs/Mc6
+M8bUK4LVfAYnFThGrHrcE7Syp7OdyoNwynpifdd/dWMFwTMhnf8jflIUNWcxNvpF
+2Q8aWYVEbRClTKX1E5P9W+eJ6h9QsuSUqS6EhIGxE7cML7izEdW+OtxS39w570q3
+kWEnRZ2AN0FdhxrnPWTV0Fbhf2V8WiV2qd0kwkhn8vXeNmydGps89e1mYbdUdejq
+4iZx+b0g/sF0RierNYANa+ymsaFEHPW1owFC41b4ew51orLY7RWnPfJdEobbqF2/
+WQPzxCVKUgrxN2OhURj/uv2xZagy8an9bLo8GQv2zxzz2eEx5AT4BUlrJaR83TP/
+izE0/uvDdJnMTDubeAYqVVgG3dWnOEBq2ZWaq8C3jTFaJs4M32I=
+=NeWz
+-----END PGP SIGNATURE-----
+
+--JgQwtEuHJzHdouWu--
+
+
+From nobody Tue May 29 03:06:10 2018
+Return-Path: <mail@nielstenoever.net>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id CB69912E8E7 for <hrpc@ietfa.amsl.com>; Tue, 29 May 2018 03:06:08 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.9 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id I6AeUody4n8d for <hrpc@ietfa.amsl.com>; Tue, 29 May 2018 03:06:06 -0700 (PDT)
+Received: from smarthost1.greenhost.nl (smarthost1.greenhost.nl [195.190.28.92]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 5DA5D12EA58 for <hrpc@irtf.org>; Tue, 29 May 2018 03:06:06 -0700 (PDT)
+Received: from smtp.greenhost.nl ([213.108.110.112]) by smarthost1.greenhost.nl with esmtps (TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128) (Exim 4.84_2) (envelope-from <mail@nielstenoever.net>) id 1fNbW0-0006uF-D8; Tue, 29 May 2018 12:06:05 +0200
+Date: Tue, 29 May 2018 12:06:02 +0200
+From: Niels ten Oever <mail@nielstenoever.net>
+To: Mallory Knodel <mallory@article19.org>
+Cc: hrpc@irtf.org
+Message-ID: <20180529100602.GC26848@mir>
+References: <b2896e39-2e11-eccd-9429-e956089ed2e8@nielstenoever.net> <e33fffed-f600-9297-b301-371dec7225ad@doria.org> <CAD499e+V28rqstnGcwZPiRH348De-3+-kKdJh6hUDiczxg0bLg@mail.gmail.com> <247a3e83-bd26-70e1-5f05-090bf6482dea@article19.org>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha512; protocol="application/pgp-signature"; boundary="IDYEmSnFhs3mNXr+"
+Content-Disposition: inline
+In-Reply-To: <247a3e83-bd26-70e1-5f05-090bf6482dea@article19.org>
+User-Agent: Mutt/1.9.5 (2018-04-13)
+X-Authenticated-As-Hash: 54a52893e10ae071b73780542c02a8d9e3f33e6f
+X-Virus-Scanned: by clamav at smarthost1.samage.net
+X-Scan-Signature: 72be745e4a817e3b6c39dafddcade14f
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/ABF3JqpQBjblnL21qdnOCJJhiEI>
+Subject: Re: [hrpc] session agenda for Montreal?
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 29 May 2018 10:06:09 -0000
+
+--IDYEmSnFhs3mNXr+
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Lex Gill has also done some really interesting work in our area, might be i=
+nteresting to have her over, either as speaker of participant, as well!
+
+On Tue, May 29, 2018 at 12:53:51PM +0300, Mallory Knodel wrote:
+> Hi,
+>=20
+> Perhaps we could include short presentations from the hackathon, if
+> there are any, especially demos.
+>=20
+> For the review team, it would be time better spent presenting an
+> overview of reviews done, lessons learned, work in progress and RT plans
+> for future reviews and review methodology.
+>=20
+> @Joe might be a good idea to see if someone from Citizen Lab could make
+> the trip from Toronto to present.
+>=20
+> -Mallory
+>=20
+> On 29/05/18 10:56, Corinne Cath wrote:
+> > Hi all,
+> >=20
+> > Roya is great, would be fun to hear her speak.=A0
+> >=20
+> > Would like to hear what else the chair(s) think should be on the agenda?
+> >=20
+> > Next steps for RFC8280? Ongoing work of 451? Draft political? Seems like
+> > we have plenty to discuss.
+> >=20
+> > Best,=A0
+> >=20
+> > On Mon, May 28, 2018 at 7:07 PM, <avri@doria.org
+> > <mailto:avri@doria.org>> wrote:
+> >=20
+> >     Hi,
+> >=20
+> >     Thank you for you ping.
+> >=20
+> >     While I did request a slot, I have not yet asked about the list abo=
+ut
+> >     the agenda.
+> >=20
+> >     Now that you ask, as good a time as any, who wishes to report at the
+> >     next meeting. Or to speak on their research/practice.=A0 I hope the=
+ Review
+> >     team is willing as well as those working on the RG drafts. And of c=
+ourse
+> >     those working on other drafts.
+> >=20
+> >     As for speakers, Alison did suggest a speaker, and I have asked her=
+ to
+> >     confirm availability before coming to the list with the suggestion.=
+ But
+> >     since the subject is open, she suggested Roya Ensafi, who won the A=
+NRP,
+> >     to speak on her current work on internet censorship research.=A0 Wi=
+ll let
+> >     the list know as soon as I know more.
+> >=20
+> >     Specific other recommendation are also welcome.
+> >=20
+> >     Thank you
+> >=20
+> >     avri
+> >=20
+> >=20
+> >=20
+> >=20
+> >     On 28-May-18 11:46, Niels ten Oever wrote:
+> >     > Hi all,
+> >     >
+> >     > There are a lot of cool technologists and projects in Montreal th=
+at we
+> >     > could maybe invite to our session there. Where are we with agenda
+> >     > setting for the Montreal session?
+> >     >
+> >     > Best,
+> >     >
+> >     > Niels
+> >     >
+> >     > _______________________________________________
+> >     > hrpc mailing list
+> >     > hrpc@irtf.org <mailto:hrpc@irtf.org>
+> >     > https://www.irtf.org/mailman/listinfo/hrpc
+> >     <https://www.irtf.org/mailman/listinfo/hrpc>
+> >     >
+> >=20
+> >     _______________________________________________
+> >     hrpc mailing list
+> >     hrpc@irtf.org <mailto:hrpc@irtf.org>
+> >     https://www.irtf.org/mailman/listinfo/hrpc
+> >     <https://www.irtf.org/mailman/listinfo/hrpc>
+> >=20
+> >=20
+> >=20
+> >=20
+> > --=20
+> > Corinne Cath
+> > Ph.D. Candidate, Oxford Internet Institute & Alan Turing Institute
+> >=20
+> > Web: www.oii.ox.ac.uk/people/corinne-cath
+> > <http://www.oii.ox.ac.uk/people/corinne-cath>
+> > Email: ccath@turing.ac.uk <mailto:ccath@turing.ac.uk> &
+> > corinnecath@gmail.com <mailto:corinnecath@gmail.com>
+> > Twitter: @C_Cath
+> >=20
+> >=20
+> > _______________________________________________
+> > hrpc mailing list
+> > hrpc@irtf.org
+> > https://www.irtf.org/mailman/listinfo/hrpc
+> >=20
+>=20
+>=20
+> --=20
+> Mallory Knodel
+> Head of Digital :: article19.org
+> gpg fingerprint :: E3EB 63E0 65A3 B240 BCD9  B071 0C32 A271 BD3C C780
+>=20
+> _______________________________________________
+> hrpc mailing list
+> hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+
+--=20
+
+Niels ten Oever
+Researcher and PhD Candidate
+Datactive Research Group
+University of Amsterdam
+
+PGP fingerprint	   2458 0B70 5C4A FD8A 9488 =20
+                   643A 0ED8 3F3A 468A C8B3
+
+
+--IDYEmSnFhs3mNXr+
+Content-Type: application/pgp-signature; name="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEJFgLcFxK/YqUiGQ6Dtg/OkaKyLMFAlsNJgoACgkQDtg/OkaK
+yLN9Gw//c27cJRKQAdtuQ0Urnup3E+EbyMtnl5oopqOr35/oYzmitnnjoCOkcP3y
+Ue16Pqq/SrMZ/wiCYywo/zcv72LX1wDUoJsRluy3/Ca1hK8beZ2Y2m+O8PgFYCnZ
+Vjx/SnqWnJ1PcoLnNVB5xo6eZhRn17K7wqSlv+ca8IDkZF+Qi/U5ZNJ1GTeedldp
+u1ZGDeA2FVdopSjbWT325eCbLNf8zby1AaZ/ZTGyrkkY05pcQ+QTN9rvc7D5hXWD
+vFOiRKhkxKP20aJCqKuzSoDaQGfiZfZqFWsdTGwqsyE1IhtJyDkDDOirjh1QmFEK
+VH7ewWhfVWhr74+nH5G995IYxdxDE2GRtsaetYxj/px8YK1F9uHCUkf+5Nxeynp1
+yRKKoimg1poOeHUHolBT4YdCRwL0VoR3hDc9ETHXHrkqTp8fG5oLlzFq+l+1Zw3m
+1qnVbcotCWcYV8o0JxB1nJ4sI9qjiN5nfXhHabGnNDFOLKYV7zPpUg1DonR2M/lQ
+pcSlNjTCBADRI42RnRpq9C04gcboMezBJN1KUNi5qh0B0ClxAJdLDtCBdJTR+WZ0
+Uy38CSk5mceCinn/xOc21+PoH3VI6yByT8TvgKZjgk8v5lQwBswLYNE9exz9Kk9I
+x2ktvTEwEANmB6QXGvskzBWUO0Vh6hwsIhC96bfzMpS23S4K2eI=
+=6UXd
+-----END PGP SIGNATURE-----
+
+--IDYEmSnFhs3mNXr+--
+
+
+From nobody Thu May 31 04:55:10 2018
+Return-Path: <avri@doria.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 8FAB512EBDF for <hrpc@ietfa.amsl.com>; Thu, 31 May 2018 04:55:07 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.499
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.499 tagged_above=-999 required=5 tests=[BAYES_05=-0.5, RCVD_IN_DNSWL_NONE=-0.0001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id tJfPT9AfC49d for <hrpc@ietfa.amsl.com>; Thu, 31 May 2018 04:55:04 -0700 (PDT)
+Received: from smtprelay.hostedemail.com (smtprelay0051.hostedemail.com [216.40.44.51]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id BBC4712EBB8 for <hrpc@irtf.org>; Thu, 31 May 2018 04:55:04 -0700 (PDT)
+Received: from filter.hostedemail.com (clb03-v110.bra.tucows.net [216.40.38.60]) by smtprelay05.hostedemail.com (Postfix) with ESMTP id E6ADE180AF40E for <hrpc@irtf.org>; Thu, 31 May 2018 11:55:03 +0000 (UTC)
+X-Session-Marker: 6176726940646F7269612E6F7267
+X-Spam-Summary: 2, 0, 0, , d41d8cd98f00b204, avri@doria.org, :, RULES_HIT:41:152:355:379:599:800:854:973:988:989:1260:1277:1311:1313:1314:1345:1359:1381:1437:1515:1516:1518:1534:1538:1593:1594:1711:1714:1730:1747:1777:1792:2393:2553:2559:2562:2693:2741:2895:2909:3138:3139:3140:3141:3142:3350:3865:3867:3868:3871:4250:5007:6117:7652:9010:10004:10400:10450:10455:10848:11232:11658:11914:12679:12740:12895:13069:13311:13357:13894:14181:14721:14877:19904:19999:21080:21450:21627:21740:30016:30054:30070, 0, RBL:162.220.223.124:@doria.org:.lbl8.mailshell.net-62.8.0.100 64.201.201.201,  CacheIP:none, Bayesian:0.5, 0.5, 0.5, Netcheck:none, DomainCache:0, MSF:not bulk, SPF:fn, MSBL:0, DNSBL:neutral, Custom_rules:0:0:0, LFtime:25, LUA_SUMMARY:none
+X-HE-Tag: men27_663000e36ac14
+X-Filterd-Recvd-Size: 1359
+Received: from [198.18.11.114] (unknown [162.220.223.124]) (Authenticated sender: avri@doria.org) by omf02.hostedemail.com (Postfix) with ESMTPA for <hrpc@irtf.org>; Thu, 31 May 2018 11:55:02 +0000 (UTC)
+To: hrpc@irtf.org
+References: <b2896e39-2e11-eccd-9429-e956089ed2e8@nielstenoever.net> <e33fffed-f600-9297-b301-371dec7225ad@doria.org>
+From: avri@doria.org
+Message-ID: <8d989a28-47d9-e208-55c2-202fb5e584f4@doria.org>
+Date: Thu, 31 May 2018 07:55:00 -0400
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Thunderbird/52.8.0
+MIME-Version: 1.0
+In-Reply-To: <e33fffed-f600-9297-b301-371dec7225ad@doria.org>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+Content-Language: en-US
+X-Antivirus: Avast (VPS 180531-0, 05/31/2018), Outbound message
+X-Antivirus-Status: Clean
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/9iixPCEZWjtyiPyrSgf-_O2O4DU>
+Subject: Re: [hrpc] session agenda for Montreal?
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 31 May 2018 11:55:08 -0000
+
+Update:
+
+Roya has accepted a speaking slot at the HRPC meeting.
+
+avri
+
+
+On 28-May-18 13:07, avri@doria.org wrote:
+> As for speakers, Alison did suggest a speaker, and I have asked her to
+> confirm availability before coming to the list with the suggestion. But
+> since the subject is open, she suggested Roya Ensafi, who won the ANRP,
+> to speak on her current work on internet censorship research.  Will let
+> the list know as soon as I know more.
+
+
+From nobody Thu May 31 06:19:04 2018
+Return-Path: <cattekwaad@gmail.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 8A38D124B17 for <hrpc@ietfa.amsl.com>; Thu, 31 May 2018 06:19:03 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.998
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.998 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id cGQ0SHGz7viY for <hrpc@ietfa.amsl.com>; Thu, 31 May 2018 06:19:01 -0700 (PDT)
+Received: from mail-wr0-x229.google.com (mail-wr0-x229.google.com [IPv6:2a00:1450:400c:c0c::229]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 4FA4F12D944 for <hrpc@irtf.org>; Thu, 31 May 2018 06:19:01 -0700 (PDT)
+Received: by mail-wr0-x229.google.com with SMTP id l41-v6so33031813wre.7 for <hrpc@irtf.org>; Thu, 31 May 2018 06:19:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20161025;  h=mime-version:sender:in-reply-to:references:from:date:message-id :subject:to:cc; bh=/H8d1cq69INJbGpUGkdynlNConqUcyHkGeB0H1tIaCM=; b=qqGyhu8a4ho4kFFo1i+nctb6tYTA0dz+MaE8hcRtLEanRUYFWjWjHNrzrU5ooSoKoB UnvbQb3jQ33YCvGOt0bOcg60F4iz3bJ9XbtMg9y5cTp4dfjvnwdNWX+s3qHH8iXP7rZw OJc8ZX+9wEViE1G4L1rF1YkoSlzeNs2G6UUXkgvWwRBLOXQgg9nJf/mBlvYKw1LUrjtp pXzBtgEQetcMFEMRYgr8F4kouTFK+v8jYs1HziFpUzu6bQsOPT3ddwtlCuduEEl3Beyb J4UM9A3/tC2sScKcV3NxvGTCdY4ZjReD+iGvPm5OrYYaGtsTR6xikmygHmUXX1N7VeB0 w4oA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:sender:in-reply-to:references:from :date:message-id:subject:to:cc; bh=/H8d1cq69INJbGpUGkdynlNConqUcyHkGeB0H1tIaCM=; b=E/o8kfetL69Th7UNsgETyNYwbM8ZO4jAxD0cGr5cpBkA1+OXVNRnePJzD3tike8V1E 2zxNQGDiPiV2Ws98mCoS/or3c6n4Oz/F8juMd2kXYfhafDkCrrkPkJTX+6oLMqYjwEb0 EUQMnlKWXBME0aM6hoabGR8Y4hK+quQHVO7ohZrWSaB4VAqLwek+P+tenx2fKX+C9vrH Sjzo+FamMP2SW7k/EloPsiVmwXFfiNOku64WTFs8uqcrKHzV3MHHnWSc6ZNQ/UOMM6TU 3WWkO+kZCsoHoK8eM4rIv158tKuxaWbr3XGwHSKJyotQGTDFcpdzi+FJWXBq8jekvgaW codg==
+X-Gm-Message-State: ALKqPwc6XV0JRozvqtgmhbTZsxUkEIjcnO2Ofq1Z9sDMbluOxlUgpzjQ iHq0AYN6Nz1RE2e1T1m+rJeQrPATUgHqS9YO2hs=
+X-Google-Smtp-Source: ADUXVKJu3xm3/WI6dlDQF72tiOBbnwfk/ryUHfj+74iQSGKLD91UFI20Lwe0O5zo0KDS+5Nl6mURknNr9RFcySVem+s=
+X-Received: by 2002:adf:bacd:: with SMTP id w13-v6mr5249217wrg.125.1527772739698;  Thu, 31 May 2018 06:18:59 -0700 (PDT)
+MIME-Version: 1.0
+Sender: cattekwaad@gmail.com
+Received: by 2002:adf:826d:0:0:0:0:0 with HTTP; Thu, 31 May 2018 06:18:19 -0700 (PDT)
+In-Reply-To: <8d989a28-47d9-e208-55c2-202fb5e584f4@doria.org>
+References: <b2896e39-2e11-eccd-9429-e956089ed2e8@nielstenoever.net> <e33fffed-f600-9297-b301-371dec7225ad@doria.org> <8d989a28-47d9-e208-55c2-202fb5e584f4@doria.org>
+From: Corinne Cath <corinnecath@gmail.com>
+Date: Thu, 31 May 2018 14:18:19 +0100
+X-Google-Sender-Auth: S07Rn39j4OSajgA0D88lkwouX_I
+Message-ID: <CAD499eJ6dsf=Jptjk3auHjzaBXoBxQkQB9ZRNf2_r+7J5cQHKA@mail.gmail.com>
+To: Avri Doria <avri@doria.org>
+Cc: Hrpc <hrpc@irtf.org>
+Content-Type: multipart/alternative; boundary="0000000000007284ec056d804f66"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/khfmNkIgLbGyPybmME3Bu7f5b4A>
+Subject: Re: [hrpc] session agenda for Montreal?
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 31 May 2018 13:19:04 -0000
+
+--0000000000007284ec056d804f66
+Content-Type: text/plain; charset="UTF-8"
+
+Great!  - do we have an agenda for the rest of the meeting?
+
+On Thu, May 31, 2018 at 12:55 PM, <avri@doria.org> wrote:
+
+> Update:
+>
+> Roya has accepted a speaking slot at the HRPC meeting.
+>
+> avri
+>
+>
+> On 28-May-18 13:07, avri@doria.org wrote:
+> > As for speakers, Alison did suggest a speaker, and I have asked her to
+> > confirm availability before coming to the list with the suggestion. But
+> > since the subject is open, she suggested Roya Ensafi, who won the ANRP,
+> > to speak on her current work on internet censorship research.  Will let
+> > the list know as soon as I know more.
+>
+> _______________________________________________
+> hrpc mailing list
+> hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+>
+
+
+
+-- 
+Corinne Cath
+Ph.D. Candidate, Oxford Internet Institute & Alan Turing Institute
+
+Web: www.oii.ox.ac.uk/people/corinne-cath
+Email: ccath@turing.ac.uk & corinnecath@gmail.com
+Twitter: @C_Cath
+
+--0000000000007284ec056d804f66
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:verdana,=
+sans-serif">Great!=C2=A0 - do we have an agenda for the rest of the meeting=
+?</div></div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On T=
+hu, May 31, 2018 at 12:55 PM,  <span dir=3D"ltr">&lt;<a href=3D"mailto:avri=
+@doria.org" target=3D"_blank">avri@doria.org</a>&gt;</span> wrote:<br><bloc=
+kquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #cc=
+c solid;padding-left:1ex">Update:<br>
+<br>
+Roya has accepted a speaking slot at the HRPC meeting.<br>
+<span class=3D"HOEnZb"><font color=3D"#888888"><br>
+avri<br>
+</font></span><span class=3D"im HOEnZb"><br>
+<br>
+On 28-May-18 13:07, <a href=3D"mailto:avri@doria.org">avri@doria.org</a> wr=
+ote:<br>
+&gt; As for speakers, Alison did suggest a speaker, and I have asked her to=
+<br>
+&gt; confirm availability before coming to the list with the suggestion. Bu=
+t<br>
+&gt; since the subject is open, she suggested Roya Ensafi, who won the ANRP=
+,<br>
+&gt; to speak on her current work on internet censorship research.=C2=A0 Wi=
+ll let<br>
+&gt; the list know as soon as I know more.<br>
+<br>
+</span><div class=3D"HOEnZb"><div class=3D"h5">____________________________=
+__<wbr>_________________<br>
+hrpc mailing list<br>
+<a href=3D"mailto:hrpc@irtf.org">hrpc@irtf.org</a><br>
+<a href=3D"https://www.irtf.org/mailman/listinfo/hrpc" rel=3D"noreferrer" t=
+arget=3D"_blank">https://www.irtf.org/mailman/<wbr>listinfo/hrpc</a><br>
+</div></div></blockquote></div><br><br clear=3D"all"><div><br></div>-- <br>=
+<div class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><div dir=
+=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr">=
+<div><div dir=3D"ltr"><div><div dir=3D"ltr"><span style=3D"font-family:verd=
+ana,sans-serif">Corinne Cath <br>Ph.D. Candidate, Oxford Internet Institute=
+ &amp; Alan Turing Institute <br><br><span style=3D"color:rgb(68,68,68)">We=
+b: <a href=3D"http://www.oii.ox.ac.uk/people/corinne-cath" target=3D"_blank=
+">www.oii.ox.ac.uk/people/corinne-cath</a> <br>Email: <a href=3D"mailto:cca=
+th@turing.ac.uk" target=3D"_blank">ccath@turing.ac.uk</a> &amp; <a href=3D"=
+mailto:corinnecath@gmail.com" target=3D"_blank">corinnecath@gmail.com</a><b=
+r>Twitter: @C_Cath</span><br></span></div></div></div></div></div></div></d=
+iv></div></div></div></div></div>
+</div>
+
+--0000000000007284ec056d804f66--
+
+
+From nobody Thu May 31 06:20:16 2018
+Return-Path: <mail@nielstenoever.net>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 8459C12E8EA for <hrpc@ietfa.amsl.com>; Thu, 31 May 2018 06:20:14 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.9 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id bzgqaGmI8xWM for <hrpc@ietfa.amsl.com>; Thu, 31 May 2018 06:20:12 -0700 (PDT)
+Received: from smarthost1.greenhost.nl (smarthost1.greenhost.nl [195.190.28.92]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 07BC212EA5A for <hrpc@irtf.org>; Thu, 31 May 2018 06:20:12 -0700 (PDT)
+Received: from smtp.greenhost.nl ([213.108.110.112]) by smarthost1.greenhost.nl with esmtps (TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128) (Exim 4.84_2) (envelope-from <mail@nielstenoever.net>) id 1fONUw-0003DV-0z for hrpc@irtf.org; Thu, 31 May 2018 15:20:10 +0200
+To: hrpc@irtf.org
+References: <b2896e39-2e11-eccd-9429-e956089ed2e8@nielstenoever.net> <e33fffed-f600-9297-b301-371dec7225ad@doria.org> <8d989a28-47d9-e208-55c2-202fb5e584f4@doria.org>
+From: Niels ten Oever <mail@nielstenoever.net>
+Openpgp: preference=signencrypt
+Autocrypt: addr=mail@nielstenoever.net; prefer-encrypt=mutual; keydata= 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
+Message-ID: <44af187a-accd-1f33-d991-a9ada997aec4@nielstenoever.net>
+Date: Thu, 31 May 2018 15:20:09 +0200
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Thunderbird/52.8.0
+MIME-Version: 1.0
+In-Reply-To: <8d989a28-47d9-e208-55c2-202fb5e584f4@doria.org>
+Content-Type: text/plain; charset=utf-8
+Content-Language: en-US
+Content-Transfer-Encoding: 8bit
+X-Authenticated-As-Hash: f1842a279235a42f6aa2a2a81130733515c5a4ec
+X-Virus-Scanned: by clamav at smarthost1.samage.net
+X-Scan-Signature: b011d5308189b8f364b008c39e0eea9f
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/n4kSvtKcuwrBJnRps2GuHxT5eFo>
+Subject: Re: [hrpc] session agenda for Montreal?
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 31 May 2018 13:20:15 -0000
+
+Great! Do we have a topic or a reading for her talk?
+
+Best,
+
+Niels
+
+On 05/31/2018 01:55 PM, avri@doria.org wrote:
+> Update:
+> 
+> Roya has accepted a speaking slot at the HRPC meeting.
+> 
+> avri
+> 
+> 
+> On 28-May-18 13:07, avri@doria.org wrote:
+>> As for speakers, Alison did suggest a speaker, and I have asked her to
+>> confirm availability before coming to the list with the suggestion. But
+>> since the subject is open, she suggested Roya Ensafi, who won the ANRP,
+>> to speak on her current work on internet censorship research.  Will let
+>> the list know as soon as I know more.
+> 
+> _______________________________________________
+> hrpc mailing list
+> hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+> 
+
+
+From nobody Thu May 31 06:48:39 2018
+Return-Path: <avri@doria.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 5322F12D95A for <hrpc@ietfa.amsl.com>; Thu, 31 May 2018 06:48:37 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.899
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.899 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_NONE=-0.0001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id I49bwja3_Q7N for <hrpc@ietfa.amsl.com>; Thu, 31 May 2018 06:48:35 -0700 (PDT)
+Received: from smtprelay.hostedemail.com (smtprelay0099.hostedemail.com [216.40.44.99]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 45399124205 for <hrpc@irtf.org>; Thu, 31 May 2018 06:48:35 -0700 (PDT)
+Received: from filter.hostedemail.com (clb03-v110.bra.tucows.net [216.40.38.60]) by smtprelay02.hostedemail.com (Postfix) with ESMTP id 8013575BE for <hrpc@irtf.org>; Thu, 31 May 2018 13:48:34 +0000 (UTC)
+X-Session-Marker: 6176726940646F7269612E6F7267
+X-Spam-Summary: 2, -10, 0, , d41d8cd98f00b204, avri@doria.org, :, RULES_HIT:41:152:355:379:599:800:854:967:973:988:989:1260:1277:1311:1313:1314:1345:1359:1381:1437:1515:1516:1518:1534:1540:1593:1594:1711:1730:1747:1777:1792:2194:2199:2393:2525:2553:2559:2564:2682:2685:2693:2741:2859:2895:2909:2933:2937:2939:2942:2945:2947:2951:2954:3022:3138:3139:3140:3141:3142:3352:3865:3867:3868:3871:3934:3936:3938:3941:3944:3947:3950:3953:3956:3959:4250:4860:5007:6117:7652:7903:7974:9010:9025:9036:9040:9108:10004:10400:10450:10455:10848:11232:11658:11914:12043:12291:12379:12438:12683:12740:12895:12926:13069:13311:13357:13846:13894:14095:14181:14721:14764:14877:19904:19999:21080:21433:21450:21627:21740:30016:30054:30060:30070, 0, RBL:162.220.223.124:@doria.org:.lbl8.mailshell.net-62.8.0.100 64.201.201.201,  CacheIP:none, Bayesian:0.5, 0.5, 0.5, Netcheck:none, DomainCache:0, MSF:not bulk, SPF:fn, MSBL:0, DNSBL:neutral, Custom_rules:0:0:0, LFtime:26, LUA_SUMMARY:none
+X-HE-Tag: part98_4ac4c14d6b54f
+X-Filterd-Recvd-Size: 1984
+Received: from [198.18.11.114] (unknown [162.220.223.124]) (Authenticated sender: avri@doria.org) by omf04.hostedemail.com (Postfix) with ESMTPA for <hrpc@irtf.org>; Thu, 31 May 2018 13:48:33 +0000 (UTC)
+To: hrpc@irtf.org
+References: <b2896e39-2e11-eccd-9429-e956089ed2e8@nielstenoever.net> <e33fffed-f600-9297-b301-371dec7225ad@doria.org> <8d989a28-47d9-e208-55c2-202fb5e584f4@doria.org> <44af187a-accd-1f33-d991-a9ada997aec4@nielstenoever.net>
+From: avri@doria.org
+Message-ID: <61d85b5b-9558-eff0-635e-1d7936b5fb0a@doria.org>
+Date: Thu, 31 May 2018 09:48:32 -0400
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Thunderbird/52.8.0
+MIME-Version: 1.0
+In-Reply-To: <44af187a-accd-1f33-d991-a9ada997aec4@nielstenoever.net>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+Content-Language: en-US
+X-Antivirus: Avast (VPS 180531-0, 05/31/2018), Outbound message
+X-Antivirus-Status: Clean
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/--az3a-Aq6-Nft-vGcsEasFwIPo>
+Subject: Re: [hrpc] session agenda for Montreal?
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 31 May 2018 13:48:38 -0000
+
+not yet
+
+avri
+
+
+On 31-May-18 09:20, Niels ten Oever wrote:
+> Great! Do we have a topic or a reading for her talk?
+>
+> Best,
+>
+> Niels
+>
+> On 05/31/2018 01:55 PM, avri@doria.org wrote:
+>> Update:
+>>
+>> Roya has accepted a speaking slot at the HRPC meeting.
+>>
+>> avri
+>>
+>>
+>> On 28-May-18 13:07, avri@doria.org wrote:
+>>> As for speakers, Alison did suggest a speaker, and I have asked her to
+>>> confirm availability before coming to the list with the suggestion. But
+>>> since the subject is open, she suggested Roya Ensafi, who won the ANRP,
+>>> to speak on her current work on internet censorship research.  Will let
+>>> the list know as soon as I know more.
+>> _______________________________________________
+>> hrpc mailing list
+>> hrpc@irtf.org
+>> https://www.irtf.org/mailman/listinfo/hrpc
+>>
+> _______________________________________________
+> hrpc mailing list
+> hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+
+
+From nobody Thu May 31 08:40:24 2018
+Return-Path: <avri@doria.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id C786F12E8CA for <hrpc@ietfa.amsl.com>; Thu, 31 May 2018 08:40:21 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.899
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.899 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_NONE=-0.0001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id vMgCFmXmc9z6 for <hrpc@ietfa.amsl.com>; Thu, 31 May 2018 08:40:19 -0700 (PDT)
+Received: from smtprelay.hostedemail.com (smtprelay0118.hostedemail.com [216.40.44.118]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 8B50D12E8E2 for <hrpc@irtf.org>; Thu, 31 May 2018 08:40:19 -0700 (PDT)
+Received: from filter.hostedemail.com (clb03-v110.bra.tucows.net [216.40.38.60]) by smtprelay05.hostedemail.com (Postfix) with ESMTP id 56ABA18152765 for <hrpc@irtf.org>; Thu, 31 May 2018 15:40:18 +0000 (UTC)
+X-Session-Marker: 6176726940646F7269612E6F7267
+X-Spam-Summary: 2, -10, 0, , d41d8cd98f00b204, avri@doria.org, :, RULES_HIT:41:152:355:379:599:800:854:960:967:973:988:989:1260:1263:1277:1311:1313:1314:1345:1359:1381:1431:1437:1515:1516:1518:1534:1541:1593:1594:1711:1730:1747:1777:1792:2376:2393:2525:2553:2559:2565:2610:2612:2682:2685:2693:2741:2859:2895:2909:2933:2937:2939:2942:2945:2947:2951:2954:2975:3000:3022:3138:3139:3140:3141:3142:3154:3352:3865:3866:3867:3868:3870:3871:3934:3936:3938:3941:3944:3947:3950:3953:3956:3959:4184:4250:4860:5007:6117:7514:7652:7903:9010:9025:9040:9388:9855:10004:10400:10450:10455:10848:11232:11658:11914:12043:12291:12379:12438:12485:12683:12740:12895:12903:13069:13071:13149:13230:13311:13357:13846:13894:14106:14180:14181:14721:14764:14777:14877:14879:19904:19999:21060:21080:21433:21450:21451:21627:21740:30016:30022:30054:30060:30066:30070:30090:30091, 0, RBL:error, CacheIP:none, Bayesian:0.5, 0.5, 0.5, Netcheck:none, DomainCache:0, MSF:not bulk, SPF:fn, MSBL:0, DNSBL:neutral, Custom_rules:0:0:0, LFtime:24, LUA_SUMMARY:n
+X-HE-Tag: frog27_1f935ba30680a
+X-Filterd-Recvd-Size: 2509
+Received: from [198.18.11.114] (unknown [162.220.223.124]) (Authenticated sender: avri@doria.org) by omf09.hostedemail.com (Postfix) with ESMTPA for <hrpc@irtf.org>; Thu, 31 May 2018 15:40:16 +0000 (UTC)
+References: <b2896e39-2e11-eccd-9429-e956089ed2e8@nielstenoever.net> <e33fffed-f600-9297-b301-371dec7225ad@doria.org> <8d989a28-47d9-e208-55c2-202fb5e584f4@doria.org> <CAD499eJ6dsf=Jptjk3auHjzaBXoBxQkQB9ZRNf2_r+7J5cQHKA@mail.gmail.com>
+To: hrpc@irtf.org
+From: avri@doria.org
+Message-ID: <72109b11-eb51-7146-fe17-d6908d67afe3@doria.org>
+Date: Thu, 31 May 2018 11:40:15 -0400
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Thunderbird/52.8.0
+MIME-Version: 1.0
+In-Reply-To: <CAD499eJ6dsf=Jptjk3auHjzaBXoBxQkQB9ZRNf2_r+7J5cQHKA@mail.gmail.com>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+Content-Language: en-US
+X-Antivirus: Avast (VPS 180531-0, 05/31/2018), Outbound message
+X-Antivirus-Status: Clean
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/7N8-MUxqg8xng7cZ0fkp6YwzqrI>
+Subject: Re: [hrpc] session agenda for Montreal?
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 31 May 2018 15:40:22 -0000
+
+Hi,
+
+Not yet, will get one out in the near future.
+
+Has everyone who wants to be on the agenda spoken up?
+
+cheers
+
+avri
+
+
+On 31-May-18 09:18, Corinne Cath wrote:
+> Great!  - do we have an agenda for the rest of the meeting?
+>
+> On Thu, May 31, 2018 at 12:55 PM, <avri@doria.org
+> <mailto:avri@doria.org>> wrote:
+>
+>     Update:
+>
+>     Roya has accepted a speaking slot at the HRPC meeting.
+>
+>     avri
+>
+>
+>     On 28-May-18 13:07, avri@doria.org <mailto:avri@doria.org> wrote:
+>     > As for speakers, Alison did suggest a speaker, and I have asked
+>     her to
+>     > confirm availability before coming to the list with the
+>     suggestion. But
+>     > since the subject is open, she suggested Roya Ensafi, who won
+>     the ANRP,
+>     > to speak on her current work on internet censorship research. 
+>     Will let
+>     > the list know as soon as I know more.
+>
+>     _______________________________________________
+>     hrpc mailing list
+>     hrpc@irtf.org <mailto:hrpc@irtf.org>
+>     https://www.irtf.org/mailman/listinfo/hrpc
+>     <https://www.irtf.org/mailman/listinfo/hrpc>
+>
+>
+>
+>
+> -- 
+> Corinne Cath
+> Ph.D. Candidate, Oxford Internet Institute & Alan Turing Institute
+>
+> Web: www.oii.ox.ac.uk/people/corinne-cath
+> <http://www.oii.ox.ac.uk/people/corinne-cath>
+> Email: ccath@turing.ac.uk <mailto:ccath@turing.ac.uk> &
+> corinnecath@gmail.com <mailto:corinnecath@gmail.com>
+> Twitter: @C_Cath
+
+
+From nobody Thu May 31 12:43:36 2018
+Return-Path: <avri@doria.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 2E0D9131752 for <hrpc@ietfa.amsl.com>; Thu, 31 May 2018 12:43:34 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.899
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.899 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_NONE=-0.0001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id HQZpxpwOFWZZ for <hrpc@ietfa.amsl.com>; Thu, 31 May 2018 12:43:31 -0700 (PDT)
+Received: from smtprelay.hostedemail.com (smtprelay0095.hostedemail.com [216.40.44.95]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id BE89312DA0C for <hrpc@irtf.org>; Thu, 31 May 2018 12:43:31 -0700 (PDT)
+Received: from filter.hostedemail.com (clb03-v110.bra.tucows.net [216.40.38.60]) by smtprelay08.hostedemail.com (Postfix) with ESMTP id D98A3182CED28 for <hrpc@irtf.org>; Thu, 31 May 2018 19:43:30 +0000 (UTC)
+X-Session-Marker: 6176726940646F7269612E6F7267
+X-Spam-Summary: 2, -10, 0, , d41d8cd98f00b204, avri@doria.org, :, RULES_HIT:41:152:355:379:599:800:854:960:967:973:988:989:1260:1263:1277:1311:1313:1314:1345:1359:1381:1431:1437:1515:1516:1518:1534:1541:1593:1594:1711:1730:1747:1777:1792:2376:2393:2525:2553:2560:2567:2612:2682:2685:2693:2741:2859:2895:2909:2933:2937:2939:2942:2945:2947:2951:2954:2975:3000:3022:3138:3139:3140:3141:3142:3154:3353:3865:3866:3867:3868:3870:3871:3934:3936:3938:3941:3944:3947:3950:3953:3956:3959:4184:4250:4860:5007:6117:7514:7652:7903:8985:9010:9025:9040:9388:9855:10004:10400:10450:10455:10848:11232:11658:11914:12043:12291:12379:12438:12485:12683:12740:12895:12903:12926:13069:13071:13149:13230:13311:13357:13846:13894:14095:14096:14106:14180:14181:14721:14764:14777:14877:14879:19904:19999:21060:21080:21324:21433:21450:21451:21627:21644:21740:30016:30022:30054:30060:30066:30070:30090:30091, 0, RBL:error, CacheIP:none, Bayesian:0.5, 0.5, 0.5, Netcheck:none, DomainCache:0, MSF:not bulk, SPF:fn, MSBL:0, DNSBL:neutral, Custom_rules
+X-HE-Tag: straw32_75f10614a145a
+X-Filterd-Recvd-Size: 2955
+Received: from [198.18.11.114] (unknown [162.220.223.124]) (Authenticated sender: avri@doria.org) by omf07.hostedemail.com (Postfix) with ESMTPA for <hrpc@irtf.org>; Thu, 31 May 2018 19:43:30 +0000 (UTC)
+To: hrpc@irtf.org
+References: <b2896e39-2e11-eccd-9429-e956089ed2e8@nielstenoever.net> <e33fffed-f600-9297-b301-371dec7225ad@doria.org> <8d989a28-47d9-e208-55c2-202fb5e584f4@doria.org> <CAD499eJ6dsf=Jptjk3auHjzaBXoBxQkQB9ZRNf2_r+7J5cQHKA@mail.gmail.com> <72109b11-eb51-7146-fe17-d6908d67afe3@doria.org>
+From: avri@doria.org
+Message-ID: <1755bed8-862f-642d-0525-d90de7df9b42@doria.org>
+Date: Thu, 31 May 2018 15:43:28 -0400
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Thunderbird/52.8.0
+MIME-Version: 1.0
+In-Reply-To: <72109b11-eb51-7146-fe17-d6908d67afe3@doria.org>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+Content-Language: en-US
+X-Antivirus: Avast (VPS 180531-0, 05/31/2018), Outbound message
+X-Antivirus-Status: Clean
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/7hWV_wVxYYjHRBXeSWUEAkOXjto>
+Subject: Re: [hrpc] session agenda for Montreal?
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 31 May 2018 19:43:34 -0000
+
+Hi,
+
+For anyone interested in her work, in general, while waiting for the
+title and reference paper, her site has a bunch of her work listed.
+
+https://ensa.fi/
+
+avri
+
+
+On 31-May-18 11:40, avri@doria.org wrote:
+> Hi,
+>
+> Not yet, will get one out in the near future.
+>
+> Has everyone who wants to be on the agenda spoken up?
+>
+> cheers
+>
+> avri
+>
+>
+> On 31-May-18 09:18, Corinne Cath wrote:
+>> Great!  - do we have an agenda for the rest of the meeting?
+>>
+>> On Thu, May 31, 2018 at 12:55 PM, <avri@doria.org
+>> <mailto:avri@doria.org>> wrote:
+>>
+>>     Update:
+>>
+>>     Roya has accepted a speaking slot at the HRPC meeting.
+>>
+>>     avri
+>>
+>>
+>>     On 28-May-18 13:07, avri@doria.org <mailto:avri@doria.org> wrote:
+>>     > As for speakers, Alison did suggest a speaker, and I have asked
+>>     her to
+>>     > confirm availability before coming to the list with the
+>>     suggestion. But
+>>     > since the subject is open, she suggested Roya Ensafi, who won
+>>     the ANRP,
+>>     > to speak on her current work on internet censorship research. 
+>>     Will let
+>>     > the list know as soon as I know more.
+>>
+>>     _______________________________________________
+>>     hrpc mailing list
+>>     hrpc@irtf.org <mailto:hrpc@irtf.org>
+>>     https://www.irtf.org/mailman/listinfo/hrpc
+>>     <https://www.irtf.org/mailman/listinfo/hrpc>
+>>
+>>
+>>
+>>
+>> -- 
+>> Corinne Cath
+>> Ph.D. Candidate, Oxford Internet Institute & Alan Turing Institute
+>>
+>> Web: www.oii.ox.ac.uk/people/corinne-cath
+>> <http://www.oii.ox.ac.uk/people/corinne-cath>
+>> Email: ccath@turing.ac.uk <mailto:ccath@turing.ac.uk> &
+>> corinnecath@gmail.com <mailto:corinnecath@gmail.com>
+>> Twitter: @C_Cath
+> _______________________________________________
+> hrpc mailing list
+> hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+

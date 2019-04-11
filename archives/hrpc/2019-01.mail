@@ -1,0 +1,457 @@
+
+From nobody Wed Jan 23 06:07:11 2019
+Return-Path: <nwaokorobiadarlington@gmail.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 76071128CE4; Wed, 23 Jan 2019 06:07:03 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.493
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.493 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, SUBJ_ALL_CAPS=1.506] autolearn=no autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id KvT8pBmOaA_X; Wed, 23 Jan 2019 06:07:02 -0800 (PST)
+Received: from mail-pf1-x441.google.com (mail-pf1-x441.google.com [IPv6:2607:f8b0:4864:20::441]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 3C0D412DF71; Wed, 23 Jan 2019 06:06:59 -0800 (PST)
+Received: by mail-pf1-x441.google.com with SMTP id 64so1230108pfr.9; Wed, 23 Jan 2019 06:06:59 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20161025;  h=mime-version:from:date:message-id:subject:to; bh=NlcxDdd2SkOQ+PNGqSs68mVDkFhUyblLKf0ejVjuibs=; b=Yvv/UO9JFYHE8FzsqOO65tMerJFgo36ILyxVeZTY5BRXSanFXIRQ0pXdnNp3LjSS/y +hC9d5AVxSY5U8LYUXLOmfYcZVM2Q3QYwhsLUPK4oJYDpQ+R+7jR1KbPIP2Smk3eulDv 5LFoYH/Y04dLr1x8/PMafm4iJkqZfUwkswRFNWkZISRydPQwSE48blg/RVGZVS1l76zq kgo1XJlrkVtrMZjvzyfT3/7Y7yPbu8hDz0abyPHDc0r+Q7hYM//A+jUs8ZAbJwRKM/Oq Er0UfvgWdqKqPsB8ODav1whEerJ9jHx/71wbmtkRbmZn0aW6UgojIvAns5c3lWMg9Daj O9Eg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:from:date:message-id:subject:to; bh=NlcxDdd2SkOQ+PNGqSs68mVDkFhUyblLKf0ejVjuibs=; b=I8vPt9kdajI6spCpK8830kjE83umC9NocQ2jrQjzBW4SUBi9/YSvIq+BrjRSbFNJHC MLLPOSLKe4ItBpZtsadsLiPLZ6ofrsq07LmoM1GXUiw5/6Rs1QFAImyE7ZvjyhyzUjeC gas+OErSQo7nIUnJ2p/cJvltfIFiIjTebddcRPF6fhSelHLHD0AWJhfLcICs71SE1JJv VmE/lNgN6UnrAYsv6o8l0uebH6DmWIKxspDRJO0Tpg31A3vcSM7vbI27gXcsC1Vqlqmn +eq7KBdBZNMzgkWoGyC3QLFXKdTRqGyRqODNFbe54z6AW1nVyz/9dZ+P9letQWU6kshP bmEg==
+X-Gm-Message-State: AJcUukdXFLMGGmwQF8+hIQEYDScyYTKkqRDVTCirW4otPcNmByKm4gk4 vU+Sac7upIEXiNlz69oKdevutabFDxPtrmGcb5Va789r
+X-Google-Smtp-Source: ALg8bN4ZxZjLmXZufNlAGgm0wsjnWprwdZmON8nB9YyUX1sBoN2JF7+pdkdyr2RIjT2DA1JNoM5/5vkTpgVZlITPq1g=
+X-Received: by 2002:a65:6645:: with SMTP id z5mr2070291pgv.351.1548252418392;  Wed, 23 Jan 2019 06:06:58 -0800 (PST)
+MIME-Version: 1.0
+From: Nwaokorobia Darlington Chima <nwaokorobiadarlington@gmail.com>
+Date: Wed, 23 Jan 2019 15:06:42 +0100
+Message-ID: <CAH1Ban2vKOAyk=k_1Wfb4QMyBYprvCdLHycz_E9+5nkSHjY=7g@mail.gmail.com>
+To: gaia-owner@irtf.org, gaia@irtf.org, hrpc@irtf.org, hrpc-owner@irtf.org
+Content-Type: multipart/alternative; boundary="0000000000006bc7aa0580209b02"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/8mh8lAGUa9UDlDVGq-77rqW8_Bo>
+Subject: [hrpc] WEB 3 (WEB OF INSPIRATION)
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.29
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 23 Jan 2019 14:07:04 -0000
+
+--0000000000006bc7aa0580209b02
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+WEB 3 (WEB OF INSPIRATION)
+
+Web of inspiration web 3 is an executable phase of the internet that brings
+about inspiration, empowerment, employment, improved internet security,
+improved communication. They internet that promote entrepreneurship, web 3
+focuses on making man become the internet.
+
+
+
+Web 3 goals and objectives are;
+
+
+
+   - To create an executable phase of the internet where each distinct
+   phase is dependent and relates to man=E2=80=99s activities and involveme=
+nt in the
+   internet.
+   - To create an internet that empowers and employs people, independent of
+   locations and their status.
+   - To bring about an internet of man that is, to create an internet that
+   lives with the masses and influences people and societal actions and
+   behaviors.
+   - To bring about a democratic internet, where every individual
+   irrespective of his/her location can actively participate in key decisio=
+n
+   making, since the internet affects them directly and indirectly.
+   - To make the masses become the internet, that is they should be
+   actively involved in the day to day key decision concerning the internet
+   since it directly and indirectly affect their life=E2=80=99s, livelihood=
+ and what
+   goes around in their environment.
+   - To bring about an internet that inspires, educate and empower the
+   masses and internet users
+   - To develop a model of transparency and accountability for the internet
+   and digital organizations.
+   - To train, promote and partner with organizations, institutions and
+   hubs that are working or have been working on improving and engaging peo=
+ple
+   positively in their local environment and nationals.
+   - To bring about a more secure and accountable internet security.
+   - Information shared via the internet can be easily tracker hence
+   reducing a lot of cyber crimes.
+
+
+
+The internet has tremendous potential to achieve greater social equity,
+empowerment and improve everyday life for those on the margins of society.
+If properly leveraged by man it can help in solving key problems arising in
+the society.
+
+Man has the internet, allows man to become a vital organ of the internet,
+an indispensable, interconnected part of the web. Most youths and
+entrepreneurs especially in remote areas are unaware of the power of ICT
+and how they can leverage it properly in their business development. This
+plays an important role in the current growth and development rate in
+Nigeria since the result of the survey by the National Bureau of Statistics
+show that persons aged 0-14 years constituted 39.6%, those aged between
+15-64 (the economically active population), constituted 56.3%, which those
+aged 65 years and above constituted 4.2%.
+
+Youth unemployment appears to be shooting up the sky as many youths
+globally lack appropriate skills that will empower them after graduation
+from school. Youth unemployment is perhaps the most pressing need of youths
+=E2=80=93 over 311 million young people are unemployed globally, and in Nig=
+eria
+over 40 million youth are unemployed.
+
+Inspiration is a concept that links individual strengths and competencies,
+natural helping systems and proactive behavior to social policy and social
+change, In other words, empowerment links the individual and his or her
+well-being to the wider social and political environment in which he or she
+functions. From a psycho-logical perspective, empowerment links mental
+health and well-being to mutual help and to the creation of a responsive
+community globally.
+
+Please I will like the opinion and contribution from likeminded individuals
+who believe that the internet can be a great tool if harnessed properly in
+inspiring and empowering man.
+
+Email: nwaokorobiadarlington@gmail.com
+
+--0000000000006bc7aa0580209b02
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><h1 style=3D"margin:24pt 0in 0.0001pt;line-height:115%;bre=
+ak-after:avoid;font-size:14pt;font-family:Cambria,serif;color:rgb(54,95,145=
+)">WEB 3 (WEB OF INSPIRATION)</h1>
+
+<p class=3D"MsoNormal" style=3D"text-align:justify;margin:0in 0in 10pt;line=
+-height:115%;font-size:11pt;font-family:Calibri,sans-serif"><span style=3D"=
+font-size:10pt;line-height:115%">Web of inspiration web 3 is an
+executable phase of the internet that brings about inspiration, empowerment=
+,
+employment, improved internet security, improved communication. They intern=
+et
+that promote entrepreneurship, web 3 focuses on making man become the inter=
+net.
+</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justify;=
+line-height:normal;background-image:initial;background-position:initial;bac=
+kground-size:initial;background-repeat:initial;background-origin:initial;ba=
+ckground-clip:initial;font-size:11pt;font-family:Calibri,sans-serif"><span =
+style=3D"font-size:10pt">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justify;=
+line-height:normal;background-image:initial;background-position:initial;bac=
+kground-size:initial;background-repeat:initial;background-origin:initial;ba=
+ckground-clip:initial;font-size:11pt;font-family:Calibri,sans-serif"><span =
+style=3D"font-size:10pt">Web 3 goals and objectives are;</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justify;=
+line-height:normal;background-image:initial;background-position:initial;bac=
+kground-size:initial;background-repeat:initial;background-origin:initial;ba=
+ckground-clip:initial;font-size:11pt;font-family:Calibri,sans-serif"><span =
+style=3D"font-size:10pt">=C2=A0</span></p>
+
+<ul style=3D"margin-top:0in;margin-bottom:0in" type=3D"disc">
+ <li class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justif=
+y;line-height:normal;background-image:initial;background-position:initial;b=
+ackground-size:initial;background-repeat:initial;background-origin:initial;=
+background-clip:initial;font-size:11pt;font-family:Calibri,sans-serif"><spa=
+n style=3D"font-size:10pt">To create an
+     executable phase of the internet where each distinct phase is dependen=
+t
+     and relates to man=E2=80=99s activities and involvement in the interne=
+t.</span></li>
+ <li class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justif=
+y;line-height:normal;background-image:initial;background-position:initial;b=
+ackground-size:initial;background-repeat:initial;background-origin:initial;=
+background-clip:initial;font-size:11pt;font-family:Calibri,sans-serif"><spa=
+n style=3D"font-size:10pt">To create an
+     internet that empowers and employs people, independent of locations an=
+d
+     their status. </span></li>
+ <li class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justif=
+y;line-height:normal;background-image:initial;background-position:initial;b=
+ackground-size:initial;background-repeat:initial;background-origin:initial;=
+background-clip:initial;font-size:11pt;font-family:Calibri,sans-serif"><spa=
+n style=3D"font-size:10pt">To bring about an
+     internet of man that is, to create an internet that lives with the mas=
+ses
+     and influences people and societal actions and behaviors.</span></li>
+ <li class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justif=
+y;line-height:normal;background-image:initial;background-position:initial;b=
+ackground-size:initial;background-repeat:initial;background-origin:initial;=
+background-clip:initial;font-size:11pt;font-family:Calibri,sans-serif"><spa=
+n style=3D"font-size:10pt">To bring about a
+     democratic internet, where every individual irrespective of his/her
+     location can actively participate in key decision making, since the
+     internet affects them directly and indirectly.</span></li>
+ <li class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justif=
+y;line-height:normal;background-image:initial;background-position:initial;b=
+ackground-size:initial;background-repeat:initial;background-origin:initial;=
+background-clip:initial;font-size:11pt;font-family:Calibri,sans-serif"><spa=
+n style=3D"font-size:10pt">To make the masses
+     become the internet, that is they should be actively involved in the d=
+ay
+     to day key decision concerning the internet since it directly and
+     indirectly affect their life=E2=80=99s, livelihood and what goes aroun=
+d in their
+     environment.</span></li>
+ <li class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justif=
+y;line-height:normal;background-image:initial;background-position:initial;b=
+ackground-size:initial;background-repeat:initial;background-origin:initial;=
+background-clip:initial;font-size:11pt;font-family:Calibri,sans-serif"><spa=
+n style=3D"font-size:10pt">To bring about an
+     internet that inspires, educate and empower the masses and internet us=
+ers</span></li>
+ <li class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justif=
+y;line-height:normal;background-image:initial;background-position:initial;b=
+ackground-size:initial;background-repeat:initial;background-origin:initial;=
+background-clip:initial;font-size:11pt;font-family:Calibri,sans-serif"><spa=
+n style=3D"font-size:10pt;color:black">To develop a model of
+     transparency and accountability for the internet and digital
+     organizations.</span><span style=3D"font-size:10pt"></span></li>
+ <li class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justif=
+y;line-height:normal;background-image:initial;background-position:initial;b=
+ackground-size:initial;background-repeat:initial;background-origin:initial;=
+background-clip:initial;font-size:11pt;font-family:Calibri,sans-serif"><spa=
+n style=3D"font-size:10pt;color:black">To train, promote and partner
+     with </span><span style=3D"font-size:10pt">organizations,
+     institutions and hubs that are working or have been working on improvi=
+ng
+     and engaging people positively in their local environment and national=
+s.</span></li>
+ <li class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justif=
+y;line-height:normal;background-image:initial;background-position:initial;b=
+ackground-size:initial;background-repeat:initial;background-origin:initial;=
+background-clip:initial;font-size:11pt;font-family:Calibri,sans-serif"><spa=
+n style=3D"font-size:10pt">To bring about a
+     more secure and accountable internet security.</span></li>
+ <li class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justif=
+y;line-height:normal;background-image:initial;background-position:initial;b=
+ackground-size:initial;background-repeat:initial;background-origin:initial;=
+background-clip:initial;font-size:11pt;font-family:Calibri,sans-serif"><spa=
+n style=3D"font-size:10pt">Information shared
+     via the internet can be easily tracker hence reducing a lot of cyber
+     crimes.</span></li>
+</ul>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justify;=
+line-height:normal;background-image:initial;background-position:initial;bac=
+kground-size:initial;background-repeat:initial;background-origin:initial;ba=
+ckground-clip:initial;font-size:11pt;font-family:Calibri,sans-serif"><span =
+style=3D"font-size:10pt;color:rgb(17,17,17)">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justify;=
+line-height:normal;background-image:initial;background-position:initial;bac=
+kground-size:initial;background-repeat:initial;background-origin:initial;ba=
+ckground-clip:initial;font-size:11pt;font-family:Calibri,sans-serif"><span =
+style=3D"font-size:10pt;color:rgb(17,17,17)">The internet has tremendous po=
+tential to achieve greater social
+equity, empowerment and improve everyday life for those on the margins of
+society. If properly leveraged by man it can help in solving key problems
+arising in the society.</span></p>
+
+<p class=3D"MsoNormal" style=3D"text-align:justify;line-height:12.65pt;marg=
+in:0in 0in 10pt;font-size:11pt;font-family:Calibri,sans-serif"><span style=
+=3D"font-size:10pt">Man has the internet, allows man to become a vital
+organ of the internet, an indispensable, interconnected part of the web. </=
+span><span lang=3D"EN" style=3D"font-size:10pt">Most youths
+and entrepreneurs especially in remote areas are unaware of the power of IC=
+T
+and how they can leverage it properly in their business development. This p=
+lays
+an important role in the current growth and development rate in Nigeria sin=
+ce
+the result of the survey by the National Bureau of Statistics show that per=
+sons
+aged 0-14 years constituted 39.6%, those aged between 15-64 (the economical=
+ly
+active population), constituted 56.3%, which those aged 65 years and above
+constituted 4.2%.</span></p>
+
+<p class=3D"MsoNormal" style=3D"text-align:justify;line-height:12.65pt;marg=
+in:0in 0in 10pt;font-size:11pt;font-family:Calibri,sans-serif"><span lang=
+=3D"EN" style=3D"font-size:10pt">Youth
+unemployment appears to be shooting up the sky as many youths globally lack
+appropriate skills that will empower them after graduation from school. You=
+th unemployment
+is perhaps the most pressing need of youths =E2=80=93 over 311 million youn=
+g people are
+unemployed globally, and in Nigeria over 40 million youth are unemployed.</=
+span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justify;=
+line-height:normal;background-image:initial;background-position:initial;bac=
+kground-size:initial;background-repeat:initial;background-origin:initial;ba=
+ckground-clip:initial;font-size:11pt;font-family:Calibri,sans-serif"><span =
+style=3D"font-size:10pt;color:black">Inspiration is a concept that links in=
+dividual strengths and
+competencies, natural helping systems and proactive behavior to social poli=
+cy
+and social change, In other words, empowerment links the individual and his=
+ or
+her well-being to the wider social and political environment in which he or=
+ she
+functions. From a psycho-logical perspective, empowerment links mental heal=
+th
+and well-being to mutual help and to the creation of a responsive community
+globally.</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:10pt;line=
+-height:115%">Please I will
+like the opinion and contribution from likeminded individuals who believe t=
+hat
+the internet can be a great tool if harnessed properly in inspiring and
+empowering man.</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:10pt;line=
+-height:115%">Email: <a href=3D"mailto:nwaokorobiadarlington@gmail.com" sty=
+le=3D"color:blue">nwaokorobiadarlington@gmail.com</a></span></p></div>
+
+--0000000000006bc7aa0580209b02--
+
+
+From nobody Thu Jan 24 03:55:07 2019
+Return-Path: <session-request@ietf.org>
+X-Original-To: hrpc@irtf.org
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from ietfa.amsl.com (localhost [IPv6:::1]) by ietfa.amsl.com (Postfix) with ESMTP id F38EF1310FF; Thu, 24 Jan 2019 03:55:04 -0800 (PST)
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+From: IETF Meeting Session Request Tool <session-request@ietf.org>
+To: <session-request@ietf.org>
+Cc: hrpc-chairs@ietf.org, mallory@article19.org, hrpc@irtf.org, irtf-chair@irtf.org
+X-Test-IDTracker: no
+X-IETF-IDTracker: 6.90.0
+Auto-Submitted: auto-generated
+Precedence: bulk
+Message-ID: <154833090493.25190.10076530598583517878.idtracker@ietfa.amsl.com>
+Date: Thu, 24 Jan 2019 03:55:04 -0800
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/hIzrcMepyOaXLA5KeAwKr-tljz0>
+Subject: [hrpc] hrpc - New Meeting Session Request for IETF 104
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.29
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 24 Jan 2019 11:55:05 -0000
+
+A new meeting session request has just been submitted by Mallory Knodel, a Chair of the hrpc working group.
+
+
+---------------------------------------------------------
+Working Group Name: Human Rights Protocol Considerations
+Area Name: IRTF
+Session Requester: Mallory Knodel
+
+Number of Sessions: 1
+Length of Session(s):  2 Hours
+Number of Attendees: 100
+Conflicts to Avoid: 
+ First Priority: dnsop gaia irtfopen
+ Second Priority: mls  capport regext
+ Third Priority: dprive doh
+
+
+People who must be present:
+  Avri Doria
+  Mallory Knodel
+
+Resources Requested:
+
+Special Requests:
+  
+---------------------------------------------------------
+
+
+From nobody Fri Jan 25 16:45:35 2019
+Return-Path: <marknoumea@yahoo.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 0B23C130F1C for <hrpc@ietfa.amsl.com>; Fri, 25 Jan 2019 16:45:27 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 0.702
+X-Spam-Level: 
+X-Spam-Status: No, score=0.702 tagged_above=-999 required=5 tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=unavailable autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=yahoo.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id GB3AHbkaua0N for <hrpc@ietfa.amsl.com>; Fri, 25 Jan 2019 16:45:25 -0800 (PST)
+Received: from sonic311-15.consmr.mail.bf2.yahoo.com (sonic311-15.consmr.mail.bf2.yahoo.com [74.6.131.125]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id C719E130F18 for <hrpc@irtf.org>; Fri, 25 Jan 2019 16:45:24 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1548463523; bh=YRw5AGahTMBpp87rCIiRCB/EeIYUghNv7EgAdvqGBK0=; h=Date:From:To:Subject:References:From:Subject; b=EffhppHcFoplPJdYlogStyFIiKK33ddOyqnjVy92HP9LMwVN1q9dUSuITFLQVj8QswVGb3b3c4FQwa28u/+p5ZtJzY5odseazraTpPa4Kx+Wa7VJ0w6QIyBmeaavdJtfIrlx/CvFxgqKWV16LDJCEcIpANq+Lq0B/X5r6xGhPl1WOTH19LTHs3nVgjpDQQmogC7Ot12/G0NFaCXrQH4xJ6SJRnc75Nej9LsOwpWbNHDjfS1JiqEVPe6DIdVuAu9iUilFKqOJKDJ97Kq78WIpU4GpdvuJ+9IA1yNXtQ5R8J9JraiC8+EzVuTyPYaOMmsaqQU+VXk2O+/Hjgqy3gs7bA==
+X-YMail-OSG: WcUhULwVM1mUM0gyWoxSpfnTZSBAociWgKog871xc5uSc6rQWH.y5_uurn1b7oR 7KzSzo7AHQjoMA8e3HMGyB3_NvCd0fsQtd2LAETBnCJX02prlwLDnb8UqMrVQUTFHmBPF_Z5f1Pr nnrjFeYq5T8Wt2wAxX6oPMzIBRexqysR2DYlK7RMEvESY5LQaHkGfkKlVkiBZ_WF49dZ9cIOlFSf uEkLhlWJQP.GVltGICVAqQKtggIBTwS9TcQSssStAZ3cu5foSeW.g7xf0gw9g9_5NUhN57RJCVfx FYdbVxo6ERbbomK6BubqsC4sqZsldgmGlMXq43X.cTVuRnDNaR074beFDsCNr.gBQTZtKKmQdVjG e2MiyJ2HDJEDdl5eLl29mbIbI8OR1.R_5BKx5nclH1kLnDJOUIESEpbVawInR50QOAwws7aojnvh d8fA3G3I3cZuJU.u3akWbxEKpBVx1DWc.ApRYC6Qi26ZKMDJluGpOhowLjwKLbzUJT.P.9spzt89 0spDH8w9EnpntkHDxfpUCOKlrfUz1Dy7nfDElwq4pjf6W8B6OolmmjD48mt3HGonSuhtoTztFymX CucTDKMyQxYoPZS567MYhmsZGabtwQ0QTeHtLtxZpr1UdTx1zzcJOGTJ5SYw9kShhyxXjezUXkYk Ri_kpPruWF5ZZjan8hG1WovUgZaomuu5ET_HfNZQFGkpWs5Euo2GVgNbTYmnTzB6gIzpKV5xWGia ihcF4ossxjFeJ16LWxb4cazGnB2cXZOL8yC6hbdDaGNrAwM32BdAHQv_r8DfHuiqUNZQGO2uwAn3 Uhq9.uXYXSxq13kFiUq2t0OwZKwUZ5ooRyZY9zNEep_rpxU1TLlWFdeCK5RCi5MAY5yeOa4B_Qc. EuqnH0O5k2_1eHd2dJOVk1nKZlXgai4enQMw_rNSgIwe56n6gUopE5w5pF6MscodEZJNBpN1Pt1M ryrZL_rh7A_AwEsMV5OaXsUvHSHUT7GTBVtyGb1rcMKZ8QIxeMP2a2Sy3BCv2RK5GkSOLHQ4NgCl 7Ma7O.DPPgnNrkcxX35rQpoTpLiAVzJelzWFV4omx7MbYYL.HDeRQrJIF1c1GaRyeVmet6.dBGnW Dw0HajaKgsSCPrHxK73zpDUIFiO8u6pHLiyH0TXvAulTY7.06M0OIxqFK0Rc54_JupM7KmqIHhBm JCRRNC6AlLs82aGsPMvhBCasBMwPN3OuBa7O0RY4-
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic311.consmr.mail.bf2.yahoo.com with HTTP; Sat, 26 Jan 2019 00:45:23 +0000
+Date: Sat, 26 Jan 2019 00:45:21 +0000 (UTC)
+From: Mark Perkins <marknoumea@yahoo.com>
+To: Hrpc <hrpc@irtf.org>, Hr-rt <hr-rt@irtf.org>
+Message-ID: <705693257.1354851.1548463521658@mail.yahoo.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;  boundary="----=_Part_1354850_1260270089.1548463521657"
+References: <705693257.1354851.1548463521658.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.13027 YMailNorrin Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/B3926oEYVVE5_bdt0pQZ_7Ra68M>
+Subject: [hrpc] UN : Call for Submissions: The Surveillance Industry and Human Rights
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.29
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Sat, 26 Jan 2019 00:45:27 -0000
+
+------=_Part_1354850_1260270089.1548463521657
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+United Nations Special Rapporteur for Freedom of Opinion and Expression
+
+https://freedex.org/2018/12/13/call-for-submissions-the-surveillance-industry-and-human-rights/
+
+Governments and non-governmental actors have increasingly used digital surveillance technologies to undermine human rights. Examples from around the world have illuminated the use of such tools to target journalists, human rights activists and organizations, and others in civil society. These tools are often, though not exclusively, developed, marketed, and deployed by private surveillance companies, seemingly without legal constraint affecting their transfer across borders. International constraints are extremely limited, though the Wassenaar Arrangement provides guidelines to limit the export of dual-use technologies. Domestic constraints are uncertain as well, both in terms of export and import.
+
+Over the next year, the Special Rapporteur will study State and business responsibilities to limit the export and use of surveillance technologies to undermine fundamental rights. His findings and recommendations on the subject will be published in his next report to the General Assembly in October 2019.
+
+If you would like to provide comments and engage in our study, please check out our call for submissions below. The deadline for submissions is February 15, 2019.
+------=_Part_1354850_1260270089.1548463521657
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head><body><div class=3D"ydp431e77feyahoo-style-wrap" style=
+=3D"font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:13px=
+;"><span>United Nations Special Rapporteur for Freedom of Opinion and Expre=
+ssion<br><br>https://freedex.org/2018/12/13/call-for-submissions-the-survei=
+llance-industry-and-human-rights/<br><br>Governments and non-governmental a=
+ctors have increasingly used digital surveillance technologies to undermine=
+ human rights. Examples from around the world have illuminated the use of s=
+uch tools to target journalists, human rights activists and organizations, =
+and others in civil society. These tools are often, though not exclusively,=
+ developed, marketed, and deployed by private surveillance companies, seemi=
+ngly without legal constraint affecting their transfer across borders. Inte=
+rnational constraints are extremely limited, though the Wassenaar Arrangeme=
+nt provides guidelines to limit the export of dual-use technologies. Domest=
+ic constraints are uncertain as well, both in terms of export and import.<b=
+r><br>Over the next year, the Special Rapporteur will study State and busin=
+ess responsibilities to limit the export and use of surveillance technologi=
+es to undermine fundamental rights. His findings and recommendations on the=
+ subject will be published in his next report to the General Assembly in Oc=
+tober 2019.<br><br>If you would like to provide comments and engage in our =
+study, please check out our call for submissions below. The deadline for su=
+bmissions is February 15, 2019.</span></div></body></html>
+------=_Part_1354850_1260270089.1548463521657--
+

@@ -1,0 +1,1566 @@
+
+From nobody Wed Mar  1 02:31:46 2017
+Return-Path: <becha@xs4all.nl>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 28516128B38 for <gaia@ietfa.amsl.com>; Wed,  1 Mar 2017 02:31:44 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.62
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.62 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_LOW=-0.7, RCVD_IN_MSPIKE_H3=-0.01, RCVD_IN_MSPIKE_WL=-0.01, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id ElZ6CjXPrAoV for <gaia@ietfa.amsl.com>; Wed,  1 Mar 2017 02:31:42 -0800 (PST)
+Received: from lb2-smtp-cloud2.xs4all.net (lb2-smtp-cloud2.xs4all.net [194.109.24.25]) (using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 2D4BF1294F2 for <gaia@irtf.org>; Wed,  1 Mar 2017 02:31:42 -0800 (PST)
+Received: from xs9.xs4all.nl ([194.109.21.9]) by smtp-cloud2.xs4all.net with ESMTP id qaXf1u00b0BlZ8J01aXf2Z; Wed, 01 Mar 2017 11:31:40 +0100
+Received: from xs9.xs4all.nl (IDENT:28329@localhost [127.0.0.1]) by xs9.xs4all.nl (8.14.9/8.14.9/Debian-xs4all~5) with ESMTP id v21AVcvb002489 for <gaia@irtf.org>; Wed, 1 Mar 2017 11:31:38 +0100
+Received: from localhost (becha@localhost) by xs9.xs4all.nl (8.14.9/8.14.9/Submit) with ESMTP id v21AVbPG002486 for <gaia@irtf.org>; Wed, 1 Mar 2017 11:31:38 +0100
+Date: Wed, 1 Mar 2017 11:31:37 +0100 (CET)
+From: Vesna Manojlovic <becha@xs4all.nl>
+To: gaia <gaia@irtf.org>
+Message-ID: <alpine.DEB.2.11.1703011130280.26925@xs9.xs4all.nl>
+User-Agent: Alpine 2.11 (DEB 23 2013-08-11)
+X-NCC-RegId: eu.zz
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/IRIKRD2inhb2HCHjCfHmSXyMkAA>
+Subject: [gaia] Looking for academics and researchers: cooperating with RIPE Community (RACI)
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 01 Mar 2017 10:31:44 -0000
+
+Dear all,
+
+The RIPE Academic Cooperation Initiative (RACI) is looking for talented 
+academics in the field of Internet technology to present their research to the 
+RIPE community. Successful applicants will receive complimentary tickets, 
+travel and accommodation to meetings.
+https://www.ripe.net/raci/
+
+----------------------
+Examples of Relevant Topics
+----------------------
+- Network measurements and analyses
+- IPv6 deployment
+- BGP routing
+- Network security
+- Internet governance
+- Peering and interconnectivity
+- Internet of Things
+
+---------------------
+Application Deadlines
+---------------------
+- RIPE 74 (8-12 May, Budapest): apply by 5 March 2017
+- ENOG 13 (23-24 May, St Petersburg): apply by 19 March 2017
+- SEE 6 (12-13 June, Budva): apply by 9 April 2017
+
+-------------
+Stay involved
+-------------
+- Mailing list:
+https://www.ripe.net/raci/mailing-list
+
+- Twitter:
+@RACI_RIPE
+
+- LinkedIn group:
+https://www.ripe.net/raci/linkedin
+
+Please spread the word in your (academic) circles.
+
+Regards,
+Vesna Manojlovic
+
+--
+community, cooperation, commons, squirrels // http://becha.home.xs4all.nl
+nature, anarchy, utopia, un-anthropocene, collapse // https://www.unciv.nl
+
+
+From nobody Fri Mar  3 04:22:00 2017
+Return-Path: <ford@isoc.org>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 80F311294A1 for <gaia@ietfa.amsl.com>; Fri,  3 Mar 2017 04:21:58 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.921
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.921 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, RCVD_IN_DNSWL_NONE=-0.0001, RCVD_IN_MSPIKE_H3=-0.01, RCVD_IN_MSPIKE_WL=-0.01, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=isoc.onmicrosoft.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id wqE2QNBwgKD1 for <gaia@ietfa.amsl.com>; Fri,  3 Mar 2017 04:21:56 -0800 (PST)
+Received: from NAM02-SN1-obe.outbound.protection.outlook.com (mail-sn1nam02on0045.outbound.protection.outlook.com [104.47.36.45]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 954DB12985A for <gaia@irtf.org>; Fri,  3 Mar 2017 04:21:56 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=isoc.onmicrosoft.com;  s=selector1-isoc-org; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version; bh=SFxircz3a+TlyaNrlgge4ujCviM/ZMcv0QNU/sPvIHw=; b=qIrmOAegjobHzpsNsKp0HubN2Gm9Zp+SO2mqRtkbCudwFuooPkLTeepNw3ZH0y90zlCCyMeAkgtxjEs4HdVwz2cm2VlfsDCToR6tSzlXlCc5CVxrnKcGPVoQPdFCo2IMeKmMsIj3ZocSnqutsDoYAYgnXLFxuRpX/F7rviYQlhM=
+Authentication-Results: irtf.org; dkim=none (message not signed) header.d=none;irtf.org; dmarc=none action=none header.from=isoc.org;
+Received: from [IPv6:2001:8b0:dcb:7d85:b18c:59fb:c6b5:f597] (2001:8b0:dcb:7d85:b18c:59fb:c6b5:f597) by CY1PR06MB2219.namprd06.prod.outlook.com (10.166.193.154) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.933.12; Fri, 3 Mar 2017 12:21:53 +0000
+From: Matthew Ford <ford@isoc.org>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0 (Mac OS X Mail 10.2 \(3259\))
+Date: Fri, 3 Mar 2017 12:21:43 +0000
+Message-ID: <3340AC2E-6E3A-4E53-8851-B825CE60B589@isoc.org>
+To: <gaia@irtf.org>
+X-Mailer: Apple Mail (2.3259)
+X-Originating-IP: [2001:8b0:dcb:7d85:b18c:59fb:c6b5:f597]
+X-ClientProxiedBy: DB6P193CA0015.EURP193.PROD.OUTLOOK.COM (10.175.237.25) To CY1PR06MB2219.namprd06.prod.outlook.com (10.166.193.154)
+X-MS-Office365-Filtering-Correlation-Id: 58b9baef-b473-42d7-4252-08d4622fe0eb
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:(22001);SRVR:CY1PR06MB2219;
+X-Microsoft-Exchange-Diagnostics: 1; CY1PR06MB2219; 3:92nfhKVchoIcDCQBDC7VExfDFQYEqEkD2Rz3xpkJWc2PJNvNGyPA/MbGxqsWzvRPL2duOOWlFgmCG3nd04hWDimuhfb6e2RIxDLJdqYIU6JM2BalNSYhwFZ2Ebp7kU5DCaxVvwehwlrcokUNLNrwGyd3xcUnAwcskmtY5TgKlDI4ohMLK7kq0jyY9U5e9Zwbi/EVYAX4sSkDkqCUAzSq5HLkOEGwaJOSNEa9jZltgYUCt3IDkvnkJ1OKnO2/HvzX38JtyGzLyzv7Ua643X1hZA==; 25:ooaqI9B+Aoce5W7wKgRWwb+vXM57vvYp5J/R/vWxdPStOF11AcIFB7pLvQxOQbXkzyRYMsdpsSKZvX5sut1wb4Bz/+H9ZfoR8FOaqiwep996CiWcZ4dFP5T8oGplCXVJ8eDB73eJ/lLYY9VzL8JeECl/qB4Cq+I6f+lPtj/wYruxIjNvw4Sk3ZqGW/S7f6WUrsIcBbMuP7hR2oiLbDbQWUXirE4NvfFplTIzsxilds8pzOiPbKZGhjdlruFzFsOrE7x7GMsKbczMQcalZNEn1iMLTDk2j1H4gOB7RPIt2VZCZz0Wdw/ls7HOxah/nvgcOO/Vt4U03XnjvhSN3uTLxLahn16UDoRUe/u5n6mXCBCm06BJ97dNQgFVrANlOXldzaAaWD8OA+o2QOdONR2KeZWobhAAghj3aEz9kyG7B7M92Gspn2GRUKqegeo21B0ha/VfUVB8xhTWtszxyc7g2Q==
+X-Microsoft-Exchange-Diagnostics: 1; CY1PR06MB2219; 31:0GuMdVEktX3/clJSO+j6vz8iQfd1ovHxBgnDMWj6Ban/1RpaHiFj0/2bn5+i2pJkxJfoZFJPSukR2jftZPphHBbbm7J70F/HUPzBHgJQRCXv66vrk2CIpv/TJvjB0m0nOJWH47UUiMU0PBApn3gu5AohkYWC0d9KuZjpORO+UL2v4bBojLM5AyI5P1litwr0l3PBkbvm/XHRlPGv1grrFIJN3teaTpzpFmrNCanU620=; 20:kj77Hf0cYplQhrNtE9wBhsOCrS2aK+E5OnarIj+8m7yCRk09E7jJQighxFEpCNcUtNBJJQX+/r5VzAzI66VA5vJhecMU45TnEuh32QlDvvyz49mePvgNbM5Nql519YhHz+oacGuL8vDdIm3AslgE9ZuT9uo5ES/F3QciYARoQsnFD0FDCa1AmkSPmaUEIQYLRcv3wCj/E4K5L3UCdlYyw3groqloMdpNDmhm5Ksey98caFjSK/7og9IHoj58BUq5VkGNILY54/jwTAJGzqV28kVLkZauTZmhW+q0RpPi6QmKevUtQuiMpz5692B4zTqvj1adHoHQPLxx0Z2fNxiyT7j9qsEJzpksbMaYOCbHqF92g2lQ+jZiWhtNubBixzRca52xMNDo7ha5kGeQWzZZrSZMnEWYYnNtKNYbUotwMVIYs2TVSsB7BCuyre9OYXVqxucMifgw/zuHtHCQ3PRGK38M1yn6ItUhCI+zv5wpquOjglQgX8D7+0XAutWIoHOL
+X-Microsoft-Antispam-PRVS: <CY1PR06MB2219A62023C5A684CA3AD2A0A72B0@CY1PR06MB2219.namprd06.prod.outlook.com>
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:0; PCL:0; RULEID:(6040375)(601004)(2401047)(8121501046)(5005006)(10201501046)(3002001)(6041248)(20161123555025)(20161123562025)(20161123560025)(20161123564025)(20161123558025)(6072148); SRVR:CY1PR06MB2219; BCL:0; PCL:0; RULEID:; SRVR:CY1PR06MB2219; 
+X-Microsoft-Exchange-Diagnostics: 1; CY1PR06MB2219; 4:FPRxg4cWBycmFUxLOtbPWp+ZHaaLH0Zu4Avt6ToEWtpDdl9eeqfn7UQixGpKAFJaBu8hXVTIpmvljvyCNb8fMEHyZPV3K5bD3oaXnvxIGhe/536N7de7WoO2VEJuGwE62fwPnPsqO6vyEBvTegKDGKOUKvDMTFfxlTeipwzMdPyP8sXBj4q6xJkGblnZHRYX7s0GTtKCEbd6b7AQBLdTCLu7u9rT99LdaXZ3QSrInuNQk/x8HtTw3UzvExi2GAKzhfTIgMx2TzD7bECAfBx1FRENXkBPlglfhVzDNwsgHtrYNZHkVkt6N/LHYWtoLdCC4zz/MQfj2Zi87nRq7I1sEQgB/wHHSv3Sh65LieqfZaQ6BtSGADeXI6XdJ8F+LuI38AYBcpiTeqmT/P9WOdzOpfVe7WAHzYe031yK/Q6J7+0RmVRB2Gh2indrTiaDzxfdhnW85Q5QBnNm7IEWSbD9OcnWLglE8Gxt2YXJVoRN4d/R5/29PphW9jKB3m14YqI3tN8tbCtBqr5IZJk5k1aUhl06T5xnqX0vEZmy5vmJKXvRXjiDyyywOlp45cxQlEBsxH4Nqehs+49i1OXuKdBz3C67TXWhlJz9wdGw01oMPk8=
+X-Forefront-PRVS: 0235CBE7D0
+X-Forefront-Antispam-Report: SFV:NSPM; SFS:(10009020)(4630300001)(6009001)(7916002)(39450400003)(110136004)(53386004)(2351001)(93376004)(38730400002)(83716003)(5660300001)(23676002)(53936002)(42186005)(82746002)(966004)(6116002)(6486002)(25786008)(81166006)(7736002)(50226002)(57306001)(50466002)(8676002)(305945005)(33656002)(8746002)(6306002)(50986999)(36756003)(6666003)(2906002)(6916009)(450100001)(86362001)(558084003)(47776003)(92566002)(189998001)(569964009)(5003080100003)(104396002)(5003090100004)(15302535012); DIR:OUT; SFP:1101; SCL:1; SRVR:CY1PR06MB2219; H:[IPv6:2001:8b0:dcb:7d85:b18c:59fb:c6b5:f597]; FPR:; SPF:None; MLV:nov; PTR:InfoNoRecords; LANG:en; 
+X-Microsoft-Exchange-Diagnostics: =?utf-8?B?MTtDWTFQUjA2TUIyMjE5OzIzOk1xOTh3V0ZCVkhmZTZoWUJYdkdhajRmd0dx?= =?utf-8?B?ZmFuakN4bmErRUwzd2NBdGIvOUxIc3MzcHY4YmI0aWJZbG9jblp1NVFBNUlI?= =?utf-8?B?bzdsbUVkUWNmU2M1YUU3eDV3a0FMQzNudHlQT0NZY3V0L2pvb0NMTkRNdURX?= =?utf-8?B?dXJKWUQrSkt0QmdrWEwrWENac1JvakI5TnlkMkFRMzZjWEVhQkpPcUF3L3NJ?= =?utf-8?B?UFpNUk9vQTJMTDR1Z1M4dTloWkgvSnhVNXpOTVpXNlQ2SU5WNEVUUFplRlcy?= =?utf-8?B?Q201VDZWdmtsVENnSzdFOFhmdnlObDA5Z2t4SUllb3BkUnlyMFZPRG1NUSty?= =?utf-8?B?YTNuL1FPRnpBNXZVOUlueSsvbFQ5V2pCb0kvcWpSV1EvbERHNWYvdDFxZjFo?= =?utf-8?B?Y3FvcS9ud0xNV1AxZFB3K0RBUjJTRjJCeCt0Q0ZWYTFPMkJGREcyUHJITTU0?= =?utf-8?B?Mm8rbGZ4UXlBLysvd0VycHppcWpGcFMremdOb0RWV1BlSVhVUmRlR24xSkhh?= =?utf-8?B?a1ZNM1A3RStheHBFSlBmd2hkVGZCdWp0SkZFNWV1SlJkM01wL1cvNE92UGVV?= =?utf-8?B?N0JJcGhiQ3pqNXdqSmgxV3dBVkpIU01rT2VJTmVwSFRKVGoxRko5MHczeTY2?= =?utf-8?B?T1NzV1dseWU2ZjU1azExVzMzazR5TlRST2pIMmdqYWwzeHZUNlRCUEFaWW43?= =?utf-8?B?NElUNnhrZHZpVHROV0RnNnZ0dVNYZ1A4OFVDQ0Jqb3N6ZFVRNlVuQitsUHlP?= =?utf-8?B?S1ZJM1hBWDlQK2kxWXFNRkxyYlh1S3FMN3RBaEdrT1MzYXRpMHhoMFc5TGt4?= =?utf-8?B?RFl6dHBOV21mZVp4aWJuM1Rndk1HQzVoRktrb0VaM29ZK0RoY3I3cmtFNGZZ?= =?utf-8?B?ZFBuVWdlK1RrZGdNYnlyOTRiZWtuOEhWWlloV0laU29PZzZibDl4OEplZ1ZU?= =?utf-8?B?K1JiS2RHZDltYWlsQ2ZZT01GcysvY20yNWQzQzlnN1hqeG5pZnA2K3dJUHkz?= =?utf-8?B?R1F4OFU0OGxzWm9zQUdwWHk3TENDZzJhc0xnOU91LzFiamFtUVBoSmtqWFlK?= =?utf-8?B?dWFoeTdveWpMK2lBcVVsWmFPTXh4RkNhL0ZwNmwwNTJ6aTA1bDhhc3B3S2hE?= =?utf-8?B?OGNpTTVZUnpHV0JBWmxDS2JRemN6RUVadU8vWHpBRmc2ZFExVjd2WkRiK0l6?= =?utf-8?B?NFBPd1hLRG1zM2htbmJ0ejZBYXFBL001NWhFNjM4OWRkeDJzQkUvRFUvM0Zw?= =?utf-8?B?RXhLYXd0cnpKTjRXUWxPSmVkRHZJNk81bVBnRVd6NitjLzk0YWpiSGgya25Y?= =?utf-8?B?TVIybWZvZmgzWU8xelVDWG50UVROTnl5eS8va29wTWl5bTQxVVlUZHBYcHhY?= =?utf-8?B?M1AvdE8vQW04dGNGZm5lNTNPdEw3dVN1SWozcUNFL1ZSSWhPZ2wvVEplNXVa?= =?utf-8?B?Q01rdkJ5ems2NDErak9lSlJzdFphU2ZVWTg2emV1bGdJdVJwQ016SlVqQXVM?= =?utf-8?Q?+tMo3bmww5TidN3ExldPDUeQg=3D?=
+X-Microsoft-Exchange-Diagnostics: 1; CY1PR06MB2219; 6:dUl+VgpMNaOpIm10I1o8dcyuHtCZLUekTBWVprkFd7L66n6xonGJOLU+TB2z11GOa2/UgrxY/wMucZKkSkGNPbQiDVePrDMw47fniHvKOjOgiVt1MuiAV3JNbxmAW1wpwbqBoSml3SmNs7fEFDXzsS0L2yRbHCotBX4l/anSkIA0OhCV1nWbTxlvUEslG3H3pm8cfzkByq9w1/Gafcy9996rhUgNneNucjrvudZgRU3LOovEYeLcBeAaGoLzBW9ehjAqklGVIqF2GLX+YR0nY/fkmxYUg5JwQDAoT+sU91B1VeOyRpCMDaxPCecwLPNPY7asO9YnwdAJY0asr9sw0xxyhDlABFcCIgxSS0iKwromKAt3QZAhWHnocvDIlHr1Bf5FHhXyealZ2Jo2qemfwA==; 5:AXCWHxeLDQ19Pg3FhcRod0Da4mAyyo4MfawWk11cd/G7/NOlXy/NRiCMu2aKoZEjCPSvW0rmb0m7Bq+6vIMNQUXTGZRaT5yiU1/Ih8/u48A1Y8J7XfQ6ogviUOXnEU1jo/MkSZ1wP7H6zLjzL9YVaST4FTkHvRc12eBxzb/U0GE=; 24:RMcxptKuSLOneZeC1j9IwXxx9Epx5M5mZKt6VXyXyJuPtORpS6IGa214vZuo4JCezULV4c6L5/uia7r45WEFySkLx5wxJHEHTBkg4nRds2A=
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-Microsoft-Exchange-Diagnostics: 1; CY1PR06MB2219; 7:DGJ7Vx2eG0Zr1PmFpLAas91UplP8zG11xY0nmiGhuDL5GCua+jiYctyVr/2YmI2GKkH+QqiREO1RHWlZB3KGTl700/U2KEG0F/BTCUNENowr34duVC0jolWZ5nEXLgQutX0CHedeD0hhiVyv/r8jQq204xwLNrF7bxAsIQCz1V3HbD6laIE88LVaslOYxMS90EBPY4aSrGY6Oa9BvRdImWgAEtKwY5Fjfuh+F7Isdjq+vnkyXh0Fu+8dQPBRTGKNBU2GnkK1hb3u/kRxQJ3X9vzSqOyp0e4GMItOQtQgrSHRADkUoQBuXXTO4SbyBe1NIC7GvCwtjRAcPhmX1PAd0Q==
+X-OriginatorOrg: isoc.org
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 03 Mar 2017 12:21:53.5706 (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CY1PR06MB2219
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/Kh5itX2akNcKz6LBYZvAboGTQfc>
+Subject: [gaia] Humanitarian ICT Forum, 21-22 March, Mountain View, CA
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 03 Mar 2017 12:21:58 -0000
+
+This upcoming event may be of interest to folks here, especially if =
+they=E2=80=99re local.
+
+http://hictf.org
+
+Regards,
+Mat=
+
+
+From nobody Tue Mar  7 15:56:25 2017
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 47B6C129489 for <gaia@ietfa.amsl.com>; Tue,  7 Mar 2017 15:56:24 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.668
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.668 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FREEMAIL_FORGED_FROMDOMAIN=0.229, FREEMAIL_FROM=0.001, HEADER_FROM_DIFFERENT_DOMAINS=0.001, LOTS_OF_MONEY=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=no autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id LzDCu8IobpYh for <gaia@ietfa.amsl.com>; Tue,  7 Mar 2017 15:56:23 -0800 (PST)
+Received: from mail-wr0-x22f.google.com (mail-wr0-x22f.google.com [IPv6:2a00:1450:400c:c0c::22f]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id BFEDA126BF7 for <gaia@irtf.org>; Tue,  7 Mar 2017 15:56:22 -0800 (PST)
+Received: by mail-wr0-x22f.google.com with SMTP id l37so12488053wrc.1 for <gaia@irtf.org>; Tue, 07 Mar 2017 15:56:22 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20161025;  h=mime-version:sender:from:date:message-id:subject:to; bh=MnFMF8OZo/1Tamui05X0t5G+Vkt741wD6jVUOaiYhI8=; b=VhVgYVN6BGbIK3RZu8haU69zY6BuX4dmIt7xUNDsqiPbDC6LZmV0GNaoOU/eOSa9Tt 5AtlWAESDlASRW4Jzo7979yYMee1vVKe2AS0lspy3hQCUvGteVzlzBURG8Sd3F21BarG sgl9fR00cmDVgJDTh4VsG/Gup5gLVXoi5H+GUrXU6DGu8Ri1eKV9KTeewNnOmcp8GGW0 QYB+bEbeCK5sA4hwiIAbDsv81QoItyjYS2YsVoanVxDnEfvBypcujJGw29T1p2lDQBej BInuu8i5VcIBgrjZxpbXU96g2vXPV99SlW8TA8yVhsVgBDgJkNKlUuvp5iKJXzFgjONZ igQQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:sender:from:date:message-id:subject :to; bh=MnFMF8OZo/1Tamui05X0t5G+Vkt741wD6jVUOaiYhI8=; b=qgSInzu878eLtZOIGxDnmyuuh6+uro9MDWH4zU3YWPPGUhRz1K1bFlwATiEvXErw54 7jGHC2C0kg1pKqyICGEQanwf4GeWTkAJ4pcedq8ZljVnFT3YI/O+AyhS8Rw57f740N1J uJpB2vDl0MHl5RDXCcHe17jRaWVylnDNFQ+hcB7p1VQapQOXmdYFoWKr2Av1ae8xsxvr nupKucc1g2uFlVcWjXJY+4aesvqHrW/fBIO+iFMcK51q4a/SZjjt7nI3HZhIbpXeSTy5 qIli7bQDGr7Ee7j9qNMcWxeIYSp1+pn9gEXfCSmo4fGgxZCXUkv/Fvz0AdofgdGNeyH3 0B9A==
+X-Gm-Message-State: AMke39mJMNfIQ7BF6IOPqnQTIvkYY/TKGIk9L0J/uSW0JZYSJlKbp09SsGEyQSFyl8pRIZewy2qNYWdNgXajtg==
+X-Received: by 10.223.148.35 with SMTP id 32mr2508935wrq.82.1488930981166; Tue, 07 Mar 2017 15:56:21 -0800 (PST)
+MIME-Version: 1.0
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.223.166.48 with HTTP; Tue, 7 Mar 2017 15:56:20 -0800 (PST)
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+Date: Tue, 7 Mar 2017 23:56:20 +0000
+X-Google-Sender-Auth: fl4r5mnDUnUwzNw-rlKXUPFuRWA
+Message-ID: <CAPaG1AkfBxhCnFcbhtW3wPCHAbSW2nfyd4vhqSGiwqAJXE2uog@mail.gmail.com>
+To: gaia <gaia@irtf.org>
+Content-Type: text/plain; charset=UTF-8
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/DnPxTyktNznzP3PfcLK5JDcPa98>
+Subject: [gaia] Mozilla+NSF call
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 07 Mar 2017 23:56:24 -0000
+
+A $2 Million Prize for Building a More Accessible Internet! great call
+
+https://blog.mozilla.org/blog/2017/03/07/2-million-prize-building-accessible-internet/
+
+-- 
+Arjuna Sathiaseelan
+Personal: http://www.cl.cam.ac.uk/~as2330/
+N4D Lab: http://www.cl.cam.ac.uk/~as2330/n4d
+
+
+From nobody Wed Mar 15 12:46:26 2017
+Return-Path: <willi.uebelherr@riseup.net>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 3E93F1317F7; Wed, 15 Mar 2017 12:46:25 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.721
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.721 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, RCVD_IN_DNSWL_LOW=-0.7, RCVD_IN_MSPIKE_H3=-0.01, RCVD_IN_MSPIKE_WL=-0.01, RP_MATCHES_RCVD=-0.001, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001, UNPARSEABLE_RELAY=0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=riseup.net
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id w3fz-Kjbcgqi; Wed, 15 Mar 2017 12:46:23 -0700 (PDT)
+Received: from mx1.riseup.net (mx1.riseup.net [198.252.153.129]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 3E8BE1317D9; Wed, 15 Mar 2017 12:46:23 -0700 (PDT)
+Received: from piha.riseup.net (unknown [10.0.1.163]) (using TLSv1 with cipher ECDHE-RSA-AES256-SHA (256/256 bits)) (Client CN "*.riseup.net", Issuer "COMODO RSA Domain Validation Secure Server CA" (verified OK)) by mx1.riseup.net (Postfix) with ESMTPS id 5C7BA1A2105; Wed, 15 Mar 2017 19:46:21 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=riseup.net; s=squak; t=1489607182; bh=B94C8dUELmCnwkTmNLz/Z6Ix5PJGVi2+ckCmeupUaFs=; h=Subject:References:From:To:Cc:Date:In-Reply-To:From; b=sNj8qbLY3WZClueGzE/Ez7w+D2u32oAVYbM2KtUTPCoQbfk4Y6oslc07zNsjap/GI mPV+9te7aVUOfCKLZo8hl8rc9qbzHQPHsp1bYpHJvpzEX4rB4Uob+Xg7/yuf8l4lYO jdCMPerUtwXq1LDLRDETS4N8zTOYSCI02bYqqawc=
+Received: from [127.0.0.1] (localhost [127.0.0.1]) (Authenticated sender: willi.uebelherr) with ESMTPSA id BB64D1C2545
+References: <http://webfoundation.org/?p=12811@localhost.localdomain>
+From: willi uebelherr <willi.uebelherr@riseup.net>
+To: ISOC Internet Policy <internetpolicy@elists.isoc.org>, IGF gov <governance@lists.igcaucus.org>
+Cc: IETF discussion <ietf@ietf.org>, IRTF discuss <irtf-discuss@irtf.org>, IRTF gaia <gaia@irtf.org>, IGF dc <dc@intgovforum.org>, IGF dc ctu <dc_connectingtheunconnected@intgovforum.org>, IGF dc civ <values@coreinternetvalues.org>
+X-Forwarded-Message-Id: <http://webfoundation.org/?p=12811@localhost.localdomain>
+Message-ID: <5774aa9c-3c04-4722-6486-3c4ae5e82dca@riseup.net>
+Date: Wed, 15 Mar 2017 16:45:52 -0300
+MIME-Version: 1.0
+In-Reply-To: <http://webfoundation.org/?p=12811@localhost.localdomain>
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 8bit
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/TUJoaYInFtRou7q-M1unJqO8ZNg>
+Subject: [gaia] Fwd: Web Foundation responds to India consultation on net neutrality
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 15 Mar 2017 19:46:25 -0000
+
+Dear friends,
+
+this email i received from the Web Foundation. It is a very good 
+contribution to our discussions to net neutrality in a concrete environment.
+
+many greetings, willi
+Asuncion, Paraguay
+
+
+-------- Forwarded Message --------
+Subject: Web Foundation responds to India consultation on net neutrality
+Date: 	Wed, 15 Mar 2017 14:21:52 +0000
+From: 	Web Foundation <>
+
+Web Foundation responds to India consultation on net neutrality
+
+Net neutrality — the principle that all internet traffic be treated 
+equally — is fundamental to our mission to deliver digital equality — a 
+world where everyone has the same rights and opportunities online. Why? 
+If dominant content providers can pay to have their traffic prioritised, 
+it risks harming competition and innovation, while limiting freedom of 
+expression. If governments block or censor content that they do not 
+agree with, it hurts free speech and democracy.
+
+Today, in partnership with the Digital Empowerment Foundation 
+<https://defindia.org/>(DEF), the Web Foundation has made a submission 
+<http://webfoundation.org/docs/2017/03/WFDEFResponsetoTRAIcallforcommentsonNN-Mar14-FINAL.pdf> 
+to an important consultation on net neutrality in India. Responding to 
+questions from Telecom Regulatory Authority of India (TRAI), the Web 
+Foundation and DEF have jointly made four key recommendations:
+
+*1) Consider introducing a no-fee basic data allowance*
+Today, mobile broadband penetration is India is estimated to be less 
+than 10% (GSMA Intelligence Q4 2016). Addressing this challenge will 
+require innovative interventions which should be encouraged by the 
+government. However, we argue that interventions to provide access for 
+low-income and/or marginalised communities must also adhere to net 
+neutrality principles, as they should for all Indians. Previous attempts 
+in India include zero-rating programmes which restricted users to a 
+limited set of sites or services, and these proved controversial. 
+Meanwhile, research 
+<http://1e8q3q16vyc81g8l3h3md6q5f5e.wpengine.netdna-cdn.com/wp-content/uploads/2016/05/MeasuringImpactsofMobileDataServices_ResearchBrief2.pdf>by 
+the Alliance for Affordable Internet has suggested such zero rating 
+initiatives are not effective in bringing new users online, and that 
+users would rather have free access to the whole internet, even if it is 
+limited by time or data allocation. Our joint suggestion is for TRAI to 
+explore ways to provide a basic monthly data allowance. Other countries, 
+such as Colombia 
+<http://a4ai.org/affordability-report/report/2017/#which_countries_top_the_2017_adi?>, 
+are already experimenting with such policies: given the size of India’s 
+market and the country’s global influence, the successful implementation 
+of such an initiative could be world-leading and transformative.
+
+*2) Encourage TSPs to make detailed information available on important 
+areas such as quality of service and network neutrality compliance— in 
+open data formats wherever possible*
+In order for regulators, citizens and civil society to monitor progress 
+and ensure traffic management practices abide by net neutrality 
+guidelines, detailed information that can easily be analysed is needed. 
+For this reason, we propose that TSPs be required to make detailed, 
+technical filings with TRAI either quarterly or bi-annually, and to post 
+the results on their websites too. Wherever feasible, this information 
+should be released as open data 
+<https://blog.okfn.org/2013/10/03/defining-open-data/>— free for anyone 
+to reuse or analyse — in order to maximise transparency and accountability.
+
+*3) Don’t ban paid service-specific data bundles *—*unless there is a 
+relationship between mobile operators and content providers*
+We argue that application-specific traffic discrimination should not be 
+allowed. However, one exception is the case of service-specific data 
+bundles — where TSPs charge different rates for access to certain sites 
+or applications. Such bundles can be a good way for operators to respond 
+to customer demand and devise innovative ways for more people to connect 
+and communicate affordably. As such, we recommend that they should be 
+encouraged, with any complaints dealt with on a case-by-case basis. The 
+caveats, of course, are if there is a commercial relationship between 
+TSPs and the sites or applications included in the bundle or if the 
+content is not available on a non-exclusive basis to all TSPs; in such 
+cases, we believe that service-specific data bundles should not be allowed.
+
+*4) Consider creating a dedicated advisory committee on net neutrality 
+*—*with representatives from government, business and civil society*
+It is clear that net neutrality is a vital issue. Preserving and 
+enhancing it will help Indian entrepreneurs and established businesses 
+alike, and can help millions more to connect affordably. Yet it is also 
+a complex issue, which will continue to shift and evolve over time. For 
+this reason, we recommend that TRAI considers establishing a dedicated 
+advisory committee on net neutrality, made up of representatives from 
+business, government, academia and civil society. One of the most 
+important mandates of this committee would be to explore the 
+implications of emerging technologies on the principles of network 
+neutrality, which TRAI should revisit every two years to allow for agile 
+policy design. We do not envision this body as one that can take actions 
+in case of any violation of network neutrality. However, the committee 
+would be able to make recommendations directly to TRAI.
+
+/The Web Foundation also made a submission to TRAI’s previous 
+consultation on net neutrality in 2015, which can be //accessed here/ 
+<http://webfoundation.org/2015/04/net-neutrality-india/>/. /
+
+/The Digital Empowerment Foundation’s’ previous submissions can be 
+accessed below:/
+
+   * /////Submission on Consultation Paper on Differential pricing for
+     Data Services/
+ 
+<http://www.internetrights.in/wp-content/uploads/2014/11/Submission-on-Differential-Pricing_CounterComments_Digital-Empowerment-Foundation.pdf>
+   * /////Submission on Consultation Paper on OTT Services/
+ 
+<http://www.internetrights.in/wp-content/uploads/2017/03/net_neutrality_def.pdf>
+   * /////Submission on Consultation on Free Data Provision/
+ 
+<http://www.internetrights.in/wp-content/uploads/2017/03/DEF_Comments-on-Free-Data-Consultation-Paper_Final.pdf>
+   * /////Submission on Pre-Consultation Paper on net Neutrality/
+ 
+<http://www.internetrights.in/wp-content/uploads/2017/03/DEF_Comments-on-NN-Pre-Consultation-Paper.pdf>
+
+For updates on net neutrality and other issues, follow us on twitter at 
+@webfoundation <http://twitter.com/webfoundation> and sign up to our 
+mailing list <http://eepurl.com/WxB9j>
+
+
+From mesumbeslin@gmail.com  Wed Mar 15 13:52:42 2017
+Return-Path: <mesumbeslin@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 70E5C13183A; Wed, 15 Mar 2017 13:52:42 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.438
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.438 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, HTML_OBFUSCATE_05_10=0.26, RCVD_IN_DNSWL_LOW=-0.7, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=unavailable autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id kS_V_tJwlFxi; Wed, 15 Mar 2017 13:52:39 -0700 (PDT)
+Received: from mail-qt0-x229.google.com (mail-qt0-x229.google.com [IPv6:2607:f8b0:400d:c0d::229]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id BACC613182C; Wed, 15 Mar 2017 13:52:38 -0700 (PDT)
+Received: by mail-qt0-x229.google.com with SMTP id n21so22842403qta.1; Wed, 15 Mar 2017 13:52:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20161025;  h=mime-version:in-reply-to:references:from:date:message-id:subject:to :cc; bh=+s1SiaVLdxjFILhd53lDjJ7NIZIufn/cTKtlDj+OFWs=; b=sI4tt+7+sc2sbzruoc/sJQS/B91mkk2IebW/LrZzcAlx6NSzmtd8gE1L2pF49fFdTf gvoiumZ0eV2J6OMKHM38M/97XDh+zfizsiCCYfWt6MtB1ocSajDe5h4YBC2ocgzdz4bf pG4CR0F+C/e/zlm2wsV+GsaF1FazxuwF9ovHsgMMVNHUBX0AzvKrAiyytDRKcc/nXMrd QaYiCYU3M/kHsbQSePy3kYXGvlEsaFlLsPvAQACGoTRT4LPf+Q0Y2Nnwxt2OyEGWEuwn 2pw3+wqJS03pqB/Gr5z36+jarLf/DoNVZQFxlCDrykYevCKoHZuA20j/W6c2AGjChOyt wR3A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:in-reply-to:references:from:date :message-id:subject:to:cc; bh=+s1SiaVLdxjFILhd53lDjJ7NIZIufn/cTKtlDj+OFWs=; b=CZdVREMZWMsoAIyzdmCVDNt74OtPMaHeef+itkx+pUxeNXI3Z+OLzPara76pezUWtE CBUGmPssuT6HYn7iwZecTbRIr5v58iU+GJllQtfWAz51MmgphhmjzwFVZTmgDRcjyJ1A EIUS+zffiCMkaAfKsDEk5j7ovGCv2F+8FOF5ubN5LrsopEppEqzK+DeXfbWfVGlkBn2X XMPReHqa3013Fgp/yynlhlJIJ5dKDEt1WWRkoP+vpJqkblTNoxNQi+6epCDlonSC9GfC 33DqcmY9Iq4HdeOYk6GZiKpok3b+KRFfacZbcj/DChGY/ukDpgJcNvKcabmCCjipJTfj DvvA==
+X-Gm-Message-State: AFeK/H3X7B4DdwFaFvWdK5Eqa0SiEUyM18FainPyUG87B6kYN6bBzAHS/jI7j0jFTJOryhyXsuy2EHW0iBr1WA==
+X-Received: by 10.200.52.161 with SMTP id w30mr4833990qtb.69.1489611157656; Wed, 15 Mar 2017 13:52:37 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.140.85.139 with HTTP; Wed, 15 Mar 2017 13:52:37 -0700 (PDT)
+Received: by 10.140.85.139 with HTTP; Wed, 15 Mar 2017 13:52:37 -0700 (PDT)
+In-Reply-To: <5774aa9c-3c04-4722-6486-3c4ae5e82dca@riseup.net>
+References: <5774aa9c-3c04-4722-6486-3c4ae5e82dca@riseup.net>
+From: Tomslin Samme-Nlar <mesumbeslin@gmail.com>
+Date: Thu, 16 Mar 2017 07:52:37 +1100
+Message-ID: <CAM8DdeXWc9z4G5rfj=yqpx_gV87GoCQJrGwQr5==W2CW_5xocQ@mail.gmail.com>
+To: willi uebelherr <willi.uebelherr@riseup.net>
+Cc: IGF dc ctu <dc_connectingtheunconnected@intgovforum.org>,  governance@lists.igcaucus.org,  ISOC Internet Policy <internetpolicy@elists.isoc.org>, IRTF discuss <irtf-discuss@irtf.org>,  IGF dc <dc@intgovforum.org>, IRTF gaia <gaia@irtf.org>, IETF discussion <ietf@ietf.org>,  IGF dc civ <values@coreinternetvalues.org>
+Content-Type: multipart/alternative; boundary=001a11375426e808e5054acb1f05
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/zu0petWzh5T73nh-lsX2ziA_aQQ>
+X-Mailman-Approved-At: Wed, 15 Mar 2017 15:09:36 -0700
+Subject: Re: [gaia] [Internet Policy] Fwd: Web Foundation responds to India consultation on net neutrality
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 15 Mar 2017 20:56:09 -0000
+
+--001a11375426e808e5054acb1f05
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Thanks for sharing Willi.
+
+I am finding it hard to understand the benefits of recommendation 3.
+"Don=E2=80=99t ban paid service-specific data bundles"
+
+Cheers,
+Tomslin
+
+On 16 Mar 2017 6:47 a.m., "willi uebelherr" <willi.uebelherr@riseup.net>
+wrote:
+
+
+Dear friends,
+
+this email i received from the Web Foundation. It is a very good
+contribution to our discussions to net neutrality in a concrete environment=
+.
+
+many greetings, willi
+Asuncion, Paraguay
+
+
+-------- Forwarded Message --------
+Subject: Web Foundation responds to India consultation on net neutrality
+Date:   Wed, 15 Mar 2017 14:21:52 +0000
+From:   Web Foundation <>
+
+Web Foundation responds to India consultation on net neutrality
+
+Net neutrality =E2=80=94 the principle that all internet traffic be treated=
+ equally
+=E2=80=94 is fundamental to our mission to deliver digital equality =E2=80=
+=94 a world where
+everyone has the same rights and opportunities online. Why? If dominant
+content providers can pay to have their traffic prioritised, it risks
+harming competition and innovation, while limiting freedom of expression.
+If governments block or censor content that they do not agree with, it
+hurts free speech and democracy.
+
+Today, in partnership with the Digital Empowerment Foundation <
+https://defindia.org/>(DEF), the Web Foundation has made a submission <
+http://webfoundation.org/docs/2017/03/WFDEFResponsetoTRAIca
+llforcommentsonNN-Mar14-FINAL.pdf> to an important consultation on net
+neutrality in India. Responding to questions from Telecom Regulatory
+Authority of India (TRAI), the Web Foundation and DEF have jointly made
+four key recommendations:
+
+*1) Consider introducing a no-fee basic data allowance*
+Today, mobile broadband penetration is India is estimated to be less than
+10% (GSMA Intelligence Q4 2016). Addressing this challenge will require
+innovative interventions which should be encouraged by the government.
+However, we argue that interventions to provide access for low-income
+and/or marginalised communities must also adhere to net neutrality
+principles, as they should for all Indians. Previous attempts in India
+include zero-rating programmes which restricted users to a limited set of
+sites or services, and these proved controversial. Meanwhile, research <
+http://1e8q3q16vyc81g8l3h3md6q5f5e.wpengine.netdna-cdn.com/
+wp-content/uploads/2016/05/MeasuringImpactsofMobileDataServi
+ces_ResearchBrief2.pdf>by the Alliance for Affordable Internet has
+suggested such zero rating initiatives are not effective in bringing new
+users online, and that users would rather have free access to the whole
+internet, even if it is limited by time or data allocation. Our joint
+suggestion is for TRAI to explore ways to provide a basic monthly data
+allowance. Other countries, such as Colombia <http://a4ai.org/affordability
+-report/report/2017/#which_countries_top_the_2017_adi?>, are already
+experimenting with such policies: given the size of India=E2=80=99s market =
+and the
+country=E2=80=99s global influence, the successful implementation of such a=
+n
+initiative could be world-leading and transformative.
+
+*2) Encourage TSPs to make detailed information available on important
+areas such as quality of service and network neutrality compliance=E2=80=94=
+ in open
+data formats wherever possible*
+In order for regulators, citizens and civil society to monitor progress and
+ensure traffic management practices abide by net neutrality guidelines,
+detailed information that can easily be analysed is needed. For this
+reason, we propose that TSPs be required to make detailed, technical
+filings with TRAI either quarterly or bi-annually, and to post the results
+on their websites too. Wherever feasible, this information should be
+released as open data <https://blog.okfn.org/2013/10/03/defining-open-data/=
+>=E2=80=94
+free for anyone to reuse or analyse =E2=80=94 in order to maximise transpar=
+ency and
+accountability.
+
+*3) Don=E2=80=99t ban paid service-specific data bundles *=E2=80=94*unless =
+there is a
+relationship between mobile operators and content providers*
+We argue that application-specific traffic discrimination should not be
+allowed. However, one exception is the case of service-specific data
+bundles =E2=80=94 where TSPs charge different rates for access to certain s=
+ites or
+applications. Such bundles can be a good way for operators to respond to
+customer demand and devise innovative ways for more people to connect and
+communicate affordably. As such, we recommend that they should be
+encouraged, with any complaints dealt with on a case-by-case basis. The
+caveats, of course, are if there is a commercial relationship between TSPs
+and the sites or applications included in the bundle or if the content is
+not available on a non-exclusive basis to all TSPs; in such cases, we
+believe that service-specific data bundles should not be allowed.
+
+*4) Consider creating a dedicated advisory committee on net neutrality
+*=E2=80=94*with representatives from government, business and civil society=
+*
+It is clear that net neutrality is a vital issue. Preserving and enhancing
+it will help Indian entrepreneurs and established businesses alike, and can
+help millions more to connect affordably. Yet it is also a complex issue,
+which will continue to shift and evolve over time. For this reason, we
+recommend that TRAI considers establishing a dedicated advisory committee
+on net neutrality, made up of representatives from business, government,
+academia and civil society. One of the most important mandates of this
+committee would be to explore the implications of emerging technologies on
+the principles of network neutrality, which TRAI should revisit every two
+years to allow for agile policy design. We do not envision this body as one
+that can take actions in case of any violation of network neutrality.
+However, the committee would be able to make recommendations directly to
+TRAI.
+
+/The Web Foundation also made a submission to TRAI=E2=80=99s previous consu=
+ltation
+on net neutrality in 2015, which can be //accessed here/ <
+http://webfoundation.org/2015/04/net-neutrality-india/>/. /
+
+/The Digital Empowerment Foundation=E2=80=99s=E2=80=99 previous submissions=
+ can be accessed
+below:/
+
+  * /////Submission on Consultation Paper on Differential pricing for
+    Data Services/
+
+<http://www.internetrights.in/wp-content/uploads/2014/11/Sub
+mission-on-Differential-Pricing_CounterComments_Digital-
+Empowerment-Foundation.pdf>
+  * /////Submission on Consultation Paper on OTT Services/
+
+<http://www.internetrights.in/wp-content/uploads/2017/03/net
+_neutrality_def.pdf>
+  * /////Submission on Consultation on Free Data Provision/
+
+<http://www.internetrights.in/wp-content/uploads/2017/03/DEF
+_Comments-on-Free-Data-Consultation-Paper_Final.pdf>
+  * /////Submission on Pre-Consultation Paper on net Neutrality/
+
+<http://www.internetrights.in/wp-content/uploads/2017/03/DEF
+_Comments-on-NN-Pre-Consultation-Paper.pdf>
+
+For updates on net neutrality and other issues, follow us on twitter at
+@webfoundation <http://twitter.com/webfoundation> and sign up to our
+mailing list <http://eepurl.com/WxB9j>
+
+_______________________________________________
+To manage your ISOC subscriptions or unsubscribe,
+please log into the ISOC Member Portal:
+https://portal.isoc.org/
+Then choose Interests & Subscriptions from the My Account menu.
+
+--001a11375426e808e5054acb1f05
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto"><div>Thanks for sharing Willi.=C2=A0</div><div dir=3D"aut=
+o"><br></div><div dir=3D"auto">I am finding it hard to understand the benef=
+its of recommendation 3.<div dir=3D"auto">&quot;<span style=3D"font-family:=
+sans-serif;font-size:13.696px">Don=E2=80=99t ban paid service-specific data=
+ bundles&quot;</span></div><div dir=3D"auto"><br></div>Cheers,</div><div di=
+r=3D"auto">Tomslin<br><div class=3D"gmail_extra" dir=3D"auto"><br><div clas=
+s=3D"gmail_quote">On 16 Mar 2017 6:47 a.m., &quot;willi uebelherr&quot; &lt=
+;<a href=3D"mailto:willi.uebelherr@riseup.net">willi.uebelherr@riseup.net</=
+a>&gt; wrote:<br type=3D"attribution"><blockquote class=3D"quote" style=3D"=
+margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><br>
+Dear friends,<br>
+<br>
+this email i received from the Web Foundation. It is a very good contributi=
+on to our discussions to net neutrality in a concrete environment.<br>
+<br>
+many greetings, willi<br>
+Asuncion, Paraguay<br>
+<br>
+<br>
+-------- Forwarded Message --------<br>
+Subject: Web Foundation responds to India consultation on net neutrality<br=
+>
+Date:=C2=A0 =C2=A0Wed, 15 Mar 2017 14:21:52 +0000<br>
+From:=C2=A0 =C2=A0Web Foundation &lt;&gt;<br>
+<br>
+Web Foundation responds to India consultation on net neutrality<br>
+<br>
+Net neutrality =E2=80=94 the principle that all internet traffic be treated=
+ equally =E2=80=94 is fundamental to our mission to deliver digital equalit=
+y =E2=80=94 a world where everyone has the same rights and opportunities on=
+line. Why? If dominant content providers can pay to have their traffic prio=
+ritised, it risks harming competition and innovation, while limiting freedo=
+m of expression. If governments block or censor content that they do not ag=
+ree with, it hurts free speech and democracy.<br>
+<br>
+Today, in partnership with the Digital Empowerment Foundation &lt;<a href=
+=3D"https://defindia.org/" rel=3D"noreferrer" target=3D"_blank">https://def=
+india.org/</a>&gt;(DEF), the Web Foundation has made a submission &lt;<a hr=
+ef=3D"http://webfoundation.org/docs/2017/03/WFDEFResponsetoTRAIcallforcomme=
+ntsonNN-Mar14-FINAL.pdf" rel=3D"noreferrer" target=3D"_blank">http://webfou=
+ndation.org/docs<wbr>/2017/03/WFDEFResponsetoTRAIca<wbr>llforcommentsonNN-M=
+ar14-FINAL.<wbr>pdf</a>&gt; to an important consultation on net neutrality =
+in India. Responding to questions from Telecom Regulatory Authority of Indi=
+a (TRAI), the Web Foundation and DEF have jointly made four key recommendat=
+ions:<br>
+<br>
+*1) Consider introducing a no-fee basic data allowance*<br>
+Today, mobile broadband penetration is India is estimated to be less than 1=
+0% (GSMA Intelligence Q4 2016). Addressing this challenge will require inno=
+vative interventions which should be encouraged by the government. However,=
+ we argue that interventions to provide access for low-income and/or margin=
+alised communities must also adhere to net neutrality principles, as they s=
+hould for all Indians. Previous attempts in India include zero-rating progr=
+ammes which restricted users to a limited set of sites or services, and the=
+se proved controversial. Meanwhile, research &lt;<a href=3D"http://1e8q3q16=
+vyc81g8l3h3md6q5f5e.wpengine.netdna-cdn.com/wp-content/uploads/2016/05/Meas=
+uringImpactsofMobileDataServices_ResearchBrief2.pdf" rel=3D"noreferrer" tar=
+get=3D"_blank">http://1e8q3q16vyc81g8l3h3md6<wbr>q5f5e.wpengine.netdna-cdn.=
+com/<wbr>wp-content/uploads/2016/05/Mea<wbr>suringImpactsofMobileDataServi<=
+wbr>ces_ResearchBrief2.pdf</a>&gt;by the Alliance for Affordable Internet h=
+as suggested such zero rating initiatives are not effective in bringing new=
+ users online, and that users would rather have free access to the whole in=
+ternet, even if it is limited by time or data allocation. Our joint suggest=
+ion is for TRAI to explore ways to provide a basic monthly data allowance. =
+Other countries, such as Colombia &lt;<a href=3D"http://a4ai.org/affordabil=
+ity-report/report/2017/#which_countries_top_the_2017_adi" rel=3D"noreferrer=
+" target=3D"_blank">http://a4ai.org/affordability<wbr>-report/report/2017/#=
+which_<wbr>countries_top_the_2017_adi</a>?&gt;, are already experimenting w=
+ith such policies: given the size of India=E2=80=99s market and the country=
+=E2=80=99s global influence, the successful implementation of such an initi=
+ative could be world-leading and transformative.<br>
+<br>
+*2) Encourage TSPs to make detailed information available on important area=
+s such as quality of service and network neutrality compliance=E2=80=94 in =
+open data formats wherever possible*<br>
+In order for regulators, citizens and civil society to monitor progress and=
+ ensure traffic management practices abide by net neutrality guidelines, de=
+tailed information that can easily be analysed is needed. For this reason, =
+we propose that TSPs be required to make detailed, technical filings with T=
+RAI either quarterly or bi-annually, and to post the results on their websi=
+tes too. Wherever feasible, this information should be released as open dat=
+a &lt;<a href=3D"https://blog.okfn.org/2013/10/03/defining-open-data/" rel=
+=3D"noreferrer" target=3D"_blank">https://blog.okfn.org/2013/10<wbr>/03/def=
+ining-open-data/</a>&gt;=E2=80=94 free for anyone to reuse or analyse =E2=
+=80=94 in order to maximise transparency and accountability.<br>
+<br>
+*3) Don=E2=80=99t ban paid service-specific data bundles *=E2=80=94*unless =
+there is a relationship between mobile operators and content providers*<br>
+We argue that application-specific traffic discrimination should not be all=
+owed. However, one exception is the case of service-specific data bundles =
+=E2=80=94 where TSPs charge different rates for access to certain sites or =
+applications. Such bundles can be a good way for operators to respond to cu=
+stomer demand and devise innovative ways for more people to connect and com=
+municate affordably. As such, we recommend that they should be encouraged, =
+with any complaints dealt with on a case-by-case basis. The caveats, of cou=
+rse, are if there is a commercial relationship between TSPs and the sites o=
+r applications included in the bundle or if the content is not available on=
+ a non-exclusive basis to all TSPs; in such cases, we believe that service-=
+specific data bundles should not be allowed.<br>
+<br>
+*4) Consider creating a dedicated advisory committee on net neutrality *=E2=
+=80=94*with representatives from government, business and civil society*<br=
+>
+It is clear that net neutrality is a vital issue. Preserving and enhancing =
+it will help Indian entrepreneurs and established businesses alike, and can=
+ help millions more to connect affordably. Yet it is also a complex issue, =
+which will continue to shift and evolve over time. For this reason, we reco=
+mmend that TRAI considers establishing a dedicated advisory committee on ne=
+t neutrality, made up of representatives from business, government, academi=
+a and civil society. One of the most important mandates of this committee w=
+ould be to explore the implications of emerging technologies on the princip=
+les of network neutrality, which TRAI should revisit every two years to all=
+ow for agile policy design. We do not envision this body as one that can ta=
+ke actions in case of any violation of network neutrality. However, the com=
+mittee would be able to make recommendations directly to TRAI.<br>
+<br>
+/The Web Foundation also made a submission to TRAI=E2=80=99s previous consu=
+ltation on net neutrality in 2015, which can be //accessed here/ &lt;<a hre=
+f=3D"http://webfoundation.org/2015/04/net-neutrality-india/" rel=3D"norefer=
+rer" target=3D"_blank">http://webfoundation.org/2015<wbr>/04/net-neutrality=
+-india/</a>&gt;/. /<br>
+<br>
+/The Digital Empowerment Foundation=E2=80=99s=E2=80=99 previous submissions=
+ can be accessed below:/<br>
+<br>
+=C2=A0 * /////Submission on Consultation Paper on Differential pricing for<=
+br>
+=C2=A0 =C2=A0 Data Services/<br>
+<br>
+&lt;<a href=3D"http://www.internetrights.in/wp-content/uploads/2014/11/Subm=
+ission-on-Differential-Pricing_CounterComments_Digital-Empowerment-Foundati=
+on.pdf" rel=3D"noreferrer" target=3D"_blank">http://www.internetrights.in/<=
+wbr>wp-content/uploads/2014/11/Sub<wbr>mission-on-Differential-Pricin<wbr>g=
+_CounterComments_Digital-<wbr>Empowerment-Foundation.pdf</a>&gt;<br>
+=C2=A0 * /////Submission on Consultation Paper on OTT Services/<br>
+<br>
+&lt;<a href=3D"http://www.internetrights.in/wp-content/uploads/2017/03/net_=
+neutrality_def.pdf" rel=3D"noreferrer" target=3D"_blank">http://www.interne=
+trights.in/<wbr>wp-content/uploads/2017/03/net<wbr>_neutrality_def.pdf</a>&=
+gt;<br>
+=C2=A0 * /////Submission on Consultation on Free Data Provision/<br>
+<br>
+&lt;<a href=3D"http://www.internetrights.in/wp-content/uploads/2017/03/DEF_=
+Comments-on-Free-Data-Consultation-Paper_Final.pdf" rel=3D"noreferrer" targ=
+et=3D"_blank">http://www.internetrights.in/<wbr>wp-content/uploads/2017/03/=
+DEF<wbr>_Comments-on-Free-Data-Consult<wbr>ation-Paper_Final.pdf</a>&gt;<br=
+>
+=C2=A0 * /////Submission on Pre-Consultation Paper on net Neutrality/<br>
+<br>
+&lt;<a href=3D"http://www.internetrights.in/wp-content/uploads/2017/03/DEF_=
+Comments-on-NN-Pre-Consultation-Paper.pdf" rel=3D"noreferrer" target=3D"_bl=
+ank">http://www.internetrights.in/<wbr>wp-content/uploads/2017/03/DEF<wbr>_=
+Comments-on-NN-Pre-Consultati<wbr>on-Paper.pdf</a>&gt;<br>
+<br>
+For updates on net neutrality and other issues, follow us on twitter at @we=
+bfoundation &lt;<a href=3D"http://twitter.com/webfoundation" rel=3D"norefer=
+rer" target=3D"_blank">http://twitter.com/webfoundat<wbr>ion</a>&gt; and si=
+gn up to our mailing list &lt;<a href=3D"http://eepurl.com/WxB9j" rel=3D"no=
+referrer" target=3D"_blank">http://eepurl.com/WxB9j</a>&gt;<br>
+<br>
+______________________________<wbr>_________________<br>
+To manage your ISOC subscriptions or unsubscribe,<br>
+please log into the ISOC Member Portal:<br>
+<a href=3D"https://portal.isoc.org/" rel=3D"noreferrer" target=3D"_blank">h=
+ttps://portal.isoc.org/</a><br>
+Then choose Interests &amp; Subscriptions from the My Account menu.</blockq=
+uote></div><br></div></div></div>
+
+--001a11375426e808e5054acb1f05--
+
+
+From nobody Wed Mar 15 15:09:45 2017
+Return-Path: <joly.nyc@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 0DC10129C30; Wed, 15 Mar 2017 14:44:21 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.159
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.159 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FREEMAIL_FORGED_FROMDOMAIN=0.197, FREEMAIL_FROM=0.001, HEADER_FROM_DIFFERENT_DOMAINS=0.001, HTML_FONT_FACE_BAD=0.981, HTML_MESSAGE=0.001, HTML_OBFUSCATE_05_10=0.26, RCVD_IN_DNSWL_LOW=-0.7, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id rprIg6D4YTHy; Wed, 15 Mar 2017 14:44:17 -0700 (PDT)
+Received: from mail-lf0-x244.google.com (mail-lf0-x244.google.com [IPv6:2a00:1450:4010:c07::244]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 0F573129C29; Wed, 15 Mar 2017 14:44:14 -0700 (PDT)
+Received: by mail-lf0-x244.google.com with SMTP id r36so2102887lfi.0; Wed, 15 Mar 2017 14:44:13 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20161025;  h=mime-version:reply-to:sender:in-reply-to:references:from:date :message-id:subject:to:cc; bh=nR/OmlQzQ+sgdbb99vUwmX3rCDPlazn1ggGaTMV7FBk=; b=Knjdi8dAm2IuC5iZeT/XsU2lRJQQh6/92rxmcuPGyaFaasITSTIM6ifAjwxZ/Hid/c mC1l6ywy0HP5k780vvIYXr47AwifhXtKeIpFnaEAAiFplq6wl1GLqmYAbCXQtUrmp9tB XvEbLKRkwmi56jtpaFh7G8vHE/Vy+xpQrZrecvuU+Vu2fHCJ0GbNkMQkIQrY7R+LppqE FQPm9OnioNmQ2SwbExDYTbQIZufc+c16DlBNcn4iN3IJKBK5T2n+p9iLJAG0wTd2I7C8 5eclWhZCSm/WO1kTdXjZhOC1lxh3gzZZyiUodnEI/6ls/Ecu1Y1Q1TWiGnmIZ/vHmA7r q0VA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:reply-to:sender:in-reply-to :references:from:date:message-id:subject:to:cc; bh=nR/OmlQzQ+sgdbb99vUwmX3rCDPlazn1ggGaTMV7FBk=; b=AVSFxWySPaLOQx1Xi7Kvi5grd/IfRlAltnPlZNB3Mb+Xn6qJwVxo2QZopJ6LPmrnjm KI2JsQN8nbs80CD4cSnvYgk6nNTlEJN2zxRfZPBMNJp9fh0k6Z2ni6qp+PxtjtFPFCh2 j+MTNjO0KJLM4uJQ/UCois/RlVY/ycBftt94UokZ8m6kZuYAPPQy5eBZZFJfMcvH5QP8 YFqIFoEC47FshUaTFRJ/+I3z6vl/bqU6Jl4IfbihEz4KO7b+c3rQHzVvRmDO4dT+lBTm tZgCBW9ioODsQe5pWoXwv+Lq5BXbvJRZHBzqoHlEaa3VRmXihwA/80bT25U4RDwEdmnT 2LPQ==
+X-Gm-Message-State: AFeK/H3EvdLpCT6EC9pU+DIHOcP+UTgTvjeXopxKyeCVXnDWsBP/fLceiuDQlGk0X+0vsFsKG7Rb3dnlbv7rPw==
+X-Received: by 10.25.93.86 with SMTP id p22mr1649990lfj.9.1489614252329; Wed, 15 Mar 2017 14:44:12 -0700 (PDT)
+MIME-Version: 1.0
+Reply-To: joly@punkcast.com
+Sender: joly.nyc@gmail.com
+Received: by 10.25.216.203 with HTTP; Wed, 15 Mar 2017 14:43:31 -0700 (PDT)
+In-Reply-To: <CAM8DdeXWc9z4G5rfj=yqpx_gV87GoCQJrGwQr5==W2CW_5xocQ@mail.gmail.com>
+References: <5774aa9c-3c04-4722-6486-3c4ae5e82dca@riseup.net> <CAM8DdeXWc9z4G5rfj=yqpx_gV87GoCQJrGwQr5==W2CW_5xocQ@mail.gmail.com>
+From: Joly MacFie <joly@punkcast.com>
+Date: Wed, 15 Mar 2017 17:43:31 -0400
+X-Google-Sender-Auth: _eNdtH2xJJGifCxKdUNgcjok1X4
+Message-ID: <CAM9VJk3F25UokWBm90D+WSBDd5QF3HQODZr+_n7ypSjtL6LcDg@mail.gmail.com>
+To: Tomslin Samme-Nlar <mesumbeslin@gmail.com>
+Cc: willi uebelherr <willi.uebelherr@riseup.net>, IRTF discuss <irtf-discuss@irtf.org>,  IGF dc civ <values@coreinternetvalues.org>, IETF discussion <ietf@ietf.org>, IRTF gaia <gaia@irtf.org>,  Governance <governance@lists.igcaucus.org>, IGF dc <dc@intgovforum.org>,  ISOC Internet Policy <internetpolicy@elists.isoc.org>,  IGF dc ctu <dc_connectingtheunconnected@intgovforum.org>
+Content-Type: multipart/alternative; boundary=f403045e315e5cd1ed054acbd8fa
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/QvqG447tGr3G8iGEC5uqcDgFH4E>
+X-Mailman-Approved-At: Wed, 15 Mar 2017 15:09:36 -0700
+Subject: Re: [gaia] [Internet Policy] Fwd: Web Foundation responds to India consultation on net neutrality
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 15 Mar 2017 21:44:21 -0000
+
+--f403045e315e5cd1ed054acbd8fa
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+By coincidence, yesterday I had a paid gig shooting an investment meeting.
+One of the presenters was http://www.mavin.co/ who, under the name Gigato,
+is in the business of selling free data sponsorships in India. Anybody can
+pay to sponsor free data, say 1GB or more, to an end user, perhaps as a
+loyalty reward. The proviso is that this can be used by the recipient to
+access any content/service they like.
+
+Apparently this is looked on with favor by the local regulators as a method
+of enabling access to the underserved while not walling off any gardens.
+And the company is doing very well.
+
+=E2=80=8Bj=E2=80=8B
+
+
+On Wed, Mar 15, 2017 at 4:52 PM, Tomslin Samme-Nlar <mesumbeslin@gmail.com>
+wrote:
+
+> Thanks for sharing Willi.
+>
+> I am finding it hard to understand the benefits of recommendation 3.
+> "Don=E2=80=99t ban paid service-specific data bundles"
+>
+> Cheers,
+> Tomslin
+>
+>
+> On 16 Mar 2017 6:47 a.m., "willi uebelherr" <willi.uebelherr@riseup.net>
+> wrote:
+>
+>
+> Dear friends,
+>
+> this email i received from the Web Foundation. It is a very good
+> contribution to our discussions to net neutrality in a concrete environme=
+nt.
+>
+> many greetings, willi
+> Asuncion, Paraguay
+>
+>
+> -------- Forwarded Message --------
+> Subject: Web Foundation responds to India consultation on net neutrality
+> Date:   Wed, 15 Mar 2017 14:21:52 +0000
+> From:   Web Foundation <>
+>
+> Web Foundation responds to India consultation on net neutrality
+>
+> Net neutrality =E2=80=94 the principle that all internet traffic be treat=
+ed
+> equally =E2=80=94 is fundamental to our mission to deliver digital equali=
+ty =E2=80=94 a
+> world where everyone has the same rights and opportunities online. Why? I=
+f
+> dominant content providers can pay to have their traffic prioritised, it
+> risks harming competition and innovation, while limiting freedom of
+> expression. If governments block or censor content that they do not agree
+> with, it hurts free speech and democracy.
+>
+> Today, in partnership with the Digital Empowerment Foundation <
+> https://defindia.org/>(DEF), the Web Foundation has made a submission <
+> http://webfoundation.org/docs/2017/03/WFDEFResponsetoTRAIca
+> llforcommentsonNN-Mar14-FINAL.pdf> to an important consultation on net
+> neutrality in India. Responding to questions from Telecom Regulatory
+> Authority of India (TRAI), the Web Foundation and DEF have jointly made
+> four key recommendations:
+>
+> *1) Consider introducing a no-fee basic data allowance*
+> Today, mobile broadband penetration is India is estimated to be less than
+> 10% (GSMA Intelligence Q4 2016). Addressing this challenge will require
+> innovative interventions which should be encouraged by the government.
+> However, we argue that interventions to provide access for low-income
+> and/or marginalised communities must also adhere to net neutrality
+> principles, as they should for all Indians. Previous attempts in India
+> include zero-rating programmes which restricted users to a limited set of
+> sites or services, and these proved controversial. Meanwhile, research <
+> http://1e8q3q16vyc81g8l3h3md6q5f5e.wpengine.netdna-cdn.com/
+> wp-content/uploads/2016/05/MeasuringImpactsofMobileDataServi
+> ces_ResearchBrief2.pdf>by the Alliance for Affordable Internet has
+> suggested such zero rating initiatives are not effective in bringing new
+> users online, and that users would rather have free access to the whole
+> internet, even if it is limited by time or data allocation. Our joint
+> suggestion is for TRAI to explore ways to provide a basic monthly data
+> allowance. Other countries, such as Colombia <
+> http://a4ai.org/affordability-report/report/2017/#which_cou
+> ntries_top_the_2017_adi?>, are already experimenting with such policies:
+> given the size of India=E2=80=99s market and the country=E2=80=99s global=
+ influence, the
+> successful implementation of such an initiative could be world-leading an=
+d
+> transformative.
+>
+> *2) Encourage TSPs to make detailed information available on important
+> areas such as quality of service and network neutrality compliance=E2=80=
+=94 in open
+> data formats wherever possible*
+> In order for regulators, citizens and civil society to monitor progress
+> and ensure traffic management practices abide by net neutrality guideline=
+s,
+> detailed information that can easily be analysed is needed. For this
+> reason, we propose that TSPs be required to make detailed, technical
+> filings with TRAI either quarterly or bi-annually, and to post the result=
+s
+> on their websites too. Wherever feasible, this information should be
+> released as open data <https://blog.okfn.org/2013/10
+> /03/defining-open-data/>=E2=80=94 free for anyone to reuse or analyse =E2=
+=80=94 in order
+> to maximise transparency and accountability.
+>
+> *3) Don=E2=80=99t ban paid service-specific data bundles *=E2=80=94*unles=
+s there is a
+> relationship between mobile operators and content providers*
+> We argue that application-specific traffic discrimination should not be
+> allowed. However, one exception is the case of service-specific data
+> bundles =E2=80=94 where TSPs charge different rates for access to certain=
+ sites or
+> applications. Such bundles can be a good way for operators to respond to
+> customer demand and devise innovative ways for more people to connect and
+> communicate affordably. As such, we recommend that they should be
+> encouraged, with any complaints dealt with on a case-by-case basis. The
+> caveats, of course, are if there is a commercial relationship between TSP=
+s
+> and the sites or applications included in the bundle or if the content is
+> not available on a non-exclusive basis to all TSPs; in such cases, we
+> believe that service-specific data bundles should not be allowed.
+>
+> *4) Consider creating a dedicated advisory committee on net neutrality
+> *=E2=80=94*with representatives from government, business and civil socie=
+ty*
+> It is clear that net neutrality is a vital issue. Preserving and enhancin=
+g
+> it will help Indian entrepreneurs and established businesses alike, and c=
+an
+> help millions more to connect affordably. Yet it is also a complex issue,
+> which will continue to shift and evolve over time. For this reason, we
+> recommend that TRAI considers establishing a dedicated advisory committee
+> on net neutrality, made up of representatives from business, government,
+> academia and civil society. One of the most important mandates of this
+> committee would be to explore the implications of emerging technologies o=
+n
+> the principles of network neutrality, which TRAI should revisit every two
+> years to allow for agile policy design. We do not envision this body as o=
+ne
+> that can take actions in case of any violation of network neutrality.
+> However, the committee would be able to make recommendations directly to
+> TRAI.
+>
+> /The Web Foundation also made a submission to TRAI=E2=80=99s previous con=
+sultation
+> on net neutrality in 2015, which can be //accessed here/ <
+> http://webfoundation.org/2015/04/net-neutrality-india/>/. /
+>
+> /The Digital Empowerment Foundation=E2=80=99s=E2=80=99 previous submissio=
+ns can be
+> accessed below:/
+>
+>   * /////Submission on Consultation Paper on Differential pricing for
+>     Data Services/
+>
+> <http://www.internetrights.in/wp-content/uploads/2014/11/Sub
+> mission-on-Differential-Pricing_CounterComments_Digital-Empo
+> werment-Foundation.pdf>
+>   * /////Submission on Consultation Paper on OTT Services/
+>
+> <http://www.internetrights.in/wp-content/uploads/2017/03/net
+> _neutrality_def.pdf>
+>   * /////Submission on Consultation on Free Data Provision/
+>
+> <http://www.internetrights.in/wp-content/uploads/2017/03/DEF
+> _Comments-on-Free-Data-Consultation-Paper_Final.pdf>
+>   * /////Submission on Pre-Consultation Paper on net Neutrality/
+>
+> <http://www.internetrights.in/wp-content/uploads/2017/03/DEF
+> _Comments-on-NN-Pre-Consultation-Paper.pdf>
+>
+> For updates on net neutrality and other issues, follow us on twitter at
+> @webfoundation <http://twitter.com/webfoundation> and sign up to our
+> mailing list <http://eepurl.com/WxB9j>
+>
+> _______________________________________________
+> To manage your ISOC subscriptions or unsubscribe,
+> please log into the ISOC Member Portal:
+> https://portal.isoc.org/
+> Then choose Interests & Subscriptions from the My Account menu.
+>
+>
+>
+> _______________________________________________
+> To manage your ISOC subscriptions or unsubscribe,
+> please log into the ISOC Member Portal:
+> https://portal.isoc.org/
+> Then choose Interests & Subscriptions from the My Account menu.
+>
+
+
+
+--=20
+---------------------------------------------------------------
+Joly MacFie  218 565 9365 <(218)%20565-9365> Skype:punkcast
+--------------------------------------------------------------
+-
+
+--f403045e315e5cd1ed054acbd8fa
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-size:small"><br=
+></div><div class=3D"gmail_default" style=3D"font-size:small">By coincidenc=
+e, yesterday I had a paid gig shooting an investment meeting. One of the pr=
+esenters was=C2=A0<a href=3D"http://www.mavin.co/" target=3D"_blank">http:/=
+/www.mavin.co/</a> who, under the name Gigato, is in the business of sellin=
+g free data sponsorships in India. Anybody can pay to sponsor free data, sa=
+y 1GB or more, to an end user, perhaps as a loyalty reward. The proviso is =
+that this can be used by the recipient to access any content/service they l=
+ike.=C2=A0</div><div class=3D"gmail_default" style=3D"font-size:small"><br>=
+</div><div class=3D"gmail_default" style=3D"font-size:small">Apparently thi=
+s is looked on with favor by the local regulators as a method of enabling a=
+ccess to the underserved while not walling off any gardens. And the company=
+ is doing very well.</div><div class=3D"gmail_default" style=3D"font-size:s=
+mall"><br></div><div><div class=3D"gmail_default" style=3D"font-size:small"=
+>=E2=80=8Bj=E2=80=8B</div><br></div><div class=3D"gmail_extra"><br><div cla=
+ss=3D"gmail_quote">On Wed, Mar 15, 2017 at 4:52 PM, Tomslin Samme-Nlar <spa=
+n dir=3D"ltr">&lt;<a href=3D"mailto:mesumbeslin@gmail.com" target=3D"_blank=
+">mesumbeslin@gmail.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail=
+_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:=
+1ex"><div dir=3D"auto"><div>Thanks for sharing Willi.=C2=A0</div><div dir=
+=3D"auto"><br></div><div dir=3D"auto">I am finding it hard to understand th=
+e benefits of recommendation 3.<span><div dir=3D"auto">&quot;<span style=3D=
+"font-family:sans-serif;font-size:13.696px">Don=E2=80=99t ban paid service-=
+specific data bundles&quot;</span></div><div dir=3D"auto"><br></div></span>=
+Cheers,</div><div dir=3D"auto">Tomslin<div><div class=3D"m_8049664955192104=
+855h5"><br><div class=3D"gmail_extra" dir=3D"auto"><br><div class=3D"gmail_=
+quote">On 16 Mar 2017 6:47 a.m., &quot;willi uebelherr&quot; &lt;<a href=3D=
+"mailto:willi.uebelherr@riseup.net" target=3D"_blank">willi.uebelherr@riseu=
+p.net</a>&gt; wrote:<br type=3D"attribution"><blockquote class=3D"m_8049664=
+955192104855m_5335400129885256505quote" style=3D"margin:0 0 0 .8ex;border-l=
+eft:1px #ccc solid;padding-left:1ex"><br>
+Dear friends,<br>
+<br>
+this email i received from the Web Foundation. It is a very good contributi=
+on to our discussions to net neutrality in a concrete environment.<br>
+<br>
+many greetings, willi<br>
+Asuncion, Paraguay<br>
+<br>
+<br>
+-------- Forwarded Message --------<br>
+Subject: Web Foundation responds to India consultation on net neutrality<br=
+>
+Date:=C2=A0 =C2=A0Wed, 15 Mar 2017 14:21:52 +0000<br>
+From:=C2=A0 =C2=A0Web Foundation &lt;&gt;<br>
+<br>
+Web Foundation responds to India consultation on net neutrality<br>
+<br>
+Net neutrality =E2=80=94 the principle that all internet traffic be treated=
+ equally =E2=80=94 is fundamental to our mission to deliver digital equalit=
+y =E2=80=94 a world where everyone has the same rights and opportunities on=
+line. Why? If dominant content providers can pay to have their traffic prio=
+ritised, it risks harming competition and innovation, while limiting freedo=
+m of expression. If governments block or censor content that they do not ag=
+ree with, it hurts free speech and democracy.<br>
+<br>
+Today, in partnership with the Digital Empowerment Foundation &lt;<a href=
+=3D"https://defindia.org/" rel=3D"noreferrer" target=3D"_blank">https://def=
+india.org/</a>&gt;(DEF), the Web Foundation has made a submission &lt;<a hr=
+ef=3D"http://webfoundation.org/docs/2017/03/WFDEFResponsetoTRAIcallforcomme=
+ntsonNN-Mar14-FINAL.pdf" rel=3D"noreferrer" target=3D"_blank">http://webfou=
+ndation.org/docs<wbr>/2017/03/WFDEFResponsetoTRAIca<wbr>llforcommentsonNN-M=
+ar14-FINAL.<wbr>pdf</a>&gt; to an important consultation on net neutrality =
+in India. Responding to questions from Telecom Regulatory Authority of Indi=
+a (TRAI), the Web Foundation and DEF have jointly made four key recommendat=
+ions:<br>
+<br>
+*1) Consider introducing a no-fee basic data allowance*<br>
+Today, mobile broadband penetration is India is estimated to be less than 1=
+0% (GSMA Intelligence Q4 2016). Addressing this challenge will require inno=
+vative interventions which should be encouraged by the government. However,=
+ we argue that interventions to provide access for low-income and/or margin=
+alised communities must also adhere to net neutrality principles, as they s=
+hould for all Indians. Previous attempts in India include zero-rating progr=
+ammes which restricted users to a limited set of sites or services, and the=
+se proved controversial. Meanwhile, research &lt;<a href=3D"http://1e8q3q16=
+vyc81g8l3h3md6q5f5e.wpengine.netdna-cdn.com/wp-content/uploads/2016/05/Meas=
+uringImpactsofMobileDataServices_ResearchBrief2.pdf" rel=3D"noreferrer" tar=
+get=3D"_blank">http://1e8q3q16vyc81g8l3h3md6<wbr>q5f5e.wpengine.netdna-cdn.=
+com/<wbr>wp-content/uploads/2016/05/Mea<wbr>suringImpactsofMobileDataServi<=
+wbr>ces_ResearchBrief2.pdf</a>&gt;by the Alliance for Affordable Internet h=
+as suggested such zero rating initiatives are not effective in bringing new=
+ users online, and that users would rather have free access to the whole in=
+ternet, even if it is limited by time or data allocation. Our joint suggest=
+ion is for TRAI to explore ways to provide a basic monthly data allowance. =
+Other countries, such as Colombia &lt;<a href=3D"http://a4ai.org/affordabil=
+ity-report/report/2017/#which_countries_top_the_2017_adi" rel=3D"noreferrer=
+" target=3D"_blank">http://a4ai.org/affordability<wbr>-report/report/2017/#=
+which_cou<wbr>ntries_top_the_2017_adi</a>?&gt;, are already experimenting w=
+ith such policies: given the size of India=E2=80=99s market and the country=
+=E2=80=99s global influence, the successful implementation of such an initi=
+ative could be world-leading and transformative.<br>
+<br>
+*2) Encourage TSPs to make detailed information available on important area=
+s such as quality of service and network neutrality compliance=E2=80=94 in =
+open data formats wherever possible*<br>
+In order for regulators, citizens and civil society to monitor progress and=
+ ensure traffic management practices abide by net neutrality guidelines, de=
+tailed information that can easily be analysed is needed. For this reason, =
+we propose that TSPs be required to make detailed, technical filings with T=
+RAI either quarterly or bi-annually, and to post the results on their websi=
+tes too. Wherever feasible, this information should be released as open dat=
+a &lt;<a href=3D"https://blog.okfn.org/2013/10/03/defining-open-data/" rel=
+=3D"noreferrer" target=3D"_blank">https://blog.okfn.org/2013/10<wbr>/03/def=
+ining-open-data/</a>&gt;=E2=80=94 free for anyone to reuse or analyse =E2=
+=80=94 in order to maximise transparency and accountability.<br>
+<br>
+*3) Don=E2=80=99t ban paid service-specific data bundles *=E2=80=94*unless =
+there is a relationship between mobile operators and content providers*<br>
+We argue that application-specific traffic discrimination should not be all=
+owed. However, one exception is the case of service-specific data bundles =
+=E2=80=94 where TSPs charge different rates for access to certain sites or =
+applications. Such bundles can be a good way for operators to respond to cu=
+stomer demand and devise innovative ways for more people to connect and com=
+municate affordably. As such, we recommend that they should be encouraged, =
+with any complaints dealt with on a case-by-case basis. The caveats, of cou=
+rse, are if there is a commercial relationship between TSPs and the sites o=
+r applications included in the bundle or if the content is not available on=
+ a non-exclusive basis to all TSPs; in such cases, we believe that service-=
+specific data bundles should not be allowed.<br>
+<br>
+*4) Consider creating a dedicated advisory committee on net neutrality *=E2=
+=80=94*with representatives from government, business and civil society*<br=
+>
+It is clear that net neutrality is a vital issue. Preserving and enhancing =
+it will help Indian entrepreneurs and established businesses alike, and can=
+ help millions more to connect affordably. Yet it is also a complex issue, =
+which will continue to shift and evolve over time. For this reason, we reco=
+mmend that TRAI considers establishing a dedicated advisory committee on ne=
+t neutrality, made up of representatives from business, government, academi=
+a and civil society. One of the most important mandates of this committee w=
+ould be to explore the implications of emerging technologies on the princip=
+les of network neutrality, which TRAI should revisit every two years to all=
+ow for agile policy design. We do not envision this body as one that can ta=
+ke actions in case of any violation of network neutrality. However, the com=
+mittee would be able to make recommendations directly to TRAI.<br>
+<br>
+/The Web Foundation also made a submission to TRAI=E2=80=99s previous consu=
+ltation on net neutrality in 2015, which can be //accessed here/ &lt;<a hre=
+f=3D"http://webfoundation.org/2015/04/net-neutrality-india/" rel=3D"norefer=
+rer" target=3D"_blank">http://webfoundation.org/2015<wbr>/04/net-neutrality=
+-india/</a>&gt;/. /<br>
+<br>
+/The Digital Empowerment Foundation=E2=80=99s=E2=80=99 previous submissions=
+ can be accessed below:/<br>
+<br>
+=C2=A0 * /////Submission on Consultation Paper on Differential pricing for<=
+br>
+=C2=A0 =C2=A0 Data Services/<br>
+<br>
+&lt;<a href=3D"http://www.internetrights.in/wp-content/uploads/2014/11/Subm=
+ission-on-Differential-Pricing_CounterComments_Digital-Empowerment-Foundati=
+on.pdf" rel=3D"noreferrer" target=3D"_blank">http://www.internetrights.in/<=
+wbr>wp-content/uploads/2014/11/Sub<wbr>mission-on-Differential-Pricin<wbr>g=
+_CounterComments_Digital-Empo<wbr>werment-Foundation.pdf</a>&gt;<br>
+=C2=A0 * /////Submission on Consultation Paper on OTT Services/<br>
+<br>
+&lt;<a href=3D"http://www.internetrights.in/wp-content/uploads/2017/03/net_=
+neutrality_def.pdf" rel=3D"noreferrer" target=3D"_blank">http://www.interne=
+trights.in/<wbr>wp-content/uploads/2017/03/net<wbr>_neutrality_def.pdf</a>&=
+gt;<br>
+=C2=A0 * /////Submission on Consultation on Free Data Provision/<br>
+<br>
+&lt;<a href=3D"http://www.internetrights.in/wp-content/uploads/2017/03/DEF_=
+Comments-on-Free-Data-Consultation-Paper_Final.pdf" rel=3D"noreferrer" targ=
+et=3D"_blank">http://www.internetrights.in/<wbr>wp-content/uploads/2017/03/=
+DEF<wbr>_Comments-on-Free-Data-Consult<wbr>ation-Paper_Final.pdf</a>&gt;<br=
+>
+=C2=A0 * /////Submission on Pre-Consultation Paper on net Neutrality/<br>
+<br>
+&lt;<a href=3D"http://www.internetrights.in/wp-content/uploads/2017/03/DEF_=
+Comments-on-NN-Pre-Consultation-Paper.pdf" rel=3D"noreferrer" target=3D"_bl=
+ank">http://www.internetrights.in/<wbr>wp-content/uploads/2017/03/DEF<wbr>_=
+Comments-on-NN-Pre-Consultati<wbr>on-Paper.pdf</a>&gt;<br>
+<br>
+For updates on net neutrality and other issues, follow us on twitter at @we=
+bfoundation &lt;<a href=3D"http://twitter.com/webfoundation" rel=3D"norefer=
+rer" target=3D"_blank">http://twitter.com/webfoundat<wbr>ion</a>&gt; and si=
+gn up to our mailing list &lt;<a href=3D"http://eepurl.com/WxB9j" rel=3D"no=
+referrer" target=3D"_blank">http://eepurl.com/WxB9j</a>&gt;<br>
+<br>
+______________________________<wbr>_________________<br>
+To manage your ISOC subscriptions or unsubscribe,<br>
+please log into the ISOC Member Portal:<br>
+<a href=3D"https://portal.isoc.org/" rel=3D"noreferrer" target=3D"_blank">h=
+ttps://portal.isoc.org/</a><br>
+Then choose Interests &amp; Subscriptions from the My Account menu.</blockq=
+uote></div><br></div></div></div></div></div>
+<br>______________________________<wbr>_________________<br>
+To manage your ISOC subscriptions or unsubscribe,<br>
+please log into the ISOC Member Portal:<br>
+<a href=3D"https://portal.isoc.org/" rel=3D"noreferrer" target=3D"_blank">h=
+ttps://portal.isoc.org/</a><br>
+Then choose Interests &amp; Subscriptions from the My Account menu.<br></bl=
+ockquote></div><br><br clear=3D"all"><div><br></div>-- <br><div class=3D"m_=
+8049664955192104855gmail_signature" data-smartmail=3D"gmail_signature"><div=
+ dir=3D"ltr"><div>------------------------------<wbr>----------------------=
+--------<wbr>---<br><span>Joly MacFie=C2=A0 <span title=3D"Call with Google=
+ Voice"><a href=3D"tel:(218)%20565-9365" value=3D"+12185659365" target=3D"_=
+blank">218 565 9365</a></span> Skype:punkcast</span><br>-------------------=
+-----------<wbr>------------------------------<wbr>--<br>-</div></div></div=
+>
+</div><img src=3D"https://t.yesware.com/t/b3b03f93acb29dde874548d979c146383=
+52bd06e/406f0ecf2706b29f2b6ce1bff3b0a00f/spacer.gif" style=3D"border:0; wid=
+th:0; height:0; overflow:hidden;" width=3D"0" height=3D"0"><img src=3D"http=
+://t.yesware.com/t/b3b03f93acb29dde874548d979c14638352bd06e/406f0ecf2706b29=
+f2b6ce1bff3b0a00f/spacer.gif" style=3D"border:0; width:0; height:0; overflo=
+w:hidden;" width=3D"0" height=3D"0"><font face=3D"yw-b3b03f93acb29dde874548=
+d979c14638352bd06e-406f0ecf2706b29f2b6ce1bff3b0a00f--to" style=3D"display:n=
+one"></font></div>
+
+--f403045e315e5cd1ed054acbd8fa--
+
+
+From nobody Mon Mar 20 03:35:40 2017
+Return-Path: <ford@isoc.org>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 29843129AFA for <gaia@ietfa.amsl.com>; Mon, 20 Mar 2017 03:29:55 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -4.698
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.698 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, RCVD_IN_DNSWL_NONE=-0.0001, RCVD_IN_MSPIKE_H2=-2.796, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=isoc.onmicrosoft.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id i6FLHt-CI1HV for <gaia@ietfa.amsl.com>; Mon, 20 Mar 2017 03:29:52 -0700 (PDT)
+Received: from NAM03-CO1-obe.outbound.protection.outlook.com (mail-co1nam03on0066.outbound.protection.outlook.com [104.47.40.66]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id B3185129B01 for <gaia@irtf.org>; Mon, 20 Mar 2017 03:29:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=isoc.onmicrosoft.com;  s=selector1-isoc-org; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version; bh=/JGf747WMYuxSRbmShwPnQ3T0wbKr8HDzYhmSlpgpmQ=; b=j75EOr6xhe4UU67FieZc38r9YfBBByRvsunDX37NaVUUJkVUJhY04TQdVDsFKronqsucXuI0i+RU+Lxjy6awKg1NK++dkTf/JIJ1JuKoX/st8ee+PyD+ysKj8DIToc2TP74LYx4bLNJVeV1kZVsGk47JBO8mhllRdmHBlAEBfac=
+Authentication-Results: irtf.org; dkim=none (message not signed) header.d=none;irtf.org; dmarc=none action=none header.from=isoc.org;
+Received: from [192.168.3.80] (81.2.114.177) by CY1PR06MB2219.namprd06.prod.outlook.com (10.166.193.154) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.977.11; Mon, 20 Mar 2017 10:29:45 +0000
+From: Matthew Ford <ford@isoc.org>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0 (Mac OS X Mail 10.2 \(3259\))
+Date: Mon, 20 Mar 2017 10:29:44 +0000
+References: <8b3d9300-b613-3962-d97d-e19f7bd9c983@in.tum.de>
+To: IRTF Gaia list <gaia@irtf.org>
+Message-ID: <4E1CA174-3970-4D77-9299-4145EC125F04@isoc.org>
+X-Mailer: Apple Mail (2.3259)
+X-Originating-IP: [81.2.114.177]
+X-ClientProxiedBy: HE1PR0402CA0001.eurprd04.prod.outlook.com (10.175.27.11) To CY1PR06MB2219.namprd06.prod.outlook.com (10.166.193.154)
+X-MS-Office365-Filtering-Correlation-Id: 510b855e-3962-4fdd-89d2-08d46f7c0827
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:(22001);SRVR:CY1PR06MB2219;
+X-Microsoft-Exchange-Diagnostics: 1; CY1PR06MB2219; 3:+Uarsehoq4JRWR59SHbJT4y7q1Kz38MDtB11nDJ2/lwq2k3M26M6LT0p6I4Fczoy5sJPq687rFcd0aMBt1RnRLGZ/oqJkQO2GPNXCesjetVlH5wfMEoeRiPxQxMCRxhs+ZJYNpgb/utXN71RNZ9NnPwIC3ylXHKYWdvoXzjEq9dvscuOTxbn9IfMfgXpOpmqTq/cNSLbxJ3X19nNKu+iE/FLZaII+Yu5Y0vjIyk9Gd/aWTKjl7pXWmAq0wQ2gAxIKl8rTgO707CZcj/YMGmoMA==; 25:ezBWF9yuqsmdUnOL28WzBDuXvnqoe1I4nfW1qYWN/5t0GakgdvLR4prBgexAmqGLQIhj/aQG0+D/7MlJvoIdplRzPO3uCRPRbhsq7k3Bwhd90GV3Ph7kTExLsLDMJyKY/ZoqEiol2n2PNeUzsf/FPBdtuAt7e06SA6ZHcZSDHkfhaRZfW/U12KmKfKY6K8AQEv8IyV7OmWY3za1uLaUoYhbY14plPdaQ2Q/X314ll2CuEqy0TYqlKzjq6+3oWAJ9I0NreMwPevdM4sO8Xgy8BPX5OL1IcKELPAY5Bnnnc04CxUE7gJqWHhokcOrUl9FDVPSH4BebIrOqKRsved4479I+TXuuPYwLGBRjO7O37piUnOLnVCr5IpgnkTVtrGYNqY55bD2Xn/w8oBoehRS0poJW5XuVU+KoqdUMvgI7blqvyCgrBD3Ohs6V3EPyCS0WFYytU5GOBIk7nlRi/4+/ZQ==
+X-Microsoft-Exchange-Diagnostics: 1; CY1PR06MB2219; 31:580oOWcNuK/bPw5AhBzUS59t1vop/LaM9oLbznefPqFu7jQFnNRishkn+HSP2+ai12+fBbWmvmDlvC6BWCnfKl7/BJhk9BAxtHcjYhUPzpzoC2bmntYE8B0ktEtC4bLgNi8QzEFfiNrMNI4F9SA1ZVnWjUvmSZ0jeVfvw3dTIoCE8Q0O1TFzJM21pGZA+YSOX9/Po3gMM4eS4ucFLW/cQX4Y42x7D3q/XM8mB2HxbTo=; 20:b4CjBhrBWsgP72DfQHgzgFnkGJ5+R0IbE8vwmtRolRmKkDlLamU1aLFU3XCTcGhXU3S3i901tDOJkwp94hNy3CnSBYiE5jEgm+mLv0fmb+CeVRrt+dQaUy5llG3DB5bQ7Bf3OqfuzW5IIZrBHIpgWUQjXXE0qIYlcXf/SRqq35S7aoU9AmcZwKQ1qBjWgH3gGYkvUcxUEiTh4oZM2hl2PNPNtYOymRShK3fp71adZHfES39wUnGW6sV1z0lDKfbbk8rBnBc3TdVr9Vy6xW4Vyby7zFLY/UIb9RM+1juu/4Xe6hNckuRtmV46eKJ8opWt5l5Fj4LwwYmT95PFQFbQjj932pkWBHHJQgmluRDqT62FjMGEKwJ5kF+xNjO6/IpBE5hdX7bExyk8ErHVd4SrdypaDtM+kbtws73FGyuAmeWcOSnkw3jS+Y8MmGHAIDPm4RzIfQfl1HqjNhZOUsmzIbSbpWHuzoq1p6XK7Xe56o98nRPC1Gv0zU9Q0CU0SeW7
+X-Microsoft-Antispam-PRVS: <CY1PR06MB2219F9D594DDC015739AD0CCA73A0@CY1PR06MB2219.namprd06.prod.outlook.com>
+X-Exchange-Antispam-Report-Test: UriScan:(278428928389397)(192374486261705)(5213294742642); 
+X-Exchange-Antispam-Report-CFA-Test: BCL:0; PCL:0; RULEID:(6040375)(601004)(2401047)(8121501046)(5005006)(10201501046)(3002001)(6041248)(20161123562025)(20161123564025)(20161123560025)(20161123555025)(20161123558025)(6072148); SRVR:CY1PR06MB2219; BCL:0; PCL:0; RULEID:; SRVR:CY1PR06MB2219; 
+X-Microsoft-Exchange-Diagnostics: 1; CY1PR06MB2219; 4:Y3x4ZrojDaA4d4rocsBE06N8IOI0KCAf6YqvM6K3X9YXzAe22aS47xA5gB4+Yya+T8thgTTckP0XlFRJVF8EOEx7aG0HfAMVFEMttIUW4yqXdUowxH39MNtwlZWPmQqYZseFGMCyaSS8HEf3C8AY/oK7gUJ2PFXS2Svi5HOCBDZCm4rKp6t8NZad+lgyhMMYNng72s2S/6ReIwPYYg5JlTQY2uTANrzSTOauaZ6qIpy/L0vW1Ob3/RAXPcIVjrNfRTiViyBBZhRmsMZocIOzOBi7Hav+ij5qcDg/MiXa67VqLgyP1/bm5yKkNnYN4txK2zyexJctHBEqu4E/P9FqPv1+UlkakcLeJxMm4pu9qan3Pg1GxAGRL8rsCwiRxJffq0jYwDlalBQPPDove4YxfsXo5l9o3UnNIMrgPpsgR8EDj9F7eyiCmB13o/mkneTtpU5Hwr928m9CUhKYW8+PKzjcFkf9mz6ILKRuYJexKmKx4jGyhHzygi6/8MsJKsvABPCATgjhlegDkJcWxpahxEg336jUZu7VuPthHVDJaYooFddMJLxEH5dOqS5xIehmKcJZOuoATnwUbuMs04RpqQqRMk8HE2BQvP36i+qUM0vccSQnLHkfHfhTryGT6LQc5CcYs5sdTUZMCgMRp+MyNWhNWyhBeGq8vMICeWfb90GfOT2dD2EmPbbyhUvIDVTXI7W+yGplbYy6bzwTZjJTaw==
+X-Forefront-PRVS: 02524402D6
+X-Forefront-Antispam-Report: SFV:NSPM; SFS:(10009020)(4630300001)(6009001)(6049001)(39450400003)(13624006)(50986999)(42186005)(53936002)(76176999)(25786008)(90366009)(86362001)(3846002)(6306002)(6116002)(77096006)(6486002)(189998001)(47776003)(66066001)(33656002)(5660300001)(117156001)(305945005)(23676002)(7736002)(50226002)(8746002)(81166006)(8676002)(57306001)(6916009)(2906002)(36756003)(38730400002)(110136004)(225293001)(104396002); DIR:OUT; SFP:1101; SCL:1; SRVR:CY1PR06MB2219; H:[192.168.3.80]; FPR:; SPF:None; MLV:sfv; LANG:en; 
+X-Microsoft-Exchange-Diagnostics: 1; CY1PR06MB2219; 23:4x9KR5Hz0coWJtpkHjWkxqWYzS/wiPZ1vYnPWiLcWXUWgHF3j866pGyUyqW1LsdVGV9AqbwtjC4IhBSZ0iZ8c54ALgzj+BzrM3TpgCi2ldQBV2Gzj1LZsl9ASCnaIcFI7KGVBoC3eeFH2pwSdR66MEKTgv1kEIRuyFC5HOz+58UURIH9JhVmqbNPJoxT8lg9DEDyVmPuWf+5z8AiEFh2iuqmTIigf6U1TS0diaY3ls9UlJvn3YYV0BAU76nHaHPHN0GHJed20WODbaTUIcomxjgXnWI+WeC5IsbDTkwzv8rC+ZiLaTYyFXWJM+ghNuMxNH/QgSAxXn4PxjKe7VUSrMXbwTWdWO6Iz1muf+Rawk+NdJGB3SR1owS1DSVTsJ57m2zr1dazynGLIhD0h2ty+GXA4ZLf3sag9ma6ygnzFxH8BFWfLEKQxCLJDWZqHrUJAXZ20EGKHBT9I2lp7EHgnnRHO5XB7CoHY+pMusLxMHJxrNTHJUh6GUsFLFBMPhYM/ap0wsgXQqKgZlUuR416xERv2lJrzOaWDtkiRZCKBeiKTr3m9dCYSnoR7UIMl4XRkVy/Wk1Rz1aD5fbT+hDSPithQCpbufdRt5i8SoeeFbeZu3TPV2HADFTCV4QrzJs6XNRLcRPoZBPObi001hxK8K0bjQs6nZ52TuRXK8AJtRHP33VTRgLyKeAmXx7lCeQ5O3Kr54A4CrpW6NHA1HigW51X4XHTjE6PZVJH8VHS3hPO+VGoThJWpWfmAXR+36lD2OoZsMphJV0unvIhjVOq8PoFLdBeJiBvgxZygpz5vwnFFUv2be9u0ac98dujlfbzwVErHj3JVOuwCnRF6HXH6KWhqKBMleaObnldv+csC29xj8Qo+6sZBv3P+MsUTc2pQH2itZKT6c9UEf25sLyNFMhBqv17a5VotQJwMEL5gwBsuKicLO69ziqcbMpLciTH
+X-Microsoft-Exchange-Diagnostics: 1; CY1PR06MB2219; 6:8qKNzk3EW0C/5QLVqa4uQW5w5f5O6NFJJC1HAgfl3hBw5MtPbQXBV8CkOGwopkUPAbxn28EM6HDGZSsYqCNNx4lbwu5WymmRSfRcU9G4bOUCDuxwWo3bYEzMzDdwIOwTrgdd6T+Rr97KSttne8pkyNOhCPn5cd8Sd3nvmMRYKJkaY1B2G6ih1FzdrWhD1UHi5+m8lGtyixOIl1A5GCcXE1G1W6EPk+JSvUoAjM+N43tmo9EK7KY2nVs5M0yd9Ghx2PMZ1Vhp7GrISa4u03Bka6sN5huaOis8qL80KbAv33IiuqAoTRC3c8YNxPEnb/hH7jIzLNpGeAyObwpDhU5F3xpZIb0xPo4YjzHFaBO626kX0XiwarN8HJdMKLbuwMKt/6BnOCHVsrErHtL0ppZ9vQ==; 5:ulekJC55QXu73Nd7k4CImPr1sfRlcyMEacCKpGfRNH4an6iI1t7shAqGxArL6ijygDimwp3oHbo49J0+nsQAEGa47OlOkM20Llp+pTr3nFq2lTtTNlhzliH73WhyT/Vz4yrsak6QQKa53y2MEhY5Mw==; 24:0z2q3JnkqYb9PLWHayqSzYYFXYa5U0uhaL9rOzZE3P//V/Gnp+qkgMEgaKenQ0WBd1Bxg2PlmKP/80w+rXGMAx0pa2WpuN3rgIWVboyDGg4=
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-Microsoft-Exchange-Diagnostics: 1; CY1PR06MB2219; 7:R8uNov67WUc4H/QNeCHwE99i838X+IZM9Cq73sy1BZOElLS6IpfagbjOt8AqaqRqtpQTcq/OXTYZVUBB95jUGYjgZCH64r81zCGk2OpVFqTk5Yecc/JwR+tf3774nZjNPxjadXBHepXDcH71/xRUlIwI7VhAzba3NzQVTPBtKvwBrc3SuCfbK+DryegouDsHMUZLOTRBBvex0DytUIjiawfgF9BOXqx+zCApV27ZmulMSWViLzZeN6Oev+sIr1cZQYXkkF/4atdv7PQGqQz/vgxv+6OKlAHfb5owg8y0VICGyk1SEuQZwWRmxdHNqqhn2TuO8Y8P1FxgynpLAUUGwg==
+X-OriginatorOrg: isoc.org
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 20 Mar 2017 10:29:45.9381 (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CY1PR06MB2219
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/cQ1-AtLGcBzYtaa4YzTTGC5K8MQ>
+X-Mailman-Approved-At: Mon, 20 Mar 2017 03:35:39 -0700
+Subject: [gaia] Call for Papers: ACM/ISOC/IRTF Applied Networking Research Workshop (ANRW) 2017
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 20 Mar 2017 10:29:55 -0000
+
+Would be nice to have some GAIA papers submitted. Deadline in a couple =
+of weeks!
+
+> A gentle reminder as the submission site is up now...
+>=20
+> ACM/ISOC/IRTF Applied Networking Research Workshop (ANRW) 2017
+> =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+>=20
+> https://irtf.org/anrw/2017/
+> Submission: https://anrw17.hotcrp.com/
+>=20
+> Important Dates
+>=20
+> Paper submission deadline:   April 3, 2017
+> Acceptance notification:     June 2, 2017
+> Camera-ready paper deadline: June 23, 2017
+>=20
+>=20
+> Call for Papers
+> ---------------
+>=20
+> The second edition of the ACM, IRTF & ISOC Applied Networking Research
+> Workshop 2017 (ANRW=E2=80=9917) is an academic workshop that provides =
+a forum
+> for researchers, vendors, network operators and the Internet standards
+> community to present and discuss emerging results in applied
+> networking research. It is sponsored by ACM SIGCOMM, the Internet
+> Research Task Force (IRTF) and the Internet Society (ISOC).
+>=20
+> Researchers should consider submitting early/emerging results that
+> illustrate the scientific and engineering principles underlying the
+> Internet architecture, protocols and applications; that demonstrate
+> new capabilities, features, or extensions to the Internet protocol
+> layers; that enhance our understanding of how Internet protocols work
+> in real-world deployments or realistic test-beds; or that improve
+> Internet security and privacy, scalability, performance, and
+> robustness.
+>=20
+> The ANRW=E2=80=9917 particularly encourages the submission of results =
+that
+> could form the basis for future engineering work in the IETF, that
+> could change operational Internet practices, that can help better
+> specify Internet protocols, or that could influence further research
+> and experimentation in the IRTF.
+>=20
+> Topics of Interest
+> ------------------
+>=20
+> Topics of interest include, but are not limited to, applied work in
+> the following areas:
+>=20
+> * Evolving Internet architecture and deployment of new Internet
+>  working paradigms
+> * Naming, addressing, and routing for the (future) Internet
+> * Development and deployment of new and improved transport protocols
+> * Congestion control for heterogeneous networks and novel applications
+> * Improvements to the security and privacy of Internet protocols
+> * Studies that characterize Internet security, privacy or censorship
+> * Measuring and understanding the behavior and transparency of the
+>  Internet
+> * Internetworking and semantic interoperability for
+>  resource-constrained devices
+> * New approaches to network management, operations, and control
+> * Better ways of specifying protocols, including usable techniques for
+>  protocol verification
+> * Enabling global access to the Internet
+> * Improving the energy efficiency of the Internet
+> * Protocols and APIs for new Internet applications
+> * New approaches to decentralized mobility management
+> * Application of network programmability to the Internet
+> * Approaches towards decentralizing and democratizing the Internet
+> * Systems and protocols that enable extending the reach of the =
+Internet
+>=20
+>=20
+> Full papers and short papers
+> ----------------------------
+>=20
+> The ANRW accepts two types of submissions: full papers and short =
+papers.
+>=20
+> Full paper submissions describe original research on the topics above
+> and may contain up to six pages of technical content, including
+> figures, tables, appendices, etc. plus unlimited pages for references
+> and acknowledgements only. The six page limit is strictly enforced,
+> even a single line exceeding six pages will lead to rejection without
+> review. We expect full papers to contain at least a preliminary
+> evaluation.
+>=20
+> Accepted full papers will be presented and discussed in depth at the
+> workshop, and will be published in the ACM Digital Library.
+>=20
+> Short paper submissions are suitable for short position papers, for
+> starting a discussion on new technical ideas, to present very early
+> results, or to present other topics of interest to the community
+> (software and tools, research initiatives or collaborative projects,
+> major new funding vessels, etc.). They may contain up to two pages of
+> content including figures, tables, any appendices, etc., optionally
+> followed by a single additional page for references and
+> acknowledgments only.
+>=20
+> Accepted short papers will be briefly presented during the workshop,
+> and will be published in the ACM Digital Library.
+>=20
+> Authors of accepted short papers should also bring a poster presenting
+> its content to the workshop, for display and more in-depth discussion
+> with interested participants during the breaks.
+>=20
+>=20
+> Under no circumstances should authors submit previously published
+> work, submit the same work simultaneously to multiple venues, or
+> submit papers that plagiarize the work of other authors. The ACM
+> Policy and Procedures on Plagiarism applies to the ANRW, and action
+> will be taken against submitters who have engaged in such practices.
+>=20
+> Papers accompanied by nondisclosure agreement requests will not be
+> considered for review or publication, nor ever be disclosed.
+>=20
+
+
+From nobody Mon Mar 20 03:49:00 2017
+Return-Path: <panayotis@nethood.org>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 22BD0129B42 for <gaia@ietfa.amsl.com>; Mon, 20 Mar 2017 03:48:59 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.621
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.621 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_LOW=-0.7, RCVD_IN_MSPIKE_H3=-0.01, RCVD_IN_MSPIKE_WL=-0.01, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 4MGUl3CRVYpV for <gaia@ietfa.amsl.com>; Mon, 20 Mar 2017 03:48:56 -0700 (PDT)
+Received: from 19.mo5.mail-out.ovh.net (19.mo5.mail-out.ovh.net [46.105.35.78]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id A1D2E120046 for <gaia@irtf.org>; Mon, 20 Mar 2017 03:48:56 -0700 (PDT)
+Received: from player773.ha.ovh.net (b9.ovh.net [213.186.33.59]) by mo5.mail-out.ovh.net (Postfix) with ESMTP id 08499E1ADD for <gaia@irtf.org>; Mon, 20 Mar 2017 11:48:53 +0100 (CET)
+Received: from [172.20.10.10] (216.226.197.178.dynamic.wless.zhbmb00p-cgnat.res.cust.swisscom.ch [178.197.226.216]) (Authenticated sender: panayotis@nethood.org) by player773.ha.ovh.net (Postfix) with ESMTPSA id 494C260009B for <gaia@irtf.org>; Mon, 20 Mar 2017 11:48:53 +0100 (CET)
+To: gaia <gaia@irtf.org>
+From: panayotis antoniadis <panayotis@nethood.org>
+Message-ID: <1bfe7f64-cff4-02cc-915c-cf15b8d641f8@nethood.org>
+Date: Mon, 20 Mar 2017 11:48:52 +0100
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Thunderbird/45.7.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Ovh-Tracer-Id: 12940249107633127261
+X-VR-SPAMSTATE: OK
+X-VR-SPAMSCORE: 0
+X-VR-SPAMCAUSE: gggruggvucftvghtrhhoucdtuddrfeelhedrieejgddvtdcutefuodetggdotefrodftvfcurfhrohhfihhlvgemucfqggfjpdevjffgvefmvefgnecuuegrihhlohhuthemuceftddtnecu
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/sPuYeFPMXNtYH-webj9khxKAC9k>
+Subject: [gaia] open letter to EU policy makers + workshop on DIY and community networking
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 20 Mar 2017 10:48:59 -0000
+
+Dear all,
+
+Two points that require your immediate attention :-)
+
+First, please spread the word about the open letter to EU policy makers 
+signed
+by more than 30 EU Community Networks and more than 35 supporting 
+organizations
+around the word. The joint press release is available here:
+
+http://netcommons.eu/?q=news/open-letter-eu-policy-makers-community-networks
+
+Second, if any of you plans to submit a paper for the technical 
+programme of the
+interdisciplinary workshop on DIY and Community Networking at IFIP 
+Networking,
+Stockholm, June 12th, please note that the *deadline for abstract 
+submission is
+today* and should be done through EDAS conference management system here:
+
+https://edas.info/newPaper.php?c=23331&track=83760
+
+If you have any questions for the final paper (deadline March 30th) or you
+want to submit an "experimental" submission, please let us know at 
+submission@diynetworking.net
+
+Also note that one of the keynote speakers will be Juergen Neumann 
+(co-founder
+Freifunk.net) and one of the themes to be discussed the bootstrapping, 
+sustainability,
+and growth of community networks.
+
+Best,
+
+Panayotis Antoniadis
+http://nethood.org/panayotis/
+
+
+From nobody Wed Mar 29 11:35:23 2017
+Return-Path: <willi.uebelherr@riseup.net>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id E4881120046; Wed, 29 Mar 2017 11:35:13 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.721
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.721 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, RCVD_IN_DNSWL_LOW=-0.7, RCVD_IN_MSPIKE_H3=-0.01, RCVD_IN_MSPIKE_WL=-0.01, RP_MATCHES_RCVD=-0.001, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001, UNPARSEABLE_RELAY=0.001, URIBL_BLOCKED=0.001] autolearn=unavailable autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=riseup.net
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id d06kFkCetrkx; Wed, 29 Mar 2017 11:35:12 -0700 (PDT)
+Received: from mx1.riseup.net (mx1.riseup.net [198.252.153.129]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id A26DE129469; Wed, 29 Mar 2017 11:34:47 -0700 (PDT)
+Received: from piha.riseup.net (unknown [10.0.1.163]) (using TLSv1 with cipher ECDHE-RSA-AES256-SHA (256/256 bits)) (Client CN "*.riseup.net", Issuer "COMODO RSA Domain Validation Secure Server CA" (verified OK)) by mx1.riseup.net (Postfix) with ESMTPS id D58861A2266; Wed, 29 Mar 2017 18:34:46 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=riseup.net; s=squak; t=1490812487; bh=735FpxV/D9y1LxFnfEGgiGydGzPepPLOO517nijKx5c=; h=From:Subject:References:To:Cc:Date:In-Reply-To:From; b=E8NCN5miBYKatAeSzuX8ho42x3plRBI82qgR9NqAL3sr6Isb9rPIMgEzV07PlhxGk giAmF7dDp5QVoKjfDJT/Ak5KGbnpWAfQ2Il/EvEp2tGngChzeDJLT82cpcMq9DxU6k I94e2iIblTCgx46j2QW67OSQ2j0BUHcSEOMn8Y8Q=
+Received: from [127.0.0.1] (localhost [127.0.0.1]) (Authenticated sender: willi.uebelherr) with ESMTPSA id DC88B1C0633
+From: willi uebelherr <willi.uebelherr@riseup.net>
+References: <80744451.124562.0@wordpress.com>
+To: ISOC Internet Policy <internetpolicy@elists.isoc.org>
+Cc: IETF discussion <ietf@ietf.org>, IRTF discuss <irtf-discuss@irtf.org>, IRTF gaia <gaia@irtf.org>, IGF gov <governance@lists.igcaucus.org>, IGF dc <dc@intgovforum.org>, Best Bits <bestbits@lists.bestbits.net>, IUF list <iuf@lists.riseup.net>
+Message-ID: <0f651625-8559-6c3d-060b-7e54230b3755@riseup.net>
+Date: Wed, 29 Mar 2017 15:34:36 -0300
+MIME-Version: 1.0
+In-Reply-To: <80744451.124562.0@wordpress.com>
+Content-Type: text/plain; charset=windows-1252; format=flowed
+Content-Transfer-Encoding: 7bit
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/wwJD_6nsE0sVSkkbmn0Q8HBRF1Y>
+Subject: [gaia] Robert Steele: Details on NSA Backdoor in INTEL Chips
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 29 Mar 2017 18:35:14 -0000
+
+Robert Steele: Details on NSA Backdoor in INTEL Chips
+http://phibetaiota.net/2017/03/robert-steele-details-on-nsa-backdoor-in-intel-chips/
+
+DuckDuckGo search: NSA backdoor INTEL
+https://duckduckgo.com/?q=NSA+backdoor+INTEL&t=ha&ia=web
+
+Expert Says NSA Have Backdoors Built Into Intel And AMD Processors
+http://www.eteknix.com/expert-says-nsa-have-backdoors-built-into-intel-and-amd-processors/
+
+Intel ME dumpintel and comments
+http://boards.4chan.org/pol/thread/117886401/intel-me
+
+
+Dear friends,
+
+many of us speak and write about encryption, about surveillance, about 
+external control. Intel and Samsung, maybe also AMD, IBM/Motorola and 
+others, have it installed. The underlayer between OS and hardware. 
+Totally controlled from outside and independent of BIOS and OS.
+
+Intel implemented it in the i3, i5, i7. Personal PC environment. And 
+servers and workstation? I am sure, it is the same.
+
+The decryption of the encryption makes too much effort. With ME it is 
+easy and allways working. This is the reality, not the future.
+
+Our possible answer: Free technology.
+
+many greetings, willi
+
+
+
+-------- Forwarded Message --------
+Subject: [New post] Robert Steele: Details on NSA Backdoor in INTEL Chips
+Date: Wed, 29 Mar 2017 11:58:39 +0000
+From: Public Intelligence Blog <donotreply@wordpress.com>
+To: willi.uebelherr@gmail.com
+
+Post       : Robert Steele: Details on NSA Backdoor in INTEL Chips
+URL        : 
+http://phibetaiota.net/2017/03/robert-steele-details-on-nsa-backdoor-in-intel-chips/
+Posted     : March 29, 2017 at 8:00 am
+Author     : Editor
+Categories : Corruption, Government
+
+I have consulted with my senior NSA colleagues and they validate this 
+information.
+
+http://phibetaiota.net/wp-content/uploads/2017/03/Intel-Inside.jpg
+
+
+_______________________________________________
+Discussion mailing list
+Discussion@lists.fsfe.org
+https://lists.fsfe.org/mailman/listinfo/discussion
+

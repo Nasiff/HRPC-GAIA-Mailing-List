@@ -1,0 +1,1 @@
+re.findall(r"(?:[a-zA-Z'-]+[^a-zA-Z'-]+){0,7}infrastructure(?:[^a-zA-Z'-]+[a-zA-Z'-]+){0,7}", s)

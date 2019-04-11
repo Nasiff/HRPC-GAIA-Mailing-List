@@ -1,0 +1,2099 @@
+
+From nobody Mon Apr  6 08:22:45 2015
+Return-Path: <mallory@apc.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 007591A88D7 for <hrpc@ietfa.amsl.com>; Mon,  6 Apr 2015 08:22:44 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.309
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.309 tagged_above=-999 required=5 tests=[BAYES_50=0.8, HTML_MESSAGE=0.001, J_CHICKENPOX_12=0.6, J_CHICKENPOX_21=0.6, RCVD_IN_DNSWL_MED=-2.3, T_RP_MATCHES_RCVD=-0.01] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id IIFWPjcBRr2e for <hrpc@ietfa.amsl.com>; Mon,  6 Apr 2015 08:22:42 -0700 (PDT)
+Received: from mail.gn.apc.org (mail.gn.apc.org [37.220.108.136]) (using TLSv1 with cipher ADH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id A20EA1A8A5A for <hrpc@irtf.org>; Mon,  6 Apr 2015 08:22:28 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1]) by mail.gn.apc.org (Postfix) with ESMTP id 2AE0D2039208 for <hrpc@irtf.org>; Mon,  6 Apr 2015 16:22:27 +0100 (BST)
+X-Virus-Scanned: by amavisd-new at mail.gn.apc.org
+Received: from mail.gn.apc.org ([127.0.0.1]) by localhost (mail.gn.apc.org [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id q84HYet2NhXU for <hrpc@irtf.org>; Mon,  6 Apr 2015 16:22:25 +0100 (BST)
+Received: from anonymous ([10.254.254.3])  (using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits)) (No client certificate requested) (Authenticated sender: mallory) by mail.gn.apc.org (Postfix) with ESMTPSA id BAE252001D79 for <hrpc@irtf.org>; Mon,  6 Apr 2015 16:22:24 +0100 (BST)
+Message-ID: <5522A4AF.90304@apc.org>
+Date: Mon, 06 Apr 2015 11:22:23 -0400
+From: Mallory Knodel <mallory@apc.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20100101 Icedove/24.5.0
+MIME-Version: 1.0
+To: hrpc@irtf.org
+Content-Type: multipart/signed; micalg=pgp-sha1; protocol="application/pgp-signature"; boundary="eL2pPasp6thtLiQnhxcBoEQd1tQAOA2Wa"
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/w3iVA3LiB3y3Cjy5Ao_84gv4N1o>
+Subject: [Hrpc] ideas for data and concept visualisation
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://www.irtf.org/mail-archive/web/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 06 Apr 2015 15:22:44 -0000
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--eL2pPasp6thtLiQnhxcBoEQd1tQAOA2Wa
+Content-Type: multipart/alternative;
+ boundary="------------020405060404050608030406"
+
+This is a multi-part message in MIME format.
+--------------020405060404050608030406
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hi everyone
+
+Maybe some of you remember and have read the APC publication "Human
+rights and Internet protocols"[0]. APC was considering refreshing this
+at some point, but perhaps in the form of a visualisation of the concepts=
+=2E
+
+That leads me to imagine that there are other ideas for visualisation or
+infographics related to this work. Could folks share their thoughts? We
+should explore opportunities together, I think, for explaining different
+concepts to different audiences.
+
+-Mallory
+--=20
+Mallory Knodel
+Association for Progressive Communications :: apc.org <https://apc.org>
+gpg fingerprint :: E3EB 63E0 65A3 B240 BCD9 B071 0C32 A271 BD3C C780
+
+--------------020405060404050608030406
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+  <head>
+
+    <meta http-equiv=3D"content-type" content=3D"text/html; charset=3DISO=
+-8859-1">
+  </head>
+  <body bgcolor=3D"#FFFFFF" text=3D"#000000">
+    Hi everyone<br>
+    <br>
+    Maybe some of you remember and have read the APC publication "Human
+    rights and Internet protocols"[0]. APC was considering refreshing
+    this at some point, but perhaps in the form of a visualisation of
+    the concepts.<br>
+    <br>
+    That leads me to imagine that there are other ideas for
+    visualisation or infographics related to this work. Could folks
+    share their thoughts? We should explore opportunities together, I
+    think, for explaining different concepts to different audiences.<br>
+    <br>
+    -Mallory<br>
+    <div class=3D"moz-signature">-- <br>
+      Mallory Knodel<br>
+      Association for Progressive Communications :: <a
+        href=3D"https://apc.org">apc.org</a><br>
+      gpg fingerprint :: E3EB 63E0 65A3 B240 BCD9 B071 0C32 A271 BD3C
+      C780</div>
+  </body>
+</html>
+
+--------------020405060404050608030406--
+
+--eL2pPasp6thtLiQnhxcBoEQd1tQAOA2Wa
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJVIqSvAAoJEAwyonG9PMeAiwAIAK68mDIAEmjhNqvH8GxQZCgv
+eC7Kfo+62A/SdmvDGsFG2BBPs44085IOGWhDOEcP3jNIohIG0ZW5NvR8/fx8tlIe
+FNGKcKAOSFbCucOjXndkoaO7al0tpcTNJ6lrwY7VJR+C7H3rQH+0BIsSCCTVYzUm
+FxUjr2G2NRL7NU+bn59VvKj8Xn3lqABipD/iGrAkaaaX1xW56uRzK+NnK76xNIu7
+7mNP3DwWgpdY4zhHKoWfJvSqbPsL6YLb+Z1NLYv4slHx/FDBp2zHPHc0obmfXrkm
+QcoWkKO194eoq6bqeKm26fccBwZx2Zhc8vyD0lx7fZXIVWrUu+xtsAN7wjM2mns=
+=wwc/
+-----END PGP SIGNATURE-----
+
+--eL2pPasp6thtLiQnhxcBoEQd1tQAOA2Wa--
+
+
+From nobody Mon Apr  6 08:52:40 2015
+Return-Path: <mallory@apc.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id E05DE1A8979 for <hrpc@ietfa.amsl.com>; Mon,  6 Apr 2015 08:52:38 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -3.009
+X-Spam-Level: 
+X-Spam-Status: No, score=-3.009 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, HTML_MESSAGE=0.001, J_CHICKENPOX_12=0.6, J_CHICKENPOX_21=0.6, RCVD_IN_DNSWL_MED=-2.3, T_RP_MATCHES_RCVD=-0.01] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Xnwjbw3baPcx for <hrpc@ietfa.amsl.com>; Mon,  6 Apr 2015 08:52:37 -0700 (PDT)
+Received: from mail.gn.apc.org (mail.gn.apc.org [37.220.108.136]) (using TLSv1 with cipher ADH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 98D931A8AA4 for <hrpc@irtf.org>; Mon,  6 Apr 2015 08:52:30 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1]) by mail.gn.apc.org (Postfix) with ESMTP id 69ECD2003E82 for <hrpc@irtf.org>; Mon,  6 Apr 2015 16:52:29 +0100 (BST)
+X-Virus-Scanned: by amavisd-new at mail.gn.apc.org
+Received: from mail.gn.apc.org ([127.0.0.1]) by localhost (mail.gn.apc.org [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 8UAV4qLOw5o4 for <hrpc@irtf.org>; Mon,  6 Apr 2015 16:52:27 +0100 (BST)
+Received: from anonymous ([10.254.254.3])  (using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits)) (No client certificate requested) (Authenticated sender: mallory) by mail.gn.apc.org (Postfix) with ESMTPSA id 2A8152002335 for <hrpc@irtf.org>; Mon,  6 Apr 2015 16:52:27 +0100 (BST)
+Message-ID: <5522ABBA.1000506@apc.org>
+Date: Mon, 06 Apr 2015 11:52:26 -0400
+From: Mallory Knodel <mallory@apc.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20100101 Icedove/24.5.0
+MIME-Version: 1.0
+To: hrpc@irtf.org
+References: <5522A4AF.90304@apc.org>
+In-Reply-To: <5522A4AF.90304@apc.org>
+Content-Type: multipart/signed; micalg=pgp-sha1; protocol="application/pgp-signature"; boundary="EnpiJo0GCpm9fcwNeWfpJ43RHirjeS1sc"
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/DHaIBwfwlSh79FeYQEQyzZarRnM>
+Subject: Re: [Hrpc] ideas for data and concept visualisation
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://www.irtf.org/mail-archive/web/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 06 Apr 2015 15:52:39 -0000
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--EnpiJo0GCpm9fcwNeWfpJ43RHirjeS1sc
+Content-Type: multipart/alternative;
+ boundary="------------020709060703040300090303"
+
+This is a multi-part message in MIME format.
+--------------020709060703040300090303
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+
+On 04/06/2015 11:22 AM, Mallory Knodel wrote:
+> Hi everyone
+>
+> Maybe some of you remember and have read the APC publication "Human
+> rights and Internet protocols"[0]. APC was considering refreshing this
+> at some point, but perhaps in the form of a visualisation of the concep=
+ts.
+>
+> That leads me to imagine that there are other ideas for visualisation o=
+r
+> infographics related to this work. Could folks share their thoughts? We=
+
+> should explore opportunities together, I think, for explaining differen=
+t
+> concepts to different audiences.
+>
+> -Mallory
+[0]
+https://www.apc.org/en/pubs/human-rights-and-internet-protocols-comparing=
+-proc
+
+--=20
+Mallory Knodel
+Association for Progressive Communications :: apc.org <https://apc.org>
+gpg fingerprint :: E3EB 63E0 65A3 B240 BCD9 B071 0C32 A271 BD3C C780
+
+--------------020709060703040300090303
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+  <head>
+    <meta content=3D"text/html; charset=3DISO-8859-1"
+      http-equiv=3D"Content-Type">
+  </head>
+  <body bgcolor=3D"#FFFFFF" text=3D"#000000">
+    <br>
+    <br>
+    <div class=3D"moz-cite-prefix">On 04/06/2015 11:22 AM, Mallory Knodel=
+
+      wrote:<br>
+    </div>
+    <blockquote cite=3D"mid:5522A4AF.90304@apc.org" type=3D"cite">
+      <pre wrap=3D"">Hi everyone
+
+Maybe some of you remember and have read the APC publication "Human
+rights and Internet protocols"[0]. APC was considering refreshing this
+at some point, but perhaps in the form of a visualisation of the concepts=
+=2E
+
+That leads me to imagine that there are other ideas for visualisation or
+infographics related to this work. Could folks share their thoughts? We
+should explore opportunities together, I think, for explaining different
+concepts to different audiences.
+
+-Mallory
+</pre>
+    </blockquote>
+    [0]
+<a class=3D"moz-txt-link-freetext" href=3D"https://www.apc.org/en/pubs/hu=
+man-rights-and-internet-protocols-comparing-proc">https://www.apc.org/en/=
+pubs/human-rights-and-internet-protocols-comparing-proc</a><br>
+    <br>
+    <div class=3D"moz-signature">-- <br>
+      Mallory Knodel<br>
+      Association for Progressive Communications :: <a
+        href=3D"https://apc.org">apc.org</a><br>
+      gpg fingerprint :: E3EB 63E0 65A3 B240 BCD9 B071 0C32 A271 BD3C
+      C780</div>
+  </body>
+</html>
+
+--------------020709060703040300090303--
+
+--EnpiJo0GCpm9fcwNeWfpJ43RHirjeS1sc
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJVIqu6AAoJEAwyonG9PMeA8FsH/RulMz0dfCagic5NAxANWS3W
+1S7Kp+6x2iZ4mysJG6FnZfOyi61K3QIyqeqbby9FX60nZJbXpD7Fqy7CaOxX/CcS
+OopGX8lDU4WZ0sKKGSLCkfn5iUYqKc8VF6dEulYQeByBrUvr5aM6WK8EVSX56Sqi
+gmoag1tk/jcJPQrHZMH2+EYuSeaxT2R+t2anUmddftL4Dw2iJMNFERhMd8U42zqz
+YwQmmXvgP51jeCSwSLxGqdsrukg3dx+OY8aU1PxtNX1HI4cn+S9K5N8oKY4Uex0Y
+N3hzxoGNJ8ULowQH5WRWq8jM9MuXyvGrO9ha+VqSgr8LmC9WNDEgnc5g8NtgTb8=
+=n9nH
+-----END PGP SIGNATURE-----
+
+--EnpiJo0GCpm9fcwNeWfpJ43RHirjeS1sc--
+
+
+From nobody Mon Apr  6 13:43:45 2015
+Return-Path: <niels@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 521F11A9167 for <hrpc@ietfa.amsl.com>; Mon,  6 Apr 2015 13:43:44 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 3.124
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.124 tagged_above=-999 required=5 tests=[BAYES_50=0.8, HOST_EQ_NL=1.545, SPF_NEUTRAL=0.779] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id eRqjUsOeXw6Z for <hrpc@ietfa.amsl.com>; Mon,  6 Apr 2015 13:43:41 -0700 (PDT)
+Received: from mail.article19.io (vps784.greenhost.nl [213.108.108.114]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 86F211A9166 for <hrpc@irtf.org>; Mon,  6 Apr 2015 13:43:41 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTP id 598FBCC03D for <hrpc@irtf.org>; Mon,  6 Apr 2015 20:46:41 +0000 (UTC)
+Received: from mail.article19.io ([127.0.0.1]) by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10032) with ESMTP id 8jeYF55OFobv for <hrpc@irtf.org>; Mon,  6 Apr 2015 20:46:40 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTP id 4E225821B for <hrpc@irtf.org>; Mon,  6 Apr 2015 20:46:40 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+Received: from mail.article19.io ([127.0.0.1]) by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026) with ESMTP id aqnw0QUpM1UD for <hrpc@irtf.org>; Mon,  6 Apr 2015 20:46:40 +0000 (UTC)
+Received: from [192.168.0.14] (d109201.upc-d.chello.nl [213.46.109.201]) by mail.article19.io (Postfix) with ESMTPSA id 0B96C8176 for <hrpc@irtf.org>; Mon,  6 Apr 2015 20:46:40 +0000 (UTC)
+Message-ID: <5522EFF6.2000609@article19.org>
+Date: Mon, 06 Apr 2015 22:43:34 +0200
+From: Niels ten Oever <niels@article19.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:31.0) Gecko/20100101 Icedove/31.6.0
+MIME-Version: 1.0
+To: hrpc@irtf.org
+References: <55197462.7080508@kit.edu>
+In-Reply-To: <55197462.7080508@kit.edu>
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/3XJYBSuQLMruzlmpqZFcJ0mB-Xk>
+Subject: Re: [Hrpc] [hrpc] Some Thoughts
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://www.irtf.org/mail-archive/web/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 06 Apr 2015 20:43:44 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi Roland,
+
+Sorry I have been slow to respond.
+
+On 03/30/2015 06:05 PM, Bless, Roland (TM) wrote:
+> Hi,
+>=20
+> I think that the work is important and this proposed research
+> group needs input from different disciplines: IETF participants
+> representing the technical side, but also people from social
+> sciences and legal sciences.
+>=20
+> * Larry Masinter made a comment that there is also a need for=20
+> balancing rights. He is correct in the sense that different=20
+> stakeholders may have different objectives, because they focus also
+> on different values or assets. This typically leads to _conflicts_,
+> maybe even somewhere in the network as nicely described in [1].
+> Usually we use institutions like (social) norms, laws and courts in
+> order to resolve such conflicts, but also technical systems, either
+> implicitly or explicitly [2]. Since the Universal declaration of
+> human rights defines some of the highest values that we know, it's
+> probably a good starting point. Very often different societies have
+> different preferences for certain values.
+
+Thanks for this, in this light, how do you see the proposal made by
+Mark Nottingham to make end-users rights the highest priorities?
+Perhaps that would provide an extra tool/axis to balance rights?
+
+>=20
+> * There was some discussion about protocol definition and intended
+> use. I guess that the IETF always has a motivation and usage
+> scenario while defining protocols, but the IETF usually doesn't do
+> anything if the protocol is used in a different manner as
+> originally intended. I think the main point here is that IETF
+> participants could try to think about alternative protocol designs
+> that may result in different implications for human rights etc. It
+> may be beneficial to find a methodology how certain rights/values
+> could be realized in a better way (e.g., data minimization for=20
+> better privacy etc.).
+>=20
+> * Comments on slide 13 of the presentation. Some more concepts came
+> to my mind: - Accessibility (you need unfettered access to the=20
+> Internet/resources/information) - Openness (eases participation) -
+> Autonomy (e.g., Autonomous System approach) - Federations of
+> independent domains (ASes, Mail, XMPP servers etc.) Probably the
+> latter two are sub-principles or closely related to the distributed
+> nature of solutions. One could also view parts of the list from
+> slide 13 hierarchically like: Reliability -> Robustness ->
+> Stateless, Graceful failures/degradation, partial healing, etc.
+>=20
+
+Thanks! Adding these concepts to the working draft of the ID.
+
+> * On slide 15: the lower terms from "interoperable protocols ...=20
+> resilience" are concepts that can be used to achieve good/robust=20
+> connectivity. However, if I have no access to that robust and well
+> connected network, I'm limited in participation and maybe freedom
+> of association. Therefore, accessibility may be also important.
+
+Connectivity is already there under freedom of expression, do you
+think that would suffice?
+
+>=20
+> Regards, Roland
+
+Best,
+
+Niels
+>=20
+> [1] http://conferences.sigcomm.org/sigcomm/2002/papers/tussle.pdf=20
+> [2] https://harvardmagazine.com/2000/01/code-is-law-html
+>=20
+> _______________________________________________ hrpc mailing list=20
+> hrpc@article19.io https://lists.ghserv.net/mailman/listinfo/hrpc
+>=20
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.19 (GNU/Linux)
+
+iQEcBAEBAgAGBQJVIu/1AAoJEAi1oPJjbWjpSboIAJgj3X/cdJuNErNXFtA06tns
+wwPiK8tzOGcaHY1aGusYtkPScYGjnF/fMivEZFNQv++SPq5dkKrxAVeHtDb3R/1j
+w+Fzlu5ilmLvLet6dYP9hw8XDEqQLRkBkSu/BjXZ7TCn8wn4U1lC6cRWTZmEn8gy
+KLaJHuVKPaeBZcUq4OyObEihDGAXHex92gpDyKtDx/Ctham+RmlPIqiPhAw8HIkS
+DV0crdi6NSH+9tBFfb3jXr+sbYKu9WdjoiXCKa9shVRC8YIGkN6P8loa4DBktPvx
+w/Nyyp6FZFDs8GZALsrCHpcho6m2qdA36+FB+bRoUZyHPd3/biD+OR1oZ96zKV4=3D
+=3DFBAK
+-----END PGP SIGNATURE-----
+
+
+From nobody Mon Apr  6 14:14:00 2015
+Return-Path: <niels@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 533151ABD35 for <hrpc@ietfa.amsl.com>; Mon,  6 Apr 2015 14:13:59 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 2.323
+X-Spam-Level: **
+X-Spam-Status: No, score=2.323 tagged_above=-999 required=5 tests=[BAYES_20=-0.001, HOST_EQ_NL=1.545, SPF_NEUTRAL=0.779] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 3oYcenu4-eXv for <hrpc@ietfa.amsl.com>; Mon,  6 Apr 2015 14:13:58 -0700 (PDT)
+Received: from mail.article19.io (vps784.greenhost.nl [213.108.108.114]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 5E3531ABC10 for <hrpc@irtf.org>; Mon,  6 Apr 2015 14:13:58 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTP id AC022CC03D for <hrpc@irtf.org>; Mon,  6 Apr 2015 21:16:59 +0000 (UTC)
+Received: from mail.article19.io ([127.0.0.1]) by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10032) with ESMTP id 8ZK1cdTIDmub for <hrpc@irtf.org>; Mon,  6 Apr 2015 21:16:59 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTP id 14EC4CC03F for <hrpc@irtf.org>; Mon,  6 Apr 2015 21:16:59 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+Received: from mail.article19.io ([127.0.0.1]) by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026) with ESMTP id L4y01_nnT96V for <hrpc@irtf.org>; Mon,  6 Apr 2015 21:16:58 +0000 (UTC)
+Received: from [192.168.0.14] (d109201.upc-d.chello.nl [213.46.109.201]) by mail.article19.io (Postfix) with ESMTPSA id CE8C1CC03D for <hrpc@irtf.org>; Mon,  6 Apr 2015 21:16:58 +0000 (UTC)
+Message-ID: <5522F712.4060606@article19.org>
+Date: Mon, 06 Apr 2015 23:13:54 +0200
+From: Niels ten Oever <niels@article19.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:31.0) Gecko/20100101 Icedove/31.6.0
+MIME-Version: 1.0
+To: hrpc@irtf.org
+References: <55159D03.2090606@azet.org>
+In-Reply-To: <55159D03.2090606@azet.org>
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: 7bit
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/IkXxOzYl81ns8NRtY5Er6If8bOM>
+Subject: Re: [Hrpc] [hrpc] Nomenclature/Definition of Human Rights issues in Protocol Design
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://www.irtf.org/mail-archive/web/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 06 Apr 2015 21:13:59 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi Aaron,
+
+On 03/27/2015 07:10 PM, Aaron Zauner wrote:
+<<snip>>
+
+> I think the proper approach is to think of intent (as done in
+> security in general). Speaking of malicious intent when a protocol
+> is (mis)used in a way that causes human rights issues would be an
+> example.
+> 
+
+Why would one need the concept of intent when it can already been
+shown that a protocol is causing human rights violations?
+
+Intent is very hard to show, and only having a protocol be used the
+way it was intended would probably have negative consequences for
+permission-less innovation.
+
+Looking forward to discuss.
+
+Best,
+
+Niels
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.19 (GNU/Linux)
+
+iQEcBAEBAgAGBQJVIvcSAAoJEAi1oPJjbWjpmh4H/RZzLaAIXBvN4OJvRmmjyZH5
+1hDwWNgahXkovCr0aGi7sVd+MR4+KA56ncOTu9eIl7Jdo9if97YN/3btOJzIYqoS
+gx8xsBVnvr7RE5Y6ratXPDb4bdFucKAxa3Y2J99V1nBZlnx2WL0vR+hKiRf98nHS
+B+k1mWGzv3Rve6Rb250j0iaaJpKznB/W8wYdZvDwetaXiSo8IsbYZXKpQyCE1zwv
+NJWpBAJf+1jk4D4IkNZOImTzoAQ868k55HuJu3zXx4PWYMCdVDP5ZTkytdpXFzx+
+agyZM8pukP7A0cPOjN4AgPbBX5bh8yz0Dbn2KDPNV5f7ewvkMBLKEdXY/H6WavI=
+=/frh
+-----END PGP SIGNATURE-----
+
+
+From nobody Tue Apr  7 00:55:50 2015
+Return-Path: <fred@cisco.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id DD55D1A0397 for <hrpc@ietfa.amsl.com>; Tue,  7 Apr 2015 00:55:49 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -114.511
+X-Spam-Level: 
+X-Spam-Status: No, score=-114.511 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, RCVD_IN_DNSWL_HI=-5, SPF_PASS=-0.001, T_RP_MATCHES_RCVD=-0.01, USER_IN_DEF_DKIM_WL=-7.5, USER_IN_WHITELIST=-100] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id erXmUOQcWnGG for <hrpc@ietfa.amsl.com>; Tue,  7 Apr 2015 00:55:48 -0700 (PDT)
+Received: from alln-iport-5.cisco.com (alln-iport-5.cisco.com [173.37.142.92]) (using TLSv1 with cipher RC4-SHA (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 195541A038C for <hrpc@irtf.org>; Tue,  7 Apr 2015 00:55:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=cisco.com; i=@cisco.com; l=2080; q=dns/txt; s=iport; t=1428393348; x=1429602948; h=from:to:cc:subject:date:message-id:references: in-reply-to:mime-version; bh=AqGFVz2HwUOZLiHBtvPypy/uDpKGhYOBFMpQzfAq6wU=; b=Znxvz4BAPd4SxVUJfruTK3PRUuRzNEjfiq1tuuOGI2el2QfN1zJglJqi 4aGgDBscMQdI6Bsftc749l/MpOWsCg75Qw8AGCJSCeM8Wg9pnk6lUbPXt s3/QBhx+lhqYD/42Yc8/WwAJaDu9SQPLN2AVn+CUPSGUo7Rj69FUDgpVF g=;
+X-Files: signature.asc : 487
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A0AQBQBNjSNV/4MNJK1cgwhSXAWDEMIuhX0CgSZMAQEBAQEBfoQeAQEBAwEjVgULAgEIGCoCAjIlAgQOBQ6IGQgNtFOWXgEBAQEBAQEBAQEBAQEBAQEBAQEBAReLK4R8B4JoL4EWBZB0gW6BM1eGD4FXkwQigjOBPG+BRH8BAQE
+X-IronPort-AV: E=Sophos;i="5.11,536,1422921600";  d="asc'?scan'208";a="138903412"
+Received: from alln-core-1.cisco.com ([173.36.13.131]) by alln-iport-5.cisco.com with ESMTP; 07 Apr 2015 07:55:36 +0000
+Received: from xhc-aln-x09.cisco.com (xhc-aln-x09.cisco.com [173.36.12.83]) by alln-core-1.cisco.com (8.14.5/8.14.5) with ESMTP id t377taBT031502 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=FAIL); Tue, 7 Apr 2015 07:55:36 GMT
+Received: from xmb-rcd-x09.cisco.com ([169.254.9.67]) by xhc-aln-x09.cisco.com ([173.36.12.83]) with mapi id 14.03.0195.001; Tue, 7 Apr 2015 02:55:36 -0500
+From: "Fred Baker (fred)" <fred@cisco.com>
+To: Niels ten Oever <niels@article19.org>
+Thread-Topic: [Hrpc] [hrpc] Nomenclature/Definition of Human Rights issues in Protocol Design
+Thread-Index: AQHQcQg70rJ3JJKRhk6l9qIfq86qKQ==
+Date: Tue, 7 Apr 2015 07:55:36 +0000
+Message-ID: <44587782-78BB-444C-82FB-D59046150F6E@cisco.com>
+References: <55159D03.2090606@azet.org> <5522F712.4060606@article19.org>
+In-Reply-To: <5522F712.4060606@article19.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-originating-ip: [10.19.64.117]
+Content-Type: multipart/signed; boundary="Apple-Mail=_C61C3AA2-2E10-4F67-BF3E-D4683CB69F80"; protocol="application/pgp-signature"; micalg=pgp-sha1
+MIME-Version: 1.0
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/qL06sSgbbIBijYPf53Uuq04sKkc>
+Cc: "hrpc@irtf.org" <hrpc@irtf.org>
+Subject: Re: [Hrpc] [hrpc] Nomenclature/Definition of Human Rights issues in Protocol Design
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://www.irtf.org/mail-archive/web/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 07 Apr 2015 07:55:50 -0000
+
+--Apple-Mail=_C61C3AA2-2E10-4F67-BF3E-D4683CB69F80
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+
+> On Apr 6, 2015, at 2:13 PM, Niels ten Oever <niels@article19.org> =
+wrote:
+>=20
+> Why would one need the concept of intent when it can already been
+> shown that a protocol is causing human rights violations?
+
+You seem to start from the assumption that a protocol *causes* human =
+rights violations. It would help me if you could cite a case.
+
+Cause: http://dictionary.reference.com/browse/cause
+
+As we discussed at the IETF, the only one that comes close (that I can =
+quickly think of) is an IP address. It identifies a locality in the =
+routing system and can, under some circumstances, be correlated with a =
+geographic location and/or a subscriber.
+
+I would argue doesn=E2=80=99t *cause* human rights violations, any more =
+than the fact that my geographic address is on my business card. But it =
+might give someone intent on violating someone else=E2=80=99s rights the =
+information they need to do so.
+
+In my mind, the concept that a protocol element or design, or the misuse =
+of a protocol element or design, is *causal* in a human rights violation =
+remains to be shown.
+
+--Apple-Mail=_C61C3AA2-2E10-4F67-BF3E-D4683CB69F80
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="signature.asc"
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Message signed with OpenPGP using GPGMail
+
+-----BEGIN PGP SIGNATURE-----
+Comment: GPGTools - http://gpgtools.org
+
+iQEVAwUBVSOHK59ieig10VPpAQJW8Qf9FfZ/7eVep215eSZEYmJevmHbRDAbz1Vk
+BpDS2XNiqD+hidgphE78lyM3JiJ1DG3aC/jI3y2rS/xZ/5krTz7oQ3u7nykujn2X
+On4GZtIarf6GVCC7+3dfdlGXxzHzMJ5QzbretYIRxXtYR7c/JwtOo5N0LFmIZ4Mo
+oWdPSkPEYMqAslKz4WLcZBxbNjj1Br4tP5mamhpJbofD5AET/kN17iHJVJMxC1do
+PRvlqrranx8rBIey8VqZwN/T/7NE9GF35YRTgbLq9vukq076Jm/m4dCEVToW0QtJ
+C4n/tjHzBi/qUXVkDadJJ2QNU55VxiVBz2s4/nqhJothpbQPlbUHDA==
+=orPA
+-----END PGP SIGNATURE-----
+
+--Apple-Mail=_C61C3AA2-2E10-4F67-BF3E-D4683CB69F80--
+
+
+From nobody Tue Apr  7 04:54:05 2015
+Return-Path: <niels@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 554A01B3463 for <hrpc@ietfa.amsl.com>; Tue,  7 Apr 2015 04:54:04 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 0.424
+X-Spam-Level: 
+X-Spam-Status: No, score=0.424 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, HOST_EQ_NL=1.545, SPF_NEUTRAL=0.779] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id GwQLWhFmuM6Q for <hrpc@ietfa.amsl.com>; Tue,  7 Apr 2015 04:54:02 -0700 (PDT)
+Received: from mail.article19.io (vps784.greenhost.nl [213.108.108.114]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 035931B34FE for <hrpc@irtf.org>; Tue,  7 Apr 2015 04:54:01 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTP id 969B413002E; Tue,  7 Apr 2015 11:57:03 +0000 (UTC)
+Received: from mail.article19.io ([127.0.0.1]) by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10032) with ESMTP id GrlfxCuHAo5Y; Tue,  7 Apr 2015 11:57:02 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTP id 89C3A13002C; Tue,  7 Apr 2015 11:57:02 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+Received: from mail.article19.io ([127.0.0.1]) by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026) with ESMTP id eTdD1zkV8jjo; Tue,  7 Apr 2015 11:57:02 +0000 (UTC)
+Received: from [192.168.0.14] (d109201.upc-d.chello.nl [213.46.109.201]) by mail.article19.io (Postfix) with ESMTPSA id 3A40213002E; Tue,  7 Apr 2015 11:57:02 +0000 (UTC)
+Message-ID: <5523C554.5000004@article19.org>
+Date: Tue, 07 Apr 2015 13:53:56 +0200
+From: Niels ten Oever <niels@article19.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:31.0) Gecko/20100101 Icedove/31.6.0
+MIME-Version: 1.0
+To: "Fred Baker (fred)" <fred@cisco.com>
+References: <55159D03.2090606@azet.org> <5522F712.4060606@article19.org> <44587782-78BB-444C-82FB-D59046150F6E@cisco.com>
+In-Reply-To: <44587782-78BB-444C-82FB-D59046150F6E@cisco.com>
+Content-Type: multipart/signed; micalg=pgp-sha1; protocol="application/pgp-signature"; boundary="xhj25svflITJcgfWvBqG8hMbELXAHlEFk"
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/AgqhDmRflJ453Ie5NHLAI2RJ_AI>
+Cc: "hrpc@irtf.org" <hrpc@irtf.org>
+Subject: Re: [Hrpc] [hrpc] Nomenclature/Definition of Human Rights issues in Protocol Design
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://www.irtf.org/mail-archive/web/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 07 Apr 2015 11:54:04 -0000
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--xhj25svflITJcgfWvBqG8hMbELXAHlEFk
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+On 04/07/2015 09:55 AM, Fred Baker (fred) wrote:
+>=20
+>> On Apr 6, 2015, at 2:13 PM, Niels ten Oever
+>> <niels@article19.org> wrote:
+>>=20
+>> Why would one need the concept of intent when it can already been
+>>  shown that a protocol is causing human rights violations?
+>=20
+> You seem to start from the assumption that a protocol *causes*
+> human rights violations. It would help me if you could cite a
+> case.
+>=20
+> Cause: http://dictionary.reference.com/browse/cause
+
+I was reacting to Aaron who said that if a protocol caused human
+rights issues, one can speak of malicious intent, but if a protocol is
+causing human rights issues, one doesn't need to show intent.
+
+But your question remains valid.
+
+I would say that a protocol infringes on a users right to freedom of
+expression if it in-transparently negatively impacts the connectivity
+of the user.
+
+This could be done either intentionally or unintentionally.
+
+>=20
+> As we discussed at the IETF, the only one that comes close (that I=20
+> can quickly think of) is an IP address. It identifies a locality
+> in the routing system and can, under some circumstances, be
+> correlated with a geographic location and/or a subscriber.
+>=20
+> I would argue doesn=E2=80=99t *cause* human rights violations, any more=
+
+> than the fact that my geographic address is on my business card.
+> But it might give someone intent on violating someone else=E2=80=99s ri=
+ghts
+> the information they need to do so.
+>=20
+> In my mind, the concept that a protocol element or design, or the=20
+> misuse of a protocol element or design, is *causal* in a human
+> rights violation remains to be shown.
+>=20
+
+Am working on examples, but one (contentious) example that comes to
+mind is DRM which is often meant as a 'speed bump' that merely 'keeps
+honest people honest', but it is also limiting the non-commercial and
+personal use of content and also limiting the access to knowledge and
+the access to culture.
+
+EFF argues that EME (standardization of DRM in HTML by W3C) runs
+counter to the philosophy that "the Web needs to be a universal
+ecosystem that is based on open standards and fully implementable on
+equal terms by anyone, anywhere, without permission or negotiation."
+EME undermines the Web's compatibility by allowing sites to demand
+"specific proprietary third-party software or even special hardware
+and particular operating systems." [0]
+
+Best,
+
+Niels
+
+[0]
+http://arstechnica.com/business/2013/05/drm-in-html5-is-a-victory-for-the=
+-open-web-not-a-defeat/
+
+
+--xhj25svflITJcgfWvBqG8hMbELXAHlEFk
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.19 (GNU/Linux)
+
+iQEcBAEBAgAGBQJVI8VUAAoJEAi1oPJjbWjp6qsH/ArXaFjwQC8tM5Wr4zCVE0XW
+HatXRK/pKFKrObDjYwwAAxyW2ggVFynnu7D5Y7lmV0LlNT7fnDuwk4r/z6P6jCyj
+dt8TNz4Qv2QxFtGvHl2ESY/5nXQAS7UrRv4Ja4ROogVrL7hVaMJHk7pL3ICoHrEU
+uAmQnMQXRxCag7EvJCfD0WlkMKiOF2iHLePSLHFPPIs8TvfULm9x48lTKZdfDmOS
+1mZNYMOIw+mgVLqq4LVahkiypQfpcEEqmelIMuDf0ArlUYlKpnisN+dlG3acfOTv
+o9Z5Cugrf0YZxeMI7iE9XxoclcM0VbktRfh2IxIsKtLEJHd/xEh3X5mk4F6Wvqo=
+=YWvI
+-----END PGP SIGNATURE-----
+
+--xhj25svflITJcgfWvBqG8hMbELXAHlEFk--
+
+
+From nobody Tue Apr  7 06:23:49 2015
+Return-Path: <niels@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 703981B3589 for <hrpc@ietfa.amsl.com>; Tue,  7 Apr 2015 06:23:48 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 2.323
+X-Spam-Level: **
+X-Spam-Status: No, score=2.323 tagged_above=-999 required=5 tests=[BAYES_20=-0.001, HOST_EQ_NL=1.545, SPF_NEUTRAL=0.779] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id KkytCoT5_hnI for <hrpc@ietfa.amsl.com>; Tue,  7 Apr 2015 06:23:36 -0700 (PDT)
+Received: from mail.article19.io (vps784.greenhost.nl [213.108.108.114]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 556CB1B3584 for <hrpc@irtf.org>; Tue,  7 Apr 2015 06:23:36 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTP id 4A1001445C for <hrpc@irtf.org>; Tue,  7 Apr 2015 13:26:38 +0000 (UTC)
+Received: from mail.article19.io ([127.0.0.1]) by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10032) with ESMTP id XaZLiGKLZ457 for <hrpc@irtf.org>; Tue,  7 Apr 2015 13:26:37 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTP id 58457C001A for <hrpc@irtf.org>; Tue,  7 Apr 2015 13:26:37 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+Received: from mail.article19.io ([127.0.0.1]) by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026) with ESMTP id XMnxjoZirnGy for <hrpc@irtf.org>; Tue,  7 Apr 2015 13:26:37 +0000 (UTC)
+Received: from [192.168.0.14] (d109201.upc-d.chello.nl [213.46.109.201]) by mail.article19.io (Postfix) with ESMTPSA id 16477CC039 for <hrpc@irtf.org>; Tue,  7 Apr 2015 13:26:37 +0000 (UTC)
+Message-ID: <5523DA53.3060901@article19.org>
+Date: Tue, 07 Apr 2015 15:23:31 +0200
+From: Niels ten Oever <niels@article19.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:31.0) Gecko/20100101 Icedove/31.6.0
+MIME-Version: 1.0
+To: hrpc@irtf.org
+References: <5522A4AF.90304@apc.org> <5522ABBA.1000506@apc.org>
+In-Reply-To: <5522ABBA.1000506@apc.org>
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/5KD_t-j3z4y5-3pYoicuSIry604>
+Subject: Re: [Hrpc] ideas for data and concept visualisation
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://www.irtf.org/mail-archive/web/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 07 Apr 2015 13:23:48 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi Mallory,
+
+On 04/06/2015 05:52 PM, Mallory Knodel wrote:
+>=20
+>=20
+> On 04/06/2015 11:22 AM, Mallory Knodel wrote:
+>> Hi everyone
+>>=20
+>> Maybe some of you remember and have read the APC publication
+>> "Human rights and Internet protocols"[0]. APC was considering
+>> refreshing this at some point, but perhaps in the form of a
+>> visualisation of the concepts.
+>>=20
+
+This paper was important for us in envisioning this research, great
+you're thinking of putting it back under attention!
+
+
+>> That leads me to imagine that there are other ideas for
+>> visualisation or infographics related to this work. Could folks
+>> share their thoughts? We should explore opportunities together, I
+>> think, for explaining different concepts to different audiences.
+
+I think a lot of people would benefit from a good visualization of the
+hourglass (which is now actually, as someone pointed out at IETF92, a
+double stemmed martini glass (IPv4 & IPv6)), and what it actually means.
+
+A good, meaningful and easy visualization of the OSI model would also
+be golden, even-though there are other layer models around as well.
+This doesn't mean simply showing the model, but also explaining it of
+course.
+
+Personally I think packet-switching and IP are most fun to explain and
+is really beneficial for people to understand, and could be done in a
+nice visual way. By showing a stream of data and/or file being chopped
+up into packets/datagrams, send over the network and routed via
+different paths, and being put back together on the other side. This
+might be too complex though.
+
+If this would be a multi-layered visualization you could also perhaps
+click on the packet and see what it looks like, such as the ones made
+by Ange Albertini [0]
+
+Hope this helps.
+
+Best,
+
+Niels
+
+[0] http://www.redbubble.com/people/ange4771/portfolio
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.19 (GNU/Linux)
+
+iQEcBAEBAgAGBQJVI9pTAAoJEAi1oPJjbWjp2dIH+wfiTHYnFArpMYdJ60ET0fYO
+RU/vTIrbwyGkQe+HapqY07QQ+nLt9jyLetJyvfoVqwmvFOBUxm4StumwcYFku8wO
+2XLbKFNddEYSmAtGGAK8ERRvlJwH9NtAGE1yM44eYvzo7NjfSmOdeHbP4d7ltYDW
+FGisK1FAAf6dwTObc1hk9VNKULjD1oZQVBhPkLSfXeUU+xm8ZtsCK/DzuoE26xlt
+AanVbk3LzrK1dk1Ghr8y8ON4ZZmqzHcWQydp1qVfvkP/c4JgtRuhyHxzgABefPmE
+7UI6EBHzb9gTwbAv7KgXj5sPyHgOZ3usNTiDIYB9GJ/WXoUolzQ7LkLW2ZaktQs=3D
+=3DyPT4
+-----END PGP SIGNATURE-----
+
+
+From nobody Tue Apr  7 10:57:39 2015
+Return-Path: <fred@cisco.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 79E6C1B3941 for <hrpc@ietfa.amsl.com>; Tue,  7 Apr 2015 10:57:37 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -111.811
+X-Spam-Level: 
+X-Spam-Status: No, score=-111.811 tagged_above=-999 required=5 tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, RCVD_IN_DNSWL_HI=-5, SPF_PASS=-0.001, T_RP_MATCHES_RCVD=-0.01, USER_IN_DEF_DKIM_WL=-7.5, USER_IN_WHITELIST=-100] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id OMiAYBgErldV for <hrpc@ietfa.amsl.com>; Tue,  7 Apr 2015 10:57:31 -0700 (PDT)
+Received: from alln-iport-8.cisco.com (alln-iport-8.cisco.com [173.37.142.95]) (using TLSv1 with cipher RC4-SHA (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 09B531A9008 for <hrpc@irtf.org>; Tue,  7 Apr 2015 10:57:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=cisco.com; i=@cisco.com; l=5192; q=dns/txt; s=iport; t=1428429451; x=1429639051; h=from:to:cc:subject:date:message-id:references: in-reply-to:mime-version; bh=7LRBPjvdZZEZ9jY7Pe8MxxCdyt90bEiZLibVFr1/6vY=; b=R9VzidlsTxI0nWz0SLPsAtRccdXYxsOkp9x33cBHjGcuoNU1m+5pDd7H OZX4aFakk+T9DHhA90uQ1TXw3Q6RHBIipkBqqSEeeD33Wf2S8Dk1Cv0Bh 3/kjVlzVRtaz347r3CRaOctUeUgGwZ8uhSi8txiWhDiXdNZutE5scX60U 0=;
+X-Files: signature.asc : 487
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A0BvBQBYGSRV/5hdJa1cgwiBLgWDEMBkh08CgS86EgEBAQEBAQF9hB4BAQEDASNHDwULAgEIGCoCAjIlAgQOBQ4HiA0ItW6XBAEBAQEBAQEBAQEBAQEBAQEBAQEBAReLK4R8B4JogUUFkHSBboEzhmaBHY90g0oigjOBPG+BRH8BAQE
+X-IronPort-AV: E=Sophos;i="5.11,539,1422921600";  d="asc'?scan'208";a="138964474"
+Received: from rcdn-core-1.cisco.com ([173.37.93.152]) by alln-iport-8.cisco.com with ESMTP; 07 Apr 2015 17:57:30 +0000
+Received: from xhc-aln-x13.cisco.com (xhc-aln-x13.cisco.com [173.36.12.87]) by rcdn-core-1.cisco.com (8.14.5/8.14.5) with ESMTP id t37HvUlx008412 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=FAIL); Tue, 7 Apr 2015 17:57:30 GMT
+Received: from xmb-rcd-x09.cisco.com ([169.254.9.67]) by xhc-aln-x13.cisco.com ([173.36.12.87]) with mapi id 14.03.0195.001; Tue, 7 Apr 2015 12:57:29 -0500
+From: "Fred Baker (fred)" <fred@cisco.com>
+To: Niels ten Oever <niels@article19.org>
+Thread-Topic: [Hrpc] [hrpc] Nomenclature/Definition of Human Rights issues in Protocol Design
+Thread-Index: AQHQcQg70rJ3JJKRhk6l9qIfq86qKZ1BxM4AgABkDoA=
+Date: Tue, 7 Apr 2015 17:57:29 +0000
+Message-ID: <9FBED4E8-3013-4D34-BBFF-873694198309@cisco.com>
+References: <55159D03.2090606@azet.org> <5522F712.4060606@article19.org> <44587782-78BB-444C-82FB-D59046150F6E@cisco.com> <5523C554.5000004@article19.org>
+In-Reply-To: <5523C554.5000004@article19.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-originating-ip: [10.19.64.117]
+Content-Type: multipart/signed; boundary="Apple-Mail=_0061DC45-4E78-4DC3-AC8D-AB93ED755D59"; protocol="application/pgp-signature"; micalg=pgp-sha1
+MIME-Version: 1.0
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/ZG37ZIfHPVHi4Avg5bTDhqup6p4>
+Cc: "hrpc@irtf.org" <hrpc@irtf.org>
+Subject: Re: [Hrpc] [hrpc] Nomenclature/Definition of Human Rights issues in Protocol Design
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://www.irtf.org/mail-archive/web/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 07 Apr 2015 17:57:37 -0000
+
+--Apple-Mail=_0061DC45-4E78-4DC3-AC8D-AB93ED755D59
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+
+> On Apr 7, 2015, at 4:53 AM, Niels ten Oever <niels@article19.org> =
+wrote:
+>=20
+> Am working on examples, but one (contentious) example that comes to
+> mind is DRM which is often meant as a 'speed bump' that merely 'keeps
+> honest people honest', but it is also limiting the non-commercial and
+> personal use of content and also limiting the access to knowledge and
+> the access to culture.
+>=20
+> EFF argues that EME (standardization of DRM in HTML by W3C) runs
+> counter to the philosophy that "the Web needs to be a universal
+> ecosystem that is based on open standards and fully implementable on
+> equal terms by anyone, anywhere, without permission or negotiation."
+> EME undermines the Web's compatibility by allowing sites to demand
+> "specific proprietary third-party software or even special hardware
+> and particular operating systems." [0]
+
+Well, I think EFF is a little over the top. I would expect that someone =
+offering a service or content has the right to say under what =
+circumstances they are willing to do so. A grocery store sells food to =
+anyone that can enter the store and pay for the goods they choose. I =
+have, I think, a right to enter the store, choose food, pay for it, and =
+leave the store; I don=E2=80=99t have the right to leave without paying. =
+If Netflix is the =E2=80=9Cstore=E2=80=9D and video service is the =
+=E2=80=9Cfood=E2=80=9D, we have an analogous situation. I have the right =
+to purchase content services from Netflix, at a a mutually agreed price. =
+Youtube is also analogous, but with a price point of $0, and as a result =
+no requirement for much of the machinery for exchanging money.
+
+What I would require of an online retailer is that what they require, =
+and the means by which they ensure that requirements are met, be =
+transparent, and that the retailer be the person responsible for =
+enforcement of whatever provisions s/he requires.
+
+Digital products differ from food (in this context) primarily in that =
+food, once consumed, is unavailable, while digital content remains =
+available and usable. If a company spends half a billion dollars =
+creating a bit of content, I think it has a reasonable expectation of =
+recovering the cost of doing so plus profit. If once it releases the =
+first copy that gets distributed for free (=E2=80=9Cinformation wants to =
+be free=E2=80=9D), that expectation is no longer reasonable - people =
+will choose the unencumbered and free copy to the encumbered copy. If it =
+does not recover its costs and make something extra, it has neither the =
+capital nor the motivation to make the next bit of content. So hammering =
+on the point that =E2=80=9Cinformation wants to be free=E2=80=9D is a =
+good way to make such information no longer exist. There needs to be a =
+compromise unless the objective is to put the industry out of business.
+
+Where I do get a little antsy is with pricing. If I make a bit of =
+content that can be delivered as a hard copy book or a set of bits =
+delivered to my kindle-or-whatever t a nominal cost, when I purchase the =
+kindle version, I don=E2=80=99t think I should pay the price of a =
+physical copy. The value is comparable. If the cost is comparable, that =
+might justify the price being comparable. But I suspect that the cost =
+(while non-zero - someone bought the bandwidth to deliver it) is =
+significantly less than the creation and distribution of a physical =
+object. Hence, for me, if the price is comparable or higher than the =
+cost of the physical object, I vote with my feet and don=E2=80=99t buy =
+it.
+
+So I actually don=E2=80=99t have a problem with digital watermarking and =
+other methods of proving that someone created the content, and =
+expressing as a condition of the purchase that it is for the use of the =
+person to whom it was sold.
+
+What I do have a problem with is legal remedies like SOPA etc that make =
+the conduit (the ISP) responsible to enforce such things or collect =
+revenue. Your water pipes aren=E2=80=99t responsible for the water that =
+flows through them apart from contamination of the water. Why would your =
+ISP be responsible for what flows through the Intertubes?
+
+
+
+--Apple-Mail=_0061DC45-4E78-4DC3-AC8D-AB93ED755D59
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="signature.asc"
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Message signed with OpenPGP using GPGMail
+
+-----BEGIN PGP SIGNATURE-----
+Comment: GPGTools - http://gpgtools.org
+
+iQEVAwUBVSQZQ59ieig10VPpAQJffAf/ShaAijAtmXcFByoXPfdtHABcdN3rQS4b
+NfyZIm43W2I9I+olXKjjST2hkA8VM8kr7P+J55yCYbCOVod5+3MrB3OqlVJe1Pkk
+8V3tyQPb5DVjfYKuj359yAlIQwdGL8OEsquuanXshhbmqFGyyJHKiBP7xcbZ+2cG
+npuDPlhZm10lb8rzlyRsXiGc7LNEZiZWeaXskjqielYTdCJTyUZPT0Or9y6Bdh31
+B/lHISFZpgZdaYJBPGUbZLbKhTeE5m9TGvGgHbW5cQmlDnQq8tPRp9Q7zUbwB4/d
+iV1CRwTn2qexL9WMVbMbjXDheyzwWCA5/FZD1NIrtmdzxjAMCi5E0Q==
+=nd0D
+-----END PGP SIGNATURE-----
+
+--Apple-Mail=_0061DC45-4E78-4DC3-AC8D-AB93ED755D59--
+
+
+From nobody Thu Apr 30 03:20:57 2015
+Return-Path: <niels@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id B7A4F1AD0A7 for <hrpc@ietfa.amsl.com>; Thu, 30 Apr 2015 03:20:55 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 3.124
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.124 tagged_above=-999 required=5 tests=[BAYES_50=0.8, HOST_EQ_NL=1.545, SPF_NEUTRAL=0.779] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id vCe0L0HsTtRQ for <hrpc@ietfa.amsl.com>; Thu, 30 Apr 2015 03:20:53 -0700 (PDT)
+Received: from mail.article19.io (vps784.greenhost.nl [213.108.108.114]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 7C6891AD0A6 for <hrpc@irtf.org>; Thu, 30 Apr 2015 03:20:52 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTP id 58C98D0000 for <hrpc@irtf.org>; Thu, 30 Apr 2015 10:20:51 +0000 (UTC)
+Received: from mail.article19.io ([127.0.0.1]) by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10032) with ESMTP id Iyd8L4dGSe81 for <hrpc@irtf.org>; Thu, 30 Apr 2015 10:20:50 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTP id 7DC4ED0013 for <hrpc@irtf.org>; Thu, 30 Apr 2015 10:20:50 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+Received: from mail.article19.io ([127.0.0.1]) by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026) with ESMTP id b_tPn_WsDDyu for <hrpc@irtf.org>; Thu, 30 Apr 2015 10:20:50 +0000 (UTC)
+Received: from [192.168.1.7] (095-097-254-242.static.chello.nl [95.97.254.242]) by mail.article19.io (Postfix) with ESMTPSA id 09C17D0000 for <hrpc@irtf.org>; Thu, 30 Apr 2015 10:20:49 +0000 (UTC)
+Message-ID: <554202C3.7060106@article19.org>
+Date: Thu, 30 Apr 2015 12:24:03 +0200
+From: Niels ten Oever <niels@article19.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:31.0) Gecko/20100101 Icedove/31.6.0
+MIME-Version: 1.0
+To: "hrpc@irtf.org" <hrpc@irtf.org>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/5nqjtjpjTpGyqXsjOeca4o-pcUU>
+Subject: [Hrpc] draft charter
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://www.irtf.org/mail-archive/web/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 30 Apr 2015 10:20:55 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Dear all,
+
+I hope this email finds you well. Behind the scenes were working hard
+on the editing of the film of the recorded interviews we've done at
+IETF92 in Dallas, and there is more interesting work coming up, about
+which you'll hear more soon.
+
+We've also requested a 90 minutes timeslot for the IETF meeting in
+Prague.
+
+In the mean time Lars has asked us to come up with a draft charter,
+which would still change if/when the research group would be formally
+chartered. This text would be a placeholder and inform people (in the
+datatracker) about what this group is proposing to do.
+
+We came up with the following, I  would like to send a finalized
+version of this to Lars in a week, I am very much looking forward to
+your comments.
+
+Best,
+
+Niels
+
+Background
+The Human Rights Protocol Consideration Proposed Research Group is
+chartered to research whether standards and protocols can solidify,
+enable or threaten user rights. The research departs for the problem
+statement that decisive and human rights enabling characteristics of
+the Internet might be degraded if they're not properly defined,
+described and protected. Not defining these characteristics could
+result in (partial) loss of functionality and connectivity.
+
+As stated in RFC 1958, the Internet aims to be the global network of
+networks that provides unfettered connectivity to all users at all
+times and for any content.  Open, secure and reliable
+connectivity is essential for rights such as freedom of expression and
+freedom of association, as defined in the Universal Declaration   of
+Human Rights.  Therefore, considering connectivity as the ultimate
+objective of the Internet, this makes a clear case that the Internet
+is not only an enabler of human rights, but that human rights lie at
+the basis of, and are ingrained in, the architecture of the network.
+
+Objective
+This research aims to expose the relations between protocols and human
+rights, and propose guidelines to protect the rights enabling
+environment in future protocol development in a manner similar to the
+work done for RFC 6973 on Privacy Consideration Guidelines,
+
+Outputs
+The research group plans on using  a variety of research methods to
+create different outputs including (but not limited to):
+
+- - Internet drafts - (some of which may be put on IRSG RFC track)
+These would concern tracking of the project, methodology, and would
+define any possible protocol considerations.
+
+- - Policy and academic papers
+For in depth analysis and discussion on the relationship between human
+rights and the Internet architecture and protocols.
+
+- - Film based on interview with members of the community
+To give an accessible insight into the variety of opinions on this
+topic represented in the community by .
+
+- - Data analysis and visualization
+To research and visualize the language used in current and historic
+RFCs and mailinglist discussions to expose core architectural
+principles and language and deliberations on end-user rights.
+
+Membership
+Membership is open to any interested parties who intend to remain
+current with the published documents and mailing list issues.
+
+
+- --=20
+Niels ten Oever
+Head of Digital
+
+Article 19
+www.article19.org
+
+PGP fingerprint    8D9F C567 BEE4 A431 56C4
+                   678B 08B5 A0F2 636D 68E9
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQEcBAEBCAAGBQJVQgLDAAoJEAi1oPJjbWjpl78H/2zPnJUynrRToxJXCjTk1LG6
+rav/sN3dQiUwb7NJBM+CPbdjBZbVOvQoBQHc6mIo/gT0znOoBoU5B0W4HzDy0Edp
++ABkd7dpa2fSwligtuNa262xiArRkizV3gWsXUl2g+g1WimCnuFzwVa7JKpwT3Km
+/FaCqG1EiGSFczZY2mShVPJak61EsBh7hbWGzdRJYuA34lLThoNbttkQZvNo5T6Y
+GBnSTbMtvwIc5nDNdg64Fy1u6dM0YEYmrb2qJVO1g2aJr8QbKCronO0Ogl3/AwSc
+f8tNFOcC42MrryTNuE41JKFGDHXc9aLnOOPmPOOenLaWB3aCyZfMksJvTIQnc2U=3D
+=3Dpn3/
+-----END PGP SIGNATURE-----
+
+
+From nobody Thu Apr 30 06:46:37 2015
+Return-Path: <kathleen.moriarty.ietf@gmail.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id D22E21B29E7; Thu, 30 Apr 2015 06:24:21 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2
+X-Spam-Level: 
+X-Spam-Status: No, score=-2 tagged_above=-999 required=5 tests=[BAYES_00=-1.9,  DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, SPF_PASS=-0.001] autolearn=unavailable
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 4G1MA96YoUnM; Thu, 30 Apr 2015 06:24:19 -0700 (PDT)
+Received: from mail-vn0-x234.google.com (mail-vn0-x234.google.com [IPv6:2607:f8b0:400c:c0f::234]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id F35E51B29DE; Thu, 30 Apr 2015 06:24:18 -0700 (PDT)
+Received: by vnbg129 with SMTP id g129so7129633vnb.4; Thu, 30 Apr 2015 06:24:18 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=from:content-type:mime-version:subject:in-reply-to:date:cc :content-transfer-encoding:message-id:references:to; bh=mW4DWaI64TsxqtUQ2YuuPYajqw5ZNYvVjleuuF1x4Ok=; b=S964URf8x2JWNTzRTDjw6MeQcG4AtQyY4UEBP4a8YO8pkbisdvddYqZ+auhMyJGZ1I oXDJ3mcii4Oz0Cp5qlU1H8Ry45BLAB/yUKP99qXmwi8vrHqYdqh+toGGLD+UubivmDjc mG19kXid4enSV4hmcdrcD+pbposMCCji5b2so8u5Z+I8PFDGHqhDWv4BFZbmOuANz96H gJifq4O09HUAVXN7FxNaRQTaNaaHNNgAwvPlQgrZqvHfBrIPhQ8uaJm965PggNL5JdOs twVM/6UYHQ/ZeHa2hqK5k/p7MvlgbmOybe/pLccy4H+N8gkVpCbbv1SGlFV0fIJp9rRO 0K7Q==
+X-Received: by 10.52.110.231 with SMTP id id7mr7549073vdb.7.1430400258195; Thu, 30 Apr 2015 06:24:18 -0700 (PDT)
+Received: from [10.149.108.167] (mobile-107-107-62-133.mycingular.net. [107.107.62.133]) by mx.google.com with ESMTPSA id ug16sm3385328vdb.14.2015.04.30.06.24.16 (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128); Thu, 30 Apr 2015 06:24:16 -0700 (PDT)
+From: Kathleen Moriarty <kathleen.moriarty.ietf@gmail.com>
+X-Google-Original-From: Kathleen Moriarty <Kathleen.Moriarty.ietf@gmail.com>
+Content-Type: text/plain; charset=us-ascii
+Mime-Version: 1.0 (1.0)
+X-Mailer: iPhone Mail (11D257)
+In-Reply-To: <27FF041C-D844-4C4C-8B1B-42A6971C23C2@netapp.com>
+Date: Thu, 30 Apr 2015 09:24:16 -0400
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <7CF5D758-31E4-4444-BA14-396F07D5FBC2@gmail.com>
+References: <554202C3.7060106@article19.org> <27FF041C-D844-4C4C-8B1B-42A6971C23C2@netapp.com>
+To: "hrpc@irtf.org" <hrpc@irtf.org>
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/zph6fLnfTjz02cvvN_uNmvkASn8>
+X-Mailman-Approved-At: Thu, 30 Apr 2015 06:46:35 -0700
+Cc: IAB <iab@iab.org>, IESG <iesg@ietf.org>, Internet Research Steering Group <irsg@irtf.org>
+Subject: Re: [Hrpc] draft charter
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://www.irtf.org/mail-archive/web/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 30 Apr 2015 13:24:22 -0000
+
+The charter looks good, thank you for your work in this area.  I just have a=
+ couple of nits inline.
+
+Sent from my iPhone
+
+> On Apr 30, 2015, at 7:20 AM, "Eggert, Lars" <lars@netapp.com> wrote:
+>=20
+> Please comment on the hrpc@irtf.org list
+>=20
+> Begin forwarded message:
+>>=20
+>> From: Niels ten Oever <niels@article19.org>
+>> Subject: [Hrpc] draft charter
+>> Date: April 30, 2015 at 12:24:03 GMT+2
+>> To: "hrpc@irtf.org" <hrpc@irtf.org>
+>>=20
+>> Signed PGP part
+>> Dear all,
+>>=20
+>> I hope this email finds you well. Behind the scenes were working hard
+>> on the editing of the film of the recorded interviews we've done at
+>> IETF92 in Dallas, and there is more interesting work coming up, about
+>> which you'll hear more soon.
+>>=20
+>> We've also requested a 90 minutes timeslot for the IETF meeting in
+>> Prague.
+>>=20
+>> In the mean time Lars has asked us to come up with a draft charter,
+>> which would still change if/when the research group would be formally
+>> chartered. This text would be a placeholder and inform people (in the
+>> datatracker) about what this group is proposing to do.
+>>=20
+>> We came up with the following, I  would like to send a finalized
+>> version of this to Lars in a week, I am very much looking forward to
+>> your comments.
+>>=20
+>> Best,
+>>=20
+>> Niels
+>>=20
+>> Background
+>> The Human Rights Protocol Consideration Proposed
+
+I assume 'proposed' won't remain in the charter once published, do I'd remov=
+e it now to make sure it doesn't get left in there.
+
+>> Research Group is
+>> chartered to research whether standards and protocols can solidify,
+>> enable or threaten user rights. The research departs
+Do you mean departs or something else here?
+>> for
+Should this be 'from' instead of 'for'?
+>> the problem
+>> statement
+Add 'in'
+
+Or change this opening phrase to 'The research and problem statement state'
+>> that decisive and human rights enabling characteristics of
+>> the Internet might be degraded if they're not properly defined,
+>> described and protected. Not defining these characteristics could
+>> result in (partial) loss of functionality and connectivity.
+>>=20
+>> As stated in RFC 1958, the Internet aims to be the global network of
+>> networks that provides unfettered connectivity to all users at all
+>> times and for any content.  Open, secure and reliable
+>> connectivity is essential for rights such as freedom of expression and
+>> freedom of association, as defined in the Universal Declaration   of
+>> Human Rights.  Therefore, considering connectivity as the ultimate
+>> objective of the Internet, this makes a clear case that the Internet
+>> is not only an enabler of human rights, but that human rights lie at
+>> the basis of, and are ingrained in, the architecture of the network.
+>>=20
+>> Objective
+>> This research aims to expose the relations between protocols and human
+>> rights, and propose guidelines to protect the rights enabling
+>> environment in future protocol development in a manner similar to the
+>> work done for RFC 6973 on Privacy Consideration Guidelines,
+>>=20
+>> Outputs
+>> The research group plans on using  a variety of research methods to
+>> create different outputs including (but not limited to):
+>>=20
+>> - Internet drafts - (some of which may be put on IRSG RFC track)
+>> These would concern tracking of the project, methodology, and would
+>> define any possible protocol considerations.
+>>=20
+>> - Policy and academic papers
+>> For in depth analysis and discussion on the relationship between human
+>> rights and the Internet architecture and protocols.
+>>=20
+>> - Film based on interview with members of the community
+>> To give an accessible insight into the variety of opinions on this
+>> topic represented in the community by .
+>>=20
+Was there supposed to be a word after 'by'?  If not, delete 'by'.
+>> - Data analysis and visualization
+>> To research and visualize the language used in current and historic
+>> RFCs and mailinglist discussions to expose core architectural
+>> principles and language and deliberations on end-user rights.
+>>=20
+>> Membership
+>> Membership is open to any interested parties who intend to remain
+>> current with the published documents and mailing list issues.
+
+Best regards,
+Kathleen=20
+
+>>=20
+>>=20
+>> --
+>> Niels ten Oever
+>> Head of Digital
+>>=20
+>> Article 19
+>> www.article19.org
+>>=20
+>> PGP fingerprint    8D9F C567 BEE4 A431 56C4
+>>                   678B 08B5 A0F2 636D 68E9
+>>=20
+>>=20
+>> _______________________________________________
+>> Hrpc mailing list
+>> Hrpc@irtf.org
+>> https://www.irtf.org/mailman/listinfo/hrpc
+>=20
+
+
+From nobody Thu Apr 30 06:56:50 2015
+Return-Path: <niels@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 53BE51A9029 for <hrpc@ietfa.amsl.com>; Thu, 30 Apr 2015 06:56:49 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 0.424
+X-Spam-Level: 
+X-Spam-Status: No, score=0.424 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, HOST_EQ_NL=1.545, SPF_NEUTRAL=0.779] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id C7QCOx7pAhNi for <hrpc@ietfa.amsl.com>; Thu, 30 Apr 2015 06:56:46 -0700 (PDT)
+Received: from mail.article19.io (vps784.greenhost.nl [213.108.108.114]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 3F2F01B2A91 for <hrpc@irtf.org>; Thu, 30 Apr 2015 06:56:46 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTP id 9EE8E19C007 for <hrpc@irtf.org>; Thu, 30 Apr 2015 13:56:44 +0000 (UTC)
+Received: from mail.article19.io ([127.0.0.1]) by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10032) with ESMTP id 7zWqbhvNGFOI for <hrpc@irtf.org>; Thu, 30 Apr 2015 13:56:43 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTP id 8657119C00E for <hrpc@irtf.org>; Thu, 30 Apr 2015 13:56:43 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+Received: from mail.article19.io ([127.0.0.1]) by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026) with ESMTP id bFMnHeKbExpV for <hrpc@irtf.org>; Thu, 30 Apr 2015 13:56:43 +0000 (UTC)
+Received: from [192.168.1.7] (095-097-254-242.static.chello.nl [95.97.254.242]) by mail.article19.io (Postfix) with ESMTPSA id 3CD0519C007 for <hrpc@irtf.org>; Thu, 30 Apr 2015 13:56:43 +0000 (UTC)
+Message-ID: <5542355C.3020901@article19.org>
+Date: Thu, 30 Apr 2015 15:59:56 +0200
+From: Niels ten Oever <niels@article19.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:31.0) Gecko/20100101 Icedove/31.6.0
+MIME-Version: 1.0
+To: hrpc@irtf.org
+References: <554202C3.7060106@article19.org> <27FF041C-D844-4C4C-8B1B-42A6971C23C2@netapp.com> <7CF5D758-31E4-4444-BA14-396F07D5FBC2@gmail.com>
+In-Reply-To: <7CF5D758-31E4-4444-BA14-396F07D5FBC2@gmail.com>
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/0UM8cX5GkbNlxbSaYo19plQYLdc>
+Subject: Re: [Hrpc] draft charter
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://www.irtf.org/mail-archive/web/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 30 Apr 2015 13:56:49 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Thanks for your suggestions Kathleen, integrated your suggestions and
+made some further changes.
+
+Since the Research Group is still a Proposed Research Group that is
+not officially chartered yet (this is a decision made by the IRTF
+chair), I think that should remain in the title, but please correct me
+if I am wrong.
+
+Now it reads:
+
+Background
+The Human Rights Protocol Consideration Proposed Research Group is
+chartered to research whether standards and protocols can solidify,
+enable or threaten user rights. The research group takes as its
+starting point the problem statement that decisive and human rights
+enabling characteristics of the Internet might be degraded if they're
+not properly defined, described and protected. Not defining these
+characteristics could result in (partial) loss of functionality and
+connectivity.
+
+As stated in RFC 1958, the Internet aims to be the global network of
+networks that provides unfettered connectivity to all users at all
+times and for any content.  Open, secure and reliable
+connectivity is essential for rights such as freedom of expression and
+freedom of association, as defined in the Universal Declaration   of
+Human Rights.  Therefore, considering connectivity as the ultimate
+objective of the Internet, this makes a clear case that the Internet
+is not only an enabler of human rights, but that human rights lie at
+the basis of, and are ingrained in, the architecture of the network.
+
+Objective
+This research aims to expose the relations between protocols and human
+rights, and propose guidelines to protect the rights enabling
+environment in future protocol development in a manner similar to the
+work done for RFC 6973 on Privacy Consideration Guidelines,
+
+Outputs
+The research group plans on using  a variety of research methods to
+create different outputs including (but not limited to):
+
+- - Internet drafts - (some of which may be put on IRSG RFC track)
+These would concern tracking of the project, methodology, and would
+define any possible protocol considerations.
+
+- - Policy and academic papers
+For in depth analysis and discussion on the relationship between human
+rights and the Internet architecture and protocols.
+
+- - Film based on interviews with members of the community
+To give an accessible insight into the variety of opinions on this
+topic represented in the community.
+
+- - Data analysis and visualization
+To research and visualize the language used in current and historic
+RFCs and mailinglist discussions to expose core architectural
+principles and language and deliberations on end-user rights.
+
+Membership
+Membership is open to any interested parties who intend to remain
+current with the published documents and mailing list issues.
+
+
+Best,
+
+Niels
+
+Niels ten Oever
+Head of Digital
+
+Article 19
+www.article19.org
+
+PGP fingerprint    8D9F C567 BEE4 A431 56C4
+                   678B 08B5 A0F2 636D 68E9
+
+On 04/30/2015 03:24 PM, Kathleen Moriarty wrote:
+> The charter looks good, thank you for your work in this area.  I
+> just have a couple of nits inline.
+>=20
+> Sent from my iPhone
+>=20
+>> On Apr 30, 2015, at 7:20 AM, "Eggert, Lars" <lars@netapp.com>
+>> wrote:
+>>=20
+>> Please comment on the hrpc@irtf.org list
+>>=20
+>> Begin forwarded message:
+>>>=20
+>>> From: Niels ten Oever <niels@article19.org> Subject: [Hrpc]
+>>> draft charter Date: April 30, 2015 at 12:24:03 GMT+2 To:
+>>> "hrpc@irtf.org" <hrpc@irtf.org>
+>>>=20
+>>> Signed PGP part Dear all,
+>>>=20
+>>> I hope this email finds you well. Behind the scenes were
+>>> working hard on the editing of the film of the recorded
+>>> interviews we've done at IETF92 in Dallas, and there is more
+>>> interesting work coming up, about which you'll hear more soon.
+>>>=20
+>>> We've also requested a 90 minutes timeslot for the IETF meeting
+>>> in Prague.
+>>>=20
+>>> In the mean time Lars has asked us to come up with a draft
+>>> charter, which would still change if/when the research group
+>>> would be formally chartered. This text would be a placeholder
+>>> and inform people (in the datatracker) about what this group is
+>>> proposing to do.
+>>>=20
+>>> We came up with the following, I  would like to send a
+>>> finalized version of this to Lars in a week, I am very much
+>>> looking forward to your comments.
+>>>=20
+>>> Best,
+>>>=20
+>>> Niels
+>>>=20
+>>> Background The Human Rights Protocol Consideration Proposed
+>=20
+> I assume 'proposed' won't remain in the charter once published, do
+> I'd remove it now to make sure it doesn't get left in there.
+>=20
+>>> Research Group is chartered to research whether standards and
+>>> protocols can solidify, enable or threaten user rights. The
+>>> research departs
+> Do you mean departs or something else here?
+>>> for
+> Should this be 'from' instead of 'for'?
+>>> the problem statement
+> Add 'in'
+>=20
+> Or change this opening phrase to 'The research and problem
+> statement state'
+>>> that decisive and human rights enabling characteristics of the
+>>> Internet might be degraded if they're not properly defined,=20
+>>> described and protected. Not defining these characteristics
+>>> could result in (partial) loss of functionality and
+>>> connectivity.
+>>>=20
+>>> As stated in RFC 1958, the Internet aims to be the global
+>>> network of networks that provides unfettered connectivity to
+>>> all users at all times and for any content.  Open, secure and
+>>> reliable connectivity is essential for rights such as freedom
+>>> of expression and freedom of association, as defined in the
+>>> Universal Declaration   of Human Rights.  Therefore,
+>>> considering connectivity as the ultimate objective of the
+>>> Internet, this makes a clear case that the Internet is not only
+>>> an enabler of human rights, but that human rights lie at the
+>>> basis of, and are ingrained in, the architecture of the
+>>> network.
+>>>=20
+>>> Objective This research aims to expose the relations between
+>>> protocols and human rights, and propose guidelines to protect
+>>> the rights enabling environment in future protocol development
+>>> in a manner similar to the work done for RFC 6973 on Privacy
+>>> Consideration Guidelines,
+>>>=20
+>>> Outputs The research group plans on using  a variety of
+>>> research methods to create different outputs including (but not
+>>> limited to):
+>>>=20
+>>> - Internet drafts - (some of which may be put on IRSG RFC
+>>> track) These would concern tracking of the project,
+>>> methodology, and would define any possible protocol
+>>> considerations.
+>>>=20
+>>> - Policy and academic papers For in depth analysis and
+>>> discussion on the relationship between human rights and the
+>>> Internet architecture and protocols.
+>>>=20
+>>> - Film based on interview with members of the community To give
+>>> an accessible insight into the variety of opinions on this=20
+>>> topic represented in the community by .
+>>>=20
+> Was there supposed to be a word after 'by'?  If not, delete 'by'.
+>>> - Data analysis and visualization To research and visualize the
+>>> language used in current and historic RFCs and mailinglist
+>>> discussions to expose core architectural principles and
+>>> language and deliberations on end-user rights.
+>>>=20
+>>> Membership Membership is open to any interested parties who
+>>> intend to remain current with the published documents and
+>>> mailing list issues.
+>=20
+> Best regards, Kathleen
+>=20
+>>>=20
+>>>=20
+>>> -- Niels ten Oever Head of Digital
+>>>=20
+>>> Article 19 www.article19.org
+>>>=20
+>>> PGP fingerprint    8D9F C567 BEE4 A431 56C4 678B 08B5 A0F2 636D
+>>> 68E9
+>>>=20
+>>>=20
+>>> _______________________________________________ Hrpc mailing
+>>> list Hrpc@irtf.org https://www.irtf.org/mailman/listinfo/hrpc
+>>=20
+>=20
+> _______________________________________________ Hrpc mailing list=20
+> Hrpc@irtf.org https://www.irtf.org/mailman/listinfo/hrpc
+>=20
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQEcBAEBCAAGBQJVQjVcAAoJEAi1oPJjbWjpIPkIAJzCxRmCGMC1Z88Pp1Mspqm2
+nx9rd+DViykE/A7a6/ALqIihPE1slmPcdF5IGXZF9VJwPbOZjwFKhQb3AB9zjWe3
+AG5VzaSkdBBH2UktPqv/tpQolyj9eoWC5zV/nO+NjezeUT09KkhjYakSICp2XCMw
+oECnmd2QRPVRxaDjA6ETrXAwAPqwwtpQOBJn8gJreKA0B8pMm7qTuLJzMRM4Pj6Z
+u43eUoH4abWkhAxYEVORMXs/WgwXc7EBaQu5cAFQdF5/WLtq3zCIY3IZ5kTHaFng
+EejlLMct+bLmgdDu+2cu22Nb2Pl/dR5BuuI1FnF+fb+bpanyEvfhhGzt1L9bE7A=3D
+=3DAOup
+-----END PGP SIGNATURE-----
+
+
+From nobody Thu Apr 30 07:11:54 2015
+Return-Path: <stephen.farrell@cs.tcd.ie>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id CC6F11B2AEE for <hrpc@ietfa.amsl.com>; Thu, 30 Apr 2015 07:11:52 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -4.21
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.21 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_MED=-2.3, T_RP_MATCHES_RCVD=-0.01] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id dqs7OdWHOEMk for <hrpc@ietfa.amsl.com>; Thu, 30 Apr 2015 07:11:50 -0700 (PDT)
+Received: from mercury.scss.tcd.ie (mercury.scss.tcd.ie [134.226.56.6]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 4A00C1B2AE6 for <hrpc@irtf.org>; Thu, 30 Apr 2015 07:11:49 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1]) by mercury.scss.tcd.ie (Postfix) with ESMTP id 1B877BE59; Thu, 30 Apr 2015 15:11:48 +0100 (IST)
+X-Virus-Scanned: Debian amavisd-new at scss.tcd.ie
+Received: from mercury.scss.tcd.ie ([127.0.0.1]) by localhost (mercury.scss.tcd.ie [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id lANilxFhmnRp; Thu, 30 Apr 2015 15:11:45 +0100 (IST)
+Received: from [10.87.48.73] (unknown [86.46.18.22]) by mercury.scss.tcd.ie (Postfix) with ESMTPSA id 721C5BE53; Thu, 30 Apr 2015 15:11:45 +0100 (IST)
+Message-ID: <55423821.9050003@cs.tcd.ie>
+Date: Thu, 30 Apr 2015 15:11:45 +0100
+From: Stephen Farrell <stephen.farrell@cs.tcd.ie>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:31.0) Gecko/20100101 Thunderbird/31.6.0
+MIME-Version: 1.0
+To: Niels ten Oever <niels@article19.org>, hrpc@irtf.org
+References: <554202C3.7060106@article19.org> <27FF041C-D844-4C4C-8B1B-42A6971C23C2@netapp.com> <7CF5D758-31E4-4444-BA14-396F07D5FBC2@gmail.com> <5542355C.3020901@article19.org>
+In-Reply-To: <5542355C.3020901@article19.org>
+OpenPGP: id=D66EA7906F0B897FB2E97D582F3C8736805F8DA2; url=
+Content-Type: multipart/signed; micalg=pgp-sha256; protocol="application/pgp-signature"; boundary="nLlXKKnh0k3huuaTRslkjrLwovLUN4UT5"
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/Obb-1DXAejBQoY8OJUqaVwW3Ke4>
+Subject: Re: [Hrpc] draft charter
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://www.irtf.org/mail-archive/web/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 30 Apr 2015 14:11:52 -0000
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--nLlXKKnh0k3huuaTRslkjrLwovLUN4UT5
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+Hiya,
+
+For context, I still have no clue what if any outcomes we might see
+here, but I very much support the idea of trying to find that out:-)
+(Assuming we have enough folks active etc.)
+
+Some comments/questions below:
+
+On 30/04/15 14:59, Niels ten Oever wrote:
+> Thanks for your suggestions Kathleen, integrated your suggestions and
+> made some further changes.
+>=20
+> Since the Research Group is still a Proposed Research Group that is
+> not officially chartered yet (this is a decision made by the IRTF
+> chair), I think that should remain in the title, but please correct me
+> if I am wrong.
+>=20
+> Now it reads:
+>=20
+> Background
+> The Human Rights Protocol Consideration Proposed Research Group is
+> chartered to research whether standards and protocols can solidify,
+> enable or threaten user rights.=20
+
+What is a "user right" is it the same as a "human right"? I'd say
+lose the former term would be better.
+
+And I think you could start with a pointer to what you think defines
+human rights? (The UDHR? [1]) Many IETF type folks won't be familiar
+with that so it's worth an explicit reference maybe.
+
+  [1] http://www.un.org/en/documents/udhr/
+
+> The research group takes as its
+> starting point the problem statement that decisive and human rights
+> enabling characteristics of the Internet might be degraded if they're
+> not properly defined, described and protected. Not defining these
+> characteristics could result in (partial) loss of functionality and
+> connectivity.
+
+Hmm. I'm not sure I agree 100% with the thesis there. But it's
+defensible I agree. My issue with it is that I have seen cases
+where the act of asking if X is allowed results in X, that used
+to be not-disallowed, no longer being allowed;-)
+
+I think you could make a better argument to the effect that we
+don't know much about how Internet protocols and human rights
+intersect and since the Internet is now quite important, it's
+a good idea to study that.
+
+> As stated in RFC 1958, the Internet aims to be the global network of
+> networks that provides unfettered connectivity to all users at all
+> times and for any content.  Open, secure and reliable
+> connectivity is essential for rights such as freedom of expression and
+> freedom of association, as defined in the Universal Declaration   of
+> Human Rights.  Therefore, considering connectivity as the ultimate
+> objective of the Internet, this makes a clear case that the Internet
+> is not only an enabler of human rights, but that human rights lie at
+> the basis of, and are ingrained in, the architecture of the network.
+
+"basis of, and are ingrained in," may be overstatement. I think it
+would be fair to say that the architecture makes assumptions that
+clearly overlap with the UDHR though, even if we don't fully
+understand the overlaps.
+
+>=20
+> Objective
+> This research aims to expose the relations between protocols and human
+> rights, and propose guidelines to protect the rights enabling
+> environment in future protocol development in a manner similar to the
+> work done for RFC 6973 on Privacy Consideration Guidelines,
+>=20
+> Outputs
+> The research group plans on using  a variety of research methods to
+> create different outputs including (but not limited to):
+>=20
+> - Internet drafts - (some of which may be put on IRSG RFC track)
+> These would concern tracking of the project, methodology, and would
+> define any possible protocol considerations.
+>=20
+> - Policy and academic papers
+> For in depth analysis and discussion on the relationship between human
+> rights and the Internet architecture and protocols.
+>=20
+> - Film based on interviews with members of the community
+> To give an accessible insight into the variety of opinions on this
+> topic represented in the community.
+>=20
+> - Data analysis and visualization
+> To research and visualize the language used in current and historic
+> RFCs and mailinglist discussions to expose core architectural
+> principles and language and deliberations on end-user rights.
+
+Maybe education is an objective? Both so HR folks learn more
+about real protocol stuff but also vice versa, so pointy headed
+protocol developers learn some more about how their work might
+influence HR.
+
+Cheers,
+S.
+
+
+>=20
+> Membership
+> Membership is open to any interested parties who intend to remain
+> current with the published documents and mailing list issues.
+>=20
+>=20
+> Best,
+>=20
+> Niels
+>=20
+> Niels ten Oever
+> Head of Digital
+>=20
+> Article 19
+> www.article19.org
+>=20
+> PGP fingerprint    8D9F C567 BEE4 A431 56C4
+>                    678B 08B5 A0F2 636D 68E9
+>=20
+> On 04/30/2015 03:24 PM, Kathleen Moriarty wrote:
+>> The charter looks good, thank you for your work in this area.  I
+>> just have a couple of nits inline.
+>=20
+>> Sent from my iPhone
+>=20
+>>> On Apr 30, 2015, at 7:20 AM, "Eggert, Lars" <lars@netapp.com>
+>>> wrote:
+>>>
+>>> Please comment on the hrpc@irtf.org list
+>>>
+>>> Begin forwarded message:
+>>>>
+>>>> From: Niels ten Oever <niels@article19.org> Subject: [Hrpc]
+>>>> draft charter Date: April 30, 2015 at 12:24:03 GMT+2 To:
+>>>> "hrpc@irtf.org" <hrpc@irtf.org>
+>>>>
+>>>> Signed PGP part Dear all,
+>>>>
+>>>> I hope this email finds you well. Behind the scenes were
+>>>> working hard on the editing of the film of the recorded
+>>>> interviews we've done at IETF92 in Dallas, and there is more
+>>>> interesting work coming up, about which you'll hear more soon.
+>>>>
+>>>> We've also requested a 90 minutes timeslot for the IETF meeting
+>>>> in Prague.
+>>>>
+>>>> In the mean time Lars has asked us to come up with a draft
+>>>> charter, which would still change if/when the research group
+>>>> would be formally chartered. This text would be a placeholder
+>>>> and inform people (in the datatracker) about what this group is
+>>>> proposing to do.
+>>>>
+>>>> We came up with the following, I  would like to send a
+>>>> finalized version of this to Lars in a week, I am very much
+>>>> looking forward to your comments.
+>>>>
+>>>> Best,
+>>>>
+>>>> Niels
+>>>>
+>>>> Background The Human Rights Protocol Consideration Proposed
+>=20
+>> I assume 'proposed' won't remain in the charter once published, do
+>> I'd remove it now to make sure it doesn't get left in there.
+>=20
+>>>> Research Group is chartered to research whether standards and
+>>>> protocols can solidify, enable or threaten user rights. The
+>>>> research departs
+>> Do you mean departs or something else here?
+>>>> for
+>> Should this be 'from' instead of 'for'?
+>>>> the problem statement
+>> Add 'in'
+>=20
+>> Or change this opening phrase to 'The research and problem
+>> statement state'
+>>>> that decisive and human rights enabling characteristics of the
+>>>> Internet might be degraded if they're not properly defined,=20
+>>>> described and protected. Not defining these characteristics
+>>>> could result in (partial) loss of functionality and
+>>>> connectivity.
+>>>>
+>>>> As stated in RFC 1958, the Internet aims to be the global
+>>>> network of networks that provides unfettered connectivity to
+>>>> all users at all times and for any content.  Open, secure and
+>>>> reliable connectivity is essential for rights such as freedom
+>>>> of expression and freedom of association, as defined in the
+>>>> Universal Declaration   of Human Rights.  Therefore,
+>>>> considering connectivity as the ultimate objective of the
+>>>> Internet, this makes a clear case that the Internet is not only
+>>>> an enabler of human rights, but that human rights lie at the
+>>>> basis of, and are ingrained in, the architecture of the
+>>>> network.
+>>>>
+>>>> Objective This research aims to expose the relations between
+>>>> protocols and human rights, and propose guidelines to protect
+>>>> the rights enabling environment in future protocol development
+>>>> in a manner similar to the work done for RFC 6973 on Privacy
+>>>> Consideration Guidelines,
+>>>>
+>>>> Outputs The research group plans on using  a variety of
+>>>> research methods to create different outputs including (but not
+>>>> limited to):
+>>>>
+>>>> - Internet drafts - (some of which may be put on IRSG RFC
+>>>> track) These would concern tracking of the project,
+>>>> methodology, and would define any possible protocol
+>>>> considerations.
+>>>>
+>>>> - Policy and academic papers For in depth analysis and
+>>>> discussion on the relationship between human rights and the
+>>>> Internet architecture and protocols.
+>>>>
+>>>> - Film based on interview with members of the community To give
+>>>> an accessible insight into the variety of opinions on this=20
+>>>> topic represented in the community by .
+>>>>
+>> Was there supposed to be a word after 'by'?  If not, delete 'by'.
+>>>> - Data analysis and visualization To research and visualize the
+>>>> language used in current and historic RFCs and mailinglist
+>>>> discussions to expose core architectural principles and
+>>>> language and deliberations on end-user rights.
+>>>>
+>>>> Membership Membership is open to any interested parties who
+>>>> intend to remain current with the published documents and
+>>>> mailing list issues.
+>=20
+>> Best regards, Kathleen
+>=20
+>>>>
+>>>>
+>>>> -- Niels ten Oever Head of Digital
+>>>>
+>>>> Article 19 www.article19.org
+>>>>
+>>>> PGP fingerprint    8D9F C567 BEE4 A431 56C4 678B 08B5 A0F2 636D
+>>>> 68E9
+>>>>
+>>>>
+>>>> _______________________________________________ Hrpc mailing
+>>>> list Hrpc@irtf.org https://www.irtf.org/mailman/listinfo/hrpc
+>>>
+>=20
+>> _______________________________________________ Hrpc mailing list=20
+>> Hrpc@irtf.org https://www.irtf.org/mailman/listinfo/hrpc
+>=20
+>=20
+> _______________________________________________
+> Hrpc mailing list
+> Hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+>=20
+>=20
+
+
+--nLlXKKnh0k3huuaTRslkjrLwovLUN4UT5
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQEcBAEBCAAGBQJVQjghAAoJEC88hzaAX42ihE4H/1cQb8dN17hf4669GOVwMd0J
+AabZayCR6eusOK+ooDDerUY933OXDXUlT4Nw01g5fnnsPOfHcPjBbuOiu6oJvO+T
+0poCdPGpYQ/wb7hbWWC1LvAWxGpqkJuzAUs0fbX+VEwb41G9TgtfLG+zLUtC3FOo
+8R7y3IrKZ9jBaN1yLTk2MBrnU1j31nz9PJt4y+i/yyJZ3Q//XZY0rBUGaV7WtmBd
+aB2BnIS9KxOns6njI6Y60rVenYbt+OMTKYYFgkXtap8rfbhp4GIQ2Angk4C7mR2i
+Qlbn3lc9G1HYnMNaMFTowTDecA4gbjmsl5w8ZoMZbtJVm9HW9BqlCihY1xj9M9g=
+=O6RZ
+-----END PGP SIGNATURE-----
+
+--nLlXKKnh0k3huuaTRslkjrLwovLUN4UT5--
+
+
+From nobody Thu Apr 30 07:18:38 2015
+Return-Path: <aretana@cisco.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 245941B2AFF; Thu, 30 Apr 2015 07:16:58 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -14.511
+X-Spam-Level: 
+X-Spam-Status: No, score=-14.511 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, RCVD_IN_DNSWL_HI=-5, SPF_PASS=-0.001, T_RP_MATCHES_RCVD=-0.01, USER_IN_DEF_DKIM_WL=-7.5] autolearn=unavailable
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id kPsrZrWt4R4K; Thu, 30 Apr 2015 07:16:57 -0700 (PDT)
+Received: from rcdn-iport-7.cisco.com (rcdn-iport-7.cisco.com [173.37.86.78]) (using TLSv1 with cipher RC4-SHA (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id D80B71B2B00; Thu, 30 Apr 2015 07:16:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=cisco.com; i=@cisco.com; l=2652; q=dns/txt; s=iport; t=1430403416; x=1431613016; h=from:to:cc:subject:date:message-id:references: in-reply-to:content-id:content-transfer-encoding: mime-version; bh=4o9mB7/LxDAv/t8NN2BvT24MkkcGR4dBvUrfiNaII7A=; b=Aq5mIlbtCdmE8XTAbMPY2mElejpVMJrmipGfMEEEpAldgGDRUhLY+s07 FusKo7hswW76Y2FV4mXoDiCVwnWAvPtiMyy/gD1ADCIOa2Q5n1fjz2UuL KwWb5nteiLrRuje/VhuUvRm87jcVxGm1SZzSG45usaZjv07okG3e8U1Fy o=;
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A0A3BQCgOEJV/4YNJK1cgwyBLwXNKgKBUUwBAQEBAQGBC4QhAQEDAXIHEAIBCBI0MhcOAgQOBYgjCMgPAQEBAQEBAQEBAQEBAQEBAQEBARmLOIRSMweELQEEj0aCJIpIgSODS4Jxjh4jgWWCD2+BRIEBAQEB
+X-IronPort-AV: E=Sophos;i="5.11,677,1422921600"; d="scan'208";a="416006107"
+Received: from alln-core-12.cisco.com ([173.36.13.134]) by rcdn-iport-7.cisco.com with ESMTP; 30 Apr 2015 14:16:55 +0000
+Received: from xhc-aln-x03.cisco.com (xhc-aln-x03.cisco.com [173.36.12.77]) by alln-core-12.cisco.com (8.14.5/8.14.5) with ESMTP id t3UEGtZc001949 (version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=FAIL); Thu, 30 Apr 2015 14:16:55 GMT
+Received: from xmb-aln-x15.cisco.com ([169.254.9.76]) by xhc-aln-x03.cisco.com ([173.36.12.77]) with mapi id 14.03.0195.001; Thu, 30 Apr 2015 09:16:54 -0500
+From: "Alvaro Retana (aretana)" <aretana@cisco.com>
+To: "hrpc@irtf.org" <hrpc@irtf.org>
+Thread-Topic: [Hrpc] draft charter
+Thread-Index: AQHQgy9a2IhC4U5L+kaT1AckuXeuI51lqv4A
+Date: Thu, 30 Apr 2015 14:16:54 +0000
+Message-ID: <D167AC74.AB4F2%aretana@cisco.com>
+References: <554202C3.7060106@article19.org> <27FF041C-D844-4C4C-8B1B-42A6971C23C2@netapp.com>
+In-Reply-To: <27FF041C-D844-4C4C-8B1B-42A6971C23C2@netapp.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [10.117.15.4]
+Content-Type: text/plain; charset="Windows-1252"
+Content-ID: <5CFC11E526FB6945ADD4BFD931A60CB5@emea.cisco.com>
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/Sh3YJYF8vmiz40cYTRKv2o9y_2I>
+X-Mailman-Approved-At: Thu, 30 Apr 2015 07:18:38 -0700
+Cc: IAB <iab@iab.org>, IESG <iesg@ietf.org>, Internet Research Steering Group <irsg@irtf.org>
+Subject: Re: [Hrpc] draft charter
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://www.irtf.org/mail-archive/web/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 30 Apr 2015 14:16:58 -0000
+
+On 4/30/15, 7:20 AM, "Eggert, Lars" <lars@netapp.com> wrote:
+
+>Please comment on the hrpc@irtf.org list
+
+Hi!
+
+This looks like very interesting work.
+
+. . .
+>>The Human Rights Protocol Consideration Proposed Research Group is
+>> chartered to research whether standards and protocols can solidify,
+>> enable or threaten user rights.
+
+The charter should be to be very clear about what Human Rights are.  For
+example, the Universal Declaration of Human Rights was mentioned (below),
+but just as a reference, and not as the authoritative source.  It may be
+obvious to many that it would be the source, but there may be other
+interpretations.
+
+Along the same vein of being clear and explicit, the paragraph above
+starts talking about human rights, but it ends with =B3user rights=B2.  Are
+these the same?  Will =B3user rights=B2, as in (I assume) users of the
+Internet be defined as part of the RG?  Maybe that is what this next part
+means:
+
+>> The research departs for the problem
+>> statement that decisive and human rights enabling characteristics of
+>> the Internet might be degraded if they're not properly defined,
+>> described and protected. Not defining these characteristics could
+>> result in (partial) loss of functionality and connectivity.
+>>=20
+>> As stated in RFC 1958, the Internet aims to be the global network of
+>> networks that provides unfettered connectivity to all users at all
+>> times and for any content.  Open, secure and reliable
+>> connectivity is essential for rights such as freedom of expression and
+>> freedom of association, as defined in the Universal Declaration   of
+>> Human Rights.  Therefore, considering connectivity as the ultimate
+>> objective of the Internet, this makes a clear case that the Internet
+>> is not only an enabler of human rights, but that human rights lie at
+>> the basis of, and are ingrained in, the architecture of the network.
+
+Does this last piece of text mean that Internet connectivity (which means
+exactly what?) is (or should be declared) a human right?  I haven=B9t read
+the Universal Declaration of Human Rights in a while, but I don=B9t remembe=
+r
+it talking about the Internet.  Maybe, as you say above, the case is clear
+in the relationship between the Internet objectives and Human Rights =8B
+but, does it mean that the Internet is just an enabler or should it a
+human right in itself?  I know that several countries have put forth
+legislation to that effect. I might be getting more into politics at this
+point =8B it seems hard not to..
+
+The point of my comments is:  please be clear on the starting point.
+
+Thanks!
+
+Alvaro.
+
+
+From nobody Thu Apr 30 07:35:33 2015
+Return-Path: <mallory@apc.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 509791B2BDB for <hrpc@ietfa.amsl.com>; Thu, 30 Apr 2015 07:35:32 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -3.009
+X-Spam-Level: 
+X-Spam-Status: No, score=-3.009 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, HTML_MESSAGE=0.001, J_CHICKENPOX_12=0.6, J_CHICKENPOX_21=0.6, RCVD_IN_DNSWL_MED=-2.3, T_RP_MATCHES_RCVD=-0.01] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id MyxmVaQQklvh for <hrpc@ietfa.amsl.com>; Thu, 30 Apr 2015 07:35:30 -0700 (PDT)
+Received: from mail.gn.apc.org (mail.gn.apc.org [37.220.108.136]) (using TLSv1 with cipher ADH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 952051B2BC5 for <hrpc@irtf.org>; Thu, 30 Apr 2015 07:35:30 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1]) by mail.gn.apc.org (Postfix) with ESMTP id 416E12013B32 for <hrpc@irtf.org>; Thu, 30 Apr 2015 15:35:29 +0100 (BST)
+X-Virus-Scanned: by amavisd-new at mail.gn.apc.org
+Received: from mail.gn.apc.org ([127.0.0.1]) by localhost (mail.gn.apc.org [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id INef5Vq1Y34Q for <hrpc@irtf.org>; Thu, 30 Apr 2015 15:35:18 +0100 (BST)
+Received: from anonymous ([10.254.254.3])  (using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits)) (No client certificate requested) (Authenticated sender: mallory) by mail.gn.apc.org (Postfix) with ESMTPSA id E31B42017386 for <hrpc@irtf.org>; Thu, 30 Apr 2015 15:35:09 +0100 (BST)
+Message-ID: <55423D9C.8070501@apc.org>
+Date: Thu, 30 Apr 2015 10:35:08 -0400
+From: Mallory Knodel <mallory@apc.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20100101 Icedove/24.5.0
+MIME-Version: 1.0
+To: hrpc@irtf.org
+References: <554202C3.7060106@article19.org>
+In-Reply-To: <554202C3.7060106@article19.org>
+Content-Type: multipart/signed; micalg=pgp-sha1; protocol="application/pgp-signature"; boundary="0xXCttBseEJRctlvoH9doi9nKKTm9vAkx"
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/D15uW_eUkGkeARUNI_RUrNs4qnM>
+Subject: Re: [Hrpc] draft charter
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://www.irtf.org/mail-archive/web/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 30 Apr 2015 14:35:32 -0000
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--0xXCttBseEJRctlvoH9doi9nKKTm9vAkx
+Content-Type: multipart/alternative;
+ boundary="------------090806090507070203070008"
+
+This is a multi-part message in MIME format.
+--------------090806090507070203070008
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hi Neils
+
+My only comment:
+
+On 04/30/2015 06:24 AM, Niels ten Oever wrote:
+> Objective
+> This research aims to expose the relations between protocols and human
+> rights, and propose guidelines to protect the rights enabling
+> environment in future protocol development in a manner similar to the
+> work done for RFC 6973 on Privacy Consideration Guidelines,
+Maybe, protect is a strong word and will be taken completely literally.
+I don't know if what we are doing is creating "guidelines to protect". I
+think guidelines are meant to guide. And ultimately what we are doing is
+making a case for human rights as just as an important consideration as
+efficiency, interoperability, scalability, integrity, etc. etc.
+
+-Mallory
+--=20
+Mallory Knodel
+Association for Progressive Communications :: apc.org <https://apc.org>
+gpg fingerprint :: E3EB 63E0 65A3 B240 BCD9 B071 0C32 A271 BD3C C780
+
+--------------090806090507070203070008
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+  <head>
+    <meta content=3D"text/html; charset=3DISO-8859-1"
+      http-equiv=3D"Content-Type">
+  </head>
+  <body bgcolor=3D"#FFFFFF" text=3D"#000000">
+    Hi Neils<br>
+    <br>
+    My only comment:<br>
+    <br>
+    <div class=3D"moz-cite-prefix">On 04/30/2015 06:24 AM, Niels ten Oeve=
+r
+      wrote:<br>
+    </div>
+    <blockquote cite=3D"mid:554202C3.7060106@article19.org" type=3D"cite"=
+>
+      <pre wrap=3D"">Objective
+This research aims to expose the relations between protocols and human
+rights, and propose guidelines to protect the rights enabling
+environment in future protocol development in a manner similar to the
+work done for RFC 6973 on Privacy Consideration Guidelines,</pre>
+    </blockquote>
+    Maybe, protect is a strong word and will be taken completely
+    literally. I don't know if what we are doing is creating "guidelines
+    to protect". I think guidelines are meant to guide. And ultimately
+    what we are doing is making a case for human rights as just as an
+    important consideration as efficiency, interoperability,
+    scalability, integrity, etc. etc.<br>
+    <br>
+    -Mallory<br>
+    <div class=3D"moz-signature">-- <br>
+      Mallory Knodel<br>
+      Association for Progressive Communications :: <a
+        href=3D"https://apc.org">apc.org</a><br>
+      gpg fingerprint :: E3EB 63E0 65A3 B240 BCD9 B071 0C32 A271 BD3C
+      C780</div>
+  </body>
+</html>
+
+--------------090806090507070203070008--
+
+--0xXCttBseEJRctlvoH9doi9nKKTm9vAkx
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJVQj2cAAoJEAwyonG9PMeANGIH/Ri0A+otfv7QlNNa07/mPLRR
+U7fEo+lI8T7ZoLsjBMcAARBcUyRkeRAb9OilZS2ti1rWdDhF9X0cdhJPeFF3xQJg
+cYrSQTvQGtcK3wHYMKK/fEzOBAk18b8BgpI9lpQo07bawJQAPjvDp99gSJAmhBmk
+44M4wk1U1DBK/v9U/u3/yVG5/CfNwvADQL/wmV7FjBlPQOGsWqe+yssARdt1BnzO
+ekysvhZKVDHiErRcPWlrZVxgreRzR+k/yC5rt1yPWDB8Fja2w2awCg3WCIkjvxpm
+lJWkyA7tRBeSOgaQ2GyBlhgPGpnL0KCMGVUpRjSfqa5BYDvd1x9mlKJkmT3VIRM=
+=b5Mg
+-----END PGP SIGNATURE-----
+
+--0xXCttBseEJRctlvoH9doi9nKKTm9vAkx--
+

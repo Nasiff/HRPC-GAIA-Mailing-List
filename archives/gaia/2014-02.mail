@@ -1,0 +1,1878 @@
+
+From arjuna.sathiaseelan@gmail.com  Fri Feb  7 11:05:39 2014
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 2076C1A018C for <gaia@ietfa.amsl.com>; Fri,  7 Feb 2014 11:05:39 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.278
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.278 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FM_FORGED_GMAIL=0.622, FREEMAIL_FROM=0.001, SPF_PASS=-0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id pym6A3Qn4o0I for <gaia@ietfa.amsl.com>; Fri,  7 Feb 2014 11:05:34 -0800 (PST)
+Received: from mail-pa0-x229.google.com (mail-pa0-x229.google.com [IPv6:2607:f8b0:400e:c03::229]) by ietfa.amsl.com (Postfix) with ESMTP id 17BF31A03E1 for <gaia@irtf.org>; Fri,  7 Feb 2014 11:05:34 -0800 (PST)
+Received: by mail-pa0-f41.google.com with SMTP id fa1so3573295pad.28 for <gaia@irtf.org>; Fri, 07 Feb 2014 11:05:34 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113; h=mime-version:sender:date:message-id:subject:from:to:content-type; bh=qo+beOwfljDHwlCUzTmifr8JvsrLJIEHoM67E0gr7Tw=; b=MsOCaLXCr7ECkYOfaQYDhbwJ7xBCYsB+nhTEuMz9ndTfslYhzgrC2PeX+x03NATaDI xbzMO+Qd6Ryuf0vrYoE+kk2Eg3eLOIdK0zq4MfkYShTJkgTgTYtKVjWcNvJ2Vvt0dzV3 czLB8wDSesiWDvXzpLjUn/oUP60knUnxMzK6udZM6gTGKL0YWGEAw4JbnxLPzaMyIAXO 7vEhRhwkuJIBxW8BBhFcgRUxxST9XCJuN8L0teurh2a+c3J4VSBSErKbye4a1dNXs/2y KcaFwO01ybr5darHCnXm+GqbLke/2fsuT/EqJPDjOLTLZ0/guSjo2846KslqARdWHj7a Rbdw==
+MIME-Version: 1.0
+X-Received: by 10.66.149.231 with SMTP id ud7mr9940295pab.8.1391799933922; Fri, 07 Feb 2014 11:05:33 -0800 (PST)
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.68.228.99 with HTTP; Fri, 7 Feb 2014 11:05:33 -0800 (PST)
+Date: Fri, 7 Feb 2014 19:05:33 +0000
+X-Google-Sender-Auth: GM7zc03Gv0LxlhquKmtlkwEZL2M
+Message-ID: <CAPaG1A=uq-AfYrS253Hd28vsc6hOEBrH22K76bz_Kfq8TeWJfQ@mail.gmail.com>
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+To: gaia <gaia@irtf.org>
+Content-Type: text/plain; charset=ISO-8859-1
+Subject: [gaia] GAIA Meeting date and time
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 07 Feb 2014 19:05:39 -0000
+
+All,
+  I have just heard from the IETF that the IRTF GAIA meeting will be
+held on the March 6th from 3:00pm to 6pm (Hilton Meeting Room 1-4). I
+tried to avoid conflict with the TCPM meeting too.
+
+I hope the date and time is fine with all of you who have expressed
+interest in attending.
+
+I will now get back to you all with the agenda after discussing with Warren.
+
+Thanks
+Arjuna
+-- 
+Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+
+From nobody Wed Feb 19 00:18:07 2014
+Return-Path: <lars@netapp.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 774CC1A0447 for <gaia@ietfa.amsl.com>; Wed, 19 Feb 2014 00:18:06 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -7.45
+X-Spam-Level: 
+X-Spam-Status: No, score=-7.45 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_HI=-5, RP_MATCHES_RCVD=-0.548, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id HpGwDxlTxK0W for <gaia@ietfa.amsl.com>; Wed, 19 Feb 2014 00:18:04 -0800 (PST)
+Received: from mx2.netapp.com (mx2.netapp.com [216.240.18.37]) by ietfa.amsl.com (Postfix) with ESMTP id D5E1A1A0421 for <gaia@irtf.org>; Wed, 19 Feb 2014 00:18:04 -0800 (PST)
+X-IronPort-AV: E=Sophos;i="4.97,504,1389772800";  d="asc'?scan'208";a="71717032"
+Received: from vmwexceht01-prd.hq.netapp.com ([10.106.76.239]) by mx2-out.netapp.com with ESMTP; 19 Feb 2014 00:18:01 -0800
+Received: from SACEXCMBX01-PRD.hq.netapp.com ([169.254.2.211]) by vmwexceht01-prd.hq.netapp.com ([10.106.76.239]) with mapi id 14.03.0123.003; Wed, 19 Feb 2014 00:18:01 -0800
+From: "Eggert, Lars" <lars@netapp.com>
+To: "gaia@irtf.org" <gaia@irtf.org>
+Thread-Topic: [ericas] IETF-LAC Announce: Workshop Pre-IETF in America Latina
+Thread-Index: AQHPLO/2JDs+scCMYE+HGTYhDnc95g==
+Date: Wed, 19 Feb 2014 08:18:00 +0000
+Message-ID: <867C23F3-A019-41E2-87EE-7F8EED3B6354@netapp.com>
+References: <5303CFBB.70607@braga.eti.br>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-originating-ip: [10.122.105.30]
+Content-Type: multipart/signed; boundary="Apple-Mail=_65BBA520-0542-4ECD-86E5-DFABF8E77286"; protocol="application/pgp-signature"; micalg=pgp-sha1
+MIME-Version: 1.0
+Archived-At: http://mailarchive.ietf.org/arch/msg/gaia/Klx6Midq44z0ozVo_EwmeIvYkVA
+Subject: [gaia] Fwd: [ericas] IETF-LAC Announce: Workshop Pre-IETF in America Latina
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 19 Feb 2014 08:18:06 -0000
+
+--Apple-Mail=_65BBA520-0542-4ECD-86E5-DFABF8E77286
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain;
+	charset=iso-8859-1
+
+FYI
+
+Begin forwarded message:
+
+> From: Juliao Braga <juliao@braga.eti.br>
+> Subject: [ericas] IETF-LAC Announce: Workshop Pre-IETF in America Latina
+> Date: February 18, 2014 at 22:25:15 GMT+1
+> To: <ericas@irtf.org>
+> 
+> [apologies for cross-postings]
+> 
+> Hi all,
+> 
+> I would like to share the information about an activity for promoting
+> participation in the IETF from LATAM to be held in one of the most
+> important technical academic events in Brazil in July 2014.
+> 
+> http://iwpietf.lacnog.org/ (in English, Spanish and Portuguese)
+> 
+> Anyone interested in participating can contact us at ietf-lac@lacnog.org
+> list or privately. All contact information from committee members
+> contact are included in the webpage.
+> 
+> Best Regards,
+> 
+> Juliao Braga
+> Local Chair
+> 
+
+
+--Apple-Mail=_65BBA520-0542-4ECD-86E5-DFABF8E77286
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="signature.asc"
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Message signed with OpenPGP using GPGMail
+
+-----BEGIN PGP SIGNATURE-----
+
+iQCVAwUBUwRoudZcnpRveo1xAQJODQP/T8V5SC9klRg/mkfQ9pnvSqKbRllZChbt
+9n4iI3UlKYOuJw2r06t+DMjjD+4PgbGY4oqy1UvTBKRjTUguyLLMXIvdCSoXyFBM
+iuBK6k2yPaBDwvHuyzhL2WuNJjbclm6ogKSTe/Usrdm9lhsm2+Rqgfu3s4/oqq83
+q1Jr+TK0gFk=
+=fs3c
+-----END PGP SIGNATURE-----
+
+--Apple-Mail=_65BBA520-0542-4ECD-86E5-DFABF8E77286--
+
+
+From nobody Wed Feb 19 09:38:27 2014
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id E79B11A03FF for <gaia@ietfa.amsl.com>; Wed, 19 Feb 2014 09:38:23 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -3.277
+X-Spam-Level: 
+X-Spam-Status: No, score=-3.277 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FM_FORGED_GMAIL=0.622, FREEMAIL_FROM=0.001, GB_I_INVITATION=-2, HTML_MESSAGE=0.001, SPF_PASS=-0.001] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 9UlaBivYRCR0 for <gaia@ietfa.amsl.com>; Wed, 19 Feb 2014 09:38:19 -0800 (PST)
+Received: from mail-pb0-x229.google.com (mail-pb0-x229.google.com [IPv6:2607:f8b0:400e:c01::229]) by ietfa.amsl.com (Postfix) with ESMTP id D518E1A01CE for <gaia@irtf.org>; Wed, 19 Feb 2014 09:38:19 -0800 (PST)
+Received: by mail-pb0-f41.google.com with SMTP id up15so699873pbc.14 for <gaia@irtf.org>; Wed, 19 Feb 2014 09:38:16 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:sender:in-reply-to:references:date:message-id:subject :from:to:content-type; bh=KSOgRQDGMqAvmDj5pz0OQVhG8ohdy1sR43qb19L1zqk=; b=g+efe8jXvypAx/BCv5uMs8qPI45Wp/w3h44jvnYMCvQP61KXYTxR7MP+HTF3x3awVP gnzT3C1DchFlNCUX744sWFx5WzpimzuuuYuVjq43t16jRBUGhukPrcUSZEtWLRPPFa+T YnmSAzgXE2k91Nw6InQ5cJR6RlFeQZHQinb6ZgC2BFkL/v68WsHcNJvQWVDPDkdHzp1j Mu9y4W7a/ZYoh1rM8bn5FHzy/nt1v0abelv74+i7EzRloj0fpJQt9Pth7OTkGgCE1hO7 cpvN/aWHzhABxANqMzFV4VPU67IZ4gh8pedi5M0lHaEBBiyjNvALozfV7FM+IrF1QOpZ 5mZQ==
+MIME-Version: 1.0
+X-Received: by 10.66.119.136 with SMTP id ku8mr3659589pab.121.1392831496699; Wed, 19 Feb 2014 09:38:16 -0800 (PST)
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.68.126.129 with HTTP; Wed, 19 Feb 2014 09:38:16 -0800 (PST)
+In-Reply-To: <DF598599FE194B939B3B82D3AB06C3A7@S603389AD01.CORP>
+References: <DF598599FE194B939B3B82D3AB06C3A7@S603389AD01.CORP>
+Date: Wed, 19 Feb 2014 17:38:16 +0000
+X-Google-Sender-Auth: ix74ZCHYDXugCwgys83fl9pcALM
+Message-ID: <CAPaG1AkV8brUX2iMZAx1bpXtibhzUbLpBgmpuhanAQ7vV_nObg@mail.gmail.com>
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+To: gaia <gaia@irtf.org>
+Content-Type: multipart/alternative; boundary=e89a8ffbacdf97c27004f2c5dabf
+Archived-At: http://mailarchive.ietf.org/arch/msg/gaia/wXmbayzhA8ICsVDYbY-hys8eFmY
+Subject: [gaia] Fwd: Invitation: IETF Guest Day, London - March 4, 2014
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 19 Feb 2014 17:38:24 -0000
+
+--e89a8ffbacdf97c27004f2c5dabf
+Content-Type: text/plain; charset=ISO-8859-1
+
+This is useful to those who wish to attend the GAIA meeting on Thursday 6th
+(3:00 pm - 6:00 pm).
+
+I will post the agenda soon - just waiting for title of the talks from a
+couple of speakers.
+
+Thanks.
+Arjuna
+
+---------- Forwarded message ----------
+From: Internet Society <membership@isoc.org>
+Date: 19 February 2014 16:06
+Subject: Invitation: IETF Guest Day, London - March 4, 2014
+To: arjuna@erg.abdn.ac.uk
+
+
+ [image: ISOC Logo]
+
+Dear Arjuna Sathaiseelan,
+
+Join the Internet's Leading Engineers in London!
+Experience first hand the Internet standards process and meet the world's
+leading Internet engineers, developers and researchers. We expect 1,200
+attendees from more than 50 countries.
+
+The Internet Engineering Task Force (IETF) will convene March 2 -7, 2014
+for IETF 89 at the Hilton Metropole and you are invited!
+
+The IETF is the premiere international open-standards community and is
+responsible for many of the Internet's most important standards, including
+TCP/IP, e-mail, instant messaging, VoIP, 3G and IPv6. Its work is concerned
+with the evolution of the Internet's architecture and its smooth operation.
+
+The IETF is unique from other standards groups in that it is a volunteer
+organization, lead by individuals, not governments or corporations. The
+IETF's processes are open to all and decisions are made on the basis of
+"rough consensus and running code." If you are doing research in networking
+or communications, this is one event you don't want to miss.
+
+The IETF meets three times a year face-to-face to progress its work of
+Internet Standards development for the betterment of the Internet and
+people worldwide.
+
+Tuesday, March 4, 2014 is IETF 89 Guest Day when students, instructors and
+members of local Internet Society Chapters can receive a complimentary
+one-day Guest Pass to the IETF 89 Meeting. Guests shall check in at the
+Registration Table for their name tags.
+
+Guests have an opportunity to attend some of the 30 plus Working Group
+sessions being held that day. The Agenda will be available here -
+https://datatracker.ietf.org/meeting/89/agenda.html
+
+Note: You may also attend Newcomer Training that is scheduled for Sunday
+March 2 at 1:00 PM in the Blenheim Room at the Hilton Metropole.
+
+Interested local Internet Society Chapter members, Students and Instructors
+must:
+
+1. Register online at
+https://www.ietf.org/registration/ietf89/ietfreg.pybut not pay.
+
+2. Send an email to iad at ietf.org, Subject: Guest Pass, indicating the
+local ISOC Chapter, the member, student or instructor, provide the
+Registration ID and request a one-day Guest Pass.
+
+3. Pick up a Guest Pass on Tuesday.
+
+The IETF welcomes your interest in its work and looks forward to the day
+when you will participate in this volunteer endeavour.
+
+_______________________________________________
+
+To manage your ISOC subscriptions or unsubscribe, please log into the ISOC
+Member Portal:
+
+*https://portal.isoc.org/* <https://portal.isoc.org/>
+
+Then choose Interests & Subscriptions from the My Account menu.
+
+
+
+
+
+-- 
+Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+
+--e89a8ffbacdf97c27004f2c5dabf
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr">This is useful to those who wish to atten=
+d the GAIA meeting on Thursday 6th (3:00 pm - 6:00 pm).</div><div dir=3D"lt=
+r"><br></div><div dir=3D"ltr">I will post the agenda soon - just waiting fo=
+r title of the talks from a couple of speakers.</div>
+<div dir=3D"ltr"><br></div><div dir=3D"ltr">Thanks.</div><div dir=3D"ltr">A=
+rjuna<br><br><div class=3D"gmail_quote">---------- Forwarded message ------=
+----<br>From: <b class=3D"gmail_sendername">Internet Society</b> <span dir=
+=3D"ltr">&lt;<a href=3D"mailto:membership@isoc.org">membership@isoc.org</a>=
+&gt;</span><br>
+Date: 19 February 2014 16:06<br>Subject: Invitation: IETF Guest Day, London=
+ - March 4, 2014<br>To: <a href=3D"mailto:arjuna@erg.abdn.ac.uk">arjuna@erg=
+.abdn.ac.uk</a><br><br><br>
+
+
+
+
+<div>
+<img src=3D"http://www.internetsociety.org/sites/default/files/InternetSoci=
+ety-logo-RGB-online_1.png" alt=3D"ISOC Logo" height=3D"140" width=3D"280">
+<font color=3D"#333333" size=3D"3" face=3D"ArialMT"><font color=3D"#333333"=
+ size=3D"3" face=3D"ArialMT"><font color=3D"#333333" size=3D"3" face=3D"Ari=
+alMT">
+<p align=3D"left"><font face=3D"Helvetica"> Dear=A0Arjuna=20
+Sathaiseelan,=A0     =20
+              =20
+              =20
+</font></p>
+<p align=3D"left"><font face=3D"Helvetica">Join the Internet&#39;s Leading =
+Engineers in=20
+London!<br>Experience first hand the Internet standards process and meet th=
+e=20
+world&#39;s leading Internet engineers, developers and researchers. We expe=
+ct 1,200=20
+attendees from more than 50 countries.</font></p>
+<p align=3D"left"><font face=3D"Helvetica">The Internet Engineering Task Fo=
+rce (IETF)=20
+will convene March 2 -7, 2014 for IETF 89 at the Hilton Metropole and you a=
+re=20
+invited!</font></p>
+<p align=3D"left"><font face=3D"Helvetica">The IETF is the premiere interna=
+tional=20
+open-standards community and is responsible for many of the Internet&#39;s =
+most=20
+important standards, including TCP/IP, e-mail, instant messaging, VoIP, 3G =
+and=20
+IPv6. Its work is concerned with the evolution of the Internet&#39;s archit=
+ecture=20
+and its smooth operation.</font></p>
+<p align=3D"left"><font face=3D"Helvetica">The IETF is unique from other st=
+andards=20
+groups in that it is a volunteer organization, lead by individuals, not=20
+governments or corporations. The IETF&#39;s processes are open to all and d=
+ecisions=20
+are made on the basis of &quot;rough consensus and running code.&quot; If y=
+ou are doing=20
+research in networking or communications, this is one event you don&#39;t w=
+ant to=20
+miss.</font></p>
+<p align=3D"left"><font face=3D"Helvetica">The IETF meets three times a yea=
+r=20
+face-to-face to progress its work of Internet Standards development for the=
+=20
+betterment of the Internet and people worldwide.</font></p>
+<p align=3D"left"><font face=3D"Helvetica">Tuesday, March 4, 2014 is IETF 8=
+9 Guest Day=20
+when students, instructors and members of local Internet Society Chapters c=
+an=20
+receive a complimentary one-day Guest Pass to the IETF 89 Meeting. Guests s=
+hall=20
+check in at the<br>Registration Table for their name tags.</font></p>
+<p align=3D"left"><font face=3D"Helvetica">Guests have an opportunity to at=
+tend some of=20
+the 30 plus Working Group sessions being held that day. The Agenda will be=
+=20
+available here - <a href=3D"https://datatracker.ietf.org/meeting/89/agenda.=
+html" target=3D"_blank">https://datatracker.ietf.org/meeting/89/agenda.html=
+</a></font></p>
+<p align=3D"left"><font face=3D"Helvetica">Note: You may also attend Newcom=
+er Training=20
+that is scheduled for Sunday March 2 at 1:00 PM in the Blenheim Room at the=
+=20
+Hilton Metropole.</font></p>
+<p align=3D"left"><font face=3D"Helvetica">Interested local Internet Societ=
+y Chapter=20
+members, Students and Instructors must:</font></p>
+<p align=3D"left"><font face=3D"Helvetica">1. Register online at <a href=3D=
+"https://www.ietf.org/registration/ietf89/ietfreg.py" target=3D"_blank">htt=
+ps://www.ietf.org/registration/ietf89/ietfreg.py</a>=20
+but not pay.</font></p>
+<p align=3D"left"><font face=3D"Helvetica">2. Send an email to iad at <a hr=
+ef=3D"http://ietf.org" target=3D"_blank">ietf.org</a>, Subject:=20
+Guest Pass, indicating the local ISOC Chapter, the member, student or=20
+instructor, provide the Registration ID and request a one-day Guest=20
+Pass.</font></p>
+<p align=3D"left"><font face=3D"Helvetica">3. Pick up a Guest Pass on=20
+Tuesday.</font></p>
+<p align=3D"left"><font face=3D"Helvetica">The IETF welcomes your interest =
+in its work=20
+and looks forward to the day when you will participate in this volunteer=20
+endeavour.<br></font></p><font face=3D"Helvetica"><font size=3D"4" face=3D"=
+Calibri"><font size=3D"4" face=3D"Calibri">
+<p align=3D"left">_______________________________________________</p>
+<p align=3D"left">To manage your ISOC subscriptions or unsubscribe, please =
+log into=20
+the ISOC Member Portal:</p>
+<p align=3D"left"></p></font></font><a href=3D"https://portal.isoc.org/" ta=
+rget=3D"_blank"><u><font color=3D"#1436a5" size=3D"4" face=3D"Calibri"><fon=
+t color=3D"#1436a5" size=3D"4" face=3D"Calibri"><font color=3D"#1436a5" siz=
+e=3D"4" face=3D"Calibri">https://portal.isoc.org/</font></font></font></u><=
+/a></font>        =20
+  </font></font><font size=3D"4" face=3D"Calibri"><font size=3D"4" face=3D"=
+Calibri">
+<p>Then choose Interests &amp; Subscriptions from the My Account=20
+menu.</p></font></font></font><font face=3D"Helvetica">
+<p align=3D"left">          =20
+   =A0</p> </font>
+</div>
+
+</div><br></div><br clear=3D"all"><div><br></div>-- <br>Arjuna Sathiaseelan=
+ | <a href=3D"http://www.cl.cam.ac.uk/~as2330/" target=3D"_blank">http://ww=
+w.cl.cam.ac.uk/~as2330/</a>
+</div>
+
+--e89a8ffbacdf97c27004f2c5dabf--
+
+
+From nobody Wed Feb 19 09:39:23 2014
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id ADD921A01CE for <gaia@ietfa.amsl.com>; Wed, 19 Feb 2014 09:39:22 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -3.277
+X-Spam-Level: 
+X-Spam-Status: No, score=-3.277 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FM_FORGED_GMAIL=0.622, FREEMAIL_FROM=0.001, GB_I_INVITATION=-2, HTML_MESSAGE=0.001, SPF_PASS=-0.001] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 8IGoHALjdZyu for <gaia@ietfa.amsl.com>; Wed, 19 Feb 2014 09:39:20 -0800 (PST)
+Received: from mail-pd0-x234.google.com (mail-pd0-x234.google.com [IPv6:2607:f8b0:400e:c02::234]) by ietfa.amsl.com (Postfix) with ESMTP id F0E9F1A0502 for <gaia@irtf.org>; Wed, 19 Feb 2014 09:39:19 -0800 (PST)
+Received: by mail-pd0-f180.google.com with SMTP id x10so656910pdj.25 for <gaia@irtf.org>; Wed, 19 Feb 2014 09:39:16 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:sender:in-reply-to:references:date:message-id:subject :from:to:content-type; bh=mvP49GjHlWytAic6b02bV+cYr6dPXJ1LwuqwYC0+tCw=; b=ES1fVESDNAnFjCikze0ZK0P/KxDpekQJnH5SBly6+BTQhEehUqdLMw2HU4IStEQ2KS LM5lcaQk3t2tPFRGJpkws/2xjh6a1ZxmXJO96z7TX//lFVJ+qhXWEDsNcloQxyawS+fB RNSjQ0D+SewxeZ+k9QrVDjYuCOC91NicBndEWQLjnNB3Ofw8cbc/MahFuDIf7/E3fOZ4 yhJnGx3eaiGvapOheInXGNSdjorcGi87dTVb6ESMwARyIZ9pFfsvxTIch0tlHw9K+rqH l5N30taVlDyrSTFwa8u6EJ+EXERCPp7yd+qfbiu8gH+DuvlFJjFtWmEqf/+QLx83gkhT BmGw==
+MIME-Version: 1.0
+X-Received: by 10.68.234.230 with SMTP id uh6mr3711403pbc.161.1392831556757; Wed, 19 Feb 2014 09:39:16 -0800 (PST)
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.68.126.129 with HTTP; Wed, 19 Feb 2014 09:39:16 -0800 (PST)
+In-Reply-To: <CAPaG1AkV8brUX2iMZAx1bpXtibhzUbLpBgmpuhanAQ7vV_nObg@mail.gmail.com>
+References: <DF598599FE194B939B3B82D3AB06C3A7@S603389AD01.CORP> <CAPaG1AkV8brUX2iMZAx1bpXtibhzUbLpBgmpuhanAQ7vV_nObg@mail.gmail.com>
+Date: Wed, 19 Feb 2014 17:39:16 +0000
+X-Google-Sender-Auth: aYFt6KG2DEYatB3LO4EJvIxMkqE
+Message-ID: <CAPaG1Akf4MnDifFq69hsasB6CWwyiu8FGYOfLHtT2o+ZybdZEA@mail.gmail.com>
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+To: gaia <gaia@irtf.org>
+Content-Type: multipart/alternative; boundary=047d7b33cc042c2d7704f2c5deca
+Archived-At: http://mailarchive.ietf.org/arch/msg/gaia/zMducXXzmvBD7s5rsgX48mu9myA
+Subject: Re: [gaia] Invitation: IETF Guest Day, London - March 4, 2014
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 19 Feb 2014 17:39:22 -0000
+
+--047d7b33cc042c2d7704f2c5deca
+Content-Type: text/plain; charset=ISO-8859-1
+
+Oops -I just saw is this - maybe this only valid for tuesday?
+
+
+On 19 February 2014 17:38, Arjuna Sathiaseelan <
+arjuna.sathiaseelan@cl.cam.ac.uk> wrote:
+
+> This is useful to those who wish to attend the GAIA meeting on Thursday
+> 6th (3:00 pm - 6:00 pm).
+>
+> I will post the agenda soon - just waiting for title of the talks from a
+> couple of speakers.
+>
+> Thanks.
+> Arjuna
+>
+> ---------- Forwarded message ----------
+> From: Internet Society <membership@isoc.org>
+> Date: 19 February 2014 16:06
+> Subject: Invitation: IETF Guest Day, London - March 4, 2014
+> To: arjuna@erg.abdn.ac.uk
+>
+>
+>  [image: ISOC Logo]
+>
+> Dear Arjuna Sathaiseelan,
+>
+> Join the Internet's Leading Engineers in London!
+> Experience first hand the Internet standards process and meet the world's
+> leading Internet engineers, developers and researchers. We expect 1,200
+> attendees from more than 50 countries.
+>
+> The Internet Engineering Task Force (IETF) will convene March 2 -7, 2014
+> for IETF 89 at the Hilton Metropole and you are invited!
+>
+> The IETF is the premiere international open-standards community and is
+> responsible for many of the Internet's most important standards, including
+> TCP/IP, e-mail, instant messaging, VoIP, 3G and IPv6. Its work is concerned
+> with the evolution of the Internet's architecture and its smooth operation.
+>
+> The IETF is unique from other standards groups in that it is a volunteer
+> organization, lead by individuals, not governments or corporations. The
+> IETF's processes are open to all and decisions are made on the basis of
+> "rough consensus and running code." If you are doing research in networking
+> or communications, this is one event you don't want to miss.
+>
+> The IETF meets three times a year face-to-face to progress its work of
+> Internet Standards development for the betterment of the Internet and
+> people worldwide.
+>
+> Tuesday, March 4, 2014 is IETF 89 Guest Day when students, instructors and
+> members of local Internet Society Chapters can receive a complimentary
+> one-day Guest Pass to the IETF 89 Meeting. Guests shall check in at the
+> Registration Table for their name tags.
+>
+> Guests have an opportunity to attend some of the 30 plus Working Group
+> sessions being held that day. The Agenda will be available here -
+> https://datatracker.ietf.org/meeting/89/agenda.html
+>
+> Note: You may also attend Newcomer Training that is scheduled for Sunday
+> March 2 at 1:00 PM in the Blenheim Room at the Hilton Metropole.
+>
+> Interested local Internet Society Chapter members, Students and
+> Instructors must:
+>
+> 1. Register online at https://www.ietf.org/registration/ietf89/ietfreg.pybut not pay.
+>
+> 2. Send an email to iad at ietf.org, Subject: Guest Pass, indicating the
+> local ISOC Chapter, the member, student or instructor, provide the
+> Registration ID and request a one-day Guest Pass.
+>
+> 3. Pick up a Guest Pass on Tuesday.
+>
+> The IETF welcomes your interest in its work and looks forward to the day
+> when you will participate in this volunteer endeavour.
+>
+> _______________________________________________
+>
+> To manage your ISOC subscriptions or unsubscribe, please log into the ISOC
+> Member Portal:
+>
+> *https://portal.isoc.org/* <https://portal.isoc.org/>
+>
+> Then choose Interests & Subscriptions from the My Account menu.
+>
+>
+>
+>
+>
+> --
+> Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+>
+
+
+
+-- 
+Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+
+--047d7b33cc042c2d7704f2c5deca
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Oops -I just saw is this - maybe this only valid for tuesd=
+ay?</div><div class=3D"gmail_extra"><br><br><div class=3D"gmail_quote">On 1=
+9 February 2014 17:38, Arjuna Sathiaseelan <span dir=3D"ltr">&lt;<a href=3D=
+"mailto:arjuna.sathiaseelan@cl.cam.ac.uk" target=3D"_blank">arjuna.sathiase=
+elan@cl.cam.ac.uk</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex"><div dir=3D"ltr"><div dir=3D"ltr">This is us=
+eful to those who wish to attend the GAIA meeting on Thursday 6th (3:00 pm =
+- 6:00 pm).</div>
+<div dir=3D"ltr"><br></div><div dir=3D"ltr">I will post the agenda soon - j=
+ust waiting for title of the talks from a couple of speakers.</div>
+<div dir=3D"ltr"><br></div><div dir=3D"ltr">Thanks.</div><div dir=3D"ltr">A=
+rjuna<br><br><div class=3D"gmail_quote"><div class=3D"">---------- Forwarde=
+d message ----------<br>From: <b class=3D"gmail_sendername">Internet Societ=
+y</b> <span dir=3D"ltr">&lt;<a href=3D"mailto:membership@isoc.org" target=
+=3D"_blank">membership@isoc.org</a>&gt;</span><br>
+
+Date: 19 February 2014 16:06<br>Subject: Invitation: IETF Guest Day, London=
+ - March 4, 2014<br>To: <a href=3D"mailto:arjuna@erg.abdn.ac.uk" target=3D"=
+_blank">arjuna@erg.abdn.ac.uk</a><br><br><br>
+
+
+
+
+</div><div><div class=3D"h5"><div>
+<img src=3D"http://www.internetsociety.org/sites/default/files/InternetSoci=
+ety-logo-RGB-online_1.png" alt=3D"ISOC Logo" height=3D"140" width=3D"280">
+<font color=3D"#333333" size=3D"3" face=3D"ArialMT"><font color=3D"#333333"=
+ size=3D"3" face=3D"ArialMT"><font color=3D"#333333" size=3D"3" face=3D"Ari=
+alMT">
+<p align=3D"left"><font face=3D"Helvetica"> Dear=A0Arjuna=20
+Sathaiseelan,=A0     =20
+              =20
+              =20
+</font></p>
+<p align=3D"left"><font face=3D"Helvetica">Join the Internet&#39;s Leading =
+Engineers in=20
+London!<br>Experience first hand the Internet standards process and meet th=
+e=20
+world&#39;s leading Internet engineers, developers and researchers. We expe=
+ct 1,200=20
+attendees from more than 50 countries.</font></p>
+<p align=3D"left"><font face=3D"Helvetica">The Internet Engineering Task Fo=
+rce (IETF)=20
+will convene March 2 -7, 2014 for IETF 89 at the Hilton Metropole and you a=
+re=20
+invited!</font></p>
+<p align=3D"left"><font face=3D"Helvetica">The IETF is the premiere interna=
+tional=20
+open-standards community and is responsible for many of the Internet&#39;s =
+most=20
+important standards, including TCP/IP, e-mail, instant messaging, VoIP, 3G =
+and=20
+IPv6. Its work is concerned with the evolution of the Internet&#39;s archit=
+ecture=20
+and its smooth operation.</font></p>
+<p align=3D"left"><font face=3D"Helvetica">The IETF is unique from other st=
+andards=20
+groups in that it is a volunteer organization, lead by individuals, not=20
+governments or corporations. The IETF&#39;s processes are open to all and d=
+ecisions=20
+are made on the basis of &quot;rough consensus and running code.&quot; If y=
+ou are doing=20
+research in networking or communications, this is one event you don&#39;t w=
+ant to=20
+miss.</font></p>
+<p align=3D"left"><font face=3D"Helvetica">The IETF meets three times a yea=
+r=20
+face-to-face to progress its work of Internet Standards development for the=
+=20
+betterment of the Internet and people worldwide.</font></p>
+<p align=3D"left"><font face=3D"Helvetica">Tuesday, March 4, 2014 is IETF 8=
+9 Guest Day=20
+when students, instructors and members of local Internet Society Chapters c=
+an=20
+receive a complimentary one-day Guest Pass to the IETF 89 Meeting. Guests s=
+hall=20
+check in at the<br>Registration Table for their name tags.</font></p>
+<p align=3D"left"><font face=3D"Helvetica">Guests have an opportunity to at=
+tend some of=20
+the 30 plus Working Group sessions being held that day. The Agenda will be=
+=20
+available here - <a href=3D"https://datatracker.ietf.org/meeting/89/agenda.=
+html" target=3D"_blank">https://datatracker.ietf.org/meeting/89/agenda.html=
+</a></font></p>
+<p align=3D"left"><font face=3D"Helvetica">Note: You may also attend Newcom=
+er Training=20
+that is scheduled for Sunday March 2 at 1:00 PM in the Blenheim Room at the=
+=20
+Hilton Metropole.</font></p>
+<p align=3D"left"><font face=3D"Helvetica">Interested local Internet Societ=
+y Chapter=20
+members, Students and Instructors must:</font></p>
+<p align=3D"left"><font face=3D"Helvetica">1. Register online at <a href=3D=
+"https://www.ietf.org/registration/ietf89/ietfreg.py" target=3D"_blank">htt=
+ps://www.ietf.org/registration/ietf89/ietfreg.py</a>=20
+but not pay.</font></p>
+<p align=3D"left"><font face=3D"Helvetica">2. Send an email to iad at <a hr=
+ef=3D"http://ietf.org" target=3D"_blank">ietf.org</a>, Subject:=20
+Guest Pass, indicating the local ISOC Chapter, the member, student or=20
+instructor, provide the Registration ID and request a one-day Guest=20
+Pass.</font></p>
+<p align=3D"left"><font face=3D"Helvetica">3. Pick up a Guest Pass on=20
+Tuesday.</font></p>
+<p align=3D"left"><font face=3D"Helvetica">The IETF welcomes your interest =
+in its work=20
+and looks forward to the day when you will participate in this volunteer=20
+endeavour.<br></font></p><font face=3D"Helvetica"><font size=3D"4" face=3D"=
+Calibri"><font size=3D"4" face=3D"Calibri">
+<p align=3D"left">_______________________________________________</p>
+<p align=3D"left">To manage your ISOC subscriptions or unsubscribe, please =
+log into=20
+the ISOC Member Portal:</p>
+<p align=3D"left"></p></font></font><a href=3D"https://portal.isoc.org/" ta=
+rget=3D"_blank"><u><font color=3D"#1436a5" size=3D"4" face=3D"Calibri"><fon=
+t color=3D"#1436a5" size=3D"4" face=3D"Calibri"><font color=3D"#1436a5" siz=
+e=3D"4" face=3D"Calibri">https://portal.isoc.org/</font></font></font></u><=
+/a></font>        =20
+  </font></font><font size=3D"4" face=3D"Calibri"><font size=3D"4" face=3D"=
+Calibri">
+<p>Then choose Interests &amp; Subscriptions from the My Account=20
+menu.</p></font></font></font><font face=3D"Helvetica">
+<p align=3D"left">          =20
+   =A0</p> </font>
+</div>
+
+</div></div></div><span class=3D"HOEnZb"><font color=3D"#888888"><br></font=
+></span></div><span class=3D"HOEnZb"><font color=3D"#888888"><br clear=3D"a=
+ll"><div><br></div>-- <br>Arjuna Sathiaseelan | <a href=3D"http://www.cl.ca=
+m.ac.uk/~as2330/" target=3D"_blank">http://www.cl.cam.ac.uk/~as2330/</a>
+</font></span></div>
+</blockquote></div><br><br clear=3D"all"><div><br></div>-- <br>Arjuna Sathi=
+aseelan | <a href=3D"http://www.cl.cam.ac.uk/~as2330/" target=3D"_blank">ht=
+tp://www.cl.cam.ac.uk/~as2330/</a>
+</div>
+
+--047d7b33cc042c2d7704f2c5deca--
+
+
+From nobody Sun Feb 23 01:24:03 2014
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id B23401A042D for <gaia@ietfa.amsl.com>; Sun, 23 Feb 2014 01:24:00 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 2.022
+X-Spam-Level: **
+X-Spam-Status: No, score=2.022 tagged_above=-999 required=5 tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FM_FORGED_GMAIL=0.622, FREEMAIL_FROM=0.001, J_CHICKENPOX_52=0.6, SPF_PASS=-0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id AaWgUx487M6y for <gaia@ietfa.amsl.com>; Sun, 23 Feb 2014 01:23:59 -0800 (PST)
+Received: from mail-pb0-x234.google.com (mail-pb0-x234.google.com [IPv6:2607:f8b0:400e:c01::234]) by ietfa.amsl.com (Postfix) with ESMTP id 0FC3C1A0432 for <gaia@irtf.org>; Sun, 23 Feb 2014 01:23:59 -0800 (PST)
+Received: by mail-pb0-f52.google.com with SMTP id rp16so727545pbb.11 for <gaia@irtf.org>; Sun, 23 Feb 2014 01:23:54 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:sender:date:message-id:subject:from:to:cc:content-type;  bh=pYNOBCXVLwAc6/OD+S+My5gd7fc4fKdNKF9vpGqyMuM=; b=EYWu/vSRFTwxysA0tjZ1GoYrJR9Wz++lNFaQTXWJLYfw6BTWwc/YtN+M9Z8QIMtD/Z 9pdnv+lioh+I5qOiT29Fwk2J0GTBJdJbz73ZJwG7rFsjIcOs75PTkwfnHdvjbq4rB9/H ZRv4Hu85IF9CGfqySrkRWUap6150WFIXoKDW/N+vhz/teHVo/FKUJT/iMoFUZbrYg67r xJS/hKFYZRBADADf7n90TAjJqsUq9YF7l4Y8FAzlz8HLkleTdBxteuKLF4IXEUDL/I87 c2mj3V+OOXhqDLQYthr5K1Sne9dwBYH2ItYFq0hYzImuIes/kQIVMFNnnfhN9ozJTaF9 2Tcw==
+MIME-Version: 1.0
+X-Received: by 10.66.16.131 with SMTP id g3mr18690892pad.138.1393147434539; Sun, 23 Feb 2014 01:23:54 -0800 (PST)
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.68.126.129 with HTTP; Sun, 23 Feb 2014 01:23:54 -0800 (PST)
+Date: Sun, 23 Feb 2014 09:23:54 +0000
+X-Google-Sender-Auth: jEzlnkf0EDb-Jzpww0lGdh8yiko
+Message-ID: <CAPaG1AnnzT7vLofvTJ-yRQSENOEXuwXgMhdKhv4Qe1n+rkLu-g@mail.gmail.com>
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+To: gaia <gaia@irtf.org>
+Content-Type: text/plain; charset=ISO-8859-1
+Archived-At: http://mailarchive.ietf.org/arch/msg/gaia/nCrJBKWrpKsg7LkVsGJiDb9y44Y
+Cc: Warren Kumari <wkumari@google.com>, Michuki Mwangi <mwangi@isoc.org>
+Subject: [gaia] GAIA Meeting - agenda
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Sun, 23 Feb 2014 09:24:00 -0000
+
+All,
+
+  Please find the agenda for the GAIA RG-to-be meeting on Thursday 6th
+March, 3:00 pm-6:00 pm at the Hilton Meeting Room 1-4. There were
+three more talks proposed by some of you, but we could'nt fit in here
+due to timing constraints - sorry for that.
+
+Hope to see many of you there.
+
+3:00-3:05 - Welcome, Chairs (5 mins)
+3:05-3:15 - Michuki Mwangi, ISOC (10 mins)
+3:15-3:30 - Mike Blanche, Google (15 mins)
+3:30-3:45 - "Digital divide challenges: A perspective from the
+Commonwealth Countries", Dr. Martin Koyabe, Commonwealth
+Telecommunications Organisation
+3:45-4:00 - "Thoughts and Experience from the IU-ATC project" - Prof
+Saleem Bhatti, University of St. Andrews
+4:00-4:15 - "Less-than-Best-Effort Service for Community Wireless Networks:
+Challenges at Three Layers" - Prof Michael Welzl, University of Oslo
+4:15-4:30 -TAQ: Enhancing Fairness and Performance Predictability in
+Small Packet Regimes, Prof. Jay Chen, New York University.
+4:30-4:45 - "Understanding broadband performance - A Network
+Operator's Perspective" - Dr. Achilles Petras, BT
+4:45-5:00 - "From an always-on Internet to one that is almost surely off" -
+Dr. Dirk Trossen, InterDigital
+5:00-5:15 - "Liberouter project" - Prof Joerg Ott, Aalto University
+5:15-5:30 - "Virtual Public Networks" - Prof Panagiotis
+Papadimitrious, University of Hannover
+5:30-6:00 - Discussion of proposed charter and future plans
+
+-- 
+Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+
+
+From nobody Mon Feb 24 12:11:35 2014
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 95FEF1A026D for <gaia@ietfa.amsl.com>; Mon, 24 Feb 2014 12:11:32 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 1.422
+X-Spam-Level: *
+X-Spam-Status: No, score=1.422 tagged_above=-999 required=5 tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FM_FORGED_GMAIL=0.622, FREEMAIL_FROM=0.001, SPF_PASS=-0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id lMB9AenJ-UZx for <gaia@ietfa.amsl.com>; Mon, 24 Feb 2014 12:11:31 -0800 (PST)
+Received: from mail-wg0-x22d.google.com (mail-wg0-x22d.google.com [IPv6:2a00:1450:400c:c00::22d]) by ietfa.amsl.com (Postfix) with ESMTP id 594551A02D7 for <gaia@irtf.org>; Mon, 24 Feb 2014 12:11:19 -0800 (PST)
+Received: by mail-wg0-f45.google.com with SMTP id l18so5172931wgh.24 for <gaia@irtf.org>; Mon, 24 Feb 2014 12:11:18 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:sender:date:message-id:subject:from:to:cc:content-type;  bh=U6NepPj8NQbC8cA7VxHL06724353qcukr0I8eqJAXSo=; b=cTRoElKf4Tc5RadbSLfNL3TzOapsPg9crqMghO/kawcjfHGkf98Buue3HaxXUcuuVq oIivqnOC1xA7qnxY/cdQ3kwKQ4Seivo0Iu1LusPrjnonQpzmwAk/lx/krw3ztqiIziRw EKxcIlXk/o/oU+hSD803gG9fsuiQIkzolZcil3Vkz1DkNsdi3IGAt0UdJKfFX8Kl8nLS 6H6iBK1Jfc2P6nk8fGamZ1Wka4Z3B83BlBds8CVPcjrPdaN3DIVMHOm3eqgUk44SPlid 9701vFXIDeLWdWGv8bd7EKR2oMhleIKtvCGYjyhVPn4WAD6hOr3Nh4chzRuXSAuG8hzS 4g8w==
+MIME-Version: 1.0
+X-Received: by 10.180.188.229 with SMTP id gd5mr15889653wic.54.1393272678184;  Mon, 24 Feb 2014 12:11:18 -0800 (PST)
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.227.205.69 with HTTP; Mon, 24 Feb 2014 12:11:17 -0800 (PST)
+Date: Mon, 24 Feb 2014 20:11:17 +0000
+X-Google-Sender-Auth: 1w5iBuvczmeaWbE-z-YdHrQMxtM
+Message-ID: <CAPaG1Amev=OecwAsUZ0_qm=gWN7kPjM3kZK8d+hueb+S6O6AwQ@mail.gmail.com>
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+To: gaia <gaia@irtf.org>
+Content-Type: text/plain; charset=ISO-8859-1
+Archived-At: http://mailarchive.ietf.org/arch/msg/gaia/yIN8tFe7YO1Ou101FGJDk-stwJY
+Cc: Warren Kumari <wkumari@google.com>, Michuki Mwangi <mwangi@isoc.org>
+Subject: [gaia] GAIA Meeting - Revised Agenda
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 24 Feb 2014 20:11:32 -0000
+
+All,
+
+  Please find the revised agenda for the GAIA RG-to-be meeting on Thursday 6th
+March, 3:00 pm-6:00 pm at the Hilton Meeting Room 1-4.
+
+3:00-3:05 - Welcome, Chairs (5 mins)
+
+Session 1: Deployment Experiences
+3:05-3:15 - "Internet Deployment Experiences from NSRC" - Steve Hunder, NSRC
+3:15-3:25 - "IXP Deployment Experiences in Africa" - Michuki Mwangi, ISOC
+3:25-3:35 - "Digital divide challenges: A perspective from the
+Commonwealth Countries", Dr. Martin Koyabe, Commonwealth
+Telecommunications Organisation (10 mins)
+3:35-3:45 - "Understanding broadband performance - A Network
+Operator's Perspective" - Dr. Achilles Petras, BT
+3:45-3:55 - "Caching and the local content equation" - Mike Blanche, Google
+3:55-4:10 - Q & A
+
+Session 2: Research Project Experiences
+4:10-4:20 - "Thoughts and Experience from the IU-ATC project" - Prof
+Saleem Bhatti, University of St. Andrews
+4:20-4:30 - "Liberouter Project" - Prof Joerg Ott, Aalto University
+4:30-4:40 - "Virtual Public Networks Project" - Prof Panagiotis
+Papadimitrious, University of Hannover
+4:40-4:50 - Q & A
+
+Session 3: Architectures
+4:50-5:00 - TAQ: Enhancing Fairness and Performance Predictability in
+Small Packet Regimes, Prof. Jay Chen, New York University.
+5:00-5:10 - "Less-than-Best-Effort Service for Community Wireless
+Networks: Challenges at Three Layers" - Prof Michael Welzl, University
+of Oslo
+5:10-5:20 - "From an always-on Internet to one that is almost surely
+off" - Dr. Dirk Trossen, InterDigital
+5:20-5:30 - Q & A
+
+5:30-6:00 - Discussion of proposed charter and future plans
+
+-- 
+Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+
+
+From nobody Wed Feb 26 03:05:16 2014
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id F05ED1A0239 for <gaia@ietfa.amsl.com>; Wed, 26 Feb 2014 03:04:47 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 2.022
+X-Spam-Level: **
+X-Spam-Status: No, score=2.022 tagged_above=-999 required=5 tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FM_FORGED_GMAIL=0.622, FREEMAIL_FROM=0.001, J_CHICKENPOX_31=0.6, SPF_PASS=-0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id j6Ohtr7986pF for <gaia@ietfa.amsl.com>; Wed, 26 Feb 2014 03:04:46 -0800 (PST)
+Received: from mail-pd0-x230.google.com (mail-pd0-x230.google.com [IPv6:2607:f8b0:400e:c02::230]) by ietfa.amsl.com (Postfix) with ESMTP id 6F09E1A0241 for <gaia@irtf.org>; Wed, 26 Feb 2014 03:04:46 -0800 (PST)
+Received: by mail-pd0-f176.google.com with SMTP id r10so808122pdi.7 for <gaia@irtf.org>; Wed, 26 Feb 2014 03:04:45 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:sender:in-reply-to:references:date:message-id:subject :from:to:cc:content-type; bh=3FQq/Her6Iq7yUBEhCiYTqvJ3MtELE6GLeo5LpJHowI=; b=0tPx5tCMQAza6lG8zlsTsa5OxeLbWoZSTWox4wVeNHxvdz7TZbheOJTx9NSThRBmeG 5f0oPs36qtm1oO8Z4wh7hxD5ABD9GoBOFotQPhV8VhyWmwXTcjrIoYrE8jVXrUDjMZDp nc5zAqApjrdQBvuE3744JqAoNfIXl0Qi56ftuIEclTK1Zf2YFUPcjv36xBksj8FWKIXm 0uYWE1epr8u0JOHbZORFRC58Bi+QsPlUO7oBPn5/zFgH6egJwVnNMFDsSQk7L3srN/Gy HiR5i3MY/QhUmIxbO4A4+ChMQfyKb/dFv0IIzO3iQd8u7Vy/dF6dqhKXAnq13DWO6+eN /rXg==
+MIME-Version: 1.0
+X-Received: by 10.66.119.136 with SMTP id ku8mr7878065pab.121.1393412685279; Wed, 26 Feb 2014 03:04:45 -0800 (PST)
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.68.126.129 with HTTP; Wed, 26 Feb 2014 03:04:45 -0800 (PST)
+In-Reply-To: <CAMXe=Sq0_FVxDZFiLMtAXggwgSAzSmv+eW=umOBFjzfREp6aZQ@mail.gmail.com>
+References: <CAPaG1AkG4YfmMxOk+nHSR+2-RX1f2kGxDABfk+2GpRhAQ3fwUA@mail.gmail.com> <CAMXe=Sq0_FVxDZFiLMtAXggwgSAzSmv+eW=umOBFjzfREp6aZQ@mail.gmail.com>
+Date: Wed, 26 Feb 2014 11:04:45 +0000
+X-Google-Sender-Auth: 7yuPcueWQqvj2O1Co2dHNgYjvEg
+Message-ID: <CAPaG1AnDtfERekOeHuPqHNySMVkR3oyz4PbJTCS7aTgft8f4kA@mail.gmail.com>
+From: Arjuna Sathiaseelan <arjuna@erg.abdn.ac.uk>
+To: paoladimaio10@googlemail.com
+Content-Type: text/plain; charset=ISO-8859-1
+Archived-At: http://mailarchive.ietf.org/arch/msg/gaia/BvZ3KqtlPTIXI3rXPcaoJN31fmQ
+X-Mailman-Approved-At: Wed, 26 Feb 2014 03:05:06 -0800
+Cc: gaia <gaia@irtf.org>, "scone@cs.st-andrews.ac.uk" <scone@cs.st-andrews.ac.uk>
+Subject: Re: [gaia] [SCONE] New Internet Research Task Force (IRTF) Research Initiative on Global Internet Access
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 26 Feb 2014 11:04:48 -0000
+
+Dear Paolo,
+  Thanks a lot for your interest. Its absolutely great to see your
+involvement within the ICT4D space. Its important to have
+participation from people like you for GAIA to understand the
+challenges.
+
+Regaring streaming - I think we may be able to stream audio from the
+meeting - I have to speak to the IETF folks about this. We will
+definitely make the slides available. I will catch up with you
+sometime soon to discuss more.
+
+Thanks once again.
+
+Regards
+Arjuna
+
+On 26 February 2014 09:52, Paola Di Maio <paola.dimaio@gmail.com> wrote:
+> Dear Arjuna
+>
+> thanks a lot for circulating info. After some years in Scotland (hence my
+> affiliation with Scone), I spent some time as visiting faculty in a very
+> remote region, Himachal Pradesh, India
+> http://faculty.iitmandi.ac.in/~maio/
+>
+> I was amazed that Saleem visited here last year!! :-)  These scotsfolks
+> truly go everywhere
+>
+> Since the bureaucracy seems to work against us in India, and things move too
+> slowly
+> and the lack of competences and dysfunctional logic are
+>
+>  I have set up an independent research organization (not for profit) which
+> is based in Scotland and Bangalore. working on several projects in the
+> region including  evaluations, quality monitoring, user testing with local
+> folks, focus groups and ICT literacy, and internet access is the biggest
+> challenge, after literacy.
+>
+> example
+> https://sites.google.com/site/ictsustainability/
+>
+> I recently presented this at Stanford conference held in Bombay
+> http://southasia.stanford.edu/bombay_conference
+>
+> I cannot come to London, is there a stream to follow the going?   I joined
+> the mailing list, and  I am interested in working with the taskforce in
+> every possible way
+>
+> PLEASE COME AND WORK WITH US AND GIVE US BANDWIDTH
+>
+> Love from the Himalayan Highlands
+>
+> cheers
+>
+> PDM
+>
+>
+>
+>
+> On Wed, Feb 26, 2014 at 2:17 PM, Arjuna Sathiaseelan <arjuna@erg.abdn.ac.uk>
+> wrote:
+>>
+>> Sorry for multiple postings (also at NGN)..
+>>
+>> Dear All,
+>>   We are in the process of bootstrapping an IRTF research group
+>> specifically focussed on the Emerging Regions Internet
+>> Challenges And Solutions called GAIA (Global Access to the Internet for
+>> All).
+>>
+>> The idea is to clearly understand and scope out what are the
+>> challenges in universal service provisioning and where and how we
+>> could shape the future Internet architectures to support wider
+>> access.We need a real mix of expertise to shape this agenda.
+>>
+>> The link to the GAIA page is here:
+>> https://trac.tools.ietf.org/group/irtf/trac/wiki/gaia
+>>
+>> You can join the mailing list from here:
+>> http://irtf.org/mailman/listinfo/gaia
+>>
+>> We have the GAIA Research Group-to-be meeting at the IETF in London on
+>> Thursday 6th March, 3:00 pm-6:00 pm at the Hilton Meeting Room 1-4.
+>> The agenda is listed below and if you are interested in attending,
+>> please do let me know:
+>>
+>> 3:00-3:05 - Welcome, Chairs (Arjuna Sathiaseelan (Cambridge) and
+>> Warren Kumari (Google))
+>>
+>> Session 1: Deployment Experiences
+>> 3:05-3:15 - "Internet Deployment Experiences from NSRC" - Steve Huter
+>> & Hervey Allen, NSRC
+>> 3:15-3:25 - "IXP Deployment Experiences in Africa" - Michuki Mwangi, ISOC
+>> 3:25-3:35 - "Digital divide challenges: A perspective from the
+>> Commonwealth Countries", Dr. Martin Koyabe, Commonwealth
+>> Telecommunications Organisation
+>> 3:35-3:45 - "Understanding broadband performance - A Network
+>> Operator's Perspective" - Dr. Achilles Petras, BT
+>> 3:45-3:55 - "Caching and the local content equation" - Mike Blanche,
+>> Google
+>> 3:55-4:10 - Q & A
+>>
+>> Session 2: Research Project Experiences
+>> 4:10-4:20 - "Thoughts and Experience from the IU-ATC project" - Prof
+>> Saleem Bhatti, University of St. Andrews
+>> 4:20-4:30 - "Liberouter Project" - Prof Joerg Ott, Aalto University
+>> 4:30-4:40 - "Virtual Public Networks Project" - Prof Panagiotis
+>> Papadimitriou, University of Hannover
+>> 4:40-4:50 - Q & A
+>>
+>> Session 3: Architectures
+>> 4:50-5:00 - TAQ: Enhancing Fairness and Performance Predictability in
+>> Small Packet Regimes, Prof. Jay Chen, New York University.
+>> 5:00-5:10 - "Less-than-Best-Effort Service for Community Wireless
+>> Networks: Challenges at Three Layers" - Prof Michael Welzl, University
+>> of Oslo
+>> 5:10-5:20 - "From an always-on Internet to one that is almost surely
+>> off" - Dr. Dirk Trossen, InterDigital
+>> 5:20-5:30 - Q & A
+>>
+>> 5:30-6:00 - Discussion of proposed charter and future plans
+>> --
+>> Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+>>
+>> _______________________________________________
+>> scone mailing list
+>> scone@cs.st-andrews.ac.uk
+>> https://mailman.cs.st-andrews.ac.uk/mailman/listinfo/scone
+>
+>
+
+
+From nobody Wed Feb 26 08:54:47 2014
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 8E9F91A015A for <gaia@ietfa.amsl.com>; Wed, 26 Feb 2014 08:54:41 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 1.422
+X-Spam-Level: *
+X-Spam-Status: No, score=1.422 tagged_above=-999 required=5 tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FM_FORGED_GMAIL=0.622, FREEMAIL_FROM=0.001, SPF_PASS=-0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id DNHtfweG-1-7 for <gaia@ietfa.amsl.com>; Wed, 26 Feb 2014 08:54:40 -0800 (PST)
+Received: from mail-pa0-x232.google.com (mail-pa0-x232.google.com [IPv6:2607:f8b0:400e:c03::232]) by ietfa.amsl.com (Postfix) with ESMTP id 265781A069D for <gaia@irtf.org>; Wed, 26 Feb 2014 08:54:32 -0800 (PST)
+Received: by mail-pa0-f50.google.com with SMTP id kp14so1223900pab.9 for <gaia@irtf.org>; Wed, 26 Feb 2014 08:54:31 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:sender:in-reply-to:references:date:message-id:subject :from:to:cc:content-type; bh=QazDJ1l2Xv4TZWxGuSetu3TKLKCKywgGo9+ww0UJed4=; b=NlOQ6lm+7M9dSrsMGEqqxIxalqCJCtifcUqSaKxdTxrcxRE8X/k8ika5u0giJfHOSp 7CsKq8DuCY4Qz7lOwL0g6ZkPEM/rOvxFEaW1OhsZRu1DlfDuhuIj4Ro81HyV9HPO7zAm nKg1h0JK2wKqv9BrRO+lZ7n8Nskg0M3OQzJFv65yNcBpvj+ZQXb3/TAqjTzCRl7MUy5y jXthBWh928D8X6Yv6LkG9ZReiQFZJKuHsETsPUse12hU1+wtKVPuPFf2JqUpQZ618n5u /1GWEjaT0DVEtEjzAy+C8k4tU0ZAbklylan4/k0F9HnbN10MOoZ9xsBnghjJ3U+NXY4P f+1A==
+MIME-Version: 1.0
+X-Received: by 10.66.16.131 with SMTP id g3mr9946815pad.138.1393433671021; Wed, 26 Feb 2014 08:54:31 -0800 (PST)
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.68.126.129 with HTTP; Wed, 26 Feb 2014 08:54:30 -0800 (PST)
+In-Reply-To: <CAPaG1Amev=OecwAsUZ0_qm=gWN7kPjM3kZK8d+hueb+S6O6AwQ@mail.gmail.com>
+References: <CAPaG1Amev=OecwAsUZ0_qm=gWN7kPjM3kZK8d+hueb+S6O6AwQ@mail.gmail.com>
+Date: Wed, 26 Feb 2014 16:54:30 +0000
+X-Google-Sender-Auth: BTaly1r7LH0imUBTvPAZRgMwoIk
+Message-ID: <CAPaG1AmRkt47gzBvYdnJ3FecVv5RkMD_j5-hHrcUrR03WnRnsw@mail.gmail.com>
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+To: gaia <gaia@irtf.org>
+Content-Type: text/plain; charset=ISO-8859-1
+Archived-At: http://mailarchive.ietf.org/arch/msg/gaia/3nWEBFa8PRcTdiA0RX31_tPONUY
+Cc: Michuki Mwangi <mwangi@isoc.org>
+Subject: Re: [gaia] GAIA Meeting - Revised Agenda
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 26 Feb 2014 16:54:41 -0000
+
+Speakers -
+
+Could you please email me your presentation (ppt/pdf) by Wednesday
+March 5th please?
+
+We would also need a scribe to take notes - does anyone want to volunteer?
+
+Thanks
+Arjuna
+
+On 24 February 2014 20:11, Arjuna Sathiaseelan
+<arjuna.sathiaseelan@cl.cam.ac.uk> wrote:
+> All,
+>
+>   Please find the revised agenda for the GAIA RG-to-be meeting on Thursday 6th
+> March, 3:00 pm-6:00 pm at the Hilton Meeting Room 1-4.
+>
+> 3:00-3:05 - Welcome, Chairs (5 mins)
+>
+> Session 1: Deployment Experiences
+> 3:05-3:15 - "Internet Deployment Experiences from NSRC" - Steve Huter, NSRC
+> 3:15-3:25 - "IXP Deployment Experiences in Africa" - Michuki Mwangi, ISOC
+> 3:25-3:35 - "Digital divide challenges: A perspective from the
+> Commonwealth Countries", Dr. Martin Koyabe, Commonwealth
+> Telecommunications Organisation (10 mins)
+> 3:35-3:45 - "Understanding broadband performance - A Network
+> Operator's Perspective" - Dr. Achilles Petras, BT
+> 3:45-3:55 - "Caching and the local content equation" - Mike Blanche, Google
+> 3:55-4:10 - Q & A
+>
+> Session 2: Research Project Experiences
+> 4:10-4:20 - "Thoughts and Experience from the IU-ATC project" - Prof
+> Saleem Bhatti, University of St. Andrews
+> 4:20-4:30 - "Liberouter Project" - Prof Joerg Ott, Aalto University
+> 4:30-4:40 - "Virtual Public Networks Project" - Prof Panagiotis
+> Papadimitrious, University of Hannover
+> 4:40-4:50 - Q & A
+>
+> Session 3: Architectures
+> 4:50-5:00 - TAQ: Enhancing Fairness and Performance Predictability in
+> Small Packet Regimes, Prof. Jay Chen, New York University.
+> 5:00-5:10 - "Less-than-Best-Effort Service for Community Wireless
+> Networks: Challenges at Three Layers" - Prof Michael Welzl, University
+> of Oslo
+> 5:10-5:20 - "From an always-on Internet to one that is almost surely
+> off" - Dr. Dirk Trossen, InterDigital
+> 5:20-5:30 - Q & A
+>
+> 5:30-6:00 - Discussion of proposed charter and future plans
+>
+> --
+> Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+
+
+
+-- 
+Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+
+
+From nobody Thu Feb 27 01:19:49 2014
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 64B201A0133 for <gaia@ietfa.amsl.com>; Thu, 27 Feb 2014 01:19:47 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 1.422
+X-Spam-Level: *
+X-Spam-Status: No, score=1.422 tagged_above=-999 required=5 tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FM_FORGED_GMAIL=0.622, FREEMAIL_FROM=0.001, SPF_PASS=-0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id iOSkGP1jGyDq for <gaia@ietfa.amsl.com>; Thu, 27 Feb 2014 01:19:45 -0800 (PST)
+Received: from mail-pd0-x22c.google.com (mail-pd0-x22c.google.com [IPv6:2607:f8b0:400e:c02::22c]) by ietfa.amsl.com (Postfix) with ESMTP id B19BA1A012E for <gaia@irtf.org>; Thu, 27 Feb 2014 01:19:45 -0800 (PST)
+Received: by mail-pd0-f172.google.com with SMTP id p10so2198887pdj.3 for <gaia@irtf.org>; Thu, 27 Feb 2014 01:19:44 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:sender:in-reply-to:references:date:message-id:subject :from:to:content-type; bh=4QaIK46bBJgGF7gmkYzV0JYxj/xUGLmV/XYhCo/cnLY=; b=nVujGRmjx8sD3BngPF3yNOyBlHknSZm7whTkpErngtIYyhNduqBLqigYHuDuvoo38a gSOagWZGuj2x5O97VJ73uz+4JGeSbA0Wh/xxW/EeJG7xSmwxf/VPLSgwM6oUZNoWzaDa xh7LGJJbs3C4H7qq5oPqmHmZlBe3ZLU1mKE2fJ0OVEMA5Tjfw+lyomV4Pu2qiuoZffJE NYy+VdCsmmbOeMD7seYfowzjvrpGTFEVaK3VU6FEgLoZxxE5uD3MxcqNdH5OXADQSO9O RUC4m0ADWMXW0GMqA0zn5dJojzy8rhhkiM8oM2zddT+C/v+pWF+7pVuRgj2898V/DnwZ OmSg==
+MIME-Version: 1.0
+X-Received: by 10.68.223.193 with SMTP id qw1mr12437373pbc.16.1393492784290; Thu, 27 Feb 2014 01:19:44 -0800 (PST)
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.68.126.129 with HTTP; Thu, 27 Feb 2014 01:19:44 -0800 (PST)
+In-Reply-To: <CAPaG1AmRkt47gzBvYdnJ3FecVv5RkMD_j5-hHrcUrR03WnRnsw@mail.gmail.com>
+References: <CAPaG1Amev=OecwAsUZ0_qm=gWN7kPjM3kZK8d+hueb+S6O6AwQ@mail.gmail.com> <CAPaG1AmRkt47gzBvYdnJ3FecVv5RkMD_j5-hHrcUrR03WnRnsw@mail.gmail.com>
+Date: Thu, 27 Feb 2014 09:19:44 +0000
+X-Google-Sender-Auth: kus60YdC9cWxBgdaRhsMZRLCOBs
+Message-ID: <CAPaG1AmN-Ux9Zt8C4A6K55PKkpk2n-iL-_dBTyOhR3YdDxQtKQ@mail.gmail.com>
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+To: gaia <gaia@irtf.org>
+Content-Type: text/plain; charset=ISO-8859-1
+Archived-At: http://mailarchive.ietf.org/arch/msg/gaia/U79nh0Xh6TCfd1Ijtf5dYFVEdTk
+Subject: Re: [gaia] GAIA Meeting - Revised Agenda
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 27 Feb 2014 09:19:47 -0000
+
+Matthew Ford and David Ros have agreed to be the scribes - thanks a lot.
+
+Please dont forget to email me your slides by Wednesday.
+
+
+Thanks
+Arjuna
+
+On 26 February 2014 16:54, Arjuna Sathiaseelan
+<arjuna.sathiaseelan@cl.cam.ac.uk> wrote:
+> Speakers -
+>
+> Could you please email me your presentation (ppt/pdf) by Wednesday
+> March 5th please?
+>
+> We would also need a scribe to take notes - does anyone want to volunteer?
+>
+> Thanks
+> Arjuna
+>
+> On 24 February 2014 20:11, Arjuna Sathiaseelan
+> <arjuna.sathiaseelan@cl.cam.ac.uk> wrote:
+>> All,
+>>
+>>   Please find the revised agenda for the GAIA RG-to-be meeting on Thursday 6th
+>> March, 3:00 pm-6:00 pm at the Hilton Meeting Room 1-4.
+>>
+>> 3:00-3:05 - Welcome, Chairs (5 mins)
+>>
+>> Session 1: Deployment Experiences
+>> 3:05-3:15 - "Internet Deployment Experiences from NSRC" - Steve Huter, NSRC
+>> 3:15-3:25 - "IXP Deployment Experiences in Africa" - Michuki Mwangi, ISOC
+>> 3:25-3:35 - "Digital divide challenges: A perspective from the
+>> Commonwealth Countries", Dr. Martin Koyabe, Commonwealth
+>> Telecommunications Organisation (10 mins)
+>> 3:35-3:45 - "Understanding broadband performance - A Network
+>> Operator's Perspective" - Dr. Achilles Petras, BT
+>> 3:45-3:55 - "Caching and the local content equation" - Mike Blanche, Google
+>> 3:55-4:10 - Q & A
+>>
+>> Session 2: Research Project Experiences
+>> 4:10-4:20 - "Thoughts and Experience from the IU-ATC project" - Prof
+>> Saleem Bhatti, University of St. Andrews
+>> 4:20-4:30 - "Liberouter Project" - Prof Joerg Ott, Aalto University
+>> 4:30-4:40 - "Virtual Public Networks Project" - Prof Panagiotis
+>> Papadimitrious, University of Hannover
+>> 4:40-4:50 - Q & A
+>>
+>> Session 3: Architectures
+>> 4:50-5:00 - TAQ: Enhancing Fairness and Performance Predictability in
+>> Small Packet Regimes, Prof. Jay Chen, New York University.
+>> 5:00-5:10 - "Less-than-Best-Effort Service for Community Wireless
+>> Networks: Challenges at Three Layers" - Prof Michael Welzl, University
+>> of Oslo
+>> 5:10-5:20 - "From an always-on Internet to one that is almost surely
+>> off" - Dr. Dirk Trossen, InterDigital
+>> 5:20-5:30 - Q & A
+>>
+>> 5:30-6:00 - Discussion of proposed charter and future plans
+>>
+>> --
+>> Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+>
+>
+>
+> --
+> Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+
+
+
+-- 
+Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+
+
+From nobody Fri Feb 28 03:54:09 2014
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id D605F1A06E5 for <gaia@ietfa.amsl.com>; Fri, 28 Feb 2014 03:54:07 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 2.221
+X-Spam-Level: **
+X-Spam-Status: No, score=2.221 tagged_above=-999 required=5 tests=[BAYES_40=-0.001, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FM_FORGED_GMAIL=0.622, FREEMAIL_FROM=0.001, GB_AFFORDABLE=1, J_CHICKENPOX_12=0.6, SPF_PASS=-0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id pE_hQue4rCuR for <gaia@ietfa.amsl.com>; Fri, 28 Feb 2014 03:54:06 -0800 (PST)
+Received: from mail-pb0-x230.google.com (mail-pb0-x230.google.com [IPv6:2607:f8b0:400e:c01::230]) by ietfa.amsl.com (Postfix) with ESMTP id ADDC81A019D for <gaia@irtf.org>; Fri, 28 Feb 2014 03:54:06 -0800 (PST)
+Received: by mail-pb0-f48.google.com with SMTP id md12so665183pbc.7 for <gaia@irtf.org>; Fri, 28 Feb 2014 03:54:05 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:sender:date:message-id:subject:from:to:content-type;  bh=64OPvRelfBRdX6qan5wI0KDw/b2cSCDemw9HFykfIQM=; b=qXFKsJe1Dglr7dgA08zeI3l/2YbEMATD+bo4LPjyTROmQmuraWKlZMIhtA0PiNItaQ aublVy8nvozI/+8HBFCsxS6hlnxFZjxOb9Yt3wqpiVFhycNc+hs7rRadci0+AEDTzh04 WIMW+C/LE7sIhLIOb6eGmHu+Xu26o+/JZmPfQ7VoCZqui1J1EMcSKWKzLb4PaQRID2RD TaAf3TZgQfyJcDLEROFnfk5A5a1JMvHnJFSS/MVRGI6biXUwoM7MY3m8pUpmqXG2nEkL JLjexiED6U7OE78zHGbn5j6jOHwEfPSdyWgcqtsusw7E/ajfpNnVOtYk4Pwo1wvb73iG BCHw==
+MIME-Version: 1.0
+X-Received: by 10.68.247.201 with SMTP id yg9mr3057494pbc.148.1393588444978; Fri, 28 Feb 2014 03:54:04 -0800 (PST)
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.68.62.41 with HTTP; Fri, 28 Feb 2014 03:54:04 -0800 (PST)
+Date: Fri, 28 Feb 2014 11:54:04 +0000
+X-Google-Sender-Auth: 22GE3Zw__Qmw4o0WNYdi4v5CR9A
+Message-ID: <CAPaG1Akubf=6YPTutQojyiD6z08FH7feUKed7mttqAczZMVSDQ@mail.gmail.com>
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+To: gaia <gaia@irtf.org>
+Content-Type: text/plain; charset=ISO-8859-1
+Archived-At: http://mailarchive.ietf.org/arch/msg/gaia/OsiIvzrXzXI6W_TlV_Kn4dIZEeQ
+Subject: [gaia] GAIA meeting agenda
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 28 Feb 2014 11:54:08 -0000
+
+All,
+  There were a few requests for us to accommodate those who would have
+to come from the TCPM meeting which ends at 3:00 pm. So we have
+shifted the talks by 5 mins.
+
+Please see the revised agenda here:
+http://trac.tools.ietf.org/group/irtf/trac/wiki/gaia
+
+Also, there were a couple more requests for talks one from the
+Alliance for Affordable Internet policy manager and the other from
+Funkfeuer wireless network folks who wanted a 5 min slot - so we have
+managed to get them in too. A4AI will give a joint talk with the CTO.
+
+As you can see, the agenda is packed and we would have to strictly
+follow the times - so please make sure you stick to the time :)
+
+The IRTF requires the slides of the talks to made available before the
+meeting - so could you please send me the slides before end of
+wednesday 5th March. Thanks.
+
+Regards
+Arjuna
+-- 
+Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+
+
+From nobody Fri Feb 28 04:49:01 2014
+Return-Path: <jsaldana@unizar.es>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id A52F51A008D for <gaia@ietfa.amsl.com>; Fri, 28 Feb 2014 04:48:58 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.047
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.047 tagged_above=-999 required=5 tests=[BAYES_50=0.8, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_MED=-2.3, RP_MATCHES_RCVD=-0.547, SPF_PASS=-0.001] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Ge1_jtU_84Nw for <gaia@ietfa.amsl.com>; Fri, 28 Feb 2014 04:48:55 -0800 (PST)
+Received: from isuela.unizar.es (isuela.unizar.es [155.210.1.53]) by ietfa.amsl.com (Postfix) with ESMTP id 1C2321A0068 for <gaia@irtf.org>; Fri, 28 Feb 2014 04:48:53 -0800 (PST)
+Received: from usuarioPC (gtc1pc12.cps.unizar.es [155.210.158.17]) by isuela.unizar.es (8.13.8/8.13.8/Debian-3) with ESMTP id s1SCmndS024504 for <gaia@irtf.org>; Fri, 28 Feb 2014 13:48:49 +0100
+From: "Jose Saldana" <jsaldana@unizar.es>
+To: <gaia@irtf.org>
+Date: Fri, 28 Feb 2014 13:49:08 +0100
+Message-ID: <012201cf3483$78cb6730$6a623590$@unizar.es>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_NextPart_000_0123_01CF348B.DA90E0A0"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: Ac80gTOE5tu6tH3aQRuhe/J6cLSY0A==
+Content-Language: es
+X-Mail-Scanned: Criba 2.0 + Clamd & Bogofilter
+Archived-At: http://mailarchive.ietf.org/arch/msg/gaia/x_3CCBEJXWXcGqzr1kBm6AP2dL8
+Subject: [gaia] TCM-TF: a proposal for traffic optimization to be discussed in London
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 28 Feb 2014 12:48:58 -0000
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0123_01CF348B.DA90E0A0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi all,
+ 
+I am Jose Saldana, from University of Zaragoza, Spain. I am participating on
+an standardization effort that may have some synergies with GAIA. As GAIA
+web says, we think that TCM-TF  "could potentially change the Internet
+landscape to be (a bit) more inclusive."
+ 
+The idea is to multiplex and compress small packets, in order to save
+bandwidth and to reduce the amount of packets per second. We think this can
+be interesting in less-developed countries, where bandwidth is a scarce
+resource.
+ 
+A significant bandwidth reduction for VoIP, online games, M2M, etc. traffic
+can be achieved with the counterpart of a small additional delay and some
+processing:
+ 
+This is a summary of TCM-TF:
+https://dl.dropboxusercontent.com/u/67016195/tcm-tf-summary.pdf
+ 
+We are having a WG-forming BoF on Tuesday at 13.00. It is the second BoF
+about this.
+https://datatracker.ietf.org/meeting/89/agenda/tcmtf/
+ 
+If you think this is interesting, I will be near the TCM-TF BoF poster in
+the Welcome Reception.
+ 
+ 
+Best regards and see you in London!
+ 
+Jose Saldana, PhD
+University of Zaragoza
+ <http://diec.unizar.es/~jsaldana/personal/index.htm>
+http://diec.unizar.es/~jsaldana/personal/index.htm
+ 
+
+------=_NextPart_000_0123_01CF348B.DA90E0A0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DProgId content=3DWord.Document><meta =
+name=3DGenerator content=3D"Microsoft Word 14"><meta name=3DOriginator =
+content=3D"Microsoft Word 14"><link rel=3DFile-List =
+href=3D"cid:filelist.xml@01CF348B.D9903980"><!--[if gte mso 9]><xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+</o:OfficeDocumentSettings>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<w:WordDocument>
+<w:SpellingState>Clean</w:SpellingState>
+<w:TrackMoves/>
+<w:TrackFormatting/>
+<w:HyphenationZone>21</w:HyphenationZone>
+<w:EnvelopeVis/>
+<w:PunctuationKerning/>
+<w:ValidateAgainstSchemas/>
+<w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+<w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+<w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+<w:DoNotPromoteQF/>
+<w:LidThemeOther>ES</w:LidThemeOther>
+<w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+<w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+<w:Compatibility>
+<w:BreakWrappedTables/>
+<w:SnapToGridInCell/>
+<w:WrapTextWithPunct/>
+<w:UseAsianBreakRules/>
+<w:DontGrowAutofit/>
+<w:SplitPgBreakAndParaMark/>
+<w:EnableOpenTypeKerning/>
+<w:DontFlipMirrorIndents/>
+<w:OverrideTableStyleHps/>
+</w:Compatibility>
+<m:mathPr>
+<m:mathFont m:val=3D"Cambria Math"/>
+<m:brkBin m:val=3D"before"/>
+<m:brkBinSub m:val=3D"&#45;-"/>
+<m:smallFrac m:val=3D"off"/>
+<m:dispDef/>
+<m:lMargin m:val=3D"0"/>
+<m:rMargin m:val=3D"0"/>
+<m:defJc m:val=3D"centerGroup"/>
+<m:wrapIndent m:val=3D"1440"/>
+<m:intLim m:val=3D"subSup"/>
+<m:naryLim m:val=3D"undOvr"/>
+</m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<w:LatentStyles DefLockedState=3D"false" DefUnhideWhenUsed=3D"true" =
+DefSemiHidden=3D"true" DefQFormat=3D"false" DefPriority=3D"99" =
+LatentStyleCount=3D"267">
+<w:LsdException Locked=3D"false" Priority=3D"0" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Normal"/>
+<w:LsdException Locked=3D"false" Priority=3D"9" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"heading 1"/>
+<w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 2"/>
+<w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 3"/>
+<w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 4"/>
+<w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 5"/>
+<w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 6"/>
+<w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 7"/>
+<w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 8"/>
+<w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 9"/>
+<w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 1"/>
+<w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 2"/>
+<w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 3"/>
+<w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 4"/>
+<w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 5"/>
+<w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 6"/>
+<w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 7"/>
+<w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 8"/>
+<w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 9"/>
+<w:LsdException Locked=3D"false" Priority=3D"35" QFormat=3D"true" =
+Name=3D"caption"/>
+<w:LsdException Locked=3D"false" Priority=3D"10" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Title"/>
+<w:LsdException Locked=3D"false" Priority=3D"1" Name=3D"Default =
+Paragraph Font"/>
+<w:LsdException Locked=3D"false" Priority=3D"11" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Subtitle"/>
+<w:LsdException Locked=3D"false" Priority=3D"22" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Strong"/>
+<w:LsdException Locked=3D"false" Priority=3D"20" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Emphasis"/>
+<w:LsdException Locked=3D"false" Priority=3D"59" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Table Grid"/>
+<w:LsdException Locked=3D"false" UnhideWhenUsed=3D"false" =
+Name=3D"Placeholder Text"/>
+<w:LsdException Locked=3D"false" Priority=3D"1" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"No Spacing"/>
+<w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Light Shading"/>
+<w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Light List"/>
+<w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Light Grid"/>
+<w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1"/>
+<w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2"/>
+<w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium List 1"/>
+<w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium List 2"/>
+<w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1"/>
+<w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2"/>
+<w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3"/>
+<w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Dark List"/>
+<w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Colorful Shading"/>
+<w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Colorful List"/>
+<w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Colorful Grid"/>
+<w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 1"/>
+<w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Light List Accent 1"/>
+<w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 1"/>
+<w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 1"/>
+<w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 1"/>
+<w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 1"/>
+<w:LsdException Locked=3D"false" UnhideWhenUsed=3D"false" =
+Name=3D"Revision"/>
+<w:LsdException Locked=3D"false" Priority=3D"34" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"List Paragraph"/>
+<w:LsdException Locked=3D"false" Priority=3D"29" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Quote"/>
+<w:LsdException Locked=3D"false" Priority=3D"30" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Intense Quote"/>
+<w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 1"/>
+<w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 1"/>
+<w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 1"/>
+<w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 1"/>
+<w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 1"/>
+<w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 1"/>
+<w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 1"/>
+<w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 1"/>
+<w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 2"/>
+<w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Light List Accent 2"/>
+<w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 2"/>
+<w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 2"/>
+<w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 2"/>
+<w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 2"/>
+<w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 2"/>
+<w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 2"/>
+<w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 2"/>
+<w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 2"/>
+<w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 2"/>
+<w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 2"/>
+<w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 2"/>
+<w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 2"/>
+<w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 3"/>
+<w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Light List Accent 3"/>
+<w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 3"/>
+<w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 3"/>
+<w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 3"/>
+<w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 3"/>
+<w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 3"/>
+<w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 3"/>
+<w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 3"/>
+<w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 3"/>
+<w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 3"/>
+<w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 3"/>
+<w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 3"/>
+<w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 3"/>
+<w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 4"/>
+<w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Light List Accent 4"/>
+<w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 4"/>
+<w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 4"/>
+<w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 4"/>
+<w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 4"/>
+<w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 4"/>
+<w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 4"/>
+<w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 4"/>
+<w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 4"/>
+<w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 4"/>
+<w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 4"/>
+<w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 4"/>
+<w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 4"/>
+<w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 5"/>
+<w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Light List Accent 5"/>
+<w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 5"/>
+<w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 5"/>
+<w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 5"/>
+<w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 5"/>
+<w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 5"/>
+<w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 5"/>
+<w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 5"/>
+<w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 5"/>
+<w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 5"/>
+<w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 5"/>
+<w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 5"/>
+<w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 5"/>
+<w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 6"/>
+<w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Light List Accent 6"/>
+<w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 6"/>
+<w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 6"/>
+<w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 6"/>
+<w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 6"/>
+<w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 6"/>
+<w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 6"/>
+<w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 6"/>
+<w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 6"/>
+<w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 6"/>
+<w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 6"/>
+<w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 6"/>
+<w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 6"/>
+<w:LsdException Locked=3D"false" Priority=3D"19" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Subtle Emphasis"/>
+<w:LsdException Locked=3D"false" Priority=3D"21" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Intense Emphasis"/>
+<w:LsdException Locked=3D"false" Priority=3D"31" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Subtle Reference"/>
+<w:LsdException Locked=3D"false" Priority=3D"32" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Intense Reference"/>
+<w:LsdException Locked=3D"false" Priority=3D"33" SemiHidden=3D"false" =
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Book Title"/>
+<w:LsdException Locked=3D"false" Priority=3D"37" Name=3D"Bibliography"/>
+<w:LsdException Locked=3D"false" Priority=3D"39" QFormat=3D"true" =
+Name=3D"TOC Heading"/>
+</w:LatentStyles>
+</xml><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-hansi-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+span.EstiloCorreo17
+	{mso-style-type:personal-compose;
+	mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-ansi-font-size:11.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-hansi-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	color:windowtext;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-hansi-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 10]><style>/* Style Definitions */
+table.MsoNormalTable
+	{mso-style-name:"Tabla normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-hansi-font-family:Calibri;
+	mso-fareast-language:EN-US;}
+</style><![endif]--><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DES link=3Dblue =
+vlink=3Dpurple style=3D'tab-interval:35.4pt'><div =
+class=3DWordSection1><p class=3DMsoNormal>Hi <span =
+class=3DSpellE>all</span>,<o:p></o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'>I am Jose Saldana, from =
+University of Zaragoza, Spain. I am participating on an standardization =
+effort that may have some synergies with GAIA. As GAIA web says, =
+</span><span lang=3DEN-US =
+style=3D'font-size:11.5pt;color:black;background:white;mso-ansi-language:=
+EN-US'>we think that TCM-TF <span =
+style=3D'mso-spacerun:yes'>&nbsp;</span>&#8220;could potentially change =
+the Internet landscape to be (a bit) more =
+inclusive.&#8221;<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.5pt;color:black;background:white;mso-ansi-language:=
+EN-US'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.5pt;color:black;background:white;mso-ansi-language:=
+EN-US'>The idea is to multiplex and compress small packets, in order to =
+save bandwidth and to reduce the amount of packets per second. We think =
+this can be interesting in less-developed countries, where bandwidth is =
+a scarce resource.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.5pt;color:black;background:white;mso-ansi-language:=
+EN-US'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.5pt;color:black;background:white;mso-ansi-language:=
+EN-US'>A significant bandwidth reduction for VoIP, online games, M2M, =
+etc. traffic can be achieved with the counterpart of a small additional =
+delay and some processing:<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.5pt;color:black;background:white;mso-ansi-language:=
+EN-US'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.5pt;color:black;background:white;mso-ansi-language:=
+EN-US'>This is a summary of TCM-TF:<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.5pt;color:black;background:white;mso-ansi-language:=
+EN-US'><a =
+href=3D"https://dl.dropboxusercontent.com/u/67016195/tcm-tf-summary.pdf">=
+https://dl.dropboxusercontent.com/u/67016195/tcm-tf-summary.pdf</a><o:p><=
+/o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.5pt;color:black;background:white;mso-ansi-language:=
+EN-US'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.5pt;color:black;background:white;mso-ansi-language:=
+EN-US'>We are having a WG-forming <span class=3DSpellE>BoF</span> on =
+Tuesday at 13.00. It is the second <span class=3DSpellE>BoF</span> about =
+this.<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'mso-ansi-language:EN-US'><a =
+href=3D"https://datatracker.ietf.org/meeting/89/agenda/tcmtf/">https://da=
+tatracker.ietf.org/meeting/89/agenda/tcmtf/</a><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'mso-ansi-language:EN-US'>If you think this is interesting, I =
+will be near the TCM-TF <span class=3DSpellE>BoF</span> poster in the =
+Welcome Reception.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'mso-ansi-language:EN-US'>Best regards and see you in =
+London!<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'mso-fareast-font-family:"Times New =
+Roman";mso-bidi-font-family:Arial;mso-ansi-language:EN-US;mso-fareast-lan=
+guage:ES;mso-no-proof:yes'>Jose Saldana, PhD<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'mso-fareast-font-family:"Times New =
+Roman";mso-bidi-font-family:Arial;mso-ansi-language:EN-US;mso-fareast-lan=
+guage:ES;mso-no-proof:yes'>University of =
+Zaragoza<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'mso-fareast-font-family:"Times New =
+Roman";mso-bidi-font-family:Arial;mso-fareast-language:ES;mso-no-proof:ye=
+s'><a href=3D"http://diec.unizar.es/~jsaldana/personal/index.htm"><span =
+lang=3DEN-US =
+style=3D'color:blue;mso-ansi-language:EN-US'>http://diec.unizar.es/~jsald=
+ana/personal/index.htm</span></a></span><span lang=3DEN-US =
+style=3D'mso-fareast-font-family:"Times New =
+Roman";mso-bidi-font-family:Arial;mso-ansi-language:EN-US;mso-fareast-lan=
+guage:ES;mso-no-proof:yes'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p></div></bod=
+y></html>
+------=_NextPart_000_0123_01CF348B.DA90E0A0--
+

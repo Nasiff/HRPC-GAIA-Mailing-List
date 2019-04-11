@@ -1,0 +1,2236 @@
+
+From nobody Thu Jan  1 13:39:52 2015
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 70CC91A1AD2 for <gaia@ietfa.amsl.com>; Thu,  1 Jan 2015 13:39:50 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 1.422
+X-Spam-Level: *
+X-Spam-Status: No, score=1.422 tagged_above=-999 required=5 tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FM_FORGED_GMAIL=0.622, FREEMAIL_FROM=0.001, SPF_PASS=-0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id m7-oHgq4kCb4 for <gaia@ietfa.amsl.com>; Thu,  1 Jan 2015 13:39:48 -0800 (PST)
+Received: from mail-wg0-x232.google.com (mail-wg0-x232.google.com [IPv6:2a00:1450:400c:c00::232]) (using TLSv1 with cipher ECDHE-RSA-RC4-SHA (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id E6F6B1A03A9 for <gaia@irtf.org>; Thu,  1 Jan 2015 13:39:47 -0800 (PST)
+Received: by mail-wg0-f50.google.com with SMTP id a1so23369730wgh.23 for <gaia@irtf.org>; Thu, 01 Jan 2015 13:39:46 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:sender:date:message-id:subject:from:to:content-type;  bh=yQnaLHuaXmjXnF/eIc3IwRWUrjgAv4XC7FW6HJTO8H4=; b=rlGLWUBM5LyW5Nvea/pIvglOTXo2TC6VYNjgQIwJ6Sqkd6vCZefZjUXdeYQqQ6HD5R dlNsGil4rM9y85yrBtHtxkOvJsNtUPwSqBfONyGV2oG30sbBGZkz9DG7bX5RcmO1oBSj C8uSgQjnoVaus9ALyNdElucT7uqp3fojjOPqU8/WWxmn+bhm+vg09EQ+TyP+LCSlag0e XFOgwQMCjkQUAtYPsBgasMRUcygJgLH8SPXdlwI7rk9bBrLurtoQVug+qbJD+bXmozrt sxMdiYMyW6ZrLNe+7GcvIFUXRF2g2dhFaM2yR+xDc989qgIPbRISm/4TEb+HuJPpdX4g /0+g==
+MIME-Version: 1.0
+X-Received: by 10.180.36.162 with SMTP id r2mr125338551wij.75.1420148386597; Thu, 01 Jan 2015 13:39:46 -0800 (PST)
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.27.218.204 with HTTP; Thu, 1 Jan 2015 13:39:46 -0800 (PST)
+Date: Thu, 1 Jan 2015 21:39:46 +0000
+X-Google-Sender-Auth: l623a3jzkLwKwC15ymkDzUyQUho
+Message-ID: <CAPaG1AkDXs52neRtqeYbwE3BT0rbm9fy1U801Qkqukf4Req84A@mail.gmail.com>
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+To: gaia <gaia@irtf.org>
+Content-Type: text/plain; charset=UTF-8
+Archived-At: http://mailarchive.ietf.org/arch/msg/gaia/FosR-O4CeN1pvAP0m-ADGPLGBdI
+Subject: [gaia] ACM DEV 2015 and GAIA
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 01 Jan 2015 21:39:50 -0000
+
+Dear All,
+  Wish you all a very happy new year!
+
+Just to let you all know - so that you can be better prepared -
+
+The next ACM DEV will be in London this year in November - Marco
+Zennaro and I will be the General Chairs while Elizabeth Belding and
+Jay Chen will be the PC Chairs. We are currently working out plans to
+make ACM DEV bigger than the previous years.
+
+We will have the next GAIA workshop along with ACM DEV and we are keen
+to have more participation from the GAIA members.
+
+Thanks for your continued support and have a great year!
+
+Regards
+
+-- 
+Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+
+
+From feamster@cs.princeton.edu  Thu Jan  1 21:42:15 2015
+Return-Path: <feamster@cs.princeton.edu>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 4BFD31A8730 for <gaia@ietfa.amsl.com>; Thu,  1 Jan 2015 21:42:15 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.511
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.511 tagged_above=-999 required=5 tests=[BAYES_50=0.8, RCVD_IN_DNSWL_MED=-2.3, SPF_PASS=-0.001, T_RP_MATCHES_RCVD=-0.01] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id pFNNCaVZPF8e for <gaia@ietfa.amsl.com>; Thu,  1 Jan 2015 21:42:13 -0800 (PST)
+Received: from bluebox.CS.Princeton.EDU (bluebox.CS.Princeton.EDU [128.112.136.38]) (using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 8534C1A872F for <gaia@irtf.org>; Thu,  1 Jan 2015 21:42:13 -0800 (PST)
+Received: from [10.0.0.11] (196-210-54-19.dynamic.isadsl.co.za [196.210.54.19]) (authenticated bits=0) by bluebox.CS.Princeton.EDU (8.13.8/8.13.8) with ESMTP id t025fx9l022422 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT); Fri, 2 Jan 2015 00:42:04 -0500
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0 (Mac OS X Mail 8.1 \(1993\))
+From: Nick Feamster <feamster@CS.Princeton.EDU>
+In-Reply-To: <CAPaG1AkDXs52neRtqeYbwE3BT0rbm9fy1U801Qkqukf4Req84A@mail.gmail.com>
+Date: Fri, 2 Jan 2015 07:41:58 +0200
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <62D29A29-94C1-4EF3-BE19-24272304B8E2@cs.princeton.edu>
+References: <CAPaG1AkDXs52neRtqeYbwE3BT0rbm9fy1U801Qkqukf4Req84A@mail.gmail.com>
+To: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+X-Mailer: Apple Mail (2.1993)
+Archived-At: http://mailarchive.ietf.org/arch/msg/gaia/e8SUxaJIlzchVA3VN76qp8ZIWE0
+X-Mailman-Approved-At: Fri, 02 Jan 2015 00:46:29 -0800
+Cc: gaia <gaia@irtf.org>
+Subject: Re: [gaia] ACM DEV 2015 and GAIA
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 02 Jan 2015 05:42:51 -0000
+
+Awesome!  I hope to make it!  GAIA was great this year.  Thanks for =
+making it happen.
+
+-Nick
+
+> On Jan 1, 2015, at 11:39 PM, Arjuna Sathiaseelan =
+<arjuna.sathiaseelan@cl.cam.ac.uk> wrote:
+>=20
+> Dear All,
+>  Wish you all a very happy new year!
+>=20
+> Just to let you all know - so that you can be better prepared -
+>=20
+> The next ACM DEV will be in London this year in November - Marco
+> Zennaro and I will be the General Chairs while Elizabeth Belding and
+> Jay Chen will be the PC Chairs. We are currently working out plans to
+> make ACM DEV bigger than the previous years.
+>=20
+> We will have the next GAIA workshop along with ACM DEV and we are keen
+> to have more participation from the GAIA members.
+>=20
+> Thanks for your continued support and have a great year!
+>=20
+> Regards
+>=20
+> --=20
+> Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+>=20
+> _______________________________________________
+> gaia mailing list
+> gaia@irtf.org
+> https://irtf.org/mailman/listinfo/gaia
+
+=E2=80=94=E2=80=94
+
+On January 1, 2015, I joined the faculty at Princeton University.  =
+Please update your address book to feamster@cs.princeton.edu.  Thanks!
+
+
+From nobody Fri Jan  2 16:05:48 2015
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id A820C1A1A87 for <gaia@ietfa.amsl.com>; Fri,  2 Jan 2015 16:05:46 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 0.122
+X-Spam-Level: 
+X-Spam-Status: No, score=0.122 tagged_above=-999 required=5 tests=[BAYES_05=-0.5, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FM_FORGED_GMAIL=0.622, FREEMAIL_FROM=0.001, SPF_PASS=-0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id DZRCpKaxIo2a for <gaia@ietfa.amsl.com>; Fri,  2 Jan 2015 16:05:44 -0800 (PST)
+Received: from mail-we0-x22a.google.com (mail-we0-x22a.google.com [IPv6:2a00:1450:400c:c03::22a]) (using TLSv1 with cipher ECDHE-RSA-RC4-SHA (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 109201A1A86 for <gaia@irtf.org>; Fri,  2 Jan 2015 16:05:44 -0800 (PST)
+Received: by mail-we0-f170.google.com with SMTP id w61so5112393wes.15 for <gaia@irtf.org>; Fri, 02 Jan 2015 16:05:42 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:sender:in-reply-to:references:date:message-id:subject :from:to:cc:content-type:content-transfer-encoding; bh=Y51/9Gz8k/QYbcRr1qGRb7Gf6iCYIVT3r7fx4v4onik=; b=Mfow1jvBxxSNWuLY30vAFBatRwUvH4TH/VeVwwfNyCP80F5Z70GgdPIFa3PssrK5Fu OB8N2L3bx61gWd5Yw5gdndk9PlpnnDuiWMIpaaWV5JuvMdpfLVKkRfVVAQaNVILkGYQL IZ1sKJi4xWOdjlCIxILmhL1ujyr4OeVmXqb9tudjVwlA/lv3Ns2KXIkUeJcInhVQAe/K IsrIt7jB/PRHJ6t0/OA/SdIblyCqpXgnZJBsdx3O9gU4e7qZfeiLRI9Y1TUqwPSazrRv XR25MkPRGDord29KvN/auJv6P9Rc0vjoxZmLc1LIjX0DngHoiSLpHt4c7EPDUY49s5/O Rwbw==
+MIME-Version: 1.0
+X-Received: by 10.194.62.163 with SMTP id z3mr155227262wjr.74.1420243542833; Fri, 02 Jan 2015 16:05:42 -0800 (PST)
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.27.218.204 with HTTP; Fri, 2 Jan 2015 16:05:42 -0800 (PST)
+In-Reply-To: <62D29A29-94C1-4EF3-BE19-24272304B8E2@cs.princeton.edu>
+References: <CAPaG1AkDXs52neRtqeYbwE3BT0rbm9fy1U801Qkqukf4Req84A@mail.gmail.com> <62D29A29-94C1-4EF3-BE19-24272304B8E2@cs.princeton.edu>
+Date: Sat, 3 Jan 2015 00:05:42 +0000
+X-Google-Sender-Auth: F49jY7BeNyZTe53pdw6egFQI6Wo
+Message-ID: <CAPaG1AmuaMnCPkFYQg6BLRa-npgbOExROiMGDW30_gH7wDDxVQ@mail.gmail.com>
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+To: Nick Feamster <feamster@cs.princeton.edu>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Archived-At: http://mailarchive.ietf.org/arch/msg/gaia/GFU88Hx2k5xuMFUHsa2RXi4YuxQ
+Cc: gaia <gaia@irtf.org>
+Subject: Re: [gaia] ACM DEV 2015 and GAIA
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Sat, 03 Jan 2015 00:05:46 -0000
+
+Thanks Nick and all,
+
+It will be great to hear some thoughts on how we could spin the GAIA
+workshop for ACM DEV:
+
+ we could have dedicated sessions on
+
+1/ Internet Censorship (talks + demos)
+
+2/ decentralised networks (talks + demos)
+
+3/ African Interconnectivity (talks)
+
+Each will have its own session chair(s) who will be responsible for
+inviting the speakers + planning the demos etc?
+
+Regards
+
+On 2 January 2015 at 05:41, Nick Feamster <feamster@cs.princeton.edu> wrote=
+:
+> Awesome!  I hope to make it!  GAIA was great this year.  Thanks for makin=
+g it happen.
+>
+> -Nick
+>
+>> On Jan 1, 2015, at 11:39 PM, Arjuna Sathiaseelan <arjuna.sathiaseelan@cl=
+.cam.ac.uk> wrote:
+>>
+>> Dear All,
+>>  Wish you all a very happy new year!
+>>
+>> Just to let you all know - so that you can be better prepared -
+>>
+>> The next ACM DEV will be in London this year in November - Marco
+>> Zennaro and I will be the General Chairs while Elizabeth Belding and
+>> Jay Chen will be the PC Chairs. We are currently working out plans to
+>> make ACM DEV bigger than the previous years.
+>>
+>> We will have the next GAIA workshop along with ACM DEV and we are keen
+>> to have more participation from the GAIA members.
+>>
+>> Thanks for your continued support and have a great year!
+>>
+>> Regards
+>>
+>> --
+>> Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+>>
+>> _______________________________________________
+>> gaia mailing list
+>> gaia@irtf.org
+>> https://irtf.org/mailman/listinfo/gaia
+>
+> =E2=80=94=E2=80=94
+>
+> On January 1, 2015, I joined the faculty at Princeton University.  Please=
+ update your address book to feamster@cs.princeton.edu.  Thanks!
+>
+
+
+
+--=20
+Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+
+
+From nobody Sun Jan  4 15:00:13 2015
+Return-Path: <claro.noda@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 356B71A017C for <gaia@ietfa.amsl.com>; Sun,  4 Jan 2015 15:00:11 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 1.422
+X-Spam-Level: *
+X-Spam-Status: No, score=1.422 tagged_above=-999 required=5 tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FM_FORGED_GMAIL=0.622, FREEMAIL_FROM=0.001, SPF_PASS=-0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id GFWMFbf6zQYm for <gaia@ietfa.amsl.com>; Sun,  4 Jan 2015 15:00:08 -0800 (PST)
+Received: from mail-qa0-x231.google.com (mail-qa0-x231.google.com [IPv6:2607:f8b0:400d:c00::231]) (using TLSv1 with cipher ECDHE-RSA-RC4-SHA (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 61C411A0105 for <gaia@irtf.org>; Sun,  4 Jan 2015 15:00:08 -0800 (PST)
+Received: by mail-qa0-f49.google.com with SMTP id dc16so14067786qab.8 for <gaia@irtf.org>; Sun, 04 Jan 2015 15:00:07 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:sender:date:message-id:subject:from:to:cc:content-type :content-transfer-encoding; bh=4lkovjwej6U/T4Hvt85YsCrAIpgas32jRyorKjivCkk=; b=TKxMytxzT1HgnLfDJ7rCkf00TF+IcDRR+AQh3u4R7fzk6Os5v++A8EFhZ9oKA59CKO wimoALl6fzdnRQylLTtQH2iRh5ln3gFS/DSPT+s1XmPA5+bezANTtSB+sdTcrfHGbnCZ 0iu+rnZF9piq70BELneiUSY/f3fKXFm34g5Bu0ZwZna3Eu7P0JGnciwKJrElKXXh56fj cOOBAua69339prn/JUyVdcYZ2tI1wrI2KDhIhfe7L0S7krkOwtFA3pfnbjpHhlOP73zZ iLavwOmrVbpxJeIBIMo38JzLhHtlq0g+2xUKduLjsX7bfztnzEuIg+eLgB1t3RDdNh4g sBnw==
+MIME-Version: 1.0
+X-Received: by 10.224.132.71 with SMTP id a7mr136511188qat.28.1420412407493; Sun, 04 Jan 2015 15:00:07 -0800 (PST)
+Sender: claro.noda@gmail.com
+Received: by 10.229.137.6 with HTTP; Sun, 4 Jan 2015 15:00:07 -0800 (PST)
+Date: Mon, 5 Jan 2015 00:00:07 +0100
+X-Google-Sender-Auth: yhdmbkcTVSKDmlw-IIElZjuv-Ao
+Message-ID: <CAMQ=PEcmdK+Ufq9kf_4aBtrTbxfBgDUVCNcnhzzvS+j-u1rkGQ@mail.gmail.com>
+From: Claro Noda <noda@complexperiments.net>
+To: Jane Coffin <coffin@isoc.org>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Archived-At: http://mailarchive.ietf.org/arch/msg/gaia/wtumVXptC3y7i06mikedPmzzlFw
+Cc: gaia <gaia@irtf.org>, Fernando Ramos <fvramos@fc.ul.pt>
+Subject: Re: [gaia] GAIA Net
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Sun, 04 Jan 2015 23:00:11 -0000
+
+Hi.
+
+My contention is that this kind of rhetoric in the media cannot be
+used as a proxy for what the Cuban government is aiming at.
+
+Evolving domestic legislation about usage of communication
+technology and internet access for Cuban nationals
+(i.e. including non-government related endeavours) would be a
+better indicator of an authentic open up.
+
+The government may even be inclined to break a deal
+with an international MNO (China mobile?) to leapfrog internet access
+thru RAN rather than promoting a blend of CWN, fiber, ADSL, etc.
+
+Hopefully, one see any progress this year.
+
+regards,
+Claro.
+
+
+On 23 December 2014 at 03:50, Jane Coffin <coffin@isoc.org> wrote:
+> Huge priority.
+> AT&T has a sub-cable landing station that two men have helped maintain.
+> Cables can get re-connected provided the rules allow it in Cuba.
+> An IXP is in the works and the guys from same were at the LACNIC/LACNOG
+> meeting in May.
+> LACNIC provides them with IP addresses.
+> Italy has been helping run the regulatory body and phone company.
+> Venezuela has a cable coming in.
+> China has provided lots of funding.
+> What remains to be seen is what the US rules will be.  I worked on the
+> first attempt at opening up in 2007 when the US liberalized sub-cable
+> potential and Sat.  That was not reciprocal.  This is a normalization.  I=
+t
+> will be much more thorough.
+>
+> Our LAC team is already working on what is what.
+> Castro=C2=B9s very good speech is in the W Post from Saturday.  Let me kn=
+ow if
+> you want the Sp/Eng.
+>
+> On 12/22/14, 18:32, "Fernando Ramos" <fvramos@fc.ul.pt> wrote:
+>
+>>Even granma seems to agree the "information superhighway" to be a
+>>priority in Cuba:
+>>
+>>http://laredcubana.blogspot.pt/2014/12/granma-says-it-is-now-priority-is-=
+t
+>>his.html
+>>
+>>http://www.granma.cu/cuba/2014-12-12/la-informatizacion-de-la-sociedad-un=
+a
+>>-prioridad-para-cuba
+>>(Editorial in Spanish)
+>>
+>>"the times they are [indeed] a-changin'..."
+>>
+>>cheers,
+>>
+>>Fernando
+>>
+>>On 19 Dec 2014, at 22:33, Jane Coffin <coffin@isoc.org> wrote:
+>>
+>>> There is some work going on in the community in Cuba to develop an IXP.
+>>> They came to the LAC Peering Forum in Mexico in May (this meeting is
+>>> attached to the LACNIC/LACNOG meeting).
+>>> There are excellent experts in Cuba and LACNIC works closely with them
+>>>as
+>>> well as the ISOC team in LAC.
+>>>
+>>> It might be worthwhile to attend the LACNIC Spring meeting to interface
+>>> there.
+>>>
+>>> On 12/19/14, 17:25, "Claro Noda" <noda@complexperiments.net> wrote:
+>>>
+>>>> Hi.
+>>>>
+>>>> I was thinking the same: Cuba has potential.
+>>>>
+>>>> Alternative/competing solutions makes the difference.
+>>>> Instead of just let the MNO's to figure it out,
+>>>> as the following article suggests:
+>>>>
+>>>> http://research.dyn.com/2014/12/whats-next-cuba/
+>>>>
+>>>> Its not clear how the the U.S. government will proceed,
+>>>> but I think financial aid for this kind of research is
+>>>> clearly a promising way to empower the Cuban people.
+>>>>
+>>>> I'm clueless what funding organisation target would be
+>>>> pertinent, though.
+>>>>
+>>>> regards,
+>>>> Claro.
+>>>>
+>>>> On 19 December 2014 at 16:34, Rohan Mahy <rohan.ietf@gmail.com> wrote:
+>>>>> Hi Arjuna,
+>>>>> I would think that an excellent research opportunity right now would
+>>>>>be
+>>>>> Cuba. Apparently less than 5% of Cubans have unrestricted access to
+>>>>>the
+>>>>> Internet. I expect that with normalization between Cuba and the US
+>>>>>there
+>>>>> will a lot of activity in the telecommunications space, and that at
+>>>>>the
+>>>>> very
+>>>>> least being able to record what happens over the next several years
+>>>>> could
+>>>>> yield a wealth of useful data.
+>>>>>
+>>>>> Regarding Mandi, I hope the goal is to research and capture building =
+a
+>>>>> *sustainable* community network. Toward that end, I want to make sure
+>>>>> that
+>>>>> the community is fully on-board and ready to pay for a share of the
+>>>>> installation and to cover basically all of their own running costs.
+>>>>> Typically communities struggle with Capex. I suggest that the researc=
+h
+>>>>> community cover a portion of capex (plus their own community-priced
+>>>>> Internet
+>>>>> or mobile phone connectivity) instead of trying to reduce the opex
+>>>>>cost.
+>>>>> Thanks,
+>>>>> -rohan
+>>>>>
+>>>>> On Fri, Dec 19, 2014 at 4:59 AM, Arjuna Sathiaseelan
+>>>>> <arjuna.sathiaseelan@cl.cam.ac.uk> wrote:
+>>>>>>
+>>>>>> All -
+>>>>>>
+>>>>>> So I am going to be a bit more ambitious with GAIA in terms of doing
+>>>>>> something really useful -
+>>>>>>
+>>>>>> I am proposing to create the first GAIA network in remote India near
+>>>>>> Mandi - in a community where the network operators including the
+>>>>>>local
+>>>>>> WISP  have not agreed to connect them since its not economically
+>>>>>> viable - so I am going to work with Guifi.net and a local stakeholde=
+r
+>>>>>> to develop the first GAIA network which will also function as a
+>>>>>> research network (similar to ARPANET when it started - so you can
+>>>>>>call
+>>>>>> it the GAIA Net!) where the community will lease the network to the
+>>>>>> research community for them to run experiments and get usage data
+>>>>>> which by itself will create a sustainable business model to recover
+>>>>>> the opex of the network apart from the other services they run over
+>>>>>>it
+>>>>>> following the Guifi.net model!
+>>>>>>
+>>>>>> If this succeeds, I want to replicate GAIA net in other
+>>>>>> places/countries and create a federated research network which
+>>>>>> connects communities but also functions as a testbed for testing out
+>>>>>> new services/architectures/protocols etc!
+>>>>>>
+>>>>>> Not sure whether I will succeed with this - but worth trying!
+>>>>>>
+>>>>>> If anyone has any ideas for getting some initial funds to bootstrap
+>>>>>> this GAIA community network in India, please let me know. Thanks.
+>>>>>>
+>>>>>> Regards
+>>>>>> Arjuna
+>>>>>>
+>>>>>> --
+>>>>>> Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+>>>>>>
+>>>>>> _______________________________________________
+>>>>>> gaia mailing list
+>>>>>> gaia@irtf.org
+>>>>>> https://irtf.org/mailman/listinfo/gaia
+>>>>>
+>>>>>
+>>>>>
+>>>>> _______________________________________________
+>>>>> gaia mailing list
+>>>>> gaia@irtf.org
+>>>>> https://irtf.org/mailman/listinfo/gaia
+>>>>>
+>>>>
+>>>> _______________________________________________
+>>>> gaia mailing list
+>>>> gaia@irtf.org
+>>>> https://irtf.org/mailman/listinfo/gaia
+>>>
+>>> _______________________________________________
+>>> gaia mailing list
+>>> gaia@irtf.org
+>>> https://irtf.org/mailman/listinfo/gaia
+>
+
+
+From nobody Tue Jan  6 07:59:44 2015
+Return-Path: <i.psaras@ucl.ac.uk>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 3BF851A00A2 for <gaia@ietfa.amsl.com>; Tue,  6 Jan 2015 07:59:43 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2
+X-Spam-Level: 
+X-Spam-Status: No, score=-2 tagged_above=-999 required=5 tests=[BAYES_20=-0.001, GB_I_LETTER=-2, HTML_MESSAGE=0.001, LOTS_OF_MONEY=0.001, SPF_HELO_PASS=-0.001] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id h8v9OSGn59Os for <gaia@ietfa.amsl.com>; Tue,  6 Jan 2015 07:59:40 -0800 (PST)
+Received: from emea01-am1-obe.outbound.protection.outlook.com (mail-am1on0773.outbound.protection.outlook.com [IPv6:2a01:111:f400:fe00::773]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 6F2BE1A008F for <gaia@irtf.org>; Tue,  6 Jan 2015 07:59:40 -0800 (PST)
+Received: from AM3PR01MB0663.eurprd01.prod.exchangelabs.com (25.160.4.143) by AM3PR01MB0661.eurprd01.prod.exchangelabs.com (25.160.4.141) with Microsoft SMTP Server (TLS) id 15.1.49.12; Tue, 6 Jan 2015 15:59:17 +0000
+Received: from AM3PR01MB0663.eurprd01.prod.exchangelabs.com ([25.160.4.143]) by AM3PR01MB0663.eurprd01.prod.exchangelabs.com ([25.160.4.143]) with mapi id 15.01.0053.000; Tue, 6 Jan 2015 15:59:17 +0000
+From: "Psaras, Ioannis" <i.psaras@ucl.ac.uk>
+To: gaia <gaia@irtf.org>
+Thread-Topic: Postdoc Position @ UCL - content-oriented, opportunistic networks
+Thread-Index: AQHQKcm5DHi+YNo1+0qTNnRSl1LyIg==
+Date: Tue, 6 Jan 2015 15:59:17 +0000
+Message-ID: <28005732-D206-4F5F-88B9-346900736471@live.ucl.ac.uk>
+Accept-Language: en-GB, en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [90.192.149.117]
+authentication-results: spf=none (sender IP is ) smtp.mailfrom=i.psaras@ucl.ac.uk; 
+x-dmarcaction: None
+x-microsoft-antispam: BCL:0;PCL:0;RULEID:(3005003);SRVR:AM3PR01MB0661;
+x-ucllive-sclrule: HASRUN
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:;SRVR:AM3PR01MB0661;
+x-forefront-prvs: 0448A97BF2
+x-forefront-antispam-report: SFV:NSPM; SFS:(10019020)(199003)(189002)(66066001)(20776003)(102836002)(15975445007)(68736005)(110136001)(50986999)(106356001)(107046002)(229853001)(107886001)(106116001)(33656002)(2900100001)(64706001)(19617315012)(74482002)(46102003)(16236675004)(105586002)(54356999)(92566001)(62966003)(77156002)(122556002)(2656002)(83716003)(450100001)(21056001)(19580395003)(40100003)(19580405001)(4396001)(86362001)(31966008)(99396003)(120916001)(82746002)(87936001)(97736003)(104396002); DIR:OUT; SFP:1102; SCL:1; SRVR:AM3PR01MB0661; H:AM3PR01MB0663.eurprd01.prod.exchangelabs.com; FPR:; SPF:None; MLV:sfv; PTR:InfoNoRecords; A:1; MX:1; LANG:en; 
+received-spf: None (protection.outlook.com: ucl.ac.uk does not designate permitted sender hosts)
+Content-Type: multipart/alternative; boundary="_000_28005732D2064F5F88B9346900736471liveuclacuk_"
+MIME-Version: 1.0
+X-OriginatorOrg: ucl.ac.uk
+X-MS-Exchange-CrossTenant-originalarrivaltime: 06 Jan 2015 15:59:17.5730 (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 1faf88fe-a998-4c5b-93c9-210a11d9a5c2
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM3PR01MB0661
+Archived-At: http://mailarchive.ietf.org/arch/msg/gaia/NuRYEJeKRnQSf_0p-uQd6oqrA0k
+Subject: [gaia] Postdoc Position @ UCL - content-oriented, opportunistic networks
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 06 Jan 2015 15:59:43 -0000
+
+--_000_28005732D2064F5F88B9346900736471liveuclacuk_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+=3D=3D=3D=3D=3D  Apologies for cross-posting  =3D=3D=3D=3D=3D
+
+At the Communications and Information Systems Group (CISG) at EEE UCL we ar=
+e looking for a talented post-doctoral researcher to join our team, as part=
+ of one of our H2020 EU-funded projects.
+
+The UMOBILE project (=93Universal, mobile-centric and opportunistic communi=
+cations architecture=94) aims to investigate and develop a communication an=
+d information infrastructure for underserved, rural, developing regions inl=
+ine with the objectives of the Global Access to the Internet for All (GAIA)=
+ group of the Internet Research Task Force (IRTF). The project will also fo=
+cus on smart city communication environments.
+
+- The position is available immediately (ideal start March 2015, but earlie=
+r, or slightly later start will also be considered) for one year and possib=
+ility of further extension after that period.
+- The deadline for applications is the 12th of January 2015. Salary is depe=
+ndent on qualifications and experience.
+- The post is Grade 7, starting salary =A333,353 per annum and maximum sala=
+ry =A340,313 per annum, both including London Allowance which is currently =
+=A32,919 per annum.
+
+
+The requirements for this position are:
+
+- PhD in Computer Science, Electrical/Computer Engineering, or a related fi=
+eld.
+
+- Strong software design/implementation and prototyping skills
+
+- Background and/or hands-on experience in any of the following areas:
+-- Content-oriented architectures
+-- Information-Centric Networks
+-- Opportunistic, Delay-Tolerant Networks
+-- Traffic engineering, resource management and congestion control
+
+- Algorithm design skills
+
+- Strong publication record
+
+The application should include:
+- a short cover letter indicating the candidate's research interests, achie=
+vements to date and vision for the future,
+- CV including list of publications,
+- contact details of two/three referees.
+
+Interested applicants are encouraged to make informal enquiries about the p=
+ost to Dr Ioannis Psaras (i.psaras@ucl.ac.uk<mailto:i.psaras@ucl.ac.uk><mai=
+lto:i.psaras@ucl.ac.uk>), or Prof. George Pavlou (g.pavlou@ucl.ac.uk<mailto=
+:g.pavlou@ucl.ac.uk><mailto:g.pavlou@ucl.ac.uk>). Shortlisted candidates wi=
+ll be invited for an interview shortly after the application deadline. For =
+details and further particulars, please see:http://www.ee.ucl.ac.uk/vacanci=
+es/research/research-associate-position-in-content-oriented-opportunistic-n=
+etworking<http://www.ee.ucl.ac.uk/vacancies/research/research-associate-pos=
+ition-in-content-oriented-opportunistic-networking>
+
+--_000_28005732D2064F5F88B9346900736471liveuclacuk_
+Content-Type: text/html; charset="Windows-1252"
+Content-ID: <F52A92188A67DB418CD94025BAAA9B7D@eurprd01.prod.exchangelabs.com>
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+</head>
+<body style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-lin=
+e-break: after-white-space;">
+=3D=3D=3D=3D=3D &nbsp;Apologies for cross-posting &nbsp;=3D=3D=3D=3D=3D
+<div><br>
+</div>
+<div>At the Communications and Information Systems Group (CISG) at EEE UCL =
+we are looking for a talented post-doctoral researcher to join our team, as=
+ part of one of our H2020 EU-funded projects.<br>
+<br>
+The UMOBILE project (=93Universal, mobile-centric and opportunistic communi=
+cations architecture=94) aims to investigate and develop a communication an=
+d information infrastructure for underserved, rural, developing regions inl=
+ine with the objectives of the Global
+ Access to the Internet for All (GAIA) group of the Internet Research Task =
+Force (IRTF). The project will also focus on smart city communication envir=
+onments.<br>
+<br>
+- The position is available immediately (ideal start March 2015, but earlie=
+r, or slightly later start will also be considered) for one year and possib=
+ility of further extension after that period.<br>
+- The deadline for applications is the 12th of January 2015. Salary is depe=
+ndent on qualifications and experience.<br>
+- The post is Grade 7, starting salary =A333,353 per annum and maximum sala=
+ry =A340,313 per annum, both including London Allowance which is currently =
+=A32,919 per annum.<br>
+<br>
+<br>
+The requirements for this position are:<br>
+<br>
+- PhD in Computer Science, Electrical/Computer Engineering, or a related fi=
+eld.<br>
+<br>
+- Strong software design/implementation and prototyping skills<br>
+<br>
+- Background and/or hands-on experience in any of the following areas:<br>
+-- Content-oriented architectures<br>
+-- Information-Centric Networks<br>
+-- Opportunistic, Delay-Tolerant Networks<br>
+-- Traffic engineering, resource management and congestion control<br>
+<br>
+- Algorithm design skills<br>
+<br>
+- Strong publication record<br>
+<br>
+The application should include:<br>
+- a short cover letter indicating the candidate's research interests, achie=
+vements to date and vision for the future,<br>
+- CV including list of publications,<br>
+- contact details of two/three referees.<br>
+<br>
+Interested applicants are encouraged to make informal enquiries about the p=
+ost to Dr Ioannis Psaras (<a href=3D"mailto:i.psaras@ucl.ac.uk">i.psaras@uc=
+l.ac.uk</a>&lt;<a href=3D"mailto:i.psaras@ucl.ac.uk">mailto:i.psaras@ucl.ac=
+.uk</a>&gt;), or Prof. George Pavlou (<a href=3D"mailto:g.pavlou@ucl.ac.uk"=
+>g.pavlou@ucl.ac.uk</a>&lt;<a href=3D"mailto:g.pavlou@ucl.ac.uk">mailto:g.p=
+avlou@ucl.ac.uk</a>&gt;).
+ Shortlisted candidates will be invited for an interview shortly after the =
+application deadline. For details and further particulars, please see:http:=
+//<a href=3D"http://www.ee.ucl.ac.uk/vacancies/research/research-associate-=
+position-in-content-oriented-opportunistic-networking">www.ee.ucl.ac.uk/vac=
+ancies/research/research-associate-position-in-content-oriented-opportunist=
+ic-networking</a><br>
+</div>
+</body>
+</html>
+
+--_000_28005732D2064F5F88B9346900736471liveuclacuk_--
+
+
+From nobody Mon Jan 12 10:42:50 2015
+Return-Path: <roger.baig@guifi.net>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 49A2A1ACD27 for <gaia@ietfa.amsl.com>; Mon, 12 Jan 2015 10:42:47 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 2.056
+X-Spam-Level: **
+X-Spam-Status: No, score=2.056 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, FH_HOST_EQ_D_D_D_D=0.765, FH_HOST_EQ_D_D_D_DB=0.888, HELO_MISMATCH_ORG=0.611, HOST_MISMATCH_NET=0.311, MIME_8BIT_HEADER=0.3, RDNS_DYNAMIC=0.982, SPF_PASS=-0.001, T_DKIM_INVALID=0.01, T_RP_MATCHES_RCVD=-0.01] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id riApPnXR7MZX for <gaia@ietfa.amsl.com>; Mon, 12 Jan 2015 10:42:45 -0800 (PST)
+Received: from smtp1.elserrat.org (109-69-9-53-guifi-gurb.ip4.guifi.net [109.69.9.53]) (using TLSv1 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id C6A031ACD25 for <gaia@irtf.org>; Mon, 12 Jan 2015 10:42:43 -0800 (PST)
+Received: from localhost (localhost.localdomain [127.0.0.1]) by smtp1.elserrat.org (Postfix) with ESMTP id 78F464B40150 for <gaia@irtf.org>; Mon, 12 Jan 2015 19:42:38 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=guifi.net; h= content-transfer-encoding:content-type:content-type:in-reply-to :references:subject:subject:mime-version:user-agent:organization :from:from:date:date:message-id:received:received:received; s= dkim; t=1421088158; x=1422902559; bh=X5l/mDAsZxUeI2V6IKS6OTAQFzn bwbrWbcgDT1RdgL8=; b=iAjt7tiRCfwrmNU7Htf0XCS6U3vriBQ5yAfqoiKa0+H s2E7uuLrKybqWMBnFPC6jmyLkBImMB/XRAQUVULct/S1ElYJj+yhA//yDwCyuKGH Ry9w4TDKkt/g8gZ1B+60S6EHjiwEYmYVyNm5FOaThuPdNQruoo9e/aDNX1WydFic 3rh03e8amMDlTeh3IsbjxQWrmi+zCR7EslzxcC3HXqnw7+q6ZXdl2hgxcZX3iukl PWo3giGewTKFKTbBkeH2dWI7zfH1IWJWwXrZ4y2ZwYQNqIMWvDwTRuggceDFZ7p/ BEGJgO9RQcrgb1BfMBTYu2MP6TAdpBFavNklUZTLoqA==
+X-Amavis-Modified: Mail body modified (using disclaimer) - smtp1.elserrat.org
+X-Virus-Scanned: Scrollout F1 on Debian amavisd-new at elserrat.org
+Received: from smtp1.elserrat.org ([127.0.0.1]) by localhost (smtp1.elserrat.org [127.0.0.1]) (amavisd-new, port 10024) with LMTP id fV9qk7j0CP9p for <gaia@irtf.org>; Mon, 12 Jan 2015 19:42:38 +0100 (CET)
+Received: from mail.elserrat.org (109-69-9-9-guifi-gurb.ip4.guifi.net [109.69.9.9]) by smtp1.elserrat.org (Postfix) with ESMTP id 29E534B40145 for <gaia@irtf.org>; Mon, 12 Jan 2015 19:42:38 +0100 (CET)
+Received: from [10.8.0.50] (gw-2-vpn-i.ac.upc.es [147.83.35.76]) by mail.elserrat.org (Postfix) with ESMTPSA id DF2536A72A7 for <gaia@irtf.org>; Mon, 12 Jan 2015 19:42:37 +0100 (CET)
+Message-ID: <54B4159C.20002@guifi.net>
+Date: Mon, 12 Jan 2015 19:42:36 +0100
+From: =?windows-1252?Q?Roger_Baig_Vi=F1as?= <roger.baig@guifi.net>
+Organization: =?windows-1252?Q?Fundaci=F3_Privada_per_a_la_Xarx?= =?windows-1252?Q?a_Oberta=2C_Lliure_i_Neutral_guifi=2Enet?=
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:31.0) Gecko/20100101 Thunderbird/31.3.0
+MIME-Version: 1.0
+To: "gaia >> 'gaia'" <gaia@irtf.org>
+References: <CABQ53RjnR2EU7pGOCC=q_P20NvoAR3Q+1MP6G1oOnROZGhAr7A@mail.gmail.com>
+In-Reply-To: <CABQ53RjnR2EU7pGOCC=q_P20NvoAR3Q+1MP6G1oOnROZGhAr7A@mail.gmail.com>
+X-Forwarded-Message-Id: <CABQ53RjnR2EU7pGOCC=q_P20NvoAR3Q+1MP6G1oOnROZGhAr7A@mail.gmail.com>
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: 8bit
+Archived-At: <http://mailarchive.ietf.org/arch/msg/gaia/rEKxd2kJ3AbdBSwu57IC9RNrsFo>
+Subject: [gaia] Fwd: [guifi-coord] Public consultation on the Lamy Report: the future use of the UHF TV broadcasting band | Digital Agenda for Europe | European Commission
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 12 Jan 2015 18:42:47 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi,
+
+The European Commission has opened a public consultation on the future
+use of the UHF TV broadcasting band.
+
+Regards
+
+- -------- Forwarded Message --------
+Subject: 	[guifi-coord] Public consultation on the Lamy Report: the
+future use of the UHF TV broadcasting band | Digital Agenda for Europe |
+European Commission
+Date: 	Mon, 12 Jan 2015 16:38:03 +0100
+From: 	Albert Homs i Gall
+Reply-To: 	guifi-coord@llistes.guifi.net
+To: 	guifi-coord@llistes.guifi.net
+
+
+
+https://ec.europa.eu/digital-agenda/en/news/public-consultation-lamy-report-future-use-uhf-tv-broadcasting-band?utm_content=buffer719b7&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+
+
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAEBAgAGBQJUtBWbAAoJEKzTrZPPgKKDi2kP/1d/KQcJZBLPTZUiFpkpu+GX
+Lvmzsq69zYC6YNSfyw/0f49WAZZ3yhD9LyjTQ19J8Fbtz/Pj4L8cELzViTvAw1BJ
+pqrQdI0Kp8Drjm4VoMusKh6zYl8yw4BVk8A1bBPbEXjdisfnuNy3xPjIlRbuYqvq
+oyQjSZrjk4V13Kf6iYneEgmKemvv8qY7UZj2RPyrEia40eORiptyzQgJhjqihz75
+btWM7niwTiU5oSygtUZBfEcrJdNniMfmyxOhl9GvVc5NI+7WQUAv4PmDF6fQ/tQG
+AGHtt6wglWmm10HBCgCGiA84bBQYIJBrFyyYEaF9I5/ztciusOTk2b0mhFkZlr/A
+925kGLG1+NOpMEQglZYQkaxuCs0sy6nq0CWfq12VcskDK8earUAEsrReMm8kXaTB
+zN9Y6/unn1eT3vyTJVsq752b4Lmy1Ec7NoMgaDgrbN8WXI96sGGlYnUqJtzXmJsm
+hn/dxc/Ph4zt6mqfYrumzMH+hcS0G/TSRwPdxj38y/0nkHok9j8ucvM+DyZnPi6j
+2nQm59oogPaNdJu9ikEwpYwFEbFYInbgQuVY37yeCJsDyVCRa/oJ/aUcdyIDlncd
+CbeTragH01qkuILac/wX6kH++CwJyho9aB/Uh0E1L+38YII5xEe02VW2rkTUHkqK
+jxy9y94/FV0XalRJxBXL
+=tOhc
+-----END PGP SIGNATURE-----
+
+
+From nobody Tue Jan 13 09:14:57 2015
+Return-Path: <mzennaro@ictp.it>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 861311A901E for <gaia@ietfa.amsl.com>; Tue, 13 Jan 2015 09:14:51 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.33
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.33 tagged_above=-999 required=5 tests=[BAYES_50=0.8, HELO_EQ_IT=0.635, HOST_EQ_IT=1.245, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_HI=-5, SPF_PASS=-0.001, T_RP_MATCHES_RCVD=-0.01] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id xzzX4KSeBu8b for <gaia@ietfa.amsl.com>; Tue, 13 Jan 2015 09:14:44 -0800 (PST)
+Received: from smtp2.ictp.it (smtp2.ictp.it [140.105.16.52]) by ietfa.amsl.com (Postfix) with ESMTP id 4E0871A9026 for <gaia@irtf.org>; Tue, 13 Jan 2015 09:14:42 -0800 (PST)
+Received: from localhost (localhost [127.0.0.1]) by smtp2.ictp.it (Postfix) with ESMTP id C0F75400FBFF for <gaia@irtf.org>; Tue, 13 Jan 2015 18:14:40 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at smtp2.ictp.it
+Received: from smtp2.ictp.it ([127.0.0.1]) by localhost (smtp2.ictp.it [127.0.0.1]) (amavisd-new, port 10025) with LMTP id sOA-wvyN9QTM for <gaia@irtf.org>; Tue, 13 Jan 2015 18:14:40 +0100 (CET)
+Received: from Marco-Network-4.local (unknown [140.105.28.21]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-SHA384 (256/256 bits)) (No client certificate requested) by smtp2.ictp.it (Postfix) with ESMTPSA id 2D077400FBFA for <gaia@irtf.org>; Tue, 13 Jan 2015 18:14:39 +0100 (CET)
+Date: Tue, 13 Jan 2015 18:14:40 +0100
+From: Marco Zennaro <mzennaro@ictp.it>
+To: gaia@irtf.org
+Message-ID: <etPan.54b55280.628c895d.f6e5@Marco-Network-4.local>
+X-Mailer: Airmail (286)
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="54b55280_333ab105_f6e5"
+Archived-At: <http://mailarchive.ietf.org/arch/msg/gaia/SJNibS0e2LtJi9WyTKC8Pi9FjtI>
+Subject: [gaia] The race to connect Africa through satellite technology
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 13 Jan 2015 17:14:51 -0000
+
+--54b55280_333ab105_f6e5
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+http://www.idgconnect.com/abstract/9292/the-race-connect-africa-satellite=
+-technology
+
+Best,
+Marco
+
+Marco Zennaro, PhD
+Telecommunications / ICT for=C2=A0Development Laboratory
+the Abdus Salam International=C2=A0Centre for Theoretical Physics
+Strada Costiera 11
+34014 Trieste
+Italy
+
+Telephone:	+39 040 2240=C2=A0406
+Web:	=C2=A0=C2=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0	http://wireless.ictp.it
+--54b55280_333ab105_f6e5
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+<html><head><style>body=7Bfont-family:Avenir Next,Arial;font-size:14px=7D=
+</style></head><body style=3D=22word-wrap: break-word; -webkit-nbsp-mode:=
+ space; -webkit-line-break: after-white-space;=22><div id=3D=22bloop=5Fcu=
+stomfont=22 style=3D=22font-family:Avenir Next,Arial;font-size:14px; colo=
+r: rgba(0,0,0,1.0); margin: 0px; line-height: auto;=22><a href=3D=22http:=
+//www.idgconnect.com/abstract/9292/the-race-connect-africa-satellite-tech=
+nology=22>http://www.idgconnect.com/abstract/9292/the-race-connect-africa=
+-satellite-technology</a></div><div id=3D=22bloop=5Fcustomfont=22 style=3D=
+=22font-family:Avenir Next,Arial;font-size:14px; color: rgba(0,0,0,1.0); =
+margin: 0px; line-height: auto;=22><br></div><div id=3D=22bloop=5Fcustomf=
+ont=22 style=3D=22font-family:Avenir Next,Arial;font-size:14px; color: rg=
+ba(0,0,0,1.0); margin: 0px; line-height: auto;=22>Best,</div><div id=3D=22=
+bloop=5Fcustomfont=22 style=3D=22font-family:Avenir Next,Arial;font-size:=
+14px; color: rgba(0,0,0,1.0); margin: 0px; line-height: auto;=22>Marco</d=
+iv><div class=3D=22bloop=5Fcontainer=22><div class=3D=22bloop=5Fframe=22>=
+  </div></div><br><div id=3D=22bloop=5Fsign=5F1421169263295671040=22 clas=
+s=3D=22bloop=5Fsign=22><font face=3D=22Avenir Next=22><span style=3D=22fo=
+nt-size: 14px;=22><span style=3D=22line-height: normal;=22>Marco Zennaro,=
+ PhD</span><br style=3D=22line-height: normal; =22><span style=3D=22line-=
+height: normal;=22>Telecommunications / ICT for&nbsp;Development Laborato=
+ry</span><br style=3D=22line-height: normal; =22><span style=3D=22line-he=
+ight: normal;=22>the Abdus Salam International&nbsp;Centre for Theoretica=
+l Physics</span><br style=3D=22line-height: normal; =22><span style=3D=22=
+line-height: normal;=22>Strada Costiera 11</span><br style=3D=22line-heig=
+ht: normal; =22><span style=3D=22line-height: normal;=22>34014 Trieste</s=
+pan><br style=3D=22line-height: normal; =22><span style=3D=22line-height:=
+ normal;=22>Italy</span><br style=3D=22line-height: normal; =22><br style=
+=3D=22line-height: normal; =22><span style=3D=22line-height: normal;=22>T=
+elephone:</span><span class=3D=22Apple-tab-span=22 style=3D=22line-height=
+: normal; white-space: pre;=22>	</span><span style=3D=22line-height: norm=
+al;=22>+39 040 2240&nbsp;406</span><br style=3D=22line-height: normal; =22=
+><span style=3D=22line-height: normal;=22>Web:</span><span class=3D=22App=
+le-tab-span=22 style=3D=22line-height: normal; white-space: pre;=22>	</sp=
+an><span style=3D=22line-height: normal;=22>&nbsp;&nbsp; &nbsp; &nbsp; &n=
+bsp;&nbsp;</span><span class=3D=22Apple-tab-span=22 style=3D=22line-heigh=
+t: normal; white-space: pre;=22>	</span><span style=3D=22line-height: nor=
+mal;=22>http://wireless.ictp.it</span></span></font></div></body></html>
+--54b55280_333ab105_f6e5--
+
+
+From nobody Tue Jan 13 12:49:57 2015
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 195491AD061 for <gaia@ietfa.amsl.com>; Tue, 13 Jan 2015 12:49:56 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.278
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.278 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FM_FORGED_GMAIL=0.622, FREEMAIL_FROM=0.001, SPF_PASS=-0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id qnQXymXTRJgu for <gaia@ietfa.amsl.com>; Tue, 13 Jan 2015 12:49:54 -0800 (PST)
+Received: from mail-we0-x235.google.com (mail-we0-x235.google.com [IPv6:2a00:1450:400c:c03::235]) (using TLSv1 with cipher ECDHE-RSA-RC4-SHA (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id E89161AD05B for <gaia@irtf.org>; Tue, 13 Jan 2015 12:49:53 -0800 (PST)
+Received: by mail-we0-f181.google.com with SMTP id q58so5182480wes.12 for <gaia@irtf.org>; Tue, 13 Jan 2015 12:49:52 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:sender:in-reply-to:references:date:message-id:subject :from:to:cc:content-type; bh=8ygLzKNlbL3J35XDEQOJlARXhRMgBWC40XmupAQm5bE=; b=h8FSJXNLl6Zk4kzV15F5DTqTkyGE6/qUyhPpxpg4yp1SuXuqh7N4JrouvRx9CxC3nj wnEHsM0p8SmIgNblrSri1iRfexgdIAmU7/cBHpHswq9Txn8HZKQepMhDFk562d7vPbb9 55aJvqYoslTgNGX0fOFCDdzBQyZlKoJjtCtSkYaUJQ9tNCSjUfJ84AxZHHRw2iaPOd0R 5/5Y6hgl7ahSHptPI/NhM1jONCrP04Pu0f89QmVSm6nhHwrIdBqJXJb/e6fDh8EazOXs yQndvZFWKE3HjLEXcXA1eHxC8Tp1g5ouxijDjjMl03+G+E+JxzhrrpyEYjqts4/nmj1e 0Iqw==
+MIME-Version: 1.0
+X-Received: by 10.180.96.67 with SMTP id dq3mr2149425wib.51.1421182192522; Tue, 13 Jan 2015 12:49:52 -0800 (PST)
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.27.218.204 with HTTP; Tue, 13 Jan 2015 12:49:52 -0800 (PST)
+In-Reply-To: <etPan.54b55280.628c895d.f6e5@Marco-Network-4.local>
+References: <etPan.54b55280.628c895d.f6e5@Marco-Network-4.local>
+Date: Tue, 13 Jan 2015 20:49:52 +0000
+X-Google-Sender-Auth: zCaSKiT5kW3fe5C45o7o5AWr0vM
+Message-ID: <CAPaG1AnPHdnKguafM5EjS9zAOHb3R92Y_qOhoSw9qKj7oi7JnA@mail.gmail.com>
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+To: Marco Zennaro <mzennaro@ictp.it>
+Content-Type: text/plain; charset=UTF-8
+Archived-At: <http://mailarchive.ietf.org/arch/msg/gaia/Peri6y-eVRKHZ7icmCoMUFVNYDo>
+Cc: gaia <gaia@irtf.org>
+Subject: Re: [gaia] The race to connect Africa through satellite technology
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 13 Jan 2015 20:49:56 -0000
+
+more here: http://www.telegraph.co.uk/finance/newsbysector/mediatechnologyandtelecoms/telecoms/11232599/Facebook-in-talks-with-Avanti-over-Africa-deal.html
+
+This is exciting - we are working with Avanti to explore new
+architectures for providing low cost Internet access via one of our EU
+projects. So I am personally very excited! :)
+
+Regards
+
+On 13 January 2015 at 17:14, Marco Zennaro <mzennaro@ictp.it> wrote:
+> http://www.idgconnect.com/abstract/9292/the-race-connect-africa-satellite-technology
+>
+> Best,
+> Marco
+>
+> Marco Zennaro, PhD
+> Telecommunications / ICT for Development Laboratory
+> the Abdus Salam International Centre for Theoretical Physics
+> Strada Costiera 11
+> 34014 Trieste
+> Italy
+>
+> Telephone: +39 040 2240 406
+> Web:           http://wireless.ictp.it
+>
+> _______________________________________________
+> gaia mailing list
+> gaia@irtf.org
+> https://irtf.org/mailman/listinfo/gaia
+>
+
+
+
+-- 
+Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+
+
+From nobody Wed Jan 14 05:38:28 2015
+Return-Path: <mzennaro@ictp.it>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 726071B2C9B for <gaia@ietfa.amsl.com>; Wed, 14 Jan 2015 05:38:22 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -4.73
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.73 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, HELO_EQ_IT=0.635, HOST_EQ_IT=1.245, HTML_MESSAGE=0.001, MIME_8BIT_HEADER=0.3, RCVD_IN_DNSWL_HI=-5, SPF_PASS=-0.001, T_RP_MATCHES_RCVD=-0.01] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id OOpPOntYANeH for <gaia@ietfa.amsl.com>; Wed, 14 Jan 2015 05:38:20 -0800 (PST)
+Received: from smtp2.ictp.it (smtp2.ictp.it [140.105.16.52]) by ietfa.amsl.com (Postfix) with ESMTP id C53651A8ACE for <gaia@irtf.org>; Wed, 14 Jan 2015 05:38:18 -0800 (PST)
+Received: from localhost (localhost [127.0.0.1]) by smtp2.ictp.it (Postfix) with ESMTP id AFB7A400F8C2 for <gaia@irtf.org>; Wed, 14 Jan 2015 14:38:17 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at smtp2.ictp.it
+Received: from smtp2.ictp.it ([127.0.0.1]) by localhost (smtp2.ictp.it [127.0.0.1]) (amavisd-new, port 10025) with LMTP id AAXZ0e4tCxSt for <gaia@irtf.org>; Wed, 14 Jan 2015 14:38:16 +0100 (CET)
+Received: from Marco-Network-4.local (unknown [140.105.28.21]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-SHA384 (256/256 bits)) (No client certificate requested) by smtp2.ictp.it (Postfix) with ESMTPSA id 95B28400F942 for <gaia@irtf.org>; Wed, 14 Jan 2015 14:38:15 +0100 (CET)
+Date: Wed, 14 Jan 2015 14:38:16 +0100
+From: Marco Zennaro <mzennaro@ictp.it>
+To: gaia@irtf.org
+Message-ID: <etPan.54b67148.580bd78f.f6e5@Marco-Network-4.local>
+X-Mailer: Airmail (286)
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="54b67148_153ea438_f6e5"
+Archived-At: <http://mailarchive.ietf.org/arch/msg/gaia/hdr7qmJBlulfUArFprkZolvt3Ss>
+Subject: [gaia] Where Cellular Networks =?utf-8?Q?Don=E2=80=99t_?=Exist, People Are Building Their Own
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 14 Jan 2015 13:38:22 -0000
+
+--54b67148_153ea438_f6e5
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+http://www.wired.com/2015/01/diy-cellular-phone-networks-mexico/
+
+Best,
+Marco
+
+Marco Zennaro, PhD
+Telecommunications / ICT for=C2=A0Development Laboratory
+the Abdus Salam International=C2=A0Centre for Theoretical Physics
+Strada Costiera 11
+34014 Trieste
+Italy
+
+Telephone:	+39 040 2240=C2=A0406
+Web:	=C2=A0=C2=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0	http://wireless.ictp.it
+--54b67148_153ea438_f6e5
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+<html><head><style>body=7Bfont-family:Avenir Next,Arial;font-size:14px=7D=
+</style></head><body style=3D=22word-wrap: break-word; -webkit-nbsp-mode:=
+ space; -webkit-line-break: after-white-space;=22><div id=3D=22bloop=5Fcu=
+stomfont=22 style=3D=22font-family:Avenir Next,Arial;font-size:14px; colo=
+r: rgba(0,0,0,1.0); margin: 0px; line-height: auto;=22><a href=3D=22http:=
+//www.wired.com/2015/01/diy-cellular-phone-networks-mexico/=22>http://www=
+.wired.com/2015/01/diy-cellular-phone-networks-mexico/</a></div><div><br>=
+</div><div>Best,</div><div>Marco</div><div><br><div id=3D=22bloop=5Fsign=5F=
+1421242661769166848=22 class=3D=22bloop=5Fsign=22><font face=3D=22Avenir =
+Next=22><span style=3D=22font-size: 14px;=22><span style=3D=22line-height=
+: normal;=22>Marco Zennaro, PhD</span><br style=3D=22line-height: normal;=
+ =22><span style=3D=22line-height: normal;=22>Telecommunications / ICT fo=
+r&nbsp;Development Laboratory</span><br style=3D=22line-height: normal; =22=
+><span style=3D=22line-height: normal;=22>the Abdus Salam International&n=
+bsp;Centre for Theoretical Physics</span><br style=3D=22line-height: norm=
+al; =22><span style=3D=22line-height: normal;=22>Strada Costiera 11</span=
+><br style=3D=22line-height: normal; =22><span style=3D=22line-height: no=
+rmal;=22>34014 Trieste</span><br style=3D=22line-height: normal; =22><spa=
+n style=3D=22line-height: normal;=22>Italy</span><br style=3D=22line-heig=
+ht: normal; =22><br style=3D=22line-height: normal; =22><span style=3D=22=
+line-height: normal;=22>Telephone:</span><span class=3D=22Apple-tab-span=22=
+ style=3D=22line-height: normal; white-space: pre;=22>	</span><span style=
+=3D=22line-height: normal;=22>+39 040 2240&nbsp;406</span><br style=3D=22=
+line-height: normal; =22><span style=3D=22line-height: normal;=22>Web:</s=
+pan><span class=3D=22Apple-tab-span=22 style=3D=22line-height: normal; wh=
+ite-space: pre;=22>	</span><span style=3D=22line-height: normal;=22>&nbsp=
+;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span class=3D=22Apple-tab-span=22=
+ style=3D=22line-height: normal; white-space: pre;=22>	</span><span style=
+=3D=22line-height: normal;=22>http://wireless.ictp.it</span></span></font=
+></div></div></body></html>
+--54b67148_153ea438_f6e5--
+
+
+From nobody Wed Jan 14 06:12:48 2015
+Return-Path: <stephen.song@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 6E64E1A8AB4 for <gaia@ietfa.amsl.com>; Wed, 14 Jan 2015 06:12:46 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.977
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.977 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FM_FORGED_GMAIL=0.622, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, MIME_8BIT_HEADER=0.3, SPF_PASS=-0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id NWopTArqrDtN for <gaia@ietfa.amsl.com>; Wed, 14 Jan 2015 06:12:44 -0800 (PST)
+Received: from mail-ob0-x229.google.com (mail-ob0-x229.google.com [IPv6:2607:f8b0:4003:c01::229]) (using TLSv1 with cipher ECDHE-RSA-RC4-SHA (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 7C7731A005B for <gaia@irtf.org>; Wed, 14 Jan 2015 06:12:44 -0800 (PST)
+Received: by mail-ob0-f169.google.com with SMTP id vb8so8105668obc.0 for <gaia@irtf.org>; Wed, 14 Jan 2015 06:12:43 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:sender:in-reply-to:references:date:message-id:subject :from:to:content-type; bh=ZmLs4DNwrj+79i2gN4Ndp+jVE9DmJQJ7Be7CYaGfxuA=; b=FmVFLyBzm86fAj2uaNF/nh7NKaoTedjD5330fsjH5v+WNzOdPFMoRhvcTqeGCI83nO pmizmShkjMONCaqrMjTSXyV01xna2pAbe5/Xlx5jZ/WGIZ5RmO0jeBmA/WhYwOP7SQlv sGDhXTZh6uKmoB6hmKSN4KzULCjvCUAv9itFboJlirsloCkWlU+S5z4nJz7QkX8vCBfV bc4ojU0De90+a3ddAFlgvVjWKi2e8T9k/sXytIc34FepKk9wwhxqX+JfjPIe/vVQ8ZLp QxkxDDXkhQh0OVPu9nb0jqg+WcEb2HDPiMoGPzj7IND9jZp0QuOOUbB3GLgqHeCutGLJ 96RA==
+MIME-Version: 1.0
+X-Received: by 10.60.133.229 with SMTP id pf5mr2535140oeb.25.1421244763622; Wed, 14 Jan 2015 06:12:43 -0800 (PST)
+Sender: stephen.song@gmail.com
+Received: by 10.182.46.135 with HTTP; Wed, 14 Jan 2015 06:12:43 -0800 (PST)
+In-Reply-To: <etPan.54b67148.580bd78f.f6e5@Marco-Network-4.local>
+References: <etPan.54b67148.580bd78f.f6e5@Marco-Network-4.local>
+Date: Wed, 14 Jan 2015 10:12:43 -0400
+X-Google-Sender-Auth: T-Zn74IHQp6nT5xH3dcCFq-jFgM
+Message-ID: <CAD_CWO3qsxWKyieYki2-DnuE0Yz=jhWHhCDHtNVp61ei_HeF-A@mail.gmail.com>
+From: Steve Song <stevesong@nsrc.org>
+To: gaia <gaia@irtf.org>
+Content-Type: multipart/alternative; boundary=047d7b41ce184652e2050c9d55bd
+Archived-At: <http://mailarchive.ietf.org/arch/msg/gaia/phUnt2WgkPAFKYfzKIC43qG76Pk>
+Subject: Re: [gaia] =?utf-8?q?Where_Cellular_Networks_Don=E2=80=99t_Exist=2C_P?= =?utf-8?q?eople_Are_Building_Their_Own?=
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 14 Jan 2015 14:12:46 -0000
+
+--047d7b41ce184652e2050c9d55bd
+Content-Type: text/plain; charset=UTF-8
+
+Hi Marco,
+
+A gentle reminder of Matthew Ford's plea for some context along with any
+urls posted.
+
+What is most interesting for me about Rhizomatica a the moment and which is
+not covered in the article, is the fact that they have managed to get the
+regulator to allocate 2x5MHz (2x2.5MHz in some cases) of mobile spectrum
+(850MHz band) as primary spectrum offering the right for non-profits to
+offer telecom and broadcast services that have cultural, scientific,
+educational or community objectives.  This is absolutely huge news.
+Primary spectrum for rural GSM initiatives.  I suspect there are VERY few
+regulators in Africa that could not squeeze 10MHz out of their 900MHz band
+assignments.
+
+Here is the news story (in Spanish)
+http://www.zocalo.com.mx/seccion/articulo/ifetel-determina-las-frecuencias-y-bandas-que-se-licitaran-en-2015-14192825
+
+Propagating this as a regulatory strategy could unleash pent-up markets for
+low-cost GSM startups like Range, Endaga, Fairwaves, and others.
+
+Cheers... Steve
+
+
+
+On Wed, Jan 14, 2015 at 9:38 AM, Marco Zennaro <mzennaro@ictp.it> wrote:
+
+> http://www.wired.com/2015/01/diy-cellular-phone-networks-mexico/
+>
+> Best,
+> Marco
+>
+> Marco Zennaro, PhD
+> Telecommunications / ICT for Development Laboratory
+> the Abdus Salam International Centre for Theoretical Physics
+> Strada Costiera 11
+> 34014 Trieste
+> Italy
+>
+> Telephone: +39 040 2240 406
+> Web:           http://wireless.ictp.it
+>
+> _______________________________________________
+> gaia mailing list
+> gaia@irtf.org
+> https://irtf.org/mailman/listinfo/gaia
+>
+>
+
+--047d7b41ce184652e2050c9d55bd
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi Marco,<div><br></div><div>A gentle reminder of Matthew =
+Ford&#39;s plea for some context along with any urls posted.</div><div><br>=
+</div><div>What is most interesting for me about Rhizomatica a the moment a=
+nd which is not covered in the article, is the fact that they have managed =
+to get the regulator to allocate 2x5MHz (2x2.5MHz in some cases) of mobile =
+spectrum (850MHz band) as primary spectrum offering the right for non-profi=
+ts to offer telecom and broadcast services that have cultural, scientific, =
+educational or community objectives.=C2=A0 This is absolutely huge news.=C2=
+=A0 Primary spectrum for rural GSM initiatives.=C2=A0 I suspect there are V=
+ERY few regulators in Africa that could not squeeze 10MHz out of their 900M=
+Hz band assignments.</div><div><br></div><div>Here is the news story (in Sp=
+anish) <a href=3D"http://www.zocalo.com.mx/seccion/articulo/ifetel-determin=
+a-las-frecuencias-y-bandas-que-se-licitaran-en-2015-14192825">http://www.zo=
+calo.com.mx/seccion/articulo/ifetel-determina-las-frecuencias-y-bandas-que-=
+se-licitaran-en-2015-14192825</a></div><div><br></div><div>Propagating this=
+ as a regulatory strategy could unleash pent-up markets for low-cost GSM st=
+artups like Range, Endaga, Fairwaves, and others.</div><div><br></div><div>=
+Cheers... Steve</div><div><br></div><div><br></div></div><div class=3D"gmai=
+l_extra"><br><div class=3D"gmail_quote">On Wed, Jan 14, 2015 at 9:38 AM, Ma=
+rco Zennaro <span dir=3D"ltr">&lt;<a href=3D"mailto:mzennaro@ictp.it" targe=
+t=3D"_blank">mzennaro@ictp.it</a>&gt;</span> wrote:<br><blockquote class=3D=
+"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding=
+-left:1ex"><div style=3D"word-wrap:break-word"><div style=3D"font-family:Av=
+enir Next,Arial;font-size:14px;color:rgba(0,0,0,1.0);margin:0px;line-height=
+:auto"><a href=3D"http://www.wired.com/2015/01/diy-cellular-phone-networks-=
+mexico/" target=3D"_blank">http://www.wired.com/2015/01/diy-cellular-phone-=
+networks-mexico/</a></div><div><br></div><div>Best,</div><div>Marco</div><d=
+iv><br><div><font face=3D"Avenir Next"><span style=3D"font-size:14px"><span=
+ style=3D"line-height:normal">Marco Zennaro, PhD</span><br style=3D"line-he=
+ight:normal"><span style=3D"line-height:normal">Telecommunications / ICT fo=
+r=C2=A0Development Laboratory</span><br style=3D"line-height:normal"><span =
+style=3D"line-height:normal">the Abdus Salam International=C2=A0Centre for =
+Theoretical Physics</span><br style=3D"line-height:normal"><span style=3D"l=
+ine-height:normal">Strada Costiera 11</span><br style=3D"line-height:normal=
+"><span style=3D"line-height:normal">34014 Trieste</span><br style=3D"line-=
+height:normal"><span style=3D"line-height:normal">Italy</span><br style=3D"=
+line-height:normal"><br style=3D"line-height:normal"><span style=3D"line-he=
+ight:normal">Telephone:</span><span style=3D"line-height:normal;white-space=
+:pre-wrap">	</span><span style=3D"line-height:normal">+39 040 2240=C2=A0406=
+</span><br style=3D"line-height:normal"><span style=3D"line-height:normal">=
+Web:</span><span style=3D"line-height:normal;white-space:pre-wrap">	</span>=
+<span style=3D"line-height:normal">=C2=A0=C2=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0<=
+/span><span style=3D"line-height:normal;white-space:pre-wrap">	</span><span=
+ style=3D"line-height:normal"><a href=3D"http://wireless.ictp.it" target=3D=
+"_blank">http://wireless.ictp.it</a></span></span></font></div></div></div>=
+<br>_______________________________________________<br>
+gaia mailing list<br>
+<a href=3D"mailto:gaia@irtf.org">gaia@irtf.org</a><br>
+<a href=3D"https://irtf.org/mailman/listinfo/gaia" target=3D"_blank">https:=
+//irtf.org/mailman/listinfo/gaia</a><br>
+<br></blockquote></div><br></div>
+
+--047d7b41ce184652e2050c9d55bd--
+
+
+From nobody Tue Jan 20 02:24:52 2015
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 2A2F01B2DA1 for <gaia@ietfa.amsl.com>; Tue, 20 Jan 2015 02:24:49 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 0.621
+X-Spam-Level: 
+X-Spam-Status: No, score=0.621 tagged_above=-999 required=5 tests=[BAYES_40=-0.001, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FM_FORGED_GMAIL=0.622, FREEMAIL_FROM=0.001, SPF_PASS=-0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id UhAOaf5xL4FT for <gaia@ietfa.amsl.com>; Tue, 20 Jan 2015 02:24:45 -0800 (PST)
+Received: from mail-we0-x22a.google.com (mail-we0-x22a.google.com [IPv6:2a00:1450:400c:c03::22a]) (using TLSv1 with cipher ECDHE-RSA-RC4-SHA (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 73BDB1AD353 for <gaia@irtf.org>; Tue, 20 Jan 2015 02:24:45 -0800 (PST)
+Received: by mail-we0-f170.google.com with SMTP id x3so9744472wes.1 for <gaia@irtf.org>; Tue, 20 Jan 2015 02:24:44 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:sender:date:message-id:subject:from:to:content-type;  bh=asC1Gnno0GOPI5RpsTRuTwnGo8lqgEMJWtanmiIESvE=; b=lyk3kmRWZtsmtbOGcHzXhSbNl8BJjVjQjeAS3gRFtn6heqnSwAewmI/bJqnRpzq5ql sSHNsh2JE7HPTeXWLKVgkoVC/K+9rDaxp/7X3ZBPI6vMox9GcyooiTqcglY9gYwKMJOq PTzXaEC5M8ESqluLSCOFou8MU5Zt0D0mDR0Hzh9OM542GlgYluF87OhUzIf4WQT+E1YU 9J0jz+GtBLm+fvXo89TbTa/zCXruuRZOH2zY623/WfWvOiiSR2/eYECu9sMZqzn7+QMY 3MIA8UVBqjyyZ9CGLF0xzp6d3l0y4N4zQIYdl6jWxl/8Oc8JW+8I5HQWMeRCL+FqmMH/ ZAaw==
+MIME-Version: 1.0
+X-Received: by 10.194.71.203 with SMTP id x11mr14730773wju.131.1421749484104;  Tue, 20 Jan 2015 02:24:44 -0800 (PST)
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.27.218.204 with HTTP; Tue, 20 Jan 2015 02:24:44 -0800 (PST)
+Date: Tue, 20 Jan 2015 10:24:44 +0000
+X-Google-Sender-Auth: KVZD8s3QSyIJgNTxpAodqnjO1EI
+Message-ID: <CAPaG1A=ck5X6DhZPb7Zhp=CgKPDHZQr==s9svWtfh+tPqO5b1g@mail.gmail.com>
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+To: gaia <gaia@irtf.org>
+Content-Type: text/plain; charset=UTF-8
+Archived-At: <http://mailarchive.ietf.org/arch/msg/gaia/2VNRm6tOGqb4gPwlOk-yOD8CIYk>
+Subject: [gaia] Is Facebook's zero-rating ecosystem really worthwhile or not?
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 20 Jan 2015 10:24:49 -0000
+
+All,
+
+My thoughts on Facebook's zero-rating ecosystem is published here:
+http://theconversation.com/facebooks-free-access-internet-is-limited-and-thats-raised-questions-over-fairness-36460
+
+Thanks to Steve Song and Jon Crowcroft for their useful feedback.
+
+Regards
+
+-- 
+Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+
+
+From nobody Tue Jan 20 06:45:16 2015
+Return-Path: <stephen.song@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id EDC041B2DB5 for <gaia@ietfa.amsl.com>; Tue, 20 Jan 2015 06:45:05 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 3.723
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.723 tagged_above=-999 required=5 tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FM_FORGED_GMAIL=0.622, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, MANGLED_OFF=2.3, SPF_PASS=-0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id W7Qh7ecb433f for <gaia@ietfa.amsl.com>; Tue, 20 Jan 2015 06:45:04 -0800 (PST)
+Received: from mail-ob0-x232.google.com (mail-ob0-x232.google.com [IPv6:2607:f8b0:4003:c01::232]) (using TLSv1 with cipher ECDHE-RSA-RC4-SHA (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id B75311B2DB1 for <gaia@irtf.org>; Tue, 20 Jan 2015 06:45:03 -0800 (PST)
+Received: by mail-ob0-f178.google.com with SMTP id nt9so3078060obb.9 for <gaia@irtf.org>; Tue, 20 Jan 2015 06:45:02 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:sender:in-reply-to:references:date:message-id:subject :from:to:content-type; bh=OApGaE1/Z8XIEkbbtFaeyNhpqqyqxDGeIFXMzXRX/DY=; b=oMkJni8r2sVMkQTQIFDRSdQmsh+k8BdLLm/mFA6tPMfUPva/yTJZ+RnkFoYaITy6oB YKUDi8uDsN8AXPrj2YSTaBvJpy7FvOe2qhz6X1u8g2NeHeDeDV57BKoRifEgvQEQVZk+ 9DeHruhmEbxFLCcK/8JeUcm2fpz5WPBADhnc0aodjMUsReHi+GPKKsb2SwKOZhwqyMfD xCuG8ub+KDs4zc6Jvqok7V6C2RVVwtVwz52ixP+qEJxgkv6p1iW3vIhDwaIZprw8fvgw P06i1ClNx1Flp24cCwAPOf8Hd1V4RKAyZ14TXhtjgt90k0riGrmMC1xZZVmyVJA9JqSb l0LQ==
+MIME-Version: 1.0
+X-Received: by 10.182.125.72 with SMTP id mo8mr21983900obb.61.1421765102782; Tue, 20 Jan 2015 06:45:02 -0800 (PST)
+Sender: stephen.song@gmail.com
+Received: by 10.182.46.135 with HTTP; Tue, 20 Jan 2015 06:45:02 -0800 (PST)
+In-Reply-To: <CAPaG1A=ck5X6DhZPb7Zhp=CgKPDHZQr==s9svWtfh+tPqO5b1g@mail.gmail.com>
+References: <CAPaG1A=ck5X6DhZPb7Zhp=CgKPDHZQr==s9svWtfh+tPqO5b1g@mail.gmail.com>
+Date: Tue, 20 Jan 2015 10:45:02 -0400
+X-Google-Sender-Auth: OAm5mQ2piQA33ybi_lskH8hEvs4
+Message-ID: <CAD_CWO3eZtMKf60wvE7k=yHVRkiC3C2Sn2o4FLUoGsSbK_+xYg@mail.gmail.com>
+From: Steve Song <stevesong@nsrc.org>
+To: gaia <gaia@irtf.org>
+Content-Type: multipart/alternative; boundary=089e013cb9e2e7d242050d167bee
+Archived-At: <http://mailarchive.ietf.org/arch/msg/gaia/roARUdQHBp3mww0S4lwc35Rsu28>
+Subject: Re: [gaia] Is Facebook's zero-rating ecosystem really worthwhile or not?
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 20 Jan 2015 14:45:08 -0000
+
+--089e013cb9e2e7d242050d167bee
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi Arjuna,
+
+On Tue, Jan 20, 2015 at 6:24 AM, Arjuna Sathiaseelan <
+arjuna.sathiaseelan@cl.cam.ac.uk> wrote:
+
+> All,
+>
+> My thoughts on Facebook's zero-rating ecosystem is published here:
+>
+> http://theconversation.com/facebooks-free-access-internet-is-limited-and-=
+thats-raised-questions-over-fairness-36460
+
+
+Nice one Arjuna.  There appear to be a flurry of articles this week on
+zero-rating, mostly I suspect in reaction to Susan Crawford who had this to
+say about zero-rating:  "Zero-rating is pernicious; it=E2=80=99s dangerous;=
+ it=E2=80=99s
+malignant."  More at
+https://medium.com/backchannel/less-than-zero-199bcb05a868   I am much more
+in sympathy with Kevin Werbach who says, =E2=80=9CI think #ZeroRating plans=
+ should
+be suspect but not preemptively banned. Some legit uses, but also
+opportunities for mischief.=E2=80=9D
+
+Other reactions:
+
+Would a ban on zero rating throw the baby out with the bathwater?
+http://www.techpolicydaily.com/internet/ban-zero-rating-risk-throwing-baby-=
+bathwater/
+
+Zero rating: Narrowing the digital divide in the mobile broadband market
+http://www.techpolicydaily.com/internet/zero-rating-narrowing-digital-divid=
+e-mobile-broadband-market/
+
+and some commentary this week on the net neutrality debate in the US
+specifically:
+
+Shifting Politics of Net Neutrality Debate Ahead of F.C.C. Vote
+http://www.nytimes.com/2015/01/20/technology/shifting-politics-of-net-neutr=
+ality-debate-ahead-of-fcc-vote.html
+
+Personally, what annoys me most is the sloganising of a complex debate.  If
+only it were that simple.
+
+Cheers... Steve
+
+Thanks to Steve Song and Jon Crowcroft for their useful feedback.
+>
+> Regards
+>
+> --
+> Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+>
+> _______________________________________________
+> gaia mailing list
+> gaia@irtf.org
+> https://irtf.org/mailman/listinfo/gaia
+>
+
+--089e013cb9e2e7d242050d167bee
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi Arjuna,<div><br></div><div>On Tue, Jan 20, 2015 at 6:24=
+ AM, Arjuna Sathiaseelan <span dir=3D"ltr">&lt;<a href=3D"mailto:arjuna.sat=
+hiaseelan@cl.cam.ac.uk" target=3D"_blank">arjuna.sathiaseelan@cl.cam.ac.uk<=
+/a>&gt;</span> wrote:<br></div><div class=3D"gmail_extra"><div class=3D"gma=
+il_quote"><blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8=
+ex;border-left-width:1px;border-left-color:rgb(204,204,204);border-left-sty=
+le:solid;padding-left:1ex">All,<br>
+<br>
+My thoughts on Facebook&#39;s zero-rating ecosystem is published here:<br>
+<a href=3D"http://theconversation.com/facebooks-free-access-internet-is-lim=
+ited-and-thats-raised-questions-over-fairness-36460" target=3D"_blank">http=
+://theconversation.com/facebooks-free-access-internet-is-limited-and-thats-=
+raised-questions-over-fairness-36460</a></blockquote><div><br></div><div>Ni=
+ce one Arjuna.=C2=A0 There appear to be a flurry of articles this week on z=
+ero-rating, mostly I suspect in reaction to Susan Crawford who had this to =
+say about zero-rating: =C2=A0&quot;Zero-rating is pernicious; it=E2=80=99s =
+dangerous; it=E2=80=99s malignant.&quot; =C2=A0More at <a href=3D"https://m=
+edium.com/backchannel/less-than-zero-199bcb05a868">https://medium.com/backc=
+hannel/less-than-zero-199bcb05a868</a> =C2=A0 I am much more in sympathy wi=
+th Kevin Werbach who says, =E2=80=9CI think #ZeroRating plans should be sus=
+pect but not preemptively banned. Some legit uses, but also opportunities f=
+or mischief.=E2=80=9D</div><div><br></div><div>Other reactions:</div><div><=
+br></div><div>Would a ban on zero rating throw the baby out with the bathwa=
+ter?</div><div><a href=3D"http://www.techpolicydaily.com/internet/ban-zero-=
+rating-risk-throwing-baby-bathwater/">http://www.techpolicydaily.com/intern=
+et/ban-zero-rating-risk-throwing-baby-bathwater/</a><br></div><div><br></di=
+v><div>Zero rating: Narrowing the digital divide in the mobile broadband ma=
+rket</div><div><a href=3D"http://www.techpolicydaily.com/internet/zero-rati=
+ng-narrowing-digital-divide-mobile-broadband-market/">http://www.techpolicy=
+daily.com/internet/zero-rating-narrowing-digital-divide-mobile-broadband-ma=
+rket/</a><br></div><div><br></div><div>and some commentary this week on the=
+ net neutrality debate in the US specifically:</div><div><br></div><div>Shi=
+fting Politics of Net Neutrality Debate Ahead of F.C.C. Vote<br></div><div>=
+<a href=3D"http://www.nytimes.com/2015/01/20/technology/shifting-politics-o=
+f-net-neutrality-debate-ahead-of-fcc-vote.html">http://www.nytimes.com/2015=
+/01/20/technology/shifting-politics-of-net-neutrality-debate-ahead-of-fcc-v=
+ote.html</a><br></div><div><br></div><div>Personally, what annoys me most i=
+s the sloganising of a complex debate.=C2=A0 If only it were that simple.</=
+div><div><br></div><div>Cheers... Steve</div><div><br></div><blockquote cla=
+ss=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border-left-width:1px;=
+border-left-color:rgb(204,204,204);border-left-style:solid;padding-left:1ex=
+">Thanks to Steve Song and Jon Crowcroft for their useful feedback.<br>
+<br>
+Regards<br>
+<span class=3D""><font color=3D"#888888"><br>
+--<br>
+Arjuna Sathiaseelan | <a href=3D"http://www.cl.cam.ac.uk/~as2330/" target=
+=3D"_blank">http://www.cl.cam.ac.uk/~as2330/</a><br>
+<br>
+_______________________________________________<br>
+gaia mailing list<br>
+<a href=3D"mailto:gaia@irtf.org">gaia@irtf.org</a><br>
+<a href=3D"https://irtf.org/mailman/listinfo/gaia" target=3D"_blank">https:=
+//irtf.org/mailman/listinfo/gaia</a><br>
+</font></span></blockquote></div><br></div></div>
+
+--089e013cb9e2e7d242050d167bee--
+
+
+From nobody Wed Jan 21 07:54:26 2015
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id B84BA1A1AE7 for <gaia@ietfa.amsl.com>; Wed, 21 Jan 2015 07:54:21 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 1.422
+X-Spam-Level: *
+X-Spam-Status: No, score=1.422 tagged_above=-999 required=5 tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FM_FORGED_GMAIL=0.622, FREEMAIL_FROM=0.001, SPF_PASS=-0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id yKHhDS2VVSHw for <gaia@ietfa.amsl.com>; Wed, 21 Jan 2015 07:54:20 -0800 (PST)
+Received: from mail-wi0-x231.google.com (mail-wi0-x231.google.com [IPv6:2a00:1450:400c:c05::231]) (using TLSv1 with cipher ECDHE-RSA-RC4-SHA (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 2AC7E1A1AE3 for <gaia@irtf.org>; Wed, 21 Jan 2015 07:54:20 -0800 (PST)
+Received: by mail-wi0-f177.google.com with SMTP id r20so26643076wiv.4 for <gaia@irtf.org>; Wed, 21 Jan 2015 07:54:18 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:sender:date:message-id:subject:from:to:content-type;  bh=nk8E3zC3SwOOEqFvrjFwCZVijFK3iSzTEy2iFSKfn5U=; b=hlcimM2cWipybUDTn6knEVEtQi9Sg+4gIbTG4zogi/NCTk6Zs+5FmM0b4xgp3izB52 7HoCOZ7vmwYzBEBDv5Ulz0ixa8/I6hUU5Okq7e7Mb/As3boqbQ+sBiYrpqwYLn9dG/tR f3OmKLLrxOYC0Cz37XvtH9UNf0UJSIWAmMjrUBxNYuC0f8Nj9GXv/PvOKOutttbzLQsm KZepESSF5g+gS5uo0Du6ilShkthvCy2EZnrCgtjzhxy10kFnzvuFCD1+OMjoUV4pdCNM SD2gQHFL0F094C0EBYZAuMobBWhh3P6xxLQRuOInaxTWbp+W7f9k8li51lNn/68BWFjD 37IA==
+MIME-Version: 1.0
+X-Received: by 10.194.84.240 with SMTP id c16mr25016101wjz.74.1421855658732; Wed, 21 Jan 2015 07:54:18 -0800 (PST)
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.27.218.204 with HTTP; Wed, 21 Jan 2015 07:54:18 -0800 (PST)
+Date: Wed, 21 Jan 2015 15:54:18 +0000
+X-Google-Sender-Auth: XTarhQk7rS396ZsDbynYn44RMug
+Message-ID: <CAPaG1AkvSXNA7NHKWzrf0prxdFn+o=rvAvwxCsV58v7mtMBMww@mail.gmail.com>
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+To: gaia <gaia@irtf.org>
+Content-Type: text/plain; charset=UTF-8
+Archived-At: <http://mailarchive.ietf.org/arch/msg/gaia/-YwI5sH25ss1kv38e4uOwq5VCoQ>
+Subject: [gaia] ACM DEV 2015 + GAIA workshop
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 21 Jan 2015 15:54:21 -0000
+
+All,
+
+Just to update:
+
+ACM DEV 2015 along with the GAIA workshop will be held on November
+30-Dec 2, 2015 at the Queen Mary University London. the site and
+further details will be up soon..
+
+In the mean time Facebook has posted an article about the last GAIA
+workshop and DEV here:
+
+https://www.facebook.com/academics/posts/851946661523409?fref=nf&pnref=story
+
+-- 
+Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+
+
+From nobody Wed Jan 21 09:22:02 2015
+Return-Path: <jsaldana@unizar.es>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 0BAAA1A1B38 for <gaia@ietfa.amsl.com>; Wed, 21 Jan 2015 09:21:59 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -4.211
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.211 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_MED=-2.3, SPF_PASS=-0.001, T_RP_MATCHES_RCVD=-0.01] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id pNtEhqZLPKnD for <gaia@ietfa.amsl.com>; Wed, 21 Jan 2015 09:21:55 -0800 (PST)
+Received: from isuela.unizar.es (isuela.unizar.es [155.210.1.53]) (using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 907821A1B2F for <gaia@irtf.org>; Wed, 21 Jan 2015 09:21:55 -0800 (PST)
+Received: from usuarioPC (gtc1pc12.cps.unizar.es [155.210.158.17]) by isuela.unizar.es (8.13.8/8.13.8/Debian-3) with ESMTP id t0LHLkBR031643 for <gaia@irtf.org>; Wed, 21 Jan 2015 18:21:47 +0100
+From: "Jose Saldana" <jsaldana@unizar.es>
+To: <gaia@irtf.org>
+References: <20150121171650.3309.77447.idtracker@ietfa.amsl.com>
+In-Reply-To: <20150121171650.3309.77447.idtracker@ietfa.amsl.com>
+Date: Wed, 21 Jan 2015 18:21:56 +0100
+Message-ID: <72a801d0359e$c1c14c80$4543e580$@unizar.es>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AQGb5MN7siVi8iNyliqnCXAbcDMlOJ0zcwIA
+Content-Language: es
+X-Mail-Scanned: Criba 2.0 + Clamd & Bogofilter
+Archived-At: <http://mailarchive.ietf.org/arch/msg/gaia/l9rDFJuk_OiNjB4D6uDzcXLuRxc>
+Subject: [gaia] New Version Notification for draft-manyfolks-gaia-community-networks-02.txt
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 21 Jan 2015 17:21:59 -0000
+
+Hi all,
+
+We have just updated (and uploaded) a new version of the "Manyfolks =
+draft": Alternative Network Deployments. Taxonomy and characterization.
+
+URL:            =
+http://www.ietf.org/internet-drafts/draft-manyfolks-gaia-community-networ=
+ks-02.txt=20
+Status:         =
+https://datatracker.ietf.org/doc/draft-manyfolks-gaia-community-networks/=
+=20
+Htmlized:       =
+http://tools.ietf.org/html/draft-manyfolks-gaia-community-networks-02=20
+Diff:           =
+http://www.ietf.org/rfcdiff?url2=3Ddraft-manyfolks-gaia-community-network=
+s-02
+
+The structure has been modified, and many parts have been improved. In =
+addition, it includes a number of new references.
+
+If you want to have a look to it and send your comments, it would be =
+fine.
+
+Thanks a lot to the contributors (some of them new)!
+
+Jose
+
+> -----Mensaje original-----
+> De: internet-drafts@ietf.org [mailto:internet-drafts@ietf.org]
+> Enviado el: mi=C3=A9rcoles, 21 de enero de 2015 18:17
+> Para: Carlos Rey-Moreno; Leandro Navarro; Carlos Rey-Moreno; Andres =
+Arcia-
+> Moret; Ermanno Pietrosemoli; Arjuna Sathiaseelan; Arjuna Sathiaseelan; =
+Bart
+> Braem; Leandro Navarro; Ermanno Pietrosemoli; Bart Braem; Jose =
+Saldana; Marco
+> Zennaro; Jose Saldana; Marco Zennaro; Andres Arcia-Moret
+> Asunto: New Version Notification for =
+draft-manyfolks-gaia-community-networks-
+> 02.txt
+>=20
+>=20
+> A new version of I-D, draft-manyfolks-gaia-community-networks-02.txt
+> has been successfully submitted by Jose Saldana and posted to the IETF
+> repository.
+>=20
+> Name:		draft-manyfolks-gaia-community-networks
+> Revision:	02
+> Title:		Alternative Network Deployments. Taxonomy and characterization
+> Document date:	2015-01-21
+> Group:		Individual Submission
+> Pages:		33
+> URL:            =
+http://www.ietf.org/internet-drafts/draft-manyfolks-gaia-community-
+> networks-02.txt
+> Status:         =
+https://datatracker.ietf.org/doc/draft-manyfolks-gaia-community-
+> networks/
+> Htmlized:       =
+http://tools.ietf.org/html/draft-manyfolks-gaia-community-networks-02
+> Diff:           =
+http://www.ietf.org/rfcdiff?url2=3Ddraft-manyfolks-gaia-community-
+> networks-02
+>=20
+> Abstract:
+>    This document presents a taxonomy of "Alternative Network
+>    deployments", and a set of definitions and shared characteristics.
+>    This term includes a set of network access models emerged in the =
+last
+>    decade with the aim of bringing Internet connectivity to people,
+>    using topological, architectural and business models different from
+>    the so-called "traditional" ones, where a company deploys the =
+network
+>    infrastructure for connecting the users, who pay for it.
+>=20
+>    Several initiatives throughout the world have built large scale
+>    networks that are alternative to the traditional network operator
+>    deployments using predominately wireless technologies (including =
+long
+>    distance) due to the reduced cost of using the unlicensed spectrum.
+>    Wired technologies such as Fiber are also used in some of these
+>    alternate networks.  There are several types of such alternate
+>    network: networks such as community networks are self-organized and
+>    decentralized networks wholly owned by the community; networks =
+owned
+>    by individuals who act as wireless internet service providers
+>    (WISPs), networks owned by individuals but leased out to network
+>    operators who use such networks as a low-cost medium to reach the
+>    underserved population and finally there are networks that provide
+>    connectivity by sharing wireless resources of the users.
+>=20
+>    The emergence of these networks can be motivated by different =
+causes
+>    such as the reluctance, or the impossibility, of network operators =
+to
+>    provide wired and cellular infrastructures to rural/remote areas.  =
+In
+>    these cases, the networks have self sustainable business models =
+that
+>    provide more localised communication services as well as Internet
+>    backhaul support through peering agreements with traditional =
+network
+>    operators.  Some other times, networks are built as a complement =
+and
+>    an alternative to commercial Internet access provided by
+>    "traditional" network operators.
+>=20
+>    The present classification considers different existing network
+>    models such as Community Networks, open wireless services, user-
+>    extensible services, traditional local Internet Service Providers
+>    (ISPs), new global ISPs, etc.  Different criteria are used in order
+>    to build a classification as e.g., the ownership of the equipment,
+>    the way the network is organized, the participatory model, the
+>    extensibility, if they are driven by a community, a company or a
+>    local (public or private) stakeholder, etc.
+>=20
+>    According to the developed taxonomy, a characterization of each =
+kind
+>    of network is presented, in terms of specific network =
+characteristics
+>    related to architecture, organization, etc.
+>=20
+>=20
+>=20
+>=20
+> Please note that it may take a couple of minutes from the time of =
+submission until
+> the htmlized version and diff are available at tools.ietf.org.
+>=20
+> The IETF Secretariat
+
+
+
+From nobody Thu Jan 22 03:22:10 2015
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 5BEA51A01EA for <gaia@ietfa.amsl.com>; Thu, 22 Jan 2015 03:22:09 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.278
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.278 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FM_FORGED_GMAIL=0.622, FREEMAIL_FROM=0.001, SPF_PASS=-0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id LWtQQ3CV3Guv for <gaia@ietfa.amsl.com>; Thu, 22 Jan 2015 03:22:08 -0800 (PST)
+Received: from mail-wg0-x22c.google.com (mail-wg0-x22c.google.com [IPv6:2a00:1450:400c:c00::22c]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id EC5361A1A02 for <gaia@irtf.org>; Thu, 22 Jan 2015 03:22:07 -0800 (PST)
+Received: by mail-wg0-f44.google.com with SMTP id z12so1131656wgg.3 for <gaia@irtf.org>; Thu, 22 Jan 2015 03:22:06 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:sender:date:message-id:subject:from:to:content-type;  bh=6yPzCiv4iMqMjGGYkDOI2TSzqHw0nOIvm2MoXUOnY/I=; b=uPZyMIiR0OKIstH1cuajZ/O9jmkOrQyaU4Vk33yRhhXJNFsyZa0dK6zGMVSp+MuDay 7m+IG43SiTFXOl6lZiFB4YN/1PGeBmHPE4SZc2fikzkLtqSFljxzOxpI0Vw+KhVrVaLW ZrFTmPaeDIBGtuZo6E0uAUdRQ0lM30HeC1cybtUidAGWlQnx62ZVHG4Kbcs46wT2b1Dy eGVAT/QNo0vpPDqUN7CexjI6NSH3qNPbuc8b7E7kpeO0+U3+47gUfIry75BRYyLRuRQb oOnvfKe7xo7N1WWpD/nMLik20LpRFac+jh9k/lkh+22DPSGObe2d8D/I+gf1g5B5p5Xn XmXg==
+MIME-Version: 1.0
+X-Received: by 10.180.103.231 with SMTP id fz7mr4016913wib.49.1421925726750; Thu, 22 Jan 2015 03:22:06 -0800 (PST)
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.27.218.204 with HTTP; Thu, 22 Jan 2015 03:22:06 -0800 (PST)
+Date: Thu, 22 Jan 2015 11:22:06 +0000
+X-Google-Sender-Auth: tWXEBiViUyecTlDOL8Qjh-jeKak
+Message-ID: <CAPaG1Ampb76SoC9sfGSwXyTnS-99FB1yYis=uBGpTr8yka4PSw@mail.gmail.com>
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+To: gaia <gaia@irtf.org>
+Content-Type: text/plain; charset=UTF-8
+Archived-At: <http://mailarchive.ietf.org/arch/msg/gaia/Fh8dPlo04GVzCTOJCjAgVXhH7nA>
+Subject: [gaia] DIY Networking workshop at Mobisys
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 22 Jan 2015 11:22:09 -0000
+
+this is highly relevant to GAIA and the organisers/and some TPC are
+all the GAIA regulars -- so please do consider submitting..
+
+http://diynetworking.net/
+
+Regards
+
+-- 
+Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+
+
+From nobody Thu Jan 22 07:22:32 2015
+Return-Path: <home@bezdomny.org>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 5EB481ACD0D for <gaia@ietfa.amsl.com>; Thu, 22 Jan 2015 07:22:29 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 0.101
+X-Spam-Level: 
+X-Spam-Status: No, score=0.101 tagged_above=-999 required=5 tests=[BAYES_50=0.8, RCVD_IN_DNSWL_LOW=-0.7, SPF_FAIL=0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id G43djuYrai3R for <gaia@ietfa.amsl.com>; Thu, 22 Jan 2015 07:22:27 -0800 (PST)
+Received: from mail-wg0-f50.google.com (mail-wg0-f50.google.com [74.125.82.50]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 092721ACCDF for <gaia@irtf.org>; Thu, 22 Jan 2015 07:22:16 -0800 (PST)
+Received: by mail-wg0-f50.google.com with SMTP id b13so2322356wgh.9 for <gaia@irtf.org>; Thu, 22 Jan 2015 07:22:14 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20130820; h=x-gm-message-state:content-type:mime-version:subject:from :in-reply-to:date:content-transfer-encoding:message-id:references:to; bh=b5U/BFpLakvN4hncJjWy6CaXAmnp2t00m86uuUB6xnI=; b=IyB2o89Sn2ggLl7CRqg2NcfUEmOMUvFX/bd04dvr/M/iBw+IW8BPS6ccjgtY+yrHul rerh4ZP37zyYZam+Lte75qWSCdzZu3NE2UHK3CJieOk/zNmA2ds+uZ6BxeFa7qlDfqLv ozH7BQ+8Y8YBk5rxU6L65eE5TMd5hQT9ZPzlZOXsWObP62kXXMhmxUumWrUG2a7qno5B A+s1GJOfwsL4jOV/vttGOkV6SRTMEdGRvTif9t9V3Siiar1BqhSXF+7wz+tEy8ed2OJA 1We74j6lYuGjhTVUoMtDDa6jWQyu9kqPmNrM98R+7esDFpSt7Kdqgc7/mEXIkAd/bkD4 HyGA==
+X-Gm-Message-State: ALoCoQk0M1zScHjexyINhtSDs4pCeWNcDiEOdlO1pa1lF+oK9H9VnWJv/R1cc6PSS9D/E2ouD98Y
+X-Received: by 10.180.87.42 with SMTP id u10mr40964919wiz.51.1421940134617; Thu, 22 Jan 2015 07:22:14 -0800 (PST)
+Received: from [192.168.1.8] (e180206142.adsl.alicedsl.de. [85.180.206.142]) by mx.google.com with ESMTPSA id eu8sm3421088wib.21.2015.01.22.07.22.12 for <gaia@irtf.org> (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128); Thu, 22 Jan 2015 07:22:12 -0800 (PST)
+Content-Type: text/plain; charset=us-ascii
+Mime-Version: 1.0 (Mac OS X Mail 7.3 \(1878.6\))
+From: Bezdomny <home@bezdomny.org>
+In-Reply-To: <CAPaG1AnPHdnKguafM5EjS9zAOHb3R92Y_qOhoSw9qKj7oi7JnA@mail.gmail.com>
+Date: Thu, 22 Jan 2015 16:22:11 +0100
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <F6C90292-FF79-4C53-BA32-022F1A8C2180@bezdomny.org>
+References: <etPan.54b55280.628c895d.f6e5@Marco-Network-4.local> <CAPaG1AnPHdnKguafM5EjS9zAOHb3R92Y_qOhoSw9qKj7oi7JnA@mail.gmail.com>
+To: gaia <gaia@irtf.org>
+X-Mailer: Apple Mail (2.1878.6)
+Archived-At: <http://mailarchive.ietf.org/arch/msg/gaia/fjcjbbPdxEQ8c3QW5aQ3gaZXPUM>
+Subject: Re: [gaia] The race to connect Africa through satellite technology
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 22 Jan 2015 15:22:29 -0000
+
+h=
+ttp://bits.blogs.nytimes.com/2015/01/22/daily-report-internet-in-orbit-lin=
+king-much-of-world-directly-to-google/?emc=3Dedit_tu_20150122&nl=3Dtechnol=
+ogy&nlid=3D60325689
+
+On Jan 13, 2015, at 21:49, Arjuna Sathiaseelan =
+<arjuna.sathiaseelan@cl.cam.ac.uk> wrote:
+
+> more here: =
+http://www.telegraph.co.uk/finance/newsbysector/mediatechnologyandtelecoms=
+/telecoms/11232599/Facebook-in-talks-with-Avanti-over-Africa-deal.html
+>=20
+> This is exciting - we are working with Avanti to explore new
+> architectures for providing low cost Internet access via one of our EU
+> projects. So I am personally very excited! :)
+>=20
+> Regards
+>=20
+> On 13 January 2015 at 17:14, Marco Zennaro <mzennaro@ictp.it> wrote:
+>> =
+http://www.idgconnect.com/abstract/9292/the-race-connect-africa-satellite-=
+technology
+>>=20
+>> Best,
+>> Marco
+>>=20
+>> Marco Zennaro, PhD
+>> Telecommunications / ICT for Development Laboratory
+>> the Abdus Salam International Centre for Theoretical Physics
+>> Strada Costiera 11
+>> 34014 Trieste
+>> Italy
+>>=20
+>> Telephone: +39 040 2240 406
+>> Web:           http://wireless.ictp.it
+>>=20
+>> _______________________________________________
+>> gaia mailing list
+>> gaia@irtf.org
+>> https://irtf.org/mailman/listinfo/gaia
+>>=20
+>=20
+>=20
+>=20
+> --=20
+> Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+>=20
+> _______________________________________________
+> gaia mailing list
+> gaia@irtf.org
+> https://irtf.org/mailman/listinfo/gaia
+
+
+From nobody Thu Jan 22 07:58:19 2015
+Return-Path: <stephen.song@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id ED2221A1AD3 for <gaia@ietfa.amsl.com>; Thu, 22 Jan 2015 07:58:17 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 1.423
+X-Spam-Level: *
+X-Spam-Status: No, score=1.423 tagged_above=-999 required=5 tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FM_FORGED_GMAIL=0.622, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, SPF_PASS=-0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id U5hnEuesDthH for <gaia@ietfa.amsl.com>; Thu, 22 Jan 2015 07:58:11 -0800 (PST)
+Received: from mail-lb0-x22a.google.com (mail-lb0-x22a.google.com [IPv6:2a00:1450:4010:c04::22a]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 373B81ACD1D for <gaia@irtf.org>; Thu, 22 Jan 2015 07:58:02 -0800 (PST)
+Received: by mail-lb0-f170.google.com with SMTP id w7so2329934lbi.1 for <gaia@irtf.org>; Thu, 22 Jan 2015 07:58:00 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:sender:in-reply-to:references:date:message-id:subject :from:to:content-type; bh=g9rZHLwVTJY1rGt1bbl5V8ycAbIEK2Wsm1sgBdmbwlk=; b=ckgzirG8/F17lPU6wDc7CYFfeDmAol/NuD7g/GiDHZcPzwmrc/SVkZUsUrSaoBtJHj i4c7X4ngzKL4Pn6a6AaWg+Es9EhWlZbJulCPRcA8aHVecnYId0f9JwxGyEeDw8OMZtAM eIhriF9b44t/Po+Sr45RTbju3rgIgSW6hyubO/nP5iRwbuuFbEUwDpVop/wg1F2uRGXb 6cxDxb4IT8e1B9Cgx/coeIYXymkg7X82JNdtD1V+a9RDa5N21L9T5UcxB10hem8y8TnX yWCo6ffhLS/HJ2rl5SnVCG4w7qF0Jw5AhHnRnMJRkKcLAXO7TVkKlksxtJgoRhAuEaAK 7lng==
+MIME-Version: 1.0
+X-Received: by 10.112.14.134 with SMTP id p6mr2592767lbc.36.1421942280565; Thu, 22 Jan 2015 07:58:00 -0800 (PST)
+Sender: stephen.song@gmail.com
+Received: by 10.114.176.133 with HTTP; Thu, 22 Jan 2015 07:58:00 -0800 (PST)
+In-Reply-To: <F6C90292-FF79-4C53-BA32-022F1A8C2180@bezdomny.org>
+References: <etPan.54b55280.628c895d.f6e5@Marco-Network-4.local> <CAPaG1AnPHdnKguafM5EjS9zAOHb3R92Y_qOhoSw9qKj7oi7JnA@mail.gmail.com> <F6C90292-FF79-4C53-BA32-022F1A8C2180@bezdomny.org>
+Date: Thu, 22 Jan 2015 11:58:00 -0400
+X-Google-Sender-Auth: s8zyeNk7gQYMnhSme_KQjkG3-ug
+Message-ID: <CAD_CWO3UArwhnjLG-MVvQOkmSNeW9aGGc69yqdtEw-bMuNDr5g@mail.gmail.com>
+From: Steve Song <stevesong@nsrc.org>
+To: gaia <gaia@irtf.org>
+Content-Type: multipart/alternative; boundary=001a1133220e863b90050d3fbc26
+Archived-At: <http://mailarchive.ietf.org/arch/msg/gaia/V4FCrbBGS73aZn5a9tQUoToPZ2I>
+Subject: Re: [gaia] The race to connect Africa through satellite technology
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 22 Jan 2015 15:58:18 -0000
+
+--001a1133220e863b90050d3fbc26
+Content-Type: text/plain; charset=UTF-8
+
+Hi all,
+
+What all these satellite initiatives have to contend with the accelerating
+spread of fibre infrastructure.  Not only is latency a non-issue with fibre
+but it also has a much longer life-cycle than satellite technology.  The
+steadily decreasing cost of fibre deployment combined with the growth of
+low-cost wireless technologies to complete the last/first mile paints a
+very appealing scenario.  Not to mention the fact that fibre can be
+affordably integrated with other infrastructure deployment from roads to
+water to waste further reducing costs.  Also, we have not yet fully plumbed
+the depths of fibre capacity.  It's current capacity exceeds all current
+demand and even then new discoveries like twisted fibre promise even more
+capacity.
+
+And then there is satellite technology.  High latency unless you have LEO
+satellites which of course have much shorter lifespans.  There is a much
+higher risk factor associated with satellite which is a combination of the
+very high cost of launching satellites, the terrible cost of failure, and
+the comparatively long lead time from technology conception to launch.  O3B
+is a poster child for all of those issues.
+
+SpaceX may be a different story.  If launching satellites is simply
+piggy-backing on an existing space business, that may change things.
+
+Cheers... Steve
+
+On Thu, Jan 22, 2015 at 11:22 AM, Bezdomny <home@bezdomny.org> wrote:
+
+>
+> http://bits.blogs.nytimes.com/2015/01/22/daily-report-internet-in-orbit-linking-much-of-world-directly-to-google/?emc=edit_tu_20150122&nl=technology&nlid=60325689
+>
+> On Jan 13, 2015, at 21:49, Arjuna Sathiaseelan <
+> arjuna.sathiaseelan@cl.cam.ac.uk> wrote:
+>
+> > more here:
+> http://www.telegraph.co.uk/finance/newsbysector/mediatechnologyandtelecoms/telecoms/11232599/Facebook-in-talks-with-Avanti-over-Africa-deal.html
+> >
+> > This is exciting - we are working with Avanti to explore new
+> > architectures for providing low cost Internet access via one of our EU
+> > projects. So I am personally very excited! :)
+> >
+> > Regards
+> >
+> > On 13 January 2015 at 17:14, Marco Zennaro <mzennaro@ictp.it> wrote:
+> >>
+> http://www.idgconnect.com/abstract/9292/the-race-connect-africa-satellite-technology
+> >>
+> >> Best,
+> >> Marco
+> >>
+> >> Marco Zennaro, PhD
+> >> Telecommunications / ICT for Development Laboratory
+> >> the Abdus Salam International Centre for Theoretical Physics
+> >> Strada Costiera 11
+> >> 34014 Trieste
+> >> Italy
+> >>
+> >> Telephone: +39 040 2240 406
+> >> Web:           http://wireless.ictp.it
+> >>
+> >> _______________________________________________
+> >> gaia mailing list
+> >> gaia@irtf.org
+> >> https://irtf.org/mailman/listinfo/gaia
+> >>
+> >
+> >
+> >
+> > --
+> > Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+> >
+> > _______________________________________________
+> > gaia mailing list
+> > gaia@irtf.org
+> > https://irtf.org/mailman/listinfo/gaia
+>
+> _______________________________________________
+> gaia mailing list
+> gaia@irtf.org
+> https://irtf.org/mailman/listinfo/gaia
+>
+
+--001a1133220e863b90050d3fbc26
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Hi all,</div><div><br></div>What all these satellite =
+initiatives have to contend with the accelerating spread of fibre infrastru=
+cture.=C2=A0 Not only is latency a non-issue with fibre but it also has a m=
+uch longer life-cycle than satellite technology.=C2=A0 The steadily decreas=
+ing cost of fibre deployment combined with the growth of low-cost wireless =
+technologies to complete the last/first mile paints a very appealing scenar=
+io.=C2=A0 Not to mention the fact that fibre can be affordably integrated w=
+ith other infrastructure deployment from roads to water to waste further re=
+ducing costs.=C2=A0 Also, we have not yet fully plumbed the depths of fibre=
+ capacity.=C2=A0 It&#39;s current capacity exceeds all current demand and e=
+ven then new discoveries like twisted fibre promise even more capacity.<div=
+><br></div><div>And then there is satellite technology.=C2=A0 High latency =
+unless you have LEO satellites which of course have much shorter lifespans.=
+=C2=A0 There is a much higher risk factor associated with satellite which i=
+s a combination of the very high cost of launching satellites, the terrible=
+ cost of failure, and the comparatively long lead time from technology conc=
+eption to launch.=C2=A0 O3B is a poster child for all of those issues.</div=
+><div><br></div><div>SpaceX may be a different story.=C2=A0 If launching sa=
+tellites is simply piggy-backing on an existing space business, that may ch=
+ange things.</div><div><br></div><div>Cheers... Steve</div></div><div class=
+=3D"gmail_extra"><br><div class=3D"gmail_quote">On Thu, Jan 22, 2015 at 11:=
+22 AM, Bezdomny <span dir=3D"ltr">&lt;<a href=3D"mailto:home@bezdomny.org" =
+target=3D"_blank">home@bezdomny.org</a>&gt;</span> wrote:<br><blockquote cl=
+ass=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;p=
+adding-left:1ex"><a href=3D"http://bits.blogs.nytimes.com/2015/01/22/daily-=
+report-internet-in-orbit-linking-much-of-world-directly-to-google/?emc=3Ded=
+it_tu_20150122&amp;nl=3Dtechnology&amp;nlid=3D60325689" target=3D"_blank">h=
+ttp://bits.blogs.nytimes.com/2015/01/22/daily-report-internet-in-orbit-link=
+ing-much-of-world-directly-to-google/?emc=3Dedit_tu_20150122&amp;nl=3Dtechn=
+ology&amp;nlid=3D60325689</a><br>
+<div class=3D"HOEnZb"><div class=3D"h5"><br>
+On Jan 13, 2015, at 21:49, Arjuna Sathiaseelan &lt;<a href=3D"mailto:arjuna=
+.sathiaseelan@cl.cam.ac.uk">arjuna.sathiaseelan@cl.cam.ac.uk</a>&gt; wrote:=
+<br>
+<br>
+&gt; more here: <a href=3D"http://www.telegraph.co.uk/finance/newsbysector/=
+mediatechnologyandtelecoms/telecoms/11232599/Facebook-in-talks-with-Avanti-=
+over-Africa-deal.html" target=3D"_blank">http://www.telegraph.co.uk/finance=
+/newsbysector/mediatechnologyandtelecoms/telecoms/11232599/Facebook-in-talk=
+s-with-Avanti-over-Africa-deal.html</a><br>
+&gt;<br>
+&gt; This is exciting - we are working with Avanti to explore new<br>
+&gt; architectures for providing low cost Internet access via one of our EU=
+<br>
+&gt; projects. So I am personally very excited! :)<br>
+&gt;<br>
+&gt; Regards<br>
+&gt;<br>
+&gt; On 13 January 2015 at 17:14, Marco Zennaro &lt;<a href=3D"mailto:mzenn=
+aro@ictp.it">mzennaro@ictp.it</a>&gt; wrote:<br>
+&gt;&gt; <a href=3D"http://www.idgconnect.com/abstract/9292/the-race-connec=
+t-africa-satellite-technology" target=3D"_blank">http://www.idgconnect.com/=
+abstract/9292/the-race-connect-africa-satellite-technology</a><br>
+&gt;&gt;<br>
+&gt;&gt; Best,<br>
+&gt;&gt; Marco<br>
+&gt;&gt;<br>
+&gt;&gt; Marco Zennaro, PhD<br>
+&gt;&gt; Telecommunications / ICT for Development Laboratory<br>
+&gt;&gt; the Abdus Salam International Centre for Theoretical Physics<br>
+&gt;&gt; Strada Costiera 11<br>
+&gt;&gt; 34014 Trieste<br>
+&gt;&gt; Italy<br>
+&gt;&gt;<br>
+&gt;&gt; Telephone: <a href=3D"tel:%2B39%20040%202240%20406" value=3D"+3904=
+02240406">+39 040 2240 406</a><br>
+&gt;&gt; Web:=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0<a href=3D"http://wir=
+eless.ictp.it" target=3D"_blank">http://wireless.ictp.it</a><br>
+&gt;&gt;<br>
+&gt;&gt; _______________________________________________<br>
+&gt;&gt; gaia mailing list<br>
+&gt;&gt; <a href=3D"mailto:gaia@irtf.org">gaia@irtf.org</a><br>
+&gt;&gt; <a href=3D"https://irtf.org/mailman/listinfo/gaia" target=3D"_blan=
+k">https://irtf.org/mailman/listinfo/gaia</a><br>
+&gt;&gt;<br>
+&gt;<br>
+&gt;<br>
+&gt;<br>
+&gt; --<br>
+&gt; Arjuna Sathiaseelan | <a href=3D"http://www.cl.cam.ac.uk/~as2330/" tar=
+get=3D"_blank">http://www.cl.cam.ac.uk/~as2330/</a><br>
+&gt;<br>
+&gt; _______________________________________________<br>
+&gt; gaia mailing list<br>
+&gt; <a href=3D"mailto:gaia@irtf.org">gaia@irtf.org</a><br>
+&gt; <a href=3D"https://irtf.org/mailman/listinfo/gaia" target=3D"_blank">h=
+ttps://irtf.org/mailman/listinfo/gaia</a><br>
+<br>
+_______________________________________________<br>
+gaia mailing list<br>
+<a href=3D"mailto:gaia@irtf.org">gaia@irtf.org</a><br>
+<a href=3D"https://irtf.org/mailman/listinfo/gaia" target=3D"_blank">https:=
+//irtf.org/mailman/listinfo/gaia</a><br>
+</div></div></blockquote></div><br></div>
+
+--001a1133220e863b90050d3fbc26--
+
+
+From nobody Fri Jan 23 06:19:31 2015
+Return-Path: <stephen.song@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 189B21A90B6 for <gaia@ietfa.amsl.com>; Fri, 23 Jan 2015 06:19:30 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 1.423
+X-Spam-Level: *
+X-Spam-Status: No, score=1.423 tagged_above=-999 required=5 tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FM_FORGED_GMAIL=0.622, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, SPF_PASS=-0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id U0pfvnE8oeBs for <gaia@ietfa.amsl.com>; Fri, 23 Jan 2015 06:19:27 -0800 (PST)
+Received: from mail-la0-x229.google.com (mail-la0-x229.google.com [IPv6:2a00:1450:4010:c03::229]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 9E4E61A90B2 for <gaia@irtf.org>; Fri, 23 Jan 2015 06:19:26 -0800 (PST)
+Received: by mail-la0-f41.google.com with SMTP id gm9so7554394lab.0 for <gaia@irtf.org>; Fri, 23 Jan 2015 06:19:25 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:sender:in-reply-to:references:date:message-id:subject :from:to:content-type; bh=B2fHVG2kjSQXI49Un9uCcAGa6p5r9GLyR1UKgnUetMA=; b=aWLJRxTItYC3p1jC41vnJJy7VyH26x0oTf0Tb5ebYqqYF4oEemHJX3B0tUl+gyjyLx 4nSjKxnzE9RfNxlTKaQqeE9q64z9467epDbp2y9QiPARJh44cTQoqZBVD2dU06NNqZMn /5upx6gjPqUgsfHCuO1n2Xs7MdmPIDP2XzlYjbTRARX6ziakrcvC/tVhgbyoyrieFy96 Ui/4L1Yeg+DmVyY03aLgh0Ti7gpGTPcc4fx/W/KKfgyKXK0PBRfAaSHHljGvDm5TmrVk FqhfRQb0CUgq4Q4rFvbTEmrlnGOdolfntHh+1hBzHYb//awgrHOVPMoFAzKTEnc+tGJB To0A==
+MIME-Version: 1.0
+X-Received: by 10.152.115.212 with SMTP id jq20mr7643406lab.36.1422022764846;  Fri, 23 Jan 2015 06:19:24 -0800 (PST)
+Sender: stephen.song@gmail.com
+Received: by 10.114.176.133 with HTTP; Fri, 23 Jan 2015 06:19:24 -0800 (PST)
+In-Reply-To: <CAD_CWO3UArwhnjLG-MVvQOkmSNeW9aGGc69yqdtEw-bMuNDr5g@mail.gmail.com>
+References: <etPan.54b55280.628c895d.f6e5@Marco-Network-4.local> <CAPaG1AnPHdnKguafM5EjS9zAOHb3R92Y_qOhoSw9qKj7oi7JnA@mail.gmail.com> <F6C90292-FF79-4C53-BA32-022F1A8C2180@bezdomny.org> <CAD_CWO3UArwhnjLG-MVvQOkmSNeW9aGGc69yqdtEw-bMuNDr5g@mail.gmail.com>
+Date: Fri, 23 Jan 2015 10:19:24 -0400
+X-Google-Sender-Auth: CPSdXc6tnHeHREvBLSPI6ZwopQw
+Message-ID: <CAD_CWO158LYxXV5GQJqWYMsHKFrmKNCzFWfdQtEXD_t8E17QgA@mail.gmail.com>
+From: Steve Song <stevesong@nsrc.org>
+To: gaia <gaia@irtf.org>
+Content-Type: multipart/alternative; boundary=001a11c3526ac2e6c8050d5279a3
+Archived-At: <http://mailarchive.ietf.org/arch/msg/gaia/CIuyYqWuqMcw1Y6aGSlJpcw2sO0>
+Subject: Re: [gaia] The race to connect Africa through satellite technology
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <http://irtf.org/mail-archive/web/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 23 Jan 2015 14:19:30 -0000
+
+--001a11c3526ac2e6c8050d5279a3
+Content-Type: text/plain; charset=UTF-8
+
+And as if on queue, ACE and Alcatel-Lucent announced this week trials of
+new technology that will quintuple the capacity of the ACE cable from 5 to
+25 Tbps.  Upgrade work on the EASSy cable using the same technology is
+already underway.
+
+http://www.alcatel-lucent.com/press/2015/alcatel-lucent-and-ace-achieve-breakthrough-upgrade-africa-coast-europe-system-using-300g400g
+
+Cheers... Steve
+
+On Thu, Jan 22, 2015 at 11:58 AM, Steve Song <stevesong@nsrc.org> wrote:
+
+> Hi all,
+>
+> What all these satellite initiatives have to contend with the accelerating
+> spread of fibre infrastructure.  Not only is latency a non-issue with fibre
+> but it also has a much longer life-cycle than satellite technology.  The
+> steadily decreasing cost of fibre deployment combined with the growth of
+> low-cost wireless technologies to complete the last/first mile paints a
+> very appealing scenario.  Not to mention the fact that fibre can be
+> affordably integrated with other infrastructure deployment from roads to
+> water to waste further reducing costs.  Also, we have not yet fully plumbed
+> the depths of fibre capacity.  It's current capacity exceeds all current
+> demand and even then new discoveries like twisted fibre promise even more
+> capacity.
+>
+> And then there is satellite technology.  High latency unless you have LEO
+> satellites which of course have much shorter lifespans.  There is a much
+> higher risk factor associated with satellite which is a combination of the
+> very high cost of launching satellites, the terrible cost of failure, and
+> the comparatively long lead time from technology conception to launch.  O3B
+> is a poster child for all of those issues.
+>
+> SpaceX may be a different story.  If launching satellites is simply
+> piggy-backing on an existing space business, that may change things.
+>
+> Cheers... Steve
+>
+> On Thu, Jan 22, 2015 at 11:22 AM, Bezdomny <home@bezdomny.org> wrote:
+>
+>>
+>> http://bits.blogs.nytimes.com/2015/01/22/daily-report-internet-in-orbit-linking-much-of-world-directly-to-google/?emc=edit_tu_20150122&nl=technology&nlid=60325689
+>>
+>> On Jan 13, 2015, at 21:49, Arjuna Sathiaseelan <
+>> arjuna.sathiaseelan@cl.cam.ac.uk> wrote:
+>>
+>> > more here:
+>> http://www.telegraph.co.uk/finance/newsbysector/mediatechnologyandtelecoms/telecoms/11232599/Facebook-in-talks-with-Avanti-over-Africa-deal.html
+>> >
+>> > This is exciting - we are working with Avanti to explore new
+>> > architectures for providing low cost Internet access via one of our EU
+>> > projects. So I am personally very excited! :)
+>> >
+>> > Regards
+>> >
+>> > On 13 January 2015 at 17:14, Marco Zennaro <mzennaro@ictp.it> wrote:
+>> >>
+>> http://www.idgconnect.com/abstract/9292/the-race-connect-africa-satellite-technology
+>> >>
+>> >> Best,
+>> >> Marco
+>> >>
+>> >> Marco Zennaro, PhD
+>> >> Telecommunications / ICT for Development Laboratory
+>> >> the Abdus Salam International Centre for Theoretical Physics
+>> >> Strada Costiera 11
+>> >> 34014 Trieste
+>> >> Italy
+>> >>
+>> >> Telephone: +39 040 2240 406
+>> >> Web:           http://wireless.ictp.it
+>> >>
+>> >> _______________________________________________
+>> >> gaia mailing list
+>> >> gaia@irtf.org
+>> >> https://irtf.org/mailman/listinfo/gaia
+>> >>
+>> >
+>> >
+>> >
+>> > --
+>> > Arjuna Sathiaseelan | http://www.cl.cam.ac.uk/~as2330/
+>> >
+>> > _______________________________________________
+>> > gaia mailing list
+>> > gaia@irtf.org
+>> > https://irtf.org/mailman/listinfo/gaia
+>>
+>> _______________________________________________
+>> gaia mailing list
+>> gaia@irtf.org
+>> https://irtf.org/mailman/listinfo/gaia
+>>
+>
+>
+
+--001a11c3526ac2e6c8050d5279a3
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">And as if on queue, ACE and Alcatel-Lucent announced this =
+week trials of new technology that will quintuple the capacity of the ACE c=
+able from 5 to 25 Tbps.=C2=A0 Upgrade work on the EASSy cable using the sam=
+e technology is already underway.<div><br></div><div><a href=3D"http://www.=
+alcatel-lucent.com/press/2015/alcatel-lucent-and-ace-achieve-breakthrough-u=
+pgrade-africa-coast-europe-system-using-300g400g">http://www.alcatel-lucent=
+.com/press/2015/alcatel-lucent-and-ace-achieve-breakthrough-upgrade-africa-=
+coast-europe-system-using-300g400g</a><br></div><div><br></div><div>Cheers.=
+.. Steve</div></div><div class=3D"gmail_extra"><br><div class=3D"gmail_quot=
+e">On Thu, Jan 22, 2015 at 11:58 AM, Steve Song <span dir=3D"ltr">&lt;<a hr=
+ef=3D"mailto:stevesong@nsrc.org" target=3D"_blank">stevesong@nsrc.org</a>&g=
+t;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0=
+ .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr"><div>Hi=
+ all,</div><div><br></div>What all these satellite initiatives have to cont=
+end with the accelerating spread of fibre infrastructure.=C2=A0 Not only is=
+ latency a non-issue with fibre but it also has a much longer life-cycle th=
+an satellite technology.=C2=A0 The steadily decreasing cost of fibre deploy=
+ment combined with the growth of low-cost wireless technologies to complete=
+ the last/first mile paints a very appealing scenario.=C2=A0 Not to mention=
+ the fact that fibre can be affordably integrated with other infrastructure=
+ deployment from roads to water to waste further reducing costs.=C2=A0 Also=
+, we have not yet fully plumbed the depths of fibre capacity.=C2=A0 It&#39;=
+s current capacity exceeds all current demand and even then new discoveries=
+ like twisted fibre promise even more capacity.<div><br></div><div>And then=
+ there is satellite technology.=C2=A0 High latency unless you have LEO sate=
+llites which of course have much shorter lifespans.=C2=A0 There is a much h=
+igher risk factor associated with satellite which is a combination of the v=
+ery high cost of launching satellites, the terrible cost of failure, and th=
+e comparatively long lead time from technology conception to launch.=C2=A0 =
+O3B is a poster child for all of those issues.</div><div><br></div><div>Spa=
+ceX may be a different story.=C2=A0 If launching satellites is simply piggy=
+-backing on an existing space business, that may change things.</div><div><=
+br></div><div>Cheers... Steve</div></div><div class=3D"HOEnZb"><div class=
+=3D"h5"><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Thu, J=
+an 22, 2015 at 11:22 AM, Bezdomny <span dir=3D"ltr">&lt;<a href=3D"mailto:h=
+ome@bezdomny.org" target=3D"_blank">home@bezdomny.org</a>&gt;</span> wrote:=
+<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-lef=
+t:1px #ccc solid;padding-left:1ex"><a href=3D"http://bits.blogs.nytimes.com=
+/2015/01/22/daily-report-internet-in-orbit-linking-much-of-world-directly-t=
+o-google/?emc=3Dedit_tu_20150122&amp;nl=3Dtechnology&amp;nlid=3D60325689" t=
+arget=3D"_blank">http://bits.blogs.nytimes.com/2015/01/22/daily-report-inte=
+rnet-in-orbit-linking-much-of-world-directly-to-google/?emc=3Dedit_tu_20150=
+122&amp;nl=3Dtechnology&amp;nlid=3D60325689</a><br>
+<div><div><br>
+On Jan 13, 2015, at 21:49, Arjuna Sathiaseelan &lt;<a href=3D"mailto:arjuna=
+.sathiaseelan@cl.cam.ac.uk" target=3D"_blank">arjuna.sathiaseelan@cl.cam.ac=
+.uk</a>&gt; wrote:<br>
+<br>
+&gt; more here: <a href=3D"http://www.telegraph.co.uk/finance/newsbysector/=
+mediatechnologyandtelecoms/telecoms/11232599/Facebook-in-talks-with-Avanti-=
+over-Africa-deal.html" target=3D"_blank">http://www.telegraph.co.uk/finance=
+/newsbysector/mediatechnologyandtelecoms/telecoms/11232599/Facebook-in-talk=
+s-with-Avanti-over-Africa-deal.html</a><br>
+&gt;<br>
+&gt; This is exciting - we are working with Avanti to explore new<br>
+&gt; architectures for providing low cost Internet access via one of our EU=
+<br>
+&gt; projects. So I am personally very excited! :)<br>
+&gt;<br>
+&gt; Regards<br>
+&gt;<br>
+&gt; On 13 January 2015 at 17:14, Marco Zennaro &lt;<a href=3D"mailto:mzenn=
+aro@ictp.it" target=3D"_blank">mzennaro@ictp.it</a>&gt; wrote:<br>
+&gt;&gt; <a href=3D"http://www.idgconnect.com/abstract/9292/the-race-connec=
+t-africa-satellite-technology" target=3D"_blank">http://www.idgconnect.com/=
+abstract/9292/the-race-connect-africa-satellite-technology</a><br>
+&gt;&gt;<br>
+&gt;&gt; Best,<br>
+&gt;&gt; Marco<br>
+&gt;&gt;<br>
+&gt;&gt; Marco Zennaro, PhD<br>
+&gt;&gt; Telecommunications / ICT for Development Laboratory<br>
+&gt;&gt; the Abdus Salam International Centre for Theoretical Physics<br>
+&gt;&gt; Strada Costiera 11<br>
+&gt;&gt; 34014 Trieste<br>
+&gt;&gt; Italy<br>
+&gt;&gt;<br>
+&gt;&gt; Telephone: <a href=3D"tel:%2B39%20040%202240%20406" value=3D"+3904=
+02240406" target=3D"_blank">+39 040 2240 406</a><br>
+&gt;&gt; Web:=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0<a href=3D"http://wir=
+eless.ictp.it" target=3D"_blank">http://wireless.ictp.it</a><br>
+&gt;&gt;<br>
+&gt;&gt; _______________________________________________<br>
+&gt;&gt; gaia mailing list<br>
+&gt;&gt; <a href=3D"mailto:gaia@irtf.org" target=3D"_blank">gaia@irtf.org</=
+a><br>
+&gt;&gt; <a href=3D"https://irtf.org/mailman/listinfo/gaia" target=3D"_blan=
+k">https://irtf.org/mailman/listinfo/gaia</a><br>
+&gt;&gt;<br>
+&gt;<br>
+&gt;<br>
+&gt;<br>
+&gt; --<br>
+&gt; Arjuna Sathiaseelan | <a href=3D"http://www.cl.cam.ac.uk/~as2330/" tar=
+get=3D"_blank">http://www.cl.cam.ac.uk/~as2330/</a><br>
+&gt;<br>
+&gt; _______________________________________________<br>
+&gt; gaia mailing list<br>
+&gt; <a href=3D"mailto:gaia@irtf.org" target=3D"_blank">gaia@irtf.org</a><b=
+r>
+&gt; <a href=3D"https://irtf.org/mailman/listinfo/gaia" target=3D"_blank">h=
+ttps://irtf.org/mailman/listinfo/gaia</a><br>
+<br>
+_______________________________________________<br>
+gaia mailing list<br>
+<a href=3D"mailto:gaia@irtf.org" target=3D"_blank">gaia@irtf.org</a><br>
+<a href=3D"https://irtf.org/mailman/listinfo/gaia" target=3D"_blank">https:=
+//irtf.org/mailman/listinfo/gaia</a><br>
+</div></div></blockquote></div><br></div>
+</div></div></blockquote></div><br></div>
+
+--001a11c3526ac2e6c8050d5279a3--
+

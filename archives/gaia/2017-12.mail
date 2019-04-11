@@ -1,0 +1,2078 @@
+
+From nobody Sat Dec  9 07:16:32 2017
+Return-Path: <stephen.song@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id AD23B12702E for <gaia@ietfa.amsl.com>; Sat,  9 Dec 2017 07:16:30 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.698
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.698 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FREEMAIL_FORGED_FROMDOMAIN=0.199, FREEMAIL_FROM=0.001, HEADER_FROM_DIFFERENT_DOMAINS=0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=no autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id RtJYPK4BlbVN for <gaia@ietfa.amsl.com>; Sat,  9 Dec 2017 07:16:28 -0800 (PST)
+Received: from mail-qt0-x22f.google.com (mail-qt0-x22f.google.com [IPv6:2607:f8b0:400d:c0d::22f]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 55AA01200FC for <gaia@irtf.org>; Sat,  9 Dec 2017 07:16:28 -0800 (PST)
+Received: by mail-qt0-x22f.google.com with SMTP id f2so30263280qtj.4 for <gaia@irtf.org>; Sat, 09 Dec 2017 07:16:28 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20161025;  h=mime-version:sender:from:date:message-id:subject:to; bh=jQYyrX1HNaLgygl3xK+KTsjPPyXPaj6GLkwJ7beEYS4=; b=EFFCWonoifIPJ0Y3qUlr+gSY2qZsC06QSWh1MtFXeS6UPZz57cdzNcrlPFYhcL0Adu Z/Lr3sC3BTHylRY07F29x59rg26VCyEvi0/wV5btbHRNKJ+SSrNqTuyFoIovyN792r+5 FgqXvAs9fYRk2nF7f8spWGjQrFalAtob2+pG0TWjleVQS1ucUysJUkNJNsqqwfWTuNMF pspPEMKKSY460OVj+M0uD8sJWNmObY+VXR0NQetrrNbWakPSc9Xt5FbSA2SCHg/G7tYR zyl7CEYNPhUV9zjVe33uOe6qdKvqe5n+0vwi97/3SoPIELS/4ieKBdVQtd8BttMclu4V 4GjQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:sender:from:date:message-id:subject :to; bh=jQYyrX1HNaLgygl3xK+KTsjPPyXPaj6GLkwJ7beEYS4=; b=OIMq+j+y4vJltR34k8o0iIXLwImDIdH3O67Y4T3hbiTqjtLLmiKlKTMjpaC+k+dTrI f1PYDseAl5O+46ploWl0iRCOUcuocKbo/+kbi1RrjdBVor/uRQIUimVA8Hs6pujn/vT+ cxUWH/dkpYr9e3eI1dQkt9di1VoUafNMgR1e2LQU7kj9Pf7lUp0asBZim5mMuOwG9BN2 /MONX7G4TMHZ5ECAMxic1gDgJSbiyACv8HQwytlLtxBRQf1EHZbPBGknN8vXxzgy/gXR /TXksh/OpwDRoMjA4cfS8eDvNDFAvbX194yfkAN1xYUpSxknviGFSDULIe0yaFI2gSIM 8wEQ==
+X-Gm-Message-State: AKGB3mJciF8yV62G1Zzk+Hh/hLGSDVZeAj8dYm4tvFZxnZvB6zc53B6g FXTUBBD5/PApXpS3U8x1mSOGfCYRFapfsqrD7Guo/3xR
+X-Google-Smtp-Source: AGs4zMZzbsfLMddn0Ncn3f/kMTQXvMbTXEnj9tBd1vnZgRZPeeLC1uce0V3KhsHFV1GGk78XXPyLW9CZa35f5zt21S0=
+X-Received: by 10.237.55.9 with SMTP id i9mr20331373qtb.164.1512832587029; Sat, 09 Dec 2017 07:16:27 -0800 (PST)
+MIME-Version: 1.0
+Sender: stephen.song@gmail.com
+Received: by 10.237.42.197 with HTTP; Sat, 9 Dec 2017 07:16:06 -0800 (PST)
+From: Steve Song <stevesong@nsrc.org>
+Date: Sat, 9 Dec 2017 11:16:06 -0400
+X-Google-Sender-Auth: 2MbiKxAXtia-GIYEplCcVbPcEhs
+Message-ID: <CAD_CWO03uboeT8uO0N7wUmztqTm1dXt+4BxoTZyHQJoc0+N25Q@mail.gmail.com>
+To: gaia <gaia@irtf.org>
+Content-Type: multipart/alternative; boundary="001a11461876f463b6055fe9c898"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/Zv4sJR76y5KsNhGdPri8mmKs2Ak>
+Subject: [gaia] Why We Need Universal Basic Internet (UBI) Now
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Sat, 09 Dec 2017 15:16:31 -0000
+
+--001a11461876f463b6055fe9c898
+Content-Type: text/plain; charset="UTF-8"
+
+Hi all,
+
+A new post In an on-going campaign for generic, basic-rate, zero-rating of
+mobile Internet.
+
+https://manypossibilities.net/2017/12/why-we-need-universal-basic-internet-now/
+
+Now backed with more research and a catchy new name.... UBI.  Tell your
+friends. :)
+
+Cheers... Steve Song
+
+--001a11461876f463b6055fe9c898
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div><div>Hi all,<br><br></div>A new post In an on-go=
+ing campaign for generic, basic-rate, zero-rating of mobile Internet.=C2=A0=
+ <br><br><a href=3D"https://manypossibilities.net/2017/12/why-we-need-unive=
+rsal-basic-internet-now/">https://manypossibilities.net/2017/12/why-we-need=
+-universal-basic-internet-now/</a><br><br></div>Now backed with more resear=
+ch and a catchy new name.... UBI.=C2=A0 Tell your friends. :)<br><br></div>=
+Cheers... Steve Song<br><div><div><br></div></div></div>
+
+--001a11461876f463b6055fe9c898--
+
+
+From nobody Mon Dec 11 01:50:51 2017
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id B68AA124BAC for <gaia@ietfa.amsl.com>; Mon, 11 Dec 2017 01:50:49 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.4
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.4 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FREEMAIL_FORGED_FROMDOMAIN=0.199, FREEMAIL_FROM=0.001, HEADER_FROM_DIFFERENT_DOMAINS=0.001, RCVD_IN_DNSWL_LOW=-0.7, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id G6VevZA8wEzu for <gaia@ietfa.amsl.com>; Mon, 11 Dec 2017 01:50:48 -0800 (PST)
+Received: from mail-it0-x229.google.com (mail-it0-x229.google.com [IPv6:2607:f8b0:4001:c0b::229]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id F27E5120713 for <gaia@irtf.org>; Mon, 11 Dec 2017 01:50:47 -0800 (PST)
+Received: by mail-it0-x229.google.com with SMTP id t1so14444434ite.5 for <gaia@irtf.org>; Mon, 11 Dec 2017 01:50:47 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20161025;  h=mime-version:sender:from:date:message-id:subject:to:cc; bh=oI+c1sa8joAc1kI5ckEY+UpqrCtvh3/3K+K8lwEzOP4=; b=YfQ2vA5BhK9Ra7xYhXzLJbWchg7VyJ7da/OnJ5FhLhgq6Ga3rxdREz107JvPfHu/MQ 2u+N6wbLBWghNhmAOEAa7oQa1882v8J/7DaSEgAH6bItHjByOdyczJ/owR8s8kbLOYQL djHoNdQ3eKlW8cBKmQL7Zi38e028Y4NwMHCi2x28sD4lh/1rs+QDbxL7tQW3R/thUnDI E0Mr+X5l5oO0tnvxibwo0dWyeOPICzI/pR35mns7HtDuW4X49+tXKfv41Ri7gPFC/X9W AgmngITZwM5iaS/KOzTkpwlkv17O//X3jRIehm2r21vZE7wo0CDsUsmGJwZlRtNYxDYq yw+Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:sender:from:date:message-id:subject :to:cc; bh=oI+c1sa8joAc1kI5ckEY+UpqrCtvh3/3K+K8lwEzOP4=; b=tmDFt2UfFbxKmQ2XMPEFuNxls4NSfFP0mhEoKmCwiu+AjcbnFAsVWbQu8/jh2x4lgO U6VO5Gd9XHyIuXeEaiVre35T1o7W4c0dm/L6kPhHwR+3QCdFcekY7WPmPDsV2E805tSB TEtX2BPZI8eyh6Ixxn1s0nei04n68eVAbQhLyzI1pVyksaRYEGw0gWYQI9w3MFxhdYZZ +fOYw+djx/tFcrbSAs7hETj6lpVX1FVO8rP+D0yXTiywImm3ZzAWECGNVQWgFVfqaK1g C8Afwv5THXP42I4Fn3iY1DmBFqItGZshGAmVATRM9uhh28CQK7utgnsSJVgk6a6/Xb2h SMyw==
+X-Gm-Message-State: AKGB3mLEf8/+hLAj26DsVlAkdTiLJmbDJnOf9XuoNKWkGVuSwO2K6sHw gPiKVrCY5OdrO9L+POcXdZr0z7cdvzWvehOBFFX4YQ==
+X-Google-Smtp-Source: AGs4zMYPFv/3wQv03lhTxyxzGMLME+LrBNaIZfZhz9/X1Oge8TK/o8Rm6I+KRa89LBK4SW+Kpnr+pdZkb804Uf5nUjg=
+X-Received: by 10.107.169.152 with SMTP id f24mr17585021ioj.219.1512985847064;  Mon, 11 Dec 2017 01:50:47 -0800 (PST)
+MIME-Version: 1.0
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.107.128.95 with HTTP; Mon, 11 Dec 2017 01:50:46 -0800 (PST)
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+Date: Mon, 11 Dec 2017 09:50:46 +0000
+X-Google-Sender-Auth: coGeLJ6xUKrbWqYFhMCGlJPacSc
+Message-ID: <CAPaG1AmE3ywkg=HKZ5VUc4DrSHiGcRd8jpdqq6XHiQPxB0-2fA@mail.gmail.com>
+To: gaia <gaia@irtf.org>
+Cc: Quisquater Jean-Jacques <jjq@uclouvain.be>, Leandro Navarro <leandro@ac.upc.edu>
+Content-Type: text/plain; charset="UTF-8"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/OvT7pweVebv-vxgq5r74qmWJNS0>
+Subject: [gaia] Looking for a blockchain guru
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 11 Dec 2017 09:50:49 -0000
+
+All,
+
+We are looking to hire  blockchain guru to join our  team at Ammbr
+Research Labs (ARL) (www.ammbr.com). Someone with a strong knowledge,
+publications (aka some evidence of work) and coding skills in any of
+the following:
+
+1. technical knowledge of the Hyperledger Fabric architecture and code base
+2. technical knowledge of emerging distributed ledger technology
+consensus algorithms, smart contracts etc
+3. technical knowledge of Byzantine fault tolerant algorithms
+4. technical knowledge of open and permissioned blockchain networks
+5. knowledge of innovative concepts such as zero knowledge proof
+
+The role will have a strong research and development focus working
+across the intersection of blockchain, networking and self sovereign
+digital identifiers to solve some of the core problems related to
+universal Internet access and critical services in emerging markets.
+The person is expected to build the team and lead the crypto group
+within ARL. ARL will closely collaborate with Prof Leandro Navarro's
+team at UPC in Barcelona and Prof Jean-Jacques Quisquater's crypto
+group at UCL in Belgium.
+
+The team will be based out of our Cambridge (UK) city centre office.
+Good salary, tokens and stock options. Expected start date: March
+2018.
+
+If you are interested, send me an email with your CV to arjuna@ammbr.com
+
+Regards
+
+
+-- 
+Arjuna Sathiaseelan
+University of Cambridge | GAIUS Networks | Ammbr | GAIA Labs
+Personal: http://www.cl.cam.ac.uk/~as2330/
+N4D Lab: http://www.cl.cam.ac.uk/~as2330/n4d
+
+
+From nobody Mon Dec 11 22:21:51 2017
+Return-Path: <carlos.reymoreno@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 6C6BB126DFB for <gaia@ietfa.amsl.com>; Mon, 11 Dec 2017 22:21:49 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.998
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.998 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id a-G_nL0bY5TN for <gaia@ietfa.amsl.com>; Mon, 11 Dec 2017 22:21:47 -0800 (PST)
+Received: from mail-ot0-x231.google.com (mail-ot0-x231.google.com [IPv6:2607:f8b0:4003:c0f::231]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id A552C126C26 for <gaia@irtf.org>; Mon, 11 Dec 2017 22:21:47 -0800 (PST)
+Received: by mail-ot0-x231.google.com with SMTP id h9so16938848oti.0 for <gaia@irtf.org>; Mon, 11 Dec 2017 22:21:47 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20161025;  h=mime-version:from:date:message-id:subject:to; bh=yzhIAAzr4ltnJAwlPrvES5TEktFzE9e5UgCcxgCjI68=; b=IJc082SYYJS9AhVI5qPlvIFpuEY4axFy+RdkFD+hBTL5Nh3iwohXC3F/R/e+SuoEAb NoLXsv7MK4UiVOamDvZ2sz9olpbDvpF8jJO6J5MQM9iZS6Lg1SKD/15QF4ZqJ0e8VTsn J0FSYPre1dutsucdtxBxjeFOHOVWkYGictPj5g4ASr8UIjBzfabid6SR7b172W+UEH09 urxuwum4N4dWnNOHDpjIbLoVIedW3M7VFNQEfW3d/XtjjuvvH42Rm2RFXuTPyghfbQYr w7DJCk44RNOv1I9N/dGyR/fTQPzFOl57pI1ULfBoES0JYumui85rEUaeKN4PlgqN6abz 6Ftg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:from:date:message-id:subject:to; bh=yzhIAAzr4ltnJAwlPrvES5TEktFzE9e5UgCcxgCjI68=; b=mPu+I1APZzsbzcPk6nothgRduc9bE1vSroK6WpTmr0XGqJg1PdfbDwa6sPHhwf2Q4i AOEKrQwOY86CjJ/xZNXt/f9JjMWwF7c4WKP2IAEahsQ+SCZwYuHjxBRn/s5JQ+DnhyTl UBifi3YPY3lZepjwZ9x3sBLYFfq+oz5A/3JVDxE2ug7PTu/lxcPmQknHER57JDJWkIvm 2CFJY6ileOwLr3eFR01zRVjBPbkRtnWQWav1PkSgCzJZcVa1E3MgEOM06c5lEKC0u/Yw RPTiVCNjmJhaEtmZF7cMQ/wTK6NDhO+v5Wynmy+/NXUNEc6jSa0MLho7ccwEOncI1Jwb YDDw==
+X-Gm-Message-State: AKGB3mI56VKXX0v121OhktKc6s0QX3voTtqSGpKICcpvR0FzG3bjSA5J xhyevuyUsf0AQq7y1tsEcQpIeRgz+HLsfNEo2CtSpA==
+X-Google-Smtp-Source: ACJfBoucKbDEHnjudfv9mkbpL78qsEhzftFdypp/RwLEbFT7N/5iD/AdkIIlpDdyPDlmGHSGHs2sav0XIwaM/IIgx2E=
+X-Received: by 10.157.44.99 with SMTP id f90mr2465270otb.142.1513059706706; Mon, 11 Dec 2017 22:21:46 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.74.150.98 with HTTP; Mon, 11 Dec 2017 22:21:46 -0800 (PST)
+From: Carlos Rey-Moreno <carlos.reymoreno@gmail.com>
+Date: Tue, 12 Dec 2017 08:21:46 +0200
+Message-ID: <CAPkwMUfJ6kizZMkrB598iB59vLPsHioHUXZh5Fr0FdDB_VOMCA@mail.gmail.com>
+To: gaia <gaia@irtf.org>
+Content-Type: multipart/alternative; boundary="94eb2c04fa98579ea605601eaa5d"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/ZIJ63ACeXIkrMKIrOM1V5yesqr0>
+Subject: [gaia] Community networks and local access monthly newsletter
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 12 Dec 2017 06:21:49 -0000
+
+--94eb2c04fa98579ea605601eaa5d
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+(apologies for cross-posting)
+
+Hi all,
+
+If you are interested in keeping up to date with news and information
+around community networks and local access, we invite you to subscribe to
+the local access newsletter that the Association for Progressive
+Communications (APC) will launch in December 2017.
+
+The purpose of this newsletter is to provide monthly updates on news and
+reports, calls for grants, fellowships and awards, and information on
+events around community networks and local access.
+
+There are a great many news items and reports about innovations in low-cost
+communication technologies, locally owned and managed communication
+infrastructure systems, case studies on community networks in the global
+South, updates on regulatory changes (at the global, national and
+sub-national levels), announcements of funding opportunities, calls for
+events, and so on, that are shared in different mailing lists, Twitter
+feeds and other channels. Our aim is to crowdsource this information and
+bring it all together in one place on a monthly basis, so that we can share
+it with everyone who wants to stay up to date on this increasingly critical
+topic.
+
+We believe that a better informed community of practitioners could make a
+significant contribution to the implementation and operation of more
+resilient locally owned telecommunications infrastructure.
+
+If you are interested in receiving the newsletter, please click here:
+https://crm.apc.org/content/local-access-subscription
+
+If you have information on the topic that you would like us to include in
+the newsletter, please share it with us at localaccess.newsletter@apc.org
+
+best,
+
+carlos
+
+--=20
+
+Carlos Rey-Moreno, PhD
+=E2=80=9CCommunity access networks: how to connect the next billion to the
+internet=E2=80=9D Project Coordinator
+Association for Progressive Communications
+Cel: +27 (0) 76 986 3633
+Skype: carlos.reymoreno Twitter: Creym
+
+--94eb2c04fa98579ea605601eaa5d
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">(apologies for cross-posting)<br><br>Hi all, <br><div><br>=
+If you=20
+are interested in keeping up to date with news and information around=20
+community networks and local access, we invite you to subscribe to the=20
+local access newsletter that the Association for Progressive=20
+Communications (APC) will launch in December 2017.<br><br>The purpose of
+ this newsletter is to provide monthly updates on news and reports,=20
+calls for grants, fellowships and awards, and information on events=20
+around community networks and local access.<br><br>There are a great=20
+many news items and reports about innovations in low-cost communication=20
+technologies, locally owned and managed communication infrastructure=20
+systems, case studies on community networks in the global South, updates
+ on regulatory changes (at the global, national and sub-national=20
+levels), announcements of funding opportunities, calls for events, and=20
+so on, that are shared in different mailing lists, Twitter feeds and=20
+other channels. Our aim is to crowdsource this information and bring it=20
+all together in one place on a monthly basis, so that we can share it=20
+with everyone who wants to stay up to date on this increasingly critical
+ topic.<br><br>We believe that a better informed community of=20
+practitioners could make a significant contribution to the=20
+implementation and operation of more resilient locally owned=20
+telecommunications infrastructure.<br><br>If you are interested in receivin=
+g the newsletter, please click here:=C2=A0 <a href=3D"https://crm.apc.org/c=
+ontent/local-access-subscription">https://crm.apc.org/content/local-access-=
+subscription</a><br><br>If you have information on the topic that you would=
+ like us to include in the newsletter, please share it with us at <a href=
+=3D"mailto:localaccess.newsletter@apc.org">localaccess.newsletter@apc.org <=
+br clear=3D"all"></a></div><div><br></div><div>best, <br></div><div><br></d=
+iv><div>carlos<br></div><br>-- <br><br><div dir=3D"ltr">Carlos Rey-Moreno, =
+PhD</div><div>=E2=80=9CCommunity access networks: how to connect the next b=
+illion to the internet=E2=80=9D Project Coordinator</div><div>Association f=
+or Progressive Communications<br></div>Cel: +27 (0) 76 986 3633<br>Skype: c=
+arlos.reymoreno=C2=A0Twitter: Creym</div>
+
+--94eb2c04fa98579ea605601eaa5d--
+
+
+From nobody Mon Dec 11 22:32:50 2017
+Return-Path: <william.liu@aut.ac.nz>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 413A5126C26 for <gaia@ietfa.amsl.com>; Mon, 11 Dec 2017 22:32:48 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.899
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.899 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id C0SyJD_0glPE for <gaia@ietfa.amsl.com>; Mon, 11 Dec 2017 22:32:45 -0800 (PST)
+Received: from lightmoon.aut.ac.nz (lightmoon.aut.ac.nz [156.62.1.33]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id C19B9126C25 for <gaia@irtf.org>; Mon, 11 Dec 2017 22:32:44 -0800 (PST)
+Received: (from root@localhost) by lightmoon.aut.ac.nz (8.14.9/8.14.9) id vBC6Wgkh021902 for gaia@irtf.org; Tue, 12 Dec 2017 19:32:42 +1300
+Received: from horuhoru.aut.ac.nz(156.62.1.170) by lightmoon.aut.ac.nz via smap (V2.0) id xma021886; Tue, 12 Dec 17 19:32:38 +1300
+Received: from unknown ([156.62.1.170] helo=eredun1.aut.ac.nz) by horuhoru.aut.ac.nz with SMTP (2.5.5); 12 Dec 2017 19:32:38 +1300
+Received: from Marciano.autuni.aut.ac.nz (marciano.aut.ac.nz [156.62.45.33]) by eredun1.aut.ac.nz (8.14.9/8.14.9) with ESMTP id vBC6WcD1001985 for <gaia@irtf.org>; Tue, 12 Dec 2017 19:32:38 +1300
+Received: from DEMPSEY.autuni.aut.ac.nz ([169.254.3.177]) by Marciano.autuni.aut.ac.nz ([156.62.45.33]) with mapi id 14.03.0361.001; Tue, 12 Dec 2017 19:32:37 +1300
+From: William Liu <william.liu@aut.ac.nz>
+To: "gaia@irtf.org" <gaia@irtf.org>
+Thread-Topic: IWCMC 2018 Invitation - June 25-29, 2018  Limassol, Cyprus - Paper Submission Deadline by 10 January 2018
+Thread-Index: AdNzANVjjJ1QR/reRJCjtwDF5FkpvgAAAVKQAAAjXcAAAETdcAAEHo7A
+Date: Tue, 12 Dec 2017 06:32:38 +0000
+Message-ID: <75C3076859BB4145BD0008D393EDCFF7F5B1E02F@Dempsey.autuni.aut.ac.nz>
+Accept-Language: en-GB, en-NZ, en-US
+Content-Language: en-US
+X-MS-TNEF-Correlator: 
+x-originating-ip: [156.62.17.30]
+Content-Type: multipart/alternative; boundary="_000_75C3076859BB4145BD0008D393EDCFF7F5B1E02FDempseyautuniau_"
+MIME-Version: 1.0
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/mKlvuwSoGe2X_QvsJezIxS0M-D4>
+Subject: [gaia] IWCMC 2018 Invitation - June 25-29, 2018  Limassol, Cyprus - Paper Submission Deadline by 10 January 2018
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 12 Dec 2017 06:32:48 -0000
+
+--_000_75C3076859BB4145BD0008D393EDCFF7F5B1E02FDempseyautuniau_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+We apologize if you receive multiple copies of this CFPs, and we appreciate=
+ your help to forward this CFPs to your friends & email lists.
+
+The 14th International Wireless Communications and Mobile Computing Confere=
+nce, June 25-29, 2018, St Raphael Resort & Marina, Limassol, Cyprus-IWCMC 2=
+018: http://iwcmc.org/2018/
+SUBMISSION DEADLINE: January 10th, 2018
+SUBMISSION LINK: https://edas.info/chair.php?c=3D23637
+CALL FOR PAPERS
+
+The International Wireless Communications and Mobile Computing Conference (=
+IWCMC 2018) will be held on June 25-29, 2018. Under the theme of "Global Co=
+nnectivity", IWCMC 2018 will target a wide spectrum of the state-of-the-art=
+ as well as emerging topics pertaining to wireless networks, wireless commu=
+nications, and mobile computing. Continuing the great success of previous I=
+WCMC events, IWCMC 2018 is anticipated to attract a large number of high-qu=
+ality submissions and stimulate the cutting-edge research discussions among=
+ many academic pioneering researchers/scientists and industrial engineers/l=
+eaders from all around the world.
+
+The IWCMC 2018 program will feature a number of symposia, workshops, invite=
+d presentations, special sessions, and pioneering keynote speakers. More in=
+formation can be found at the conference website: http://iwcmc.org/2018/ Pr=
+ospective authors are invited to submit original technical papers - up to 6=
+ pages of length, using the EDAS link: https://edas.info/chair.php?c=3D2363=
+7
+To various IWCMC 2018 Symposia and Workshops as listed in the conference we=
+bsite for possible publication in the IWCMC 2018 Conference Proceedings, wh=
+ich will be submitted to IEEE Xplore Digital Library. Selected papers will =
+be further considered for possible publication in special issues as listed =
+below:
+
+1. International Journal of Sensor Networks (IJSNet):
+     http://www.inderscience.com/browse/index.php?journalCODE=3Dijsnet<http=
+://www.inderscience.com/browse/index.php?journalCODE=3Dijsnet%22%20%5Ct%20%=
+22_blank>
+2. The International Journal of Autonomous and Adaptive Communications Syst=
+ems (IJAACS): www.inderscience.com/ijaacs<http://www.inderscience.com/ijaac=
+s%22%20%5Ct%20%22_blank>
+3. KSII Transactions on Internet and Information Systems: www.itiis.org<htt=
+p://www.itiis.org/%22%20%5Ct%20%22_blank>
+4. Peer-to-Peer Networking & Applications: http://www.springer.com/engineer=
+ing<http://www.springer.com/engineering%22%20%5Ct%20%22_blank>
+5. Cyber-Physical Systems journal: www.tandfonline.com/loi/tcyb20<http://ww=
+w.tandfonline.com/loi/tcyb20>
+There will also be best paper awards, one best symposium award, and one bes=
+t Workshop award.
+
+IMPORTANT DATES
+Paper Submission Deadline:                            10  January 2018
+Paper Acceptance Notification:                            30 March 2018
+Registration Camera-ready:                                 30 April 2018
+
+SYMPOSIA
+
+1) Communication and Signal Processing Symposium
+2) Big Data Networking Symposium
+3) Mobile Computing Symposium
+4) Multimedia over Wireless Symposium
+5) Security, Trust and Privacy Symposium
+6) Smart Cities Symposium
+7) Vehicular Communications Symposium
+8) Wireless Networking Symposium
+9) Wireless Sensor Networks Symposium
+10) Wireless Optical Networks
+and much more, including Workshops, Special Sessions, etc. For more informa=
+tion, visit the conference website: http://iwcmc.org/2018/
+
+--_000_75C3076859BB4145BD0008D393EDCFF7F5B1E02FDempseyautuniau_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:3 0 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"\@DengXian";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.EmailStyle18
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.EmailStyle19
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+span.EmailStyle20
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+span.EmailStyle21
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+span.EmailStyle22
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-NZ" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-=
+serif;color:#2D2D2D">We apologize if you receive multiple copies of this CF=
+Ps, and we appreciate your help to forward this
+ CFPs to your friends &amp; email lists.<br>
+<br>
+The 14th International Wireless Communications and Mobile Computing Confere=
+nce,&nbsp;June 25-29,&nbsp;2018, St Raphael Resort &amp; Marina, Limassol, =
+Cyprus&#8212;IWCMC&nbsp;2018:&nbsp;<a href=3D"http://iwcmc.org/2018/" targe=
+t=3D"_blank"><span style=3D"color:#0433FF">http://iwcmc.org/2018/</span></a=
+><br>
+</span><b><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans=
+-serif;color:red">SUBMISSION DEADLINE:&nbsp;January&nbsp;10th,&nbsp;2018</s=
+pan></b><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-s=
+erif;color:#2D2D2D"><br>
+SUBMISSION LINK:&nbsp;<a href=3D"https://edas.info/chair.php?c=3D23637" tar=
+get=3D"_blank"><span style=3D"font-family:&quot;Calibri&quot;,sans-serif;co=
+lor:#0433FF">https://edas.info/chair.php?c=3D23637</span></a></span><span s=
+tyle=3D"font-size:9.0pt;color:black">&nbsp;</span><span style=3D"font-size:=
+9.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#2D2D2D">&nbsp;<o:p></=
+o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><b><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sa=
+ns-serif;color:#2D2D2D">CALL FOR PAPERS</span></b><span style=3D"font-size:=
+9.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#2D2D2D"><br>
+<br>
+The International Wireless Communications and Mobile Computing Conference (=
+IWCMC&nbsp;2018) will be held on&nbsp;June 25-29,&nbsp;2018. Under the them=
+e of &quot;<i>Global Connectivity</i>&quot;,&nbsp;IWCMC&nbsp;2018&nbsp;will=
+ target a wide spectrum of the state-of-the-art as well as emerging topics
+ pertaining to wireless networks, wireless communications, and mobile compu=
+ting. Continuing the great success of previous&nbsp;IWCMC&nbsp;events,&nbsp=
+;IWCMC&nbsp;2018&nbsp;is anticipated to attract a large number of high-qual=
+ity submissions and stimulate the cutting-edge research discussions
+ among many academic pioneering researchers/scientists and industrial engin=
+eers/leaders from all around the world.<br>
+<br>
+The&nbsp;IWCMC&nbsp;2018&nbsp;program will feature a number of symposia, wo=
+rkshops, invited presentations, special sessions, and pioneering keynote sp=
+eakers. More information can be found at the conference website:&nbsp;<a hr=
+ef=3D"http://iwcmc.org/2018/" target=3D"_blank"><span style=3D"color:#0433F=
+F">http://iwcmc.org/2018/</span></a>&nbsp;Prospective
+ authors are invited to submit original technical papers - up to 6 pages of=
+ length, using the EDAS link:&nbsp;<a href=3D"https://edas.info/chair.php?c=
+=3D23637" target=3D"_blank"><span style=3D"font-family:&quot;Calibri&quot;,=
+sans-serif;color:#0433FF">https://edas.info/chair.php?c=3D23637</span></a><=
+/span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quo=
+t;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-=
+serif;color:#2D2D2D">To various&nbsp;IWCMC&nbsp;2018&nbsp;Symposia and Work=
+shops as listed in the conference website for possible publication
+ in the&nbsp;IWCMC&nbsp;2018&nbsp;Conference Proceedings, which will be sub=
+mitted to IEEE Xplore Digital Library. Selected papers will be further cons=
+idered for possible publication in special issues as listed below:<br>
+<br>
+1. International Journal of Sensor Networks (IJSNet):<br>
+&nbsp;&nbsp; &nbsp;&nbsp;<a href=3D"http://www.inderscience.com/browse/inde=
+x.php?journalCODE=3Dijsnet%22%20%5Ct%20%22_blank" target=3D"_blank"><span s=
+tyle=3D"color:#106DD6">http://www.inderscience.com/browse/index.php?journal=
+CODE=3Dijsnet</span></a><br>
+2. The International Journal of Autonomous and Adaptive Communications Syst=
+ems (IJAACS):&nbsp;<a href=3D"http://www.inderscience.com/ijaacs%22%20%5Ct%=
+20%22_blank" target=3D"_blank"><span style=3D"color:#106DD6">www.inderscien=
+ce.com/ijaacs</span></a></span><span style=3D"font-size:12.0pt;font-family:=
+&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-=
+serif;color:#2D2D2D">3. KSII Transactions on Internet and Information Syste=
+ms:&nbsp;<a href=3D"http://www.itiis.org/%22%20%5Ct%20%22_blank" target=3D"=
+_blank"><span style=3D"color:#106DD6">www.itiis.org</span></a><br>
+4. Peer-to-Peer Networking &amp; Applications:&nbsp;<a href=3D"http://www.s=
+pringer.com/engineering%22%20%5Ct%20%22_blank" target=3D"_blank"><span styl=
+e=3D"color:#106DD6">http://www.springer.com/engineering</span></a><br>
+5. Cyber-Physical Systems journal:&nbsp;<a href=3D"http://www.tandfonline.c=
+om/loi/tcyb20" target=3D"_blank"><span style=3D"color:#0433FF">www.tandfonl=
+ine.com/loi/tcyb20</span></a>&nbsp;&nbsp;</span><span style=3D"font-size:12=
+.0pt;font-family:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-=
+serif;color:#2D2D2D">There will also be best paper awards, one best symposi=
+um award, and one best Workshop award.<br>
+<br>
+IMPORTANT DATES<br>
+<b>Paper Submission Deadline:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;10 &nbsp;January&n=
+bsp;2018</b><br>
+Paper Acceptance Notification: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;30 March&nbsp;2018<br>
+Registration Camera-ready: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;30 Apr=
+il&nbsp;2018<br>
+<br>
+SYMPOSIA<br>
+<br>
+1) Communication and Signal Processing Symposium<br>
+2) Big Data Networking Symposium&nbsp;<br>
+3) Mobile Computing Symposium<br>
+4) Multimedia over Wireless Symposium<br>
+5) Security, Trust and Privacy Symposium<br>
+6) Smart Cities Symposium&nbsp;<br>
+7) Vehicular Communications Symposium&nbsp;<br>
+8) Wireless Networking Symposium<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-=
+serif;color:#2D2D2D">9) Wireless Sensor Networks Symposium</span><span styl=
+e=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif"><o:p><=
+/o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-=
+serif;color:#2D2D2D">10) Wireless Optical Networks</span><span style=3D"fon=
+t-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif"><o:p></o:p></s=
+pan></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-=
+serif;color:#2D2D2D">and much more, including Workshops, Special Sessions, =
+etc. For more information, visit the conference
+ website:&nbsp;<a href=3D"http://iwcmc.org/2018/" target=3D"_blank"><span s=
+tyle=3D"color:#0433FF">http://iwcmc.org/2018/</span></a></span><o:p></o:p><=
+/p>
+</div>
+</body>
+</html>
+
+--_000_75C3076859BB4145BD0008D393EDCFF7F5B1E02FDempseyautuniau_--
+
+
+From nobody Mon Dec 18 15:40:15 2017
+Return-Path: <session-request@ietf.org>
+X-Original-To: gaia@irtf.org
+Delivered-To: gaia@ietfa.amsl.com
+Received: from ietfa.amsl.com (localhost [IPv6:::1]) by ietfa.amsl.com (Postfix) with ESMTP id AC23A12D95E; Mon, 18 Dec 2017 15:40:13 -0800 (PST)
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+From: IETF Meeting Session Request Tool <session-request@ietf.org>
+To: <session-request@ietf.org>
+Cc: gaia@irtf.org, gaia-chairs@ietf.org, coffin@isoc.org, irtf-chair@irtf.org
+X-Test-IDTracker: no
+X-IETF-IDTracker: 6.68.0
+Auto-Submitted: auto-generated
+Precedence: bulk
+Message-ID: <151364041370.7363.1357022280568657004.idtracker@ietfa.amsl.com>
+Date: Mon, 18 Dec 2017 15:40:13 -0800
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/tfGQ7b4D_x9Y3oxOeoHeyGOLNS4>
+Subject: [gaia] gaia - New Meeting Session Request for IETF 101
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 18 Dec 2017 23:40:14 -0000
+
+A new meeting session request has just been submitted by Jane R Coffin, a Chair of the gaia working group.
+
+
+---------------------------------------------------------
+Working Group Name: Global Access to the Internet for All
+Area Name: IRTF
+Session Requester: Jane Coffin
+
+Number of Sessions: 1
+Length of Session(s):  2 Hours
+Number of Attendees: 60
+Conflicts to Avoid: 
+
+
+
+
+
+People who must be present:
+  Arjuna Sathiaseelan
+  Jane R Coffin
+
+Resources Requested:
+  Experimental Room Setup (U-Shape and classroom, subject to availability)
+
+Special Requests:
+  Please schedule on Mon, Tues or Wednesday so that we can schedule with folks speaking at the IETF and coming in from points beyond for GAIA
+---------------------------------------------------------
+
+
+From nobody Tue Dec 19 06:57:39 2017
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 0BC741270A3 for <gaia@ietfa.amsl.com>; Tue, 19 Dec 2017 06:57:09 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.585
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.585 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FREEMAIL_FORGED_FROMDOMAIN=0.25, FREEMAIL_FROM=0.001, HEADER_FROM_DIFFERENT_DOMAINS=0.25, RCVD_IN_DNSWL_LOW=-0.7, SPF_PASS=-0.001, URIBL_BLOCKED=0.001, URIBL_RHS_DOB=1.514] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id v1ineixFWKCW for <gaia@ietfa.amsl.com>; Tue, 19 Dec 2017 06:57:07 -0800 (PST)
+Received: from mail-it0-x22e.google.com (mail-it0-x22e.google.com [IPv6:2607:f8b0:4001:c0b::22e]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id F2F4912711B for <gaia@irtf.org>; Tue, 19 Dec 2017 06:57:06 -0800 (PST)
+Received: by mail-it0-x22e.google.com with SMTP id z6so3054307iti.4 for <gaia@irtf.org>; Tue, 19 Dec 2017 06:57:06 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20161025;  h=mime-version:sender:in-reply-to:references:from:date:message-id :subject:to:content-transfer-encoding; bh=mtQ/ej0yZ6VVNXAT8EoC4q2hOUu+4lQaX5O2BRfvKzk=; b=AGPwhUQMFM0XRZeIAE8AHpaB6r0wwQKir+vZ8RSt/Baj8jjAzZlElmQn7V8iEy/DPc mbO+V6b3rMYCgWU2tM9vdphN2WLDIwuTc67gg7iVqHz5M79XwTJV4DYTbjuQeBkDRRp/ UbPf4T7WLIF29/2A2+SQBSEMvRwKHDFykEEZ/1YXpQNodJoQZmIsI4lfH/e+6lATvtpp aoJmJGo0o4ERwvDebV1ZuQOTDKH0Y4tU4oPxtb8NQ35qfWzIyeq8F89Y9t8kHh6D29I2 Y398T+fE+Cxkfx4jzx0Ydxo+EbboeQwe1HcF9+mls+cEugl4y8fpmgNTsvsA9DWjdDNZ 61zA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:sender:in-reply-to:references:from :date:message-id:subject:to:content-transfer-encoding; bh=mtQ/ej0yZ6VVNXAT8EoC4q2hOUu+4lQaX5O2BRfvKzk=; b=sl68OUWUpEkfz3tttI/3bLQyy7cPvW+xRBkR9Q9Fy2nuaPV/DqLEYGRCNtAJlF4mCH V62I6v9ZsIt/zR4Da5NkUDHVJbPda4dQ/dcC7xpyIXdnU8iuhD9+P7fpIUrublmZhknn k7eBlauc15BIVQ/4B4O1UG5cXg6dxLVkn49DGzzxp02IhWBpiFdGUZ5HXR2AXUEzVTXp wlQaRj0K54gXVgybT8VO+WtNRR2zy8251Lvr4wCLDRn1uzVGcU3Lzf/UCafX4wJvewJM 1v/KWsT8n9mN/33NDewlccR8bouLqHYn3Zy0aXrbNLHuhRR03FEyWxEz7wzcY8mXVQd2 NR5w==
+X-Gm-Message-State: AKGB3mJVAoKdsncbg529Jp8x1xMKh0sff5HHwvKdflppR4Z5BvrewR7U XyiJ+6rax4TqCE6LRG70YtXnx5k+SI5CFzrxbGPbKw==
+X-Google-Smtp-Source: ACJfBou0T/CwHTK0grPF0XPt0XTYqzomfI4ctrycWXPFah5YpoessoXudUDgNYRbf6pxrjm2iRt/m03gYvve//8CeX4=
+X-Received: by 10.36.36.130 with SMTP id f124mr3698085ita.65.1513695426020; Tue, 19 Dec 2017 06:57:06 -0800 (PST)
+MIME-Version: 1.0
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.107.138.81 with HTTP; Tue, 19 Dec 2017 06:57:05 -0800 (PST)
+In-Reply-To: <CALb05AAW3D+v9d=Ng4dGRecOzC-O-CgUVttQeu56ZF8s5y2TQg@mail.gmail.com>
+References: <CALb05AAW3D+v9d=Ng4dGRecOzC-O-CgUVttQeu56ZF8s5y2TQg@mail.gmail.com>
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+Date: Tue, 19 Dec 2017 14:57:05 +0000
+X-Google-Sender-Auth: i7TQ63nHSnut3mH4yjZutJ4otEo
+Message-ID: <CAPaG1Ang0wDhLVYLYXE9VezZPqo0-wreSTZvAYUFnre+G-Lg=g@mail.gmail.com>
+To: gaia <gaia@irtf.org>
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/zkd6BSom2H50g10bs8n97Tk3-mk>
+X-Mailman-Approved-At: Tue, 19 Dec 2017 06:57:38 -0800
+Subject: [gaia] Fwd: [TIER] CFP: ACM SIGCAS Conference on Computing and Sustainable Societies (COMPASS)
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 19 Dec 2017 14:57:09 -0000
+
+---------- Forwarded message ----------
+From: Lakshminarayanan Subramanian <s.lakme@gmail.com>
+Date: 19 December 2017 at 13:33
+Subject: [TIER] CFP: ACM SIGCAS Conference on Computing and
+Sustainable Societies (COMPASS)
+To: tier@tier.cs.berkeley.edu, sig-dev@googlegroups.com
+
+
+Dear all,
+
+
+Attached is the revised CFP of the new ACM SIGCAS Conference on
+Computing and Sustainable Societies (COMPASS). The steering committee
+deliberated on several new names for the conference and finally have
+decided on COMPASS. The new conference expands the focus of the
+original conference to explicitly welcome work on all underrepresented
+and/or marginalized communities worldwide and to include work on
+sustainability, gender equality, health, education, poverty,
+accessibility, conservation, climate change, and economic growth,
+among others.
+
+
+The new website for the conference is up (thanks to Neha Kumar)
+
+http://acmcompass.org
+
+
+Submission deadlines are the same as advertised earlier. Please spread
+the word broadly, submit papers and participate in the new initiative.
+
+
+Thank you,
+
+Ellen, Richard and Lakshmi
+
+
+
+Computing and Sustainable Societies (COMPASS) 2018
+
+San Francisco, California | 20-22 June 2018
+
+
+
+Call for Papers
+
+The first annual ACM SIGCAS Conference on Computing and Sustainable
+Societies (COMPASS 2018) invites submissions of Full Papers for the
+conference to be hosted at Facebook from June 20-22, 2018. COMPASS
+2018 is a re-creation of the ACM DEV conference, which was held
+annually between 2010 and 2016. Inspired by the broad agenda of the
+United Nations Sustainable Development Goals (SDGs), the new
+conference expands the focus of the original conference to explicitly
+welcome work on all underrepresented and/or marginalized communities
+worldwide and to include work on sustainability, gender equality,
+health, education, poverty, accessibility, conservation, climate
+change, and economic growth, among others.
+
+
+
+To ensure strong research contributions, the conference will review
+papers based on focus areas corresponding to the computing areas they
+draw upon. The four focus areas for the 2018 conference are Systems,
+HCI, Data Science/AI, and Applications. Possible topics for each focus
+area include, but are not limited to:
+
+Systems Focus
+
+=E2=97=8F      Low-cost connectivity and computing devices
+
+=E2=97=8F      Power-efficient systems
+
+=E2=97=8F      Network solutions for poorly connected regions, including wh=
+ite
+space spectrum
+
+=E2=97=8F      Novel tools and applications for underserved communities
+
+=E2=97=8F      Mobile systems and applications
+
+=E2=97=8F      Special-purpose systems, e.g sensors, wireless, IVR
+
+=E2=97=8F      Cellular phone systems and applications
+
+=E2=97=8F      Measurements of existing technology in underserved regions, =
+e.g
+network deployment
+
+=E2=97=8F      Systems challenges and opportunities in low-resource context=
+s,
+e.g security, sustainability, resilience
+
+=E2=97=8F      IT systems for smart-grids and smart-homes
+
+HCI Focus
+
+=E2=97=8F      User interfaces for low-literacy populations
+
+=E2=97=8F      Multilingual computing
+
+=E2=97=8F      Participatory methods and user-centered design for low resou=
+rce contexts
+
+=E2=97=8F      Accessible technologies for underserved communities with dis=
+abilities
+
+=E2=97=8F      User interfaces for low-cost devices
+
+=E2=97=8F      Adapting content and applications to local languages and edu=
+cation levels
+
+=E2=97=8F      Understanding social relationships and information flows in
+underserved communities
+
+=E2=97=8F      Understanding technology adoption dynamics in underserved co=
+mmunities
+
+
+
+Data Science/AI Focus
+
+=E2=97=8F      Computational sustainability
+
+=E2=97=8F      Computational social science
+
+=E2=97=8F      Econometric models and developmental economics
+
+=E2=97=8F      Novel applications for underserved communities, including in
+poverty mapping, disease surveillance, population migration, health
+services
+
+=E2=97=8F      Machine learning techniques for large-scale data analysis in
+development contexts
+
+=E2=97=8F      Data cleaning and data integration methods
+
+=E2=97=8F      Speech interfaces and translation for local languages
+
+=E2=97=8F      Computer vision challenges and opportunities in low-resource=
+ settings
+
+=E2=97=8F      Understanding social networks and digital media in underserv=
+ed regions
+
+
+
+Applications and Other Focus
+
+=E2=97=8F      Design and evaluation of applications in health, financial
+services,  education, agriculture, entertainment, and social media in
+underserved regions
+
+=E2=97=8F      Studies of large scale deployments of technology for social =
+good
+
+=E2=97=8F      Internet policy and law for underserved communities
+
+=E2=97=8F      Critical analyses of technology in low resource contexts
+
+=E2=97=8F      Application of blockchain
+
+=E2=97=8F      Additional relevant topics not covered above
+
+
+
+The COMPASS conference will have a model of rolling submissions, as
+has been recently adopted by several other top conferences. As this is
+a transition year for the conference, there will be two separate
+submission dates.  Papers submitted on the first deadline may be given
+the option of revise and resubmit for consideration of acceptance at
+the conference. Full papers will have a length limit of 10 pages (not
+including references). The conference will have a separate track for
+notes (short papers of four pages or less, focusing on a single
+topic).  Details of the requirements for notes will appear in a
+separate call for papers.
+
+
+
+Important dates
+
+January 12, 2018.   Round one deadline for submission of Full Papers.
+
+February 16, 2018:  Round two deadline for submission of Full Papers.
+
+March 2, 2018: Notification of decisions for Full Papers submitted for
+round one.
+
+March 30, 2018:  Deadline for resubmission of round one papers that
+were not accepted, but invited to resubmit.
+
+March 30, 2018:  Notification of decisions for Full Papers submitted
+for round two.
+
+April 13, 2018:  Notification of decisions on resubmitted papers of round o=
+ne.
+
+May 4, 2018:  Camera-ready of Full Papers accepted in rounds one and two du=
+e.
+
+All submission are due 11:59 pm UTC.
+
+
+
+General Conference Chair
+
+Ellen Zegura, Georgia Institute of Technology
+
+
+
+Program Committee Chairs
+
+Richard Anderson, University of Washington
+
+Lakshmi Subramanian, New York University
+
+Ellen Zegura, Georgia Institute of Technology
+
+
+
+Notes Chairs
+
+Kurtis Heimerl, University of Washington
+
+Nithya Sambasivan, Google
+
+
+
+Local Arrangement Chair
+
+Kashif Ali, Facebook
+
+
+
+CSG Steering Committee
+
+Richard Anderson,  University of Washington
+
+Nicola Dell, Cornell Tech
+
+Melissa Densmore,  University of Cape Town
+
+Carla Gomes, Cornell University
+
+Jennifer Mankoff, University of Washington
+
+Aaditeshwar Seth, Indian Institute of Technology Delhi
+
+Lakshmi Subramanian, New York University
+
+Milind Tambe, University of Southern California
+
+Bill Thies,  Microsoft Research
+
+Ellen Zegura, Georgia Tech
+
+
+
+Program Committee
+
+TBA
+
+
+_______________________________________________
+TIER mailing list
+Website: http://tier.cs.berkeley.edu
+TIER@tier.cs.berkeley.edu
+https://www.millennium.berkeley.edu/cgi-bin/mailman/listinfo/tier
+
+
+
+--=20
+Arjuna Sathiaseelan
+University of Cambridge | Ammbr Research Labs
+Personal: http://www.cl.cam.ac.uk/~as2330/
+N4D Lab: http://www.cl.cam.ac.uk/~as2330/n4d
+
+
+From nobody Sun Dec 24 18:57:28 2017
+Return-Path: <william.liu@aut.ac.nz>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 671EB126B6D for <gaia@ietfa.amsl.com>; Sun, 24 Dec 2017 18:57:27 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 0.79
+X-Spam-Level: 
+X-Spam-Status: No, score=0.79 tagged_above=-999 required=5 tests=[BAYES_50=0.8, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, T_RP_MATCHES_RCVD=-0.01] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id RrZ-9I6tmawl for <gaia@ietfa.amsl.com>; Sun, 24 Dec 2017 18:57:24 -0800 (PST)
+Received: from lightmoon.aut.ac.nz (lightmoon.aut.ac.nz [156.62.1.33]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id D7AC6126C22 for <gaia@irtf.org>; Sun, 24 Dec 2017 18:57:23 -0800 (PST)
+Received: (from root@localhost) by lightmoon.aut.ac.nz (8.14.9/8.14.9) id vBP2vK4c025201 for gaia@irtf.org; Mon, 25 Dec 2017 15:57:20 +1300
+Received: from horuhoru.aut.ac.nz(156.62.1.170) by lightmoon.aut.ac.nz via smap (V2.0) id xma025194; Mon, 25 Dec 17 15:57:17 +1300
+Received: from unknown ([156.62.1.170] helo=eredun1.aut.ac.nz) by horuhoru.aut.ac.nz with SMTP (2.5.5); 25 Dec 2017 15:57:17 +1300
+Received: from Marciano.autuni.aut.ac.nz (marciano.aut.ac.nz [156.62.45.33]) by eredun1.aut.ac.nz (8.14.9/8.14.9) with ESMTP id vBP2vGBS000908 for <gaia@irtf.org>; Mon, 25 Dec 2017 15:57:16 +1300
+Received: from DEMPSEY.autuni.aut.ac.nz ([169.254.3.177]) by Marciano.autuni.aut.ac.nz ([156.62.45.33]) with mapi id 14.03.0361.001; Mon, 25 Dec 2017 15:57:16 +1300
+From: William Liu <william.liu@aut.ac.nz>
+To: "gaia@irtf.org" <gaia@irtf.org>
+Thread-Topic: Merry Xmas and Happy New Year Ahead + IEEE EE and ComCom4SDGs :)
+Thread-Index: AdN9LA/6hG3E4HXeSJu/WSguKBZCAA==
+Date: Mon, 25 Dec 2017 02:57:15 +0000
+Message-ID: <75C3076859BB4145BD0008D393EDCFF7F5B5271D@Dempsey.autuni.aut.ac.nz>
+Accept-Language: en-GB, en-NZ, en-US
+Content-Language: en-US
+X-MS-TNEF-Correlator: 
+x-originating-ip: [156.62.17.30]
+Content-Type: multipart/mixed; boundary="_004_75C3076859BB4145BD0008D393EDCFF7F5B5271DDempseyautuniau_"
+MIME-Version: 1.0
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/Ld4W5TK6-t46KjUxD3jelToWBJ4>
+Subject: [gaia] Merry Xmas and Happy New Year Ahead + IEEE EE and ComCom4SDGs :)
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 25 Dec 2017 02:57:27 -0000
+
+--_004_75C3076859BB4145BD0008D393EDCFF7F5B5271DDempseyautuniau_
+Content-Type: multipart/alternative;
+	boundary="_000_75C3076859BB4145BD0008D393EDCFF7F5B5271DDempseyautuniau_"
+
+--_000_75C3076859BB4145BD0008D393EDCFF7F5B5271DDempseyautuniau_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+FYI and action please :)
+
+The IEEE International Conference of Environmental Engineering (EE) Special=
+ Track on Communications and Computing for Sustainable Development Goals (C=
+omCom4SDG), March 12-14, 2018 Milan, Italy
+
+EE ComCom4SDG website: http://www.ieee-ccsna.org/comcom4sdg-icee2018/
+EE Conference website: http://2018.ieee-ee.org/
+
+Extended abstracts deadline (at least 2 pages): January 15, 2018
+Full paper submission deadline after the acceptance of extended abstracts (=
+at least 5 pages): April 15, 2018
+
+SUBMISSION LINK: https://www.edas.info/newPaper.php?c=3D24367&track=3D89072
+________________________________
+Sustainable Development Knowledge Platform - the United Nations<https://sus=
+tainabledevelopment.un.org/>
+
+--_000_75C3076859BB4145BD0008D393EDCFF7F5B5271DDempseyautuniau_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:3 0 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"\@DengXian";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.EmailStyle19
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+span.EmailStyle20
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-NZ" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;color:#1F4E79;mso-st=
+yle-textfill-fill-color:#1F4E79;mso-style-textfill-fill-alpha:100.0%">FYI a=
+nd action please
+</span><span style=3D"font-size:11.0pt;font-family:Wingdings;color:#1F4E79;=
+mso-style-textfill-fill-color:#1F4E79;mso-style-textfill-fill-alpha:100.0%"=
+>J</span><span style=3D"font-size:11.0pt;color:#1F4E79;mso-style-textfill-f=
+ill-color:#1F4E79;mso-style-textfill-fill-alpha:100.0%"><o:p></o:p></span><=
+/p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;color:#1F4E79;mso-st=
+yle-textfill-fill-color:#1F4E79;mso-style-textfill-fill-alpha:100.0%"><o:p>=
+&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;color:#1F4E79;mso-st=
+yle-textfill-fill-color:#1F4E79;mso-style-textfill-fill-alpha:100.0%">The I=
+EEE International Conference of Environmental Engineering (EE) Special Trac=
+k on Communications and Computing for
+ Sustainable Development Goals (ComCom4SDG), March 12-14, 2018 Milan, Italy=
+<br>
+<br>
+EE ComCom4SDG website:&nbsp;<a href=3D"http://www.ieee-ccsna.org/comcom4sdg=
+-icee2018/" target=3D"_blank"><span style=3D"color:#1F4E79;mso-style-textfi=
+ll-fill-color:#1F4E79;mso-style-textfill-fill-alpha:100.0%">http://www.ieee=
+-ccsna.org/comcom4sdg-icee2018/</span></a><br>
+EE Conference website:&nbsp;<a href=3D"http://2018.ieee-ee.org/" target=3D"=
+_blank"><span style=3D"color:#1F4E79;mso-style-textfill-fill-color:#1F4E79;=
+mso-style-textfill-fill-alpha:100.0%">http://2018.ieee-ee.org/</span></a><b=
+r>
+&nbsp;<br>
+Extended abstracts deadline (at least 2 pages):&nbsp;<b>January 15, 2018</b=
+><br>
+Full paper submission deadline after the acceptance of extended abstracts (=
+at least 5 pages):
+<b>April 15, 2018</b><br>
+&nbsp;<br>
+SUBMISSION LINK:&nbsp;<a href=3D"https://www.edas.info/newPaper.php?c=3D243=
+67&amp;track=3D89072" target=3D"_blank"><span style=3D"color:#1F4E79;mso-st=
+yle-textfill-fill-color:#1F4E79;mso-style-textfill-fill-alpha:100.0%">https=
+://www.edas.info/newPaper.php?c=3D24367&amp;track=3D89072</span></a><o:p></=
+o:p></span></p>
+<div class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-size:11.0pt;color:#1F4E79;mso-style-textfill-fill-color:#1F4=
+E79;mso-style-textfill-fill-alpha:100.0%">
+<hr size=3D"2" width=3D"100%" align=3D"center">
+</span></div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;color:#1F4E79;mso-st=
+yle-textfill-fill-color:#1F4E79;mso-style-textfill-fill-alpha:100.0%"><a hr=
+ef=3D"https://sustainabledevelopment.un.org/" target=3D"_blank" title=3D"Su=
+stainable Development Knowledge Platform - the United Nations"><span style=
+=3D"color:#1F4E79;mso-style-textfill-fill-color:#1F4E79;mso-style-textfill-=
+fill-alpha:100.0%">Sustainable
+ Development Knowledge Platform - the United Nations</span></a><o:p></o:p><=
+/span></p>
+</div>
+</div>
+</body>
+</html>
+
+--_000_75C3076859BB4145BD0008D393EDCFF7F5B5271DDempseyautuniau_--
+
+--_004_75C3076859BB4145BD0008D393EDCFF7F5B5271DDempseyautuniau_
+Content-Type: image/jpeg; name="A Tree with full SDGs wishes.jpg"
+Content-Description: A Tree with full SDGs wishes.jpg
+Content-Disposition: attachment;
+	filename="A Tree with full SDGs wishes.jpg"; size=48980;
+	creation-date="Sun, 24 Dec 2017 23:52:45 GMT";
+	modification-date="Sun, 24 Dec 2017 23:52:45 GMT"
+Content-ID: <25474c33-2b34-411b-bac2-cbfbf88342fb>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAH4Au0DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD31P8A
+Vp9B/KnU1P8AVp9B/KkfcFJUAtg4BPBNAD+9FcjFr+t2evafYaxZ2SpqO/yvsrsWjKgEhs8HqBkc
+flVW78Z6hGL/AFK3s7Z9IsLsW0xZj5rnIBZccAZYcHJOe1Owro7iiud8QajrFjaS3+nLp5s4YfOd
+rgvufGSVUDgcAYJ6k4xVWfxPdywaJDYWsQ1DVkMirOTsiULuYnHJ9umcdqQzrKKw/Dety6zaXP2q
+FIby0uHt50jJK7lPUd8f4GtygAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+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
+GMe/TtnNR6lplrrJtfPa4AgkMiqqkBipx82R09PXtkVsUUrK1ieVWt0IPtCbC22XGwP/AKps49MY
+zn26+1ZlxpFpNf8A2idriRUnEghKEp5hAUNwuTgY5JIHPTHG1RihobSZD5qblGH+Z9o+RsZAJ9OB
+x1PHT1FHnocHbJypYfu26DGe3B56dTzjpU9FMZAZ0XcSJOFDHEbHg5xjjk8dOo46ZFAlUMww+Vfb
+9xsZwD6cjnqOOo7Gp6KAIVmUlRh/mYqMoRyM5zxwOOp4PHXIpPtCbA22XGwv/qmzj0xjr7dfap6K
+AITMozkPxjOEY9Txjjn+nfFHnLuxh87tn3GxnGc5x0x36duvFTUUAULqJL22EO6ZCW3KwQgqUYEd
+RjqB169qgsbO1sDPcr58s84Es0zxkuwxwOB2AxtAz7VrUlKyFZXuMByW68HB4I7A/j17f0qSiimM
+KKKKACiiigBqf6tPoP5U6iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigBKw9Z8N2ur/vc+Tc
+YwJFGc+xHcflRRUTpxmrSGpODvE5Kfwbq0TYjjjmX1RwP0OKLfwbq0rASRxwr3LuD+gzRRXH/Z9H
+m6nV9aqWOt0bw3aaR+9z51xjHmMMY+g7frW5RRXZCnGmrROVzc3eQtFFFWIKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooA//9k=
+
+--_004_75C3076859BB4145BD0008D393EDCFF7F5B5271DDempseyautuniau_--
+

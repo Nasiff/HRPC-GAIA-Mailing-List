@@ -1,0 +1,1247 @@
+
+From nobody Tue Aug  1 01:48:51 2017
+Return-Path: <niels@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id E4F5B132C2F for <hrpc@ietfa.amsl.com>; Tue,  1 Aug 2017 01:48:49 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.902
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.902 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id YCF0BiLR7n0S for <hrpc@ietfa.amsl.com>; Tue,  1 Aug 2017 01:48:48 -0700 (PDT)
+Received: from smarthost1.greenhost.nl (smarthost1.greenhost.nl [195.190.28.92]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 074DD132C1B for <hrpc@irtf.org>; Tue,  1 Aug 2017 01:48:47 -0700 (PDT)
+Received: from smtp.greenhost.nl ([213.108.104.138]) by smarthost1.greenhost.nl with esmtps (TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128) (Exim 4.84_2) (envelope-from <niels@article19.org>) id 1dcSr7-0000rd-J1; Tue, 01 Aug 2017 10:48:45 +0200
+Date: Tue, 1 Aug 2017 10:48:44 +0200
+From: Niels ten Oever <niels@article19.org>
+To: Mark Nottingham <mnot@mnot.net>
+Cc: Mando Rachovitsa <adamantia.rachovitsa@gmail.com>, "hrpc@irtf.org" <hrpc@irtf.org>
+Message-ID: <20170801084844.vzjowqk4usut4b7k@mir>
+References: <151adee7-7524-567b-54cd-92d28b9615b0@article19.org> <ADDCD50E-409D-4CB2-81B2-4BA3769FA758@mnot.net> <CAHVYM+CMOa=KNR08yfsSkXn8V=jyWUXQzxx0_fzrMGQKZi3iTQ@mail.gmail.com> <BF9A2DD1-EF68-4B7F-8BAC-084A79001857@mnot.net>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha256; protocol="application/pgp-signature"; boundary="ty5lib3ebqzfgos2"
+Content-Disposition: inline
+In-Reply-To: <BF9A2DD1-EF68-4B7F-8BAC-084A79001857@mnot.net>
+User-Agent: NeoMutt/20170609 (1.8.3)
+X-Virus-Scanned: by clamav at smarthost1.samage.net
+X-Scan-Signature: 353bb18b0f14186cd389c275975c39f5
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/uxepcA47u-LKN7zicmeOjM7rFac>
+Subject: Re: [hrpc] for the users
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 01 Aug 2017 08:48:50 -0000
+
+--ty5lib3ebqzfgos2
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Tue, Aug 01, 2017 at 11:36:31AM +1000, Mark Nottingham wrote:
+> > - Finally, I get that the onus of the discussion lies in conflicts of i=
+nterests between providers or services and equipment AND users of the Inter=
+net. How about, however, conflicts between interests of different communiti=
+es/users? [this may be completely out of the scope of your draft but I had =
+to ask :)].
+>=20
+> I'd be surprised if it didn't happen. I don't think this draft is going t=
+o help in that situation; we need to fall back on more specific guidance, d=
+epending on the situation.
+>=20
+
+That is nice and elegant (and resolves my issues as well methinks). Perhaps=
+ you could put this in the draft?
+
+Thanks!
+
+Niels
+
+
+--=20
+
+Niels ten Oever
+Head of Digital
+
+Article 19
+www.article19.org
+
+PGP fingerprint	   2458 0B70 5C4A FD8A 9488 =20
+                   643A 0ED8 3F3A 468A C8B3
+
+
+--ty5lib3ebqzfgos2
+Content-Type: application/pgp-signature; name="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEJFgLcFxK/YqUiGQ6Dtg/OkaKyLMFAlmAQGwACgkQDtg/OkaK
+yLPe4A//atSjlomHELLlMzYBSU5VdUJpmtq8BWQ4l9hRDcTvh7dL+oOTEpPzvH2m
+jHdcOUA9pdz6zJV/VLhzM8v1QqqFkMGCTuFtztRUqRYnqotRYvHZ8hEsvE+LQVvg
+clko6mlzeWoTszNyTwz6sdPZgVjCjVZxRm/CXIuQH7D8xyqRHjIStUIfNwmVYc5x
+z7rsAoogMAY0XDW0nLXCgwG5S/aluWqnqOKE1DTL2qpEJDbF1t5EfuKpy8BQ0awY
+MJCbcOmR9vA60HpKwItA0DTXLVXSaGvpUahrVVnZSJFhlGv8ySSOHzd9uSdIH9cZ
+0Rha90Mk/CoBosWwB6dpG5nC2T6q/Ed3HmItN7g6tOmAC6wVOYdpwEEb9cFT66Pw
+M3M2XjeyZkbLr4ue3Cv2YHmkCjRgCbIsasxa8qi8kndKz8J4FzgJLucHqBe2fv1K
+lUaa82oXqdBxHGTv9vyLN5pKksVZQKoDMOFaM1bpuL1ND4Z6m7UuwhHwRxuoXHBt
+2HOxK806X/HxMTboSOp4Q9Xsn2PLihMmZ0IKPag75PnAkB5OXsb5oO7m/UXsLPNw
+pynoujPOyDiMo+Z/eJJG9Nq1+WNpWLftohAMGRUyEDfugP8Par1UCcOcP7YVndsN
+SRECmbPhJ49O4IMyggmxv0cnXiHgUJPtF44RLXSslYNqtEoK61Q=
+=DhOe
+-----END PGP SIGNATURE-----
+
+--ty5lib3ebqzfgos2--
+
+
+From nobody Tue Aug  1 01:54:03 2017
+Return-Path: <lear@cisco.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id E468A132C49 for <hrpc@ietfa.amsl.com>; Tue,  1 Aug 2017 01:54:01 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -14.503
+X-Spam-Level: 
+X-Spam-Status: No, score=-14.503 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, RCVD_IN_DNSWL_HI=-5, RP_MATCHES_RCVD=-0.001, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001, USER_IN_DEF_DKIM_WL=-7.5] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=cisco.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id DNcVSE-pSx-Y for <hrpc@ietfa.amsl.com>; Tue,  1 Aug 2017 01:54:00 -0700 (PDT)
+Received: from aer-iport-2.cisco.com (aer-iport-2.cisco.com [173.38.203.52]) (using TLSv1.2 with cipher DHE-RSA-SEED-SHA (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id D197C132C44 for <hrpc@irtf.org>; Tue,  1 Aug 2017 01:53:59 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=cisco.com; i=@cisco.com; l=4090; q=dns/txt; s=iport; t=1501577639; x=1502787239; h=subject:to:cc:references:from:message-id:date: mime-version:in-reply-to; bh=xSOS4ljDUipswr5JeOneOLzc6UCL5th8VgRJX4Ol3+s=; b=Bfd5E0/IKCjGW/PWz9vX7Pjh1jzEpNW825w1Uqe1fJHfei07zh6qXnfQ f7ymBgc3k9Ms0x9eabFoNEZR4MzFfCJnN0I0a1om4lyepUiyH8rcv9xLX 3v+8by9WMYD+uG39arzo5jO0JzPsgO3vblO7ZGshlDlRpf53vYi5PLz+n 8=;
+X-Files: signature.asc : 481
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: =?us-ascii?q?A0DUAACsQIBZ/xbLJq1HFhoBAQEBAgEBA?= =?us-ascii?q?QEIAQEBAYMvgXyONXOQdHeVFoISB4VAAoRYGAECAQEBAQEBAWsohRgBAQEBAgE?= =?us-ascii?q?jVhALGBMXAgJXBgEMCAEBiBYBDAOBfQiuXYImi04BAQEBAQEBAQEBAQEBAQEBA?= =?us-ascii?q?QERD4MohS8rgkc0hDKDVIJhAQSfdIQxgh6NWYs2hwuVdx84gQoyIQgcFYdlPop?= =?us-ascii?q?lAQEB?=
+X-IronPort-AV: E=Sophos;i="5.41,305,1498521600";  d="asc'?scan'208";a="653640223"
+Received: from aer-iport-nat.cisco.com (HELO aer-core-1.cisco.com) ([173.38.203.22]) by aer-iport-2.cisco.com with ESMTP/TLS/DHE-RSA-AES256-GCM-SHA384; 01 Aug 2017 08:53:55 +0000
+Received: from [10.61.104.160] (dhcp-10-61-104-160.cisco.com [10.61.104.160]) by aer-core-1.cisco.com (8.14.5/8.14.5) with ESMTP id v718rs7G011643;  Tue, 1 Aug 2017 08:53:55 GMT
+To: Stephen Farrell <stephen.farrell@cs.tcd.ie>, Mando Rachovitsa <adamantia.rachovitsa@gmail.com>
+Cc: hrpc@irtf.org
+References: <CAHVYM+AmJ5dsCQdO4RA9wfYWqZ_r7ioGeGfY5tv-sjfFyca0Ww@mail.gmail.com> <5587aca3-20c4-0aa0-6b3b-4615c80fabc9@cs.tcd.ie> <CAHVYM+DzWpbxC7VvqwfrBnGXvH9zN1iRGVzo1UqSsjnkB+LM2w@mail.gmail.com> <5c38b223-d84e-1896-5324-d234d3529a5e@cisco.com> <af8b6591-5a5c-be9d-c692-44a26dcdf4eb@cs.tcd.ie>
+From: Eliot Lear <lear@cisco.com>
+Message-ID: <e66ece13-a6c9-e3b1-7db8-54c1f5440e6f@cisco.com>
+Date: Tue, 1 Aug 2017 10:53:58 +0200
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:52.0) Gecko/20100101 Thunderbird/52.2.1
+MIME-Version: 1.0
+In-Reply-To: <af8b6591-5a5c-be9d-c692-44a26dcdf4eb@cs.tcd.ie>
+Content-Type: multipart/signed; micalg=pgp-sha256; protocol="application/pgp-signature"; boundary="WPkmCn2quWO1LH60dKpFWJjeMVcKRxkIw"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/blKzrx3y0kD_pl9CQFUJc6iJKzs>
+Subject: Re: [hrpc] Bob asks Alice about human rights
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 01 Aug 2017 08:54:02 -0000
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--WPkmCn2quWO1LH60dKpFWJjeMVcKRxkIw
+Content-Type: multipart/mixed; boundary="CJpTlR5qM9VJtIEjXRL7r4hXDDHROcaCu";
+ protected-headers="v1"
+From: Eliot Lear <lear@cisco.com>
+To: Stephen Farrell <stephen.farrell@cs.tcd.ie>,
+ Mando Rachovitsa <adamantia.rachovitsa@gmail.com>
+Cc: hrpc@irtf.org
+Message-ID: <e66ece13-a6c9-e3b1-7db8-54c1f5440e6f@cisco.com>
+Subject: Re: [hrpc] Bob asks Alice about human rights
+References: <CAHVYM+AmJ5dsCQdO4RA9wfYWqZ_r7ioGeGfY5tv-sjfFyca0Ww@mail.gmail.com>
+ <5587aca3-20c4-0aa0-6b3b-4615c80fabc9@cs.tcd.ie>
+ <CAHVYM+DzWpbxC7VvqwfrBnGXvH9zN1iRGVzo1UqSsjnkB+LM2w@mail.gmail.com>
+ <5c38b223-d84e-1896-5324-d234d3529a5e@cisco.com>
+ <af8b6591-5a5c-be9d-c692-44a26dcdf4eb@cs.tcd.ie>
+In-Reply-To: <af8b6591-5a5c-be9d-c692-44a26dcdf4eb@cs.tcd.ie>
+
+--CJpTlR5qM9VJtIEjXRL7r4hXDDHROcaCu
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Content-Language: en-US
+
+Stephen,
+
+
+On 8/1/17 12:03 AM, Stephen Farrell wrote:
+> Hi Eliot,
+>
+> On 31/07/17 22:47, Eliot Lear wrote:
+>>  provably true[1]
+> ...
+>
+>> [1] See Donnie Brasco as an example.
+> Provably true based on fiction? I guess F=3D>anything is
+> logical yes, but it doesn't seem useful.
+
+Forgive me for being inexact with the reference, but you are wrong.
+
+The FBI rolled up vast numbers of mafia members along the east coast in
+the 70s and 80s by using taps.   Donnie Brasco is the recounting of one
+of the most successful efforts that combined FBI agent Joe Pistone's
+undercover work with the taps that were taking place.   The evidence is
+incontrovertible that by pursuing these criminals with taps and other
+means, the government protected the rights of those who were or would
+have been, assaulted, shaken down, or murdered.  One could quite
+reasonably argue that this was in support of Article 3 of the UDHR.
+
+This doesn't speak to the government abuse that can and has occurred
+through snooping.  That's the other side of the equation, and the Stasi
+and KGB demonstrated their effectiveness of essentially acting like
+mafioso.  That, it seems to me, is where a number of other articles,
+including Article 19, come into play, leading to a balancing test that
+is not well stated or recognized in the charter, even though it is at
+least perfunctorily recognized in draft-irtf-hrpc-research.
+
+By the way, that same Article 3 is itself a tradeoff.  Consider the
+example I mentioned when we saw each other in Prague about a bank that
+had been MITM'd, and how TLS saved the day for them, their investors,
+and their depositors from vast amounts of theft.  Governments blocking
+encryption would have facilitated that theft.  The charter also gives
+this example short shrift by focusing on freedom of speech and expression=
+=2E
+
+Eliot
+
+>
+> If you want to claim the RG isn't well chartered, you
+> need, IMO, a far better argument than that.
+>
+> And while yes, many governments will defend snooping
+> of various kinds, when one considers real examples,
+> things get far less simple, for example, a bunch of
+> governments don't have purely monolithic opinions in
+> that (snooping) space but rather have different bits
+> of the same government with different angles.
+>
+
+
+
+--CJpTlR5qM9VJtIEjXRL7r4hXDDHROcaCu--
+
+--WPkmCn2quWO1LH60dKpFWJjeMVcKRxkIw
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG/MacGPG2 v2
+
+iQEcBAEBCAAGBQJZgEGnAAoJEIe2a0bZ0nozjJcH/inX/lklIphbV1NoiLt6Sd6+
+2cshNDr4NG6ZITZFmtqbdLePE2X3uOHhbUMD7of+Ai0DQcB4NZYC4YtNrGYtqeJh
+jpdUqNb24Rd+/Xx8VMSBR6PMCI/XuFKU40qb6b2QnFR+gjx9lrqOu/Ti/nQRD1XB
+Oyr5Kinh7RpcRW7fBDvs4dnBeUF603eKMjJDaYtAHyRBEOcaKd4TQYQ2ABNzcWmS
+y0Uc8zurY8pc6A0pSepv9VT1NVcoRPJ6uD8ThnS7/9C5D3uCPTqrQ35uDqBNrUr0
+S7DdOMRTO1Z27SFqRBvPD1URLF3NfIJmIWSFo+mAdLN4Q4P9T+42BdK/jXf3U6s=
+=j6wH
+-----END PGP SIGNATURE-----
+
+--WPkmCn2quWO1LH60dKpFWJjeMVcKRxkIw--
+
+
+From nobody Tue Aug  1 04:50:49 2017
+Return-Path: <niels@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 0C124132D11 for <hrpc@ietfa.amsl.com>; Tue,  1 Aug 2017 04:50:47 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.902
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.902 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id syIrIl7KcknZ for <hrpc@ietfa.amsl.com>; Tue,  1 Aug 2017 04:50:44 -0700 (PDT)
+Received: from smarthost1.greenhost.nl (smarthost1.greenhost.nl [195.190.28.92]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id E7367132D12 for <hrpc@irtf.org>; Tue,  1 Aug 2017 04:50:43 -0700 (PDT)
+Received: from smtp.greenhost.nl ([213.108.104.138]) by smarthost1.greenhost.nl with esmtps (TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128) (Exim 4.84_2) (envelope-from <niels@article19.org>) id 1dcVhA-0007Dr-FX; Tue, 01 Aug 2017 13:50:41 +0200
+Date: Tue, 1 Aug 2017 13:50:38 +0200
+From: Niels ten Oever <niels@article19.org>
+To: Eliot Lear <lear@cisco.com>
+Cc: Mando Rachovitsa <adamantia.rachovitsa@gmail.com>, Stephen Farrell <stephen.farrell@cs.tcd.ie>, hrpc@irtf.org
+Message-ID: <20170801115038.ej75wytvfz2pp6ea@mir>
+References: <CAHVYM+AmJ5dsCQdO4RA9wfYWqZ_r7ioGeGfY5tv-sjfFyca0Ww@mail.gmail.com> <5587aca3-20c4-0aa0-6b3b-4615c80fabc9@cs.tcd.ie> <CAHVYM+DzWpbxC7VvqwfrBnGXvH9zN1iRGVzo1UqSsjnkB+LM2w@mail.gmail.com> <5c38b223-d84e-1896-5324-d234d3529a5e@cisco.com>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha256; protocol="application/pgp-signature"; boundary="ox6ugyoabk6zdcqj"
+Content-Disposition: inline
+In-Reply-To: <5c38b223-d84e-1896-5324-d234d3529a5e@cisco.com>
+User-Agent: NeoMutt/20170609 (1.8.3)
+X-Virus-Scanned: by clamav at smarthost1.samage.net
+X-Scan-Signature: 6c9cb813585780de5eb5173c5d3ca72d
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/xdJdDRMrAeDRgXoli3zLWggO7uI>
+Subject: Re: [hrpc] Bob asks Alice about human rights
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 01 Aug 2017 11:50:47 -0000
+
+--ox6ugyoabk6zdcqj
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Hi all,
+
+On Mon, Jul 31, 2017 at 11:47:47PM +0200, Eliot Lear wrote:
+> Hi,
+>=20
+>=20
+> On 7/31/17 8:25 PM, Mando Rachovitsa wrote:
+> > Hi All.
+> >
+> > Thanks for the feedback.
+> >
+> > Re Eliot: I think that what Niels mentioned reflects what I was
+> > thinking. All human rights may be/are applicable and they are
+> > interrelated, interdependent and unalienable. In the text I am
+> > referring to figuring out which human rights are relevant when
+> > discussing a specific technical decision in the content of the IETF.
+> > Admittedly, the answer to this question may not be always be
+> > straightforward. Perhaps the text needs to clarify these points.
+>=20
+> I'll elaborate on my example: some governments would probably argue that
+> human rights are being preserved through snooping activities, because
+> they would say that they are preventing physical harm to others and
+> following through on their responsibility to protect their citizens.=20
+> That statement is provably true[1] in at least small numbers, but that
+> doesn't make the best course of action to avoid/circumvent/outlaw
+> encryption.  This is why I believe the hrpc is poorly chartered.
+>=20
+> Perhaps we could spend some time elaborating on which human rights are
+> protected, which are violated, and when, but it very much depends on
+> your overall view of government.
+>=20
+
+Luckily human rights are not defined by individual governments (an example =
+of this are the Universal Periodic Reviews in which every government get as=
+sessed on their human rights performance by the UN officer for Human Rights=
+), and there has been quite some literature on how human rights should be i=
+nterpreted and implemented. On this specific issue of encryption you can fo=
+r instance have a look at the report on the UN Special Rapporteur on this i=
+ssue:
+
+http://www.ohchr.org/EN/Issues/FreedomOpinion/Pages/CallForSubmission.aspx
+
+Or the landmark resolution that was accepted by the UN General Assembly - t=
+he right to privacy in a digital age:
+
+http://www.un.org/ga/search/view_doc.asp?symbol=3DA/C.3/71/L.39/Rev.1
+
+All the best,
+
+Niels
+
+
+
+
+
+> Eliot
+>=20
+> [1] See Donnie Brasco as an example.
+>=20
+>=20
+>=20
+
+
+
+
+> _______________________________________________
+> hrpc mailing list
+> hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+
+
+--=20
+
+Niels ten Oever
+Head of Digital
+
+Article 19
+www.article19.org
+
+PGP fingerprint	   2458 0B70 5C4A FD8A 9488 =20
+                   643A 0ED8 3F3A 468A C8B3
+
+
+--ox6ugyoabk6zdcqj
+Content-Type: application/pgp-signature; name="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEJFgLcFxK/YqUiGQ6Dtg/OkaKyLMFAlmAaw4ACgkQDtg/OkaK
+yLPd/g/9G5k+e8sgpxI7e3W+TG7ehVBbY//ASY1dcdAYhOycKhMF6CioE8K0w/VG
+/kCthHQaxvrsPKSlg+TkSpni5XJyoeBIH9lQtUqyptJxsFdE3Mq9DJBLlQoN7NaJ
+Q5VUsYj0hspvBQDGX0tgml0ftrLyo++4KkEzwg+rEHZpcfV3Rpm17Ri2uji0jDdU
+6So4XywaD+BUmRjnIzEyCuVeImda7G4WxeulWeU9TdZlPdj3ald18iLMbuz8wxzH
+Bvxj8Tc24vYz9VoZRFiLzelIycbohvu9vZqMIijqp2KsioL91H+JbqOlnEoak48M
+Y6u4KQYZ50j80CkGjmu2yUBys/2B9yP4J5joD+rN5kwfWtMv7SR7H7tDX0aTMbE1
+qK6tYGsHZjoCNH4R2JTy0TZZwDmESchhjWcaSh6zXXH+Ml1DgJVhxRaOYklz5yyQ
+1ozwvAtngBOBGBqZu9wCEHPtb1TGYf7HuTWL0ngcZSrhK0IkHEWspg/tUCbQrKLO
+NVHiVregsorGmigAkQ6c9kEGtJs6bjcOD9CzBAuy3LqLrlzRR1Yp0QMrChuPLBFO
+7OhsDi6BTjTbIv/McAdSsSNLGv3D0p+pC5afKdZL0N43D4xcfd2ZtHR69sezZ4ls
+/bI+/fC6Dx9/XLLqyRU8lzFV3KD4FGWhaLylGwhPwPrmURO/hfg=
+=IVeq
+-----END PGP SIGNATURE-----
+
+--ox6ugyoabk6zdcqj--
+
+
+From nobody Tue Aug  1 04:52:40 2017
+Return-Path: <niels@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id C3A17132118 for <hrpc@ietfa.amsl.com>; Tue,  1 Aug 2017 04:52:38 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.902
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.902 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id dinBdO6lPTgY for <hrpc@ietfa.amsl.com>; Tue,  1 Aug 2017 04:52:37 -0700 (PDT)
+Received: from smarthost1.greenhost.nl (smarthost1.greenhost.nl [195.190.28.92]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id C02051320BD for <hrpc@irtf.org>; Tue,  1 Aug 2017 04:52:36 -0700 (PDT)
+Received: from smtp.greenhost.nl ([213.108.104.138]) by smarthost1.greenhost.nl with esmtps (TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128) (Exim 4.84_2) (envelope-from <niels@article19.org>) id 1dcViz-0007iB-U7; Tue, 01 Aug 2017 13:52:34 +0200
+Date: Tue, 1 Aug 2017 13:52:33 +0200
+From: Niels ten Oever <niels@article19.org>
+To: Eliot Lear <lear@cisco.com>
+Cc: Mando Rachovitsa <adamantia.rachovitsa@gmail.com>, Stephen Farrell <stephen.farrell@cs.tcd.ie>, hrpc@irtf.org
+Message-ID: <20170801115233.w3sn5krofqp2a7m4@mir>
+References: <CAHVYM+AmJ5dsCQdO4RA9wfYWqZ_r7ioGeGfY5tv-sjfFyca0Ww@mail.gmail.com> <5587aca3-20c4-0aa0-6b3b-4615c80fabc9@cs.tcd.ie> <CAHVYM+DzWpbxC7VvqwfrBnGXvH9zN1iRGVzo1UqSsjnkB+LM2w@mail.gmail.com> <5c38b223-d84e-1896-5324-d234d3529a5e@cisco.com> <20170801115038.ej75wytvfz2pp6ea@mir>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha256; protocol="application/pgp-signature"; boundary="sppget4wcfxjg5u2"
+Content-Disposition: inline
+In-Reply-To: <20170801115038.ej75wytvfz2pp6ea@mir>
+User-Agent: NeoMutt/20170609 (1.8.3)
+X-Virus-Scanned: by clamav at smarthost1.samage.net
+X-Scan-Signature: 118046538f1968b7a7bc35ac7f8c9032
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/rFRssXLnPsDWo5927aRMwUyGuPs>
+Subject: Re: [hrpc] Bob asks Alice about human rights
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 01 Aug 2017 11:52:39 -0000
+
+--sppget4wcfxjg5u2
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+
+
+On Tue, Aug 01, 2017 at 01:50:38PM +0200, Niels ten Oever wrote:
+> Hi all,
+>=20
+> On Mon, Jul 31, 2017 at 11:47:47PM +0200, Eliot Lear wrote:
+> > Hi,
+> >=20
+> >=20
+> > On 7/31/17 8:25 PM, Mando Rachovitsa wrote:
+> > > Hi All.
+> > >
+> > > Thanks for the feedback.
+> > >
+> > > Re Eliot: I think that what Niels mentioned reflects what I was
+> > > thinking. All human rights may be/are applicable and they are
+> > > interrelated, interdependent and unalienable. In the text I am
+> > > referring to figuring out which human rights are relevant when
+> > > discussing a specific technical decision in the content of the IETF.
+> > > Admittedly, the answer to this question may not be always be
+> > > straightforward. Perhaps the text needs to clarify these points.
+> >=20
+> > I'll elaborate on my example: some governments would probably argue that
+> > human rights are being preserved through snooping activities, because
+> > they would say that they are preventing physical harm to others and
+> > following through on their responsibility to protect their citizens.=20
+> > That statement is provably true[1] in at least small numbers, but that
+> > doesn't make the best course of action to avoid/circumvent/outlaw
+> > encryption.  This is why I believe the hrpc is poorly chartered.
+> >=20
+> > Perhaps we could spend some time elaborating on which human rights are
+> > protected, which are violated, and when, but it very much depends on
+> > your overall view of government.
+> >=20
+>=20
+> Luckily human rights are not defined by individual governments (an exampl=
+e of this are the Universal Periodic Reviews in which every government get =
+assessed on their human rights performance by the UN officer for Human Righ=
+ts), and there has been quite some literature on how human rights should be=
+ interpreted and implemented. On this specific issue of encryption you can =
+for instance have a look at the report on the UN Special Rapporteur on this=
+ issue:
+>=20
+> http://www.ohchr.org/EN/Issues/FreedomOpinion/Pages/CallForSubmission.aspx
+>=20
+> Or the landmark resolution that was accepted by the UN General Assembly -=
+ the right to privacy in a digital age:
+>=20
+> http://www.un.org/ga/search/view_doc.asp?symbol=3DA/C.3/71/L.39/Rev.1
+>=20
+
+Also quite some work has been done on defining when and how surveillance co=
+uld be legally legitimate, have a look here:
+
+https://necessaryandproportionate.org/principles
+
+Best,
+
+Niels
+
+
+
+> All the best,
+>=20
+> Niels
+>=20
+>=20
+>=20
+>=20
+>=20
+> > Eliot
+> >=20
+> > [1] See Donnie Brasco as an example.
+> >=20
+> >=20
+> >=20
+>=20
+>=20
+>=20
+>=20
+> > _______________________________________________
+> > hrpc mailing list
+> > hrpc@irtf.org
+> > https://www.irtf.org/mailman/listinfo/hrpc
+>=20
+>=20
+> --=20
+>=20
+> Niels ten Oever
+> Head of Digital
+>=20
+> Article 19
+> www.article19.org
+>=20
+> PGP fingerprint	   2458 0B70 5C4A FD8A 9488 =20
+>                    643A 0ED8 3F3A 468A C8B3
+>=20
+
+--=20
+
+Niels ten Oever
+Head of Digital
+
+Article 19
+www.article19.org
+
+PGP fingerprint	   2458 0B70 5C4A FD8A 9488 =20
+                   643A 0ED8 3F3A 468A C8B3
+
+
+--sppget4wcfxjg5u2
+Content-Type: application/pgp-signature; name="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEJFgLcFxK/YqUiGQ6Dtg/OkaKyLMFAlmAa4AACgkQDtg/OkaK
+yLPE+hAAjpBhvwHTH5jNrmswnB3/32kSfvOVfrP9qesYdRGRvWdN1NsBIVlbIoSk
+Qg6vc9DMcAJnnX99E0Fx+umlpJbLM46N3mKuatsTt+QPDo/SXUAPHTx4+ZXTFfXn
+sylgHJAaygRFIsYXGwakmv9ze8dNOUSZlo1gg37x97ARSn/wPm5sGpn4n3zkYmTX
+1ZrPmQHwIt4FfidoWo0ku8ddSma1rCXGh8tHcrZfoKAFjgFZzBeIuAnCZVqT2ll4
+Ei87YG0YueEzERpjMkA/2Dmmb1gt0cG/skTZcFYzK34qRLtVgOUsdw/2oTvRrYeY
+HeHGTpPVA82TBo8Yo2zqyguh056abfbKWe3OAMUUdhLpfGknsEGGvneYgvlQz288
+epwWvxhb/SL1ACcYTSwL4MzfLQqK3FSseiAfIsQTzXYRVvRthLiI0/awEIyatHxl
+uHsDxA9nTbE1FsvUxWPt54lnPskHI28PXLXFPOBkwqrVCE47WBSiFKBWAQ39y0ig
+8cWqieMzR24/FflJYmo45mai+/mEWIact8mA62Ff2r/7ZguHV5np5+8CkxvG5c1h
+aPGwugEVWADoFtS7w5ij/XcstpDNwa1f4h3D8ceyglBn6iPSksAJDYRMmL1qCs97
+PcxgapFaR0gcqIrGXn2xTLSuw1aH3OILnkoOfkpc6cYesO6u5Ro=
+=7/VV
+-----END PGP SIGNATURE-----
+
+--sppget4wcfxjg5u2--
+
+
+From nobody Tue Aug  1 10:07:32 2017
+Return-Path: <pranesh@cis-india.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 0423F129A92 for <hrpc@ietfa.amsl.com>; Tue,  1 Aug 2017 10:07:31 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.902
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.902 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id ENDN7jwELAxh for <hrpc@ietfa.amsl.com>; Tue,  1 Aug 2017 10:07:28 -0700 (PDT)
+Received: from smarthost1.greenhost.nl (smarthost1.greenhost.nl [195.190.28.92]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 4D004129562 for <hrpc@irtf.org>; Tue,  1 Aug 2017 10:07:28 -0700 (PDT)
+Received: from smtp.greenhost.nl ([213.108.104.138]) by smarthost1.greenhost.nl with esmtps (TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128) (Exim 4.84_2) (envelope-from <pranesh@cis-india.org>) id 1dcadg-0004Em-S0; Tue, 01 Aug 2017 19:07:25 +0200
+To: Niels ten Oever <niels@article19.org>, Eliot Lear <lear@cisco.com>
+Cc: Mando Rachovitsa <adamantia.rachovitsa@gmail.com>, hrpc@irtf.org, Stephen Farrell <stephen.farrell@cs.tcd.ie>
+References: <CAHVYM+AmJ5dsCQdO4RA9wfYWqZ_r7ioGeGfY5tv-sjfFyca0Ww@mail.gmail.com> <5587aca3-20c4-0aa0-6b3b-4615c80fabc9@cs.tcd.ie> <CAHVYM+DzWpbxC7VvqwfrBnGXvH9zN1iRGVzo1UqSsjnkB+LM2w@mail.gmail.com> <5c38b223-d84e-1896-5324-d234d3529a5e@cisco.com> <20170801115038.ej75wytvfz2pp6ea@mir> <20170801115233.w3sn5krofqp2a7m4@mir>
+From: Pranesh Prakash <pranesh@cis-india.org>
+Organization: Centre for Internet and Society
+Message-ID: <1ef4af8b-f28f-992a-b68b-73591ac8ca56@cis-india.org>
+Date: Tue, 1 Aug 2017 22:37:21 +0530
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Thunderbird/52.2.1
+MIME-Version: 1.0
+In-Reply-To: <20170801115233.w3sn5krofqp2a7m4@mir>
+Content-Type: multipart/signed; micalg=pgp-sha512; protocol="application/pgp-signature"; boundary="Gl3UnKgSxHMFLpqJLuWosw2rvKXjdsRso"
+X-Virus-Scanned: by clamav at smarthost1.samage.net
+X-Scan-Signature: 9484ae446d4f83cee8bf28db5146d16c
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/5kbSK9f8AteS-zt037hEvh3sHy8>
+Subject: Re: [hrpc] Bob asks Alice about human rights
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 01 Aug 2017 17:07:31 -0000
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--Gl3UnKgSxHMFLpqJLuWosw2rvKXjdsRso
+Content-Type: multipart/mixed; boundary="WJ85B19W6JIlEwaROAjEm0ASm3Q1kNEBM";
+ protected-headers="v1"
+From: Pranesh Prakash <pranesh@cis-india.org>
+To: Niels ten Oever <niels@article19.org>, Eliot Lear <lear@cisco.com>
+Cc: Mando Rachovitsa <adamantia.rachovitsa@gmail.com>, hrpc@irtf.org,
+ Stephen Farrell <stephen.farrell@cs.tcd.ie>
+Message-ID: <1ef4af8b-f28f-992a-b68b-73591ac8ca56@cis-india.org>
+Subject: Re: [hrpc] Bob asks Alice about human rights
+References: <CAHVYM+AmJ5dsCQdO4RA9wfYWqZ_r7ioGeGfY5tv-sjfFyca0Ww@mail.gmail.com>
+ <5587aca3-20c4-0aa0-6b3b-4615c80fabc9@cs.tcd.ie>
+ <CAHVYM+DzWpbxC7VvqwfrBnGXvH9zN1iRGVzo1UqSsjnkB+LM2w@mail.gmail.com>
+ <5c38b223-d84e-1896-5324-d234d3529a5e@cisco.com>
+ <20170801115038.ej75wytvfz2pp6ea@mir> <20170801115233.w3sn5krofqp2a7m4@mir>
+In-Reply-To: <20170801115233.w3sn5krofqp2a7m4@mir>
+
+--WJ85B19W6JIlEwaROAjEm0ASm3Q1kNEBM
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Language: en-US
+Content-Transfer-Encoding: quoted-printable
+
+Niels ten Oever <niels@article19.org> [2017-08-01 13:52:33 +0200]:
+> Also quite some work has been done on defining when and how surveillanc=
+e could be legally legitimate, have a look here:
+>=20
+> https://necessaryandproportionate.org/principles
+
+Folks here might particularly be interested in this:
+
+++++
+Principle 11: Integrity of communications and systems
+In order to ensure the integrity, security and privacy of communications =
+
+systems, and in recognition of the fact that compromising security for=20
+State purposes almost always compromises security more generally, States =
+
+should not compel service providers or hardware or software vendors to=20
+build surveillance or monitoring capability into their systems, or to=20
+collect or retain particular information purely for State Communications =
+
+Surveillance purposes. A priori data retention or collection should=20
+never be required of service providers. Individuals have the right to=20
+express themselves anonymously; States should therefore refrain from=20
+compelling the identification of users.
+++++
+
+It would be interesting to look at (informational) RFC 3924[1] in light=20
+of this principle.
+
+I also find it interesting how while the rest of the principles seem to=20
+promote balancing tests, this particular principle outright bans a=20
+priori data retention or collection requirements.  Is there any data=20
+retention or collection regime currently in place anywhere in the world=20
+that is 'a posteriori'?  It seems to me that all general data retention=20
+requirements (say, keeping all call detail records for a period of X=20
+months, or keeping all web server logs with IP addresses for X months)=20
+are thus a violation of Principle 11.
+
+  [1]: https://tools.ietf.org/html/rfc3924
+
+--=20
+Pranesh Prakash
+Policy Director, Centre for Internet and Society
+http://cis-india.org | tel:+91 80 40926283
+sip:pranesh@ostel.co | xmpp:pranesh@cis-india.org
+https://twitter.com/pranesh
+
+
+--WJ85B19W6JIlEwaROAjEm0ASm3Q1kNEBM--
+
+--Gl3UnKgSxHMFLpqJLuWosw2rvKXjdsRso
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIcBAEBCgAGBQJZgLVJAAoJEE0qlBAVWSN1Rh8P/0PKCDMIKxuOjx/fIX0yUXX3
+LoZ2gcPBccU6dL66GEB2hIXDy+6ioBieBuBJsUq949WgeVKhH70e/KIlzXH1q34k
+q5itlBVdwcnBAS4RD4ZkxY020ipa30mtAZ5lekrk+56/Ih2uvPeeVOxmudVmrtSc
+R+XqAHS4E4EiZUU349W3AsS6+RBiM+nSnc1oIs4VQWr8uhQ2cRyVuuwRGBe5a80q
+gkSquIZDn3hTXHCHyNyI0JTE/7lZ3xQ2CaT4wiGkiYNLETokm1wcJ5eWARb/a7bx
+FyKtve0cDsaqG65i+o49TzBy91bNjqnI3IR+/1qtAE05PDBVbP7Y+5YvP0yvue4K
+bbmn3Oeq8TpZfOHyNpXrJsGd6gHYOlm19OyJbv9Wvy3Xe3ZYB5qFj5D2SBXIl9Mr
+0MrJAjpQGkpnAN1FnECDy7NMoLBQ5idSwTxrYmhX+XhUCIPV8A9ATmI3cFk2+SFt
+9UK56xXOXC00moXiqJSUuvtpOuX9qlLaib+zVGh0DTBD3mRaN2Tt859PRLaAPiet
+hYrWEfiqsDs6ju5T/v6AyYyoAw/mJr15juvdV6tIDB8ojMwJvLJeMZFOf8uyzcU9
+PrhhkN8XFci8ujDAVpntwZh/aS/MJa8GHJJgHiaFibBPbkluptOSdTmsfAT3c0y0
+ZOSdcIll+/oQEBIr997S
+=eKWy
+-----END PGP SIGNATURE-----
+
+--Gl3UnKgSxHMFLpqJLuWosw2rvKXjdsRso--
+
+
+From nobody Tue Aug  1 11:33:39 2017
+Return-Path: <rharolde@umich.edu>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 29675132293 for <hrpc@ietfa.amsl.com>; Tue,  1 Aug 2017 11:33:37 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.7
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.7 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-0.7, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=umich.edu
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id tNYntUTmyF1L for <hrpc@ietfa.amsl.com>; Tue,  1 Aug 2017 11:33:32 -0700 (PDT)
+Received: from mail-yw0-x22e.google.com (mail-yw0-x22e.google.com [IPv6:2607:f8b0:4002:c05::22e]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 3D8B0132250 for <hrpc@irtf.org>; Tue,  1 Aug 2017 11:33:31 -0700 (PDT)
+Received: by mail-yw0-x22e.google.com with SMTP id s143so15375661ywg.1 for <hrpc@irtf.org>; Tue, 01 Aug 2017 11:33:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=umich.edu; s=google-2016-06-03; h=mime-version:in-reply-to:references:from:date:message-id:subject:to :cc; bh=iK3IIm3ZHiR69uai5inhOIRc/xkVLSmbQI2ZnQgC458=; b=qMXLk64LanfsSn/zEsKxuPYgoufGr0DQxV7RqQSfQerzkDZpASq+AJFzVtY0smAi5+ o/k7UTc/cFy6uP2Pj+ZHxelnrEtbxIahQXwUvBVGD8A6Y0VUWl4d425pX1ZIvbBL1C/u fD6Ngs6NBAMebFw0DlWti0B4O79OS17eYCqwevJO9TFA4AukZ7u4Zl+5UVoGJGV6TTK7 anoGIcb+Rv0RQnIw1aEU4D4HrgkXbUDiNGPAkmzGADpKb54jnlp0oTc21T4eg6UDMLEw 2KZtHRDJPbRM7t+G0tjNwSGqy6nAj+dJA8ld4XUDMn57W4xCkMK7wgDOb7mpntUimzEk a4UQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:in-reply-to:references:from:date :message-id:subject:to:cc; bh=iK3IIm3ZHiR69uai5inhOIRc/xkVLSmbQI2ZnQgC458=; b=F/DU/itjrKWvAIpkHoTlMXcIygWbE4rKTecab40ZXr7W3VYddrJaTBXnQT6LMjrjGu AQm1tFGPTkui2xdxVEbyrqLMkPB43FsEbdbX+DQ/HYoqvkjvv7xETvXQNTWtIwZrAWry cW7RSwuKKK+7bSAN53I7BmqYmDTmIop+wyshPPmukl2moaBohQHKeL8JusIIS+aTO2dS DJ37KjAbv7p+H1uRUM/OEo/YWZynYd1Dfy4z3pKXw7mOqucoDpA7D8GnfLsBBU1P39Go bxAif+b6lnLTBedTohFeca6nWYeFGAf7mpQdmUvrxhzdC5s0xKD4ldaZwEGvHlYdY1rr Wv2g==
+X-Gm-Message-State: AIVw112/B2pHZocUisTidpz7eCP5Ecn70tnny1zZKnlwT4vmaSG+vOi0 jpbCOLhL6TC1QgDrlgqTDRTsKCD27ARl
+X-Received: by 10.37.115.205 with SMTP id o196mr4774065ybc.273.1501612410353;  Tue, 01 Aug 2017 11:33:30 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.129.105.11 with HTTP; Tue, 1 Aug 2017 11:33:29 -0700 (PDT)
+In-Reply-To: <1ef4af8b-f28f-992a-b68b-73591ac8ca56@cis-india.org>
+References: <CAHVYM+AmJ5dsCQdO4RA9wfYWqZ_r7ioGeGfY5tv-sjfFyca0Ww@mail.gmail.com> <5587aca3-20c4-0aa0-6b3b-4615c80fabc9@cs.tcd.ie> <CAHVYM+DzWpbxC7VvqwfrBnGXvH9zN1iRGVzo1UqSsjnkB+LM2w@mail.gmail.com> <5c38b223-d84e-1896-5324-d234d3529a5e@cisco.com> <20170801115038.ej75wytvfz2pp6ea@mir> <20170801115233.w3sn5krofqp2a7m4@mir> <1ef4af8b-f28f-992a-b68b-73591ac8ca56@cis-india.org>
+From: Bob Harold <rharolde@umich.edu>
+Date: Tue, 1 Aug 2017 14:33:29 -0400
+Message-ID: <CA+nkc8Ck6vkK3HdjYaXdY0Ra4zWQbr2qgHEUNSUMyT5e-zsjVQ@mail.gmail.com>
+To: Pranesh Prakash <pranesh@cis-india.org>
+Cc: Niels ten Oever <niels@article19.org>, Eliot Lear <lear@cisco.com>,  Mando Rachovitsa <adamantia.rachovitsa@gmail.com>, hrpc@irtf.org,  Stephen Farrell <stephen.farrell@cs.tcd.ie>
+Content-Type: multipart/alternative; boundary="94eb2c0977744f60080555b5626f"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/OzBvW4jt1Is6ALRqJ7MKzIqvX4U>
+Subject: Re: [hrpc] Bob asks Alice about human rights
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 01 Aug 2017 18:33:37 -0000
+
+--94eb2c0977744f60080555b5626f
+Content-Type: text/plain; charset="UTF-8"
+
+On Tue, Aug 1, 2017 at 1:07 PM, Pranesh Prakash <pranesh@cis-india.org>
+wrote:
+
+> Niels ten Oever <niels@article19.org> [2017-08-01 13:52:33 +0200]:
+>
+>> Also quite some work has been done on defining when and how surveillance
+>> could be legally legitimate, have a look here:
+>>
+>> https://necessaryandproportionate.org/principles
+>>
+>
+> Folks here might particularly be interested in this:
+>
+> ++++
+> Principle 11: Integrity of communications and systems
+> In order to ensure the integrity, security and privacy of communications
+> systems, and in recognition of the fact that compromising security for
+> State purposes almost always compromises security more generally, States
+> should not compel service providers or hardware or software vendors to
+> build surveillance or monitoring capability into their systems, or to
+> collect or retain particular information purely for State Communications
+> Surveillance purposes. A priori data retention or collection should never
+> be required of service providers. Individuals have the right to express
+> themselves anonymously; States should therefore refrain from compelling the
+> identification of users.
+> ++++
+>
+> It would be interesting to look at (informational) RFC 3924[1] in light of
+> this principle.
+>
+> I also find it interesting how while the rest of the principles seem to
+> promote balancing tests, this particular principle outright bans a priori
+> data retention or collection requirements.  Is there any data retention or
+> collection regime currently in place anywhere in the world that is 'a
+> posteriori'?  It seems to me that all general data retention requirements
+> (say, keeping all call detail records for a period of X months, or keeping
+> all web server logs with IP addresses for X months) are thus a violation of
+> Principle 11.
+>
+>  [1]: https://tools.ietf.org/html/rfc3924
+>
+> --
+> Pranesh Prakash
+> Policy Director, Centre for Internet and Society
+> http://cis-india.org | tel:+91 80 40926283
+> sip:pranesh@ostel.co | xmpp:pranesh@cis-india.org
+> https://twitter.com/pranesh
+>
+>
+What pops into mind for a data retention case is DHCP logs so that a DMCA
+notice can be forwarded to the person who had a particular IP at a
+particular time.
+
+-- 
+Bob Harold
+
+--94eb2c0977744f60080555b5626f
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">=
+On Tue, Aug 1, 2017 at 1:07 PM, Pranesh Prakash <span dir=3D"ltr">&lt;<a hr=
+ef=3D"mailto:pranesh@cis-india.org" target=3D"_blank">pranesh@cis-india.org=
+</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin=
+:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">Niels ten Oever &l=
+t;<a href=3D"mailto:niels@article19.org" target=3D"_blank">niels@article19.=
+org</a>&gt; [2017-08-01 13:52:33 +0200]:<span class=3D""><br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">
+Also quite some work has been done on defining when and how surveillance co=
+uld be legally legitimate, have a look here:<br>
+<br>
+<a href=3D"https://necessaryandproportionate.org/principles" rel=3D"norefer=
+rer" target=3D"_blank">https://necessaryandproportion<wbr>ate.org/principle=
+s</a><br>
+</blockquote>
+<br></span>
+Folks here might particularly be interested in this:<br>
+<br>
+++++<br>
+Principle 11: Integrity of communications and systems<br>
+In order to ensure the integrity, security and privacy of communications sy=
+stems, and in recognition of the fact that compromising security for State =
+purposes almost always compromises security more generally, States should n=
+ot compel service providers or hardware or software vendors to build survei=
+llance or monitoring capability into their systems, or to collect or retain=
+ particular information purely for State Communications Surveillance purpos=
+es. A priori data retention or collection should never be required of servi=
+ce providers. Individuals have the right to express themselves anonymously;=
+ States should therefore refrain from compelling the identification of user=
+s.<br>
+++++<br>
+<br>
+It would be interesting to look at (informational) RFC 3924[1] in light of =
+this principle.<br>
+<br>
+I also find it interesting how while the rest of the principles seem to pro=
+mote balancing tests, this particular principle outright bans a priori data=
+ retention or collection requirements.=C2=A0 Is there any data retention or=
+ collection regime currently in place anywhere in the world that is &#39;a =
+posteriori&#39;?=C2=A0 It seems to me that all general data retention requi=
+rements (say, keeping all call detail records for a period of X months, or =
+keeping all web server logs with IP addresses for X months) are thus a viol=
+ation of Principle 11.<br>
+<br>
+=C2=A0[1]: <a href=3D"https://tools.ietf.org/html/rfc3924" rel=3D"noreferre=
+r" target=3D"_blank">https://tools.ietf.org/html/rf<wbr>c3924</a><span clas=
+s=3D"HOEnZb"><font color=3D"#888888"><br>
+<br>
+-- <br>
+Pranesh Prakash<br>
+Policy Director, Centre for Internet and Society<br>
+<a href=3D"http://cis-india.org" rel=3D"noreferrer" target=3D"_blank">http:=
+//cis-india.org</a> | tel:<a href=3D"tel:%2B91%2080%2040926283" value=3D"+9=
+18040926283" target=3D"_blank">+91 80 40926283</a><br>
+<a href=3D"mailto:sip%3Apranesh@ostel.co" target=3D"_blank">sip:pranesh@ost=
+el.co</a> | <a href=3D"mailto:xmpp%3Apranesh@cis-india.org" target=3D"_blan=
+k">xmpp:pranesh@cis-india.org</a><br>
+<a href=3D"https://twitter.com/pranesh" rel=3D"noreferrer" target=3D"_blank=
+">https://twitter.com/pranesh</a><br>
+<br></font></span></blockquote><div><br></div><div>What pops into mind for =
+a data retention case is DHCP logs so that a DMCA notice can be forwarded t=
+o the person who had a particular IP at a particular time.</div><div><br></=
+div><div>--=C2=A0</div><div>Bob Harold</div></div><br></div></div>
+
+--94eb2c0977744f60080555b5626f--
+
+
+From nobody Tue Aug  1 12:41:14 2017
+Return-Path: <bzs@theworld.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id BC37712EB5D for <hrpc@ietfa.amsl.com>; Tue,  1 Aug 2017 12:41:08 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.58
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.58 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_LOW=-0.7, T_SPF_HELO_PERMERROR=0.01, T_SPF_PERMERROR=0.01] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id IZEmomd_Y2km for <hrpc@ietfa.amsl.com>; Tue,  1 Aug 2017 12:41:04 -0700 (PDT)
+Received: from TheWorld.com (pcls6.std.com [192.74.137.146]) by ietfa.amsl.com (Postfix) with ESMTP id A63261322F7 for <hrpc@irtf.org>; Tue,  1 Aug 2017 12:41:04 -0700 (PDT)
+Received: from pcls8.std.com (pcls8.std.com [192.74.137.148]) by TheWorld.com (8.14.5/8.14.5) with ESMTP id v71JeHqZ026915; Tue, 1 Aug 2017 15:40:19 -0400
+Received: from pcls8 (localhost [127.0.0.1]) by pcls8.std.com (8.14.5/8.14.5) with ESMTP id v71JeB2F029033; Tue, 1 Aug 2017 15:40:11 -0400
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Message-ID: <22912.55579.942617.621012@gargle.gargle.HOWL>
+Date: Tue, 1 Aug 2017 15:40:11 -0400
+From: bzs@theworld.com
+To: Eliot Lear <lear@cisco.com>
+Cc: Stephen Farrell <stephen.farrell@cs.tcd.ie>, Mando Rachovitsa <adamantia.rachovitsa@gmail.com>, hrpc@irtf.org
+In-Reply-To: <e66ece13-a6c9-e3b1-7db8-54c1f5440e6f@cisco.com>
+References: <CAHVYM+AmJ5dsCQdO4RA9wfYWqZ_r7ioGeGfY5tv-sjfFyca0Ww@mail.gmail.com> <5587aca3-20c4-0aa0-6b3b-4615c80fabc9@cs.tcd.ie> <CAHVYM+DzWpbxC7VvqwfrBnGXvH9zN1iRGVzo1UqSsjnkB+LM2w@mail.gmail.com> <5c38b223-d84e-1896-5324-d234d3529a5e@cisco.com> <af8b6591-5a5c-be9d-c692-44a26dcdf4eb@cs.tcd.ie> <e66ece13-a6c9-e3b1-7db8-54c1f5440e6f@cisco.com>
+X-Mailer: VM 8.2.0b under 24.3.1 (x86_64-suse-linux-gnu)
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/0k0OwAg_UuzmC06WmX55lxal7nM>
+Subject: Re: [hrpc] Bob asks Alice about human rights
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 01 Aug 2017 19:41:09 -0000
+
+Perhaps this seems a little far-fetched on first glance but I think,
+for grey areas such as the favorite fishing expeditions for
+"terrorists", there needs to be accounting and a cost.
+
+If we the people are supposedly benefiting from such operations then
+we should accept responsibility, including financial.
+
+Major telcos were paid hundreds of millions by the US govt under CALEA
+and other wiretap programs.
+
+  http://www.cbsnews.com/news/verizon-att-get-most-bucks-from-feds-for-wiretaps/
+
+  http://gizmodo.com/5898964/this-is-how-much-carriers-charge-for-cellphone-wiretaps
+
+Why not something for those found innocent or otherwise impacted?
+
+Maybe that seems out of scope but do we even have a notion of
+accounting for such activity? Obviously the telcos do a very good job
+of accounting for this.
+
+To account for something requires protocol modifications.
+
+So this presents three situations:
+
+  1. No human rights etc issues, most communications.
+
+  2. Violation of human rights, stop it.
+
+  3. A huge gray area where intrusion might do some good in terms of
+  safety and security.
+
+This idea addresses primarily #3.
+
+-- 
+        -Barry Shein
+
+Software Tool & Die    | bzs@TheWorld.com             | http://www.TheWorld.com
+Purveyors to the Trade | Voice: +1 617-STD-WRLD       | 800-THE-WRLD
+The World: Since 1989  | A Public Information Utility | *oo*
+
+
+From nobody Wed Aug  2 00:46:31 2017
+Return-Path: <lear@cisco.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 4759812EC4B for <hrpc@ietfa.amsl.com>; Wed,  2 Aug 2017 00:46:29 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -14.502
+X-Spam-Level: 
+X-Spam-Status: No, score=-14.502 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, RCVD_IN_DNSWL_HI=-5, RP_MATCHES_RCVD=-0.001, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001, USER_IN_DEF_DKIM_WL=-7.5] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=cisco.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id kKBYhUA0275f for <hrpc@ietfa.amsl.com>; Wed,  2 Aug 2017 00:46:27 -0700 (PDT)
+Received: from aer-iport-4.cisco.com (aer-iport-4.cisco.com [173.38.203.54]) (using TLSv1.2 with cipher DHE-RSA-SEED-SHA (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 298A8126BF3 for <hrpc@irtf.org>; Wed,  2 Aug 2017 00:46:27 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=cisco.com; i=@cisco.com; l=3748; q=dns/txt; s=iport; t=1501659987; x=1502869587; h=subject:to:cc:references:from:message-id:date: mime-version:in-reply-to; bh=KElUdTf/NRCxoHIIfmd+4S6b5Q4t4pdm7xAykyS4lAM=; b=N2jcpYAyOPy5aACAP30V2QQp9yKYjYRPGZq5sNoJGVM65ozxZneLYDYk PdbnCh+44dS5BPsLQmSB/l2HXUufmoIl25SxmLu7GlkLQ4c5X9Y/3yc+f IBJSSaxrcy66PfHREDXCFht7uKFSh4rN4qa5wBSZTb1yArf49O6yscyct I=;
+X-Files: signature.asc : 481
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: =?us-ascii?q?A0DDAADEgoFZ/xbLJq1dGgEBAQECAQEBA?= =?us-ascii?q?QgBAQEBgy+BD20njg5zkH2WEA6CBAcnhRkChGsYAQIBAQEBAQEBayiFGQEFI0Q?= =?us-ascii?q?SEAsYFRUCAlcTBgIBARaIAAGCFBCvMIImi1ABAQEBAQEEAQEBAQEUD4MohVyCf?= =?us-ascii?q?IQwgQINgkeCYQWfe4QxgiCBAYxZgmSIVIcMlXofOIEKMiEIHBWFYByBaT42iW0?= =?us-ascii?q?BAQE?=
+X-IronPort-AV: E=Sophos;i="5.41,310,1498521600";  d="asc'?scan'208";a="656505498"
+Received: from aer-iport-nat.cisco.com (HELO aer-core-4.cisco.com) ([173.38.203.22]) by aer-iport-4.cisco.com with ESMTP/TLS/DHE-RSA-AES256-GCM-SHA384; 02 Aug 2017 07:46:06 +0000
+Received: from [10.61.104.160] (dhcp-10-61-104-160.cisco.com [10.61.104.160]) by aer-core-4.cisco.com (8.14.5/8.14.5) with ESMTP id v727k5GV032722;  Wed, 2 Aug 2017 07:46:06 GMT
+To: bzs@theworld.com
+Cc: Stephen Farrell <stephen.farrell@cs.tcd.ie>, Mando Rachovitsa <adamantia.rachovitsa@gmail.com>, hrpc@irtf.org
+References: <CAHVYM+AmJ5dsCQdO4RA9wfYWqZ_r7ioGeGfY5tv-sjfFyca0Ww@mail.gmail.com> <5587aca3-20c4-0aa0-6b3b-4615c80fabc9@cs.tcd.ie> <CAHVYM+DzWpbxC7VvqwfrBnGXvH9zN1iRGVzo1UqSsjnkB+LM2w@mail.gmail.com> <5c38b223-d84e-1896-5324-d234d3529a5e@cisco.com> <af8b6591-5a5c-be9d-c692-44a26dcdf4eb@cs.tcd.ie> <e66ece13-a6c9-e3b1-7db8-54c1f5440e6f@cisco.com> <22912.55579.942617.621012@gargle.gargle.HOWL>
+From: Eliot Lear <lear@cisco.com>
+Message-ID: <5c770af8-81cc-e893-ae99-b2e02e53dde5@cisco.com>
+Date: Wed, 2 Aug 2017 09:46:11 +0200
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:52.0) Gecko/20100101 Thunderbird/52.2.1
+MIME-Version: 1.0
+In-Reply-To: <22912.55579.942617.621012@gargle.gargle.HOWL>
+Content-Type: multipart/signed; micalg=pgp-sha256; protocol="application/pgp-signature"; boundary="WLASsDbc5xVvKl7hkmWrXQTvXU9sbfW7J"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/b2cDt3coNKHAsdxOB9zdhY1N29E>
+Subject: Re: [hrpc] Bob asks Alice about human rights
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 02 Aug 2017 07:46:29 -0000
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--WLASsDbc5xVvKl7hkmWrXQTvXU9sbfW7J
+Content-Type: multipart/mixed; boundary="eRgwEwwWsk49JKHCj1p0jfUxRpeh1clX9";
+ protected-headers="v1"
+From: Eliot Lear <lear@cisco.com>
+To: bzs@theworld.com
+Cc: Stephen Farrell <stephen.farrell@cs.tcd.ie>,
+ Mando Rachovitsa <adamantia.rachovitsa@gmail.com>, hrpc@irtf.org
+Message-ID: <5c770af8-81cc-e893-ae99-b2e02e53dde5@cisco.com>
+Subject: Re: [hrpc] Bob asks Alice about human rights
+References: <CAHVYM+AmJ5dsCQdO4RA9wfYWqZ_r7ioGeGfY5tv-sjfFyca0Ww@mail.gmail.com>
+ <5587aca3-20c4-0aa0-6b3b-4615c80fabc9@cs.tcd.ie>
+ <CAHVYM+DzWpbxC7VvqwfrBnGXvH9zN1iRGVzo1UqSsjnkB+LM2w@mail.gmail.com>
+ <5c38b223-d84e-1896-5324-d234d3529a5e@cisco.com>
+ <af8b6591-5a5c-be9d-c692-44a26dcdf4eb@cs.tcd.ie>
+ <e66ece13-a6c9-e3b1-7db8-54c1f5440e6f@cisco.com>
+ <22912.55579.942617.621012@gargle.gargle.HOWL>
+In-Reply-To: <22912.55579.942617.621012@gargle.gargle.HOWL>
+
+--eRgwEwwWsk49JKHCj1p0jfUxRpeh1clX9
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Content-Language: en-US
+
+Barry,
+
+The 451 error message was something of a sop to that concept, so that
+there is at least transparency when material is taken down.  The
+transparency reports that many services issue provide some of this
+information.  But from a protocol design standpoint, it's not clear to
+me what sorts of elements would be useful in this context.  Pretty
+typically we seem to be in the business of removing as much as possible
+that might be subject to abuse (Stephen has been particularly careful to
+raise those sorts of concerns).
+
+But perhaps you have an example in mind?
+
+Eliot
+
+
+On 8/1/17 9:40 PM, bzs@theworld.com wrote:
+> Perhaps this seems a little far-fetched on first glance but I think,
+> for grey areas such as the favorite fishing expeditions for
+> "terrorists", there needs to be accounting and a cost.
+>
+> If we the people are supposedly benefiting from such operations then
+> we should accept responsibility, including financial.
+>
+> Major telcos were paid hundreds of millions by the US govt under CALEA
+> and other wiretap programs.
+>
+>   http://www.cbsnews.com/news/verizon-att-get-most-bucks-from-feds-for-=
+wiretaps/
+>
+>   http://gizmodo.com/5898964/this-is-how-much-carriers-charge-for-cellp=
+hone-wiretaps
+>
+> Why not something for those found innocent or otherwise impacted?
+>
+> Maybe that seems out of scope but do we even have a notion of
+> accounting for such activity? Obviously the telcos do a very good job
+> of accounting for this.
+>
+> To account for something requires protocol modifications.
+>
+> So this presents three situations:
+>
+>   1. No human rights etc issues, most communications.
+>
+>   2. Violation of human rights, stop it.
+>
+>   3. A huge gray area where intrusion might do some good in terms of
+>   safety and security.
+>
+> This idea addresses primarily #3.
+>
+
+
+
+--eRgwEwwWsk49JKHCj1p0jfUxRpeh1clX9--
+
+--WLASsDbc5xVvKl7hkmWrXQTvXU9sbfW7J
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG/MacGPG2 v2
+
+iQEcBAEBCAAGBQJZgYNDAAoJEIe2a0bZ0nozO5wH/1whDYf237fm/loEiExOaW0I
+27FzyEXeuT24Qmc+Fi5lo90tULoQHrXAgBMGzm4hNxCN/ADvlzHpLbfSC4tdczN1
+30aLM3YbWp+HNrqo2EzP582zxAvkd+yCt9tt68HLk6BvZR1g+zw0R7yuzcqiikpN
+tXKzwJkDj/0c3KTA+lTlq5tMGJ+L8x2NKAVAdBopp9rl4fc8Usdva1P7UYrdk94D
+K1qJjf4yr+KKUjOHYOUv4iPKCdRWn+VYpM1BhmBv9nbLt/4DKMgqJZrwitrVN4OE
+Eo2ROq01by/2kHY/km6XDJdd8cIvm+VoFkn5wf2gwYKCeG4CvmIPhDxe+w/QXW4=
+=YUXn
+-----END PGP SIGNATURE-----
+
+--WLASsDbc5xVvKl7hkmWrXQTvXU9sbfW7J--
+
+
+From nobody Wed Aug  2 21:29:25 2017
+Return-Path: <mnot@mnot.net>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 924051321E7 for <hrpc@ietfa.amsl.com>; Wed,  2 Aug 2017 21:29:23 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.721
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.721 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, RCVD_IN_DNSWL_LOW=-0.7, RCVD_IN_MSPIKE_H3=-0.01, RCVD_IN_MSPIKE_WL=-0.01, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=mnot.net header.b=hh/+G03n; dkim=pass (2048-bit key) header.d=messagingengine.com header.b=GtSItOqS
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id I07CQpNvs9MO for <hrpc@ietfa.amsl.com>; Wed,  2 Aug 2017 21:29:22 -0700 (PDT)
+Received: from out1-smtp.messagingengine.com (out1-smtp.messagingengine.com [66.111.4.25]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 0325912EC37 for <hrpc@irtf.org>; Wed,  2 Aug 2017 21:29:22 -0700 (PDT)
+Received: from compute3.internal (compute3.nyi.internal [10.202.2.43]) by mailout.nyi.internal (Postfix) with ESMTP id 55D3120860; Thu,  3 Aug 2017 00:29:21 -0400 (EDT)
+Received: from frontend1 ([10.202.2.160]) by compute3.internal (MEProxy); Thu, 03 Aug 2017 00:29:21 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mnot.net; h=cc :content-transfer-encoding:content-type:date:from:in-reply-to :message-id:mime-version:references:subject:to:x-me-sender :x-me-sender:x-sasl-enc:x-sasl-enc; s=fm1; bh=N+aZlNoHr8/787YfKZ LaERYRGBorgnxlkEtrPJTcCLI=; b=hh/+G03n1/npQAHsRvJMJsQ7Cid0z44mu/ GVaN5UDmmaHOgqMoLpCbT7SDDFa3U1RaQFUBI4NMSHbtiMgOtZslB+83cg9l58rZ lc9K8bWnmtBN8g/DcVRG+ebN4Lnl4BZqdPS77YbQa/dM3uLUKMVKi2X2FNI9lxbP h2L59RsVM0mQuvnM5nVrdAPYJX9FTElxzpLSdjLwGy7xfSwJhFyJNilJmDoI4Anl OtINXlVYPCb1tKRoSAn+wwIOCqNNe9VMcYFaey9J0qANrMfjF8v4cXOXiRoan7A2 MTRsZQlQQJYwdGEhPozhWLRas/0oUPEFp2t00gvVJMmyYQMXWjGw==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d= messagingengine.com; h=cc:content-transfer-encoding:content-type :date:from:in-reply-to:message-id:mime-version:references :subject:to:x-me-sender:x-me-sender:x-sasl-enc:x-sasl-enc; s= fm1; bh=N+aZlNoHr8/787YfKZLaERYRGBorgnxlkEtrPJTcCLI=; b=GtSItOqS 0e89x1arAQJg1aUuWTTvLoDP3B6Fz3S9CEiCJrbPjTGB2yP/HClY6+7FZj2J6OPO jsouu5GQ98gvVSekXzrV5Xcpb/UFVdEVWi96A2sYppuSqB0Mumw/rMF8qzFxRJ0E owJqRg8lobs/cpSBOaYsbFmADDKZvai67jxdWosSLb///6/rBXKuIrnfAYGFBeeG RN9or5altE/IhGh5kJ462K3tpzL5kLo/F9kqC4wuFLtvgAnssFPbJRCu0/ea9Ljt QUqzziA/S61o7+8RHkVvyZAolxlCv1aKUZovQE3Tjpf4HCnM0DowgWLoDwjJT2vd W9hz88pEBa4vYg==
+X-ME-Sender: <xms:oaaCWQ6q_q1F99Udxo1q2z-oY4VLwdmvXdeSiDVOoDfCMjgZOijaZg>
+X-Sasl-enc: qn6Y/v4fccpqoX+zcYr8SqOoDFUhlD/Q0IPCnHuRkoi/ 1501734560
+Received: from [192.168.1.18] (cpe-124-188-19-231.hdbq1.win.bigpond.net.au [124.188.19.231]) by mail.messagingengine.com (Postfix) with ESMTPA id EB57B7FA71; Thu,  3 Aug 2017 00:29:19 -0400 (EDT)
+Content-Type: text/plain; charset=us-ascii
+Mime-Version: 1.0 (Mac OS X Mail 10.3 \(3273\))
+From: Mark Nottingham <mnot@mnot.net>
+In-Reply-To: <20170801084844.vzjowqk4usut4b7k@mir>
+Date: Thu, 3 Aug 2017 14:29:16 +1000
+Cc: Mando Rachovitsa <adamantia.rachovitsa@gmail.com>, "hrpc@irtf.org" <hrpc@irtf.org>
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <D048681F-2C0B-4F70-BE70-A9464475DAC1@mnot.net>
+References: <151adee7-7524-567b-54cd-92d28b9615b0@article19.org> <ADDCD50E-409D-4CB2-81B2-4BA3769FA758@mnot.net> <CAHVYM+CMOa=KNR08yfsSkXn8V=jyWUXQzxx0_fzrMGQKZi3iTQ@mail.gmail.com> <BF9A2DD1-EF68-4B7F-8BAC-084A79001857@mnot.net> <20170801084844.vzjowqk4usut4b7k@mir>
+To: Niels ten Oever <niels@article19.org>
+X-Mailer: Apple Mail (2.3273)
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/fAsNiaXHdZM5Ftc_NY19dPjqgHU>
+Subject: Re: [hrpc] for the users
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 03 Aug 2017 04:29:23 -0000
+
+> On 1 Aug 2017, at 6:48 pm, Niels ten Oever <niels@article19.org> =
+wrote:
+>=20
+> On Tue, Aug 01, 2017 at 11:36:31AM +1000, Mark Nottingham wrote:
+>>> - Finally, I get that the onus of the discussion lies in conflicts =
+of interests between providers or services and equipment AND users of =
+the Internet. How about, however, conflicts between interests of =
+different communities/users? [this may be completely out of the scope of =
+your draft but I had to ask :)].
+>>=20
+>> I'd be surprised if it didn't happen. I don't think this draft is =
+going to help in that situation; we need to fall back on more specific =
+guidance, depending on the situation.
+>>=20
+>=20
+> That is nice and elegant (and resolves my issues as well methinks). =
+Perhaps you could put this in the draft?
+
+I've tried to clarify this:
+
+"""
+Note that "harm" is not defined in this document; that is something that =
+the relevant body (e.g.,
+Working Group) needs to discuss. The IETF has already established a body =
+of guidance for such
+decisions, including (but not limited to) {{?RFC7754}} on filtering, =
+{{?RFC7258}} and {{?RFC7624}}
+on pervasive surveillance, {{?RFC7288}} on host firewalls, and =
+{{?RFC6973}} regarding privacy
+considerations.
+
+Over time, additional guidance is likely to be defined. In the absence =
+of specific guidance on a
+given topic (such as that referenced above), this document provides a =
+general approach to making
+such decisions.
+"""
+
+Does that help?
+
+Cheers,
+
+--
+Mark Nottingham   https://www.mnot.net/
+
+
+From nobody Mon Aug 14 14:26:13 2017
+Return-Path: <session-request@ietf.org>
+X-Original-To: hrpc@irtf.org
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from ietfa.amsl.com (localhost [IPv6:::1]) by ietfa.amsl.com (Postfix) with ESMTP id 454FB132436; Mon, 14 Aug 2017 14:26:11 -0700 (PDT)
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+From: IETF Meeting Session Request Tool <session-request@ietf.org>
+To: <session-request@ietf.org>
+Cc: hrpc-chairs@ietf.org, niels@article19.org, hrpc@irtf.org, irtf-chair@irtf.org
+X-Test-IDTracker: no
+X-IETF-IDTracker: 6.58.0
+Auto-Submitted: auto-generated
+Precedence: bulk
+Message-ID: <150274597127.10404.16604425869905821421.idtracker@ietfa.amsl.com>
+Date: Mon, 14 Aug 2017 14:26:11 -0700
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/2IrKoZbubS_qN_FmaL2FXb3BXKg>
+Subject: [hrpc] hrpc - New Meeting Session Request for IETF 100
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.22
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 14 Aug 2017 21:26:11 -0000
+
+A new meeting session request has just been submitted by Niels ten Oever, a Chair of the hrpc working group.
+
+
+---------------------------------------------------------
+Working Group Name: Human Rights Protocol Considerations
+Area Name: IRTF
+Session Requester: Niels ten Oever
+
+Number of Sessions: 1
+Length of Session(s):  2 Hours
+Number of Attendees: 120
+Conflicts to Avoid: 
+ First Priority:  dnsop
+ Second Priority:  quic
+ Third Priority: saag
+
+
+People who must be present:
+  Avri Doria
+  Niels ten Oever
+
+Resources Requested:
+
+Special Requests:
+  Pls don&#39;t conflict with HTTPbis either.
+---------------------------------------------------------
+

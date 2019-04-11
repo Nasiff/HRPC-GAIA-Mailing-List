@@ -1,0 +1,2354 @@
+
+From nobody Mon Aug  3 09:48:49 2015
+Return-Path: <joana@varonferraz.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 877191ACEEB for <hrpc@ietfa.amsl.com>; Mon,  3 Aug 2015 09:48:47 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 3.943
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.943 tagged_above=-999 required=5 tests=[BAYES_50=0.8, FB_GET_MEDS=2.75, GB_I_LETTER=-2, GB_PHARMACY=1, HELO_EQ_NL=0.55, HOST_EQ_NL=1.545, RCVD_IN_DNSWL_LOW=-0.7, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Kw9Qd3kNfHB3 for <hrpc@ietfa.amsl.com>; Mon,  3 Aug 2015 09:48:38 -0700 (PDT)
+Received: from smarthost1.greenhost.nl (smarthost1.greenhost.nl [195.190.28.81]) (using TLSv1 with cipher AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 66EC11ACEFB for <hrpc@irtf.org>; Mon,  3 Aug 2015 09:48:38 -0700 (PDT)
+Received: from smtp.greenhost.nl ([213.108.104.138]) by smarthost1.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_128_CBC_SHA1:16) (Exim 4.72) (envelope-from <joana@varonferraz.com>) id 1ZMIuZ-0006Kq-U3 for hrpc@irtf.org; Mon, 03 Aug 2015 18:48:36 +0200
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="=_7b86a1e5e4b8ab6fc7daaa2fef6fbc9c"
+Date: Mon, 03 Aug 2015 18:48:27 +0200
+From: Joana Varon <joana@varonferraz.com>
+To: hrpc@irtf.org
+Message-ID: <d31e6b5e5d58a5b57c43fb95f5e6825e@varonferraz.com>
+X-Sender: joana@varonferraz.com
+User-Agent: Roundcube Webmail/0.9.3
+X-Authenticated-As-Hash: 0663834574f9da71d8f82ee71c27915bbc5237b0
+X-Virus-Scanned: by clamav at smarthost1.samage.net
+X-Scan-Signature: 94416185ca11d70fca1050b8c8bfe755
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/hhDeSXzm3e6Psh8o6HpFnMC10Zc>
+Subject: [hrpc] Fwd: Internet Infrastructure and IP Censorship by David Post
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 03 Aug 2015 16:48:47 -0000
+
+--=_7b86a1e5e4b8ab6fc7daaa2fef6fbc9c
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset=UTF-8;
+ format=flowed
+
+Dear all,
+This might be interesting to have a look at.
+best
+joana
+
+
+
+-------- Original Message --------
+Subject: Internet Infrastructure and IP Censorship by David Post
+Date: 2015-08-03 17:10
+ From: Robin Gross
+
+Hi all,
+
+NCSG member David G. Post has written a compelling new article on the
+DNS as a tool of censorship:
+  
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/
+[3]
+
+IP JUSTICE JOURNAL: INTERNET INFRASTRUCTURE AND IP CENSORSHIP BY DAVID
+POST
+
+  [4]
+
+INTERNET INFRASTRUCTURE & IP CENSORSHIP
+
+BY DAVID G. POST – AUGUST 1, 2015
+
+Many scholars and other observers of developments in Internet
+governance, law, and policy have commented upon an unusual and important
+phenomenon that has become more widespread in recent years: using
+control over access to critical portions of the Internet’s technical
+infrastructure – the system comprising the underlying protocols for
+routing, naming, and addressing, along with related technical standards
+and the agreements, formal and informal, through which they are
+implemented across the Internet, what Laura DeNardis calls “Critical
+Internet Resources” (CIRs)[2] [5] – to enforce private and public
+law.
+
+Three examples illustrate the nature of this new phenomenon.
+
+1. THE UDRP In the realm of private law and the enforcement of private
+rights, the paradigmatic illustration is ICANN’s[3] [6]Uniform Dispute
+Resolution Procedure (UDRP).[4] [7] The UDRP is an ICANN-operated
+mandatory arbitration process that deals with “cyber-squatting,”
+_i.e.,_ the practice of registering domain names that mirror (or closely
+resemble) existing trademarks, for the purpose of re-selling the domain
+name to the trademark owner. The UDRP allows a trademark holder to
+submit a cyber-squatting complaint to an ICANN-accredited arbitrator,
+who is charged with applying ICANN’s substantive rules[5] [8] for
+determining whether the cyber-squatting offense has been committed.
+
+Decisions by the UDRP arbitrators are enforced _solely_ through control
+over a particular CIR – the Internet’s domain name system
+(“DNS”).[6] [9] That is, UDRP arbitrators can’t award monetary
+damages of any kind, nor can they impose any punishment or other
+liability on the offending cyber-squatters themselves; instead, if they
+rule in the trademark owner’s favor, they are authorized only to
+either (a) cancel the offending domain name registration, _i.e., _to
+remove it from the set of interlocking databases constituting the DNS,
+or (b) transfer the registration from the defendant to the trademark
+holder, _i.e., _to substitute the trademark holder for the defendant in
+those database entries.
+
+The arbitrator accomplishes this by ordering the domain name
+_registrar_[7] [10] that issued the offending registration to delete (or
+modify, in the case of a transfer) the database entry corresponding to
+that domain name, and to communicate that deletion/modification to the
+relevant domain name _registry._ Enforcement of the arbitrator’s order
+is assured by the contracts under which ICANN enforces its policies
+across the DNS:[8] [11] _Registrars_ must promise, as a condition of
+obtaining and maintaining ICANN’s accreditation, to enforce all UDRP
+orders;[9] [12] _registries,_ in turn, must promise, as a condition of
+obtaining and maintaining _their_ accreditation with ICANN, to only do
+business with ICANN-accredited registrars, and to process all
+UDRP-imposed changes communicated to them by registrars; and, finally,
+registrars promise to issue domain names only to_registrants_ who agree,
+in _their_ contracts with registrars, to be bound by UDRP decisions.
+
+> Thus, although ICANN itself has no formal regulatory or law-making
+> authority, its UDRP rules and procedures apply globally, binding _all_
+> domain name registrants, registrars, and registries in _all_ TLDs
+> under ICANN’s control,[10] [1]wherever they may be located, to
+> comply with ICANN-promulgated cyber-squatting rules.
+
+It’s a tightly woven enforcement web, and over the 15 years or so of
+its existence, the UDRP has proven to be a remarkably powerful global
+conflict-resolution system; as of 2013, over 50,000 cases, from 175
+countries, had been disposed of quickly and efficiently[11] [13] (though
+whether they have done so fairly is very much open to dispute[12] [14]).
+It derives a great deal of its power from its ability to solve three of
+the most challenging problems surrounding law enforcement on a largely
+borderless medium like the Internet: (1) the problem of choice of law
+(_i.e.,_ determining _whose_ substantive rules apply to conflicts
+involving persons located in different countries), (2) the problem of
+judgment enforcement (_i.e., _obtaining enforcement of a legal judgment
+issued in one jurisdiction against a wrongdoer located in a different
+jurisdiction), and (3) the problem of scale (_i.e.,_functioning
+effectively across a medium that is, as James Grimmelmann nicely put it,
+“sublimely large,”[13] [15] and one that continues to expand in size
+at an exponential rate). Under the UDRP, one set of rules – ICANN’s
+– applies to all disputes, eliminating the choice of law problem. They
+can be effective entirely without reference to the physical location of
+_any_ of the parties involved – the complaining trademark owner, the
+domain name registrant, the registrar who issued the domain name in
+question, or the registry of the relevant TLD – because they can be
+enforced through the globally-effective domain name databases
+themselves. And because the UDRP leverages off of existing automated
+mechanisms to process domain name registration information,[14] [16] it
+can operate effectively at Internet scale; it is impossible to imagine
+any set of national courts managing to process this volume of litigation
+as quickly, and at such low cost.[15] [17]
+
+2. SOPA/PIPA The UDRP was, in a sense, “proof of concept”: control
+over the DNS can serve as effective leverage to enforce legal rights
+Internet-wide. Perhaps because “cyber-squatting” covers a relatively
+narrow slice of conduct, it has not received (and probably does not
+warrant) an enormous amount of public attention. But such was not the
+case for the second example of DNS-based enforcement, the ill-fated Stop
+Online Piracy Act (SOPA) (and its companion bill, the Protect-IP Act
+(PIPA) introduced in the U.S. Congress in 2011.
+
+SOPA/PIPA targeted the activities of “foreign infringing websites,”
+and would have authorized federal prosecutors, and private rightsholders
+in certain circumstances, to “seize” the domain names associated
+with such sites.[16] [18] If the court agreed that the site in question
+was a “foreign infringing site . . . dedicated to the theft of U.S.
+property,” or had “facilitated the commission of” infringing acts,
+the statute authorized it to order a wide range of Internet
+intermediaries – ISPs, domain name registrars, and domain name
+registries, along with a variety of financial intermediaries – to take
+“all technically feasible and reasonable measures” to prevent
+end-user access to those sites, including “measures designed to
+prevent the domain name of the foreign infringing site (or portion
+thereof) from resolving to that domain name’s IP address.”
+
+Many factors contributed to the astonishing and unprecedented “surge
+of mobilization” that greeted (and ultimately overwhelmed) SOPA and
+PIPA,[17] [19] but one important component of the extraordinary public
+campaign against the bills was the notion that the bills threatened, in
+the words of one of the influential documents published at the time, to
+“break the Internet” through its use of court-ordered DNS
+filtering:[18] [20]
+
+[T]he bills represent an unprecedented, legally-sanctioned assault on
+the Internet’s critical technical infrastructure. Based upon nothing
+more than an application by a federal prosecutor (or, in certain
+circumstances, an intellectual property rights holder) alleging that a
+foreign website is “dedicated to infringing activities,” Protect IP
+authorizes courts to order all U.S. Internet service providers, domain
+name registries, domain name registrars, and operators of domain name
+servers – a category that includes hundreds of thousands of small and
+medium-sized businesses, colleges, universities, nonprofit
+organizations, and the like – to take steps to prevent the offending
+site’s domain name from resolving to the correct Internet protocol
+address, . . . even when the domains in question are located outside of
+the United States, and registered in top-level domains (e.g., .fr, .de,
+or .jp) whose operators are themselves located outside the United
+States[.]
+
+Directing the remedial power of the courts towards the Internet’s
+technical infrastructure in this sledgehammer fashion . . . threaten[s]
+the fundamental principle of interconnectivity that is at the very heart
+of the Internet. The Internet’s Domain Name System (“DNS”) is a
+foundational building block upon which the Internet has been built and
+upon which its continued functioning critically depends; it is among a
+handful of protocols upon which almost every other protocol, and
+countless Internet applications, rely to operate smoothly. Court-ordered
+removal or replacement of entries from the series of inter-locking
+databases that reside in domain name servers and domain name registries
+around the globe undermines the principle of domain name universality
+– the principle that all domain name servers, wherever they may be
+located across the network, will return the same answer when queried
+with respect to the Internet address of any specific domain name. Much
+of Internet communication, and many of the thousands of protocols and
+applications that together provide the platform for that communication,
+are premised on this principle.[19] [21]
+
+The defeat of SOPA/PIPA has not, however, stopped US law enforcement
+efforts to fight alleged overseas intellectual property infringement
+using the DNS as the primary enforcement tool. Prof. Annemarie Bridy has
+comprehensively documented the Department of Homeland Security’s use
+of the civil forfeiture provisions of federal law to “seize”
+thousands of domain names in recent years on the grounds that they
+“facilitated the production or distribution of infringing content,”
+accomplished by ordering the relevant domain name registries to redirect
+web traffic from the “seized” domains to a site displaying an
+anti-piracy banner bearing the logos of Homeland Security
+Investigations, the IPR Center, and the DOJ. [20] [22]
+
+3. ICANN AND THE “PUBLIC INTEREST”
+
+Compelling domain name registries and registrars to enforce arbitrator
+awards (Illustration 1) or court orders (Illustration 2) as a way to
+police access to the DNS is not the only way in which this portion of
+core Internet infrastructure can be utilized for private and public law
+enforcement purposes. A third example – somewhat more complicated than
+the first two, but no less troubling – illustrates yet another route
+via which infrastructure control can be used for private and public
+rights enforcement.
+
+In 2013, as part of its program of opening up the top-level domain space
+to hundreds of new top-level domains (like .app, .blog, .pharmacy,
+.attorney, .brussels, .property, . . . joining the more familiar .com,
+.edu, .org domains) ICANN inserted two new provisions into the
+“Registry Agreement” that it requires operators of top-level domain
+registries to sign. [21] [23] One provision (“Specification 7”)[22]
+[24] requires registry operators to “implement and adhere to” a set
+of “mandatory rights protection mechanisms (RPMs)” described in
+ICANN’s “Trademark Clearinghouse.”[23] [25] This is a
+“flow-through” requirement; that is, registries must include a
+similar provision in their contracts with all registrars with whom they
+do business, obligating the_registrars_ to implement the RPMs, and
+registrars must include a similar provision in _their _contracts with
+end-users (domain name registrants).
+
+A second provision (“Specification 11”) requires registries to
+comply with various “Public Interest Commitments” (PICs), one of
+which requires registries to deal with (i.e., accept domain name
+registrations from) _only_ those registrars who:
+
+(a) include, in _their_ contracts with domain name registrants, a
+provision “prohibiting registrants from distributing malware,
+abusively operating botnets, phishing,_ piracy, trademark or copyright
+infringement, fraudulent or deceptive practices, counterfeiting or
+otherwise engaging in activity contrary to applicable law”;_
+
+(b) “take reasonable and prompt steps to investigate” any reports
+that registrants are engaging in any such activity “contrary to
+applicable law”; and
+
+(c) “respond appropriately” to such reports, “providing
+consequences for such activities _including suspension of the domain
+name.”_[24] [26]
+
+Additionally, all participants in this contractual web – registries,
+registrars, and registrants – must promise to “adhere to any
+remedies ICANN imposes”[25] [27] should they not live up to these
+PICs, including termination of their ICANN accreditation (and an
+immediate end to their business operations).
+
+Notably, these two provisions were not developed under ICANN’s
+“consensus policy development process,”[26] [28] but were introduced
+at the behest of specific constituencies: the IP rightsholders (Spec.
+7), and the Government Advisory Committee (Spec 11).[27] [29]
+
+One does not have to have too fertile an imagination to see how these
+provisions could enlist registrars and registries in an ICANN-directed
+process to enforce a broad range of laws – “_piracy, trademark or
+copyright infringement, fraudulent or deceptive practices,
+counterfeiting or [any] activity contrary to applicable law” –_ via
+the DNS database entries. If ICANN were to choose to enforce these
+contractual promises, registries and registrars would risk losing their
+accreditation (and therefore their ability to continue their DNS-related
+business activities in any fashion) if they did not satisfy _ICANN_ that
+they are taking “appropriate steps” to suspend end-users who engage
+in “piracy” or any activity “contrary to applicable law.
+Registries and registrars would need to develop policies and procedures
+for investigating charges of unlawful activity, and for suspending
+domain name registrations based on a determination that unlawful
+activity had taken place – subject to satisfying _ICANN_ that their
+efforts are “reasonable” and “appropriate.” Is it reasonable and
+appropriate – _in ICANN’s view_ – to revoke a domain name upon
+receipt of a letter from local law enforcement officials? Or a letter
+from the RIAA? Does the registrar have to notify the domain name
+registrant before taking action? Hold a hearing to provide the operator
+of the domain name an opportunity to defend him/herself? Examine the
+sites to see if they are indeed acting “contrary to applicable law”?
+Consult its lawyers about which law is “applicable” to the sites in
+question, and whether the conduct in question violates it?
+
+ICANN has strenuously disavowed any intention of enforcing these
+contract terms in this way:
+
+“ICANN cannot be put in the position of requiring suspension of domain
+names on the basis of allegations of blasphemy, hate speech, holocaust
+denial, political organizing, full or partial nudity or a host of other
+content that may be illegal somewhere in the world. That would be
+inconsistent with ICANN’s mission, ICANN’s limited remit, and
+ICANN’s responsibility to operate in accordance with a
+consensus-driven multistakeholder model.”[28] [30]
+
+But what was the purpose of inserting these provisions into the
+contracts if there were no intention of enforcing them? Why has ICANN
+set up a new dispute resolution process to hear claims that
+registries/registrars are not complying with these promises – the
+PICDRP, see note 25 – if it does not intend to invoke that process?
+How will ICANN manage to fend off the pressure from these (or other)
+constituencies to require more active registrar/registry cooperation in
+these enforcement tasks?[29] [31]
+
+WHAT ARE WE TO MAKE OF THESE DEVELOPMENTS?
+
+The examples above, though they differ from one another in a number of
+important ways, share one critical feature: they each describe a
+_governance_ scheme – the imposition of binding rules upon vast
+numbers of Internet users – exercised by means of control over the DNS
+databases and over access/entry thereto.
+
+One does not have to be Tiresias the Seer to predict that we will be
+seeing a great deal more of this kind of thing – or at least a great
+deal more pressure, from private rightsholders and public authorities
+alike, to introduce and implement this kind of thing – in the
+future.[30] [32] These infrastructure-based systems are efficient in
+ways that the ordinary conventional mechanisms of international law
+cannot hope to match: fully automated judgment execution mechanisms that
+can operate, virtually instantaneously, on anyone in any corner of the
+planet. They solve – or, more precisely, they serve as a work-around
+– the seemingly intractable problems of conventional international law
+– choice of law, judgment execution, and scale – that have made
+applying private or public law across the Internet so difficult. It is
+entirely predictable – indeed, virtually inevitable – that they will
+be pressed into service under many new guises and in many new
+implementations in the years to come.
+
+How should we be thinking about this development? Perhaps
+governance-by-infrastructure is a new, innovative alternative to the
+cumbersome traditional approach of relying on local law and local
+courts, one that can help to bring the Rule of Law to the Internet,
+protecting legal rights and enforce legal norms on a medium where such
+protection and enforcement have been difficult to come by? Why _not_ use
+the DNS, or other components of core Internet infrastructure, to catch
+the bad guys and throw them off the Internet?
+
+There are, I believe, many reasons why that is a bad idea. Though an
+exhaustive compendium of all of the troubling features of
+government-by-infrastructure regimes is beyond the scope of this paper,
+there is a set of _core concerns_ that implementation of such regimes
+inevitably raise, which can be organized into five categories: concerns
+about Internet neutrality, legitimacy and institutional competence, due
+process, free expression, and harm to third parties.
+
+INTERNET NEUTRALITY
+
+As has been extensively discussed in recent years – most notably, in
+connection with the “net neutrality” debate – the basic Internet
+design incorporates a powerful neutrality/non-discrimination principle,
+generally known as the principle of “end-to-end design.”
+
+The Internet is unusual among networks in putting most of the
+intelligence in the computers at the edge of the network, rather than in
+the infrastructure at the heart of the network. The network forwards
+packets with only minor processing—all the heavy lifting takes place
+on the transmitting and receiving computers. This approach of putting
+intelligence at the edge of the network is known as the end-to-end
+principle, and it is one of the keys to the Internet’s success thus
+far.[31] [33]
+
+Smart machines connected to a dumb network; complicated and
+sophisticated applications running over a network that does little more
+than moving bits around as directed by those applications. End-to-end
+design counsels that core Internet infrastructure protocols should focus
+to the maximum feasible extent on performing only that minimal
+bit-transport function, while staying as simple, unintrusive, and open
+as possible in all other respects.
+
+Adherence to the end-to-end design principle has, without question,
+contributed mightily to both the Internet’s astonishing growth, and to
+the explosion of innovation and creativity that it has stimulated across
+the globe.[32] [34] It is not, to be sure, some kind of sacred or
+inviolable principle; even its most fervent adherents recognize that, as
+the Internet continues to evolve, there may be cause for deviating from
+the strict end-to-end model.[33] [35] But we should do so with great
+care and exercising great caution, lest we interfere with a critical
+source of the Internet’s power, and thereby kill the goose that is
+laying the golden egg.
+
+The inter-locking protocols and databases that constitute the
+Internet’s DNS are optimized to perform one role as part of the
+network’s core message-transport function: resolving names into IP
+Addresses, quickly and reliably. All the processing required to
+“discriminate” among messages – based upon their content, or the
+identity of the sender or recipient – is kept _out_ of the core.
+
+Governance-by-infrastructure upsets that careful delineation of
+function.[34] [36] The DNS now has additional roles to play (requiring
+additional processing) – helping to control copyright infringement, or
+phishing, or consumer fraud, or the distribution of child pornography,
+or human trafficking, or any number of other possibly worthwhile goals
+– that reach far beyond the one task it is required to perform (_viz.,
+_accurate name/address resolution). The DNS is no longer neutral, but an
+instrument for discriminating against certain kinds of content and
+certain users. The unforeseen and possibly unforeseeable consequences of
+re-purposing Internet infrastructure in a manner contravening the
+fundamental e2e principles that have guided the development of that
+infrastructure up to now are likely to be severe.[35] [37]
+
+LEGITIMACY
+
+Governance-by-infrastructure raises profound – and profoundly
+troubling – questions of legitimacy, authority, and institutional
+competence. Whether or not one believes that access to the Internet is a
+fundamental human right, the power to control access to the global
+communications platform is a formidable one, and it should only be
+exercised by those duly authorized to do so. To put the question
+bluntly: What gives ICANN – or whomever is in control of DNS policy
+implementation – the right to tell a Bangladeshi domain name
+registrar, or a Brazilian domain name registrant, or a South Korean
+domain name registry, that their respective businesses are no longer
+operable because they have been eliminated from the DNS databases?
+[38]That ICANN is not authorized to make global policy regarding the
+appropriate steps necessary for the identification and elimination of
+copyright infringement, or consumer fraud, or child pornography, or the
+like is apparent from a glance at its structure and organization; though
+it is indeed a “multi-stakeholder” institution, its community of
+stakeholders represents – intentionally – a very narrow slice of the
+larger Internet community, focused overwhelmingly on individuals and
+entities involved in specialized technical tasks (IP addressing, naming,
+and numbering). This is hardly the structure one would come up with when
+designing an institution to tackle, on an Internet-wide basis, any of
+those very difficult and politically contentious tasks.
+
+DUE PROCESS
+
+Efficiency of judgment entry and execution in
+governance-by-infrastructure regimes is a double-edged sword. There may
+well be, at this moment, hundreds of thousands, or more likely millions,
+of domain names associated with Internet sites hosting infringing
+content; the costs, in time and money, of providing each of them with
+anything resembling due process – adequate notice, and a reasonable
+opportunity to be heard before a neutral – so that a fair
+determination can be made as to whether they are acting unlawfully or
+not, are prodigious.
+
+Those costs, however, must be borne, somewhere in the system – at
+least, if we believe in the principle of due process and the rule of
+law. But of course the core Internet infrastructure is almost entirely
+in private hands, and private entities may not feel themselves bound to
+respect user due process rights – especially when it is so costly to
+do so.
+
+FREEDOM OF EXPRESSION
+
+> Domain names warrant special protection because, as Annemarie Bridy
+> puts it, they are “dual-use” properties, enabling both lawful and
+> unlawful activity and serving not only as “gateways to vast
+> repositories of digital property but also (and relatedly) as
+> instrumentalities of speech.”[36] [2]
+
+A single domain name allegedly tainted by unlawful activity “may
+provide access to a mix of unlawful and lawful content, [and] telling
+the difference between the two can be challenging for judges even after
+the benefit of full discovery. “Seizure” of allegedly offending
+domain names is thus “the twenty-first century equivalent of
+padlocking the bookstore.” Anyone who believes in the paramount value
+of uninhibited free expression should be especially suspicious of
+mechanisms that too-easily (and too-efficiently) take these speech
+instrumentalities out of the hands of individuals.
+
+THIRD-PARTY HARM
+
+The hierarchical nature of the Internet’s DNS virtually assures that
+the elimination, via “seizure” or cancellation, of individual
+domains will affect large numbers of innocent third parties. Each level
+of the domain name hierarchy can encompass a virtually unlimited number
+of subdomains – _i.e., _each top-level domain can include many
+millions of 2d-level domains, each of which can include many millions of
+3d-level domains, each of which can include many millions of 4th-level
+domains, and so on, down 127 levels.[37] [39] Many online services rely
+on this feature to assign individual subdomains –
+davidgpost.wordpress.com [40] – to users as a means of allowing them
+to post their own content.[38] [41] Blocking the resolution of a domain
+at any level (because of unlawful content or activity taking place at a
+site utilizing that domain) necessarily means that _all_ lower-level
+subdomains are blocked as well – even if they are completed
+independent of the offending site and are pursuing entirely lawful
+activities.
+
+Perhaps the most egregious example of collateral damage resulting from a
+domain seizure occurred . . . in February 2011, when ICE seized the
+“mooo.com” domain for allegedly pointing to illegal content. The
+seizure resulted in over 84,000 subdomains of mooo.com [42] being
+blocked. Mooo.com [43] is a service that allows users to register
+subdomains, which they can then point to Internet content hosted at any
+IP address. No content is hosted immediately under the mooo.com [42]
+domain; all content — including personal blogs, discussion forums,
+small business sites, and sites where academic researchers share papers
+and professional information — is hosted under subdomains that take
+the form “username.mooo.com.” The content hosted under any
+particular subdomain is wholly distinct from the content hosted under
+other subdomains. _But because of illegal content allegedly present at
+one such subdomain, all were blocked when the “parent domain,”
+mooo.com [42], was seized_.
+
+This kind of “collateral damage” by over-blocking is a persistent,
+and may well be an inevitable, feature of governance-by-infrastructure
+schemes.[39] [44] At the very least, it calls for the most assiduous
+attention to due process protections so as to minimize, to the extent
+possible, the damage such schemes can wreak on expression and
+communication by innocent third parties.
+
+CONCLUSION
+
+Governance-by-infrastructure is here to stay, likely to be a part of the
+global legal landscape far into the future. It is too efficient, and too
+powerful, for it to be otherwise, and it needs to be deployed with the
+greatest of care, for it raises deep questions of fairness,
+transparency, and due process. The Internet has thrived as a neutral and
+open communications platform, and its continued vibrancy depends on our
+ability to maintain that neutrality and openness to the maximum extent
+possible in the months and years to come.
+-------------------------
+
+  [45]About the Author: David G. Post is currently a Senior Fellow at the
+New America Foundation’s Open Technology Institute [46]. Until his
+retirement in Fall 2014, he was the I. Herman Stern Professor of Law at
+the Temple University Law School, where he taught intellectual property
+law, copyright, and the law of cyberspace. He also holds a Ph.D. in
+physical anthropology, has published widely in the area of animal
+behavior and evolutionary biology, practiced law at the Washington DC
+law firm of Wilmer, Cutler & Pickering, and clerked for Justice Ruth
+Bader Ginsburg at both the DC Circuit Court of Appeals and the Supreme
+Court. Post is the author of In Search of Jefferson’s Moose: Notes on
+the State of Cyberspace (Oxford), a Jeffersonian view of Internet law
+and policy, awarded the 2009 Green Bag Award for Exemplary Legal
+Writing. In addition, he is the (co)-author of Cyberlaw: Problems of
+Policy and Jurisprudence in the Information Age (West), and has
+published numerous scholarly articles on intellectual property law, the
+law of cyberspace, and complexity theory (including the
+most-frequently-cited intellectual property law review article published
+in the last 75 years, Law and Borders: The Rise of Law in Cyberspace (48
+Stanford L. Rev. 1367)(1996).
+-------------------------
+
+FOOTNOTES:
+
+[1] [47] Senior Fellow, Open Technology Institute/New America
+Foundation. Comments welcome: david.g.post@gmail.com.
+
+[2] [48] Laura DeNardis, _Internet Points of Control as Global
+Governance_, available
+athttps://www.cigionline.org/sites/default/files/no2_3.pdf [49].
+
+[3] [50] ICANN is the Internet Corporation for Assigned Names and
+Numbers, the non-profit “multistakeholder” organization that
+oversees DNS policy-making and policy-implementation. The authoritative
+account of ICANN’s formation remains Milton Mueller, _Ruling the Root
+_(2002). _See also_ David G. Post, _In Search of Jefferson’s Moose:
+Notes on the State of Cyberspace,_ chap. 10 (“Names”) (2009) and
+sources therein.
+
+[4] [51] The UDRP was adopted in August, 1999, shortly after ICANN was
+formed. _See UDRP Timeline,_ available
+athttps://www.icann.org/resources/pages/schedule-2012-02-25-en [52]. On
+the URDP, _see_https://www.icann.org/resources/pages/help/dndr/udrp-en
+[53].
+
+[5] [54] The substantive UDRP Rules require the trademark holder to show
+that the challenged domain name (a) is “identical or confusingly
+similar” to its trademark, and that the person who registered the
+domain name (b) “has no legitimate rights” to it and (c) acted “in
+bad faith.” Evidence of “bad faith” includes circumstances
+indicating that the name was acquired “primarily for the purpose of
+selling, renting, or otherwise transferring the domain name registration
+to the . . . owner of the trademark or to a competitor of that
+complainant . . .” _See Uniform Dispute Resolution Policy, _available
+athttps://www.icann.org/resources/pages/policy-2012-02-25-en [55].
+
+[6] [56] On the DNS generally, _see_ Post and Kehl, _Controlling
+Internet Infrastructure, Part 1, _at 3-8, available
+athttp://www.newamerica.org/oti/controlling-internet-infrastructure/
+[57], or http://tinyurl.com/q8eoyy4 [58]; National Research Council,_The
+__Internet’s Coming of Age_ (2001); David G. Post, _In Search of
+Jefferson’s Moose: Notes on the State of Cyberspace,_ chap. 10 (2009);
+National Academy of Sciences, _Signposts in Cyberspace: The Domain Name
+System and Internet Navigation_ (2005), available
+athttps://www.cs.cornell.edu/people/egs/beehive/narc-dns.pdf [59].
+
+[7] [60] A “registrar” is an entity that sells (or otherwise
+distributes) access to individual domain names to members of the public
+(“registrants”). GoDaddy, Network Solutions, Register.com [61], and
+Tucows are among the better-known domain name registrars. A
+“registry” is an entity that manages and controls the authoritative
+database (“zone file”) containing the names and IP addresses within
+each top-level domain (“TLD” – _e.g., _.com, .org, .biz, .uk,
+etc.). Registries do not interact directly with the public, but receive
+registration information, which they implement in the TLD zone file,
+from the registrars.
+
+[8] [62] Chapter 4 (“The ICANN-based Contractual Web”) of Lee
+Bygrave’s _Internet Governance by Contract_ (2015) contains an
+outstanding analysis of ICANN’s contractual undertakings and the
+contractual basis for its powers. _See also Controlling Internet
+Infrastructure_, _supra_ note 6. at 21-24.
+
+[9] [63]_See_ Section 3.8 of ICANN’s Registrar Accreditation Agreement
+(obligating registrar to comply with UDRP), available
+athttps://www.icann.org/resources/pages/approved-with-specs-2013-09-17-en#raa
+[64].
+
+[10] [65] It should be noted that ICANN does not exercise contractual
+control over the _entire_ DNS; most of the country-code TLDs
+(“ccTLDs” – _e.g., _.uk, .br, .jp, etc.) do not have direct
+contractual relationships with ICANN, and are not obligated to enforce
+UDRP judgments or impose a requirement on registrants that they comply
+with the UDRP rules (though some have done so voluntarily). See
+_Controlling Internet Infrastructure, supra _note 6, at Box 3.
+
+[11] [66] _See_ _e.g_. Christie, _Online Dispute Resolution – The
+Phenomenon Of The UDRP, _in Torremans (ed), _Research Handbook on
+Cross-Border Enforcement of Intellectual Property_ (forthcoming 2015),
+available at http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2433380
+[67]:
+
+“The system has shown it is capable of resolving cross-border IP
+disputes in a timely manner and at very low cost. It has delivered
+largely consistent outcomes across a huge volume of cases, while
+evolving to address scenarios that were unforeseen and unforeseeable at
+its implementation. It has . . . won international respect as an
+expedient alternative to judicial options for resolving trademark
+disputes arising across multiple national jurisdictions.”
+
+[12] [68] Compare Christie’s treatment of the UDRP, _id.,_ with
+Komaitis, _The Current State of Domain Name Regulation: Domain Names as
+Second Class Citizens in a Mark-Dominated World_ (Routledge 2012) (UDRP
+is “based on illegitimate grounds, its procedures are substantially
+flawed and unfair, it restricts the rights of domain name registrants,
+and it is crowded with examples of inconsistent and biased
+decisions”), and Geist, _Fair.com [69]? An Examination of the
+Allegations of Systemic Unfairness in the ICANN UDRP_, available at
+http://aix1.uottawa.ca/~geist/geistudrp.pdf [70]).
+
+[13] [71] James Grimmelmann, _T__he Internet is a Semicommons_, 78
+Fordham L. Rev. 2800, 2803 (2010).
+
+[14] [72] That is, the DNS architecture and protocols are optimized to
+process vast amounts of domain name registration information, and to
+propagate that information across the millions of Internet domain names
+servers, quickly and accurately. A registrar’s “Cancel” or
+“Modify” command that is issued in response to a UDRP arbitrator’s
+order is processed in precisely the same manner as the many hundreds of
+thousands of such commands circulating through the DNS on a daily basis
+in the ordinary course.
+
+[15] [73] UDRP proceedings are substantially less complex, less
+expensive, and less time-consuming than, _e.g., _filing a
+cyber-squatting complaint under the federal Anti-Cybersquatting
+Protection Act in U.S. federal court. _See_ Kilpatrick, ICANN Dispute
+Resolution Vs. Anticybersquatting Consumer Protection Act Remedies, 2002
+Hous. Bus & Law Rev., available
+athttp://www.hbtlj.org/v02/v02_kilpatrick.pdf [74]; World Intellectual
+Property Organization, FAQ: Internet Domain Names, available at
+http://www.wipo.int/amc/en/center/faq/domains.html [75] (most UDRP
+proceedings are concluded within two months, and cost between $1500 and
+$2000 dollars (not including lawyers’ fees, if any).
+
+[16] [76] _See _Lemley, Levine, & Post, “Don’t Break the
+Internet,” available at
+http://www.stanfordlawreview.org/online/dont-break-internet [77], for a
+detailed description and analysis of SOPA/PIPA; _see also _Zittrain,
+Albert, & Solow-Niederman, “A Close Look at SOPA,” available at
+http://blogs.law.harvard.edu/futureoftheinternet/2011/12/02/reading-sopa
+[78]. Technically speaking, authorizing the domain name “seizure”
+was accomplished by authorizing courts to proceed _in rem _– against
+the domain name itself, rather than _in personam _against the operator
+of the website or the owner of the domain. Styling them as _in rem_
+meant that the court would have had jurisdiction to adjudicate the claim
+without hearing from (or having personal jurisdiction over) the operator
+of the site or the owner of the domain, which would be constitutionally
+impermissible in an _in personam _action.
+
+In this context, of course, “seizure” is a legal fiction; the court
+wouldn’t take actual “possession” of anything, it would merely
+have the right to order the relevant domain name registry to take
+certain steps with respect to the name, much in the manner of the UDRP.
+
+[17] [79] _See_ Benkler _et al_., “Social Mobilization and the
+Networked Public Sphere: Mapping the SOPA-PIPA debate,” available
+athttp://papers.ssrn.com/sol3/papers.cfm?abstract_id=2295953 [80], for
+an extraordinarily illuminating analysis of how the public campaign
+against SOPA/PIPA developed over time. _See also_ Larry Downes, “The
+Revolt Against Congress’ New Internet Piracy Proposals,” available
+at
+http://www.forbes.com/sites/larrydownes/2011/11/28/the-revolt-against-congresss-new-internet-piracy-proposals
+[81].
+
+[18] [82] “Don’t Break the Internet,” _supra_ note 16; _see_
+Benkler et. al., _supra_ note 17, at 33-34, for an extended analysis of
+the effect of this publication on the anti-SOPA/PIPA movement.
+
+[19] [83] “Don’t Break the Internet,” _supra_ note 16. A number of
+other influential documents from within the technical community also
+made the argument that SOPA/PIPA threatened the security and stability
+of Internet’s underlying technical infrastructure._See_ Internet
+Society, “Perspectives on Domain Name System (DNS) Filtering,”
+available athttp://www.isoc.org/internet/issues/dns-filtering.shtml
+[84]; Crocker et al., “Security and Other Technical Concerns Raised by
+the DNS Filtering Requirements in the PROTECT IP Bill,” available at
+http://domainincite.com/docs/PROTECT-IP-Technical-Whitepaper-Final.pdf
+[85].
+
+[20] [86] Annemarie Bridy, “Carpe Omnia: Civil Forfeiture in the War
+on Drugs and the War on Piracy,” 46 Ariz. St. L. Rev. 683 (2012),
+available at http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2378633
+[87]; _see also_ Karen Kopel, “Operation Seizing Our Sites: How the
+Federal Government is Taking Domain Names Without Prior Notice,”
+available
+athttp://scholarship.law.berkeley.edu/cgi/viewcontent.cgi?article=1994&context=btlj
+[88]
+
+[21] [89] _See_ Post, “ICANN, Copyright, and the ‘Public
+Internet,’” available at
+https://www.washingtonpost.com/news/volokh-conspiracy/wp/2015/03/09/icann-copyright-infringement-and-the-public-interest/
+[90]; Controlling Internet Infrastructure, _supra_note 16, at Box 5
+(“ICANN as Global Law Enforcer”).
+
+[22] [91] _See_ Specification 7, ICANN Base Registry Agreement,
+available
+athttps://www.icann.org/resources/pages/registries/registries-agreements-en
+[92].
+
+[23] [93] _See_
+http://www.icann.org/en/resources/registries/tmch-requirements [94]
+
+[24] [95] _See_ Specification 11, ICANN Base Registry Agreement,
+available
+athttps://www.icann.org/resources/pages/registries/registries-agreements-en
+[92].
+
+[25] [96] ICANN has set up a new dispute resolution process – the
+“PICDRP” – to enforce registries’ obligations under
+Specification 11. _See_
+https://www.icann.org/resources/pages/picdrp-2014-01-09-en [97].
+
+[26] [98] ICANN’s “Consensus Policy Development Process” is
+described in Annex A to the ICANN Bylaws, available
+athttps://www.icann.org/resources/pages/governance/bylaws-en [99].
+
+[27] [100] _See_ GNSO gTLD Registries Stakeholder Group Statement,
+available at
+https://forum.icann.org/lists/comments-base-agreement-05feb13/pdfdrhgnqELY3.pdf
+[101].
+
+[28] [102] Alan Grogan (ICANN Chief Compliance Officer), “ICANN is not
+the Internet Content police,” available
+athttps://www.icann.org/news/blog/icann-is-not-the-internet-content-police
+[103].
+
+[29] [104] _See_ Post, supra note 21, for a description of efforts by
+the Motion Picture Association of America and the Recording Industry
+Association of America in this direction.
+
+[30] [105] _See_ Milton Mueller, _Ruling the Root_ (2002) at 219
+(discussing the “use and exploitation of data generated by Internet
+identifiers to facilitate surveillance and control of Internet users by
+law enforcement agencies,” and concluding that “if the ICANN regime
+survives, this aspect of policymaking will probably play a much larger
+role in the future [inasmuch as] the use of a centralized identification
+mechanism that gives authorities both the ability to identify private
+actors and some control over their access to cyberspace will probably
+prove to be too tempting to pass up”).
+
+[31] [106] Felten, “The Nuts and Bolts of Net Neutrality,” available
+at
+https://www.cs.princeton.edu/courses/archive/fall09/cos109/neutrality.pdf
+[107]. _See also_ Clark and Blumenthal, “Rethinking the Design of the
+Internet: The End-to-End Arguments vs. the Brave New World,” available
+at http://nms.lcs.mit.edu/6829-papers/bravenewworld.pdf [108]:
+
+“End to end arguments suggest that specific application-level
+functions usually cannot, and preferably should not, be built into the
+lower levels of the system—the core of the network. Even if parts of
+an application-level function can potentially be implemented in the core
+of the network, the end to end arguments state that one should resist
+this approach if possible.”
+
+Lemley and Lessig, “The End of End-to-End: Preserving the Architecture
+of the Internet in the Broadband Era,” 48 UCLA L. Rev 925 (2001)
+(“The end-to-end argument counsels that the ‘intelligence’ in a
+network should be located at the top of a layered system – at its
+‘ends,’ where users put information and applications onto the
+network. The communications protocols themselves (the ‘pipes’
+through which information flows) should be as simple and as general as
+possible”); Wu, “Application-Centered Internet Analysis,” 85 Va.
+L. Rev 1163 (1999) (“end-to-end holds that, wherever possible,
+function should not be placed at the lower-levels of a network system
+– rather, everything possible should be left to the applications at
+the ‘ends.’ In other words, the lower-level protocols should focus
+only on the minimal function of transmitting data, and in all other
+respects be kept as simple, unintrusive, and open as possible”); Post,
+_supra_ note 3:
+
+“In an end-to-end network, the Network does the minimum number of
+tasks required to get messages from one place to another. Network Layer
+protocols are stripped down to their essentials; they do only what is
+necessary to get bit-strings where they are supposed to go. All other
+functions are left for the senders and the recipients, the network
+end-points . . . As long as messages are formatted in accordance with
+the Network Layer addressing rules, the Network protocols will get them
+to the right place; what happens next is none of its concern . . . Smart
+machines, connected to a dumb network. Complicated and sophisticated
+applications, and a network doing nothing more than moving bits around
+as directed by those applications. That’s the Internet. All the
+interesting stuff is at the edges the network just gets the bits there,
+as quickly and efficiently as possible.”
+
+[32] [109] Lessig and Lemley, _supra_ note 31:
+
+“The effect of [end-to-end design] has been profound. By its design,
+the Internet has enabled an extraordinary creativity precisely because
+it has pushed creativity to the ends of the network. Rather than relying
+upon the creativity of a small group of innovators working for companies
+that control the network, the end-to-end design enables anyone with an
+Internet connection to design and implement a better way to use the
+Internet. Because it does not discriminate in favor of certain uses of
+the network and against others, the Internet has provided a competitive
+environment in which innovators know that their inventions will be used
+if useful. By keeping the cost of innovation low, it has encouraged an
+extraordinary amount of innovation in many different contexts. By
+keeping the network simple, and its interaction general, the Internet
+has facilitated the design of applications that could not originally
+have been envisioned.”
+
+_See also_ Wu, _supra_ note 31 (describing end-to-end’s “deeper
+effects” as “giving application writers the freedom to innovate
+whenever and however they like [while] confining the network itself to
+simple functions of broad usage,’ thereby allowing “future
+applications unknown or unpredictable at the time of design.. . . And at
+least in part as a result of these features, this decade has witnessed
+an astonishing development both of Internet applications existing at the
+beginnings of the Internet (like email) and totally new and extremely
+innovative applications. All of this might have been impossible, or at
+least difficult, if the Internet had not had an end-to-end design.”).
+
+[33] [110] _See_ Clark and Blumenthal, _supra_ note 31.
+
+[34] [111] _See_ note 19.
+
+[35] [112] _See_ _id_.
+
+[36] [113] Bridy, _supra_ note 20.
+
+[37] [114] _See Controlling Internet Infrastructure_, _supra_ note 6, at
+3-9 (describing how each of the millions of 2d-level domains within the
+.edu top-level domain (_e.g._, StateU.edu [115]) can support a vast
+number of 3d-level domains (_e.g., _Compsci.StateU.edu [116]), each of
+which can support a vast number of 4th-level domains
+(Admin.Compsci.Stateu.edu [117]), and so on).
+
+[38] [118] Familiar examples include blogspot.com [119], wordpress.com
+[120], wix.com [121], squarespace.com [122], and rojadirecta.com [123],
+each of which operates a “hosting service” by assigning a subdomain
+(_e.g., _[username].blogspot.com]) to individual users. Hosting services
+operating in this manner, in the aggregate, account for millions of
+individual websites.
+
+[39] [124] _See_ sources cited in note 20. _See also_ “Brief of Amici
+Curiae Electronic Frontier Foundation, Center For Democracy and
+Technology, and Public Knowledge in Support of Puerto 80’s Petition
+For Release Of Seized Property,” available
+athttps://www.eff.org/files/filenode/puerto80_v_US/2011-06-20-rojadirecta.pdf
+[125] (detailing “overblocking” by DHS “seizure” operations,
+including a single “seizure” that eliminated over 80,000
+non-infringing websites); _CDT v. Pappert_, 337 F. Supp. 2d 606 (E.D.
+PA. 2004) (in an effort to comply with blocking orders relating to fewer
+than 400 child pornography websites, more than a million completely
+unrelated and innocent websites were blocked).
+
+Links:
+------
+[1] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn10
+[2] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn36
+[3] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/
+[4] 
+http://www.ipjustice.org/wp-content/uploads/2015/08/David-Post-Article.jpg
+[5] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn2
+[6] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn3
+[7] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn4
+[8] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn5
+[9] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn6
+[10] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn7
+[11] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn8
+[12] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn9
+[13] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn11
+[14] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn12
+[15] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn13
+[16] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn14
+[17] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn15
+[18] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn16
+[19] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn17
+[20] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn18
+[21] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn19
+[22] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn20
+[23] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn21
+[24] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn22
+[25] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn23
+[26] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn24
+[27] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn25
+[28] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn26
+[29] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn27
+[30] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn28
+[31] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn29
+[32] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn30
+[33] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn31
+[34] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn32
+[35] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn33
+[36] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn34
+[37] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn35
+[38] 
+http://www.ipjustice.org/wp-content/uploads/2015/07/David-Post-Quote-4.png
+[39] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn37
+[40] http://davidgpost.wordpress.com
+[41] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn38
+[42] http://mooo.com
+[43] http://Mooo.com
+[44] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftn39
+[45] 
+http://www.ipjustice.org/wp-content/uploads/2015/07/David-Post-21.jpg
+[46] https://www.newamerica.org/oti/
+[47] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref1
+[48] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref2
+[49] https://www.cigionline.org/sites/default/files/no2_3.pdf
+[50] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref3
+[51] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref4
+[52] https://www.icann.org/resources/pages/schedule-2012-02-25-en
+[53] https://www.icann.org/resources/pages/help/dndr/udrp-en
+[54] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref5
+[55] https://www.icann.org/resources/pages/policy-2012-02-25-en
+[56] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref6
+[57] http://www.newamerica.org/oti/controlling-internet-infrastructure/
+[58] http://tinyurl.com/q8eoyy4
+[59] https://www.cs.cornell.edu/people/egs/beehive/narc-dns.pdf
+[60] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref7
+[61] http://Register.com
+[62] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref8
+[63] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref9
+[64] 
+https://www.icann.org/resources/pages/approved-with-specs-2013-09-17-en#raa
+[65] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref10
+[66] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref11
+[67] http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2433380
+[68] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref12
+[69] http://Fair.com
+[70] http://aix1.uottawa.ca/~geist/geistudrp.pdf
+[71] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref13
+[72] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref14
+[73] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref15
+[74] http://www.hbtlj.org/v02/v02_kilpatrick.pdf
+[75] http://www.wipo.int/amc/en/center/faq/domains.html
+[76] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref16
+[77] http://www.stanfordlawreview.org/online/dont-break-internet
+[78] 
+http://blogs.law.harvard.edu/futureoftheinternet/2011/12/02/reading-sopa
+[79] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref17
+[80] http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2295953
+[81] 
+http://www.forbes.com/sites/larrydownes/2011/11/28/the-revolt-against-congresss-new-internet-piracy-proposals
+[82] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref18
+[83] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref19
+[84] http://www.isoc.org/internet/issues/dns-filtering.shtml
+[85] 
+http://domainincite.com/docs/PROTECT-IP-Technical-Whitepaper-Final.pdf
+[86] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref20
+[87] http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2378633
+[88] 
+http://scholarship.law.berkeley.edu/cgi/viewcontent.cgi?article=1994&amp;context=btlj
+[89] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref21
+[90] 
+https://www.washingtonpost.com/news/volokh-conspiracy/wp/2015/03/09/icann-copyright-infringement-and-the-public-interest/
+[91] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref22
+[92] 
+https://www.icann.org/resources/pages/registries/registries-agreements-en
+[93] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref23
+[94] http://www.icann.org/en/resources/registries/tmch-requirements
+[95] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref24
+[96] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref25
+[97] https://www.icann.org/resources/pages/picdrp-2014-01-09-en
+[98] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref26
+[99] https://www.icann.org/resources/pages/governance/bylaws-en
+[100] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref27
+[101] 
+https://forum.icann.org/lists/comments-base-agreement-05feb13/pdfdrhgnqELY3.pdf
+[102] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref28
+[103] 
+https://www.icann.org/news/blog/icann-is-not-the-internet-content-police
+[104] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref29
+[105] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref30
+[106] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref31
+[107] 
+https://www.cs.princeton.edu/courses/archive/fall09/cos109/neutrality.pdf
+[108] http://nms.lcs.mit.edu/6829-papers/bravenewworld.pdf
+[109] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref32
+[110] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref33
+[111] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref34
+[112] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref35
+[113] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref36
+[114] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref37
+[115] http://StateU.edu
+[116] http://Compsci.StateU.edu
+[117] http://Admin.Compsci.Stateu.edu
+[118] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref38
+[119] http://blogspot.com
+[120] http://wordpress.com
+[121] http://wix.com
+[122] http://squarespace.com
+[123] http://rojadirecta.com
+[124] 
+http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/#_ftnref39
+[125] 
+https://www.eff.org/files/filenode/puerto80_v_US/2011-06-20-rojadirecta.pdf
+
+-- 
+<pre>--
+Joana Varon
+@joana_varon
+https://antivigilancia.org
+Fingerprint
+239D E977 32D0 28BC 297F 64B6 3B69 BDE4 016B 8E73
+</pre>
+--=_7b86a1e5e4b8ab6fc7daaa2fef6fbc9c
+Content-Transfer-Encoding: base64
+Content-Type: application/pgp-signature;
+ name=signature.asc
+Content-Disposition: attachment;
+ filename=signature.asc;
+ size=507
+
+LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0NCkNvbW1lbnQ6IEdQR1Rvb2xzIC0gaHR0cHM6
+Ly9ncGd0b29scy5vcmcNCg0KaVFFY0JBRUJDZ0FHQlFKVnY0U0FBQW9KRUh5RFg5UUpuT1hkbjBj
+SC9qb1ZIckM0a2dCbDJURHNTaW1xdzRhSg0Kb0NUKzZKbGc4bzJmaGsxSDc5dUJkcE5SSnRrblZJ
+UDI4U0R5NHBSYkowT3JVOXFZcjJ4cjkvR3V2TTl4MG9zeQ0KYkFDVUZDYnlIcW1OaTdhV0MySll4
+UWFMMTY0YnVhQS9TVmlkVzNmRktFNTc1eFc3ME8rbUxTbFQyKzQzL09oNg0KWEFOQXgvNnk1N2kz
+bXdVQ0diajRqODArekc5bVVYTlM3UUNjaDczVHIwYWtDa3VOMEV6RUErQ25uQ1RPd2dZQQ0KdFR1
+OHVBRGJQdHNXTm1ydnFFaVpTUnBTUWt2ZVNsa2hTbTBodmgvL0JpTEdNZUFlYVU5K1dua0d2R2pv
+Z2lWSw0KdTB3YTluazd2cFdRQUN0bndibmFnWlNsMm1UTjNmV3lYK1ViMUdRTm4zS0Q4Vjdqdys3
+bUpQVU50L3F4UnpzPQ0KPTZaUDENCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQ0K
+--=_7b86a1e5e4b8ab6fc7daaa2fef6fbc9c--
+
+
+From nobody Thu Aug  6 01:20:12 2015
+Return-Path: <weiler@watson.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 8B0031ACDB9 for <hrpc@ietfa.amsl.com>; Wed,  5 Aug 2015 15:16:37 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 0.79
+X-Spam-Level: 
+X-Spam-Status: No, score=0.79 tagged_above=-999 required=5 tests=[BAYES_50=0.8, T_RP_MATCHES_RCVD=-0.01] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id PO-xNfHf2Gdc for <hrpc@ietfa.amsl.com>; Wed,  5 Aug 2015 15:16:36 -0700 (PDT)
+Received: from cyrus.watson.org (cyrus.watson.org [198.74.231.69]) by ietfa.amsl.com (Postfix) with ESMTP id E341C1ACDA7 for <hrpc@irtf.org>; Wed,  5 Aug 2015 15:16:35 -0700 (PDT)
+Received: from fledge.watson.org (fledge.watson.org [198.74.231.63]) by cyrus.watson.org (Postfix) with ESMTPS id 8707646B81 for <hrpc@irtf.org>; Wed,  5 Aug 2015 18:16:35 -0400 (EDT)
+Received: from fledge.watson.org (weiler@localhost.watson.org [127.0.0.1]) by fledge.watson.org (8.15.2/8.15.2) with ESMTP id t75MGZUY036521 for <hrpc@irtf.org>; Wed, 5 Aug 2015 18:16:35 -0400 (EDT) (envelope-from weiler@watson.org)
+Received: from localhost (weiler@localhost) by fledge.watson.org (8.15.2/8.15.2/Submit) with ESMTP id t75MGZoO036518 for <hrpc@irtf.org>; Wed, 5 Aug 2015 18:16:35 -0400 (EDT) (envelope-from weiler@watson.org)
+X-Authentication-Warning: fledge.watson.org: weiler owned process doing -bs
+Date: Wed, 5 Aug 2015 18:16:35 -0400 (EDT)
+From: Samuel Weiler <weiler@watson.org>
+To: hrpc@irtf.org
+Message-ID: <alpine.BSF.2.20.1508051816180.25356@fledge.watson.org>
+User-Agent: Alpine 2.20 (BSF 67 2015-01-07)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII; format=flowed
+X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-4.4.3 (fledge.watson.org [127.0.0.1]); Wed, 05 Aug 2015 23:16:35 +0100 (BST)
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/ZnL_dFgeVkKTS1QNc1_GHLzG8n4>
+X-Mailman-Approved-At: Thu, 06 Aug 2015 01:20:09 -0700
+Subject: Re: [hrpc] IETF glossary...
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 05 Aug 2015 22:16:37 -0000
+
+Bryan Ford writes:
+
+> FWIW, there is also a paper by Fitzman/Hansen, well-known in the academic 
+> privacy/anonymity research community, that goes into great
+> (technical) detail trying to define and analyze anonymity, unobservability, 
+> and various related terms:
+
+Thank you for posting this.  This is the same paper I referred to at the 
+microphone in Prague.  I think the most recent version is v0.34:
+http://dud.inf.tu-dresden.de/literatur/Anon_Terminology_v0.34.pdf
+
+Andreas Pfitzmann passed away in September 2010, which may explain the lack of 
+recent updates.  The other author, Marit Hansen, still wields the pen and 
+welcomes updates - her address is on the document.
+
+-- Sam
+
+
+
+From nobody Fri Aug  7 00:43:57 2015
+Return-Path: <lars@netapp.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 5BF5D1B3817; Fri,  7 Aug 2015 00:43:56 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.911
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.911 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_HI=-5, SPF_PASS=-0.001, T_RP_MATCHES_RCVD=-0.01] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id owQuZunivmDW; Fri,  7 Aug 2015 00:43:54 -0700 (PDT)
+Received: from mx143.netapp.com (mx143.netapp.com [216.240.21.24]) (using TLSv1 with cipher RC4-SHA (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 8368A1A1BB4; Fri,  7 Aug 2015 00:43:54 -0700 (PDT)
+X-IronPort-AV: E=Sophos;i="5.15,628,1432623600";  d="asc'?scan'208";a="59544743"
+Received: from hioexcmbx02-prd.hq.netapp.com ([10.122.105.35]) by mx143-out.netapp.com with ESMTP; 07 Aug 2015 00:43:16 -0700
+Received: from HIOEXCMBX07-PRD.hq.netapp.com (10.122.105.40) by hioexcmbx02-prd.hq.netapp.com (10.122.105.35) with Microsoft SMTP Server (TLS) id 15.0.1076.9; Fri, 7 Aug 2015 00:43:16 -0700
+Received: from HIOEXCMBX07-PRD.hq.netapp.com ([::1]) by hioexcmbx07-prd.hq.netapp.com ([fe80::dc1c:7054:32f6:3f6b%21]) with mapi id 15.00.1076.000; Fri, 7 Aug 2015 00:43:16 -0700
+From: "Eggert, Lars" <lars@netapp.com>
+To: Daniel Formolo <formolo.academic@gmail.com>
+Thread-Topic: [gaia] practical considerations about security implementation
+Thread-Index: AQHQ0Gb0hMT8HyQAl0+V7HiojxZIu54AnfqA
+Date: Fri, 7 Aug 2015 07:43:15 +0000
+Message-ID: <9F1EF697-89EB-41E1-AA01-C1438DF4D7EA@netapp.com>
+References: <CAJ381cn+tn8JsysX+hfz34RWraLYkN+K3qLUM-cez2z+2q5F2A@mail.gmail.com>
+In-Reply-To: <CAJ381cn+tn8JsysX+hfz34RWraLYkN+K3qLUM-cez2z+2q5F2A@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-mailer: Apple Mail (2.2102)
+x-ms-exchange-transport-fromentityheader: Hosted
+x-originating-ip: [10.122.56.79]
+Content-Type: multipart/signed; boundary="Apple-Mail=_2F0ECA8E-6AD0-4773-89B3-ECC3528FCED3"; protocol="application/pgp-signature"; micalg=pgp-sha1
+MIME-Version: 1.0
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/hiJEn42sAKze3Bty6dV74UxGHJo>
+Cc: "gaia@irtf.org" <gaia@irtf.org>, "hrpc@irtf.org" <hrpc@irtf.org>
+Subject: Re: [hrpc] [gaia] practical considerations about security implementation
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+Reply-To: "hrpc@irtf.org" <hrpc@irtf.org>
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 07 Aug 2015 07:43:56 -0000
+
+--Apple-Mail=_2F0ECA8E-6AD0-4773-89B3-ECC3528FCED3
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=us-ascii
+
+CC'ing hrpc@irtf.org and setting reply-to
+
+On 2015-08-06, at 18:42, Daniel Formolo <formolo.academic@gmail.com> =
+wrote:
+>=20
+> Dears, I read "Human Rights Protocol Considerations Glossary =
+draft-dkg-hrpc-glossary-00", it seems good, but I have some technical =
+considerations. We can work hard implementing new features in protocols =
+to improve connectivity (interoperability, resilience, reliability, =
+robustness). That is feasible.
+>=20
+> But, security (resilience, reliability, confidentiality, anonymity, =
+authenticity), is in general broken in application layer. Most cases =
+people uses final software insecurely. I am afraid that much technical =
+effort will put to improve security in middleware but most of security =
+problems will continues due to wrong use of software by people. Maybe =
+the focus to security at first moment must be in application layer and =
+good patterns of final software to avoid people get mistakes.
+>=20
+>=20
+> kind regards.
+>=20
+> Daniel Formolo.
+> _______________________________________________
+> gaia mailing list
+> gaia@irtf.org
+> https://irtf.org/mailman/listinfo/gaia
+
+
+--Apple-Mail=_2F0ECA8E-6AD0-4773-89B3-ECC3528FCED3
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="signature.asc"
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Message signed with OpenPGP using GPGMail
+
+-----BEGIN PGP SIGNATURE-----
+
+iEYEARECAAYFAlXEYZMACgkQIWcjmsUTWRqeRgCgnPhyLZwVr9qwqSyYUcIXeCQq
+/YMAnA/xV/69T9DfrtBmeylPTd/qyYF3
+=HT8H
+-----END PGP SIGNATURE-----
+
+--Apple-Mail=_2F0ECA8E-6AD0-4773-89B3-ECC3528FCED3--
+
+
+From nobody Fri Aug  7 04:17:28 2015
+Return-Path: <niels@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 89C811B2A76 for <hrpc@ietfa.amsl.com>; Fri,  7 Aug 2015 04:17:26 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 0.424
+X-Spam-Level: 
+X-Spam-Status: No, score=0.424 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, HOST_EQ_NL=1.545, SPF_NEUTRAL=0.779] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id TFordxfD5xmf for <hrpc@ietfa.amsl.com>; Fri,  7 Aug 2015 04:17:24 -0700 (PDT)
+Received: from mail.article19.io (vps784.greenhost.nl [213.108.108.114]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 453171B2A71 for <hrpc@irtf.org>; Fri,  7 Aug 2015 04:17:23 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTP id 7068914399 for <hrpc@irtf.org>; Fri,  7 Aug 2015 11:17:21 +0000 (UTC)
+Received: from mail.article19.io ([127.0.0.1]) by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10032) with ESMTP id R-xRHO3tzE3p for <hrpc@irtf.org>; Fri,  7 Aug 2015 11:17:20 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTP id 7F2661438B for <hrpc@irtf.org>; Fri,  7 Aug 2015 11:17:20 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+Received: from mail.article19.io ([127.0.0.1]) by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026) with ESMTP id AUT_g4HyJjs0 for <hrpc@irtf.org>; Fri,  7 Aug 2015 11:17:20 +0000 (UTC)
+Received: from [192.168.0.26] (dhcp-077-251-015-176.chello.nl [77.251.15.176]) by mail.article19.io (Postfix) with ESMTPSA id E20CDCC03D for <hrpc@irtf.org>; Fri,  7 Aug 2015 11:17:19 +0000 (UTC)
+Message-ID: <55C493BE.2090104@article19.org>
+Date: Fri, 07 Aug 2015 13:17:18 +0200
+From: Niels ten Oever <niels@article19.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:31.0) Gecko/20100101 Icedove/31.7.0
+MIME-Version: 1.0
+To: hrpc@irtf.org
+References: <CAJ381cn+tn8JsysX+hfz34RWraLYkN+K3qLUM-cez2z+2q5F2A@mail.gmail.com> <9F1EF697-89EB-41E1-AA01-C1438DF4D7EA@netapp.com>
+In-Reply-To: <9F1EF697-89EB-41E1-AA01-C1438DF4D7EA@netapp.com>
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/FPsMkw_EH2jnfHeK8WtZF9cmqm4>
+Subject: Re: [hrpc] [gaia] practical considerations about security implementation
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 07 Aug 2015 11:17:26 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Hi Daniel,
+
+Thanks for this. You are completely right in saying that there are
+regular occurrences of significant security problems in the
+application layer, but that doesn't mean that that are no problems on
+lower layers, right? The chain is as strong as its weakest link.
+
+Nick Doty wrote a real interesting paper about privacy and security
+and standards which might be of your interest:
+https://npdoty.name/privacy-reviews/iwpe/
+
+Or RFC3552 which described the guidelines for security considerations
+: https://www.ietf.org/rfc/rfc3552.txt
+
+With the great quote in there:
+
+Most people speak of security as if it were a single monolithic
+   property of a protocol or system, however, upon reflection, one
+   realizes that it is clearly not true.  Rather, security is a series
+   of related but somewhat independent properties.  Not all of these
+   properties are required for every application.
+
+Best,
+
+Niels
+
+Niels ten Oever
+Head of Digital
+
+Article 19
+www.article19.org
+
+PGP fingerprint    8D9F C567 BEE4 A431 56C4
+                   678B 08B5 A0F2 636D 68E9
+
+On 08/07/2015 09:43 AM, Eggert, Lars wrote:
+> CC'ing hrpc@irtf.org and setting reply-to
+>=20
+> On 2015-08-06, at 18:42, Daniel Formolo
+> <formolo.academic@gmail.com> wrote:
+>>=20
+>> Dears, I read "Human Rights Protocol Considerations Glossary=20
+>> draft-dkg-hrpc-glossary-00", it seems good, but I have some=20
+>> technical considerations. We can work hard implementing new=20
+>> features in protocols to improve connectivity (interoperability,=20
+>> resilience, reliability, robustness). That is feasible.
+>>=20
+>> But, security (resilience, reliability, confidentiality,
+>> anonymity, authenticity), is in general broken in application
+>> layer. Most cases people uses final software insecurely. I am
+>> afraid that much technical effort will put to improve security in
+>> middleware but most of security problems will continues due to
+>> wrong use of software by people. Maybe the focus to security at
+>> first moment must be in application layer and good patterns of
+>> final software to avoid people get mistakes.
+>>=20
+>>=20
+>> kind regards.
+>>=20
+>> Daniel Formolo. _______________________________________________=20
+>> gaia mailing list gaia@irtf.org=20
+>> https://irtf.org/mailman/listinfo/gaia
+>=20
+>=20
+>=20
+> _______________________________________________ hrpc mailing list=20
+> hrpc@irtf.org https://www.irtf.org/mailman/listinfo/hrpc
+>=20
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQEcBAEBCAAGBQJVxJO+AAoJEAi1oPJjbWjpF40H/1N2jKkrOcxOOMBXhi8Cn3pe
+YsHjz4tMR6wwTMPEaymNcpuQtmgPwxnFWtmUYGxBTldBc6xcMEa1gcBGC6gA3Pc7
+nQW+FbKayD8gpYbQuCJPFyCksoPpKYpZW073OywsyJZeyIjJQW1EeFSxjJ9ZMGG1
+G0FH/mcoTRTPBdO8k+DzSLdBiC9NiaBcVsBmkv6IwuDWQe/Z1ilTPP2A5VjtRfDh
+a46aWJKI2CjrySnoUYervzjyyqrEuIMfZtxA0LkOq8zOjgoqdK0Wyy5pAtbHzn9+
+tj/Nd52J1N4sAwGfAFGqCcjZFaxh7u9o6UBL6fnErTJHN6OVqzMXmcbBlqGaS5E=3D
+=3D/gSb
+-----END PGP SIGNATURE-----
+
+
+From nobody Sun Aug  9 05:06:14 2015
+Return-Path: <tim@teamsammut.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id B20CE1AD2F2 for <hrpc@ietfa.amsl.com>; Sun,  9 Aug 2015 05:06:12 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 0.688
+X-Spam-Level: 
+X-Spam-Status: No, score=0.688 tagged_above=-999 required=5 tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001, T_RP_MATCHES_RCVD=-0.01] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id U5abUTvHySYm for <hrpc@ietfa.amsl.com>; Sun,  9 Aug 2015 05:06:11 -0700 (PDT)
+Received: from m1.teamsammut.com (m1.teamsammut.com [82.221.100.235]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 7B64C1B2A9A for <hrpc@irtf.org>; Sun,  9 Aug 2015 05:06:11 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=teamsammut.com; s=mail; t=1439121547; bh=27d//+iE7qtkflJ3Fo7ZYJyMKDS8GQZpjeJu2bqEQe8=; h=To:References:Cc:From:Date:In-Reply-To:From; b=NQyoWgYDdALCIMbbFCeu7l9fEH5UHe5GeLLdA79Y8IobBqLOVS+LSOqhQjIVhZ75T qcdV9Zzl7X5ou7WyKzwqeCdtXHUynNXTyaqHkyBKmYzB5gjgGwryfOrNTSZWvh01QR QyVDF/qhaNTJFVZj/96Acr3JWwpevRiJZfB2LGjo=
+To: Joseph Lorenzo Hall <joe@cdt.org>, Stephane Bortzmeyer <bortzmeyer@nic.fr>
+References: <20150722114313.GA28304@laperouse.bortzmeyer.org> <CABtrr-WkF+x+bRMVWEpSc9q-5GOvbYnw+K=WBXJRgF2ug7KkcQ@mail.gmail.com>
+From: Tim Sammut <tim@teamsammut.com>
+X-Enigmail-Draft-Status: N1110
+Message-ID: <55C74232.9040702@teamsammut.com>
+Date: Sun, 9 Aug 2015 13:06:10 +0100
+MIME-Version: 1.0
+In-Reply-To: <CABtrr-WkF+x+bRMVWEpSc9q-5GOvbYnw+K=WBXJRgF2ug7KkcQ@mail.gmail.com>
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: 8bit
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/Fftb9_55nUx_i7A7ybul3xrqwcw>
+Cc: hrpc@irtf.org
+Subject: Re: [hrpc] And a reminder of the landscape...
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Sun, 09 Aug 2015 12:06:12 -0000
+
+Hi.
+
+I find things to be more successful if they are relatively targeted or
+narrow. So from that perspective...
+
+On 07/22/2015 05:18 PM, Joseph Lorenzo Hall wrote:
+> On Wed, Jul 22, 2015 at 1:43 PM, Stephane Bortzmeyer <bortzmeyer@nic.fr> wrote:
+>>
+>> I suggest that RIPE Atlas probes are an enabler of human rights, since
+>> they make censorship very visible and analysable from everywhere :-)
+> 
+> Wow. This is an important insight for me. (and not just RIPE but the
+> other monitoring probe platforms like Bismark, etc.)
+> 
+
+Are monitoring tools rights enablers?
+
+They can absolutely help us understand restrictions on rights, but do
+they directly allow me to more freely exercise my rights? It feels like
+maybe they are "protectors" rather than "enablers".
+
+Maybe it is a bad example, but we all have the right to safety (security
+of person). Do the police enable that right in that I can only be safe
+with the help of the police? Or do they protect it when my right to
+safety is encroached upon?
+
+hope everyone is well
+tim
+
+-- 
+Tim Sammut ~ @t1msammut ~ tim@teamsammut.com
+Ford-Mozilla Fellow at Amnesty International
+
+
+From nobody Fri Aug 14 02:24:24 2015
+Return-Path: <niels@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 857FF1A1A69 for <hrpc@ietfa.amsl.com>; Fri, 14 Aug 2015 02:24:22 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 3.124
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.124 tagged_above=-999 required=5 tests=[BAYES_50=0.8, HOST_EQ_NL=1.545, SPF_NEUTRAL=0.779] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id kUAs-x0K0yLO for <hrpc@ietfa.amsl.com>; Fri, 14 Aug 2015 02:24:20 -0700 (PDT)
+Received: from mail.article19.io (vps784.greenhost.nl [213.108.108.114]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 05AF91A1A6C for <hrpc@irtf.org>; Fri, 14 Aug 2015 02:24:19 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTP id 7B5C381BF for <hrpc@irtf.org>; Fri, 14 Aug 2015 09:24:17 +0000 (UTC)
+Received: from mail.article19.io ([127.0.0.1]) by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10032) with ESMTP id XrK37ML95g4t for <hrpc@irtf.org>; Fri, 14 Aug 2015 09:24:16 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTP id A2F1E8199 for <hrpc@irtf.org>; Fri, 14 Aug 2015 09:24:16 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+Received: from mail.article19.io ([127.0.0.1]) by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026) with ESMTP id HTGgPVOhQOAf for <hrpc@irtf.org>; Fri, 14 Aug 2015 09:24:16 +0000 (UTC)
+Received: from [10.121.229.228] (unknown [92.67.76.162]) by mail.article19.io (Postfix) with ESMTPSA id 7720E13002E for <hrpc@irtf.org>; Fri, 14 Aug 2015 09:24:16 +0000 (UTC)
+Message-ID: <55CDB3C0.7050107@article19.org>
+Date: Fri, 14 Aug 2015 11:24:16 +0200
+From: Niels ten Oever <niels@article19.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:31.0) Gecko/20100101 Icedove/31.7.0
+MIME-Version: 1.0
+To: "hrpc@irtf.org" <hrpc@irtf.org>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/9DUgY836SbOjjpGyFych6NsF_to>
+Subject: [hrpc] Edward Snowden on Protocols and Human Rights at IETF93
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 14 Aug 2015 09:24:22 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Hi all,
+
+Mark Nottingham got the Q&A with Snowden at IETF93 transcribed, please
+find it here: https://gist.github.com/mnot/382aca0b23b6bf082116
+
+I pasted the part sepcifically about human rights underneath. There
+are some very interesting points in there on non-discrimination, an
+issue that was also often mentioned by the late Caspar Bowden.
+
+Best,
+
+Niels
+
+Human Rights
+
+0:18:55
+
+Niels ten Oever: First, I'd like to thank you for your courageous work
+and over the past years in the IETF community, there has been an
+increasing trends in privacy which has been accelerated by your
+courageous work. How =E2=80=93 for example the statement on pervasive
+surveillance and the guidelines for privacy considerations, but do you
+think there could also be further work to protect other human rights
+on a practical level such as freedom of expression?
+
+Edward Snowden: Yeah. This is =E2=80=93 so this is very much a delicate t=
+opic.
+It's a very important topic and it=E2=80=99s a big question, so I can't r=
+eally
+get at it in depth.
+
+I spoke a little bit about identity and this really speaks to =E2=80=93 w=
+hen
+we think about human rights on the internet, the ones that immediately
+come to everybody's mind are privacy and security, right? You can add
+confidentiality in there as a part of privacy, and the idea is the
+Universal Declaration of Human Rights, the US Constitution,
+International Covenant on Civil and Political Rights, all of these
+frameworks that say what human rights are, they all say we have to be
+protected against arbitrary interference at any kind of scale,
+anything on target, anything they can justify in our communications.
+
+Unfortunately, the internet has many ways of providing a very cheap
+and effective means of interfering with those rights.
+
+So, yes, everybody knows about that, right, but we need to think about
+=E2=80=93 when we think about identity, when we think about these other
+things, we need to think about other human rights principles which are
+very difficult to enforce through national mechanisms, right? We can
+pass the best human rights laws in the world in the United States, in
+the European Union, in Canada, wherever, it's not gonna help people in
+Russia, in China, in Brazil, anywhere else.
+
+But if we create a fabric =E2=80=93 if we create a network through protoc=
+ols
+that provide means of access that can be guaranteed the safest =E2=80=93
+internet that you get in France is just as good as the internet that
+you connect to from China. That's a net win for human rights.
+
+When we think about access, we also need to think about things like
+non-discrimination, but again, how do you enforce non-discrimination,
+something like that, through a protocol level? It's =E2=80=93 it seems li=
+ke
+it's very difficult, but then when you think about what are the
+mechanisms to which discrimination occurs from the human rights
+context? And that's through affiliation, through association, again
+through identity.
+
+By anonymising people, by allowing them to divorce themselves from
+their physical identity whether a member of a minority group and
+agreed to =E2=80=93 religious group or something like that =E2=80=93 they=
+ have a
+political affiliation that could get them jailed or killed in that
+country. If you allow them to divorce themselves through the
+technology, you're providing human rights ahead of the law, that law
+will eventually recognise and support.
+
+And this is something that I think people do not realise yet. Thinkers
+do, a lot of technologists do, but the broad public doesn't really
+think about the progress of human rights in the historic context.
+
+Nobody was thinking about the speech rights of somebody when they were
+living in caves and running from tigers. That doesn't mean that human
+rights don't exist. It means that they are product of civilisational
+progress and we, in the technological community, are the vanguard of
+that progress today. We can provide new and enduring human rights that
+generations of people will enjoy and that will be a net gain for
+humanity as a family. But even if we don't go that far, I think we
+have not just the right but the duty to ensure that the human rights
+that we ourselves inherited will be passed along to those who come
+behind us. We can use technology as the mechanism to achieve that.
+
+Niels ten Oever: Thank you.
+- --=20
+Niels ten Oever
+Head of Digital
+
+Article 19
+www.article19.org
+
+PGP fingerprint    8D9F C567 BEE4 A431 56C4
+                   678B 08B5 A0F2 636D 68E9
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQEcBAEBCAAGBQJVzbPAAAoJEAi1oPJjbWjpa8MH/2UkUhylmXjFNl4Ks741MVAo
+7Wzp0kk3FX37psEXyDOyfvIxEZJsRP2SGLpWDsTtP6JUUaEHqF3atmLdIFGAXMOV
+IacC3u/BIkaJ1wv50+LhoXIx43mX8jg5PGi0A10tJCbGMTiuBf4fQ1rFC9E9sB7c
+m7XFdpp5JqHVBP6hPy7ii4wTnc2OkeRRqUDrhiPmP7qhk3c+Irt5YzudbZcC9FcZ
+4i9hX/bGBRn4N4UX2SEpIWrPAhYJgFch9aXy63xLEj7+jmZ4GBjJmofEPjqnJ63X
+MbrpHh808jtu/afhHUls6vEDC6UowtHfkFqWtuC0f8EjbbipY4k+YZoNQkGZ9oU=3D
+=3DZsxb
+-----END PGP SIGNATURE-----
+
+
+From nobody Mon Aug 17 11:33:46 2015
+Return-Path: <niels@article19.org>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 1CE0B1A88A7 for <hrpc@ietfa.amsl.com>; Mon, 17 Aug 2015 11:33:45 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 3.124
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.124 tagged_above=-999 required=5 tests=[BAYES_50=0.8, HOST_EQ_NL=1.545, SPF_NEUTRAL=0.779] autolearn=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id IcEOVJfkVGIV for <hrpc@ietfa.amsl.com>; Mon, 17 Aug 2015 11:33:43 -0700 (PDT)
+Received: from mail.article19.io (vps784.greenhost.nl [213.108.108.114]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 2E32B1A8896 for <hrpc@irtf.org>; Mon, 17 Aug 2015 11:33:42 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTP id C3744180019 for <hrpc@irtf.org>; Mon, 17 Aug 2015 18:33:40 +0000 (UTC)
+Received: from mail.article19.io ([127.0.0.1]) by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10032) with ESMTP id 5RdLdbD9-Nxh for <hrpc@irtf.org>; Mon, 17 Aug 2015 18:33:39 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1]) by mail.article19.io (Postfix) with ESMTP id 53CFB81D8 for <hrpc@irtf.org>; Mon, 17 Aug 2015 18:33:39 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+Received: from mail.article19.io ([127.0.0.1]) by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026) with ESMTP id rDiGvuCjZvmO for <hrpc@irtf.org>; Mon, 17 Aug 2015 18:33:39 +0000 (UTC)
+Received: from [10.20.2.46] (unknown [171.33.130.90]) by mail.article19.io (Postfix) with ESMTPSA id EB07281D4 for <hrpc@irtf.org>; Mon, 17 Aug 2015 18:33:38 +0000 (UTC)
+Message-ID: <55D22902.4010902@article19.org>
+Date: Mon, 17 Aug 2015 20:33:38 +0200
+From: Niels ten Oever <niels@article19.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:31.0) Gecko/20100101 Icedove/31.7.0
+MIME-Version: 1.0
+To: hrpc@irtf.org
+References: <20150722114313.GA28304@laperouse.bortzmeyer.org> <CABtrr-WkF+x+bRMVWEpSc9q-5GOvbYnw+K=WBXJRgF2ug7KkcQ@mail.gmail.com> <55C74232.9040702@teamsammut.com>
+In-Reply-To: <55C74232.9040702@teamsammut.com>
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/xd4btQW6TbSDVHan_DShdzrw_io>
+Subject: Re: [hrpc] And a reminder of the landscape...
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 17 Aug 2015 18:33:45 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+
+On 08/09/2015 02:06 PM, Tim Sammut wrote:
+> Hi.
+>=20
+> I find things to be more successful if they are relatively targeted
+> or narrow. So from that perspective...
+>=20
+> On 07/22/2015 05:18 PM, Joseph Lorenzo Hall wrote:
+>> On Wed, Jul 22, 2015 at 1:43 PM, Stephane Bortzmeyer
+>> <bortzmeyer@nic.fr> wrote:
+>>>=20
+>>> I suggest that RIPE Atlas probes are an enabler of human
+>>> rights, since they make censorship very visible and analysable
+>>> from everywhere :-)
+>>=20
+>> Wow. This is an important insight for me. (and not just RIPE but
+>> the other monitoring probe platforms like Bismark, etc.)
+>>=20
+>=20
+> Are monitoring tools rights enablers?
+>=20
+> They can absolutely help us understand restrictions on rights, but
+> do they directly allow me to more freely exercise my rights? It
+> feels like maybe they are "protectors" rather than "enablers".
+
+'Protect' is stronger than 'enable', right? I'd say they'd provide
+indicators.
+
+>=20
+> Maybe it is a bad example, but we all have the right to safety
+> (security of person). Do the police enable that right in that I can
+> only be safe with the help of the police? Or do they protect it
+> when my right to safety is encroached upon?
+>=20
+
+I think it would be closer to measuring instruments in a scientific
+experiment. The perfect instrument doesn't affect the experiment.
+
+Cheers,
+
+Niels
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQEcBAEBCAAGBQJV0ikCAAoJEAi1oPJjbWjpZJYH/0EHOVkgiBi/WLhriELbOZwF
+d4UCNosEQuLKAz4sY+l8mSg/Ov7pjizeyLNFQ2nbs+b4tE7jGGWuk3UcNRKM5eoN
+32YWMwCMiEYgKJCSxCqCJwIjxkP+bU8+JBo6Mmj5Q+Kk386ccvpgtaZ+eFpFz2ft
+12QXGbvrj8POF5MFkQlrZSLNDk4rTkLhygo5TiJ87gi4tftrZNoLcESPkdsNN7Ag
+At6/Bl73RpvH1l+boh9NYiwPOexkYE7Y/RiHf3XWmaKsBmpARVWL/YwYCCUd8R5E
+DE0fQY8Umt+MkS02+eq+7ogPYbBhrLqkupjCGwCoTdIQS06zmFc4HnIwiD4opVI=3D
+=3D9a2o
+-----END PGP SIGNATURE-----
+
+
+From nobody Tue Aug 25 11:38:13 2015
+Return-Path: <bortzmeyer@nic.fr>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id CFCEE1A87A7 for <hrpc@ietfa.amsl.com>; Tue, 25 Aug 2015 11:38:12 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 0.8
+X-Spam-Level: 
+X-Spam-Status: No, score=0.8 tagged_above=-999 required=5 tests=[BAYES_50=0.8] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id z6uFi-Dn7eNQ for <hrpc@ietfa.amsl.com>; Tue, 25 Aug 2015 11:38:10 -0700 (PDT)
+Received: from mail.bortzmeyer.org (aetius.bortzmeyer.org [IPv6:2001:4b98:dc0:41:216:3eff:fece:1902]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 8FDEC1A6EE4 for <hrpc@irtf.org>; Tue, 25 Aug 2015 11:38:10 -0700 (PDT)
+Received: by mail.bortzmeyer.org (Postfix, from userid 10) id 336B73B684; Tue, 25 Aug 2015 20:38:07 +0200 (CEST)
+Received: by mail.sources.org (Postfix, from userid 1000) id 6B1BACA45E; Tue, 25 Aug 2015 20:33:41 +0200 (CEST)
+Date: Tue, 25 Aug 2015 20:33:41 +0200
+From: Stephane Bortzmeyer <bortzmeyer@nic.fr>
+To: Joana Varon <joana@varonferraz.com>
+Message-ID: <20150825183341.GA32198@sources.org>
+References: <d31e6b5e5d58a5b57c43fb95f5e6825e@varonferraz.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <d31e6b5e5d58a5b57c43fb95f5e6825e@varonferraz.com>
+X-Transport: UUCP rules
+X-Operating-System: Debian GNU/Linux 8.1
+X-Charlie: Je suis Charlie
+User-Agent: Mutt/1.5.23 (2014-03-12)
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/1OZUzBB9ojWAH_DcaUs3FCetuEg>
+Cc: hrpc@irtf.org
+Subject: Re: [hrpc] Fwd: Internet Infrastructure and IP Censorship by David Post
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 25 Aug 2015 18:38:13 -0000
+
+On Mon, Aug 03, 2015 at 06:48:27PM +0200,
+ Joana Varon <joana@varonferraz.com> wrote 
+ a message of 1376 lines which said:
+
+> This might be interesting to have a look at.
+...
+> NCSG member David G. Post has written a compelling new article on the
+> DNS as a tool of censorship:
+> http://www.ipjustice.org/digital-rights/internet-infrastructure-and-ip-censorship-by-david-post/
+
+Good paper. I regret a sloppy terminology, for instance calling "DNS"
+domain registration. The DNS is a protocol to transmit data from
+servers to clients. Domain name registration is something different,
+involving different techniques and people. Today, many registries allo
+you to register a domain name without the domain being published in
+the DNS.
+
+For a long time, the same organisations were doing both. Today, most
+new gTLD registries no longer operate DNS servers, they subcontract.
+
+Also, the paper is very US-centric. It mentions the SOPA/PIPA failure
+but not the fact that this technique (lying DNS resolvers) is actively
+used in many countries.
+
+
+From nobody Tue Aug 25 11:48:11 2015
+Return-Path: <bortzmeyer@nic.fr>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 2D3D11A8965 for <hrpc@ietfa.amsl.com>; Tue, 25 Aug 2015 11:48:09 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.9 tagged_above=-999 required=5 tests=[BAYES_00=-1.9] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Dch4-HiTx0Ty for <hrpc@ietfa.amsl.com>; Tue, 25 Aug 2015 11:48:08 -0700 (PDT)
+Received: from mail.bortzmeyer.org (aetius.bortzmeyer.org [217.70.190.232]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id E7C041A8825 for <hrpc@irtf.org>; Tue, 25 Aug 2015 11:48:07 -0700 (PDT)
+Received: by mail.bortzmeyer.org (Postfix, from userid 10) id 9DF1B3BB10; Tue, 25 Aug 2015 20:48:06 +0200 (CEST)
+Received: by mail.sources.org (Postfix, from userid 1000) id 5D9941908FE; Tue, 25 Aug 2015 20:46:22 +0200 (CEST)
+Date: Tue, 25 Aug 2015 20:46:22 +0200
+From: Stephane Bortzmeyer <bortzmeyer@nic.fr>
+To: Niels ten Oever <niels@article19.org>
+Message-ID: <20150825184622.GB32198@sources.org>
+References: <CAJ381cn+tn8JsysX+hfz34RWraLYkN+K3qLUM-cez2z+2q5F2A@mail.gmail.com> <9F1EF697-89EB-41E1-AA01-C1438DF4D7EA@netapp.com> <55C493BE.2090104@article19.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <55C493BE.2090104@article19.org>
+X-Transport: UUCP rules
+X-Operating-System: Debian GNU/Linux 8.1
+X-Charlie: Je suis Charlie
+User-Agent: Mutt/1.5.23 (2014-03-12)
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/KLCu8oQjLqkoTBq5YzrxImI3QZ8>
+Cc: hrpc@irtf.org
+Subject: Re: [hrpc] [gaia] practical considerations about security implementation
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 25 Aug 2015 18:48:09 -0000
+
+On Fri, Aug 07, 2015 at 01:17:18PM +0200,
+ Niels ten Oever <niels@article19.org> wrote 
+ a message of 87 lines which said:
+
+> there are regular occurrences of significant security problems in
+> the application layer, but that doesn't mean that that are no
+> problems on lower layers, right? The chain is as strong as its
+> weakest link.
+
+Also, we cannot solve all the problems of mankind, or even the more
+limited problem of computer security. IETF/IRTF is in charge of the
+infrastructure, not the user interface or user training. Let's be
+modest and focus on our job.
+
+
+From nobody Tue Aug 25 11:48:16 2015
+Return-Path: <bortzmeyer@nic.fr>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 984141A8825 for <hrpc@ietfa.amsl.com>; Tue, 25 Aug 2015 11:48:10 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.9 tagged_above=-999 required=5 tests=[BAYES_00=-1.9] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id nV0TMSBtYN1i for <hrpc@ietfa.amsl.com>; Tue, 25 Aug 2015 11:48:08 -0700 (PDT)
+Received: from mail.bortzmeyer.org (aetius.bortzmeyer.org [217.70.190.232]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id E7E041A8888 for <hrpc@irtf.org>; Tue, 25 Aug 2015 11:48:07 -0700 (PDT)
+Received: by mail.bortzmeyer.org (Postfix, from userid 10) id 912993BB0F; Tue, 25 Aug 2015 20:48:06 +0200 (CEST)
+Received: by mail.sources.org (Postfix, from userid 1000) id 86C781908FE; Tue, 25 Aug 2015 20:44:13 +0200 (CEST)
+Date: Tue, 25 Aug 2015 20:44:13 +0200
+From: Stephane Bortzmeyer <bortzmeyer@nic.fr>
+To: hrpc@irtf.org
+Message-ID: <20150825184413.GA2165@sources.org>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="sdtB3X0nJg68CQEu"
+Content-Disposition: inline
+X-Transport: UUCP rules
+X-Operating-System: Debian GNU/Linux 8.1
+X-Charlie: Je suis Charlie
+User-Agent: Mutt/1.5.23 (2014-03-12)
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/oVuEZZARMStRO195KG1yZ5ywYUs>
+Subject: [hrpc] [rfc-editor@rfc-editor.org: RFC 7624 on Confidentiality in the Face of Pervasive Surveillance: A Threat Model and Problem Statement]
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 25 Aug 2015 18:48:10 -0000
+
+--sdtB3X0nJg68CQEu
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+Relevant for this group, a new RFC.
+
+--sdtB3X0nJg68CQEu
+Content-Type: message/rfc822
+Content-Disposition: inline
+
+Return-Path: <bortzmeyer@nic.fr>
+X-Original-To: stephane@sources.org
+Delivered-To: stephane@sources.org
+Received: by mail.sources.org (Postfix, from userid 10)
+	id 62E591908FE; Tue, 25 Aug 2015 20:43:08 +0200 (CEST)
+Received: from mx4.nic.fr (mx4.nic.fr [192.134.4.12])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by mail.bortzmeyer.org (Postfix) with ESMTPS id 0C0C03B684
+	for <stephane@sources.org>; Tue, 25 Aug 2015 20:40:09 +0200 (CEST)
+Received: from mx4.nic.fr (localhost [127.0.0.1])
+	by mx4.nic.fr (Postfix) with SMTP id E49B92802B2
+	for <stephane@sources.org>; Tue, 25 Aug 2015 20:40:08 +0200 (CEST)
+Received: from relay1.nic.fr (relay1.nic.fr [192.134.4.162])
+	by mx4.nic.fr (Postfix) with ESMTP id DE9B528023D
+	for <stephane@sources.org>; Tue, 25 Aug 2015 20:40:08 +0200 (CEST)
+Received: from bortzmeyer.nic.fr (unknown [IPv6:2001:67c:1348:7::86:133])
+	by relay1.nic.fr (Postfix) with ESMTP id DAAC44C0006
+	for <stephane@sources.org>; Tue, 25 Aug 2015 20:39:38 +0200 (CEST)
+Resent-From: Stephane Bortzmeyer <bortzmeyer@nic.fr>
+Resent-Date: Tue, 25 Aug 2015 20:39:38 +0200
+Resent-Message-ID: <20150825183938.GC32482@nic.fr>
+Resent-To: stephane@sources.org
+Received: from hebe.prod-int.prive.th3.nic.fr [10.1.81.80]
+	by batilda.nic.fr with IMAP (fetchmail-6.3.26)
+	for <bortzmeyer@localhost> (single-drop); Fri, 21 Aug 2015 00:38:50 +0200 (CEST)
+Received: from hebe.prod-int.prive.th3.nic.fr (LHLO zimbra.afnic.fr)
+ (10.1.81.80) by zimbra.afnic.fr with LMTP; Fri, 21 Aug 2015 00:38:39 +0200
+ (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by zimbra.afnic.fr (Postfix) with ESMTP id 7119D2D7C081
+	for <bortzmeyer@afnic.fr>; Fri, 21 Aug 2015 00:38:39 +0200 (CEST)
+X-Spam-Flag: NO
+X-Spam-Score: -3.567
+X-Spam-Level: 
+X-Spam-Status: No, score=-3.567 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_00=-1.9, DKIM_SIGNED=0.1,
+	DKIM_VALID=-0.1, HEADER_FROM_DIFFERENT_DOMAINS=0.001,
+	RP_MATCHES_RCVD=-0.668] autolearn=unavailable autolearn_force=no
+Authentication-Results: zimbra.afnic.fr (amavisd-new);
+	dkim=pass (1024-bit key) header.d=ietf.org
+Received: from zimbra.afnic.fr ([127.0.0.1])
+	by localhost (zimbra.afnic.fr [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id tDpdYk3ff9S8 for <bortzmeyer@afnic.fr>;
+	Fri, 21 Aug 2015 00:38:38 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by zimbra.afnic.fr (Postfix) with ESMTP id DFCF32D7C08B
+	for <bortzmeyer@afnic.fr>; Fri, 21 Aug 2015 00:38:38 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at zimbra.afnic.fr
+Received: from zimbra.afnic.fr ([127.0.0.1])
+	by localhost (zimbra.afnic.fr [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id Tc4tCaDoGtwp for <bortzmeyer@afnic.fr>;
+	Fri, 21 Aug 2015 00:38:38 +0200 (CEST)
+Received: from relay1.nic.fr (relay1.nic.fr [192.134.4.162])
+	by zimbra.afnic.fr (Postfix) with ESMTP id C1E832D7C07F
+	for <bortzmeyer@hermes.nic.fr>; Fri, 21 Aug 2015 00:38:38 +0200 (CEST)
+Received: by relay1.nic.fr (Postfix)
+	id BD3274C000F; Fri, 21 Aug 2015 00:38:38 +0200 (CEST)
+Received: from mx5.nic.fr (mx5.nic.fr [IPv6:2001:67c:2218:2::4:13])
+	by relay1.nic.fr (Postfix) with ESMTP id BC7194C0006;
+	Fri, 21 Aug 2015 00:38:38 +0200 (CEST)
+Received: from mx5.nic.fr (localhost [127.0.0.1])
+	by mx5.nic.fr (Postfix) with SMTP id BB0E73001BA;
+	Fri, 21 Aug 2015 00:38:38 +0200 (CEST)
+Received: by mx5.nic.fr (Postfix, from userid 1137)
+	id 9628F3002EA; Fri, 21 Aug 2015 00:38:38 +0200 (CEST)
+Received: from mail.ietf.org (mail.ietf.org [IPv6:2001:1900:3001:11::2c])
+	(using TLSv1.2 with cipher DHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(Client did not present a certificate)
+	by mx5.nic.fr (Postfix) with ESMTPS id 307503001BA;
+	Fri, 21 Aug 2015 00:38:38 +0200 (CEST)
+Received: from ietfa.amsl.com (localhost [IPv6:::1])
+	by ietfa.amsl.com (Postfix) with ESMTP id 76C051B2CAE;
+	Thu, 20 Aug 2015 15:35:18 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=ietf.org; s=ietf1;
+	t=1440110118; bh=y6fGU1BkJQUGxYhXcSJRJmwUOTtFg1/xXc4vuWSCbQU=;
+	h=To:Subject:From:Message-Id:Date:Cc:Reply-To:List-Id:
+	 List-Unsubscribe:List-Archive:List-Post:List-Help:List-Subscribe:
+	 Sender;
+	b=OGMIwADlYSSyyGMMjHVTu29QjNNMQRE1sR9pEEKsrkQRD0X+hXdvyv4PQWbuhr90H
+	 p/8eG5ncfhTzhp8YINTxZRsxb4+m0+NFYnFwyL26rTrAbU1SbTarKa0ratQg7LL8fW
+	 QosT9YVvHckRLin6MkZrUYz2LIwtiQy/tfYndhE0=
+X-Original-To: ietf-announce@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1])
+ by ietfa.amsl.com (Postfix) with ESMTP id 461101B2C7D
+ for <ietf-announce@ietfa.amsl.com>; Thu, 20 Aug 2015 15:35:14 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+Received: from mail.ietf.org ([4.31.198.44])
+ by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024)
+ with ESMTP id NcB1lYCwMrbQ for <ietf-announce@ietfa.amsl.com>;
+ Thu, 20 Aug 2015 15:35:12 -0700 (PDT)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1900:3001:11::31])
+ by ietfa.amsl.com (Postfix) with ESMTP id 5634F1B2C96
+ for <ietf-announce@ietf.org>; Thu, 20 Aug 2015 15:35:06 -0700 (PDT)
+Received: by rfc-editor.org (Postfix, from userid 30)
+ id 36C24180207; Thu, 20 Aug 2015 15:34:38 -0700 (PDT)
+To: ietf-announce@ietf.org, rfc-dist@rfc-editor.org
+Old-Subject: RFC 7624 on Confidentiality in the Face of Pervasive Surveillance: A
+ Threat Model and Problem Statement
+X-PHP-Originating-Script: 1005:ams_util_lib.php
+Old-From: rfc-editor@rfc-editor.org
+Message-Id: <20150820223438.36C24180207@rfc-editor.org>
+Date: Thu, 20 Aug 2015 15:34:38 -0700 (PDT)
+Archived-At: <http://mailarchive.ietf.org/arch/msg/ietf-announce/LQSLzGqQrn5x4KD3k6fdKBB6xSs>
+Cc: rfc-editor@rfc-editor.org
+X-BeenThere: ietf-announce@ietf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+Reply-To: ietf@ietf.org
+List-Id: "IETF announcement list. No discussions." <ietf-announce.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/ietf-announce>,
+ <mailto:ietf-announce-request@ietf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/ietf-announce/>
+List-Post: <mailto:ietf-announce@ietf.org>
+List-Help: <mailto:ietf-announce-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/ietf-announce>,
+ <mailto:ietf-announce-request@ietf.org?subject=subscribe>
+Errors-To: ietf-announce-bounces@ietf.org
+Sender: "IETF-Announce" <ietf-announce-bounces@ietf.org>
+X-PMX-Version: 6.0.0.2142326, Antispam-Engine: 2.7.2.2107409, Antispam-Data: 2015.8.20.223016
+X-PerlMx-Spam: Gauge=IIIIIIII, Probability=8%, Report='
+ REPLYTO_FROM_DIFF_ADDY 0.1, HTML_00_01 0.05, HTML_00_10 0.05, BODYTEXTP_SIZE_3000_LESS 0, BODY_SIZE_2000_2999 0, BODY_SIZE_5000_LESS 0, BODY_SIZE_7000_LESS 0, DKIM_SIGNATURE 0, NO_REAL_NAME 0, URI_ENDS_IN_HTML 0, __ANY_URI 0, __CP_URI_IN_BODY 0, __FRAUD_BODY_WEBMAIL 0, __FRAUD_WEBMAIL 0, __HAS_FROM 0, __HAS_LIST_HEADER 0, __HAS_LIST_HELP 0, __HAS_LIST_SUBSCRIBE 0, __HAS_LIST_UNSUBSCRIBE 0, __HAS_MSGID 0, __HAS_REPLYTO 0, __HTTPS_URI 0, __MAL_TELEKOM_URI 0, __MIME_TEXT_ONLY 0, __MULTIPLE_URI_TEXT 0, __SANE_MSGID 0, __SUBJ_ALPHA_END 0, __TO_MALFORMED_2 0, __TO_NO_NAME 0, __URI_IN_BODY 0, __URI_NS '
+Old-Subject: RFC 7624 on Confidentiality in the Face of Pervasive Surveillance: A  Threat Model and Problem Statement
+Old-From: rfc-editor@rfc-editor.org
+X-Bogosity: Ham, tests=bogofilter, spamicity=0.145988, version=1.2.4
+Subject: RFC 7624 on Confidentiality in the Face of Pervasive Surveillance: A  Threat Model and Problem Statement
+From: rfc-editor@rfc-editor.org
+
+A new Request for Comments is now available in online RFC libraries.
+
+        
+        RFC 7624
+
+        Title:      Confidentiality in the Face of 
+                    Pervasive Surveillance: A Threat Model and 
+                    Problem Statement 
+        Author:     R. Barnes, B. Schneier,
+                    C. Jennings, T. Hardie,
+                    B. Trammell, C. Huitema,
+                    D. Borkmann
+        Status:     Informational
+        Stream:     IAB
+        Date:       August 2015
+        Mailbox:    rlb@ipv.sx, 
+                    schneier@schneier.com, 
+                    fluffy@cisco.com,
+                    ted.ietf@gmail.com, 
+                    ietf@trammell.ch,  
+                    huitema@huitema.net, 
+                    daniel@iogearbox.net
+        Pages:      24
+        Characters: 62260
+        Updates/Obsoletes/SeeAlso:   None
+
+        I-D Tag:    draft-iab-privsec-confidentiality-threat-07.txt
+
+        URL:        https://www.rfc-editor.org/info/rfc7624
+
+        DOI:        http://dx.doi.org/10.17487/RFC7624
+
+Since the initial revelations of pervasive surveillance in 2013,
+several classes of attacks on Internet communications have been
+discovered.  In this document, we develop a threat model that
+describes these attacks on Internet confidentiality.  We assume an
+attacker that is interested in undetected, indiscriminate
+eavesdropping.  The threat model is based on published, verified
+attacks.
+
+This document is a product of the Internet Architecture Board.
+
+
+INFORMATIONAL: This memo provides information for the Internet community.
+It does not specify an Internet standard of any kind. Distribution of
+this memo is unlimited.
+
+This announcement is sent to the IETF-Announce and rfc-dist lists.
+To subscribe or unsubscribe, see
+  https://www.ietf.org/mailman/listinfo/ietf-announce
+  https://mailman.rfc-editor.org/mailman/listinfo/rfc-dist
+
+For searching the RFC series, see https://www.rfc-editor.org/search
+For downloading RFCs, see https://www.rfc-editor.org/rfc.html
+
+Requests for special distribution should be addressed to either the
+author of the RFC in question, or to rfc-editor@rfc-editor.org.  Unless
+specifically noted otherwise on the RFC itself, all RFCs are for
+unlimited distribution.
+
+
+The RFC Editor Team
+Association Management Solutions, LLC
+
+--sdtB3X0nJg68CQEu--
+
+
+From nobody Thu Aug 27 11:38:12 2015
+Return-Path: <bortzmeyer@nic.fr>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id B93781A1A9C for <hrpc@ietfa.amsl.com>; Thu, 27 Aug 2015 11:38:10 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.9 tagged_above=-999 required=5 tests=[BAYES_00=-1.9] autolearn=ham
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id wIuAmtGIT_s9 for <hrpc@ietfa.amsl.com>; Thu, 27 Aug 2015 11:38:09 -0700 (PDT)
+Received: from mail.bortzmeyer.org (aetius.bortzmeyer.org [IPv6:2001:4b98:dc0:41:216:3eff:fece:1902]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id C978A1AD21C for <hrpc@irtf.org>; Thu, 27 Aug 2015 11:38:08 -0700 (PDT)
+Received: by mail.bortzmeyer.org (Postfix, from userid 10) id EB5543BB51; Thu, 27 Aug 2015 20:38:06 +0200 (CEST)
+Received: by mail.sources.org (Postfix, from userid 1000) id 446BA1908B4; Thu, 27 Aug 2015 20:35:06 +0200 (CEST)
+Date: Thu, 27 Aug 2015 20:35:06 +0200
+From: Stephane Bortzmeyer <bortzmeyer@nic.fr>
+To: hrpc@irtf.org
+Message-ID: <20150827183506.GB30264@sources.org>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="neYutvxvOLaeuPCA"
+Content-Disposition: inline
+X-Transport: UUCP rules
+X-Operating-System: Debian GNU/Linux 8.1
+X-Charlie: Je suis Charlie
+User-Agent: Mutt/1.5.23 (2014-03-12)
+Archived-At: <http://mailarchive.ietf.org/arch/msg/hrpc/5-SFjpYc9A5lZ_dM7pFiRUytMs8>
+Subject: [hrpc] [dns-privacy] RFC 7626 on DNS Privacy Considerations
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: "niels@article19.org" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 27 Aug 2015 18:38:10 -0000
+
+--neYutvxvOLaeuPCA
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+Another RFC relevant for this research group.
+
+--neYutvxvOLaeuPCA
+Content-Type: message/rfc822
+Content-Disposition: inline
+
+Return-Path: <bortzmeyer@nic.fr>
+X-Original-To: stephane@sources.org
+Delivered-To: stephane@sources.org
+Received: by mail.sources.org (Postfix, from userid 10)
+	id 88FC5190ABF; Thu, 27 Aug 2015 19:13:09 +0200 (CEST)
+Received: from mx4.nic.fr (mx4.nic.fr [192.134.4.12])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by mail.bortzmeyer.org (Postfix) with ESMTPS id 8F5773BB51
+	for <stephane@sources.org>; Thu, 27 Aug 2015 19:11:59 +0200 (CEST)
+Received: from mx4.nic.fr (localhost [127.0.0.1])
+	by mx4.nic.fr (Postfix) with SMTP id 8602628032D
+	for <stephane@sources.org>; Thu, 27 Aug 2015 19:11:59 +0200 (CEST)
+Received: from relay1.nic.fr (relay1.nic.fr [192.134.4.162])
+	by mx4.nic.fr (Postfix) with ESMTP id 7F20C280314
+	for <stephane@sources.org>; Thu, 27 Aug 2015 19:11:59 +0200 (CEST)
+Received: from bortzmeyer.nic.fr (unknown [IPv6:2001:67c:1348:7::86:133])
+	by relay1.nic.fr (Postfix) with ESMTP id 7B1684C0006
+	for <stephane@sources.org>; Thu, 27 Aug 2015 19:11:29 +0200 (CEST)
+Resent-From: Stephane Bortzmeyer <bortzmeyer@nic.fr>
+Resent-Date: Thu, 27 Aug 2015 19:11:29 +0200
+Resent-Message-ID: <20150827171129.GA21916@nic.fr>
+Resent-To: stephane@sources.org
+Received: from hebe.prod-int.prive.th3.nic.fr [10.1.81.80]
+	by batilda.nic.fr with IMAP (fetchmail-6.3.26)
+	for <bortzmeyer@localhost> (single-drop); Thu, 27 Aug 2015 04:59:13 +0200 (CEST)
+Received: from hebe.prod-int.prive.th3.nic.fr (LHLO zimbra.afnic.fr)
+ (10.1.81.80) by zimbra.afnic.fr with LMTP; Thu, 27 Aug 2015 04:57:39 +0200
+ (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by zimbra.afnic.fr (Postfix) with ESMTP id 85AFF2D7C033
+	for <bortzmeyer@afnic.fr>; Thu, 27 Aug 2015 04:57:39 +0200 (CEST)
+X-Spam-Flag: NO
+X-Spam-Score: -3.567
+X-Spam-Level: 
+X-Spam-Status: No, score=-3.567 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_00=-1.9, DKIM_SIGNED=0.1,
+	DKIM_VALID=-0.1, HEADER_FROM_DIFFERENT_DOMAINS=0.001,
+	RP_MATCHES_RCVD=-0.668] autolearn=unavailable autolearn_force=no
+Authentication-Results: zimbra.afnic.fr (amavisd-new);
+	dkim=pass (1024-bit key) header.d=ietf.org
+Received: from zimbra.afnic.fr ([127.0.0.1])
+	by localhost (zimbra.afnic.fr [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id PurwDjpJa2fm for <bortzmeyer@afnic.fr>;
+	Thu, 27 Aug 2015 04:57:39 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by zimbra.afnic.fr (Postfix) with ESMTP id 0EAB12D7C0D7
+	for <bortzmeyer@afnic.fr>; Thu, 27 Aug 2015 04:57:39 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at zimbra.afnic.fr
+Received: from zimbra.afnic.fr ([127.0.0.1])
+	by localhost (zimbra.afnic.fr [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id DwiI3vYqcHyE for <bortzmeyer@afnic.fr>;
+	Thu, 27 Aug 2015 04:57:38 +0200 (CEST)
+Received: from relay1.nic.fr (relay1.nic.fr [192.134.4.162])
+	by zimbra.afnic.fr (Postfix) with ESMTP id EB5062D7C033
+	for <bortzmeyer@hermes.nic.fr>; Thu, 27 Aug 2015 04:57:38 +0200 (CEST)
+Received: by relay1.nic.fr (Postfix)
+	id E97E24C000F; Thu, 27 Aug 2015 04:57:38 +0200 (CEST)
+Received: from mx5.nic.fr (mx5.nic.fr [IPv6:2001:67c:2218:2::4:13])
+	by relay1.nic.fr (Postfix) with ESMTP id E8BEC4C0006
+	for <bortzmeyer@nic.fr>; Thu, 27 Aug 2015 04:57:38 +0200 (CEST)
+Received: from mx5.nic.fr (localhost [127.0.0.1])
+	by mx5.nic.fr (Postfix) with SMTP id E737830017F
+	for <bortzmeyer@nic.fr>; Thu, 27 Aug 2015 04:57:38 +0200 (CEST)
+Received: by mx5.nic.fr (Postfix, from userid 1137)
+	id CD5A93002B3; Thu, 27 Aug 2015 04:57:38 +0200 (CEST)
+Received: from mail.ietf.org (mail.ietf.org [IPv6:2001:1900:3001:11::2c])
+	(using TLSv1.2 with cipher DHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(Client did not present a certificate)
+	by mx5.nic.fr (Postfix) with ESMTPS id 67E0430017F
+	for <bortzmeyer@nic.fr>; Thu, 27 Aug 2015 04:57:38 +0200 (CEST)
+Received: from ietfa.amsl.com (localhost [IPv6:::1])
+	by ietfa.amsl.com (Postfix) with ESMTP id 6E6241A8A4C;
+	Wed, 26 Aug 2015 19:55:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=ietf.org; s=ietf1;
+	t=1440644131; bh=fK329TvspnPjNIa2NldufkVlWlGdEsqCTO9+U/CfNp0=;
+	h=To:From:Message-Id:Date:Cc:Subject:List-Id:List-Unsubscribe:
+	 List-Archive:List-Post:List-Help:List-Subscribe:MIME-Version:
+	 Content-Type:Content-Transfer-Encoding:Sender;
+	b=vKdL3cGpQeM40+a59JBfaKTYC4rI7ibbnhYKbQxc4hP0pD3HuUG1TnrAKLmTocv62
+	 oYwaSZFYlxvnMD/sPceV7y09R4mpR+DddW2BNo8m7uuA47p31Op7SJ1Y06kcu/HqDr
+	 WlYrMpjlhUBg4cYoRHm/Q3fP7swMrn4tZUsdE32M=
+X-Original-To: dns-privacy@ietfa.amsl.com
+Received: from localhost (ietfa.amsl.com [127.0.0.1])
+ by ietfa.amsl.com (Postfix) with ESMTP id 319441A8A1B;
+ Wed, 26 Aug 2015 19:55:29 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+Received: from mail.ietf.org ([4.31.198.44])
+ by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024)
+ with ESMTP id YPFaE1cRrI0x; Wed, 26 Aug 2015 19:55:28 -0700 (PDT)
+Received: from rfc-editor.org (rfc-editor.org [IPv6:2001:1900:3001:11::31])
+ by ietfa.amsl.com (Postfix) with ESMTP id D90C51A88B8;
+ Wed, 26 Aug 2015 19:55:27 -0700 (PDT)
+Received: by rfc-editor.org (Postfix, from userid 30)
+ id C8B8618046D; Wed, 26 Aug 2015 19:55:13 -0700 (PDT)
+To: ietf-announce@ietf.org, rfc-dist@rfc-editor.org
+X-PHP-Originating-Script: 1005:ams_util_lib.php
+Old-From: rfc-editor@rfc-editor.org
+Message-Id: <20150827025513.C8B8618046D@rfc-editor.org>
+Date: Wed, 26 Aug 2015 19:55:13 -0700 (PDT)
+Archived-At: <http://mailarchive.ietf.org/arch/msg/dns-privacy/aeO8fpyX1_yvO7c13ZCr_5ovF0g>
+Cc: dns-privacy@ietf.org, rfc-editor@rfc-editor.org
+Old-Subject: [dns-privacy] RFC 7626 on DNS Privacy Considerations
+X-BeenThere: dns-privacy@ietf.org
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: <dns-privacy.ietf.org>
+List-Unsubscribe: <https://www.ietf.org/mailman/options/dns-privacy>,
+ <mailto:dns-privacy-request@ietf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/dns-privacy/>
+List-Post: <mailto:dns-privacy@ietf.org>
+List-Help: <mailto:dns-privacy-request@ietf.org?subject=help>
+List-Subscribe: <https://www.ietf.org/mailman/listinfo/dns-privacy>,
+ <mailto:dns-privacy-request@ietf.org?subject=subscribe>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Errors-To: dns-privacy-bounces@ietf.org
+Sender: "dns-privacy" <dns-privacy-bounces@ietf.org>
+X-PMX-Version: 6.0.0.2142326, Antispam-Engine: 2.7.2.2107409, Antispam-Data: 2015.8.27.25118
+X-PerlMx-Spam: Gauge=IIIIIIII, Probability=8%, Report='
+ MULTIPLE_RCPTS 0.1, HTML_00_01 0.05, HTML_00_10 0.05, BODYTEXTP_SIZE_3000_LESS 0, BODY_SIZE_1800_1899 0, BODY_SIZE_2000_LESS 0, BODY_SIZE_5000_LESS 0, BODY_SIZE_7000_LESS 0, DKIM_SIGNATURE 0, HAS_X_PHP_SCRIPT 0, NO_REAL_NAME 0, URI_ENDS_IN_HTML 0, __ANY_URI 0, __CP_URI_IN_BODY 0, __CT 0, __CTE 0, __CT_TEXT_PLAIN 0, __HAS_FROM 0, __HAS_LIST_HEADER 0, __HAS_LIST_HELP 0, __HAS_LIST_SUBSCRIBE 0, __HAS_LIST_UNSUBSCRIBE 0, __HAS_MSGID 0, __HAS_X_PHP_ORIG_SCRIPT 0, __HTTPS_URI 0, __MAL_TELEKOM_URI 0, __MIME_TEXT_ONLY 0, __MIME_VERSION 0, __MULTIPLE_RCPTS_CC_X2 0, __MULTIPLE_URI_TEXT 0, __SANE_MSGID 0, __TO_MALFORMED_2 0, __TO_NO_NAME 0, __URI_IN_BODY 0, __URI_NS '
+Old-Subject: [dns-privacy] RFC 7626 on DNS Privacy Considerations
+Old-From: rfc-editor@rfc-editor.org
+X-Bogosity: Ham, tests=bogofilter, spamicity=0.000000, version=1.2.4
+Subject: [dns-privacy] RFC 7626 on DNS Privacy Considerations
+From: rfc-editor@rfc-editor.org
+
+A new Request for Comments is now available in online RFC libraries.
+
+        
+        RFC 7626
+
+        Title:      DNS Privacy Considerations 
+        Author:     S. Bortzmeyer
+        Status:     Informational
+        Stream:     IETF
+        Date:       August 2015
+        Mailbox:    bortzmeyer+ietf@nic.fr
+        Pages:      17
+        Characters: 43202
+        Updates/Obsoletes/SeeAlso:   None
+
+        I-D Tag:    draft-ietf-dprive-problem-statement-06.txt
+
+        URL:        https://www.rfc-editor.org/info/rfc7626
+
+        DOI:        http://dx.doi.org/10.17487/RFC7626
+
+This document describes the privacy issues associated with the use of
+the DNS by Internet users.  It is intended to be an analysis of the
+present situation and does not prescribe solutions.
+
+This document is a product of the DNS PRIVate Exchange Working Group of the IETF.
+
+
+INFORMATIONAL: This memo provides information for the Internet community.
+It does not specify an Internet standard of any kind. Distribution of
+this memo is unlimited.
+
+This announcement is sent to the IETF-Announce and rfc-dist lists.
+To subscribe or unsubscribe, see
+  https://www.ietf.org/mailman/listinfo/ietf-announce
+  https://mailman.rfc-editor.org/mailman/listinfo/rfc-dist
+
+For searching the RFC series, see https://www.rfc-editor.org/search
+For downloading RFCs, see https://www.rfc-editor.org/rfc.html
+
+Requests for special distribution should be addressed to either the
+author of the RFC in question, or to rfc-editor@rfc-editor.org.  Unless
+specifically noted otherwise on the RFC itself, all RFCs are for
+unlimited distribution.
+
+
+The RFC Editor Team
+Association Management Solutions, LLC
+
+
+_______________________________________________
+dns-privacy mailing list
+dns-privacy@ietf.org
+https://www.ietf.org/mailman/listinfo/dns-privacy
+
+--neYutvxvOLaeuPCA--
+

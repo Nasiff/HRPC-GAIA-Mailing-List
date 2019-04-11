@@ -1,0 +1,1509 @@
+
+From nobody Fri Feb  1 08:44:35 2019
+Return-Path: <stephen.song@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 08032130FC2 for <gaia@ietfa.amsl.com>; Fri,  1 Feb 2019 08:44:34 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.896
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.896 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, FREEMAIL_FORGED_FROMDOMAIN=0.001, FREEMAIL_FROM=0.001, GB_AFFORDABLE=1, HEADER_FROM_DIFFERENT_DOMAINS=0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=no autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id oFKpF3mSFclS for <gaia@ietfa.amsl.com>; Fri,  1 Feb 2019 08:44:32 -0800 (PST)
+Received: from mail-qt1-f172.google.com (mail-qt1-f172.google.com [209.85.160.172]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 44B92130FA0 for <gaia@irtf.org>; Fri,  1 Feb 2019 08:44:32 -0800 (PST)
+Received: by mail-qt1-f172.google.com with SMTP id t13so8235852qtn.3 for <gaia@irtf.org>; Fri, 01 Feb 2019 08:44:32 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:from:date:message-id:subject:to; bh=HZEpKmTQNCYPb5w1eLijaBzu7sNJpWNHLMeU97CrVPA=; b=Tt2x0mxeopRqzjRZphAbOfwAzwp2L3oBFDOIJJJ9MERLj4b9DfY+jKPrW/JtMXgMwd AxIv3zCeZP1WtkWQW9kKVOpYQM2a37Nl8gDxaqnjN6H9MQCAX4DEXc1wKFyouRUOorNm 7JXwf+B6ywAY3cS8HZyGNeRedeYGgfNZFYs+4/0I+RlLMfLbJz6H14LVxjeMNjjPiJaq euUXlHhJshJcggx32qzzbmJuwhajc34Sij2Q0mdrab0w3rqpxVZ+l4zJA41ntGhV8Eec wO3v306dd5Ht6MI/GLqiiSWOxh5gVERqldJvpdAPXJ8pDp7wVpSjINpe5a/H+3iBGsRj yAXQ==
+X-Gm-Message-State: AJcUukegqaeTwz/ksjgq+sjlXb45tBkFyHm2bP88mWONUJRnx71bRuPk cfjo6bKkaqCpSirLvQ/biQcm4ob+cfosUuocYrcSU5q94i4=
+X-Google-Smtp-Source: ALg8bN7FMbDT/YHMH9+O40UnQWYQzIElR9kBAjUbPZJtr2yH/0mo6EXywnbDWOpvHS8oQ8tcJnNMoPZNc9TSnaGu49A=
+X-Received: by 2002:a0c:e34f:: with SMTP id a15mr37509711qvm.147.1549039470598;  Fri, 01 Feb 2019 08:44:30 -0800 (PST)
+MIME-Version: 1.0
+From: Steve Song <stevesong@nsrc.org>
+Date: Fri, 1 Feb 2019 12:44:19 -0400
+Message-ID: <CAD_CWO2Vy5EK5ndYozggQsK=N7eYRsZ9mi4Y9wk0jaBHN8=upA@mail.gmail.com>
+To: gaia <gaia@irtf.org>
+Content-Type: multipart/alternative; boundary="0000000000006360bb0580d7db55"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/XHbGR8ztM7xt8ig88vKNiDrw_Bo>
+Subject: [gaia] Rethinking Affordable Access
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.29
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 01 Feb 2019 16:44:34 -0000
+
+--0000000000006360bb0580d7db55
+Content-Type: text/plain; charset="UTF-8"
+
+Hi all,
+
+If we want to affordably connect everyone, we need more "local" thinking in
+policy, regulation, and investment.
+
+https://manypossibilities.net/2019/02/rethinking-affordable-access/
+
+Cheers... Steve Song
+
+-- 
++1 902 529 0046
+stevesong@nsrc.org
+http://nsrc.org
+
+--0000000000006360bb0580d7db55
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr">Hi all,=
+<div><br></div><div>If we want to affordably connect everyone, we need more=
+ &quot;local&quot; thinking in policy, regulation, and investment.</div><di=
+v><br></div><div><a href=3D"https://manypossibilities.net/2019/02/rethinkin=
+g-affordable-access/">https://manypossibilities.net/2019/02/rethinking-affo=
+rdable-access/</a><br clear=3D"all"><div><br></div><div>Cheers... Steve Son=
+g</div><div><br></div>-- <br><div dir=3D"ltr" class=3D"gmail_signature"><di=
+v dir=3D"ltr"><div><div dir=3D"ltr"><div>+1 902 529 0046</div><div><span st=
+yle=3D"font-size:12.8px"><a href=3D"mailto:stevesong@nsrc.org" target=3D"_b=
+lank">stevesong@nsrc.org</a></span></div><div><span style=3D"font-size:12.8=
+px"><a href=3D"http://nsrc.org" target=3D"_blank">http://nsrc.org</a></span=
+><br></div><div><br></div></div></div></div></div></div></div></div></div><=
+/div>
+
+--0000000000006360bb0580d7db55--
+
+
+From nobody Fri Feb  1 13:31:02 2019
+Return-Path: <jaberamatogoro@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 3D14E130EC2 for <gaia@ietfa.amsl.com>; Fri,  1 Feb 2019 13:31:00 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.998
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.998 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, GB_AFFORDABLE=1, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=no autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id kSrS4SI3xexm for <gaia@ietfa.amsl.com>; Fri,  1 Feb 2019 13:30:58 -0800 (PST)
+Received: from mail-lf1-x129.google.com (mail-lf1-x129.google.com [IPv6:2a00:1450:4864:20::129]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 5A0DA130EB4 for <gaia@irtf.org>; Fri,  1 Feb 2019 13:30:58 -0800 (PST)
+Received: by mail-lf1-x129.google.com with SMTP id v5so6127863lfe.7 for <gaia@irtf.org>; Fri, 01 Feb 2019 13:30:58 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20161025;  h=mime-version:references:in-reply-to:from:date:message-id:subject:to :cc; bh=/gupKrDKPQ86FkbHZbj90rnvWdJXRDRSU4sR0d4F6BM=; b=TWkKtIirvC7K1pyhJF27O2bRCoaj8Ln5EEAlclOw+5IujS7og1hpXVaeyDe3IrTtBA 5OypbpMYpPyzggRWLsaFalNzs99YQwVPUDDxOb5wqPWgrnAghYXQIpRGbUyUVUJmXO+g LeukPMgI8cDZ7e+CQt/EpypTgE9PJ0uKDrYFVRqaEYvkzx3hb+iloCs3Y/hq0FxVAmgM R5ayX3AFbKCYg1fX5aED1qHTJvKhROG/e93pdQvnrzhKyJxmb6heJRAv/c+OYlLCaoo5 hbM8taqQCs/MxunZfX9sdD5tn4JFENt1pWATh+RTDxVRjACEiCHe0+qNRiPwCVPuHQRa Su6Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:references:in-reply-to:from:date :message-id:subject:to:cc; bh=/gupKrDKPQ86FkbHZbj90rnvWdJXRDRSU4sR0d4F6BM=; b=Aiio2Dg3JA4R7EPHHKEoUpbJoMDcijM4NeVbmC54me3w3Gx2YryKJaum+3m/atHAO8 ekKwgrt/KiQI5a7qU2wKGdybesS9TU91fUnEQgoihz/8uUwaQPwOb1Yiz2rX6PFBEzHP czXOPvM+TM9cEfCGBUWneBEWkWRK6APUjaAUIUv9T1C1m/WAVGINGhn/5idpuE8EIuV8 rIeoevg5l8HUX8aIubsmDCz/p69XvY7BL5h54rk5D/yUcDr/tN++KJGF24E/temWCcRB +p1frFVLv56eoYs/MH/1ZddJxJ3CQLlGUcNDybVmT8xqcOLzFVqY0MMPkrh+TYRaHFvn NTVg==
+X-Gm-Message-State: AJcUukfNSUZgHcLuZvOpn8jzdsgyPvp7f0IQv6GPbV6zteoN69SWCaR1 VI6lf0od9SJ+ARteH3AV09j+bUZdUJPlth6ICTeIwdza
+X-Google-Smtp-Source: ALg8bN7QBIBvRNHkdhRXNvWi9V1Xga2HYrNcv7kQ5zhECTx+B1NWDeLllHpQR6IxAtcOngRmM0EAzYKAyrBJ2iFs7uU=
+X-Received: by 2002:a19:f510:: with SMTP id j16mr34058367lfb.35.1549056656344;  Fri, 01 Feb 2019 13:30:56 -0800 (PST)
+MIME-Version: 1.0
+References: <CAD_CWO2Vy5EK5ndYozggQsK=N7eYRsZ9mi4Y9wk0jaBHN8=upA@mail.gmail.com>
+In-Reply-To: <CAD_CWO2Vy5EK5ndYozggQsK=N7eYRsZ9mi4Y9wk0jaBHN8=upA@mail.gmail.com>
+From: Matogoro Jabera <jaberamatogoro@gmail.com>
+Date: Sat, 2 Feb 2019 00:30:46 +0300
+Message-ID: <CANd6-7vMeoNF9XCu1vwje+U-sLYyGuyvVDNQ+TJypmVispJ9pw@mail.gmail.com>
+To: Steve Song <stevesong@nsrc.org>
+Cc: gaia <gaia@irtf.org>
+Content-Type: multipart/alternative; boundary="000000000000bd0c270580dbdbaa"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/SvMO1YyCSatcpB647M9EYFDVRk8>
+Subject: Re: [gaia] Rethinking Affordable Access
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.29
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 01 Feb 2019 21:31:00 -0000
+
+--000000000000bd0c270580dbdbaa
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Steve,
+
+Thank you for sharing this article. I am happy that we are working together
+to publish a paper on affordable access and broadband cost in Tanzania.
+
+Regards,
+MATOGORO Jabhera
+Assistant Lecturer
+College of Informatics and Virtual Education
+The University of Dodoma
+P.O Box 490,
+Dodoma.
+Website: www.udom.ac.tz
+*IEEE Membership ID: 93934185*
+
+
+On Fri, Feb 1, 2019 at 7:44 PM Steve Song <stevesong@nsrc.org> wrote:
+
+> Hi all,
+>
+> If we want to affordably connect everyone, we need more "local" thinking
+> in policy, regulation, and investment.
+>
+> https://manypossibilities.net/2019/02/rethinking-affordable-access/
+>
+> Cheers... Steve Song
+>
+> --
+> +1 902 529 0046
+> stevesong@nsrc.org
+> http://nsrc.org
+>
+> _______________________________________________
+> gaia mailing list
+> gaia@irtf.org
+> https://www.irtf.org/mailman/listinfo/gaia
+>
+
+--000000000000bd0c270580dbdbaa
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"color:#3d85c6">Dear =
+Steve,</div><div class=3D"gmail_default" style=3D"color:#3d85c6"><br></div>=
+<div class=3D"gmail_default" style=3D"color:#3d85c6">Thank you for sharing =
+this article. I am happy that we are working together to publish a paper on=
+ affordable access and broadband cost in Tanzania.</div><div class=3D"gmail=
+_default" style=3D"color:#3d85c6"><br></div><div class=3D"gmail_default" st=
+yle=3D"color:#3d85c6">Regards,<br clear=3D"all"></div><div><div dir=3D"ltr"=
+ class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><div dir=3D"l=
+tr"><div><div dir=3D"ltr"><div><div dir=3D"ltr">MATOGORO Jabhera<br>Assista=
+nt Lecturer<br>College of Informatics and Virtual Education<br>The Universi=
+ty of Dodoma</div><div>P.O Box 490,</div><div>Dodoma.</div><div dir=3D"ltr"=
+>Website:=C2=A0<a href=3D"http://www.udom.ac.tz/" style=3D"font-size:12.8px=
+" target=3D"_blank">www.udom.ac.tz</a><br><b>IEEE Membership ID:<font color=
+=3D"#000000"><font face=3D"Verdana, serif"> <span style=3D"font-family:aria=
+l,helvetica,sans-serif"><font size=3D"2">93934185</font></span></font></fon=
+t></b><br></div></div></div></div></div></div></div><br></div><br><div clas=
+s=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">On Fri, Feb 1, 2019=
+ at 7:44 PM Steve Song &lt;<a href=3D"mailto:stevesong@nsrc.org">stevesong@=
+nsrc.org</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D=
+"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-le=
+ft:1ex"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"=
+>Hi all,<div><br></div><div>If we want to affordably connect everyone, we n=
+eed more &quot;local&quot; thinking in policy, regulation, and investment.<=
+/div><div><br></div><div><a href=3D"https://manypossibilities.net/2019/02/r=
+ethinking-affordable-access/" target=3D"_blank">https://manypossibilities.n=
+et/2019/02/rethinking-affordable-access/</a><br clear=3D"all"><div><br></di=
+v><div>Cheers... Steve Song</div><div><br></div>-- <br><div dir=3D"ltr" cla=
+ss=3D"gmail-m_5752297036693016707gmail_signature"><div dir=3D"ltr"><div><di=
+v dir=3D"ltr"><div>+1 902 529 0046</div><div><span style=3D"font-size:12.8p=
+x"><a href=3D"mailto:stevesong@nsrc.org" target=3D"_blank">stevesong@nsrc.o=
+rg</a></span></div><div><span style=3D"font-size:12.8px"><a href=3D"http://=
+nsrc.org" target=3D"_blank">http://nsrc.org</a></span><br></div><div><br></=
+div></div></div></div></div></div></div></div></div></div>
+_______________________________________________<br>
+gaia mailing list<br>
+<a href=3D"mailto:gaia@irtf.org" target=3D"_blank">gaia@irtf.org</a><br>
+<a href=3D"https://www.irtf.org/mailman/listinfo/gaia" rel=3D"noreferrer" t=
+arget=3D"_blank">https://www.irtf.org/mailman/listinfo/gaia</a><br>
+</blockquote></div>
+
+--000000000000bd0c270580dbdbaa--
+
+
+From nobody Sat Feb  2 11:47:34 2019
+Return-Path: <coffin@isoc.org>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id B612F12F18C for <gaia@ietfa.amsl.com>; Sat,  2 Feb 2019 11:47:32 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -0.999
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.999 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, GB_AFFORDABLE=1, HTML_MESSAGE=0.001, MIME_QP_LONG_LINE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001] autolearn=no autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=isoc.org
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id t9F7_Wh1M15w for <gaia@ietfa.amsl.com>; Sat,  2 Feb 2019 11:47:30 -0800 (PST)
+Received: from NAM03-DM3-obe.outbound.protection.outlook.com (mail-eopbgr800084.outbound.protection.outlook.com [40.107.80.84]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 32DBC12E7C1 for <gaia@irtf.org>; Sat,  2 Feb 2019 11:47:30 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=isoc.org; s=selector1;  h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck; bh=HjENytRlCFb2onfnGhyuL9FXclZZ3lOv8HDyKw0HI5o=; b=JNqc0vRMWfH1vZhsUQCZfIcz4rDN+9kceJ3bMm6vcvHIVnpTENutwtz/ExoudmCDqP48c7SOQv5v3aNWJNvuOf58hIyhan7gwWrEZNpOTgknD3UL6PRr0pTSIYc8Ov2jiVgOuCDlvBxdubY+bAatixo0898V4S0f39CXBkswy+I=
+Received: from BN6PR06MB3025.namprd06.prod.outlook.com (10.173.141.23) by BN6PR06MB3362.namprd06.prod.outlook.com (10.174.235.24) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.1580.22; Sat, 2 Feb 2019 19:47:28 +0000
+Received: from BN6PR06MB3025.namprd06.prod.outlook.com ([fe80::5c26:1341:365b:af87]) by BN6PR06MB3025.namprd06.prod.outlook.com ([fe80::5c26:1341:365b:af87%9]) with mapi id 15.20.1580.019; Sat, 2 Feb 2019 19:47:28 +0000
+From: Jane Coffin <coffin@isoc.org>
+To: Steve Song <stevesong@nsrc.org>, gaia <gaia@irtf.org>
+Thread-Topic: [gaia] Rethinking Affordable Access
+Thread-Index: AQHUuk1ueC0IgmohqE2ActoeQZOY+aXM/GiA
+Date: Sat, 2 Feb 2019 19:47:28 +0000
+Message-ID: <8F7939BE-0B7B-4F79-8601-A57BA47B16B2@isoc.org>
+References: <CAD_CWO2Vy5EK5ndYozggQsK=N7eYRsZ9mi4Y9wk0jaBHN8=upA@mail.gmail.com>
+In-Reply-To: <CAD_CWO2Vy5EK5ndYozggQsK=N7eYRsZ9mi4Y9wk0jaBHN8=upA@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+user-agent: Microsoft-MacOutlook/10.10.6.190114
+x-originating-ip: [71.252.113.169]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1; BN6PR06MB3362; 6:lCX0MBqcQJ5qv8T7MiYDbPF6JaqTt0xpv3Qs71lAacJt7KXKVC11ojk5SGVORbrKinpTta2gyKvgBYpVTcJcR/wo/YysDyFztkFY0WIdGOUVM8i1PHhjcnwMgDD2Qx8hKD40GQ/Cg7YJD2Ik5u/nt5Jnceuf8fwr1M7lu/ogiq7urmiRxy97aFmglhAlPh+gzExWPzq5nEZUZYRjWL5RBrtVnXgl6aK4G0Rx+7Q60IMRbZreJbJVl4WEApOxVxFs0kTURQLLUxSwGCd+QUcPPl3k9CaSglsguMi5zTZl+KjbZjBwhraIrtXojvqYI2+OElHhmDXW1s9m64lCPp2Eda8E8tBVvp8cl/065zVrbw1SX4d08u9t9Z1HyMKmp9sg7sf5I15pGqQHnSu5s6WtVdk5BYzzD3gn/NPuu5SKI8LtIzsKOSJ5NxvzQnxq/kcm4WcX4nMumzB06RGvNfMUEw==; 5:uOdsyRN37figo2wsiXqE0TGOF+2n/b/Z2sOh1UcbVHnnDue7wSGUn6KkKREyd1QZUHKslVB3DG8+oqJ7GIsBGlaB3ltH9fJWBvwYMTHVitQEkOgeLS1K/5x1wWRmc+Mw5DZmTyxV7/E4SoRqyVY/4YHLb/iCFVrO2fmbMakvUxQyN1jKEaLlmzXghyM9ElhRrctTqgb/7uQLLMI0NYEXrw==; 7:OKKfOY8qCJlktsat/6Wgv/cwY7WJW3/xD71NoJAIvWlyaIZNH7ci9LYADz6T+mmpifVOgTKDddeIj1Mfp6I02lULUYAYuZfnKf4yKIooP41R1ydmg/rhqPuXZsvfDOrIPZW6dH6nLzWtWrSF4aTAmA==
+x-ms-office365-filtering-correlation-id: c4b01dce-62eb-4c6c-ea25-08d689474341
+x-microsoft-antispam: BCL:0; PCL:0; RULEID:(2390118)(7020095)(4652040)(8989299)(5600110)(711020)(4605077)(4534185)(4627221)(201703031133081)(201702281549075)(8990200)(2017052603328)(7153060)(49563074)(7193020); SRVR:BN6PR06MB3362; 
+x-ms-traffictypediagnostic: BN6PR06MB3362:
+x-microsoft-antispam-prvs: <BN6PR06MB3362593D44086E0A4FAFF3CBB3930@BN6PR06MB3362.namprd06.prod.outlook.com>
+x-forefront-prvs: 09368DB063
+x-forefront-antispam-report: SFV:NSPM; SFS:(10009020)(346002)(376002)(366004)(396003)(39840400004)(136003)(53754006)(199004)(189003)(4744005)(58126008)(110136005)(76176011)(7736002)(966005)(606006)(86362001)(15974865002)(2906002)(14454004)(68736007)(33656002)(97736004)(316002)(478600001)(99936001)(486006)(6436002)(66574012)(446003)(11346002)(83716004)(71200400001)(71190400001)(2616005)(476003)(66066001)(99286004)(6246003)(6486002)(229853002)(6346003)(186003)(26005)(8936002)(81166006)(105586002)(106356001)(53546011)(81156014)(102836004)(36756003)(6506007)(8676002)(3846002)(6116002)(6306002)(53386004)(256004)(54896002)(236005)(6512007)(25786009)(14444005)(82746002)(53936002)(13843001); DIR:OUT; SFP:1101; SCL:1; SRVR:BN6PR06MB3362; H:BN6PR06MB3025.namprd06.prod.outlook.com; FPR:; SPF:None; LANG:en; PTR:InfoNoRecords; A:1; MX:1; 
+received-spf: None (protection.outlook.com: isoc.org does not designate permitted sender hosts)
+authentication-results: spf=none (sender IP is ) smtp.mailfrom=coffin@isoc.org; 
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam-message-info: nZEQYfyaQv82u2sc1kcN+/BBK2QzjNcwFxXMjLhGn6iWyZDwYierFjCooBex4VO/ugglUixGf2zoffUQbVtlQEZg65AA6Ca74Y/LmGpMRAGcnN78csL6rk2DDgJ8GgYFHHoi9hzoV2TNuZ9sa/WW/DpEsP8jg2Ai89C4xdRN0UHNUTLNwHyWL0UDWUUmi2aPqk73vfafBZzUE7O8h6wSFFYSl/ybgENTLbsGGHTmWEA67URiTErcItd68MWxVNFQ1nNupnhNBFbOPJJZe6nTXNPJkiRKubpW5d+Mfqh14bCbQs//6WEoJHbR1XqOMYUKrFuks85boQNbmo3aRH7H4daLl+zwStNBLvGRUqCv19dqBn+2DYLdWKJM8VlDB0pt4VQdMGdQ9HdAxP6rs6eBQ6CeqWz3qA3dvSEY6ES0Ink=
+Content-type: multipart/signed; protocol="application/pkcs7-signature"; micalg=sha256; boundary="B_3631963647_812325221"
+MIME-Version: 1.0
+X-OriginatorOrg: isoc.org
+X-MS-Exchange-CrossTenant-Network-Message-Id: c4b01dce-62eb-4c6c-ea25-08d689474341
+X-MS-Exchange-CrossTenant-originalarrivaltime: 02 Feb 2019 19:47:28.1618 (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 89f84dfb-7285-4810-bc4d-8b9b5794554f
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN6PR06MB3362
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/ikKXGiObp10C5V43YKYpWldyuLw>
+Subject: Re: [gaia] Rethinking Affordable Access
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.29
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Sat, 02 Feb 2019 19:47:33 -0000
+
+--B_3631963647_812325221
+Content-type: multipart/alternative;
+	boundary="B_3631963647_175097856"
+
+
+--B_3631963647_175097856
+Content-type: text/plain;
+	charset="UTF-8"
+Content-transfer-encoding: quoted-printable
+
+Steve =E2=80=93
+
+
+Could not agree with you more.
+
+We have to integrate =E2=80=9Clocal=E2=80=9D thinking into the regulatory/policy equati=
+on.
+
+We=E2=80=99d love to have you speak at GAIA 104.=C2=A0=20
+
+
+Jane
+
+=20
+
+=20
+
+Internet Society | www.internetsociety.org
+
+Skype:  janercoffin
+
+Mobile/WhatsApp:  +1.202.247.8429
+
+=20
+
+From: gaia <gaia-bounces@irtf.org> on behalf of Steve Song <stevesong@nsrc.=
+org>
+Date: Friday, February 1, 2019 at 11:44 AM
+To: "gaia@irtf.org" <gaia@irtf.org>
+Subject: [gaia] Rethinking Affordable Access
+
+=20
+
+Hi all,=20
+
+=20
+
+If we want to affordably connect everyone, we need more "local" thinking in=
+ policy, regulation, and investment.
+
+=20
+
+https://manypossibilities.net/2019/02/rethinking-affordable-access/
+=20
+
+Cheers... Steve Song
+
+=20
+
+--=20
+
++1 902 529 0046
+
+stevesong@nsrc.org
+
+http://nsrc.org
+
+=20
+
+
+--B_3631963647_175097856
+Content-type: text/html;
+	charset="UTF-8"
+Content-transfer-encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:schema=
+s-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/office/20=
+04/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta http-equiv=3DC=
+ontent-Type content=3D"text/html; charset=3Dutf-8"><meta name=3DGenerator content=3D=
+"Microsoft Word 15 (filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle18
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style></head><body lang=3DEN-US link=3Dblue vlink=3Dpurple><div class=3DWordSe=
+ction1><p class=3DMsoNormal><span style=3D'font-size:10.5pt'>Steve =E2=80=93<o:p></o:p=
+></span></p><p class=3DMsoNormal><span style=3D'font-size:10.5pt'><br>Could not =
+agree with you more.<o:p></o:p></span></p><p class=3DMsoNormal><span style=3D'fo=
+nt-size:10.5pt'>We have to integrate =E2=80=9Clocal=E2=80=9D thinking into the regulator=
+y/policy equation.<o:p></o:p></span></p><p class=3DMsoNormal><span style=3D'font=
+-size:10.5pt'>We=E2=80=99d love to have you speak at GAIA 104.=C2=A0 <o:p></o:p></span=
+></p><p class=3DMsoNormal><span style=3D'font-size:10.5pt'><br>Jane<o:p></o:p></=
+span></p><p class=3DMsoNormal><span style=3D'font-size:10.5pt'><o:p>&nbsp;</o:p>=
+</span></p><div><p class=3DMsoNormal><span style=3D'font-size:10.5pt;color:black=
+'><o:p>&nbsp;</o:p></span></p><div><p class=3DMsoNormal><span style=3D'font-size=
+:10.5pt;color:black'>Internet Society | www.internetsociety.org<o:p></o:p></=
+span></p></div><div><p class=3DMsoNormal><span style=3D'font-size:10.5pt;color:b=
+lack'>Skype: &nbsp;janercoffin<o:p></o:p></span></p></div></div><p class=3DMso=
+Normal><span style=3D'font-size:10.5pt;color:black'>Mobile/WhatsApp: &nbsp;+1.=
+202.247.8429</span><span style=3D'font-size:10.5pt'><o:p></o:p></span></p><p c=
+lass=3DMsoNormal><span style=3D'font-size:10.5pt'><o:p>&nbsp;</o:p></span></p><d=
+iv style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0in 0in 0=
+in'><p class=3DMsoNormal><b><span style=3D'font-size:12.0pt;color:black'>From: <=
+/span></b><span style=3D'font-size:12.0pt;color:black'>gaia &lt;gaia-bounces@i=
+rtf.org&gt; on behalf of Steve Song &lt;stevesong@nsrc.org&gt;<br><b>Date: <=
+/b>Friday, February 1, 2019 at 11:44 AM<br><b>To: </b>&quot;gaia@irtf.org&qu=
+ot; &lt;gaia@irtf.org&gt;<br><b>Subject: </b>[gaia] Rethinking Affordable Ac=
+cess<o:p></o:p></span></p></div><div><p class=3DMsoNormal><o:p>&nbsp;</o:p></p=
+></div><div><div><div><div><p class=3DMsoNormal>Hi all, <o:p></o:p></p><div><p=
+ class=3DMsoNormal><o:p>&nbsp;</o:p></p></div><div><p class=3DMsoNormal>If we wa=
+nt to affordably connect everyone, we need more &quot;local&quot; thinking i=
+n policy, regulation, and investment.<o:p></o:p></p></div><div><p class=3DMsoN=
+ormal><o:p>&nbsp;</o:p></p></div><div><p class=3DMsoNormal><a href=3D"https://ma=
+nypossibilities.net/2019/02/rethinking-affordable-access/">https://manypossi=
+bilities.net/2019/02/rethinking-affordable-access/</a><br clear=3Dall><o:p></o=
+:p></p><div><p class=3DMsoNormal><o:p>&nbsp;</o:p></p></div><div><p class=3DMsoN=
+ormal>Cheers... Steve Song<o:p></o:p></p></div><div><p class=3DMsoNormal><o:p>=
+&nbsp;</o:p></p></div><p class=3DMsoNormal>-- <o:p></o:p></p><div><div><div><d=
+iv><div><p class=3DMsoNormal>+1 902 529 0046<o:p></o:p></p></div><div><p class=
+=3DMsoNormal><span style=3D'font-size:9.5pt'><a href=3D"mailto:stevesong@nsrc.org"=
+ target=3D"_blank">stevesong@nsrc.org</a></span><o:p></o:p></p></div><div><p c=
+lass=3DMsoNormal><span style=3D'font-size:9.5pt'><a href=3D"http://nsrc.org" targe=
+t=3D"_blank">http://nsrc.org</a></span><o:p></o:p></p></div><div><p class=3DMsoN=
+ormal><o:p>&nbsp;</o:p></p></div></div></div></div></div></div></div></div><=
+/div></div></div></body></html>
+
+--B_3631963647_175097856--
+
+--B_3631963647_812325221
+Content-type: application/pkcs7-signature; name="smime.p7s"
+Content-transfer-encoding: base64
+Content-disposition: attachment;
+	filename="smime.p7s"
+
+MIIRjQYJKoZIhvcNAQcCoIIRfjCCEXoCAQExDzANBglghkgBZQMEAgEFADALBgkqhkiG9w0B
+BwGggg8JMIIGGDCCBQCgAwIBAgIRAIx1fBf4uve27MtrfFJmAnQwDQYJKoZIhvcNAQELBQAw
+gZsxCzAJBgNVBAYTAkdCMRswGQYDVQQIExJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAOBgNVBAcT
+B1NhbGZvcmQxGjAYBgNVBAoTEUNPTU9ETyBDQSBMaW1pdGVkMUEwPwYDVQQDEzhDT01PRE8g
+U0hBLTI1NiBDbGllbnQgQXV0aGVudGljYXRpb24gYW5kIFNlY3VyZSBFbWFpbCBDQTAeFw0x
+NzAzMDMwMDAwMDBaFw0yMDAzMDIyMzU5NTlaMIIBFjELMAkGA1UEBhMCVVMxDjAMBgNVBBET
+BTIwMTkwMQswCQYDVQQIEwJWQTEPMA0GA1UEBxMGUmVzdG9uMRIwEAYDVQQJEwlTdWl0ZSAy
+MDExGzAZBgNVBAkTEjE3NzUgV2llaGxlIEF2ZW51ZTEZMBcGA1UEChMQSW50ZXJuZXQgU29j
+aWV0eTE2MDQGA1UECxMtSXNzdWVkIHRocm91Z2ggSW50ZXJuZXQgU29jaWV0eSBFLVBLSSBN
+YW5hZ2VyMR8wHQYDVQQLExZDb3Jwb3JhdGUgU2VjdXJlIEVtYWlsMRQwEgYDVQQDEwtKYW5l
+IENvZmZpbjEeMBwGCSqGSIb3DQEJARYPY29mZmluQGlzb2Mub3JnMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEAxOFL6I8nwUcXFJxbOkkijvQM5i2c05ifwmn0suMy3Xf3EKUg
+47+fYDpcFOCwdWi7hXlh0TxXdoAK6wKRb8G9PeG1sRIkcRtSaf4Bx9uHcO4v5wu5ornnuklt
+7bky1g+7Jse/Bre4ZrySEz74ogsAkLZd73/+uZ6SbTjuPMdAAgfc8UaUKqwF0KYLE/WB4Dq/
++VBv32gJatDShiyKR1WIWGbP0mAaF4jPg0DenATNZtbAKi1P9mta2YoH3+IrfokdVk009wA2
+VqUieYMSkuGBgzbL54bYsfuMjRnxuy+qgvNY+KaWmRZXnrKC0UtHxqO2UaACYRQ9DE1tqvRY
+UoPeFwIDAQABo4IB1zCCAdMwHwYDVR0jBBgwFoAUkmFrguGioKpP7GfxwqP3tIAAwewwHQYD
+VR0OBBYEFDJzhFKMF3xbiM4gA2IhGPUK+s1SMA4GA1UdDwEB/wQEAwIFoDAMBgNVHRMBAf8E
+AjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMEBggrBgEFBQcDAjBGBgNVHSAEPzA9MDsGDCsGAQQB
+sjEBAgEDBTArMCkGCCsGAQUFBwIBFh1odHRwczovL3NlY3VyZS5jb21vZG8ubmV0L0NQUzBd
+BgNVHR8EVjBUMFKgUKBOhkxodHRwOi8vY3JsLmNvbW9kb2NhLmNvbS9DT01PRE9TSEEyNTZD
+bGllbnRBdXRoZW50aWNhdGlvbmFuZFNlY3VyZUVtYWlsQ0EuY3JsMIGQBggrBgEFBQcBAQSB
+gzCBgDBYBggrBgEFBQcwAoZMaHR0cDovL2NydC5jb21vZG9jYS5jb20vQ09NT0RPU0hBMjU2
+Q2xpZW50QXV0aGVudGljYXRpb25hbmRTZWN1cmVFbWFpbENBLmNydDAkBggrBgEFBQcwAYYY
+aHR0cDovL29jc3AuY29tb2RvY2EuY29tMBoGA1UdEQQTMBGBD2NvZmZpbkBpc29jLm9yZzAN
+BgkqhkiG9w0BAQsFAAOCAQEAHRcuCMvcxM7tuARpHR3ZYRNGdjYOR3FXD7vOtTRKkVWK1oVL
+Fb+YGqlUXvmrcEqS/FTq6mq0Iicvmj2zSr5DkkDURIm4ijPLs6ReOFMAL8mMm350zSqE8X5y
+Ep54iMNJ/mJstAg01UFvaV9MS+Ic8b2yhXLym6B4mYbfQZMuRVtmC9q8FPLylzdGsX4O7fjg
+0RLGuGJ8T79Mt4+FG84efRdwpo2wPYdYD7dsx5XcU52Uvc7wZdo0i2D4w0LgPOZvjIMX7XlA
+lNDtVUQYuw65+KgCqzx6NtuAJo4rqGJe4BToylL6S6IH6hao84GbG12otsnuqbc100VhOMeZ
+40pzCjCCBK8wggOXoAMCAQICEQDgI8sVEoNTia1hbnpUZ2shMA0GCSqGSIb3DQEBCwUAMG8x
+CzAJBgNVBAYTAlNFMRQwEgYDVQQKEwtBZGRUcnVzdCBBQjEmMCQGA1UECxMdQWRkVHJ1c3Qg
+RXh0ZXJuYWwgVFRQIE5ldHdvcmsxIjAgBgNVBAMTGUFkZFRydXN0IEV4dGVybmFsIENBIFJv
+b3QwHhcNMTQxMjIyMDAwMDAwWhcNMjAwNTMwMTA0ODM4WjCBmzELMAkGA1UEBhMCR0IxGzAZ
+BgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4GA1UEBxMHU2FsZm9yZDEaMBgGA1UEChMR
+Q09NT0RPIENBIExpbWl0ZWQxQTA/BgNVBAMTOENPTU9ETyBTSEEtMjU2IENsaWVudCBBdXRo
+ZW50aWNhdGlvbiBhbmQgU2VjdXJlIEVtYWlsIENBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEAibEN2npTGU5wUh28VqYGJre4SeCW51Gr8fBaE0kVo7SMG2C8elFCp3mMpCLf
+F2FOkdV2IwoU00oCf7YdCYBupQQ92bq7Fv6hh6kuQ1JDFnyvMlDIpk9a6QjYz5MlnHuI6DBk
+5qT4VoD9KiQUMxeZrETlaYujRgZLwjPU6UCfBrCxrJNAubUIkzqcKlOjENs9IGE8VQOO2U52
+JQIhKfqjfHF2T+7hX4Hp+1SA28N7NVK3hN4iPSwwLTF/Wb1SN7AzaS1D6/rWpfGXd2dRjNnu
+J+u8pQc4doykqTj/34z1A6xJvsr3c5k6DzKrnJU6Ez0ORjpXdGFQvsZAP8vk4p+iIQIDAQAB
+o4IBFzCCARMwHwYDVR0jBBgwFoAUrb2YejS0Jvf6xCZU7wO94CTLVBowHQYDVR0OBBYEFJJh
+a4LhoqCqT+xn8cKj97SAAMHsMA4GA1UdDwEB/wQEAwIBhjASBgNVHRMBAf8ECDAGAQH/AgEA
+MB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBgNVHSAECjAIMAYGBFUdIAAwRAYD
+VR0fBD0wOzA5oDegNYYzaHR0cDovL2NybC51c2VydHJ1c3QuY29tL0FkZFRydXN0RXh0ZXJu
+YWxDQVJvb3QuY3JsMDUGCCsGAQUFBwEBBCkwJzAlBggrBgEFBQcwAYYZaHR0cDovL29jc3Au
+dXNlcnRydXN0LmNvbTANBgkqhkiG9w0BAQsFAAOCAQEAGypurFXBOquIxdjtzVXzqmthK8AJ
+ECOZD8Vmam+x9bS1d14PAmEA330F/hKzpICAAPz7HVtqcgIKQbwFusFY1SbC6tVNhPv+gpjP
+WBvjImOcUvi7BTarfVil3qs7Y+Xa1XPv7OD7e+Kj//BCI5zKto1NPuRLGAOyqC3U2LtCS5Bp
+hRDbpjc06HvgARClnMo6x59PiDRuimXQGoq7qdzKyjbR9PzCZCk1r9axp3ER0gNDsY8+muye
+MlP0dpLKhjQHuSzK5hxK2JkNwYbikJL7WkJqIyEQ6WXH9dW7fuqMhSACYurROgcsWcWZM/I4
+ieW26RZ6H3kU9koQGib6fIr7mzCCBDYwggMeoAMCAQICAQEwDQYJKoZIhvcNAQEFBQAwbzEL
+MAkGA1UEBhMCU0UxFDASBgNVBAoTC0FkZFRydXN0IEFCMSYwJAYDVQQLEx1BZGRUcnVzdCBF
+eHRlcm5hbCBUVFAgTmV0d29yazEiMCAGA1UEAxMZQWRkVHJ1c3QgRXh0ZXJuYWwgQ0EgUm9v
+dDAeFw0wMDA1MzAxMDQ4MzhaFw0yMDA1MzAxMDQ4MzhaMG8xCzAJBgNVBAYTAlNFMRQwEgYD
+VQQKEwtBZGRUcnVzdCBBQjEmMCQGA1UECxMdQWRkVHJ1c3QgRXh0ZXJuYWwgVFRQIE5ldHdv
+cmsxIjAgBgNVBAMTGUFkZFRydXN0IEV4dGVybmFsIENBIFJvb3QwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQC39xoz5vIABC054E5b7R+8bA/Ntfojts7emxEzl6QpTH2Tn71K
+vJPtAxrjj8/lbVBa1pcplFqAsEl62y6V/bjKvzc4LR4+kUGtcFbH8E8/6DKedMrIkFTpxl8P
+eJ2aQDwOrGGqXhSPnoehalDc15pOrwWzpnGUnHGzUGAKxxOdOAeGAqjpqGkmGJCrTLBPI6s6
+T4TY386f4Wlvu9dC12tE5Met7m1BX3JacQg3s3llpFmglDf3AC8NwpJy2tA4ctsUqEXEXSp9
+t7TWxO6szRNEt8kr3UMAJfphuWlqWCMRt6czj1Z1WfXNKddGtworZbbTQm8Vsrh7++/pXVPV
+NFonAgMBAAGjgdwwgdkwHQYDVR0OBBYEFK29mHo0tCb3+sQmVO8DveAky1QaMAsGA1UdDwQE
+AwIBBjAPBgNVHRMBAf8EBTADAQH/MIGZBgNVHSMEgZEwgY6AFK29mHo0tCb3+sQmVO8DveAk
+y1QaoXOkcTBvMQswCQYDVQQGEwJTRTEUMBIGA1UEChMLQWRkVHJ1c3QgQUIxJjAkBgNVBAsT
+HUFkZFRydXN0IEV4dGVybmFsIFRUUCBOZXR3b3JrMSIwIAYDVQQDExlBZGRUcnVzdCBFeHRl
+cm5hbCBDQSBSb290ggEBMA0GCSqGSIb3DQEBBQUAA4IBAQCwm+CFJcLWI+IPlgaSnUGYnNmE
+eYHZHlsUByM2ZY+w2He7rEFsR2CDUbD5Mj3n/PYmE8eAFqW/WvyHz3h5iSGa4kwHCoY1vPLe
+UcTSlrfcfk7ucP0cOesMAlEULY69FuDB30Z15ySt7PRCtIWTcBBnup0GNUoY0yt6zFFCoXpj
+0ea7ocUrwja+Ew3mvWN+eXunCQ1Aq2rdj4rD9vaMGkIFUdRF9Z+nYiFoFSBDPJnnfL0k2KmR
+F3OIP1YbMTgYtHEPms3IDp6OLhvhjJiDyx8x8URMxgRzSXZgD8f4vReAay7pzEwOWpp5DyAK
+LtWeYyYeVZKU2IIXWnvQvMePToYEMYICSDCCAkQCAQEwgbEwgZsxCzAJBgNVBAYTAkdCMRsw
+GQYDVQQIExJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAOBgNVBAcTB1NhbGZvcmQxGjAYBgNVBAoT
+EUNPTU9ETyBDQSBMaW1pdGVkMUEwPwYDVQQDEzhDT01PRE8gU0hBLTI1NiBDbGllbnQgQXV0
+aGVudGljYXRpb24gYW5kIFNlY3VyZSBFbWFpbCBDQQIRAIx1fBf4uve27MtrfFJmAnQwDQYJ
+YIZIAWUDBAIBBQCgaTAvBgkqhkiG9w0BCQQxIgQgm+af9kEHqMo4/OVnhNX0SLMFIPdoro9Q
+dFQO/XbHX/owGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTkw
+MjAyMTk0NzI3WjANBgkqhkiG9w0BAQEFAASCAQCHRlnyu1oHBaZZNxSyhREolRAPp4uehiQa
+njviJeeL0TI2S6LKOG2wlKrFiIH3jfstHQNmLXJf7QRtyqdB7M++xcsBopQi4egR703TS2ye
+byLKJJfHMVf2B6vslB4O6NNwwZVr35zy4gUT1YqcbUmRJhB1IipmSM9cxGOvbvyG/yES4YOT
+em1TtfrvFZ/bpDgW0ZMCLEhphxUJp2V4xiCllp0zhVI80dq3zPC9I/PfAl31x6EupAo5sh30
+5cszL7GnL8s/UFNUQh8WACn81tZYPmHSDcUpsyUSxJbqoC8HNb9lPTSu3iaWV4vnQ0ksw9OS
+tiVgl5pFhohQpJoajzaj
+
+--B_3631963647_812325221--
+
+
+From nobody Tue Feb  5 00:41:59 2019
+Return-Path: <mzennaro@ictp.it>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id C63311292F1 for <gaia@ietfa.amsl.com>; Tue,  5 Feb 2019 00:41:57 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -6.899
+X-Spam-Level: 
+X-Spam-Status: No, score=-6.899 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_HI=-5, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Kfy3mwda8Mmd for <gaia@ietfa.amsl.com>; Tue,  5 Feb 2019 00:41:55 -0800 (PST)
+Received: from smtp1.ictp.it (smtp1.ictp.it [140.105.16.51]) by ietfa.amsl.com (Postfix) with ESMTP id 6366E126CC7 for <gaia@irtf.org>; Tue,  5 Feb 2019 00:41:54 -0800 (PST)
+Received: from localhost (localhost [127.0.0.1]) by smtp1.ictp.it (Postfix) with ESMTP id 654BD30217C for <gaia@irtf.org>; Tue,  5 Feb 2019 09:41:53 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at smtp1.ictp.it
+Received: from smtp1.ictp.it ([127.0.0.1]) by localhost (smtp1.ictp.it [127.0.0.1]) (amavisd-new, port 10025) with LMTP id Hh3QtQVT1bUa for <gaia@irtf.org>; Tue,  5 Feb 2019 09:41:52 +0100 (CET)
+Received: from [140.105.28.20] (arpl-webcast.ictp.it [140.105.28.20]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by smtp1.ictp.it (Postfix) with ESMTPSA id 80D02302178 for <gaia@irtf.org>; Tue,  5 Feb 2019 09:41:51 +0100 (CET)
+Date: Tue, 5 Feb 2019 09:41:31 +0100
+From: mzennaro@ictp.it
+To: gaia@irtf.org
+Message-ID: <aa532608-afc8-4cef-8c4d-a674b442ea0f@Spark>
+References: <62b0e36a-8104-4b91-bf15-ad0bb5bd421c@Spark>
+X-Readdle-Message-ID: aa532608-afc8-4cef-8c4d-a674b442ea0f@Spark
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="5c594c40_7a6d8d3c_304"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/NQctjjUfF2xgkyKH2ESk-tCZbOw>
+Subject: [gaia] Paper on frugal 5G
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.29
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 05 Feb 2019 08:41:58 -0000
+
+--5c594c40_7a6d8d3c_304
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+https://arxiv.org/abs/1902.01367
+
+Best,
+Marco
+
+Marco Zennaro, PhD // Research Officer // T/ICT4D Lab // ICTP // wireless.ictp.it
+
+--5c594c40_7a6d8d3c_304
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+<html xmlns=3D=22http://www.w3.org/1999/xhtml=22>
+<head>
+<title></title>
+</head>
+<body>
+<div name=3D=22messageBodySection=22 style=3D=22font-size: 14px; font-fam=
+ily: -apple-system, BlinkMacSystem=46ont, sans-serif;=22><a href=3D=22htt=
+ps://arxiv.org/abs/1902.01367=22>https://arxiv.org/abs/1902.01367</a>
+<div><br /></div>
+<div>Best,</div>
+<div>Marco</div>
+</div>
+<div name=3D=22messageSignatureSection=22><br />
+<div class=3D=22match=46ont=22>
+<p style=3D=22margin: 0px; font-stretch: normal; line-height: normal; fon=
+t-family: -apple-system, BlinkMacSystem=46ont, sans-serif; color: rgb(203=
+, 209, 214); font-size: 14px;=22>Marco Zennaro, PhD // Research Officer /=
+/ T/ICT4D Lab // ICTP // <a href=3D=22wireless.ictp.it=22 style=3D=22font=
+-size: 14px; font-family: -apple-system, BlinkMacSystem=46ont, sans-serif=
+;=22>wireless.ictp.it</a></p>
+</div>
+</div>
+</body>
+</html>
+
+--5c594c40_7a6d8d3c_304--
+
+
+From nobody Tue Feb  5 00:54:28 2019
+Return-Path: <jaberamatogoro@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 1FDD0126CC7 for <gaia@ietfa.amsl.com>; Tue,  5 Feb 2019 00:54:27 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.998
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.998 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id kH66Fc3fk4lZ for <gaia@ietfa.amsl.com>; Tue,  5 Feb 2019 00:54:24 -0800 (PST)
+Received: from mail-lj1-x230.google.com (mail-lj1-x230.google.com [IPv6:2a00:1450:4864:20::230]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 50B52126DBF for <gaia@irtf.org>; Tue,  5 Feb 2019 00:54:24 -0800 (PST)
+Received: by mail-lj1-x230.google.com with SMTP id s5-v6so2152615ljd.12 for <gaia@irtf.org>; Tue, 05 Feb 2019 00:54:24 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20161025;  h=mime-version:references:in-reply-to:from:date:message-id:subject:to :cc; bh=gSzjfoAUH5DDZIx+UTQddw7UcHPSoh8mERwWBTkjz4o=; b=ZNW571lW0vxBt2jEBBVVK0Vka9q607DdQwmv4qtj2C5/OYcJFHqsVPn4FtaQjHf6Gz GX0sI31IsJwLboG3PTH22J5k2XzuY/EaESXu2NT8SljIqiYl3nkZ7pw9+x0/whYtAL0U cJ5fKg3ZVeghWi+qsUxULZaSFqLOrdeNcU8nZu+YRZgyK4pV4iiyiWSm8i5I7rPjuJXE fpg0YVdGo+aB9mCcR4uKKV82Epgj31KLg4D1zflnvu0/yWZLfGP3YQyGGYGHMK5PUd8z 2Hs+/Z+OhbNEdK6OB1r3H6AOt56fFzklji7WMmWoREIEavH646bIVJt2danPkBisTpcv 7GHw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:references:in-reply-to:from:date :message-id:subject:to:cc; bh=gSzjfoAUH5DDZIx+UTQddw7UcHPSoh8mERwWBTkjz4o=; b=lvocftlrhSiNJClAnd8SEK60Wzl4WACY+BrhZG7zYBrcriNuBTQsx4jrxFb4kRa62u fWfNXMB2W8W8FnW1WU8VuFfYkn/xi8yZNk6xa7ybcPKHAldoXGQPqIICkXWlC+DeDkHE zfbqreEcWmLGal57zHh4GPJqBi3kgzfpZLT+pH5x7rlMnHmz9NwLoVPxbXOJk2tUajHh yKr8ZcbdrcaOYI0veYDez9VSsCGpPF5PdoZlyb56MoTcDNdBeg3AyOJUdAvULROnoJbR prmfwS1thhDa0VQD9mO+4lwTlO/rFhhgo3VWeoPUjEAxOoLtI7MUhL+rLzDBSdzGZdth KzNg==
+X-Gm-Message-State: AHQUAubleFUag/jD5GPhyowWhmOigvdtzjo9Z1lVOaRZBufzf8Rp/R5N nAV7nEAA+eMClqYd2R0eyBV7hMNlXtd6r0tfkJ8=
+X-Google-Smtp-Source: AHgI3IZ8XruRlmY2RkYrBcVSI5Jxo5cw07uVef18fXCODosA6RijIgXnF5HryMrpwCRxn5DIJ4fHBWLKV0Yhb9bT4fk=
+X-Received: by 2002:a2e:85c9:: with SMTP id h9-v6mr2222212ljj.101.1549356862173;  Tue, 05 Feb 2019 00:54:22 -0800 (PST)
+MIME-Version: 1.0
+References: <62b0e36a-8104-4b91-bf15-ad0bb5bd421c@Spark> <aa532608-afc8-4cef-8c4d-a674b442ea0f@Spark>
+In-Reply-To: <aa532608-afc8-4cef-8c4d-a674b442ea0f@Spark>
+From: Matogoro Jabera <jaberamatogoro@gmail.com>
+Date: Tue, 5 Feb 2019 11:54:08 +0300
+Message-ID: <CANd6-7uw0Jcqyg6sokWvTLPwAcp_D8GPadV3tvj_anv7+MazhQ@mail.gmail.com>
+To: Marco Zennaro <mzennaro@ictp.it>
+Cc: gaia <gaia@irtf.org>
+Content-Type: multipart/alternative; boundary="0000000000006675dc058121c1cc"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/fhLEw66ubKWs_mgnc76z00fMrlg>
+Subject: Re: [gaia] Paper on frugal 5G
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.29
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 05 Feb 2019 08:54:27 -0000
+
+--0000000000006675dc058121c1cc
+Content-Type: text/plain; charset="UTF-8"
+
+Thank you for sharing.
+
+
+Regards,
+MATOGORO Jabhera
+Assistant Lecturer
+College of Informatics and Virtual Education
+The University of Dodoma
+P.O Box 490,
+Dodoma.
+Website: www.udom.ac.tz
+*IEEE Membership ID: 93934185*
+
+
+On Tue, Feb 5, 2019 at 11:42 AM <mzennaro@ictp.it> wrote:
+
+> https://arxiv.org/abs/1902.01367
+>
+> Best,
+> Marco
+>
+> Marco Zennaro, PhD // Research Officer // T/ICT4D Lab // ICTP //
+> wireless.ictp.it
+> _______________________________________________
+> gaia mailing list
+> gaia@irtf.org
+> https://www.irtf.org/mailman/listinfo/gaia
+>
+
+--0000000000006675dc058121c1cc
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"color:#3d85c6">Thank=
+ you for sharing.</div><div class=3D"gmail_default" style=3D"color:#3d85c6"=
+><br></div><div class=3D"gmail_default" style=3D"color:#3d85c6"><br></div><=
+div class=3D"gmail_default" style=3D"color:#3d85c6">Regards,<br clear=3D"al=
+l"></div><div><div dir=3D"ltr" class=3D"gmail_signature" data-smartmail=3D"=
+gmail_signature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"lt=
+r">MATOGORO Jabhera<br>Assistant Lecturer<br>College of Informatics and Vir=
+tual Education<br>The University of Dodoma</div><div>P.O Box 490,</div><div=
+>Dodoma.</div><div dir=3D"ltr">Website:=C2=A0<a href=3D"http://www.udom.ac.=
+tz/" style=3D"font-size:12.8px" target=3D"_blank">www.udom.ac.tz</a><br><b>=
+IEEE Membership ID:<font color=3D"#000000"><font face=3D"Verdana, serif"> <=
+span style=3D"font-family:arial,helvetica,sans-serif"><font size=3D"2">9393=
+4185</font></span></font></font></b><br></div></div></div></div></div></div=
+></div><br></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"g=
+mail_attr">On Tue, Feb 5, 2019 at 11:42 AM &lt;<a href=3D"mailto:mzennaro@i=
+ctp.it">mzennaro@ictp.it</a>&gt; wrote:<br></div><blockquote class=3D"gmail=
+_quote" style=3D"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204=
+,204);padding-left:1ex">
+
+
+
+<div>
+<div name=3D"messageBodySection" style=3D"font-size:14px;font-family:-apple=
+-system,BlinkMacSystemFont,sans-serif"><a href=3D"https://arxiv.org/abs/190=
+2.01367" target=3D"_blank">https://arxiv.org/abs/1902.01367</a>
+<div><br></div>
+<div>Best,</div>
+<div>Marco</div>
+</div>
+<div name=3D"messageSignatureSection"><br>
+<div class=3D"gmail-m_-5986155225040974124matchFont">
+<p style=3D"margin:0px;font-stretch:normal;line-height:normal;font-family:-=
+apple-system,BlinkMacSystemFont,sans-serif;color:rgb(203,209,214);font-size=
+:14px">Marco Zennaro, PhD // Research Officer // T/ICT4D Lab // ICTP // <a =
+href=3D"http://wireless.ictp.it" style=3D"font-size:14px;font-family:-apple=
+-system,BlinkMacSystemFont,sans-serif" target=3D"_blank">wireless.ictp.it</=
+a></p>
+</div>
+</div>
+</div>
+
+_______________________________________________<br>
+gaia mailing list<br>
+<a href=3D"mailto:gaia@irtf.org" target=3D"_blank">gaia@irtf.org</a><br>
+<a href=3D"https://www.irtf.org/mailman/listinfo/gaia" rel=3D"noreferrer" t=
+arget=3D"_blank">https://www.irtf.org/mailman/listinfo/gaia</a><br>
+</blockquote></div>
+
+--0000000000006675dc058121c1cc--
+
+
+From nobody Tue Feb  5 00:59:50 2019
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 409B3126DBF for <gaia@ietfa.amsl.com>; Tue,  5 Feb 2019 00:59:48 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.896
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.896 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, FREEMAIL_FORGED_FROMDOMAIN=0.001, FREEMAIL_FROM=0.001, HEADER_FROM_DIFFERENT_DOMAINS=0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 5dhvi3KqQNBX for <gaia@ietfa.amsl.com>; Tue,  5 Feb 2019 00:59:46 -0800 (PST)
+Received: from mail-it1-f180.google.com (mail-it1-f180.google.com [209.85.166.180]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id E9CE8126CC7 for <gaia@irtf.org>; Tue,  5 Feb 2019 00:59:45 -0800 (PST)
+Received: by mail-it1-f180.google.com with SMTP id p197so6392540itp.0 for <gaia@irtf.org>; Tue, 05 Feb 2019 00:59:45 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:references:in-reply-to:from:date :message-id:subject:to:cc; bh=H8OYMea/Y1UhCN4e6cO4QW5PrebQQbYT8a41X9QncPw=; b=qwux74n7hP8F6JN+AfDTYbm7kswx+M80+vHpUr9NoK0NH0G3VW9K72gl+m/es/y7R9 Bk4nROoTpYXpj5xE/hoLz7/O6/JQ0aQW8qpliuOtV644zqdH7/neDw9uIVZ1WmjLnu5S Noq8pE2iJx8QNgW75rVLAGasZLvzFZO2pA4m+jFwzJoeK9LYgVO/Drb7ifjCONGpYwWT bpxDrQedA/e24ih14+tyofbHxTTpvOTJkdbdw0LozX/S+j+eWi+BJElErS+3qTMI/Yw1 qmDeI58y04ssmjNb/EsjeTsycBZpMuIB3gIrFTiG4O2McwhmbX+ckhuMaGMm8wx8yzDS nm8Q==
+X-Gm-Message-State: AHQUAuaetlUCzXBT9Emy5K2dye+k+brMgf15xRaTD3ycxcSBw7vWSPgH sda0OENzY/REMWzhQAytIHvJLVMslUJc5saMOAY=
+X-Google-Smtp-Source: AHgI3IY5JRfYCMjVyQHsNqKgGL0WM7Ofv8rC4pbRDoR7ovcgj/ti9MUcg0EtkKDgLPe6dKkZJpB2sdFDkSM3zg9hmA0=
+X-Received: by 2002:a5e:d910:: with SMTP id n16mr2367938iop.58.1549357184826;  Tue, 05 Feb 2019 00:59:44 -0800 (PST)
+MIME-Version: 1.0
+References: <62b0e36a-8104-4b91-bf15-ad0bb5bd421c@Spark> <aa532608-afc8-4cef-8c4d-a674b442ea0f@Spark>
+In-Reply-To: <aa532608-afc8-4cef-8c4d-a674b442ea0f@Spark>
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+Date: Tue, 5 Feb 2019 08:59:32 +0000
+Message-ID: <CAPaG1Anpxe4or3BrVbLttF0f_70LOSMDAFj2iscMKD1NJOwOag@mail.gmail.com>
+To: Marco Zennaro <mzennaro@ictp.it>
+Cc: gaia <gaia@irtf.org>
+Content-Type: multipart/alternative; boundary="000000000000a1c2df058121d4fb"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/k16RKtJe9YWPVKhkP0F0rLkxCyg>
+Subject: Re: [gaia] Paper on frugal 5G
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.29
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 05 Feb 2019 08:59:48 -0000
+
+--000000000000a1c2df058121d4fb
+Content-Type: text/plain; charset="UTF-8"
+
+reminded me of this https://arxiv.org/pdf/1602.08135.pdf
+
+we were working further on this but the paper never came out - need to
+resurrect the work.
+
+arjuna
+
+On Tue, 5 Feb 2019 at 08:42, <mzennaro@ictp.it> wrote:
+
+> https://arxiv.org/abs/1902.01367
+>
+> Best,
+> Marco
+>
+> Marco Zennaro, PhD // Research Officer // T/ICT4D Lab // ICTP //
+> wireless.ictp.it
+> _______________________________________________
+> gaia mailing list
+> gaia@irtf.org
+> https://www.irtf.org/mailman/listinfo/gaia
+>
+
+
+-- 
+
+Arjuna Sathiaseelan | http://sathiaseelan.org
+
+--000000000000a1c2df058121d4fb
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr">reminded me of this=C2=A0<a href=3D"https=
+://arxiv.org/pdf/1602.08135.pdf">https://arxiv.org/pdf/1602.08135.pdf</a></=
+div><div dir=3D"ltr"><br></div><div>we were working further on this but the=
+ paper never came out - need to resurrect the work.</div><div><br></div><di=
+v>arjuna</div></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=
+=3D"gmail_attr">On Tue, 5 Feb 2019 at 08:42, &lt;<a href=3D"mailto:mzennaro=
+@ictp.it">mzennaro@ictp.it</a>&gt; wrote:<br></div><blockquote class=3D"gma=
+il_quote" style=3D"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,2=
+04,204);padding-left:1ex">
+
+
+
+<div>
+<div name=3D"messageBodySection" style=3D"font-size:14px;font-family:-apple=
+-system,BlinkMacSystemFont,sans-serif"><a href=3D"https://arxiv.org/abs/190=
+2.01367" target=3D"_blank">https://arxiv.org/abs/1902.01367</a>
+<div><br></div>
+<div>Best,</div>
+<div>Marco</div>
+</div>
+<div name=3D"messageSignatureSection"><br>
+<div class=3D"gmail-m_-3247825331044461784matchFont">
+<p style=3D"margin:0px;font-stretch:normal;line-height:normal;font-family:-=
+apple-system,BlinkMacSystemFont,sans-serif;color:rgb(203,209,214);font-size=
+:14px">Marco Zennaro, PhD // Research Officer // T/ICT4D Lab // ICTP // <a =
+href=3D"http://wireless.ictp.it" style=3D"font-size:14px;font-family:-apple=
+-system,BlinkMacSystemFont,sans-serif" target=3D"_blank">wireless.ictp.it</=
+a></p>
+</div>
+</div>
+</div>
+
+_______________________________________________<br>
+gaia mailing list<br>
+<a href=3D"mailto:gaia@irtf.org" target=3D"_blank">gaia@irtf.org</a><br>
+<a href=3D"https://www.irtf.org/mailman/listinfo/gaia" rel=3D"noreferrer" t=
+arget=3D"_blank">https://www.irtf.org/mailman/listinfo/gaia</a><br>
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr"=
+ class=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div dir=
+=3D"ltr"><div><br></div><div>Arjuna Sathiaseelan |=C2=A0<a href=3D"http://s=
+athiaseelan.org" target=3D"_blank">http://sathiaseelan.org</a></div><div><b=
+r></div></div></div></div></div></div>
+
+--000000000000a1c2df058121d4fb--
+
+
+From nobody Tue Feb  5 08:55:20 2019
+Return-Path: <leandro@ac.upc.edu>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 75802130E8F for <gaia@ietfa.amsl.com>; Tue,  5 Feb 2019 08:55:19 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -4.199
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.199 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_MED=-2.3, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id CKsUfOnfGOad for <gaia@ietfa.amsl.com>; Tue,  5 Feb 2019 08:55:15 -0800 (PST)
+Received: from roura.ac.upc.es (roura.ac.upc.edu [147.83.33.10]) by ietfa.amsl.com (Postfix) with ESMTP id 7957A130E84 for <gaia@irtf.org>; Tue,  5 Feb 2019 08:55:15 -0800 (PST)
+Received: from correu-2.ac.upc.es (correu-2.ac.upc.es [147.83.30.92]) by roura.ac.upc.es (8.13.8/8.13.8) with ESMTP id x15Gq28G023993; Tue, 5 Feb 2019 17:52:02 +0100
+Received: from [192.168.68.105] (unknown [93.176.139.53]) by correu-2.ac.upc.es (Postfix) with ESMTPSA id 8A0D7872; Tue,  5 Feb 2019 17:51:56 +0100 (CET)
+From: Leandro Navarro <leandro@ac.upc.edu>
+Message-Id: <F22A628D-B831-46F9-BADD-80754CE4CC0E@ac.upc.edu>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_61DCB414-5261-48E9-B01A-CB554C350188"
+Mime-Version: 1.0 (Mac OS X Mail 12.2 \(3445.102.3\))
+Date: Tue, 5 Feb 2019 17:51:55 +0100
+In-Reply-To: <aa532608-afc8-4cef-8c4d-a674b442ea0f@Spark>
+Cc: "mzennaro@ictp.it Zennaro" <mzennaro@ictp.it>
+To: gaia <gaia@irtf.org>
+References: <62b0e36a-8104-4b91-bf15-ad0bb5bd421c@Spark> <aa532608-afc8-4cef-8c4d-a674b442ea0f@Spark>
+X-Mailer: Apple Mail (2.3445.102.3)
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/gpHxDjWgN59O_4BNLHDSmYqJ7VQ>
+Subject: Re: [gaia] Paper on frugal 5G
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.29
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 05 Feb 2019 16:55:20 -0000
+
+--Apple-Mail=_61DCB414-5261-48E9-B01A-CB554C350188
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=us-ascii
+
+Related work we did in the netCommons.eu project about 5G:=20
+http://people.ac.upc.edu/leandro/pubs/5G.pdf=20
+
+Regards, Leandro.
+
+> On 5 Feb 2019, at 09:41, mzennaro@ictp.it wrote:
+>=20
+> https://arxiv.org/abs/1902.01367 <https://arxiv.org/abs/1902.01367>
+>=20
+> Best,
+> Marco
+>=20
+> Marco Zennaro, PhD // Research Officer // T/ICT4D Lab // ICTP // =
+wireless.ictp.it =
+<x-msg://10/wireless.ictp.it>_____________________________________________=
+__
+> gaia mailing list
+> gaia@irtf.org
+> https://www.irtf.org/mailman/listinfo/gaia
+
+--
+Leandro Navarro
+http://people.ac.upc.edu/leandro	 http://dsg.ac.upc.edu
+
+
+--Apple-Mail=_61DCB414-5261-48E9-B01A-CB554C350188
+Content-Transfer-Encoding: 7bit
+Content-Type: text/html;
+	charset=us-ascii
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii"></head><body style="word-wrap: break-word; -webkit-nbsp-mode: space; line-break: after-white-space;" class="">Related work we did in the <a href="http://netCommons.eu" class="">netCommons.eu</a> project about 5G:&nbsp;<div class=""><a href="http://people.ac.upc.edu/leandro/pubs/5G.pdf" class="">http://people.ac.upc.edu/leandro/pubs/5G.pdf</a>&nbsp;</div><div class=""><br class=""></div><div class="">Regards, Leandro.<br class=""><div><br class=""><blockquote type="cite" class=""><div class="">On 5 Feb 2019, at 09:41, <a href="mailto:mzennaro@ictp.it" class="">mzennaro@ictp.it</a> wrote:</div><br class="Apple-interchange-newline"><div class="">
+
+<title class=""></title>
+
+<div class="">
+<div name="messageBodySection" style="font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" class=""><a href="https://arxiv.org/abs/1902.01367" class="">https://arxiv.org/abs/1902.01367</a>
+<div class=""><br class=""></div>
+<div class="">Best,</div>
+<div class="">Marco</div>
+</div>
+<div name="messageSignatureSection" class=""><br class="">
+<div class="matchFont"><div style="margin: 0px; font-stretch: normal; line-height: normal; font-family: -apple-system, BlinkMacSystemFont, sans-serif; color: rgb(203, 209, 214); font-size: 14px;" class="">Marco Zennaro, PhD // Research Officer // T/ICT4D Lab // ICTP // <a href="x-msg://10/wireless.ictp.it" style="font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" class="">wireless.ictp.it</a></div>
+</div>
+</div>
+</div>
+
+_______________________________________________<br class="">gaia mailing list<br class=""><a href="mailto:gaia@irtf.org" class="">gaia@irtf.org</a><br class="">https://www.irtf.org/mailman/listinfo/gaia<br class=""></div></blockquote></div><br class=""><div class="">
+<div style="color: rgb(0, 0, 0); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" class="">--<br class="">Leandro Navarro<br class=""><a href="http://people.ac.upc.edu/leandro" class="">http://people.ac.upc.edu/leandro</a><span class="Apple-tab-span" style="white-space: pre;">	</span>&nbsp;http://dsg.ac.upc.edu</div>
+
+</div>
+<br class=""></div></body></html>
+--Apple-Mail=_61DCB414-5261-48E9-B01A-CB554C350188--
+
+
+From nobody Tue Feb  5 09:00:52 2019
+Return-Path: <marie@mjmontpetit.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 31DFD130E99 for <gaia@ietfa.amsl.com>; Tue,  5 Feb 2019 09:00:50 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.04
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.04 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIMWL_WL_MED=-0.142, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=mjmontpetit-com.20150623.gappssmtp.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id dCJTDwcHOzkp for <gaia@ietfa.amsl.com>; Tue,  5 Feb 2019 09:00:47 -0800 (PST)
+Received: from mail-qt1-x82f.google.com (mail-qt1-x82f.google.com [IPv6:2607:f8b0:4864:20::82f]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 7A57A130D7A for <gaia@irtf.org>; Tue,  5 Feb 2019 09:00:47 -0800 (PST)
+Received: by mail-qt1-x82f.google.com with SMTP id y20so4559611qtm.13 for <gaia@irtf.org>; Tue, 05 Feb 2019 09:00:47 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mjmontpetit-com.20150623.gappssmtp.com; s=20150623; h=from:message-id:mime-version:subject:date:in-reply-to:cc:to :references; bh=78La4PkVKWsPf3i2M6DlGYf5R6QX25EA8kFn8jusBso=; b=rmO9RkXW7fHgvMqz62/BS69PLXfsbWrqP/oputCuLudBm1FZp7aLwA1V/qbyl0LyxG FpqHBRL7Zgsd9TQOe5JyipBcpcyXlydxtbsD/yLHNZQ9QXuV/oUzV40xCeyxjspaXdbY n83k00K1mZnsOxbtycnr37x2tV0MokGgXW0Rkud5T+pcQH2F5PgxNbCmJNIVcc09A7Jc GE0emUyW++dcg5j47PqtD0d0JwqpBUVW3uMYpFm2tif825RKsD7PA5xu1EId0L5hw+8m AGYp4cnFyb5zEQsj+ZJGQ2nONmdoSMHG5sU6rzeCEkOqhdw8iTB3/D/Z4xrQ3KFPumlS RgIA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:from:message-id:mime-version:subject:date :in-reply-to:cc:to:references; bh=78La4PkVKWsPf3i2M6DlGYf5R6QX25EA8kFn8jusBso=; b=PLEXYDcj8vAZoDWNglrXgHK+rZn0RAx9o2DoWoMBnGIQWQuuNzhzDO4djuTSgnzLmp 46bj5vX4PflrT+Vs/25/CNrRupPLmzIg00IgvXFifq6q2q4QWNFCf5DSdkPK7f+L9z7/ q7yfkCzpamM/BPyx6EE/P213rq3uqenSNRyfWvUxM3/CT/hJ+uVOlMx1PTDzQ33d6Nh8 MLY9i7L6DE9ajnft7QULGc2sw1Uti95rhQtNBnLrDw9/t+h6XWJi7smVhs4S50zZhZg6 FA8OA06nivaSAg6WWGZie5j4N/SRertC0oShFWKXRhfgjDINqbreoA7agtsK0LzThweM OfMQ==
+X-Gm-Message-State: AHQUAubvp357mKQ7VnSBQAA+9+GKXxw6m/Mt3vGMnA14MMoxZ45RfJu1 pWt7dGo0HoKSYFwbHS+69nwU/g==
+X-Google-Smtp-Source: AHgI3IbkGi0wOzJwuLD+SWI3da2Y6Yuz74EBiLSfJIYrzqHkjN/OEy9K9SO/dKzZMLm3jMzjejI7Mg==
+X-Received: by 2002:aed:2539:: with SMTP id v54mr4355398qtc.211.1549386046476;  Tue, 05 Feb 2019 09:00:46 -0800 (PST)
+Received: from heidi-lamarr.fios-router.home (pool-173-48-150-213.bstnma.fios.verizon.net. [173.48.150.213]) by smtp.gmail.com with ESMTPSA id x17sm2837099qkj.22.2019.02.05.09.00.45 (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128); Tue, 05 Feb 2019 09:00:45 -0800 (PST)
+From: Marie-Jose Montpetit <marie@mjmontpetit.com>
+Message-Id: <C2AC081B-CA18-413C-804D-10A21814587B@mjmontpetit.com>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_A7670DE7-D21C-4FE9-9430-9306D129FB52"
+Mime-Version: 1.0 (Mac OS X Mail 11.5 \(3445.9.1\))
+Date: Tue, 5 Feb 2019 12:00:44 -0500
+In-Reply-To: <F22A628D-B831-46F9-BADD-80754CE4CC0E@ac.upc.edu>
+Cc: gaia <gaia@irtf.org>, "mzennaro@ictp.it Zennaro" <mzennaro@ictp.it>
+To: Leandro Navarro <leandro@ac.upc.edu>
+References: <62b0e36a-8104-4b91-bf15-ad0bb5bd421c@Spark> <aa532608-afc8-4cef-8c4d-a674b442ea0f@Spark> <F22A628D-B831-46F9-BADD-80754CE4CC0E@ac.upc.edu>
+X-Mailer: Apple Mail (2.3445.9.1)
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/zmZ7p_2e4JpqDLWmq-V2cTDJmbM>
+Subject: Re: [gaia] Paper on frugal 5G
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.29
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 05 Feb 2019 17:00:50 -0000
+
+--Apple-Mail=_A7670DE7-D21C-4FE9-9430-9306D129FB52
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=us-ascii
+
+Or the Taknet community network in Thailand.
+
+https://blog.apnic.net/2017/02/17/taknet-community-networking-thailand/
+
+mjm
+Marie-Jose Montpetit, Ph.D.
+mariejo@mit.edu
+marie@mjmontpetit.com
++1-781-526-2661
+@SocialTVMIT
+
+
+
+> On Feb 5, 2019, at 11:51 AM, Leandro Navarro <leandro@ac.upc.edu> =
+wrote:
+>=20
+> Related work we did in the netCommons.eu <http://netcommons.eu/> =
+project about 5G:=20
+> http://people.ac.upc.edu/leandro/pubs/5G.pdf =
+<http://people.ac.upc.edu/leandro/pubs/5G.pdf>=20
+>=20
+> Regards, Leandro.
+>=20
+>> On 5 Feb 2019, at 09:41, mzennaro@ictp.it <mailto:mzennaro@ictp.it> =
+wrote:
+>>=20
+>> https://arxiv.org/abs/1902.01367 <https://arxiv.org/abs/1902.01367>
+>>=20
+>> Best,
+>> Marco
+>>=20
+>> Marco Zennaro, PhD // Research Officer // T/ICT4D Lab // ICTP // =
+wireless.ictp.it =
+<x-msg://10/wireless.ictp.it>_____________________________________________=
+__
+>> gaia mailing list
+>> gaia@irtf.org <mailto:gaia@irtf.org>
+>> https://www.irtf.org/mailman/listinfo/gaia
+>=20
+> --
+> Leandro Navarro
+> http://people.ac.upc.edu/leandro <http://people.ac.upc.edu/leandro>	 =
+http://dsg.ac.upc.edu
+>=20
+> _______________________________________________
+> gaia mailing list
+> gaia@irtf.org
+> https://www.irtf.org/mailman/listinfo/gaia
+
+
+--Apple-Mail=_A7670DE7-D21C-4FE9-9430-9306D129FB52
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=us-ascii
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dus-ascii"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; line-break: after-white-space;" class=3D"">Or =
+the Taknet community network in Thailand.<div class=3D""><br =
+class=3D""></div><div class=3D""><a =
+href=3D"https://blog.apnic.net/2017/02/17/taknet-community-networking-thai=
+land/" =
+class=3D"">https://blog.apnic.net/2017/02/17/taknet-community-networking-t=
+hailand/</a></div><div class=3D""><br class=3D""></div><div =
+class=3D"">mjm<br class=3D""><div class=3D"">
+<div style=3D"caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); =
+font-family: Helvetica; font-size: 12px; font-style: normal; =
+font-variant-caps: normal; font-weight: normal; letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; =
+text-decoration: none;">Marie-Jose Montpetit, Ph.D.</div><div =
+style=3D"caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: =
+Helvetica; font-size: 12px; font-style: normal; font-variant-caps: =
+normal; font-weight: normal; letter-spacing: normal; orphans: auto; =
+text-align: start; text-indent: 0px; text-transform: none; white-space: =
+normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; =
+-webkit-text-stroke-width: 0px; text-decoration: none;"><a =
+href=3D"mailto:mariejo@mit.edu" class=3D"">mariejo@mit.edu</a></div><div =
+style=3D"caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: =
+Helvetica; font-size: 12px; font-style: normal; font-variant-caps: =
+normal; font-weight: normal; letter-spacing: normal; orphans: auto; =
+text-align: start; text-indent: 0px; text-transform: none; white-space: =
+normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; =
+-webkit-text-stroke-width: 0px; text-decoration: none;"><a =
+href=3D"mailto:marie@mjmontpetit.com" =
+class=3D"">marie@mjmontpetit.com</a></div><div style=3D"caret-color: =
+rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: =
+12px; font-style: normal; font-variant-caps: normal; font-weight: =
+normal; letter-spacing: normal; orphans: auto; text-align: start; =
+text-indent: 0px; text-transform: none; white-space: normal; widows: =
+auto; word-spacing: 0px; -webkit-text-size-adjust: auto; =
+-webkit-text-stroke-width: 0px; text-decoration: =
+none;">+1-781-526-2661</div><div style=3D"caret-color: rgb(0, 0, 0); =
+color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; =
+font-style: normal; font-variant-caps: normal; font-weight: normal; =
+letter-spacing: normal; orphans: auto; text-align: start; text-indent: =
+0px; text-transform: none; white-space: normal; widows: auto; =
+word-spacing: 0px; -webkit-text-size-adjust: auto; =
+-webkit-text-stroke-width: 0px; text-decoration: =
+none;">@SocialTVMIT</div><div style=3D"caret-color: rgb(0, 0, 0); color: =
+rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: =
+normal; font-variant-caps: normal; font-weight: normal; letter-spacing: =
+normal; orphans: auto; text-align: start; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: auto; word-spacing: =
+0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; =
+text-decoration: none;" class=3D""><br class=3D""></div><br =
+class=3D"Apple-interchange-newline">
+</div>
+<div style=3D""><br class=3D""><blockquote type=3D"cite" class=3D""><div =
+class=3D"">On Feb 5, 2019, at 11:51 AM, Leandro Navarro &lt;<a =
+href=3D"mailto:leandro@ac.upc.edu" class=3D"">leandro@ac.upc.edu</a>&gt; =
+wrote:</div><br class=3D"Apple-interchange-newline"><div class=3D""><meta =
+http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii" =
+class=3D""><div style=3D"word-wrap: break-word; -webkit-nbsp-mode: =
+space; line-break: after-white-space;" class=3D"">Related work we did in =
+the <a href=3D"http://netcommons.eu/" class=3D"">netCommons.eu</a> =
+project about 5G:&nbsp;<div class=3D""><a =
+href=3D"http://people.ac.upc.edu/leandro/pubs/5G.pdf" =
+class=3D"">http://people.ac.upc.edu/leandro/pubs/5G.pdf</a>&nbsp;</div><di=
+v class=3D""><br class=3D""></div><div class=3D"">Regards, Leandro.<br =
+class=3D""><div class=3D""><br class=3D""><blockquote type=3D"cite" =
+class=3D""><div class=3D"">On 5 Feb 2019, at 09:41, <a =
+href=3D"mailto:mzennaro@ictp.it" class=3D"">mzennaro@ictp.it</a> =
+wrote:</div><br class=3D"Apple-interchange-newline"><div class=3D"">
+
+<title class=3D""></title>
+
+<div class=3D"">
+<div name=3D"messageBodySection" style=3D"font-size: 14px; font-family: =
+-apple-system, BlinkMacSystemFont, sans-serif;" class=3D""><a =
+href=3D"https://arxiv.org/abs/1902.01367" =
+class=3D"">https://arxiv.org/abs/1902.01367</a>
+<div class=3D""><br class=3D""></div>
+<div class=3D"">Best,</div>
+<div class=3D"">Marco</div>
+</div>
+<div name=3D"messageSignatureSection" class=3D""><br class=3D"">
+<div class=3D"matchFont"><div style=3D"margin: 0px; font-stretch: =
+normal; line-height: normal; font-family: -apple-system, =
+BlinkMacSystemFont, sans-serif; color: rgb(203, 209, 214); font-size: =
+14px;" class=3D"">Marco Zennaro, PhD // Research Officer // T/ICT4D Lab =
+// ICTP // <a href=3D"x-msg://10/wireless.ictp.it" style=3D"font-size: =
+14px; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" =
+class=3D"">wireless.ictp.it</a></div>
+</div>
+</div>
+</div>
+
+_______________________________________________<br class=3D"">gaia =
+mailing list<br class=3D""><a href=3D"mailto:gaia@irtf.org" =
+class=3D"">gaia@irtf.org</a><br class=3D""><a =
+href=3D"https://www.irtf.org/mailman/listinfo/gaia" =
+class=3D"">https://www.irtf.org/mailman/listinfo/gaia</a><br =
+class=3D""></div></blockquote></div><br class=3D""><div class=3D"">
+<div style=3D"letter-spacing: normal; text-align: start; text-indent: =
+0px; text-transform: none; white-space: normal; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; line-break: after-white-space;" class=3D"">--<br=
+ class=3D"">Leandro Navarro<br class=3D""><a =
+href=3D"http://people.ac.upc.edu/leandro" =
+class=3D"">http://people.ac.upc.edu/leandro</a><span =
+class=3D"Apple-tab-span" style=3D"white-space: pre;">	</span>&nbsp;<a =
+href=3D"http://dsg.ac.upc.edu" class=3D"">http://dsg.ac.upc.edu</a></div>
+
+</div>
+<br =
+class=3D""></div></div>_______________________________________________<br =
+class=3D"">gaia mailing list<br class=3D""><a =
+href=3D"mailto:gaia@irtf.org" class=3D"">gaia@irtf.org</a><br =
+class=3D"">https://www.irtf.org/mailman/listinfo/gaia<br =
+class=3D""></div></blockquote></div><br class=3D""></div></body></html>=
+
+--Apple-Mail=_A7670DE7-D21C-4FE9-9430-9306D129FB52--
+
+
+From nobody Wed Feb 13 00:44:45 2019
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id A1B26131062 for <gaia@ietfa.amsl.com>; Wed, 13 Feb 2019 00:44:35 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.88
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.88 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, FREEMAIL_FORGED_FROMDOMAIN=0.018, FREEMAIL_FROM=0.001, HEADER_FROM_DIFFERENT_DOMAINS=0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, RCVD_IN_MSPIKE_H2=-0.001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id LI1E-7qDgg6B for <gaia@ietfa.amsl.com>; Wed, 13 Feb 2019 00:44:32 -0800 (PST)
+Received: from mail-it1-f180.google.com (mail-it1-f180.google.com [209.85.166.180]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id B29AE13104E for <gaia@irtf.org>; Wed, 13 Feb 2019 00:44:32 -0800 (PST)
+Received: by mail-it1-f180.google.com with SMTP id o131so3909907itc.5 for <gaia@irtf.org>; Wed, 13 Feb 2019 00:44:32 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:references:in-reply-to:from:date :message-id:subject:to; bh=dOuyP1c9QYGrbNPl7YzKJUGk8iipHWFPowDdZdYQ1Z4=; b=h9wMMhZy6hK8umHpj3AXy+9CUm8o24eGpguthoNsWMDAtE3YygU2Xpd3Oz4jJwop+o 6XwO7R3d2x73h11LrI3gNOnJb5SS9umXTpCUS3jk8WkPu5UlCcMdJZI16nBVIelMZuEj CNtzjlO8q0+X6pBhMqQNhneNa4rrs58Wz/ZnOZwNLiR5wvaYM69mA2UDUFZsJ/D831I8 bAMP6GWnzJYhMELUVnUF49A1uB15zscpHQOoWi/+LedaCd0Nwd4khBL3YTs6cPt3ENoy DN5wFtm1hPwZiXaUbpgQ+4X90zu04oBPqWr11JQI4Ge+S0MjqCkMqtiTTqQmmTJDTjBU M3Iw==
+X-Gm-Message-State: AHQUAuZOrFMVRKzaXoWSd7XKzfHmydepV89x+dyXO3cs+bXCOPHhNRFG dvXJfFzq79ReYsOvTc1HAOKij1j3zSXx9Eq/JRTYZw==
+X-Google-Smtp-Source: AHgI3IbEz0cxaj4KCQr45u2FfndJMp1sO3OIKbbYeBQuhFgoXw90QjX3gjkOOZerdJBemYPPmR2SKuzbRNta25kLhXs=
+X-Received: by 2002:a5e:d910:: with SMTP id n16mr5055733iop.58.1550047471235;  Wed, 13 Feb 2019 00:44:31 -0800 (PST)
+MIME-Version: 1.0
+References: <5B930BEF-E010-4C7D-AA5D-ED2120051150@afrinic.net>
+In-Reply-To: <5B930BEF-E010-4C7D-AA5D-ED2120051150@afrinic.net>
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+Date: Wed, 13 Feb 2019 08:44:19 +0000
+Message-ID: <CAPaG1Anu2U9+iNCNQV5ZbN+rb_L0Q0pZ6s_T4ouLA+zrLC3YCA@mail.gmail.com>
+To: gaia <gaia@irtf.org>
+Content-Type: multipart/alternative; boundary="000000000000e875b40581c28ccc"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/3KJLjefYL2RuXuXenK_PQqjSC4c>
+Subject: [gaia] Fwd: [aimo] Expression of Interest on collaborative R&D projects with AFRINIC
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.29
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 13 Feb 2019 08:44:44 -0000
+
+--000000000000e875b40581c28ccc
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ---------
+From: Amreesh Phokeer <amreesh@afrinic.net>
+Date: Wed, 13 Feb 2019 at 07:52
+Subject: [aimo] Expression of Interest on collaborative R&D projects with
+AFRINIC
+To: <aimo@afrinic.net>
+
+
+Dear Colleagues,
+
+AFRINIC is pleased to invite you to express your interest in collaborating
+on its Research and Development projects.
+
+Please find more information on how you can collaborate with AFRINIC by
+reading this blog article.
+
+https://www.afrinic.net/blog/429-expression-of-interest-on-collaborative-pr=
+ojects-with-afrinic-r-d
+
+=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=
+=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=
+=A6=E2=80=A6=E2=80=A6=E2=80=A6.
+
+Chers coll=C3=A8gues,
+
+AFRINIC a le plaisir de vous inviter =C3=A0 exprimer votre int=C3=A9r=C3=AA=
+t pour
+collaborer =C3=A0 ses projets de recherche.
+
+Vous trouverez plus d=E2=80=99informations sur cette collaboration avec AFR=
+INIC en
+lisant cet article de blog.
+
+https://www.afrinic.net/blog/429-expression-of-interest-on-collaborative-pr=
+ojects-with-afrinic-r-d
+
+
+Best regards,
+
+--
+Amreesh D. Phokeer
+R&D Manager, AFRINIC
+t: +230 403 51 00 | f: +230 466 6758 | tt: @afrinic | w: www.afrinic.net
+facebook.com/afrinic | flickr.com/afrinic | youtube.com/afrinicmedia
+@amreesh
+Skype: amreesh.afrinic
+_______________________
+_______________________________________________
+AIMO mailing list
+AIMO@afrinic.net
+https://lists.afrinic.net/mailman/listinfo/aimo
+
+
+--=20
+
+Arjuna Sathiaseelan | http://sathiaseelan.org
+
+--000000000000e875b40581c28ccc
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=
+=3D"gmail_attr">---------- Forwarded message ---------<br>From: <strong cla=
+ss=3D"gmail_sendername" dir=3D"auto">Amreesh Phokeer</strong> <span dir=3D"=
+ltr">&lt;<a href=3D"mailto:amreesh@afrinic.net">amreesh@afrinic.net</a>&gt;=
+</span><br>Date: Wed, 13 Feb 2019 at 07:52<br>Subject: [aimo] Expression of=
+ Interest on collaborative R&amp;D projects with AFRINIC<br>To:  &lt;<a hre=
+f=3D"mailto:aimo@afrinic.net">aimo@afrinic.net</a>&gt;<br></div><br><br>Dea=
+r Colleagues,<br>
+<br>
+AFRINIC is pleased to invite you to express your interest in collaborating =
+on its Research and Development projects.<br>
+<br>
+Please find more information on how you can collaborate with AFRINIC by rea=
+ding this blog article.<br>
+<br>
+<a href=3D"https://www.afrinic.net/blog/429-expression-of-interest-on-colla=
+borative-projects-with-afrinic-r-d" rel=3D"noreferrer" target=3D"_blank">ht=
+tps://www.afrinic.net/blog/429-expression-of-interest-on-collaborative-proj=
+ects-with-afrinic-r-d</a><br>
+<br>
+=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=
+=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=
+=A6=E2=80=A6=E2=80=A6=E2=80=A6.<br>
+<br>
+Chers coll=C3=A8gues,<br>
+<br>
+AFRINIC a le plaisir de vous inviter =C3=A0 exprimer votre int=C3=A9r=C3=AA=
+t pour collaborer =C3=A0 ses projets de recherche.<br>
+<br>
+Vous trouverez plus d=E2=80=99informations sur cette collaboration avec AFR=
+INIC en lisant cet article de blog.<br>
+<br>
+<a href=3D"https://www.afrinic.net/blog/429-expression-of-interest-on-colla=
+borative-projects-with-afrinic-r-d" rel=3D"noreferrer" target=3D"_blank">ht=
+tps://www.afrinic.net/blog/429-expression-of-interest-on-collaborative-proj=
+ects-with-afrinic-r-d</a><br>
+<br>
+<br>
+Best regards,<br>
+<br>
+--<br>
+Amreesh D. Phokeer<br>
+R&amp;D Manager, AFRINIC<br>
+t: +230 403 51 00 | f: +230 466 6758 | tt: @afrinic | w: <a href=3D"http://=
+www.afrinic.net" rel=3D"noreferrer" target=3D"_blank">www.afrinic.net</a><b=
+r>
+<a href=3D"http://facebook.com/afrinic" rel=3D"noreferrer" target=3D"_blank=
+">facebook.com/afrinic</a> | <a href=3D"http://flickr.com/afrinic" rel=3D"n=
+oreferrer" target=3D"_blank">flickr.com/afrinic</a> | <a href=3D"http://you=
+tube.com/afrinicmedia" rel=3D"noreferrer" target=3D"_blank">youtube.com/afr=
+inicmedia</a><br>
+@amreesh<br>
+Skype: amreesh.afrinic<br>
+_______________________<br>
+_______________________________________________<br>
+AIMO mailing list<br>
+<a href=3D"mailto:AIMO@afrinic.net" target=3D"_blank">AIMO@afrinic.net</a><=
+br>
+<a href=3D"https://lists.afrinic.net/mailman/listinfo/aimo" rel=3D"noreferr=
+er" target=3D"_blank">https://lists.afrinic.net/mailman/listinfo/aimo</a><b=
+r>
+</div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr" class=3D"gma=
+il_signature" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div=
+ dir=3D"ltr"><div dir=3D"ltr"><div><br></div><div>Arjuna Sathiaseelan |=C2=
+=A0<a href=3D"http://sathiaseelan.org" target=3D"_blank">http://sathiaseela=
+n.org</a></div><div><br></div></div></div></div></div></div></div>
+
+--000000000000e875b40581c28ccc--
+
+
+From nobody Thu Feb 28 05:02:26 2019
+Return-Path: <mfhaln@essex.ac.uk>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id CBB37129741 for <gaia@ietfa.amsl.com>; Thu, 28 Feb 2019 05:02:24 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.899
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.899 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIMWL_WL_MED=-0.001, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, HTML_MESSAGE=0.001, LOTS_OF_MONEY=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=essexuniversity.onmicrosoft.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id i_i8lSScql-i for <gaia@ietfa.amsl.com>; Thu, 28 Feb 2019 05:02:22 -0800 (PST)
+Received: from EUR02-AM5-obe.outbound.protection.outlook.com (mail-eopbgr00079.outbound.protection.outlook.com [40.107.0.79]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id B0A8012894E for <gaia@irtf.org>; Thu, 28 Feb 2019 05:02:19 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=essexuniversity.onmicrosoft.com; s=selector1-essex-ac-uk; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck; bh=PVh+1U4+iCbEHzgTYyET4yq3Ckq3xEE6nzA0sh8JNMk=; b=He6W2AD4nj6yKIQqL7BcvWCo0jPS7FYY+DPesNt/Pno0+Z7pR1nFeZ56hNgKwLGCO7mQsXIV8O8Tb6NkHbOnM2ZEGkgfclSfmzniDB/dE1GkpNOJAt4XppeCxYgw5nGCybMMb/LlUV6REji5r43jrIwLRZiDGt64iz8ZD96Z3EM=
+Received: from VI1PR06MB5663.eurprd06.prod.outlook.com (20.178.122.85) by VI1PR06MB4381.eurprd06.prod.outlook.com (20.177.57.22) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.1643.18; Thu, 28 Feb 2019 13:02:15 +0000
+Received: from VI1PR06MB5663.eurprd06.prod.outlook.com ([fe80::b0c9:c1f4:c069:8fc4]) by VI1PR06MB5663.eurprd06.prod.outlook.com ([fe80::b0c9:c1f4:c069:8fc4%3]) with mapi id 15.20.1665.015; Thu, 28 Feb 2019 13:02:15 +0000
+From: "Al-Naday, Mays F H" <mfhaln@essex.ac.uk>
+To: "gaia@irtf.org" <gaia@irtf.org>
+CC: "Reed, Martin J" <mjreed@essex.ac.uk>, "Thomos, Nikolaos" <nthomos@essex.ac.uk>
+Thread-Topic: Postdoc Position
+Thread-Index: AQHUz2XTjKxE5Ps1FkyUiOqeYlCtrw==
+Date: Thu, 28 Feb 2019 13:02:14 +0000
+Message-ID: <A0618F1E-51F1-44BC-94A4-CE90B99837D8@essex.ac.uk>
+Accept-Language: en-GB, en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [155.245.64.165]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 176485f1-ffbe-49e2-3ffc-08d69d7cf693
+x-microsoft-antispam: BCL:0; PCL:0; RULEID:(2390118)(7020095)(4652040)(8989299)(4534185)(4627221)(201703031133081)(201702281549075)(8990200)(5600127)(711020)(4605104)(2017052603328)(7153060)(7193020); SRVR:VI1PR06MB4381; 
+x-ms-traffictypediagnostic: VI1PR06MB4381:
+x-ms-exchange-purlcount: 1
+x-microsoft-exchange-diagnostics: =?utf-8?B?MTtWSTFQUjA2TUI0MzgxOzIzOjZQTE1lOThNZ2l0Tk5rd2xWQXpDKzRxS1Q5?= =?utf-8?B?SThkdEFzWHVXZDhVY3MvaXFlcEl6YWU3ZXpBT3VpdVBZdEpkN3QvaGFpRjBx?= =?utf-8?B?Y256cisraEVmdi9nVndWYmcxWlU0N3dwVFdrQWoreFhUcGdxb2w1a2NVb1pT?= =?utf-8?B?NlhzNERlV2lYemlLR0JYU2htL1o3NEdncGtqTlA1bGJFdDlUUW1xaEM3TFRO?= =?utf-8?B?eWp3YUgrMHZZY3lIWEdoOWUzbnpkK2V2UHEwYlhDTUt2aGw2VmtQelpPbkRu?= =?utf-8?B?ZUEwZ2hzOFdKRWV2cWtYM1J0MmlXZ243bHZNeXZicjN3aXArUHc2WGloTlFk?= =?utf-8?B?WUg4TTFXanVWTjV4Vmh1TCtscHY2NkZ3VnhmRmNrVi9IZXkzTjYrSXZQWUlX?= =?utf-8?B?Y0xwalA5enN5cWdjVEFZZUpnVXBBbTBCWTM1Q0VtQUF0bUE4SThEL3YwbEVT?= =?utf-8?B?U1hZRGNqcXhONkVaZ243ZXpDN2l5czVPUStWZTVkZktvei9NdXNTRDJ6ZWVT?= =?utf-8?B?Q0FZRVJoeUp1S3JnOEdSdUYwNnp0SFdCNDNUa3lia3BsdHN5UHlRY3RrVzF5?= =?utf-8?B?bithbVJpVS9aNE1JWnE5WXVkcnBnQUw2amFaUFNsN0lBQVJycTIwYWdxWFJw?= =?utf-8?B?VkFUZ0QxQlBvOWM0L3hGSnorS3BpdS9iNzQ5RFZOWGVob2tYVmllRTZzdG45?= =?utf-8?B?dFVUSXdOQUVyc2tKRk4yTHBSVGlrVjFKUU5KeGdSNzMzR29WMGFqODRrejcx?= =?utf-8?B?cVhEckFyTmVmR1RIeHBYWm9GZXJBajlSVS9aY0VPbGFzTUdTMU1nZ1RkcHdO?= =?utf-8?B?WnFwcE5KclFpR2NybXhZV3NIaE5WSXFjUGtDMnpXaGxvTlo4WCtBVGNMTDRC?= =?utf-8?B?aGVRTGhidlN6amZNQjNTWk1xUWE2dWpSdTFydUtMMHBJb2VCMWg5REZHWEJ6?= =?utf-8?B?d2xYeUFkcUlzWm5BRGxpQWttaEN4VzZpRXRUa2JpN2tYZ1RyRTVORmFZK1l3?= =?utf-8?B?ME12WXBDS1N3aWRybjlrYisyM1Bmc1lnd3RQZXVYZ0tYL2p2Mkp4d3IxWGVB?= =?utf-8?B?em1XcTREbzNYZTBhUnF5V3JMcWM2Skw1bEprQmxUYTF2OW1SNWMwajNNTEhG?= =?utf-8?B?dmwzRTQwMTdWZTRhbXBydkwwYjhHcHNPVWhTd0hxL00zLytIS2FzVFFMOU1h?= =?utf-8?B?TjdWOFFUVk94VHM5Q0dtV0RyNnFyeGdLV1NVZFBhTkppMW9xNFZTSnRkbWM4?= =?utf-8?B?R0Z2SU9jSUZrOWQ0OEZQZ0dQWjIxZTd0OFpCRzdHOUg4YTh5L1FTYVk0Z1Ar?= =?utf-8?B?RVNYTUFQRnJIT0FLbG1HVi9hK3NxYUhQZW1lNW5BdVcwT3hxQ1gvTEhubDJ1?= =?utf-8?B?R3Y4QU5nclRZWlRnay9LSVVVK254bGZMMU9Jc1A0SFQvRlI0bVAzT0hrN1Bo?= =?utf-8?B?ZlRaL01RQnEzV3FuQkhVV3lDTEsrR1lvS1ljcjhWNjlZNklFTlA4dkRLbWQ4?= =?utf-8?B?aFhqaSsrZlJubGVBSVJWbGhjN0hOYk5XVnphT2ZveDVCTG5aK3RLM3F3aWRD?= =?utf-8?B?R3hmelpvL0FXV3Z0SDBpNjQrbnl5Q2ZlMFJlMnB6dVRxcjhSbElZRzRrWUNi?= =?utf-8?B?dlRoTnJGWE4zZzZqVDh2U1hiWVl1TmhDYmFVc3pkTHBQQitlZVhzM204VWEy?= =?utf-8?B?dXNOb1VFK1NoMklqUW5YTjRrNUNnRFB0VGdaSGFSZHdKNmtwbVQxYTVUVGhh?= =?utf-8?B?WVVyWmphRFFYSHh3OEErTkdOdFJacHZXWjlUQjRzRzF2YVVaQVovMHF5Zjho?= =?utf-8?B?eFNlRlNHTnh5SEdDZHF1am1NU1RPSmJFTmpRMUNMV21vSXJEeFVSdWlKeVow?= =?utf-8?B?cU1ieHdzR2o0VU1WdHArQys3VWNqYnJEVTFwWG9nL0FZYVZwVTI3L1d2U2tw?= =?utf-8?B?Q1NiUEpoT0pSMTBja25sN09HalEyVFZaK2hDQmNORTJEbUswVFE0QmRZTFhr?= =?utf-8?B?ckZtN2Z2TUJVcDFJTjB6c2dFdHRJK3QwNFQ4Zz09?=
+x-microsoft-antispam-prvs: <VI1PR06MB438113D3646FA512204FCE6E9E750@VI1PR06MB4381.eurprd06.prod.outlook.com>
+x-forefront-prvs: 0962D394D2
+x-forefront-antispam-report: SFV:NSPM; SFS:(10009020)(346002)(396003)(376002)(366004)(136003)(39860400002)(199004)(189003)(82746002)(606006)(316002)(786003)(107886003)(3480700005)(6506007)(478600001)(102836004)(6346003)(99286004)(3846002)(6116002)(54906003)(5660300002)(4326008)(33656002)(25786009)(2501003)(66574012)(6916009)(186003)(74482002)(97736004)(6512007)(105586002)(54896002)(83716004)(6306002)(26005)(5640700003)(8676002)(7736002)(236005)(2906002)(256004)(14444005)(53936002)(6436002)(36756003)(71190400001)(966005)(66066001)(81156014)(14454004)(486006)(7116003)(68736007)(413944005)(86362001)(6486002)(476003)(2616005)(2351001)(106356001)(8936002)(71200400001)(81166006)(221733001)(1730700003); DIR:OUT; SFP:1101; SCL:1; SRVR:VI1PR06MB4381; H:VI1PR06MB5663.eurprd06.prod.outlook.com; FPR:; SPF:None; LANG:en; PTR:InfoNoRecords; A:1; MX:1; 
+received-spf: None (protection.outlook.com: essex.ac.uk does not designate permitted sender hosts)
+authentication-results: spf=none (sender IP is ) smtp.mailfrom=mfhaln@essex.ac.uk; 
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam-message-info: 7RSW06Ysx+nDFhlb7YUE1Ea9cIVKPoaRDNQan0lXMIMmBAiAHvUrhz2ioo+03YfFfY6HTYmnX6kT0wfbTskaWtLst+A/CSfcRnC+g3faNVvzDJzolMAVnlfcDtI1EuKzbpMFPm5gSEokTRKl/XV3f/v8AEpcINjd8TscNA0A4nvKkmJS119CMKXc6W27ow+fCEuCitQQuZmIznxYlrbF7JZdWCSpjxpY6LvH7lE/BYK+EUKggxAWdtoqx/Y+pCJG70TldvggIE34geYHoL1PZSJiKiQdX7Qq+moDSF21tV6hwTPX9OCSz3bhHYsL+Y4OFB37cl83dkOnmOKFcbi5AW9q9t8xcaikTwEfQuUR2QzvIhZj0nw3cFKhcbblxXvD/hq/HAGhw+e/9QRt5FxmxNghDX+FAarKd3gqE1abwbg=
+Content-Type: multipart/alternative; boundary="_000_A0618F1E51F144BC94A4CE90B99837D8essexacuk_"
+MIME-Version: 1.0
+X-OriginatorOrg: essex.ac.uk
+X-MS-Exchange-CrossTenant-Network-Message-Id: 176485f1-ffbe-49e2-3ffc-08d69d7cf693
+X-MS-Exchange-CrossTenant-originalarrivaltime: 28 Feb 2019 13:02:14.9819 (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: a129f8cb-49b0-4d6b-8d79-889050da9198
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1PR06MB4381
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/hWClS8NmKMHwbhISOcdibYcYTCA>
+Subject: [gaia] Postdoc Position
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.29
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 28 Feb 2019 13:02:25 -0000
+
+--_000_A0618F1E51F144BC94A4CE90B99837D8essexacuk_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+RGVhciBhbGwsDQoNCkFwcGxpY2F0aW9ucyBhcmUgaW52aXRlZCBmb3IgZnVsbC10aW1lIFNlbmlv
+ciBSZXNlYXJjaCBPZmZpY2VyIHBvc2l0aW9uIChmaXhlZC10ZXJtIHVudGlsIDMxIERlY2VtYmVy
+IDIwMjApIGF0IHRoZSBTY2hvb2wgb2YgQ29tcHV0ZXIgU2NpZW5jZSBhbmQgRWxlY3Ryb25pYyBF
+bmdpbmVlcmluZywgVW5pdmVyc2l0eSBvZiBFc3NleC4NClRoZSBQb3N0IGlzIGZ1bmRlZCBieSB0
+aGUgRVUgSDIwMjAgcHJvamVjdCBTZXJJb1QgKFNlY3VyZSBhbmQgU2FmZSBJbnRlcm5ldCBvZiBU
+aGluZ3MpIHRvIHdvcmsgb24gZGV2ZWxvcGluZyBub3ZlbCBGb2cvRWRnZSBjb21wdXRpbmcgc29s
+dXRpb25zIHRvIGVuYWJsZSBzZWN1cmUgcHJvY2Vzc2luZyBhbmQgY29tbXVuaWNhdGlvbiBvZiBJ
+b1QgYXBwbGljYXRpb25zLg0KVGhlIHBvc3QgKGluIGEgbnV0c2hlbGwpIGdpdmVzIG9wcG9ydHVu
+aXR5IHRvOiAgY29uZHVjdCByZXNlYXJjaCBpbiByZXNvdXJjZSBtYW5hZ2VtZW50IGFuZCBuZXR3
+b3JrL2NvbXB1dGUgc2VjdXJpdHksIHRhcmdldCBwcmVzdGlnaW91cyBqb3VybmFscyBmb3IgSFEg
+cHVibGljYXRpb25zLCBjb250cmlidXRlIHRvIHN5c3RlbSBkZXZlbG9wbWVudCBhbmQgbWFuYWdl
+IGFuIEludGVybmF0aW9uYWwgdGVzdGJlZCwgaG9zdGVkIGF0IFVuaXZlcnNpdHkgb2YgRXNzZXgu
+DQpUaGUgZGVhZGxpbmUgZm9yIGFwcGxpY2F0aW9ucyBpcyBXZWRuZXNkYXksIDIwdGggTWFyY2gg
+MjAxOSwgYW5kIGZ1cnRoZXIgZGV0YWlscyBvZiB0aGUgcG9zdCBjYW4gYmUgZm91bmQgaGVyZTog
+aHR0cHM6Ly92YWNhbmNpZXMuZXNzZXguYWMudWsvdGxpdmVfd2VicmVjcnVpdG1lbnQvd3JkL3J1
+bi9FVFJFQzEwN0dGLm9wZW4/VkFDQU5DWV9JRD01NTU2NzJKMjg1JldWSUQ9OTkxODEwOU5FbSZM
+QU5HPVVTQQ0KDQpDYW5kaWRhdGVzIHdpdGggc3Ryb25nIHJlc2VhcmNoIGV4cGVyaWVuY2UgYW5k
+IGdvb2QgaGFuZHMtb24gc2tpbGxzIChkZXZlbG9wbWVudCwgbmV0d29yayBtYW5hZ2VtZW50LC4u
+ZXRjKSBhcyB3ZWxsIGFzIGNvbW11bmljYXRpb24gc2tpbGxzIGFyZSBzdHJvbmdseSBlbmNvdXJh
+Z2VkIHRvIGFwcGx5LiBUaGUgU2FsYXJ5IGlzIMKjMzYsMjYxIHBlciBhbm51bS4NCg0KSSB3b3Vs
+ZCBiZSBtb3N0IGdyYXRlZnVsIGlmIHlvdSBjYW4gZGlzdHJpYnV0ZSB0aGlzIHRvIHBvdGVudGlh
+bGx5IGludGVyZXN0ZWQgY2FuZGlkYXRlcy4gQW55IGluZm9ybWFsIGVucXVpcmVzIGNhbiBiZSBk
+aXJlY3RlZCB0byBtZSwgRHIuIE1hcnRpbiBSZWVkIG9yIERyLiBOaWtvbGFvcyBUaG9tb3MgKGJv
+dGggQ2NlZCkuDQoNCg0KUmVnYXJkcywNCg0KTWF5cw0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KRHIuIE1heXMgQUwtTmFkYXkNCjFOVy40LjgNCkxl
+Y3R1cmVyDQpTY2hvb2wgb2YgQ29tcHV0ZXIgU2NpZW5jZSBhbmQgRWxlY3Ryb25pYyBFbmdpbmVl
+cmluZw0KVW5pdmVyc2l0eSBvZiBFc3NleCB8IFdpdmVuaG9lIFBhcmsgfCBDb2xjaGVzdGVyIHwg
+RXNzZXggfCBDTzQgM1NRDQpUZWw6ICs0NCAoMCkgMTIwNiA4NzI0MjANCkVtYWlsOiBtZmhhbG5A
+ZXNzZXguYWMudWs8bWFpbHRvOm1maGFsbkBlc3NleC5hYy51az4NCldlYjogaHR0cHM6Ly93d3cu
+ZXNzZXguYWMudWsvcGVvcGxlL2FsbmVkODE0MDUvbWF5cy1hbC1uYWRheQ0KDQo=
+
+--_000_A0618F1E51F144BC94A4CE90B99837D8essexacuk_
+Content-Type: text/html; charset="utf-8"
+Content-ID: <2A10791959D2E741AC7FD4FFD234414F@eurprd06.prod.outlook.com>
+Content-Transfer-Encoding: base64
+
+PGh0bWw+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0i
+dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjwvaGVhZD4NCjxib2R5IHN0eWxlPSJ3b3JkLXdy
+YXA6IGJyZWFrLXdvcmQ7IC13ZWJraXQtbmJzcC1tb2RlOiBzcGFjZTsgbGluZS1icmVhazogYWZ0
+ZXItd2hpdGUtc3BhY2U7IiBjbGFzcz0iIj4NCkRlYXIgYWxsLA0KPGRpdiBjbGFzcz0iIj48YnIg
+Y2xhc3M9IiI+DQo8L2Rpdj4NCjxkaXYgY2xhc3M9IiI+QXBwbGljYXRpb25zIGFyZSBpbnZpdGVk
+IGZvciBmdWxsLXRpbWUgU2VuaW9yIFJlc2VhcmNoIE9mZmljZXIgcG9zaXRpb24gKGZpeGVkLXRl
+cm0gdW50aWwgMzEgRGVjZW1iZXIgMjAyMCkgYXQgdGhlIFNjaG9vbCBvZiBDb21wdXRlciBTY2ll
+bmNlIGFuZCBFbGVjdHJvbmljIEVuZ2luZWVyaW5nLCBVbml2ZXJzaXR5IG9mIEVzc2V4LjwvZGl2
+Pg0KPGRpdiBjbGFzcz0iIj5UaGUgUG9zdCBpcyBmdW5kZWQgYnkgdGhlIEVVIEgyMDIwIHByb2pl
+Y3QgU2VySW9UIChTZWN1cmUgYW5kIFNhZmUgSW50ZXJuZXQgb2YgVGhpbmdzKSB0byB3b3JrIG9u
+IGRldmVsb3Bpbmcgbm92ZWwgRm9nL0VkZ2UgY29tcHV0aW5nIHNvbHV0aW9ucyB0byBlbmFibGUg
+c2VjdXJlIHByb2Nlc3NpbmcgYW5kIGNvbW11bmljYXRpb24gb2YgSW9UIGFwcGxpY2F0aW9ucy4m
+bmJzcDs8L2Rpdj4NCjxkaXYgY2xhc3M9IiI+VGhlIHBvc3QgKGluIGEgbnV0c2hlbGwpIGdpdmVz
+IG9wcG9ydHVuaXR5IHRvOiAmbmJzcDtjb25kdWN0IHJlc2VhcmNoIGluIHJlc291cmNlIG1hbmFn
+ZW1lbnQgYW5kIG5ldHdvcmsvY29tcHV0ZSBzZWN1cml0eSwgdGFyZ2V0IHByZXN0aWdpb3VzIGpv
+dXJuYWxzIGZvciBIUSBwdWJsaWNhdGlvbnMsIGNvbnRyaWJ1dGUgdG8gc3lzdGVtIGRldmVsb3Bt
+ZW50IGFuZCBtYW5hZ2UgYW4gSW50ZXJuYXRpb25hbCB0ZXN0YmVkLCBob3N0ZWQNCiBhdCBVbml2
+ZXJzaXR5IG9mIEVzc2V4LjwvZGl2Pg0KPGRpdiBjbGFzcz0iIj5UaGUgZGVhZGxpbmUgZm9yIGFw
+cGxpY2F0aW9ucyBpcyBXZWRuZXNkYXksIDIwdGggTWFyY2ggMjAxOSwgYW5kIGZ1cnRoZXIgZGV0
+YWlscyBvZiB0aGUgcG9zdCBjYW4gYmUgZm91bmQgaGVyZTombmJzcDs8YSBocmVmPSJodHRwczov
+L3ZhY2FuY2llcy5lc3NleC5hYy51ay90bGl2ZV93ZWJyZWNydWl0bWVudC93cmQvcnVuL0VUUkVD
+MTA3R0Yub3Blbj9WQUNBTkNZX0lEPTU1NTY3MkoyODUmYW1wO1dWSUQ9OTkxODEwOU5FbSZhbXA7
+TEFORz1VU0EiIGNsYXNzPSIiPmh0dHBzOi8vdmFjYW5jaWVzLmVzc2V4LmFjLnVrL3RsaXZlX3dl
+YnJlY3J1aXRtZW50L3dyZC9ydW4vRVRSRUMxMDdHRi5vcGVuP1ZBQ0FOQ1lfSUQ9NTU1NjcySjI4
+NSZhbXA7V1ZJRD05OTE4MTA5TkVtJmFtcDtMQU5HPVVTQTwvYT48L2Rpdj4NCjxkaXYgY2xhc3M9
+IiI+PGJyIGNsYXNzPSIiPg0KPC9kaXY+DQo8ZGl2IGNsYXNzPSIiPkNhbmRpZGF0ZXMgd2l0aCBz
+dHJvbmcgcmVzZWFyY2ggZXhwZXJpZW5jZSBhbmQgZ29vZCBoYW5kcy1vbiBza2lsbHMgKGRldmVs
+b3BtZW50LCBuZXR3b3JrIG1hbmFnZW1lbnQsLi5ldGMpIGFzIHdlbGwgYXMgY29tbXVuaWNhdGlv
+biBza2lsbHMgYXJlIHN0cm9uZ2x5IGVuY291cmFnZWQgdG8gYXBwbHkuIFRoZSBTYWxhcnkgaXMg
+wqMzNiwyNjEgcGVyIGFubnVtLiZuYnNwOzwvZGl2Pg0KPGRpdiBjbGFzcz0iIj48YnIgY2xhc3M9
+IiI+DQo8L2Rpdj4NCjxkaXYgY2xhc3M9IiI+SSB3b3VsZCBiZSBtb3N0IGdyYXRlZnVsIGlmIHlv
+dSBjYW4gZGlzdHJpYnV0ZSB0aGlzIHRvIHBvdGVudGlhbGx5IGludGVyZXN0ZWQgY2FuZGlkYXRl
+cy4gQW55IGluZm9ybWFsIGVucXVpcmVzIGNhbiBiZSBkaXJlY3RlZCB0byBtZSwgRHIuIE1hcnRp
+biBSZWVkIG9yIERyLiBOaWtvbGFvcyBUaG9tb3MgKGJvdGggQ2NlZCkuPC9kaXY+DQo8ZGl2IGNs
+YXNzPSIiPjxiciBjbGFzcz0iIj4NCjwvZGl2Pg0KPGRpdiBjbGFzcz0iIj48YnIgY2xhc3M9IiI+
+DQo8L2Rpdj4NCjxkaXYgY2xhc3M9IiI+DQo8ZGl2IHN0eWxlPSJjYXJldC1jb2xvcjogcmdiKDAs
+IDAsIDApOyBjb2xvcjogcmdiKDAsIDAsIDApOyBmb250LWZhbWlseTogSGVsdmV0aWNhOyBmb250
+LXNpemU6IDEycHg7IGZvbnQtc3R5bGU6IG5vcm1hbDsgZm9udC12YXJpYW50LWNhcHM6IG5vcm1h
+bDsgZm9udC13ZWlnaHQ6IG5vcm1hbDsgbGV0dGVyLXNwYWNpbmc6IG5vcm1hbDsgb3JwaGFuczog
+YXV0bzsgdGV4dC1hbGlnbjogc3RhcnQ7IHRleHQtaW5kZW50OiAwcHg7IHRleHQtdHJhbnNmb3Jt
+OiBub25lOyB3aGl0ZS1zcGFjZTogbm9ybWFsOyB3aWRvd3M6IGF1dG87IHdvcmQtc3BhY2luZzog
+MHB4OyAtd2Via2l0LXRleHQtc2l6ZS1hZGp1c3Q6IGF1dG87IC13ZWJraXQtdGV4dC1zdHJva2Ut
+d2lkdGg6IDBweDsgdGV4dC1kZWNvcmF0aW9uOiBub25lOyI+DQpSZWdhcmRzLDxiciBjbGFzcz0i
+Ij4NCjxiciBjbGFzcz0iIj4NCk1heXM8YnIgY2xhc3M9IiI+DQotLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tPGJyIGNsYXNzPSIiPg0KRHIuIE1heXMgQUwt
+TmFkYXk8YnIgY2xhc3M9IiI+DQoxTlcuNC44PGJyIGNsYXNzPSIiPg0KTGVjdHVyZXI8YnIgY2xh
+c3M9IiI+DQpTY2hvb2wgb2YgQ29tcHV0ZXIgU2NpZW5jZSBhbmQmbmJzcDtFbGVjdHJvbmljIEVu
+Z2luZWVyaW5nPGJyIGNsYXNzPSIiPg0KVW5pdmVyc2l0eSBvZiBFc3NleCB8IFdpdmVuaG9lIFBh
+cmsgfCZuYnNwO0NvbGNoZXN0ZXIgfCBFc3NleCB8IENPNCAzU1E8YnIgY2xhc3M9IiI+DQpUZWw6
+ICYjNDM7NDQgKDApIDEyMDYgODcyNDIwPGJyIGNsYXNzPSIiPg0KPGEgaHJlZj0ibWFpbHRvOm1m
+aGFsbkBlc3NleC5hYy51ayIgY2xhc3M9IiI+RW1haWw6IG1maGFsbkBlc3NleC5hYy51azwvYT48
+YnIgY2xhc3M9IiI+DQpXZWI6Jm5ic3A7aHR0cHM6Ly93d3cuZXNzZXguYWMudWsvcGVvcGxlL2Fs
+bmVkODE0MDUvbWF5cy1hbC1uYWRheSZuYnNwOzwvZGl2Pg0KPC9kaXY+DQo8YnIgY2xhc3M9IiI+
+DQo8L2JvZHk+DQo8L2h0bWw+DQo=
+
+--_000_A0618F1E51F144BC94A4CE90B99837D8essexacuk_--
+

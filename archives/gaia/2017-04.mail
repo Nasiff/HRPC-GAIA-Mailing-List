@@ -1,0 +1,1291 @@
+
+From nobody Tue Apr  4 06:25:11 2017
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 89259127599 for <gaia@ietfa.amsl.com>; Tue,  4 Apr 2017 06:25:07 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.7
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.7 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FREEMAIL_FORGED_FROMDOMAIN=0.197, FREEMAIL_FROM=0.001, HEADER_FROM_DIFFERENT_DOMAINS=0.001, LOTS_OF_MONEY=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=no autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id ySa11R_WA4Y1 for <gaia@ietfa.amsl.com>; Tue,  4 Apr 2017 06:25:05 -0700 (PDT)
+Received: from mail-wr0-x233.google.com (mail-wr0-x233.google.com [IPv6:2a00:1450:400c:c0c::233]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 425FD1296A3 for <gaia@irtf.org>; Tue,  4 Apr 2017 06:25:03 -0700 (PDT)
+Received: by mail-wr0-x233.google.com with SMTP id t20so10702349wra.1 for <gaia@irtf.org>; Tue, 04 Apr 2017 06:25:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20161025;  h=mime-version:sender:from:date:message-id:subject:to :content-transfer-encoding; bh=YUETxumxnfjCDioJzIBlGGgwPujwwYW1cptr+OV7QJY=; b=d7xMs2tLTUQGQZh8KTndpv8U5dMx5zWoTwswSmkoLr5HoFatXr7NYugzJSBXofI1Hc FxPcdkwbpWLvhiEu36e9XOh9AbpavWTTTU1qWrboAea7ipzkPy9B8mrHJDtdE0khxCSt HN3Od7jleEqJeKMwkIJFRMF/qLAsSjblVHUrpCGZrxlLJQigFjLo/KfWX3R0dftj4QY+ hvqO+ncaqOf2BfV/yvGWxiapAw72+o1o5sNsZ4o58GKAWf7UzmL5+YahP+v89D1dHWoX eZoskwIRnInBbNCBe+s4OAncD5ZASLh0tOkUzRNXIcUTOps8K7CZ/vNpAI1tRqKagYs/ WEYg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:sender:from:date:message-id:subject :to:content-transfer-encoding; bh=YUETxumxnfjCDioJzIBlGGgwPujwwYW1cptr+OV7QJY=; b=eSc5xFMz4Fb2HCq549y5tZ1m1QVkH6ITcEtpKncuRBJ/hjS1OWWJ6nBXkai9jYXGZH rvbfck4IFGRFZ5uUVVipbX4mMUHerFccohxl1LSOyBXMc8yX9qsf4JLuRLbLA3rikQVB 93udfCaHGV4pWhK7joVEtxdNfQK+4Zj9KIKhIYihqSBs1YGAXFrl43Zj7iHYrVTCVRH8 VmPhE4m0fR0GYkt2aa6bH2QAE0FStuSnXxck3985WJ7t9PlZKIVjsoOKSHD/Ej3JNhjU 23kc213NMbhZTKnzr8ew6MDQmiyFPefrABgX+BSNxzTprw+qnIuZpys22BVlVji3NuBv cBVg==
+X-Gm-Message-State: AFeK/H1KVuq9X6qzpoGicRR67A93lbb8+24nLvIos4uotyKNTX8iwPBzE8iXkBZ3zQVofV0tOipUE75yMRAtRg==
+X-Received: by 10.28.214.146 with SMTP id n140mr14718732wmg.58.1491312301478;  Tue, 04 Apr 2017 06:25:01 -0700 (PDT)
+MIME-Version: 1.0
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.223.173.22 with HTTP; Tue, 4 Apr 2017 06:25:00 -0700 (PDT)
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+Date: Tue, 4 Apr 2017 14:25:00 +0100
+X-Google-Sender-Auth: -By7aw66AwLWB4NkeIm93FrUFe4
+Message-ID: <CAPaG1Am1tgpSxsVQb9PKS19R2F_eUqOutMpkr5NOTK2b3Dfz9g@mail.gmail.com>
+To: gaia <gaia@irtf.org>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/YnIKFuxG8WnSDFXOAbrjY9uGLXk>
+Subject: [gaia] GAIA related vacancy
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 04 Apr 2017 13:25:08 -0000
+
+All,
+  we have a full time vacancy for a RA with some solid systems skills
+(international candidates welcome) at
+Cambridge:http://www.jobs.cam.ac.uk/job/13383/
+
+If anyone is looking for a short term contract and if you are
+interested, please do send me an email..
+
+regards
+
+
+
+________________________________
+
+Research Assistant =C2=A325,298 - =C2=A329,301 or Research Associate =C2=A3=
+29,301 - =C2=A338,183
+
+Fixed-term: The funds for this post are available until 31 January 2018.
+
+A full time Research Assistant/Research Associate position is
+available in the Computer Laboratory at the University of Cambridge to
+work on the EU H2020 RIFE (aRchitecture for an Internet For Everybody)
+project. The project will explore the fundamental challenges of
+enabling universal Internet access and specifically explore innovative
+solutions using Information Centric Networking to address mobility as
+well reducing cost of Internet access.
+
+Responsibilities include, but are not limited to, system architecture
+design and implementation, performance evaluation,
+paper/proposal/document/report writing, and presentation of research
+findings.
+
+The successful candidate must have:
+
+A first degree in the areas of Computer Science, Engineering or a
+related discipline. A PhD (or close to submitting their thesis)
+relevant to the research area or equivalent qualifications is
+desirable but not essential.
+
+Demonstrated research competence through high-quality and high-impact
+publications in top conferences and journals is desirable.
+
+The candidates should demonstrate strong systems skills in one or more
+of the following: Linux kernel programming, Click Modular Router
+platform, ns-3. Prior experience building testbeds and/or real-world
+deployments are considered a major plus.
+
+Excellent understanding of networked systems especially in the area of
+Quality of Service, Radio Resource Management are considered
+essential.
+
+This position can be filled by an appropriate candidate at research
+assistant or research associate level, depending on relevant
+qualifications and experience. Appointment at research associate level
+is dependent on having a PhD (or equivalent experience). Where a PhD
+has yet to be awarded appointment will initially be made as a research
+assistant and amended to research associate when the PhD is awarded.
+
+The expected start date will be June 2017.
+
+Interested applicants are encouraged to make informal enquiries about
+the post to Arjuna Sathiaseelan: arjuna.sathiaseelan@cl.cam.ac.uk
+
+
+
+--=20
+Arjuna Sathiaseelan
+Personal: http://www.cl.cam.ac.uk/~as2330/
+N4D Lab: http://www.cl.cam.ac.uk/~as2330/n4d
+
+
+From nobody Fri Apr  7 05:33:45 2017
+Return-Path: <coffin@isoc.org>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 9A779127977 for <gaia@ietfa.amsl.com>; Fri,  7 Apr 2017 05:33:43 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.92
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.92 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, LOTS_OF_MONEY=0.001, RCVD_IN_DNSWL_NONE=-0.0001, RCVD_IN_MSPIKE_H3=-0.01, RCVD_IN_MSPIKE_WL=-0.01, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=isoc.onmicrosoft.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id oRMhV96MX5EN for <gaia@ietfa.amsl.com>; Fri,  7 Apr 2017 05:33:41 -0700 (PDT)
+Received: from NAM01-BY2-obe.outbound.protection.outlook.com (mail-by2nam01on0042.outbound.protection.outlook.com [104.47.34.42]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 2E1D0128D44 for <gaia@irtf.org>; Fri,  7 Apr 2017 05:33:41 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=isoc.onmicrosoft.com;  s=selector1-isoc-org; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version; bh=JA3DkSEe88WF9CFDVT4y+X5GcaddMnYTAj1DB+z9w8U=; b=mcPDNONJmX3GtJ9T8oaBAKCmxjV31nZAMdVEE05ocFSHc5BpM27qgy4L2Tdav2zBxXf83iwBBWWbhvpWCZtyqWwCQqbJd4deGvXFa7NrayLJjip7Gp31KMNrM7Ebkg+RQo2vovwNfWPBc4oSRMb2dwd3HXxNGbmTq6v1TVdoDmI=
+Received: from BY1PR0601MB1434.namprd06.prod.outlook.com (10.162.111.21) by BY1PR0601MB1434.namprd06.prod.outlook.com (10.162.111.21) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1005.10; Fri, 7 Apr 2017 12:33:39 +0000
+Received: from BY1PR0601MB1434.namprd06.prod.outlook.com ([10.162.111.21]) by BY1PR0601MB1434.namprd06.prod.outlook.com ([10.162.111.21]) with mapi id 15.01.1005.022; Fri, 7 Apr 2017 12:33:39 +0000
+From: Jane Coffin <coffin@isoc.org>
+To: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>, gaia <gaia@irtf.org>
+Thread-Topic: Second Community Network Summit - Africa - May
+Thread-Index: AQHSr5svJwQ2KN2pjE+tGx2LmNinCg==
+Date: Fri, 7 Apr 2017 12:33:39 +0000
+Message-ID: <6D07D995-3EDE-47AB-8EEF-9E75FE4923D8@isoc.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+user-agent: Microsoft-MacOutlook/f.20.0.170309
+authentication-results: cl.cam.ac.uk; dkim=none (message not signed) header.d=none;cl.cam.ac.uk; dmarc=none action=none header.from=isoc.org;
+x-ms-exchange-messagesentrepresentingtype: 1
+x-originating-ip: [2001:4870:400e:404:2830:ca58:611e:1001]
+x-microsoft-exchange-diagnostics: 1; BY1PR0601MB1434; 7:dIug17u2ug7Qd8ohATkc1Ob2BswQPGQ8lh/ycTyjM/typ2RgJ944HwnxY6nkdOvzivtS5c2ykTfT9/y1KNRK8s+11kUyrvbsSU+AgsMqLZOAvzvI+Ar2jAi2ZuXkH10aC7NhHxiWqzRIF7+TJSRQDRJSMOTzLyZx02Bitzsy3tMtGijhUEGBRHUY1a6cGcg3fINvLxpaBRUVvrO1QQhXuuTSFKYJexSzc68C6XkZkL+5II76l30zGADXe3HOOTxuMQorq2sZS5F1+lGw/DwXd4SsYfAFAmthtKixagjaHJNFCfDscyzvvmaPg5Z1nMBfc6KhCD3++g8/EjGD7jYzWg==
+x-ms-office365-filtering-correlation-id: 5c5203d0-48a2-4ebf-9a09-08d47db251f4
+x-microsoft-antispam: UriScan:; BCL:0; PCL:0; RULEID:(22001)(2017030254075)(201703131423075)(201703031133081)(201702281549075); SRVR:BY1PR0601MB1434; 
+x-microsoft-antispam-prvs: <BY1PR0601MB1434E2A5855E825456D2A8FEB30C0@BY1PR0601MB1434.namprd06.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0; PCL:0; RULEID:(6040450)(601004)(2401047)(8121501046)(5005006)(93006095)(93001095)(10201501046)(3002001)(6041248)(20161123560025)(20161123555025)(20161123564025)(201703131423075)(201702281528075)(201703061421075)(20161123562025)(6072148); SRVR:BY1PR0601MB1434; BCL:0; PCL:0; RULEID:; SRVR:BY1PR0601MB1434; 
+x-forefront-prvs: 0270ED2845
+x-forefront-antispam-report: SFV:NSPM; SFS:(10009020)(6009001)(39450400003)(39830400002)(39410400002)(39400400002)(24454002)(53754006)(377454003)(2906002)(99286003)(6512007)(3660700001)(6306002)(3280700002)(33656002)(77096006)(54356999)(6436002)(6506006)(86362001)(6486002)(15974865002)(50986999)(36756003)(122556002)(53936002)(966004)(38730400002)(83506001)(6116002)(102836003)(305945005)(82746002)(7736002)(4001350100001)(83716003)(189998001)(8936002)(81166006)(8676002)(53546009)(5660300001)(25786009)(561944003)(2900100001); DIR:OUT; SFP:1101; SCL:1; SRVR:BY1PR0601MB1434; H:BY1PR0601MB1434.namprd06.prod.outlook.com; FPR:; SPF:None; MLV:sfv; LANG:en; 
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <808B15AD19C5474FA83D3DB6CEF08727@namprd06.prod.outlook.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+X-OriginatorOrg: isoc.org
+X-MS-Exchange-CrossTenant-originalarrivaltime: 07 Apr 2017 12:33:39.6986 (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 89f84dfb-7285-4810-bc4d-8b9b5794554f
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY1PR0601MB1434
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/kj8jMbuELDU8G-bZRTanV4VCkZQ>
+Subject: [gaia] Second Community Network Summit - Africa - May
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 07 Apr 2017 12:33:44 -0000
+
+SGkgQWxsLA0KDQpTZWUgdGhlIG5vdGUgYmVsb3cgZnJvbSBteSBjb2xsZWFndWUgTWljaHVraSBN
+d2FuZ2khDQoNClRoZSBSZWdpc3RyYXRpb24gZm9yIHRoZSAybmQgU3VtbWl0IG9uIENvbW11bml0
+eSBOZXR3b3JrcyBpbiBBZnJpY2EgaXMgbm93IG9wZW4uDQoNCllvdSBjYW4gdmlzaXQgdGhlIHNh
+bWUgbGluayBiZWxvdyBvciBmb3IgYSBtb3JlIGRpcmVjdCBwYXRoIC0gaHR0cHM6Ly93d3cuaW50
+ZXJuZXRzb2NpZXR5Lm9yZy9mb3JtL2NvbW11bml0eS1uZXR3b3JrIA0KDQpLaW5kbHkgc2hhcmUg
+d2l0aCB0aGUgcmVsZXZhbnQgbmV0d29ya3MvY29tbXVuaXRpZXMuDQoNClRoYW5rcyBhbmQgcmVn
+YXJkcywNCg0KTWljaHVraS4NCg0KIA0KSW50ZXJuZXQgU29jaWV0eSB8IHd3dy5pbnRlcm5ldHNv
+Y2lldHkub3JnDQoNClNreXBlOiAgamFuZXJjb2ZmaW4NCg0KTW9iaWxlL1doYXRzQXBwOiAgKzEu
+MjAyLjI0Ny44NDI5DQoNCk9uIDQvNC8xNywgOToyNSBBTSwgImdhaWEgb24gYmVoYWxmIG9mIEFy
+anVuYSBTYXRoaWFzZWVsYW4iIDxnYWlhLWJvdW5jZXNAaXJ0Zi5vcmcgb24gYmVoYWxmIG9mIGFy
+anVuYS5zYXRoaWFzZWVsYW5AY2wuY2FtLmFjLnVrPiB3cm90ZToNCg0KICAgIEFsbCwNCiAgICAg
+IHdlIGhhdmUgYSBmdWxsIHRpbWUgdmFjYW5jeSBmb3IgYSBSQSB3aXRoIHNvbWUgc29saWQgc3lz
+dGVtcyBza2lsbHMNCiAgICAoaW50ZXJuYXRpb25hbCBjYW5kaWRhdGVzIHdlbGNvbWUpIGF0DQog
+ICAgQ2FtYnJpZGdlOmh0dHA6Ly93d3cuam9icy5jYW0uYWMudWsvam9iLzEzMzgzLw0KICAgIA0K
+ICAgIElmIGFueW9uZSBpcyBsb29raW5nIGZvciBhIHNob3J0IHRlcm0gY29udHJhY3QgYW5kIGlm
+IHlvdSBhcmUNCiAgICBpbnRlcmVzdGVkLCBwbGVhc2UgZG8gc2VuZCBtZSBhbiBlbWFpbC4uDQog
+ICAgDQogICAgcmVnYXJkcw0KICAgIA0KICAgIA0KICAgIA0KICAgIF9fX19fX19fX19fX19fX19f
+X19fX19fX19fX19fX19fDQogICAgDQogICAgUmVzZWFyY2ggQXNzaXN0YW50IMKjMjUsMjk4IC0g
+wqMyOSwzMDEgb3IgUmVzZWFyY2ggQXNzb2NpYXRlIMKjMjksMzAxIC0gwqMzOCwxODMNCiAgICAN
+CiAgICBGaXhlZC10ZXJtOiBUaGUgZnVuZHMgZm9yIHRoaXMgcG9zdCBhcmUgYXZhaWxhYmxlIHVu
+dGlsIDMxIEphbnVhcnkgMjAxOC4NCiAgICANCiAgICBBIGZ1bGwgdGltZSBSZXNlYXJjaCBBc3Np
+c3RhbnQvUmVzZWFyY2ggQXNzb2NpYXRlIHBvc2l0aW9uIGlzDQogICAgYXZhaWxhYmxlIGluIHRo
+ZSBDb21wdXRlciBMYWJvcmF0b3J5IGF0IHRoZSBVbml2ZXJzaXR5IG9mIENhbWJyaWRnZSB0bw0K
+ICAgIHdvcmsgb24gdGhlIEVVIEgyMDIwIFJJRkUgKGFSY2hpdGVjdHVyZSBmb3IgYW4gSW50ZXJu
+ZXQgRm9yIEV2ZXJ5Ym9keSkNCiAgICBwcm9qZWN0LiBUaGUgcHJvamVjdCB3aWxsIGV4cGxvcmUg
+dGhlIGZ1bmRhbWVudGFsIGNoYWxsZW5nZXMgb2YNCiAgICBlbmFibGluZyB1bml2ZXJzYWwgSW50
+ZXJuZXQgYWNjZXNzIGFuZCBzcGVjaWZpY2FsbHkgZXhwbG9yZSBpbm5vdmF0aXZlDQogICAgc29s
+dXRpb25zIHVzaW5nIEluZm9ybWF0aW9uIENlbnRyaWMgTmV0d29ya2luZyB0byBhZGRyZXNzIG1v
+YmlsaXR5IGFzDQogICAgd2VsbCByZWR1Y2luZyBjb3N0IG9mIEludGVybmV0IGFjY2Vzcy4NCiAg
+ICANCiAgICBSZXNwb25zaWJpbGl0aWVzIGluY2x1ZGUsIGJ1dCBhcmUgbm90IGxpbWl0ZWQgdG8s
+IHN5c3RlbSBhcmNoaXRlY3R1cmUNCiAgICBkZXNpZ24gYW5kIGltcGxlbWVudGF0aW9uLCBwZXJm
+b3JtYW5jZSBldmFsdWF0aW9uLA0KICAgIHBhcGVyL3Byb3Bvc2FsL2RvY3VtZW50L3JlcG9ydCB3
+cml0aW5nLCBhbmQgcHJlc2VudGF0aW9uIG9mIHJlc2VhcmNoDQogICAgZmluZGluZ3MuDQogICAg
+DQogICAgVGhlIHN1Y2Nlc3NmdWwgY2FuZGlkYXRlIG11c3QgaGF2ZToNCiAgICANCiAgICBBIGZp
+cnN0IGRlZ3JlZSBpbiB0aGUgYXJlYXMgb2YgQ29tcHV0ZXIgU2NpZW5jZSwgRW5naW5lZXJpbmcg
+b3IgYQ0KICAgIHJlbGF0ZWQgZGlzY2lwbGluZS4gQSBQaEQgKG9yIGNsb3NlIHRvIHN1Ym1pdHRp
+bmcgdGhlaXIgdGhlc2lzKQ0KICAgIHJlbGV2YW50IHRvIHRoZSByZXNlYXJjaCBhcmVhIG9yIGVx
+dWl2YWxlbnQgcXVhbGlmaWNhdGlvbnMgaXMNCiAgICBkZXNpcmFibGUgYnV0IG5vdCBlc3NlbnRp
+YWwuDQogICAgDQogICAgRGVtb25zdHJhdGVkIHJlc2VhcmNoIGNvbXBldGVuY2UgdGhyb3VnaCBo
+aWdoLXF1YWxpdHkgYW5kIGhpZ2gtaW1wYWN0DQogICAgcHVibGljYXRpb25zIGluIHRvcCBjb25m
+ZXJlbmNlcyBhbmQgam91cm5hbHMgaXMgZGVzaXJhYmxlLg0KICAgIA0KICAgIFRoZSBjYW5kaWRh
+dGVzIHNob3VsZCBkZW1vbnN0cmF0ZSBzdHJvbmcgc3lzdGVtcyBza2lsbHMgaW4gb25lIG9yIG1v
+cmUNCiAgICBvZiB0aGUgZm9sbG93aW5nOiBMaW51eCBrZXJuZWwgcHJvZ3JhbW1pbmcsIENsaWNr
+IE1vZHVsYXIgUm91dGVyDQogICAgcGxhdGZvcm0sIG5zLTMuIFByaW9yIGV4cGVyaWVuY2UgYnVp
+bGRpbmcgdGVzdGJlZHMgYW5kL29yIHJlYWwtd29ybGQNCiAgICBkZXBsb3ltZW50cyBhcmUgY29u
+c2lkZXJlZCBhIG1ham9yIHBsdXMuDQogICAgDQogICAgRXhjZWxsZW50IHVuZGVyc3RhbmRpbmcg
+b2YgbmV0d29ya2VkIHN5c3RlbXMgZXNwZWNpYWxseSBpbiB0aGUgYXJlYSBvZg0KICAgIFF1YWxp
+dHkgb2YgU2VydmljZSwgUmFkaW8gUmVzb3VyY2UgTWFuYWdlbWVudCBhcmUgY29uc2lkZXJlZA0K
+ICAgIGVzc2VudGlhbC4NCiAgICANCiAgICBUaGlzIHBvc2l0aW9uIGNhbiBiZSBmaWxsZWQgYnkg
+YW4gYXBwcm9wcmlhdGUgY2FuZGlkYXRlIGF0IHJlc2VhcmNoDQogICAgYXNzaXN0YW50IG9yIHJl
+c2VhcmNoIGFzc29jaWF0ZSBsZXZlbCwgZGVwZW5kaW5nIG9uIHJlbGV2YW50DQogICAgcXVhbGlm
+aWNhdGlvbnMgYW5kIGV4cGVyaWVuY2UuIEFwcG9pbnRtZW50IGF0IHJlc2VhcmNoIGFzc29jaWF0
+ZSBsZXZlbA0KICAgIGlzIGRlcGVuZGVudCBvbiBoYXZpbmcgYSBQaEQgKG9yIGVxdWl2YWxlbnQg
+ZXhwZXJpZW5jZSkuIFdoZXJlIGEgUGhEDQogICAgaGFzIHlldCB0byBiZSBhd2FyZGVkIGFwcG9p
+bnRtZW50IHdpbGwgaW5pdGlhbGx5IGJlIG1hZGUgYXMgYSByZXNlYXJjaA0KICAgIGFzc2lzdGFu
+dCBhbmQgYW1lbmRlZCB0byByZXNlYXJjaCBhc3NvY2lhdGUgd2hlbiB0aGUgUGhEIGlzIGF3YXJk
+ZWQuDQogICAgDQogICAgVGhlIGV4cGVjdGVkIHN0YXJ0IGRhdGUgd2lsbCBiZSBKdW5lIDIwMTcu
+DQogICAgDQogICAgSW50ZXJlc3RlZCBhcHBsaWNhbnRzIGFyZSBlbmNvdXJhZ2VkIHRvIG1ha2Ug
+aW5mb3JtYWwgZW5xdWlyaWVzIGFib3V0DQogICAgdGhlIHBvc3QgdG8gQXJqdW5hIFNhdGhpYXNl
+ZWxhbjogYXJqdW5hLnNhdGhpYXNlZWxhbkBjbC5jYW0uYWMudWsNCiAgICANCiAgICANCiAgICAN
+CiAgICAtLSANCiAgICBBcmp1bmEgU2F0aGlhc2VlbGFuDQogICAgUGVyc29uYWw6IGh0dHA6Ly93
+d3cuY2wuY2FtLmFjLnVrL35hczIzMzAvDQogICAgTjREIExhYjogaHR0cDovL3d3dy5jbC5jYW0u
+YWMudWsvfmFzMjMzMC9uNGQNCiAgICANCiAgICBfX19fX19fX19fX19fX19fX19fX19fX19fX19f
+X19fX19fX19fX19fX19fX19fXw0KICAgIGdhaWEgbWFpbGluZyBsaXN0DQogICAgZ2FpYUBpcnRm
+Lm9yZw0KICAgIGh0dHBzOi8vd3d3LmlydGYub3JnL21haWxtYW4vbGlzdGluZm8vZ2FpYQ0KICAg
+IA0KDQo=
+
+
+From nobody Sun Apr  9 12:07:14 2017
+Return-Path: <carlos.reymoreno@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id A4141128D8B for <gaia@ietfa.amsl.com>; Sun,  9 Apr 2017 03:04:39 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.688
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.688 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-0.7, SPF_PASS=-0.001, T_REMOTE_IMAGE=0.01, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id C0JqetF4UsKe for <gaia@ietfa.amsl.com>; Sun,  9 Apr 2017 03:04:36 -0700 (PDT)
+Received: from mail-qk0-x22b.google.com (mail-qk0-x22b.google.com [IPv6:2607:f8b0:400d:c09::22b]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id A7FE61288B8 for <gaia@irtf.org>; Sun,  9 Apr 2017 03:04:35 -0700 (PDT)
+Received: by mail-qk0-x22b.google.com with SMTP id h67so90432401qke.0 for <gaia@irtf.org>; Sun, 09 Apr 2017 03:04:35 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20161025;  h=mime-version:in-reply-to:references:from:date:message-id:subject:to;  bh=J9SubPkQNCVAskKkw+jrjtVYzXhsLs4upkblKJnRDuw=; b=JrwX6cUX0NUgmueufxlftYc1BROIC2ySXg8HdNGnGVbcyLxov4Wwl82YvY9GJBArYI vbb9EBwxWWpl/gTNO6jAzticicrF9Z/IBAU+DuNwyJlSp4As0M4qY+jJXXrNnf5usXPH LMWmGhUNlaa+zf69MmHe0K76mCyDjjCOoa+eFLPQ4T11OHMrAOXdqzifWOQZeXeeKQxh MlOnnpydOu1Yxi4i3LdP4w6wVlEHrNRw87gkOZ7Wkk7gaN0ofcMqujWR/wtWvb1E8lwM JhvJjXNVRrxehYvWNxssF6gTXdY6OkAtUay1bunO3HA7+RcmQ9dSD6C/DTVEBD3lVD2l X+HQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:in-reply-to:references:from:date :message-id:subject:to; bh=J9SubPkQNCVAskKkw+jrjtVYzXhsLs4upkblKJnRDuw=; b=YK5mUsHQj6YK6wszpOh6GR2Oqd4Ux549S3wFEOi9uG9hTZvvahj2IHchCPuDMIALRp VXsw2vbU27R4qln7MSyQMgFSBrrNRf+lgkhHZdLilVeffJsz2ZcF+WuiNdYU5erzcX88 anOsTMhkuh+JKQj2Bte37aJ2sQ9SRkKTwOjtcakAUJGIY1P4LCRr7DROafUMh6tFVrbW NxTDcJT2ulYFV+gRoO7bvbXN99Jv7PH2rpMaSMfPLja8eqWBhbz7co3zeXN79DQRVwFk PDJzy1sJsLs2/PJ8VMhap0RJ5B4q++1OKifB2jHcgAXAVGTqvjwRX699dfavDHhK7Ht0 nPnA==
+X-Gm-Message-State: AFeK/H2FlAZS9UYmzQKqcvC6nqva/rg3YuI7YL9oe8Dxfb8FjrrydXia79szVTPzFtCOsi6vREKRsLRBDfxNKA==
+X-Received: by 10.55.158.132 with SMTP id h126mr32887499qke.173.1491732274474;  Sun, 09 Apr 2017 03:04:34 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.12.153.125 with HTTP; Sun, 9 Apr 2017 03:04:33 -0700 (PDT)
+In-Reply-To: <CAAad6KcQPenx+MmXx+9kL=rhqinnVc+FLHV9WRJUY9gzRnF9Pw@mail.gmail.com>
+References: <CAAad6KcQPenx+MmXx+9kL=rhqinnVc+FLHV9WRJUY9gzRnF9Pw@mail.gmail.com>
+From: Carlos Rey-Moreno <carlos.reymoreno@gmail.com>
+Date: Sun, 9 Apr 2017 12:04:33 +0200
+Message-ID: <CAPkwMUc9TVNo3nZYL93wOHtDf=aSiM_fr15_+us3=JibVvO5mA@mail.gmail.com>
+To: gaia <gaia@irtf.org>
+Content-Type: multipart/alternative; boundary=94eb2c074f4e51f6ef054cb8fc59
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/K7uBIZ2gokFqBiBKpUlu6yq27xM>
+X-Mailman-Approved-At: Sun, 09 Apr 2017 12:07:03 -0700
+Subject: [gaia] Fwd: [TIER] Call for Participation: Strategic Narratives of Technology and Africa
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Sun, 09 Apr 2017 10:04:39 -0000
+
+--94eb2c074f4e51f6ef054cb8fc59
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+(apologies for cross-posting)
+
+Hi all, I think this conference can be of interest of people in this list.
+
+regards,
+
+carlos
+
+
+---------- Forwarded message ----------
+From: Chris Csikszentmihalyi <robotic@gmail.com>
+Date: 7 April 2017 at 13:58
+Subject: [TIER] Call for Participation: Strategic Narratives of Technology
+and Africa
+To:
+
+
+STRATEGIC NARRATIVES OF TECHNOLOGY AND AFRICA
+SEPTEMBER 1, 2017 =E2=80=93 SEPTEMBER 2, 2017
+Abstract Due Date: May 1, 2017
+[http://snta.m-iti.org]
+
+Overview
+
+In 1884, a group of thirteen European policymakers met to negotiate
+standards for the "effective occupation" of Africa. At the time of this
+now-infamous Berlin Conference, about 10 percent of Africa was under
+European control. By 1914 Europe "controlled" 90 percent of the continent.
+
+In 1987, a little over one hundred years after Berlin, a group of
+technologists from fifteen European countries met on the island of Madeira,
+and in a highly fractious and politicized meeting set standards to divide
+time and radio spectrum, narrowly agreeing on the technical specification
+of the GSM mobile telephone system. At the time less than 1 percent of
+Africa was covered by phones. By 2014 mobile "penetration" in sub-Saharan
+Africa was around 80 percent.
+
+Africa was never mentioned in the Madeira meeting. Indeed the UK
+representative described the spread of GSM to people globally, including
+those who "live in the poorest countries on the planet," as an "unintended
+consequence." Yet, mobiles have been described as =E2=80=9Cthe new talking =
+drums=E2=80=9D
+(de Bruijn), and a =E2=80=9Ccommunication lifeline=E2=80=9D (Pew Research C=
+enter) that will
+=E2=80=9Cpave way for huge opportunities=E2=80=9D (Financial Times).
+
+Phones have swept through the African continent in the last decade,
+followed by WhatsApp, fiber, and mobile payment systems. As recently as
+2000 Manuel Castells could call Africa "the black hole of the information
+society," but now the World Bank speaks of the "African digital
+renaissance," citing a proliferation of tech hubs and locally produced
+apps. The "Africa Rising" narrative focuses on the peaks of a complex
+terrain with many remarkable innovations and translations, while at the
+same time access is almost wholly owned by Mark Zuckerberg and a handful of
+telcos. In the valleys one government falsely tells its activist citizens
+that it has cracked WhatsApp=E2=80=99s encryption, while another restricts =
+the use
+of Skype, and around the continent mobile operators extract the most rent
+possible from their poorest customers, creating new forms of poverty.
+International funders preach development through entrepreneurship, teach
+tech innovation based on Silicon Valley models, and support mobile
+application development for "strengthening social inclusion." Inclusion,
+though, also means imbrication into a global financial information system
+that is better known for its shocks than its comforts, with new forms of
+micro-lending and mobile cash allowing neoliberal financialization of those
+at the "bottom of the pyramid" and in the most rural areas.
+The Conference
+
+The conference brings scholars, technologists, and cultural producers
+together on the island of Madeira: a European territory off the coast of
+Africa, a historical site of mutual entanglement between the Atlantic
+continents, and a point of departure for European expansion. Here we=E2=80=
+=99ll
+strategize ways to revisit, reframe, and recode the future of technology on
+and for both continents. What can African theorists, technologists, and
+cultural producers do to generate alternatives to the influx of neocolonial
+narratives of tech entrepreneurship? Taking as a given that Africa is =E2=
+=80=9Ca
+variegated site of innovation=E2=80=9D (Mavhunga), what are key epistemolog=
+ies and
+ways of being which are endemic in Africa that should be offered to the
+world through new systems and processes? Technology is politics by other
+means (Latour), even if its agency is generally dissimulated. How, then,
+might we consider anew progressive social and political goals and their
+conjoining with cultures of technical creativity already embedded in
+Africa's diverse contexts of life? How might new strategic narratives
+nurture and promote a vision of the continent as a crucible for radical new
+socio-technical paradigms? How can an African information economy avoid the
+dynamics of the resource curse, where connectivity is extractive and
+exercised upon African citizens rather than by and through them? What can
+Western technologists do differently, and what are the spaces for
+collaboration? This conference aims to reinvestigate these relationships
+and engender dialog between African and Western audiences and participants,
+who should leave Madeira equipped with new strategies and new collaborative
+partnerships.
+
+We are accepting papers, creative works, and technologies that explore or
+demonstrate alternative socio-technical strategies. Contributions should be
+grounded in analysis and move toward synthesis: We hope to paint the =E2=80=
+=9Cart
+of the [radical] possible=E2=80=9D and generate new threads and pathways fo=
+r the
+development of fresh technologies. We hope that this focus on the possible
+near future will differentiate this event from many of the generative but
+phantasmal Afro-futurist speculations and conferences. Creative works and
+technologies eligible for consideration may include, but are not limited
+to: software, technical systems (=E2=80=9Clow=E2=80=9D or =E2=80=9Chi=E2=80=
+=9D), images, objects, demos,
+film/video, poetry, performances, interventions, illustration, and more.
+Works will be selected by jury for an exhibition in Funchal, the capital
+city of Madeira, at the galleries of the Col=C3=A9gio dos Jesuitas, a
+re-purposed 16th century Jesuit compound.
+
+Example themes include:
+
+=E2=80=A2Alternative globalist or transnational technologies
+
+=E2=80=A2African technical epistemologies
+
+=E2=80=A2Activist or political new media
+
+=E2=80=A2Re-coding remittances
+
+=E2=80=A2Technologies of migration and diaspora
+
+=E2=80=A2Technology and race
+
+=E2=80=A2Decolonizing ICT4D, Tech4D, and M4D
+
+=E2=80=A2Postcolonial computing
+
+=E2=80=A2Markets, math, and statistics of domination
+
+=E2=80=A2Histories of Africa and global production
+
+=E2=80=A2Non-western (or syncretic) applied science
+
+=E2=80=A2Anti-extractive technical and financial systems
+
+=E2=80=A2Artist=E2=80=99s critical interventions into technology and techni=
+cal practice
+Guidelines for Paper Submission
+
+Abstract Submission Deadline: May 1
+
+Authors Notified: May 22
+
+Full Paper Submission Deadline: July 3
+
+Authors Notified: July 24
+
+Final Paper Submission Deadline: August 21
+
+Abstracts of 1,000 - 1,200 words will be accepted for review. These may
+include any additional materials, such as images or tables. The text of
+your abstract must be anonymized for double blind peer review. Each
+abstract will be read by at least three reviewers. After a period of three
+weeks, authors will be notified of rejection, acceptance, or request for
+revision. The ensuing abstract revision period will be three weeks.
+
+Full papers must be no more than ten pages (2600 words), exclusive of notes
+and bibliography. Each paper will be read by at least three reviewers.
+After a period of three weeks, authors will be notified of acceptance or
+request for revision. This revision period will also be three weeks. Please
+use the Chicago Manual of Style, latest edition, for matters of style,
+capitalization, spelling, and hyphenation. Citations should be Chicago
+style [Notes and Bibliography]. The Manual can be found here: http://www.
+chicagomanualofstyle.org/tools_citationguide.html.
+Guidelines for Creative Work and Technology Submission
+
+Creative Work and Tech Submission Deadline: May 1
+
+Creators Notified: June 1
+
+We will accept works including (but not limited to) software, technical
+systems (=E2=80=9Clow=E2=80=9D or =E2=80=9Chi=E2=80=9D), images, objects, d=
+emos, film/video, poetry,
+performances, interventions, illustration, and more. Submissions should
+include an abstract or project description of 500 words or fewer and this
+supplementary form
+<https://docs.google.com/document/d/1_lud_X8wf7bBPcUwp3lICN_V7XmzQQQdaFkJbI=
+W4p-E/edit?usp=3Dsharing>,
+saved as a PDF. As appropriate, your submission may include an additional
+PDF of images or plans, an URL to a website or video (under 3 minutes)
+documentation, and display or technological requirements. The text of your
+abstract or project description must be anonymized for double blind peer
+review. Each description will be read by at least three reviewers.
+
+Note that the conference cannot offer funding to help produce projects or
+to transport them. We will have exhibition space and staff to assist with
+installation; the conference program will include exhibition tours and
+demonstration periods, and we will publish online documentation of the
+exhibitions.
+Submission
+
+Submissions will be processed using the *Open Conference System. *You will
+need to create an account with this conference before submitting your
+materials. Please follow this link
+<http://snta.m-iti.org/index.php/snta/snta/user/account> to initiate the
+process.
+
+The submission deadline for both papers and creative works is *May 1, 2017*
+.
+
+
+--=20
+Chris Cs=C3=ADkszentmih=C3=A1lyi
+ERA Chair & Scientific Director
+Professor
+[image: m-itiLogo] <http://www.m-iti.org/>
+------------------------------
+www.m-iti.org | csik@m-iti.org | edgyproduct.org <http://edgyproduct.org>
+
+* "Art means=E2=80=A6 to resist the course of a world that unceasingly hold=
+s a gun
+to mankind's chest."
+
+--Theodore Adorno*
+
+_______________________________________________
+TIER mailing list
+Website: http://tier.cs.berkeley.edu
+TIER@tier.cs.berkeley.edu
+https://www.millennium.berkeley.edu/cgi-bin/mailman/listinfo/tier
+
+
+
+
+--=20
+Carlos Rey-Moreno, PhD
+PostDoctoral Fellow University of the Western Cape
+Zenzeleni Networks: zenzeleni.net
+https://www.youtube.com/watch?v=3DYxTPSWMX26M
+Cel: +27 (0) 76 986 3633
+Skype: carlos.reymoreno Twitter: Creym
+
+--94eb2c074f4e51f6ef054cb8fc59
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div>(apologies for cross-posting)<br></div><div><br>=
+Hi all, I think this conference can be of interest of people in this list. =
+<br><br></div>regards, <br><br></div>carlos<br><div><div><div><br><br><div =
+class=3D"gmail_quote">---------- Forwarded message ----------<br>From: <b c=
+lass=3D"gmail_sendername">Chris Csikszentmihalyi</b> <span dir=3D"ltr">&lt;=
+<a href=3D"mailto:robotic@gmail.com">robotic@gmail.com</a>&gt;</span><br>Da=
+te: 7 April 2017 at 13:58<br>Subject: [TIER] Call for Participation: Strate=
+gic Narratives of Technology and Africa<br>To: <br><br><br><div dir=3D"ltr"=
+><h2 style=3D"margin:0em 1em 0.5em 0em;padding-top:0.5em;font-weight:normal=
+;text-transform:uppercase;color:rgb(17,17,17)"><font face=3D"trebuchet ms, =
+sans-serif">STRATEGIC NARRATIVES OF TECHNOLOGY AND AFRICA=C2=A0</font></h2>=
+<div id=3D"m_5452425192157496437gmail-content" style=3D"margin:0px;padding:=
+0.5em 0px 0px;border-top:1px dotted rgb(0,102,153);color:rgb(17,17,17)"><h2=
+ style=3D"font-size:0.7em;margin:0em 1em 0.5em 0em;padding-top:0.5em;font-w=
+eight:normal;text-transform:uppercase"></h2><h2 style=3D"margin:0em 1em 0.5=
+em 0em;padding-top:0.5em;font-weight:normal;text-transform:uppercase"><font=
+ size=3D"2" face=3D"trebuchet ms, sans-serif">SEPTEMBER 1, 2017 =E2=80=93 S=
+EPTEMBER 2, 2017</font></h2><div style=3D"font-family:sans-serif,helvetica,=
+arial">Abstract Due Date: May 1, 2017</div><div style=3D"font-family:sans-s=
+erif,helvetica,arial">[<a href=3D"http://snta.m-iti.org" target=3D"_blank">=
+http://snta.m-iti.org</a>]</div><div style=3D"font-family:sans-serif,helvet=
+ica,arial"><br></div><div style=3D"font-family:sans-serif,helvetica,arial">=
+<h1 dir=3D"ltr" style=3D"font-size:0.7em;font-family:sans-serif,helvetica,a=
+rial"><span style=3D"font-size:medium">Overview</span></h1><p dir=3D"ltr" s=
+tyle=3D"font-family:sans-serif,helvetica,arial">In 1884, a group of thirtee=
+n European policymakers met to negotiate standards for the &quot;effective =
+occupation&quot; of Africa. At the time of this now-infamous Berlin Confere=
+nce, about 10 percent of Africa was under European control. By 1914 Europe =
+&quot;controlled&quot; 90 percent of the continent.</p><p dir=3D"ltr" style=
+=3D"font-family:sans-serif,helvetica,arial">In 1987, a little over one hund=
+red years after Berlin, a group of technologists from fifteen European coun=
+tries met on the island of Madeira, and in a highly fractious and politiciz=
+ed meeting set standards to divide time and radio spectrum, narrowly agreei=
+ng on the technical specification of the GSM mobile telephone system. At th=
+e time less than 1 percent of Africa was covered by phones. By 2014 mobile =
+&quot;penetration&quot; in sub-Saharan Africa was around 80 percent.</p><p =
+dir=3D"ltr" style=3D"font-family:sans-serif,helvetica,arial">Africa was nev=
+er mentioned in the Madeira meeting. Indeed the UK representative described=
+ the spread of GSM to people globally, including those who &quot;live in th=
+e poorest countries on the planet,&quot; as an &quot;unintended consequence=
+.&quot; Yet, mobiles have been described as =E2=80=9Cthe new talking drums=
+=E2=80=9D (de Bruijn), and a =E2=80=9Ccommunication lifeline=E2=80=9D (Pew =
+Research Center) that will =E2=80=9Cpave way for huge opportunities=E2=80=
+=9D (Financial Times).</p><p dir=3D"ltr" style=3D"font-family:sans-serif,he=
+lvetica,arial">Phones have swept through the African continent in the last =
+decade, followed by WhatsApp, fiber, and mobile payment systems. As recentl=
+y as 2000 Manuel Castells could call Africa &quot;the black hole of the inf=
+ormation society,&quot; but now the World Bank speaks of the &quot;African =
+digital renaissance,&quot; citing a proliferation of tech hubs and locally =
+produced apps. The &quot;Africa Rising&quot; narrative focuses on the peaks=
+ of a complex terrain with many remarkable innovations and translations, wh=
+ile at the same time access is almost wholly owned by Mark Zuckerberg and a=
+ handful of telcos. In the valleys one government falsely tells its activis=
+t citizens that it has cracked WhatsApp=E2=80=99s encryption, while another=
+ restricts the use of Skype, and around the continent mobile operators extr=
+act the most rent possible from their poorest customers, creating new forms=
+ of poverty. International funders preach development through entrepreneurs=
+hip, teach tech innovation based on Silicon Valley models, and support mobi=
+le application development for &quot;strengthening social inclusion.&quot; =
+Inclusion, though, also means imbrication into a global financial informati=
+on system that is better known for its shocks than its comforts, with new f=
+orms of micro-lending and mobile cash allowing neoliberal financialization =
+of those at the &quot;bottom of the pyramid&quot; and in the most rural are=
+as.</p><h1 dir=3D"ltr" style=3D"font-size:0.7em;font-family:sans-serif,helv=
+etica,arial"><span style=3D"font-size:large"><a name=3D"m_54524251921574964=
+37_Conference"></a><span style=3D"font-size:medium">The Conference</span></=
+span></h1><p dir=3D"ltr" style=3D"font-family:sans-serif,helvetica,arial">T=
+he conference brings scholars, technologists, and cultural producers togeth=
+er on the island of Madeira: a European territory off the coast of Africa, =
+a historical site of mutual entanglement between the Atlantic continents, a=
+nd a point of departure for European expansion. Here we=E2=80=99ll strategi=
+ze ways to revisit, reframe, and recode the future of technology on and for=
+ both continents. What can African theorists, technologists, and cultural p=
+roducers do to generate alternatives to the influx of neocolonial narrative=
+s of tech entrepreneurship? Taking as a given that Africa is =E2=80=9Ca var=
+iegated site of innovation=E2=80=9D (Mavhunga), what are key epistemologies=
+ and ways of being which are endemic in Africa that should be offered to th=
+e world through new systems and processes? Technology is politics by other =
+means (Latour), even if its agency is generally dissimulated. How, then, mi=
+ght we consider anew progressive social and political goals and their conjo=
+ining with cultures of technical creativity already embedded in Africa&#39;=
+s diverse contexts of life? How might new strategic narratives nurture and =
+promote a vision of the continent as a crucible for radical new socio-techn=
+ical paradigms? How can an African information economy avoid the dynamics o=
+f the resource curse, where connectivity is extractive and exercised upon A=
+frican citizens rather than by and through them? What can Western technolog=
+ists do differently, and what are the spaces for collaboration? This confer=
+ence aims to reinvestigate these relationships and engender dialog between =
+African and Western audiences and participants, who should leave Madeira eq=
+uipped with new strategies and new collaborative partnerships.</p><p dir=3D=
+"ltr" style=3D"font-family:sans-serif,helvetica,arial">We are accepting pap=
+ers, creative works, and technologies that explore or demonstrate alternati=
+ve socio-technical strategies. Contributions should be grounded in analysis=
+ and move toward synthesis: We hope to paint the =E2=80=9Cart of the [radic=
+al] possible=E2=80=9D and generate new threads and pathways for the develop=
+ment of fresh technologies. We hope that this focus on the possible near fu=
+ture will differentiate this event from many of the generative but phantasm=
+al Afro-futurist speculations and conferences. Creative works and technolog=
+ies eligible for consideration may include, but are not limited to: softwar=
+e, technical systems (=E2=80=9Clow=E2=80=9D or =E2=80=9Chi=E2=80=9D), image=
+s, objects, demos, film/video, poetry, performances, interventions, illustr=
+ation, and more. Works will be selected by jury for an exhibition in Funcha=
+l, the capital city of Madeira, at the galleries of the Col=C3=A9gio dos Je=
+suitas, a re-purposed 16th century Jesuit compound.</p><p dir=3D"ltr" style=
+=3D"font-family:sans-serif,helvetica,arial">Example themes include:</p><p d=
+ir=3D"ltr" style=3D"font-family:sans-serif,helvetica,arial">=E2=80=A2Altern=
+ative globalist or transnational technologies</p><p dir=3D"ltr" style=3D"fo=
+nt-family:sans-serif,helvetica,arial">=E2=80=A2African technical epistemolo=
+gies</p><p dir=3D"ltr" style=3D"font-family:sans-serif,helvetica,arial">=E2=
+=80=A2Activist or political new media</p><p dir=3D"ltr" style=3D"font-famil=
+y:sans-serif,helvetica,arial">=E2=80=A2Re-coding remittances</p><p dir=3D"l=
+tr" style=3D"font-family:sans-serif,helvetica,arial">=E2=80=A2Technologies =
+of migration and diaspora</p><p dir=3D"ltr" style=3D"font-family:sans-serif=
+,helvetica,arial">=E2=80=A2Technology and race</p><p dir=3D"ltr" style=3D"f=
+ont-family:sans-serif,helvetica,arial">=E2=80=A2Decolonizing ICT4D, Tech4D,=
+ and M4D</p><p dir=3D"ltr" style=3D"font-family:sans-serif,helvetica,arial"=
+>=E2=80=A2Postcolonial computing</p><p dir=3D"ltr" style=3D"font-family:san=
+s-serif,helvetica,arial">=E2=80=A2Markets, math, and statistics of dominati=
+on</p><p dir=3D"ltr" style=3D"font-family:sans-serif,helvetica,arial">=E2=
+=80=A2Histories of Africa and global production</p><p dir=3D"ltr" style=3D"=
+font-family:sans-serif,helvetica,arial">=E2=80=A2Non-western (or syncretic)=
+ applied science</p><p dir=3D"ltr" style=3D"font-family:sans-serif,helvetic=
+a,arial">=E2=80=A2Anti-extractive technical and financial systems</p><p dir=
+=3D"ltr" style=3D"font-family:sans-serif,helvetica,arial">=E2=80=A2Artist=
+=E2=80=99s critical interventions into technology and technical practice</p=
+><h1 style=3D"font-size:0.7em;font-family:sans-serif,helvetica,arial"><span=
+ style=3D"font-size:medium"><a name=3D"m_5452425192157496437_Guidelines for=
+ Paper Submission"></a>Guidelines for Paper Submission</span></h1><p dir=3D=
+"ltr" style=3D"font-family:sans-serif,helvetica,arial">Abstract Submission =
+Deadline: May 1</p><p dir=3D"ltr" style=3D"font-family:sans-serif,helvetica=
+,arial">Authors Notified: May 22</p><p dir=3D"ltr" style=3D"font-family:san=
+s-serif,helvetica,arial">Full Paper Submission Deadline: July 3</p><p dir=
+=3D"ltr" style=3D"font-family:sans-serif,helvetica,arial">Authors Notified:=
+ July 24</p><p dir=3D"ltr" style=3D"font-family:sans-serif,helvetica,arial"=
+>Final Paper Submission Deadline: August 21</p><p dir=3D"ltr" style=3D"font=
+-family:sans-serif,helvetica,arial">Abstracts of 1,000 - 1,200 words will b=
+e accepted for review. These may include any additional materials, such as =
+images or tables. The text of your abstract must be anonymized for double b=
+lind peer review. Each abstract will be read by at least three reviewers. A=
+fter a period of three weeks, authors will be notified of rejection, accept=
+ance, or request for revision. The ensuing abstract revision period will be=
+ three weeks.</p><p style=3D"font-family:sans-serif,helvetica,arial">Full p=
+apers must be no more than ten pages (2600 words), exclusive of notes and b=
+ibliography. Each paper will be read by at least three reviewers. After a p=
+eriod of three weeks, authors will be notified of acceptance or request for=
+ revision. This revision period will also be three weeks. Please use the Ch=
+icago Manual of Style, latest edition, for matters of style, capitalization=
+, spelling, and hyphenation. Citations should be Chicago style [Notes and B=
+ibliography]. The Manual can be found here:=C2=A0<a href=3D"http://www.chic=
+agomanualofstyle.org/tools_citationguide.html" style=3D"text-decoration-lin=
+e:none;color:rgb(0,102,153)" target=3D"_blank">http://www.<wbr>chicagomanua=
+lofstyle.org/<wbr>tools_citationguide.html</a>.</p><h1 style=3D"font-size:0=
+.7em;font-family:sans-serif,helvetica,arial"><span style=3D"font-size:mediu=
+m"><a name=3D"m_5452425192157496437_guidelines creative"></a>Guidelines for=
+ Creative Work and Technology Submission</span></h1><p dir=3D"ltr" style=3D=
+"font-family:sans-serif,helvetica,arial">Creative Work and Tech Submission =
+Deadline: May 1</p><p dir=3D"ltr" style=3D"font-family:sans-serif,helvetica=
+,arial">Creators Notified: June 1</p><p dir=3D"ltr" style=3D"font-family:sa=
+ns-serif,helvetica,arial">We will accept works including (but not limited t=
+o) software, technical systems (=E2=80=9Clow=E2=80=9D or =E2=80=9Chi=E2=80=
+=9D), images, objects, demos, film/video, poetry, performances, interventio=
+ns, illustration, and more. Submissions should include an abstract or proje=
+ct description of 500 words or fewer and=C2=A0<a href=3D"https://docs.googl=
+e.com/document/d/1_lud_X8wf7bBPcUwp3lICN_V7XmzQQQdaFkJbIW4p-E/edit?usp=3Dsh=
+aring" style=3D"text-decoration-line:none;color:rgb(0,102,153)" target=3D"_=
+blank">this supplementary form</a>, saved as a PDF. As appropriate, your su=
+bmission may include an additional PDF of images or plans, an URL to a webs=
+ite or video (under 3 minutes) documentation, and display or technological =
+requirements. The text of your abstract or project description must be anon=
+ymized for double blind peer review. Each description will be read by at le=
+ast three reviewers.</p><p dir=3D"ltr" style=3D"font-family:sans-serif,helv=
+etica,arial">Note that the conference cannot offer funding to help produce =
+projects or to transport them. We will have exhibition space and staff to a=
+ssist with installation; the conference program will include exhibition tou=
+rs and demonstration periods, and we will publish online documentation of t=
+he exhibitions.</p><h1 dir=3D"ltr" style=3D"font-size:0.7em;font-family:san=
+s-serif,helvetica,arial"><a name=3D"m_5452425192157496437_submissions"></a>=
+<span style=3D"font-size:medium">Submission</span></h1><p style=3D"font-fam=
+ily:sans-serif,helvetica,arial">Submissions will be processed using the=C2=
+=A0<i>Open Conference System.=C2=A0</i>You will need to create an account w=
+ith this conference before submitting your materials.<i>=C2=A0</i>Please fo=
+llow=C2=A0<a href=3D"http://snta.m-iti.org/index.php/snta/snta/user/account=
+" style=3D"text-decoration-line:none;color:rgb(0,102,153)" target=3D"_blank=
+">this link</a>=C2=A0to initiate the process.=C2=A0</p><p style=3D"font-fam=
+ily:sans-serif,helvetica,arial">The submission deadline for both=C2=A0<span=
+ style=3D"text-decoration-line:underline">papers and creative works</span>=
+=C2=A0is=C2=A0<b>May 1, 2017</b>.=C2=A0</p></div><span class=3D"HOEnZb"><fo=
+nt color=3D"#888888"><div style=3D"font-family:sans-serif,helvetica,arial;f=
+ont-size:0.7em"><span style=3D"font-size:medium"><br></span></div></font></=
+span></div><span class=3D"HOEnZb"><font color=3D"#888888"><div><br></div>--=
+ <br><div class=3D"m_5452425192157496437gmail_signature"><div dir=3D"ltr"><=
+div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div>=
+<table width=3D"309" height=3D"226" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0"><tbody><tr><td style=3D"padding:0px;line-height:16px" valign=3D"t=
+op"><span style=3D"text-align:left;color:rgb(11,50,82);font-family:calibri,=
+sans-serif;font-size:11pt;font-weight:bold">Chris
+              Cs=C3=ADkszentmih=C3=A1lyi</span><br>
+            <span style=3D"text-align:left;margin-top:0px;margin-bottom:0px=
+;color:rgb(11,50,82);font-family:calibri,sans-serif;font-weight:normal;font=
+-size:9pt;line-height:13px">ERA
+              Chair &amp; Scientific Director<br>
+              Professor</span> </td>
+        </tr>
+        <tr>
+          <td style=3D"padding:15px 0px 0px" valign=3D"middle" align=3D"lef=
+t">
+            <a href=3D"http://www.m-iti.org/" target=3D"_blank"><img title=
+=3D"Madeira Interactive Technologies Institute" alt=3D"m-itiLogo" src=3D"ht=
+tp://www.m-iti.org/signature/images/m-iti.jpg" width=3D"185" height=3D"81" =
+border=3D"0"></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <hr width=3D"29%" size=3D"2px" align=3D"left" color=3D"#EEE4D1"=
+> </td>
+        </tr>
+       =20
+        <tr>
+          <td style=3D"padding:3px 0px 0px" valign=3D"top">
+            <span style=3D"text-align:left;margin-top:0px;color:rgb(171,198=
+,180);font-size:11pt;font-family:calibri,sans-serif">
+              <a href=3D"http://www.m-iti.org/" style=3D"text-decoration:no=
+ne;color:rgb(171,198,180)" target=3D"_blank"><font color=3D"#ABC6B4">www.m-=
+iti.org</font></a>
+              <font size=3D"1" color=3D"#ABC6B4"> | </font> <a href=3D"mail=
+to:csik@m-iti.org" style=3D"text-decoration:none;color:rgb(171,198,180)" ta=
+rget=3D"_blank"><font color=3D"#ABC6B4">csik@m-iti.org
+                  </font></a></span> <span style=3D"text-align:left;margin-=
+top:0px;color:rgb(171,198,180);font-size:11pt;font-family:calibri,sans-seri=
+f"><a href=3D"http://edgyproduct.org" style=3D"text-decoration:none;color:r=
+gb(171,198,180)" target=3D"_blank">|                     edgyproduct.org</a=
+> </span> </td>
+        </tr>
+        <tr>
+          <td style=3D"padding:12px 0px 0px" valign=3D"top">
+            <span style=3D"color:rgb(209,211,212);font-family:calibri,sans-=
+serif;font-size:8pt"><b>
+                &quot;Art means=E2=80=A6 to resist the course of a world th=
+at unceasingly
+                holds a gun to mankind&#39;s chest.&quot;=C2=A0=C2=A0=C2=A0=
+=C2=A0 <br>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0<wbr>=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0<wbr>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 --Theodore Adorno</b></span></td></t=
+r></tbody></table><br></div></div></div></div></div></div></div></div></div=
+></div>
+</font></span></div>
+<br>______________________________<wbr>_________________<br>
+TIER mailing list<br>
+Website: <a href=3D"http://tier.cs.berkeley.edu" rel=3D"noreferrer" target=
+=3D"_blank">http://tier.cs.berkeley.edu</a><br>
+<a href=3D"mailto:TIER@tier.cs.berkeley.edu">TIER@tier.cs.berkeley.edu</a><=
+br>
+<a href=3D"https://www.millennium.berkeley.edu/cgi-bin/mailman/listinfo/tie=
+r" rel=3D"noreferrer" target=3D"_blank">https://www.millennium.<wbr>berkele=
+y.edu/cgi-bin/mailman/<wbr>listinfo/tier</a><br>
+<br></div><br><br clear=3D"all"><br>-- <br><div class=3D"gmail_signature" d=
+ata-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"ltr"><d=
+iv><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr">Carlos Rey-=
+Moreno, PhD<br>PostDoctoral Fellow University of the Western Cape<br>Zenzel=
+eni Networks: <a href=3D"http://zenzeleni.net" target=3D"_blank">zenzeleni.=
+net</a><br><a href=3D"https://www.youtube.com/watch?v=3DYxTPSWMX26M" target=
+=3D"_blank">https://www.youtube.com/watch?v=3DYxTPSWMX26M</a><br>Cel: +27 (=
+0) 76 986 3633<br>Skype: carlos.reymoreno=C2=A0Twitter: Creym<br></div></di=
+v></div></div></div></div></div></div></div></div>
+</div></div></div></div>
+
+--94eb2c074f4e51f6ef054cb8fc59--
+
+
+From nobody Mon Apr 10 04:07:18 2017
+Return-Path: <ford@isoc.org>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 5999B129478 for <gaia@ietfa.amsl.com>; Mon, 10 Apr 2017 04:07:17 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -4.702
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.702 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, RCVD_IN_DNSWL_NONE=-0.0001, RCVD_IN_MSPIKE_H2=-2.8, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=isoc.onmicrosoft.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id chFqC3SW30z6 for <gaia@ietfa.amsl.com>; Mon, 10 Apr 2017 04:07:15 -0700 (PDT)
+Received: from NAM03-CO1-obe.outbound.protection.outlook.com (mail-co1nam03on0061.outbound.protection.outlook.com [104.47.40.61]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id C298B126DCA for <gaia@irtf.org>; Mon, 10 Apr 2017 04:07:15 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=isoc.onmicrosoft.com;  s=selector1-isoc-org; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version; bh=Z+1sNpChRKnGFUihA+GlnEh0DBeVJR5my8mZZxLnEC4=; b=sPoD1oBkZ7RewPYXLwg/s9JhAvSNddsv8zfUJJYhKaeyMlDuEa5ZCm0q8u4sIcM53rip5qmuFQg1bSAnpbjs+s2HbkXZGn8qaSzACbBr17kyju6AyhBrcR6L8urhQV13xGTPqhNiix0Oet2SdIJP6k3R9IH6kNjtk/pUQ13Y8c0=
+Authentication-Results: irtf.org; dkim=none (message not signed) header.d=none;irtf.org; dmarc=none action=none header.from=isoc.org;
+Received: from [192.168.3.80] (81.2.114.177) by CY1PR06MB2217.namprd06.prod.outlook.com (10.166.193.152) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1019.17; Mon, 10 Apr 2017 11:07:13 +0000
+From: Matthew Ford <ford@isoc.org>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0 (Mac OS X Mail 10.3 \(3273\))
+Date: Mon, 10 Apr 2017 12:07:03 +0100
+Message-ID: <5CBE1825-AC61-4BA2-BA95-2618F6906279@isoc.org>
+To: IRTF Gaia list <gaia@irtf.org>
+X-Mailer: Apple Mail (2.3273)
+X-Originating-IP: [81.2.114.177]
+X-ClientProxiedBy: AM4PR05CA0003.eurprd05.prod.outlook.com (10.171.184.144) To CY1PR06MB2217.namprd06.prod.outlook.com (10.166.193.152)
+X-MS-Office365-Filtering-Correlation-Id: 7a1cde28-5f81-4cac-4dd0-08d48001be23
+X-Microsoft-Antispam: UriScan:; BCL:0; PCL:0; RULEID:(22001)(201703131423075)(201703031133081); SRVR:CY1PR06MB2217; 
+X-Microsoft-Exchange-Diagnostics: 1; CY1PR06MB2217; 3:y0Wa1g7+pCLqfdDTEpwFPsi9rilN9EqXejh2lRP2fJiLa80cnU4F851dr55677PBjIiGrQUMWALK8cH7uWatN8QTzEgbxy8iPuxWdV1fWtW7a8xEv6+gSbff7pDWqyuPkpYqVigVz3VzMOBr7C+y/WNJLezdqKWPXHlUZSIF+2qjzUUAm0vhqvl43+oLLdW9v6t4ZD6rilMdUUu5JFCEhXEjlSlbs0sMHy9vxRI/zcxXMq5fYg2M/g2FLydkrubBjNPHIUNxs4tQHjGEWVTNze6HA2TDIbzJySTvns0aSR9lliYIZxwOjNolTl5dTZcc05ZygSi+Gtyfj64CyA+3ug==; 25:/kYR63tHnnylmUQdq8axiezzKxNwhqhe3c2ZrSszt6O+yXtG+WfdCgtFI3MjMBbNkqpo9C1A6u3y1Cjw68cuxeisB6tFiVTzwf+ii9DIAtswQ8xl+jmPy+kedgTXvaQyqR558cd3kJEPXP/jKP8/UJcFkeqvf8nzH4NK2wyr6LFs5I54VCkmfLH5iRZAJT42AF2PTBJPOuKZ43kSkrPMcQ8ZJqKkfbFNdqSsI2Afbhxg6vOTpF+sndVk+di3gFe0JcljXV403KYMreoLLyjk7FcUzumGthbQ1mu2KWrx4ZqyMBBy0KjiCkgfrc+c458LdfIDyzou+z4PFWxgn2mJx+CsdRL2AU05codGcfWs8YezC1Ns6sAn1EIr8glbjqe7tRx7Era/f85PNm4xkIgpaE7nc9hfG25tOGaH8D+dh30LOUxtuPAMDH4xMMBM7G3OImy9D5E2mlQSOCDxEOMH/w==
+X-Microsoft-Exchange-Diagnostics: 1; CY1PR06MB2217; 31:Cx6E/XMKuSckN97JJsDrIpEA2DfmaXYE60aRNDbGJJmQEbyNlKvvnhDrACObjhRDRrqcQaq9Ff7hjGheYuopubpvAgji5gMtWcegPtwbaRfdB55O/EhwTLLx4m1qGG8Rkp6N07zwDQKlbvq6kZAu070E898poR0IJzACSaH/z3KdqtLG7EIqHU2xxOiI4T81iGs87F4ONuUSJtH0AX7iV9GM3nmymyhBdUIeYiIh2vhQii/dNJnjyrpds8Aonxm4; 20:dZkap9lW0LmXnrxK60lLcfh7cEWtr/OCN+1vkr34kKqezlF0YCscVtU7lQ9V2bGPUe1LHPUTRwVCkACCv1jZFSQ310r+A8YJQoBFE50/atDjW0I0p3hCD+pozmtZEPSZH5rVsRFIq/ryapNSPFFcc0TkssnSHsq64fASfsB/s4Y8o47fMNHe5bpDo3Nrdof75y97quRuJJ+SWVEYil4lzcfsQWojXV9EzKPv0G0aH8/i5IydpMkaFadRiKaEGKFclvvvd4+wmYbVX0OE3gRSoQBo6FAdBdOscxkHFuET0NHwF6Vzawwy2IkLfTPsrZXOPKBvmkLSPEeMBSjC/Blgp53YT/UivSLnlgD3bPvnXnClziNECOjALy55YaBc6wGi1n6P8GMiszJKhTNkume2xaR3O+RYaVc5wcuQU5Jn3y8v/27skDf1A2DkJiBvyokhxOTjuzU7lMwO8pkBXQgdqLNSFKGRksBSeHOzGpdxQcB3YqCnYDVkFT4Fea0JaxLE
+X-Microsoft-Antispam-PRVS: <CY1PR06MB22179894BC6806C1C5084B7AA7010@CY1PR06MB2217.namprd06.prod.outlook.com>
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:0; PCL:0; RULEID:(6040450)(601004)(2401047)(8121501046)(5005006)(93006095)(93001095)(10201501046)(3002001)(6041248)(20161123564025)(20161123560025)(20161123555025)(20161123562025)(201703131423075)(201702281528075)(201703061421075)(6072148); SRVR:CY1PR06MB2217; BCL:0; PCL:0; RULEID:; SRVR:CY1PR06MB2217; 
+X-Microsoft-Exchange-Diagnostics: 1; CY1PR06MB2217; 4:h/SjD0uH/IoCMf9Eu7hgRChbxLCzUgA7/98Q6mblB7fQqLFf5HhcGbwtkkGDuhugwZr9puhKVGyZ9+956dI0Wf+D80d6e5a+NuA7FBx6SbB9eUG70Xl4GFP4yuAk5vWNqwS/ACXa58KcPw0L0lxt7G+kHX9Y2toH3F0NGg+bictnSrYyIzdB4FJnUoxtXBL/cD1juPWPrwApw9WBqjGBiKG4q5OOL/4S1r2wauhX4UkSPp55qlyTUxlKsVTaA/6e43lmw7C1XtFhx2HtvsACeEDd1TcErjngzR9LhJPTnMO8qDnG8UZLcmsmaFT2tIKPtmdYhByoHq+APlJo0tgxyvcu2kHAjyYj4vixnJcxmsX7pUVj2mp3NKGdFLTisCqBruk2ProLj7t5rSzGnB/FAs9whwfuK567MBt8Sw0rnI1VwizgBKjMxoNmzMRxiUuCLOQmDMk6jDMtPG2sobKMiY0Xzra/MtiXKbKNlnBK241cO26EdghF3VngCutHjT5JHZHezA0YvZvZDy/letKz+Gt5Fj94MtpHBaZV7yVRVtMo7iv/eAdws1IjjkZdnru2reHqwzTuOVhTc4nJOIUoniwj23g1XNCSXp19cxowR5w1TQ+JwvrWslZ++Uso+RfbVTj1EqBGyHTWstJ5W87Ls6LqdRp01VHsPq3rLGnQoPac8lg4nCTM8UU8ugxycg8pOCaPcdPePE0saccq/6E3qg==
+X-Forefront-PRVS: 027367F73D
+X-Forefront-Antispam-Report: SFV:NSPM; SFS:(10009020)(4630300001)(6049001)(6009001)(39450400003)(39400400002)(39410400002)(39840400002)(33656002)(90366009)(6486002)(77096006)(305945005)(8676002)(50466002)(3846002)(38730400002)(6116002)(110136004)(36756003)(6666003)(2906002)(6916009)(82746002)(7736002)(50226002)(8746002)(50986999)(5660300001)(117156002)(23676002)(25786009)(47776003)(81156014)(81166006)(83716003)(53936002)(189998001)(86362001)(66066001)(57306001)(42186005); DIR:OUT; SFP:1101; SCL:1; SRVR:CY1PR06MB2217; H:[192.168.3.80]; FPR:; SPF:None; MLV:nov; PTR:InfoNoRecords; LANG:en; 
+X-Microsoft-Exchange-Diagnostics: =?utf-8?B?MTtDWTFQUjA2TUIyMjE3OzIzOmJMZFNDUUJ6SjU4T2lwVmNETkVHUXlCRnds?= =?utf-8?B?NXMyQmR5bW1DTXZyNmEwTk5kY1Nabkdjb2pNeU5QaHAvN1NEWFJKRGtuc0w1?= =?utf-8?B?NFpQMnJDdlpDWmJ6cnI3VkliOUpPV1pnT3JybHdIcEsxeWNwVVZGNFlkdnpk?= =?utf-8?B?aGttbVVEd2plWUlmMTF0VmNPSXFhWGNXR3lvRE44KzgwK2MxOTJMZXUrbm9H?= =?utf-8?B?T2ZlTGRSQkFrcExiellDWHU1c1JBWi85TFM4UjErQ01ORk1DRVoraU1PcGFJ?= =?utf-8?B?VVFrVS9wMTdtSkkrZVdybFh0VFI0VnJUbzgrcHlreGZMTWkrNEZoZUhoTEpX?= =?utf-8?B?VG5JcGQ4dXBneWxGV3dDcG5hdU9CMEV0M3JndGFnOG9oVUZNVmQxS2ZFOWZR?= =?utf-8?B?NDN3NUxFV2xYQ3Mwa2pxM3B0SGMydlo1R0N6S004aFA3NjRYLzl3M0lNOXFa?= =?utf-8?B?SzdsR1Q0Qy8xbDZ3OW9paGRlaHZycWRkQW9UK1BGRjhZNGpaeEhJMGp4dzd4?= =?utf-8?B?S20xVEFOZG1uVXBGTDhyWlFwcEhIaVB1bnpYWjEwOVlqS3ptdXlsMmxIaXI3?= =?utf-8?B?cThXb3U5WjBadmVoSHl4Y1VnaWtuNUlNODduUi8vUFczdW0vS3E1MytGNDdj?= =?utf-8?B?eEs4QXlnYmdpVmY4cjluKzRFYnVPaWRJc0svV25uTFRzV0U1Q29KS08yV2Nm?= =?utf-8?B?ZHpWbElNcUhCVjNYTlZkTlB6czh3bmtwWlBxNDlXczFRMnBFaG5odzg3Znpw?= =?utf-8?B?aVh6VGVtdGlzUzh2NXN6VjcySzRnT01RZmRnZTRQdDVHSGdNUnFoYXEwcHVL?= =?utf-8?B?UE1pQXM2MDQ3R29JMzVva1UwT2RnQ3M0K1NZaG1LT3RuN2diTDJ6aEdseGhJ?= =?utf-8?B?eUFHRzhyTHMrZXhVdklyTVcrZVlGdks5RDdWd3J3UUgwdTNTU2o3dWg5SXJi?= =?utf-8?B?UkovUjV0TkdrbHlqT3JkZmxKbUcvWXlJWXp5YmJvUGsxMVBsK1VNWDBYNm9t?= =?utf-8?B?M1RZSGJwQmdVcVBGbncvWmJ3UzNNdFJlSlc1N0h3RSt6cmMvYWRxcFdyY3NN?= =?utf-8?B?RFJ1WTNUNTNqY25IU3NRZVJVakZDY2VGZmNFTFZOVklDdE1lSlhldG55aCt4?= =?utf-8?B?UnpJQ2hFMmVTRzYyeWxpbmRFU0YvWEpLeWo1VXFUU09XL0J0MGJJSmllYlM1?= =?utf-8?B?QS9iei93ZE9wbDE4dlh5bTBla2tNc1ZyZDVrV3lEdzdWQjBFQWo0NTVHdXZw?= =?utf-8?B?YXRlZWZXV2Q4Sk92a2wyMG0rMlNEZWFIN2ZmVHU4N1RleUhRYmtuYVB0OGRk?= =?utf-8?B?djlCUWdzM25WbEVWcFdoN3RiNVZON2VCbDI2V3d3aU9ncGRGb2p4b1dPdmhB?= =?utf-8?B?K2VQdW5HRlJ4TzUxM3IrTHpoWjd6M0c3ekdUWDB3PT0=?=
+X-Microsoft-Exchange-Diagnostics: 1; CY1PR06MB2217; 6:ejUB11Z0wLk9QKiFOOb3zggZ+tsL2DDvfAMGzIS78gkGvsoAVvgFl1UHMZrhux2cjCu2c342kn+D6Zw/9TFjbXKrIs3qgrqS0HUjeKYFW5aFvoQEG7PIuxyQcqjHZBAy3XEXJyyccNgnJ+PA5jUQQf/RDvUjA8WdC2/G5pW4KjhQq++XkCX7bF6sDF+WhOA8M4A0HVR1yG86KwA7LxnXBbOcaAnVGq8pLbyig3rp58jGXEkIRJ5v/ckdyeAP+xu9zfXbVCLBD5p43gXFZNDVM/8lkGljFvV54CAd8LaZOpHcGcxrHzY9QCippl3N2GQd275hKioeN8OwRJQu89ONOkRMQw/GSF8/YGJbKY9mJ89zHmzTyHi9PvKIgLf7sVtVqrVylJD1DRxL6qveUTB33w0w2QPW/wrfemZbivpCVkPonf8PQdEFaF6yJfm3LuWZdKoxBybEUx5OMN0Y+zOxcA==; 5:HyUYmoV9NbrMOQO0Ul0a8jz+jrYthjleQybePyRwZXG+f+6Z3mwck6T82+EDC8fCKDgBaVEtDfxuTMTOKcQxJZr4VOwsnPYJtEO4qE9e8GWjJ6YWJBDChVPIk23EY7T279ei7zuLEeKKdv/vGlexFQ==; 24:anJ2jSXZ1uPEPW40v4Ga9tmuNC0Lt12FNcZjJB9ZSTCKoDg0Lx8FxnuI3tduhxgNriCkOo+uLEA6zqWfzssL5G4BzIJ45ZysWbnlqFnMf2g=
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-Microsoft-Exchange-Diagnostics: 1; CY1PR06MB2217; 7:3F3mgMQaFe9ZUmH7Ab18Xq7CS7496hBhh8+XbvGn9PzzbTSbYAEW8JM7dTQZ8TTH46xcDjyn6OOqjlHGiS+KZNRqlDiwTlpHnaDdGzBxxEdZjS+pcYDH2Epnt/G717+14O0FCdJjcZtSmAzPIz7eXxwq2D53vXEV+XWC/9l6pKi9jOye38083aF3fQuXymXTS09Kw7rsHTCrejjONR5XZFE1IE4AIkv/b3RfKGPL2LlkVn2x/yWWXTd9mviHLso7wc6p4Uf7LJCMfRuWo97KzESRhJBFlzs2EGf8rO1FI2oZVhg3aw5Q9oCbH2exZmyDb3YLU4OQ8mGve0YAoniuCw==
+X-OriginatorOrg: isoc.org
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 10 Apr 2017 11:07:13.2514 (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CY1PR06MB2217
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/D6lLQnV5nZdOoBOXEWsdncXKk1o>
+Subject: [gaia] Please welcome Jane Coffin as co-chair of GAIA
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 10 Apr 2017 11:07:17 -0000
+
+GAIA folks,
+
+I=E2=80=99m handing over the co-chair role for this group to my =
+colleague Jane Coffin. Jane=E2=80=99s work at ISOC is much more closely =
+aligned with the goals of the RG than mine, as you have probably =
+observed from her many contributions on the list, to finding support for =
+GAIA-related events, and to presenting at the recent Cambridge meetup.
+
+I know the group is in very good hands with Arjuna and Jane at the helm. =
+Thanks for letting me provide whatever help I could thus far. I will =
+still be around IETF circles as usual, and am more than happy to help =
+with document shepherding or other aspects of interaction with IETF/IRTF =
+process for GAIA.
+
+Best,
+Mat=
+
+
+From nobody Mon Apr 10 06:02:33 2017
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 7DC5B129446 for <gaia@ietfa.amsl.com>; Mon, 10 Apr 2017 06:02:32 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.7
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.7 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FREEMAIL_FORGED_FROMDOMAIN=0.199, FREEMAIL_FROM=0.001, HEADER_FROM_DIFFERENT_DOMAINS=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001] autolearn=no autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id qgvmoHvb19Jp for <gaia@ietfa.amsl.com>; Mon, 10 Apr 2017 06:02:31 -0700 (PDT)
+Received: from mail-wr0-x230.google.com (mail-wr0-x230.google.com [IPv6:2a00:1450:400c:c0c::230]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 33C41129464 for <gaia@irtf.org>; Mon, 10 Apr 2017 06:02:29 -0700 (PDT)
+Received: by mail-wr0-x230.google.com with SMTP id o21so119997211wrb.2 for <gaia@irtf.org>; Mon, 10 Apr 2017 06:02:29 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20161025;  h=mime-version:sender:in-reply-to:references:from:date:message-id :subject:to:cc:content-transfer-encoding; bh=qYh4vku3MgGlE4My6wYVifwPeCJ6pydOVJT0X39wKTA=; b=ggUSP9BH7WjUqlZBTicHVQmqf9M/FCGr0graDkkn3k8pr1LxobhvJz+vXltYIKCe8w QiJI41YzimYXUqDRYJL5Kv2vnlffbTDDSDvV+gZ5numgVFL39r+eDQU9yrQXP9gqzvOp LZeVL+GzRLJuK93ZbDQYGe3bGud3LNwBO7G+GC1fhuxtJoz0qrE385A1+hnOEscu1C6H sBo7rViPYckf90mUEVHM6Mi2Dy2VzU54UDPtPk4WsSyO2OO2CgINfC+bt9ZOKMlOXu1b XbJzilhhOu/SM0fQPeYasnYaypDqlSAUlQnj2oQZK3PfR//7mHd3lKN8DPYZv8mVaXy6 AQXw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:sender:in-reply-to:references:from :date:message-id:subject:to:cc:content-transfer-encoding; bh=qYh4vku3MgGlE4My6wYVifwPeCJ6pydOVJT0X39wKTA=; b=DKhStrg4A3XDo0GvLB8VM6sFaeElLY/ix0giC/OxTyILGDjnjXnyOC/o98+P1EifYi 9g1dlw1hSHU9g0geKQ7lxWs4TMc7S/n9LCrCe/27Lt0kCqIbZPGWa+YAoYyLAHt/fKHd +v7/ZblarbLINb9CzIL29Kcu7aLyQEL6sbk/aBYSzt3yJsRioHKCydCPIpyosMOc/cuh XxIdtw0teHAqUFI3W4p4NYBpVRM1Om4AmwuK7iAxzRoCuM9b9Uye4YDDAbLikGRZRDat jT0U+AedHzf9GBr0/3yuP6VI5lh4xYp91SKc8yr0MT+WuokwdrwiqfKkFWr6F3xVF8th w64A==
+X-Gm-Message-State: AFeK/H0o2UbXVzlvabva9PgeqTeDd2oo7AbXy95hD6m9uKIcyooZmdowKGp9biyiBCtLc0Zosk1fv3cdbQlIyQ==
+X-Received: by 10.223.164.141 with SMTP id g13mr36153122wrb.82.1491829347676;  Mon, 10 Apr 2017 06:02:27 -0700 (PDT)
+MIME-Version: 1.0
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.223.176.53 with HTTP; Mon, 10 Apr 2017 06:02:27 -0700 (PDT)
+In-Reply-To: <5CBE1825-AC61-4BA2-BA95-2618F6906279@isoc.org>
+References: <5CBE1825-AC61-4BA2-BA95-2618F6906279@isoc.org>
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+Date: Mon, 10 Apr 2017 14:02:27 +0100
+X-Google-Sender-Auth: CWy6b8veDXyj3C9-hiMrgDBZpJ0
+Message-ID: <CAPaG1A=R7Ww0TyFrdRBo=oK-Zbi6ZqaLZcgD3esZikv+NpKytg@mail.gmail.com>
+To: Matthew Ford <ford@isoc.org>
+Cc: IRTF Gaia list <gaia@irtf.org>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/KTCFnlcoiWDxGd5QBH6kD0kviz4>
+Subject: Re: [gaia] Please welcome Jane Coffin as co-chair of GAIA
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 10 Apr 2017 13:02:32 -0000
+
+Dear Matt,
+  On behalf of all our GAIA members - I want to thank you for being a
+great & wonderful Co-Chair and for your time. We will definitely miss
+your leadership.
+
+Jane - welcome and its great to have you onboard :).
+
+Regards
+
+On 10 April 2017 at 12:07, Matthew Ford <ford@isoc.org> wrote:
+> GAIA folks,
+>
+> I=E2=80=99m handing over the co-chair role for this group to my colleague=
+ Jane Coffin. Jane=E2=80=99s work at ISOC is much more closely aligned with=
+ the goals of the RG than mine, as you have probably observed from her many=
+ contributions on the list, to finding support for GAIA-related events, and=
+ to presenting at the recent Cambridge meetup.
+>
+> I know the group is in very good hands with Arjuna and Jane at the helm. =
+Thanks for letting me provide whatever help I could thus far. I will still =
+be around IETF circles as usual, and am more than happy to help with docume=
+nt shepherding or other aspects of interaction with IETF/IRTF process for G=
+AIA.
+>
+> Best,
+> Mat
+> _______________________________________________
+> gaia mailing list
+> gaia@irtf.org
+> https://www.irtf.org/mailman/listinfo/gaia
+
+
+
+--=20
+Arjuna Sathiaseelan
+Personal: http://www.cl.cam.ac.uk/~as2330/
+N4D Lab: http://www.cl.cam.ac.uk/~as2330/n4d
+
+
+From nobody Mon Apr 10 07:35:15 2017
+Return-Path: <sghuter@nsrc.org>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 13F641294FF for <gaia@ietfa.amsl.com>; Mon, 10 Apr 2017 07:35:13 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.901
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.901 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RP_MATCHES_RCVD=-0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id W9obFywAKuqo for <gaia@ietfa.amsl.com>; Mon, 10 Apr 2017 07:35:10 -0700 (PDT)
+Received: from mail.nsrc.org (mail.nsrc.org [IPv6:2607:8400:2880:4::80df:9d0a]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 04B6F129528 for <gaia@irtf.org>; Mon, 10 Apr 2017 07:34:57 -0700 (PDT)
+Received: from localhost (ip6-localhost [IPv6:::1]) by mail.nsrc.org (Postfix) with ESMTP id 14FED7000D6; Mon, 10 Apr 2017 07:34:56 -0700 (PDT)
+Received: from mail.nsrc.org ([IPv6:::1]) by localhost (mail.nsrc.org [IPv6:::1]) (amavisd-new, port 10032) with ESMTP id YCUAAVreVsUw; Mon, 10 Apr 2017 07:34:55 -0700 (PDT)
+Received: from localhost (ip6-localhost [IPv6:::1]) by mail.nsrc.org (Postfix) with ESMTP id 70A997015CF; Mon, 10 Apr 2017 07:34:55 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at mail.nsrc.org
+Received: from mail.nsrc.org ([IPv6:::1]) by localhost (mail.nsrc.org [IPv6:::1]) (amavisd-new, port 10026) with ESMTP id ekLsRmRZwp9N; Mon, 10 Apr 2017 07:34:55 -0700 (PDT)
+Received: from shell.nsrc.org (shell.nsrc.org [IPv6:2607:8400:2880:4::80df:9d34]) by mail.nsrc.org (Postfix) with ESMTPSA id 4BD0B7000D6; Mon, 10 Apr 2017 07:34:55 -0700 (PDT)
+Date: Mon, 10 Apr 2017 07:34:55 -0700 (PDT)
+From: "Steven G. Huter" <sghuter@nsrc.org>
+To: Matthew Ford <ford@isoc.org>
+cc: IRTF Gaia list <gaia@irtf.org>
+In-Reply-To: <5CBE1825-AC61-4BA2-BA95-2618F6906279@isoc.org>
+Message-ID: <alpine.DEB.2.20.1704100734120.5840@shell.nsrc.org>
+References: <5CBE1825-AC61-4BA2-BA95-2618F6906279@isoc.org>
+User-Agent: Alpine 2.20 (DEB 67 2015-01-07)
+MIME-Version: 1.0
+Content-Type: multipart/mixed; BOUNDARY="8323329-1062232832-1491834895=:5840"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/T0O7XDzf5B7sTyZjL-iZviuEsb0>
+Subject: Re: [gaia] Please welcome Jane Coffin as co-chair of GAIA
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 10 Apr 2017 14:35:13 -0000
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+--8323329-1062232832-1491834895=:5840
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+Thank you for helping to organize the group and some of its activities=20
+over the past couple of years, Mat.
+
+All the best
+
+Steve Huter
+
+On Mon, 10 Apr 2017, Matthew Ford wrote:
+
+> GAIA folks,
+>
+> I=E2=80=99m handing over the co-chair role for this group to my colleag=
+ue Jane Coffin. Jane=E2=80=99s work at ISOC is much more closely aligned =
+with the goals of the RG than mine, as you have probably observed from he=
+r many contributions on the list, to finding support for GAIA-related eve=
+nts, and to presenting at the recent Cambridge meetup.
+>
+> I know the group is in very good hands with Arjuna and Jane at the helm=
+. Thanks for letting me provide whatever help I could thus far. I will st=
+ill be around IETF circles as usual, and am more than happy to help with =
+document shepherding or other aspects of interaction with IETF/IRTF proce=
+ss for GAIA.
+>
+> Best,
+> Mat
+> _______________________________________________
+> gaia mailing list
+> gaia@irtf.org
+> https://www.irtf.org/mailman/listinfo/gaia
+--8323329-1062232832-1491834895=:5840--
+
+
+From nobody Tue Apr 11 05:19:06 2017
+Return-Path: <cattekwaad@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 21B26128792 for <gaia@ietfa.amsl.com>; Tue, 11 Apr 2017 05:19:05 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.698
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.698 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-0.7, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id bEAxm_sGMTqN for <gaia@ietfa.amsl.com>; Tue, 11 Apr 2017 05:19:03 -0700 (PDT)
+Received: from mail-wm0-x22e.google.com (mail-wm0-x22e.google.com [IPv6:2a00:1450:400c:c09::22e]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 10872129AAD for <gaia@irtf.org>; Tue, 11 Apr 2017 05:19:03 -0700 (PDT)
+Received: by mail-wm0-x22e.google.com with SMTP id o81so61764228wmb.1 for <gaia@irtf.org>; Tue, 11 Apr 2017 05:19:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20161025;  h=mime-version:sender:in-reply-to:references:from:date:message-id :subject:to:cc; bh=rOf6PmX9DBEFu9eagxOgkvh2pFLjsgJVkNwUxFAAG6c=; b=DfXsIQWh+lwUhGWSuXmw0eveaTyNrgv9SNvLnngJYHJIbhha3f4D9xVBdBJ/nhq4/T xCoXGLYtI4qnxcCNez3ohcUr2Lj0gfRimS2soE7tEzgJkymrXLMs3tpDScSNnPF6AM2L hXWAEnjqwBc5MqpKYCaUNY99Yuab7W4tzN5L7/xPxVOTBAOgtx3wsLlgczYmQkLKzhgh Y0AZCXgWCP/xdL1WNjRyO8AabhCyUhhVxcI8UyfH8+iF5p6RJsYtNcpRxJBoOJeC0u+M MEVQfb2XxkJDCRdzatpZQUClM1TjvFjVdHxEbei7FSLTfxc3K/hH/KD6a3p9xkk6TA0E zCIw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:mime-version:sender:in-reply-to:references:from :date:message-id:subject:to:cc; bh=rOf6PmX9DBEFu9eagxOgkvh2pFLjsgJVkNwUxFAAG6c=; b=kqSa8Yl399IqeI6zN/Stp5Z+yGB7Il2KZzW4vJQ93MLCubpfx4UkIPYnNScPbwWgY+ D3Al+9pf9zLxjRLjHAT3rWqQskdIV3fCvPVA2WgFD3k+yos+DmD6cFWP0nEqzUtnCCgg 0TjqP+T3DDZHhwoAS3Kg2i5KX5KlFbOFxf+AUIxt3eaFbY2JBi4XST7FTMSI+PZNxDEu Z8AUAQ6emY8pPcpEEMKBt8EVrrZWHLLIAjwVY2GYE0j0bFqzza3FUTSzQYlXFsMEhtp1 eJMQrJ9uYvUx8Q6g29HXNdHY3c4kXptuFVe+Zu7ivRwJSAzBgd3UXyK7ZnDDPCZQaRSv L3hA==
+X-Gm-Message-State: AN3rC/65fYW5J4VzsanZPz7UgLnPJu0hGb2duU7bMtSdbkUOCKzzxUdq JKSU+Xf1lSruvK6Twvwj3LBVBrWC6A==
+X-Received: by 10.28.150.145 with SMTP id y139mr14262888wmd.109.1491913141600;  Tue, 11 Apr 2017 05:19:01 -0700 (PDT)
+MIME-Version: 1.0
+Sender: cattekwaad@gmail.com
+Received: by 10.223.139.220 with HTTP; Tue, 11 Apr 2017 05:19:01 -0700 (PDT)
+In-Reply-To: <alpine.DEB.2.20.1704100734120.5840@shell.nsrc.org>
+References: <5CBE1825-AC61-4BA2-BA95-2618F6906279@isoc.org> <alpine.DEB.2.20.1704100734120.5840@shell.nsrc.org>
+From: Corinne Cath <corinnecath@gmail.com>
+Date: Tue, 11 Apr 2017 14:19:01 +0200
+X-Google-Sender-Auth: XRoj-29XAJj0l2IAP9AcxXkd_lo
+Message-ID: <CAD499e+PRNV8q3P9Vg-tCVqo3O3qZOQ-Bbpy-re6Yw6eMweFjg@mail.gmail.com>
+To: "Steven G. Huter" <sghuter@nsrc.org>
+Cc: Matthew Ford <ford@isoc.org>, IRTF Gaia list <gaia@irtf.org>
+Content-Type: multipart/alternative; boundary=001a114b3c86d74d11054ce318f3
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/-nxMcLl7hN0Q0u6o_z0XB5Z0npY>
+Subject: Re: [gaia] Please welcome Jane Coffin as co-chair of GAIA
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 11 Apr 2017 12:19:05 -0000
+
+--001a114b3c86d74d11054ce318f3
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Many thanks to Matt and a warm welcome to Jane! Best,
+
+On Mon, Apr 10, 2017 at 4:34 PM, Steven G. Huter <sghuter@nsrc.org> wrote:
+
+> Thank you for helping to organize the group and some of its activities
+> over the past couple of years, Mat.
+>
+> All the best
+>
+> Steve Huter
+>
+>
+> On Mon, 10 Apr 2017, Matthew Ford wrote:
+>
+> GAIA folks,
+>>
+>> I=E2=80=99m handing over the co-chair role for this group to my colleagu=
+e Jane
+>> Coffin. Jane=E2=80=99s work at ISOC is much more closely aligned with th=
+e goals of
+>> the RG than mine, as you have probably observed from her many contributi=
+ons
+>> on the list, to finding support for GAIA-related events, and to presenti=
+ng
+>> at the recent Cambridge meetup.
+>>
+>> I know the group is in very good hands with Arjuna and Jane at the helm.
+>> Thanks for letting me provide whatever help I could thus far. I will sti=
+ll
+>> be around IETF circles as usual, and am more than happy to help with
+>> document shepherding or other aspects of interaction with IETF/IRTF proc=
+ess
+>> for GAIA.
+>>
+>> Best,
+>> Mat
+>> _______________________________________________
+>> gaia mailing list
+>> gaia@irtf.org
+>> https://www.irtf.org/mailman/listinfo/gaia
+>
+>
+> _______________________________________________
+> gaia mailing list
+> gaia@irtf.org
+> https://www.irtf.org/mailman/listinfo/gaia
+>
+>
+
+
+--=20
+Corinne J.N. Cath
+Ph.D. Candidate, Oxford Internet Institute & Alan Turing Institute
+
+Web: www.oii.ox.ac.uk/people/corinne-cath
+Email: ccath@turing.ac.uk & corinnecath@gmail.com
+Twitter: @C_Cath
+
+--001a114b3c86d74d11054ce318f3
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:verdana,=
+sans-serif">Many thanks to Matt and a warm welcome to Jane! Best,</div></di=
+v><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Mon, Apr 10,=
+ 2017 at 4:34 PM, Steven G. Huter <span dir=3D"ltr">&lt;<a href=3D"mailto:s=
+ghuter@nsrc.org" target=3D"_blank">sghuter@nsrc.org</a>&gt;</span> wrote:<b=
+r><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:=
+1px #ccc solid;padding-left:1ex">Thank you for helping to organize the grou=
+p and some of its activities over the past couple of years, Mat.<br>
+<br>
+All the best<br>
+<br>
+Steve Huter<div class=3D"HOEnZb"><div class=3D"h5"><br>
+<br>
+On Mon, 10 Apr 2017, Matthew Ford wrote:<br>
+<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">
+GAIA folks,<br>
+<br>
+I=E2=80=99m handing over the co-chair role for this group to my colleague J=
+ane Coffin. Jane=E2=80=99s work at ISOC is much more closely aligned with t=
+he goals of the RG than mine, as you have probably observed from her many c=
+ontributions on the list, to finding support for GAIA-related events, and t=
+o presenting at the recent Cambridge meetup.<br>
+<br>
+I know the group is in very good hands with Arjuna and Jane at the helm. Th=
+anks for letting me provide whatever help I could thus far. I will still be=
+ around IETF circles as usual, and am more than happy to help with document=
+ shepherding or other aspects of interaction with IETF/IRTF process for GAI=
+A.<br>
+<br>
+Best,<br>
+Mat<br>
+______________________________<wbr>_________________<br>
+gaia mailing list<br>
+<a href=3D"mailto:gaia@irtf.org" target=3D"_blank">gaia@irtf.org</a><br>
+<a href=3D"https://www.irtf.org/mailman/listinfo/gaia" rel=3D"noreferrer" t=
+arget=3D"_blank">https://www.irtf.org/mailman/l<wbr>istinfo/gaia</a></block=
+quote>
+</div></div><br>______________________________<wbr>_________________<br>
+gaia mailing list<br>
+<a href=3D"mailto:gaia@irtf.org">gaia@irtf.org</a><br>
+<a href=3D"https://www.irtf.org/mailman/listinfo/gaia" rel=3D"noreferrer" t=
+arget=3D"_blank">https://www.irtf.org/mailman/<wbr>listinfo/gaia</a><br>
+<br></blockquote></div><br><br clear=3D"all"><div><br></div>-- <br><div cla=
+ss=3D"gmail_signature" data-smartmail=3D"gmail_signature"><div dir=3D"ltr">=
+<div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div=
+ dir=3D"ltr"><span style=3D"font-family:verdana,sans-serif">Corinne J.N. Ca=
+th <br>Ph.D. Candidate, Oxford Internet Institute &amp; Alan Turing Institu=
+te <br><br><span style=3D"color:rgb(68,68,68)">Web: <a href=3D"http://www.o=
+ii.ox.ac.uk/people/corinne-cath" target=3D"_blank">www.oii.ox.ac.uk/people/=
+corinne-cath</a> <br>Email: <a href=3D"mailto:ccath@turing.ac.uk" target=3D=
+"_blank">ccath@turing.ac.uk</a> &amp; <a href=3D"mailto:corinnecath@gmail.c=
+om" target=3D"_blank">corinnecath@gmail.com</a><br>Twitter: @C_Cath</span><=
+br></span></div></div></div></div></div></div></div></div></div></div>
+</div>
+
+--001a114b3c86d74d11054ce318f3--
+
+
+From nobody Wed Apr 19 23:47:05 2017
+Return-Path: <jsaldana@unizar.es>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 5E99C12EB1F for <gaia@ietfa.amsl.com>; Wed, 19 Apr 2017 23:47:04 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.902
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.902 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_NONE=-0.0001, RP_MATCHES_RCVD=-0.001, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id j18Ek7_23VT0 for <gaia@ietfa.amsl.com>; Wed, 19 Apr 2017 23:47:01 -0700 (PDT)
+Received: from ortiz.unizar.es (ortiz.unizar.es [155.210.1.52]) by ietfa.amsl.com (Postfix) with ESMTP id 4E526127ABE for <gaia@irtf.org>; Wed, 19 Apr 2017 23:47:00 -0700 (PDT)
+Received: from usuarioPC (gtc1pc12.cps.unizar.es [155.210.158.17]) (authenticated bits=0) by ortiz.unizar.es (8.13.8/8.13.8/Debian-3) with ESMTP id v3K6koXQ032115; Thu, 20 Apr 2017 08:46:55 +0200
+From: "Jose Saldana" <jsaldana@unizar.es>
+To: "'Matthew Ford'" <ford@isoc.org>, "'IRTF Gaia list'" <gaia@irtf.org>
+References: <5CBE1825-AC61-4BA2-BA95-2618F6906279@isoc.org>
+In-Reply-To: <5CBE1825-AC61-4BA2-BA95-2618F6906279@isoc.org>
+Date: Thu, 20 Apr 2017 08:46:54 +0200
+Message-ID: <003c01d2b9a1$e9004d30$bb00e790$@unizar.es>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AQJ1OqrlCETVTT+2mOuqm1XyOPq04aCIzblA
+Content-Language: es
+X-Mail-Scanned: Criba 2.0 + Clamd & Bogofilter
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/QSSxU-YbktL3PKx0k0DjLQC5O9g>
+Subject: Re: [gaia] Please welcome Jane Coffin as co-chair of GAIA
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.22
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 20 Apr 2017 06:47:04 -0000
+
+Hi Mat,
+
+Thank you very much for your work during these years!
+
+And also thanks to Jane!
+
+Best regards,
+
+Jose
+
+> -----Mensaje original-----
+> De: gaia [mailto:gaia-bounces@irtf.org] En nombre de Matthew Ford
+> Enviado el: lunes, 10 de abril de 2017 13:07
+> Para: IRTF Gaia list <gaia@irtf.org>
+> Asunto: [gaia] Please welcome Jane Coffin as co-chair of GAIA
+>=20
+> GAIA folks,
+>=20
+> I=E2=80=99m handing over the co-chair role for this group to my =
+colleague Jane Coffin. Jane=E2=80=99s
+> work at ISOC is much more closely aligned with the goals of the RG =
+than mine, as
+> you have probably observed from her many contributions on the list, to =
+finding
+> support for GAIA-related events, and to presenting at the recent =
+Cambridge meetup.
+>=20
+> I know the group is in very good hands with Arjuna and Jane at the =
+helm. Thanks for
+> letting me provide whatever help I could thus far. I will still be =
+around IETF circles as
+> usual, and am more than happy to help with document shepherding or =
+other aspects
+> of interaction with IETF/IRTF process for GAIA.
+>=20
+> Best,
+> Mat
+> _______________________________________________
+> gaia mailing list
+> gaia@irtf.org
+> https://www.irtf.org/mailman/listinfo/gaia
+
+

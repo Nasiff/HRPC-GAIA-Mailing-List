@@ -1,0 +1,2848 @@
+From niels@article19.org Tue Mar 03 14:23:39 2015
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <niels@article19.org>) id 1YSmnT-0002vU-Kq
+	for hrpc@article19.io; Tue, 03 Mar 2015 14:23:39 +0100
+Received: from vps784.greenhost.nl ([213.108.108.114] helo=mail.article19.io)
+	by mx1.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <niels@article19.org>) id 1YSmnS-0005nK-GN
+	for hrpc@article19.io; Tue, 03 Mar 2015 14:23:39 +0100
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id B2B0018002F
+	for <hrpc@article19.io>; Tue,  3 Mar 2015 13:25:34 +0000 (UTC)
+X-Spam-Flag: NO
+X-Spam-Score: -2.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.9 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_00=-1.9] autolearn=ham autolearn_force=no
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id bQlQcCMEPqZ7 for <hrpc@article19.io>;
+	Tue,  3 Mar 2015 13:25:33 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 7780D180024
+	for <hrpc@article19.io>; Tue,  3 Mar 2015 13:25:33 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id rQSHjZLxEg-O for <hrpc@article19.io>;
+	Tue,  3 Mar 2015 13:25:33 +0000 (UTC)
+Received: from [10.115.120.73] (5.40.111.164.static.user.ono.com
+	[5.40.111.164])
+	by mail.article19.io (Postfix) with ESMTPSA id 182A018002F
+	for <hrpc@article19.io>; Tue,  3 Mar 2015 13:25:33 +0000 (UTC)
+Message-ID: <54F5B5D6.4080404@article19.org>
+Date: Tue, 03 Mar 2015 14:23:34 +0100
+From: Niels ten Oever <niels@article19.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:31.0) Gecko/20100101 Icedove/31.4.0
+MIME-Version: 1.0
+To: "hrpc@article19.io" <hrpc@article19.io>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Level: +
+X-Spam-Status: No, score=1.6 required=5.0 tests=BAYES_50,
+	SPF_NEUTRAL autolearn=disabled version=3.3.2
+X-Spam-Score: 1.6
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 503f1a2b1db20d3cc8283cfb339c155f
+Subject: [hrpc] new draft text for the ID
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Tue, 03 Mar 2015 13:23:40 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Dear all,
+
+Based on the traffic on this list, some interviews and discussions I
+drafted new text for the ID. The additions are to 2. research topic
+and 3. Proposal. I pasted the proposed text underneath, happy to discuss.
+
+The deadline for sending in the ID is the 9th, and since we will also
+need to consolidate the comments and put the ID in XML it would be
+greatly appreciated if you could comment in the coming days (before
+the 7th) so we can still integrate your comments in the ID, but of
+course also happy to discuss afterwards and in Dallas.
+
+Looking forward to your comments, questions and suggestions.
+
+Best,
+
+Niels
+
+PS The original ID can be found here:
+https://tools.ietf.org/html/draft-doria-hrpc-proposal-00
+
+2.  Research topic
+In a manner similar to the work done for RFC 6973 [RFC6973] on Privacy
+Consideration Guidelines, the premise of this research is that some
+standards and protocols can solidify, enable or threaten human rights,
+such as freedom of expression and the right to association and
+assembly online.
+
+RFC 6973 however asserts privacy as a subset of security, and security
+aims to solely serve growth of the network and communication:
+
+Development of security mechanisms is seen as a key factor in the
+future growth of the Internet as a motor for international commerce
+and communication.[RFC1984]  and according to the Danvers Doctrine,
+there  is an overwhelming  consensus in the IETF that the best
+security  should be used and  standardized.[RFC3365]. At the same time:
+
+The  Internet Architecture Board (IAB) and the Internet Engineering
+Steering  Group (IESG), the bodies which oversee architecture and
+standards for  the Internet, are concerned by the need for increased
+protection of  international commercial transactions on the Internet,
+and by the need  to offer all Internet users an adequate degree of
+privacy. [RFC1984]
+
+This  shows that security and privacy are very high on the agenda of
+the  IETF, but a reason for this, outside of underpinning growth and
+trust of  the network, is not given. In this research it is argued
+that security and privacy are (contributing to) essential human
+rights; such as freedom of expression, the right to information, the
+right to  privacy, and the right to security.
+
+The Internet aims to be a global network of network that provides
+connectivity to all its users, just like the Universal Declaration of
+Human Rights provides rights to all citizens. This makes a clear case
+that the Internet is not only an enabler of human rights, but that
+human rights, lie at the basis of, and is ingrained in, the network.
+Furthermore  interview will be done with  the chair of the Internet
+Architecture  Board (IAB), members of the  Internet Engineering
+Steering Group (IESG)  and chairs of selected  working groups and RFC
+authors.
+
+To start addressing the issue, a mapping exercise analyzing Internet
+architecture and protocols features, vis-a-vis possible impact on
+human rights needs to be
+undertaken.
+
+[snip, leaving the examples in place]
+
+3.  Proposal
+Mapping the relation between human rights and protocols and
+architectures is a new research challenge, which will require a good
+amount of cross organizational cooperation to develop a consistent
+methodology.  While the authors of this first draft are involved in
+both human rights advocacy and research on Internet technologies - we
+believe that bringing this work into the IRTF would facilitate and
+improve this work by bringing human rights experts together with the
+community of researchers and developers of Internet standards and
+technologies.
+
+At this point we have created a mailing list where we would like to
+encourage discussion of the issue and capture interest of the IRTF
+community.  A second step would be to create a charter and ask the
+IRTF for a Research group to further develop methodology and
+investigate Human rights Protocol considerations.
+
+Assuming that the research produces useful results, the objective
+would evolve into the creation of a set of recommended considerations
+for the protection of applicable human rights.
+
+In the  analysis of existing RFCs central design and technical
+concepts have been found which impact human rights. These concepts
+will form the lens for the analysis of RFCs and will be further
+described vis a vis their impact on human rights.
+
+The current working assumption is the following:
+
+The  combination of content agnosticism, connectivity, security (as
+defined in RFC 3365) [RFC3365] and privacy (as defined in RFC 6973)
+[RFC6973] are the technical principles that underly freedom of
+expression on the Internet.
+
+Privacy and security are defined, so here we focus on concepts that
+have not been defined as considerations that are relevant for freedom
+of expression.
+
+This is a non-exhaustive first list of concepts, which definitions
+should be improved and further aligned with existing RFCs.
+
+Connectivity
+The Internet is the tool for providing global connectivity conform
+RFC1958. Therefore all protocols and standards should aim to improve
+connectivity, and not to limit it.
+
+Distributed
+To  enable and strengthen connectivity, stability, and sustainability
+of  the network, protocols and standards should be developed in a way
+that  they can be implemented in a distributed way, if not, strong
+accountability mechanism should be in place.
+
+Inter-operable
+Standards exist to design systems that allow for other systems to
+interact freely and openly.
+
+Reliable
+Reliability ensures that a protocol will execute its function
+consistently and  error resistant as described and function without
+unexpected result, also when there is an increase or decrease of
+throughput. A system that is reliable will have a documented way to
+recover from failure.
+
+Scalable
+Any  solution should support growth of the network with more hosts,
+users and traffic. And have clear understanding of it's scope and
+ideally a proposition how it can be expanded in order to support
+greater capacity.
+
+Stateless / state-full
+If  possible protocols should be implemented stateless for reliability
+and privacy considerations. If not, they should keep as little state
+as possible.
+
+Content agnostic
+Protocols should not treat packets/datagrams differently based on
+their content.
+
+Transparent
+Protocols should be transparent in what they can do and can not do and
+how it is  done. Implementation of protocols should advertise it's
+policies on data retention for the service and which jurisdiction it
+falls under.
+
+Debugging
+A protocol should allow a user to troubleshoot and debug possible
+causes of malfunction and loss of reliability.
+
+Robust, robustness
+Protocols should be resistant to errors, involuntary legal or
+malicious attempts  to disrupt its mode of operations. Protocols
+should be developed in a  way that there is no (intransparent) kill
+switch. There should also be a clear description on how a protocol
+recovers from potential failures.
+
+End user-centric / representing  stakeholder rights
+As proposed in draft-nottingham-stakeholder-rights-00:
+
+[QUOTE]
+Protocols MUST document relevant primary stakeholders and their
+interrelationships.
+
+[..]
+
+ End-user-facing application protocols MUST prioritise their users
+higher than any other stakeholders.
+Extensions to existing protocols MUST document how they interact with
+the extended protocol's stakeholders.  If the extended protocol's
+stakeholders are not yet documented, the extension MAY estimate its
+impact, in coordination with that protocol's community and the IESG.
+The burden of this documentation need not be high; if HTML can do it
+in a paragraph, so can most protocols.  While it might be appropriate
+in a separate document (e.g., a requirements or use cases draft) or
+the protocol specification itself, documenting stakeholders in the WG
+charter has considerable benefits, since it clarifies their
+relationships up-front.
+
+[/QUOTE]
+
+
+- --=20
+Niels ten Oever
+Head of Digital
+
+Article 19
+www.article19.org
+
+PGP fingerprint    8D9F C567 BEE4 A431 56C4
+                   678B 08B5 A0F2 636D 68E9
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJU9bXVAAoJEAi1oPJjbWjpeKEH/3MhfM1yFG2aJf4/8ZBWwQtA
+rlb0iVw2mCeA9RsulzgkU7cZC3dh+24PIVsX0DmiaCJtk7YJbCzI8wQtvm8b2aD0
+PnQzRbkCGHxpPKLP+GkuNr2iQCdWQ6YoY68g8up26jHco9DUaTIOw9zGFV4lApu3
+d2/9DvyrF/d2lgO17c9vFVmAoE+wWdlE1CMRV2SDGcbz9Fb9xSntnJ5/+SXkNpQ+
+24BaCk73xK88mRqvk/HLUO3GCoDd3ytM5KuU0X4hQOoLVWOpyQaVOadtLQbLkNNX
+GB1NIalgs8ivK+8PXn4fsbKMCYLR3HcSDIzC/uiICRciznu0G82v49pZYYAVt+Y=3D
+=3DDKrF
+-----END PGP SIGNATURE-----
+
+
+From stephen.farrell@cs.tcd.ie Tue Mar 03 19:40:27 2015
+Received: from [10.10.12.45] (helo=mx2.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <stephen.farrell@cs.tcd.ie>) id 1YSrk3-0003P0-1Y
+	for hrpc@article19.io; Tue, 03 Mar 2015 19:40:27 +0100
+Received: from mercury.scss.tcd.ie ([134.226.56.6])
+	by mx2.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <stephen.farrell@cs.tcd.ie>)
+	id 1YSrk1-0007s4-2Q
+	for hrpc@article19.io; Tue, 03 Mar 2015 19:40:26 +0100
+Received: from localhost (localhost [127.0.0.1])
+	by mercury.scss.tcd.ie (Postfix) with ESMTP id 7A427BEDC
+	for <hrpc@article19.io>; Tue,  3 Mar 2015 18:40:24 +0000 (GMT)
+X-Virus-Scanned: Debian amavisd-new at scss.tcd.ie
+Received: from mercury.scss.tcd.ie ([127.0.0.1])
+	by localhost (mercury.scss.tcd.ie [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id ZO2F-MOWrrHW for <hrpc@article19.io>;
+	Tue,  3 Mar 2015 18:40:22 +0000 (GMT)
+Received: from [172.28.14.119] (unknown [193.242.192.25])
+	by mercury.scss.tcd.ie (Postfix) with ESMTPSA id BF167BED0
+	for <hrpc@article19.io>; Tue,  3 Mar 2015 18:40:20 +0000 (GMT)
+Message-ID: <54F60011.9050906@cs.tcd.ie>
+Date: Tue, 03 Mar 2015 18:40:17 +0000
+From: Stephen Farrell <stephen.farrell@cs.tcd.ie>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:31.0) Gecko/20100101 Thunderbird/31.4.0
+MIME-Version: 1.0
+To: "hrpc@article19.io" <hrpc@article19.io>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Spam-Level: /
+X-Spam-Status: No, score=-0.7 required=5.0 tests=BAYES_50, RCVD_IN_DNSWL_MED,
+	RCVD_IN_SORBS_WEB,
+	T_RP_MATCHES_RCVD autolearn=disabled version=3.3.2
+X-Spam-Score: -0.7
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 964c6a2bc69af72888bec91466701c23
+Subject: [hrpc] relevant UNESCO draft document
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Tue, 03 Mar 2015 18:40:27 -0000
+
+
+Hiya,
+
+I'm at a UNESCO conference at the moment [1] and they have a
+draft document for which they'd like to get more technical
+review. [2]
+
+I'm not sure to which email address they'd like comments sent
+but I'll check tomorrow and send a mail here. You'll not have
+read the 96 pages by then most likely though:-) But it's pretty
+relevant to this list I think.
+
+Cheers,
+S.
+
+
+[1] http://www.unesco.org/new/en/netconference2015
+[2]
+http://www.unesco.org/new/fileadmin/MULTIMEDIA/HQ/CI/CI/pdf/internet_draft_study.pdf
+
+
+
+From cattekwaad@gmail.com Wed Mar 04 16:19:19 2015
+Received: from [10.10.12.45] (helo=mx2.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <cattekwaad@gmail.com>) id 1YTB4x-0004tp-83
+	for hrpc@article19.io; Wed, 04 Mar 2015 16:19:19 +0100
+Received: from mail-wi0-f171.google.com ([209.85.212.171])
+	by mx2.greenhost.nl with esmtps (TLS1.0:RSA_ARCFOUR_SHA1:16)
+	(Exim 4.72) (envelope-from <cattekwaad@gmail.com>)
+	id 1YTB4m-0007My-5s
+	for hrpc@article19.io; Wed, 04 Mar 2015 16:19:18 +0100
+Received: by wiwh11 with SMTP id h11so31359682wiw.1
+	for <hrpc@article19.io>; Wed, 04 Mar 2015 07:18:56 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:cc:content-type;
+	bh=afpDqqrckKObmTfvwcX2Qxks3mhf7fzL4oW7sZ4845Q=;
+	b=Vl20LuXCkzzVWAZ2A94ZnUgqYt4svvg5dDzFCZ0AK3iFb4jgEwxx5rhgEc/fZQzbdT
+	1K0R5uehP9mHC5NdCNyDKFNVbkyV88pxwAFk7irpPeXXQYY9I2pGhNqpTgYZeoYUcQKK
+	OurAwjnIhvgpTTpI/6JPzKw6PfPb9gsDPQ0lbCnv9skgsl8W5SO+s15vFiNzhHuyJLUw
+	mTaWHGtIyYGhtOSVYB1tGdYCC8lE9hxJ0VjMXHFVGHgN67gf5CHzVDjQHOWzGaKOGdIl
+	tUwla6w/QklXMcfvPDlC714b1zaRMBerrSomevZw35PuZ4i48h7vNxut4QwlK8670HHr
+	I7QA==
+MIME-Version: 1.0
+X-Received: by 10.180.14.66 with SMTP id n2mr55363778wic.50.1425482336831;
+	Wed, 04 Mar 2015 07:18:56 -0800 (PST)
+Received: by 10.194.133.101 with HTTP; Wed, 4 Mar 2015 07:18:56 -0800 (PST)
+In-Reply-To: <mailman.11.1425466806.17664.hrpc@article19.io>
+References: <mailman.11.1425466806.17664.hrpc@article19.io>
+Date: Wed, 4 Mar 2015 15:18:56 +0000
+Message-ID: <CAD499eJr3eRPkmRfQOLSt_kPqzyAoaTLphWsRSBc1kJQ33MeZA@mail.gmail.com>
+From: Corinne Cath <cattekwaad@gmail.com>
+To: hrpc@article19.io
+Content-Type: multipart/alternative; boundary=f46d04138ccd520ded051077f87b
+X-Spam-Level: /
+X-Spam-Status: No, score=-0.1 required=5.0 tests=BAYES_50, DKIM_SIGNED,
+	DKIM_VALID, DKIM_VALID_AU, FREEMAIL_FROM, HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW, SPF_PASS autolearn=disabled version=3.3.2
+X-Spam-Score: -0.1
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 9a6f6c397fafa093da07ae37c06b7a32
+Subject: Re: [hrpc] hrpc Digest, Vol 6, Issue 1
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Wed, 04 Mar 2015 15:19:19 -0000
+
+--f46d04138ccd520ded051077f87b
+Content-Type: text/plain; charset=UTF-8
+
+Dear all,
+
+Just a thought:
+
+It's clear that there are privacy considerations w/ standards, and security
+issues, of course, and those are both human rights issues even though  IT
+privacy and security are not usually framed within a human rights context.
+However, should we be even more specific in this document of what makes
+standards development different from any other Internet/IT engineering
+issues?
+
+Users interface with software and hardware more than they do with
+networking or encryption standards. Why are protocols / standards unique?
+Or perhaps more relevant, how do we justify our particular focus on them.
+It's a small thing - but I think it might make the document a little
+stronger still if we address this issue, because I feel this might be a
+point of critique brought up at the upcoming meeting.
+
+On that same note - I recently booked my flight to Dallas and look forward
+to meeting everyone who will also be attending.
+
+Best,
+
+Corinne
+
+
+
+On Wed, Mar 4, 2015 at 11:00 AM, <hrpc-request@article19.io> wrote:
+
+> Send hrpc mailing list submissions to
+>         hrpc@article19.io
+>
+> To subscribe or unsubscribe via the World Wide Web, visit
+>         https://lists.ghserv.net/mailman/listinfo/hrpc
+> or, via email, send a message with subject or body 'help' to
+>         hrpc-request@article19.io
+>
+> You can reach the person managing the list at
+>         hrpc-owner@article19.io
+>
+> When replying, please edit your Subject line so it is more specific
+> than "Re: Contents of hrpc digest..."
+>
+>
+> Today's Topics:
+>
+>    1. new draft text for the ID (Niels ten Oever)
+>    2. relevant UNESCO draft document (Stephen Farrell)
+>
+>
+> ----------------------------------------------------------------------
+>
+> Message: 1
+> Date: Tue, 03 Mar 2015 14:23:34 +0100
+> From: Niels ten Oever <niels@article19.org>
+> To: "hrpc@article19.io" <hrpc@article19.io>
+> Subject: [hrpc] new draft text for the ID
+> Message-ID: <54F5B5D6.4080404@article19.org>
+> Content-Type: text/plain; charset=utf-8
+>
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> Dear all,
+>
+> Based on the traffic on this list, some interviews and discussions I
+> drafted new text for the ID. The additions are to 2. research topic
+> and 3. Proposal. I pasted the proposed text underneath, happy to discuss.
+>
+> The deadline for sending in the ID is the 9th, and since we will also
+> need to consolidate the comments and put the ID in XML it would be
+> greatly appreciated if you could comment in the coming days (before
+> the 7th) so we can still integrate your comments in the ID, but of
+> course also happy to discuss afterwards and in Dallas.
+>
+> Looking forward to your comments, questions and suggestions.
+>
+> Best,
+>
+> Niels
+>
+> PS The original ID can be found here:
+> https://tools.ietf.org/html/draft-doria-hrpc-proposal-00
+>
+> 2.  Research topic
+> In a manner similar to the work done for RFC 6973 [RFC6973] on Privacy
+> Consideration Guidelines, the premise of this research is that some
+> standards and protocols can solidify, enable or threaten human rights,
+> such as freedom of expression and the right to association and
+> assembly online.
+>
+> RFC 6973 however asserts privacy as a subset of security, and security
+> aims to solely serve growth of the network and communication:
+>
+> Development of security mechanisms is seen as a key factor in the
+> future growth of the Internet as a motor for international commerce
+> and communication.[RFC1984]  and according to the Danvers Doctrine,
+> there  is an overwhelming  consensus in the IETF that the best
+> security  should be used and  standardized.[RFC3365]. At the same time:
+>
+> The  Internet Architecture Board (IAB) and the Internet Engineering
+> Steering  Group (IESG), the bodies which oversee architecture and
+> standards for  the Internet, are concerned by the need for increased
+> protection of  international commercial transactions on the Internet,
+> and by the need  to offer all Internet users an adequate degree of
+> privacy. [RFC1984]
+>
+> This  shows that security and privacy are very high on the agenda of
+> the  IETF, but a reason for this, outside of underpinning growth and
+> trust of  the network, is not given. In this research it is argued
+> that security and privacy are (contributing to) essential human
+> rights; such as freedom of expression, the right to information, the
+> right to  privacy, and the right to security.
+>
+> The Internet aims to be a global network of network that provides
+> connectivity to all its users, just like the Universal Declaration of
+> Human Rights provides rights to all citizens. This makes a clear case
+> that the Internet is not only an enabler of human rights, but that
+> human rights, lie at the basis of, and is ingrained in, the network.
+> Furthermore  interview will be done with  the chair of the Internet
+> Architecture  Board (IAB), members of the  Internet Engineering
+> Steering Group (IESG)  and chairs of selected  working groups and RFC
+> authors.
+>
+> To start addressing the issue, a mapping exercise analyzing Internet
+> architecture and protocols features, vis-a-vis possible impact on
+> human rights needs to be
+> undertaken.
+>
+> [snip, leaving the examples in place]
+>
+> 3.  Proposal
+> Mapping the relation between human rights and protocols and
+> architectures is a new research challenge, which will require a good
+> amount of cross organizational cooperation to develop a consistent
+> methodology.  While the authors of this first draft are involved in
+> both human rights advocacy and research on Internet technologies - we
+> believe that bringing this work into the IRTF would facilitate and
+> improve this work by bringing human rights experts together with the
+> community of researchers and developers of Internet standards and
+> technologies.
+>
+> At this point we have created a mailing list where we would like to
+> encourage discussion of the issue and capture interest of the IRTF
+> community.  A second step would be to create a charter and ask the
+> IRTF for a Research group to further develop methodology and
+> investigate Human rights Protocol considerations.
+>
+> Assuming that the research produces useful results, the objective
+> would evolve into the creation of a set of recommended considerations
+> for the protection of applicable human rights.
+>
+> In the  analysis of existing RFCs central design and technical
+> concepts have been found which impact human rights. These concepts
+> will form the lens for the analysis of RFCs and will be further
+> described vis a vis their impact on human rights.
+>
+> The current working assumption is the following:
+>
+> The  combination of content agnosticism, connectivity, security (as
+> defined in RFC 3365) [RFC3365] and privacy (as defined in RFC 6973)
+> [RFC6973] are the technical principles that underly freedom of
+> expression on the Internet.
+>
+> Privacy and security are defined, so here we focus on concepts that
+> have not been defined as considerations that are relevant for freedom
+> of expression.
+>
+> This is a non-exhaustive first list of concepts, which definitions
+> should be improved and further aligned with existing RFCs.
+>
+> Connectivity
+> The Internet is the tool for providing global connectivity conform
+> RFC1958. Therefore all protocols and standards should aim to improve
+> connectivity, and not to limit it.
+>
+> Distributed
+> To  enable and strengthen connectivity, stability, and sustainability
+> of  the network, protocols and standards should be developed in a way
+> that  they can be implemented in a distributed way, if not, strong
+> accountability mechanism should be in place.
+>
+> Inter-operable
+> Standards exist to design systems that allow for other systems to
+> interact freely and openly.
+>
+> Reliable
+> Reliability ensures that a protocol will execute its function
+> consistently and  error resistant as described and function without
+> unexpected result, also when there is an increase or decrease of
+> throughput. A system that is reliable will have a documented way to
+> recover from failure.
+>
+> Scalable
+> Any  solution should support growth of the network with more hosts,
+> users and traffic. And have clear understanding of it's scope and
+> ideally a proposition how it can be expanded in order to support
+> greater capacity.
+>
+> Stateless / state-full
+> If  possible protocols should be implemented stateless for reliability
+> and privacy considerations. If not, they should keep as little state
+> as possible.
+>
+> Content agnostic
+> Protocols should not treat packets/datagrams differently based on
+> their content.
+>
+> Transparent
+> Protocols should be transparent in what they can do and can not do and
+> how it is  done. Implementation of protocols should advertise it's
+> policies on data retention for the service and which jurisdiction it
+> falls under.
+>
+> Debugging
+> A protocol should allow a user to troubleshoot and debug possible
+> causes of malfunction and loss of reliability.
+>
+> Robust, robustness
+> Protocols should be resistant to errors, involuntary legal or
+> malicious attempts  to disrupt its mode of operations. Protocols
+> should be developed in a  way that there is no (intransparent) kill
+> switch. There should also be a clear description on how a protocol
+> recovers from potential failures.
+>
+> End user-centric / representing  stakeholder rights
+> As proposed in draft-nottingham-stakeholder-rights-00:
+>
+> [QUOTE]
+> Protocols MUST document relevant primary stakeholders and their
+> interrelationships.
+>
+> [..]
+>
+>  End-user-facing application protocols MUST prioritise their users
+> higher than any other stakeholders.
+> Extensions to existing protocols MUST document how they interact with
+> the extended protocol's stakeholders.  If the extended protocol's
+> stakeholders are not yet documented, the extension MAY estimate its
+> impact, in coordination with that protocol's community and the IESG.
+> The burden of this documentation need not be high; if HTML can do it
+> in a paragraph, so can most protocols.  While it might be appropriate
+> in a separate document (e.g., a requirements or use cases draft) or
+> the protocol specification itself, documenting stakeholders in the WG
+> charter has considerable benefits, since it clarifies their
+> relationships up-front.
+>
+> [/QUOTE]
+>
+>
+> - --
+> Niels ten Oever
+> Head of Digital
+>
+> Article 19
+> www.article19.org
+>
+> PGP fingerprint    8D9F C567 BEE4 A431 56C4
+>                    678B 08B5 A0F2 636D 68E9
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.12 (GNU/Linux)
+>
+> iQEcBAEBAgAGBQJU9bXVAAoJEAi1oPJjbWjpeKEH/3MhfM1yFG2aJf4/8ZBWwQtA
+> rlb0iVw2mCeA9RsulzgkU7cZC3dh+24PIVsX0DmiaCJtk7YJbCzI8wQtvm8b2aD0
+> PnQzRbkCGHxpPKLP+GkuNr2iQCdWQ6YoY68g8up26jHco9DUaTIOw9zGFV4lApu3
+> d2/9DvyrF/d2lgO17c9vFVmAoE+wWdlE1CMRV2SDGcbz9Fb9xSntnJ5/+SXkNpQ+
+> 24BaCk73xK88mRqvk/HLUO3GCoDd3ytM5KuU0X4hQOoLVWOpyQaVOadtLQbLkNNX
+> GB1NIalgs8ivK+8PXn4fsbKMCYLR3HcSDIzC/uiICRciznu0G82v49pZYYAVt+Y=
+> =DKrF
+> -----END PGP SIGNATURE-----
+>
+>
+>
+> ------------------------------
+>
+> Message: 2
+> Date: Tue, 03 Mar 2015 18:40:17 +0000
+> From: Stephen Farrell <stephen.farrell@cs.tcd.ie>
+> To: "hrpc@article19.io" <hrpc@article19.io>
+> Subject: [hrpc] relevant UNESCO draft document
+> Message-ID: <54F60011.9050906@cs.tcd.ie>
+> Content-Type: text/plain; charset=utf-8
+>
+>
+> Hiya,
+>
+> I'm at a UNESCO conference at the moment [1] and they have a
+> draft document for which they'd like to get more technical
+> review. [2]
+>
+> I'm not sure to which email address they'd like comments sent
+> but I'll check tomorrow and send a mail here. You'll not have
+> read the 96 pages by then most likely though:-) But it's pretty
+> relevant to this list I think.
+>
+> Cheers,
+> S.
+>
+>
+> [1] http://www.unesco.org/new/en/netconference2015
+> [2]
+>
+> http://www.unesco.org/new/fileadmin/MULTIMEDIA/HQ/CI/CI/pdf/internet_draft_study.pdf
+>
+>
+>
+>
+> ------------------------------
+>
+> _______________________________________________
+> hrpc mailing list
+> hrpc@article19.io
+> https://lists.ghserv.net/mailman/listinfo/hrpc
+>
+> End of hrpc Digest, Vol 6, Issue 1
+> **********************************
+>
+
+
+
+-- 
+
+
+
+'The management of normality is hard work'
+
+--f46d04138ccd520ded051077f87b
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:georgia,=
+serif">Dear all, <br><br></div><div class=3D"gmail_default" style=3D"font-f=
+amily:georgia,serif">Just a thought:<br></div><div class=3D"gmail_default" =
+style=3D"font-family:georgia,serif"><br>It&#39;s clear that there are priva=
+cy=20
+considerations w/ standards, and security issues, of course, and those=20
+are both human rights issues even though=C2=A0 IT privacy and security are =
+not=20
+usually framed within a human rights context. However, should we be even mo=
+re specific in this document of what makes=C2=A0 standards development diff=
+erent from any other Internet/IT engineering=20
+issues? <br><br>Users interface with software and hardware more than they d=
+o with
+ networking or encryption standards. Why are protocols / standards=20
+unique? Or perhaps more relevant, how do we justify our particular focus on=
+ them. It&#39;s a small thing - but I think it might make the document a li=
+ttle stronger still if we address this issue, because I feel this might be =
+a point of critique brought up at the upcoming meeting.<br><br></div><div c=
+lass=3D"gmail_default" style=3D"font-family:georgia,serif">On that same not=
+e - I recently booked my flight to Dallas and look forward to meeting every=
+one who will also be attending.<br><br></div><div class=3D"gmail_default" s=
+tyle=3D"font-family:georgia,serif">Best,<br><br></div><div class=3D"gmail_d=
+efault" style=3D"font-family:georgia,serif">Corinne<br></div><div class=3D"=
+gmail_default" style=3D"font-family:georgia,serif"><br><br></div></div><div=
+ class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Wed, Mar 4, 2015 a=
+t 11:00 AM,  <span dir=3D"ltr">&lt;<a href=3D"mailto:hrpc-request@article19=
+.io" target=3D"_blank">hrpc-request@article19.io</a>&gt;</span> wrote:<br><=
+blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px=
+ #ccc solid;padding-left:1ex">Send hrpc mailing list submissions to<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 <a href=3D"mailto:hrpc@article19.io">hrpc@artic=
+le19.io</a><br>
+<br>
+To subscribe or unsubscribe via the World Wide Web, visit<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 <a href=3D"https://lists.ghserv.net/mailman/lis=
+tinfo/hrpc" target=3D"_blank">https://lists.ghserv.net/mailman/listinfo/hrp=
+c</a><br>
+or, via email, send a message with subject or body &#39;help&#39; to<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 <a href=3D"mailto:hrpc-request@article19.io">hr=
+pc-request@article19.io</a><br>
+<br>
+You can reach the person managing the list at<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 <a href=3D"mailto:hrpc-owner@article19.io">hrpc=
+-owner@article19.io</a><br>
+<br>
+When replying, please edit your Subject line so it is more specific<br>
+than &quot;Re: Contents of hrpc digest...&quot;<br>
+<br>
+<br>
+Today&#39;s Topics:<br>
+<br>
+=C2=A0 =C2=A01. new draft text for the ID (Niels ten Oever)<br>
+=C2=A0 =C2=A02. relevant UNESCO draft document (Stephen Farrell)<br>
+<br>
+<br>
+----------------------------------------------------------------------<br>
+<br>
+Message: 1<br>
+Date: Tue, 03 Mar 2015 14:23:34 +0100<br>
+From: Niels ten Oever &lt;<a href=3D"mailto:niels@article19.org">niels@arti=
+cle19.org</a>&gt;<br>
+To: &quot;<a href=3D"mailto:hrpc@article19.io">hrpc@article19.io</a>&quot; =
+&lt;<a href=3D"mailto:hrpc@article19.io">hrpc@article19.io</a>&gt;<br>
+Subject: [hrpc] new draft text for the ID<br>
+Message-ID: &lt;<a href=3D"mailto:54F5B5D6.4080404@article19.org">54F5B5D6.=
+4080404@article19.org</a>&gt;<br>
+Content-Type: text/plain; charset=3Dutf-8<br>
+<br>
+-----BEGIN PGP SIGNED MESSAGE-----<br>
+Hash: SHA1<br>
+<br>
+Dear all,<br>
+<br>
+Based on the traffic on this list, some interviews and discussions I<br>
+drafted new text for the ID. The additions are to 2. research topic<br>
+and 3. Proposal. I pasted the proposed text underneath, happy to discuss.<b=
+r>
+<br>
+The deadline for sending in the ID is the 9th, and since we will also<br>
+need to consolidate the comments and put the ID in XML it would be<br>
+greatly appreciated if you could comment in the coming days (before<br>
+the 7th) so we can still integrate your comments in the ID, but of<br>
+course also happy to discuss afterwards and in Dallas.<br>
+<br>
+Looking forward to your comments, questions and suggestions.<br>
+<br>
+Best,<br>
+<br>
+Niels<br>
+<br>
+PS The original ID can be found here:<br>
+<a href=3D"https://tools.ietf.org/html/draft-doria-hrpc-proposal-00" target=
+=3D"_blank">https://tools.ietf.org/html/draft-doria-hrpc-proposal-00</a><br=
+>
+<br>
+2.=C2=A0 Research topic<br>
+In a manner similar to the work done for RFC 6973 [RFC6973] on Privacy<br>
+Consideration Guidelines, the premise of this research is that some<br>
+standards and protocols can solidify, enable or threaten human rights,<br>
+such as freedom of expression and the right to association and<br>
+assembly online.<br>
+<br>
+RFC 6973 however asserts privacy as a subset of security, and security<br>
+aims to solely serve growth of the network and communication:<br>
+<br>
+Development of security mechanisms is seen as a key factor in the<br>
+future growth of the Internet as a motor for international commerce<br>
+and communication.[RFC1984]=C2=A0 and according to the Danvers Doctrine,<br=
+>
+there=C2=A0 is an overwhelming=C2=A0 consensus in the IETF that the best<br=
+>
+security=C2=A0 should be used and=C2=A0 standardized.[RFC3365]. At the same=
+ time:<br>
+<br>
+The=C2=A0 Internet Architecture Board (IAB) and the Internet Engineering<br=
+>
+Steering=C2=A0 Group (IESG), the bodies which oversee architecture and<br>
+standards for=C2=A0 the Internet, are concerned by the need for increased<b=
+r>
+protection of=C2=A0 international commercial transactions on the Internet,<=
+br>
+and by the need=C2=A0 to offer all Internet users an adequate degree of<br>
+privacy. [RFC1984]<br>
+<br>
+This=C2=A0 shows that security and privacy are very high on the agenda of<b=
+r>
+the=C2=A0 IETF, but a reason for this, outside of underpinning growth and<b=
+r>
+trust of=C2=A0 the network, is not given. In this research it is argued<br>
+that security and privacy are (contributing to) essential human<br>
+rights; such as freedom of expression, the right to information, the<br>
+right to=C2=A0 privacy, and the right to security.<br>
+<br>
+The Internet aims to be a global network of network that provides<br>
+connectivity to all its users, just like the Universal Declaration of<br>
+Human Rights provides rights to all citizens. This makes a clear case<br>
+that the Internet is not only an enabler of human rights, but that<br>
+human rights, lie at the basis of, and is ingrained in, the network.<br>
+Furthermore=C2=A0 interview will be done with=C2=A0 the chair of the Intern=
+et<br>
+Architecture=C2=A0 Board (IAB), members of the=C2=A0 Internet Engineering<b=
+r>
+Steering Group (IESG)=C2=A0 and chairs of selected=C2=A0 working groups and=
+ RFC<br>
+authors.<br>
+<br>
+To start addressing the issue, a mapping exercise analyzing Internet<br>
+architecture and protocols features, vis-a-vis possible impact on<br>
+human rights needs to be<br>
+undertaken.<br>
+<br>
+[snip, leaving the examples in place]<br>
+<br>
+3.=C2=A0 Proposal<br>
+Mapping the relation between human rights and protocols and<br>
+architectures is a new research challenge, which will require a good<br>
+amount of cross organizational cooperation to develop a consistent<br>
+methodology.=C2=A0 While the authors of this first draft are involved in<br=
+>
+both human rights advocacy and research on Internet technologies - we<br>
+believe that bringing this work into the IRTF would facilitate and<br>
+improve this work by bringing human rights experts together with the<br>
+community of researchers and developers of Internet standards and<br>
+technologies.<br>
+<br>
+At this point we have created a mailing list where we would like to<br>
+encourage discussion of the issue and capture interest of the IRTF<br>
+community.=C2=A0 A second step would be to create a charter and ask the<br>
+IRTF for a Research group to further develop methodology and<br>
+investigate Human rights Protocol considerations.<br>
+<br>
+Assuming that the research produces useful results, the objective<br>
+would evolve into the creation of a set of recommended considerations<br>
+for the protection of applicable human rights.<br>
+<br>
+In the=C2=A0 analysis of existing RFCs central design and technical<br>
+concepts have been found which impact human rights. These concepts<br>
+will form the lens for the analysis of RFCs and will be further<br>
+described vis a vis their impact on human rights.<br>
+<br>
+The current working assumption is the following:<br>
+<br>
+The=C2=A0 combination of content agnosticism, connectivity, security (as<br=
+>
+defined in RFC 3365) [RFC3365] and privacy (as defined in RFC 6973)<br>
+[RFC6973] are the technical principles that underly freedom of<br>
+expression on the Internet.<br>
+<br>
+Privacy and security are defined, so here we focus on concepts that<br>
+have not been defined as considerations that are relevant for freedom<br>
+of expression.<br>
+<br>
+This is a non-exhaustive first list of concepts, which definitions<br>
+should be improved and further aligned with existing RFCs.<br>
+<br>
+Connectivity<br>
+The Internet is the tool for providing global connectivity conform<br>
+RFC1958. Therefore all protocols and standards should aim to improve<br>
+connectivity, and not to limit it.<br>
+<br>
+Distributed<br>
+To=C2=A0 enable and strengthen connectivity, stability, and sustainability<=
+br>
+of=C2=A0 the network, protocols and standards should be developed in a way<=
+br>
+that=C2=A0 they can be implemented in a distributed way, if not, strong<br>
+accountability mechanism should be in place.<br>
+<br>
+Inter-operable<br>
+Standards exist to design systems that allow for other systems to<br>
+interact freely and openly.<br>
+<br>
+Reliable<br>
+Reliability ensures that a protocol will execute its function<br>
+consistently and=C2=A0 error resistant as described and function without<br=
+>
+unexpected result, also when there is an increase or decrease of<br>
+throughput. A system that is reliable will have a documented way to<br>
+recover from failure.<br>
+<br>
+Scalable<br>
+Any=C2=A0 solution should support growth of the network with more hosts,<br=
+>
+users and traffic. And have clear understanding of it&#39;s scope and<br>
+ideally a proposition how it can be expanded in order to support<br>
+greater capacity.<br>
+<br>
+Stateless / state-full<br>
+If=C2=A0 possible protocols should be implemented stateless for reliability=
+<br>
+and privacy considerations. If not, they should keep as little state<br>
+as possible.<br>
+<br>
+Content agnostic<br>
+Protocols should not treat packets/datagrams differently based on<br>
+their content.<br>
+<br>
+Transparent<br>
+Protocols should be transparent in what they can do and can not do and<br>
+how it is=C2=A0 done. Implementation of protocols should advertise it&#39;s=
+<br>
+policies on data retention for the service and which jurisdiction it<br>
+falls under.<br>
+<br>
+Debugging<br>
+A protocol should allow a user to troubleshoot and debug possible<br>
+causes of malfunction and loss of reliability.<br>
+<br>
+Robust, robustness<br>
+Protocols should be resistant to errors, involuntary legal or<br>
+malicious attempts=C2=A0 to disrupt its mode of operations. Protocols<br>
+should be developed in a=C2=A0 way that there is no (intransparent) kill<br=
+>
+switch. There should also be a clear description on how a protocol<br>
+recovers from potential failures.<br>
+<br>
+End user-centric / representing=C2=A0 stakeholder rights<br>
+As proposed in draft-nottingham-stakeholder-rights-00:<br>
+<br>
+[QUOTE]<br>
+Protocols MUST document relevant primary stakeholders and their<br>
+interrelationships.<br>
+<br>
+[..]<br>
+<br>
+=C2=A0End-user-facing application protocols MUST prioritise their users<br>
+higher than any other stakeholders.<br>
+Extensions to existing protocols MUST document how they interact with<br>
+the extended protocol&#39;s stakeholders.=C2=A0 If the extended protocol&#3=
+9;s<br>
+stakeholders are not yet documented, the extension MAY estimate its<br>
+impact, in coordination with that protocol&#39;s community and the IESG.<br=
+>
+The burden of this documentation need not be high; if HTML can do it<br>
+in a paragraph, so can most protocols.=C2=A0 While it might be appropriate<=
+br>
+in a separate document (e.g., a requirements or use cases draft) or<br>
+the protocol specification itself, documenting stakeholders in the WG<br>
+charter has considerable benefits, since it clarifies their<br>
+relationships up-front.<br>
+<br>
+[/QUOTE]<br>
+<br>
+<br>
+- --<br>
+Niels ten Oever<br>
+Head of Digital<br>
+<br>
+Article 19<br>
+<a href=3D"http://www.article19.org" target=3D"_blank">www.article19.org</a=
+><br>
+<br>
+PGP fingerprint=C2=A0 =C2=A0 8D9F C567 BEE4 A431 56C4<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0678B 0=
+8B5 A0F2 636D 68E9<br>
+-----BEGIN PGP SIGNATURE-----<br>
+Version: GnuPG v1.4.12 (GNU/Linux)<br>
+<br>
+iQEcBAEBAgAGBQJU9bXVAAoJEAi1oPJjbWjpeKEH/3MhfM1yFG2aJf4/8ZBWwQtA<br>
+rlb0iVw2mCeA9RsulzgkU7cZC3dh+24PIVsX0DmiaCJtk7YJbCzI8wQtvm8b2aD0<br>
+PnQzRbkCGHxpPKLP+GkuNr2iQCdWQ6YoY68g8up26jHco9DUaTIOw9zGFV4lApu3<br>
+d2/9DvyrF/d2lgO17c9vFVmAoE+wWdlE1CMRV2SDGcbz9Fb9xSntnJ5/+SXkNpQ+<br>
+24BaCk73xK88mRqvk/HLUO3GCoDd3ytM5KuU0X4hQOoLVWOpyQaVOadtLQbLkNNX<br>
+GB1NIalgs8ivK+8PXn4fsbKMCYLR3HcSDIzC/uiICRciznu0G82v49pZYYAVt+Y=3D<br>
+=3DDKrF<br>
+-----END PGP SIGNATURE-----<br>
+<br>
+<br>
+<br>
+------------------------------<br>
+<br>
+Message: 2<br>
+Date: Tue, 03 Mar 2015 18:40:17 +0000<br>
+From: Stephen Farrell &lt;<a href=3D"mailto:stephen.farrell@cs.tcd.ie">step=
+hen.farrell@cs.tcd.ie</a>&gt;<br>
+To: &quot;<a href=3D"mailto:hrpc@article19.io">hrpc@article19.io</a>&quot; =
+&lt;<a href=3D"mailto:hrpc@article19.io">hrpc@article19.io</a>&gt;<br>
+Subject: [hrpc] relevant UNESCO draft document<br>
+Message-ID: &lt;<a href=3D"mailto:54F60011.9050906@cs.tcd.ie">54F60011.9050=
+906@cs.tcd.ie</a>&gt;<br>
+Content-Type: text/plain; charset=3Dutf-8<br>
+<br>
+<br>
+Hiya,<br>
+<br>
+I&#39;m at a UNESCO conference at the moment [1] and they have a<br>
+draft document for which they&#39;d like to get more technical<br>
+review. [2]<br>
+<br>
+I&#39;m not sure to which email address they&#39;d like comments sent<br>
+but I&#39;ll check tomorrow and send a mail here. You&#39;ll not have<br>
+read the 96 pages by then most likely though:-) But it&#39;s pretty<br>
+relevant to this list I think.<br>
+<br>
+Cheers,<br>
+S.<br>
+<br>
+<br>
+[1] <a href=3D"http://www.unesco.org/new/en/netconference2015" target=3D"_b=
+lank">http://www.unesco.org/new/en/netconference2015</a><br>
+[2]<br>
+<a href=3D"http://www.unesco.org/new/fileadmin/MULTIMEDIA/HQ/CI/CI/pdf/inte=
+rnet_draft_study.pdf" target=3D"_blank">http://www.unesco.org/new/fileadmin=
+/MULTIMEDIA/HQ/CI/CI/pdf/internet_draft_study.pdf</a><br>
+<br>
+<br>
+<br>
+<br>
+------------------------------<br>
+<br>
+_______________________________________________<br>
+hrpc mailing list<br>
+<a href=3D"mailto:hrpc@article19.io">hrpc@article19.io</a><br>
+<a href=3D"https://lists.ghserv.net/mailman/listinfo/hrpc" target=3D"_blank=
+">https://lists.ghserv.net/mailman/listinfo/hrpc</a><br>
+<br>
+End of hrpc Digest, Vol 6, Issue 1<br>
+**********************************<br>
+</blockquote></div><br><br clear=3D"all"><br>-- <br><div class=3D"gmail_sig=
+nature"><br><br><br>&#39;The management of normality is hard work&#39;<br><=
+/div>
+</div>
+
+--f46d04138ccd520ded051077f87b--
+
+
+From niels@article19.org Wed Mar 04 22:00:44 2015
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <niels@article19.org>) id 1YTGPM-0005JO-2s
+	for hrpc@article19.io; Wed, 04 Mar 2015 22:00:44 +0100
+Received: from vps784.greenhost.nl ([213.108.108.114] helo=mail.article19.io)
+	by mx1.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <niels@article19.org>) id 1YTGPL-0005f9-Mj
+	for hrpc@article19.io; Wed, 04 Mar 2015 22:00:43 +0100
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 7068014404
+	for <hrpc@article19.io>; Wed,  4 Mar 2015 21:02:42 +0000 (UTC)
+X-Spam-Flag: NO
+X-Spam-Score: -2.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.9 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_00=-1.9] autolearn=ham autolearn_force=no
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id o_woMVb0oHVU for <hrpc@article19.io>;
+	Wed,  4 Mar 2015 21:02:41 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id BAEF414411
+	for <hrpc@article19.io>; Wed,  4 Mar 2015 21:02:41 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id sIJRx7JhgPyb for <hrpc@article19.io>;
+	Wed,  4 Mar 2015 21:02:41 +0000 (UTC)
+Received: from [192.168.1.18] (81.202.49.19.dyn.user.ono.com [81.202.49.19])
+	by mail.article19.io (Postfix) with ESMTPSA id 6BC8F14404
+	for <hrpc@article19.io>; Wed,  4 Mar 2015 21:02:41 +0000 (UTC)
+Message-ID: <54F77278.4060202@article19.org>
+Date: Wed, 04 Mar 2015 22:00:40 +0100
+From: Niels ten Oever <niels@article19.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:31.0) Gecko/20100101 Icedove/31.5.0
+MIME-Version: 1.0
+To: hrpc@article19.io
+References: <mailman.11.1425466806.17664.hrpc@article19.io>
+	<CAD499eJr3eRPkmRfQOLSt_kPqzyAoaTLphWsRSBc1kJQ33MeZA@mail.gmail.com>
+In-Reply-To: <CAD499eJr3eRPkmRfQOLSt_kPqzyAoaTLphWsRSBc1kJQ33MeZA@mail.gmail.com>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Level: +
+X-Spam-Status: No, score=1.6 required=5.0 tests=BAYES_50,
+	SPF_NEUTRAL autolearn=disabled version=3.3.2
+X-Spam-Score: 1.6
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 4cc6a862e0a753e674eb374334b394fd
+Subject: [hrpc] Scope (was: Re: hrpc Digest, Vol 6, Issue 1)
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Wed, 04 Mar 2015 21:00:44 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi Corinne,
+
+Thanks for this. Great that you will be coming to Dallas!
+
+On 03/04/2015 04:18 PM, Corinne Cath wrote:
+> Dear all,
+>=20
+> Just a thought:
+>=20
+> It's clear that there are privacy considerations w/ standards, and=20
+> security issues, of course, and those are both human rights issues
+> even though  IT privacy and security are not usually framed within
+> a human rights context.
+
+Not sure, what about the Human Rights Council resolution "on the
+promotion, protection and enjoyment of human rights on the Internet",
+the the resolution "The right to privacy in the digital age" by the UN
+general assembly and the NETmundial outcome document?
+
+> However, should we be even more specific in this document of what
+> makes  standards development different from any other Internet/IT
+> engineering issues?
+>=20
+> Users interface with software and hardware more than they do with=20
+> networking or encryption standards. Why are protocols / standards=20
+> unique? Or perhaps more relevant, how do we justify our particular
+> focus on them.
+
+Protocols are the standards for the exchange of information. So they
+ensure that systems can communicate with each other, but also shape
+the way in which that is done, what is possible, and what is not. That
+is the unique and important role of standards in the ecosystem. In
+other words: Protocols and standards form the basis of the the
+Internet, they define what the Internet is and how it works. I think
+that's why we're focusing on them,
+
+> It's a small thing - but I think it might make the document a=20
+> little stronger still if we address this issue, because I feel
+> this might be a point of critique brought up at the upcoming
+> meeting.
+>=20
+
+Always happy to consider text proposals for the ID of course.
+
+Best,
+
+Niels
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJU93J4AAoJEAi1oPJjbWjpILgH/R8Mjo8b0uUsPAiZmeF6To1q
++IecdmAsN1K3BlVruw13VxBhUB7r/p5Gke1XWZkRkI8DPdM4cAmbGTyITjl0LT1Z
+oh62HFemZnN0edl52AG08/jPFDZ7HS5PgFflPNJFv0JBlkKnUUkS5z3ckFhS7yL7
+U0mNhVX6EZEmWKn60iBmkM1yhgh71Un9lcsMBt3kcyAuHEY3FvYPi/f0jr5igVc7
+5yYlCQWuGzC8DeVaeqWWTKouOCUPlforsKUZES6GmMvXE9JqkragpK6nVSFSQ/1K
+kn4Rl7bl571T/zRP9TQD18Wc/AScMvgkhQZ4bpfYO6Tzet4gKWea7v4u5K3S6bg=3D
+=3DtjbA
+-----END PGP SIGNATURE-----
+
+
+From niels@article19.org Mon Mar 09 16:39:42 2015
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <niels@article19.org>) id 1YUzmQ-0005F1-LZ
+	for hrpc@article19.io; Mon, 09 Mar 2015 16:39:42 +0100
+Received: from vps784.greenhost.nl ([213.108.108.114] helo=mail.article19.io)
+	by mx1.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <niels@article19.org>) id 1YUzmQ-0006WA-9J
+	for hrpc@article19.io; Mon, 09 Mar 2015 16:39:42 +0100
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 47662C0008
+	for <hrpc@article19.io>; Mon,  9 Mar 2015 15:41:50 +0000 (UTC)
+X-Spam-Flag: NO
+X-Spam-Score: -2.899
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.899 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_00=-1.9, URIBL_BLOCKED=0.001]
+	autolearn=ham autolearn_force=no
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id 0KHmH9NEWh1U for <hrpc@article19.io>;
+	Mon,  9 Mar 2015 15:41:47 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 582AAC0009
+	for <hrpc@article19.io>; Mon,  9 Mar 2015 15:41:47 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id weyoo2pESat1 for <hrpc@article19.io>;
+	Mon,  9 Mar 2015 15:41:47 +0000 (UTC)
+Received: from [192.168.1.34] (fil75-2-78-192-151-37.fbxo.proxad.net
+	[78.192.151.37])
+	by mail.article19.io (Postfix) with ESMTPSA id DDB01CC03D
+	for <hrpc@article19.io>; Mon,  9 Mar 2015 15:41:46 +0000 (UTC)
+Message-ID: <54FDBEB8.8050205@article19.org>
+Date: Mon, 09 Mar 2015 16:39:36 +0100
+From: Niels ten Oever <niels@article19.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:31.0) Gecko/20100101 Icedove/31.5.0
+MIME-Version: 1.0
+To: "hrpc@article19.io" <hrpc@article19.io>
+References: <20150309152157.24740.19765.idtracker@ietfa.amsl.com>
+In-Reply-To: <20150309152157.24740.19765.idtracker@ietfa.amsl.com>
+X-Forwarded-Message-Id: <20150309152157.24740.19765.idtracker@ietfa.amsl.com>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Level: /
+X-Spam-Status: No, score=0.8 required=5.0 tests=BAYES_40, SPF_NEUTRAL,
+	URIBL_BLOCKED autolearn=disabled version=3.3.2
+X-Spam-Score: 0.8
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: bc82d6a2e188773012c482ed32290af0
+Subject: [hrpc] Fwd: New Version Notification for
+	draft-doria-hrpc-proposal-01.txt
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Mon, 09 Mar 2015 15:39:43 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Dear all,
+
+A new version of the ID was just published, please find the links to
+the ID and the diff underneath.
+
+Looking forward to discuss!
+
+Best,
+
+Niels
+
+- -------- Forwarded Message --------
+Subject: New Version Notification for draft-doria-hrpc-proposal-01.txt
+Date: Mon, 09 Mar 2015 08:21:57 -0700
+From: internet-drafts@ietf.org
+To: Avri Doria <avri@acm.org>, Joana Varon <joana@varonferraz.com>,
+Joana Varon <joana@varonferraz.com>, Niels ten Oever
+<niels@article19.org>, Niels ten Oever <niels@article19.org>, Avri
+Doria <avri@acm.org>
+
+
+A new version of I-D, draft-doria-hrpc-proposal-01.txt
+has been successfully submitted by Avri Doria and posted to the
+IETF repository.
+
+Name:		draft-doria-hrpc-proposal
+Revision:	01
+Title:		Proposal for research on human rights protocol considerations
+Document date:	2015-03-09
+Group:		Individual Submission
+Pages:		13
+URL:
+http://www.ietf.org/internet-drafts/draft-doria-hrpc-proposal-01.txt
+Status:
+https://datatracker.ietf.org/doc/draft-doria-hrpc-proposal/
+Htmlized:       http://tools.ietf.org/html/draft-doria-hrpc-proposal-01
+Diff:
+http://www.ietf.org/rfcdiff?url2=3Ddraft-doria-hrpc-proposal-01
+
+Abstract:
+   Work has been done on privacy issues that should be considered when
+   creating an Internet protocol.  This draft suggests that similar
+   considerations may apply for other human rights such as freedom of
+   expression or freedom of association.  A proposal is made for work in
+   the IRTF researching the possible connections between human rights
+   and Internet standards and protocols.  The goal is to create an
+   informational RFC concerning human rights protocol considerations.
+
+   Discussion on this draft at: hrpc@article19.io
+
+
+
+
+
+Please note that it may take a couple of minutes from the time of
+submission
+until the htmlized version and diff are available at tools.ietf.org.
+
+The IETF Secretariat
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJU/b64AAoJEAi1oPJjbWjpUA0H/iuFkNAjKNPEdkC7TZZq4w9v
+DcGPdImsLKtRhOLLxVq+7rf8RPJqjzVh1/f4Ep6lyGjPi9mB0gDXCQ0flxBqsetw
+9rpeQNndZ1sA7bO35+FXK0cI182CNFU8iJePZT6crle7ql/b/YIHUOXRY805ccK/
+9GfGC5HPhVqvILynND+3OjGnTXb7xnzTzbedMaR14UCnTQRwSJgDEAx3bI0jQ9/I
+LhzuPwPYbZTtd5Ek2QeieIbuMLy5vVfEFYG7QOwz73al/5YEKbEa9wZy12tvNi1+
+E9k4lVZwnm7NNXweXOxSOZeAHW6GVCHACsWg1k0cZDz/HeXKY9v42DU79IdFPZc=3D
+=3Day2+
+-----END PGP SIGNATURE-----
+
+
+From joana@varonferraz.com Mon Mar 09 16:57:08 2015
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <joana@varonferraz.com>) id 1YV03I-0005GM-AP
+	for hrpc@article19.io; Mon, 09 Mar 2015 16:57:08 +0100
+Received: from smarthost1.greenhost.nl ([195.190.28.81])
+	by mx1.greenhost.nl with esmtps (TLS1.0:RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <joana@varonferraz.com>)
+	id 1YV03I-0007O4-7o
+	for hrpc@article19.io; Mon, 09 Mar 2015 16:57:08 +0100
+Received: from smtp.greenhost.nl ([213.108.104.138])
+	by smarthost1.greenhost.nl with esmtps (TLS1.0:RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <joana@varonferraz.com>)
+	id 1YV03C-0002WF-Ge
+	for hrpc@article19.io; Mon, 09 Mar 2015 16:57:08 +0100
+Message-ID: <54FDC2CE.6070909@varonferraz.com>
+Date: Mon, 09 Mar 2015 12:57:02 -0300
+From: Joana Varon <joana@varonferraz.com>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:31.0) Gecko/20100101 Thunderbird/31.5.0
+MIME-Version: 1.0
+To: hrpc@article19.io
+References: <20150309152157.24740.19765.idtracker@ietfa.amsl.com>
+	<54FDBEB8.8050205@article19.org>
+In-Reply-To: <54FDBEB8.8050205@article19.org>
+Content-Type: multipart/alternative;
+	boundary="------------050507010504000208090303"
+X-Authenticated-As-Hash: 0663834574f9da71d8f82ee71c27915bbc5237b0
+X-Virus-Scanned: by clamav at smarthost1.samage.net
+X-Spam-Level: -
+X-Spam-Score: -1.0
+X-Spam-Status: No, score=-1.0 required=5.0 tests=ALL_TRUSTED, BAYES_20,
+	HTML_MESSAGE, URIBL_BLOCKED autolearn=disabled version=3.3.1
+X-Scan-Signature: 07bd28db4874ba8a664e5b7397826079
+Subject: Re: [hrpc] Fwd: New Version Notification for
+	draft-doria-hrpc-proposal-01.txt
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Mon, 09 Mar 2015 15:57:08 -0000
+
+This is a multi-part message in MIME format.
+--------------050507010504000208090303
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Dear all,
+
+In a correlated note: thanks for your inputs in this list. They have
+helped us a lot to be able to develop the ID further.=20
+
+Please, note that the IETF hrpc session to discuss the next steps of the
+draft is scheduled for *Friday, March, 27th from 11:50 to 13:20*. It
+would be lovely if you could join us in person to keep this conversation
+going. So, please, consider adding it to your schedule. :)
+
+Our next task is to set up a good agenda and methodology for that
+debate, so, if there is any particular aspect of the draft that you
+would want to be highlighted in that session, please, feel free to
+suggest. We shall come up with a structure for your inputs asap.
+
+Kind regards,
+
+Joana
+
+--=20
+--
+Joana Varon
+@joana_varon
+Fingerprint
+239D E977 32D0 28BC 297F 64B6 3B69 BDE4 016B 8E73
+
+On 09-03-2015 12:39, Niels ten Oever wrote:
+> Dear all,
+>
+> A new version of the ID was just published, please find the links to
+> the ID and the diff underneath.
+>
+> Looking forward to discuss!
+>
+> Best,
+>
+> Niels
+>
+> -------- Forwarded Message --------
+> Subject: New Version Notification for draft-doria-hrpc-proposal-01.txt
+> Date: Mon, 09 Mar 2015 08:21:57 -0700
+> From: internet-drafts@ietf.org
+> To: Avri Doria <avri@acm.org>, Joana Varon <joana@varonferraz.com>,
+> Joana Varon <joana@varonferraz.com>, Niels ten Oever
+> <niels@article19.org>, Niels ten Oever <niels@article19.org>, Avri
+> Doria <avri@acm.org>
+>
+>
+> A new version of I-D, draft-doria-hrpc-proposal-01.txt
+> has been successfully submitted by Avri Doria and posted to the
+> IETF repository.
+>
+> Name:        draft-doria-hrpc-proposal
+> Revision:    01
+> Title:        Proposal for research on human rights protocol
+> considerations
+> Document date:    2015-03-09
+> Group:        Individual Submission
+> Pages:        13
+> URL:
+> http://www.ietf.org/internet-drafts/draft-doria-hrpc-proposal-01.txt
+> Status:
+> https://datatracker.ietf.org/doc/draft-doria-hrpc-proposal/
+> Htmlized:       http://tools.ietf.org/html/draft-doria-hrpc-proposal-01=
+
+> Diff:
+> http://www.ietf.org/rfcdiff?url2=3Ddraft-doria-hrpc-proposal-01
+>
+> Abstract:
+>    Work has been done on privacy issues that should be considered when
+>    creating an Internet protocol.  This draft suggests that similar
+>    considerations may apply for other human rights such as freedom of
+>    expression or freedom of association.  A proposal is made for work i=
+n
+>    the IRTF researching the possible connections between human rights
+>    and Internet standards and protocols.  The goal is to create an
+>    informational RFC concerning human rights protocol considerations.
+>
+>    Discussion on this draft at: hrpc@article19.io
+>
+>
+>
+>
+>
+> Please note that it may take a couple of minutes from the time of
+> submission
+> until the htmlized version and diff are available at tools.ietf.org.
+>
+> The IETF Secretariat
+>
+>
+>
+>
+> _______________________________________________
+> hrpc mailing list
+> hrpc@article19.io
+> https://lists.ghserv.net/mailman/listinfo/hrpc
+
+
+
+
+--------------050507010504000208090303
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252"
+      http-equiv="Content-Type">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    Dear all, <br>
+    <br>
+    In a correlated note: thanks for your inputs in this list. They have
+    helped us a lot to be able to develop the ID further.  <br>
+    <br>
+    Please, note that the IETF hrpc session to discuss the next steps of
+    the draft is scheduled for <b>Friday, March, 27th from 11:50 to
+      13:20</b>. It would be lovely if you could join us in person to
+    keep this conversation going. So, please, consider adding it to your
+    schedule. :)<br>
+    <br>
+    Our next task is to set up a good agenda and methodology for that
+    debate, so, if there is any particular aspect of the draft that you
+    would want to be highlighted in that session, please, feel free to
+    suggest. We shall come up with a structure for your inputs asap.<br>
+    <br>
+    Kind regards, <br>
+    <br>
+    Joana<br>
+    <br>
+    -- <br>
+    --<br>
+    Joana Varon<br>
+    @joana_varon<br>
+    Fingerprint <br>
+    239D E977 32D0 28BC 297F 64B6 3B69 BDE4 016B 8E73<br>
+    <br>
+    On 09-03-2015 12:39, Niels ten Oever wrote:<br>
+    <blockquote type="cite">Dear all,<br>
+      <br>
+      A new version of the ID was just published, please find the links
+      to<br>
+      the ID and the diff underneath.<br>
+      <br>
+      Looking forward to discuss!<br>
+      <br>
+      Best,<br>
+      <br>
+      Niels<br>
+      <br>
+      -------- Forwarded Message --------<br>
+      Subject: New Version Notification for
+      draft-doria-hrpc-proposal-01.txt<br>
+      Date: Mon, 09 Mar 2015 08:21:57 -0700<br>
+      From: <a class="moz-txt-link-abbreviated" href="mailto:internet-drafts@ietf.org">internet-drafts@ietf.org</a><br>
+      To: Avri Doria <a class="moz-txt-link-rfc2396E" href="mailto:avri@acm.org">&lt;avri@acm.org&gt;</a>, Joana Varon
+      <a class="moz-txt-link-rfc2396E" href="mailto:joana@varonferraz.com">&lt;joana@varonferraz.com&gt;</a>,<br>
+      Joana Varon <a class="moz-txt-link-rfc2396E" href="mailto:joana@varonferraz.com">&lt;joana@varonferraz.com&gt;</a>, Niels ten Oever<br>
+      <a class="moz-txt-link-rfc2396E" href="mailto:niels@article19.org">&lt;niels@article19.org&gt;</a>, Niels ten Oever
+      <a class="moz-txt-link-rfc2396E" href="mailto:niels@article19.org">&lt;niels@article19.org&gt;</a>, Avri<br>
+      Doria <a class="moz-txt-link-rfc2396E" href="mailto:avri@acm.org">&lt;avri@acm.org&gt;</a><br>
+      <br>
+      <br>
+      A new version of I-D, draft-doria-hrpc-proposal-01.txt<br>
+      has been successfully submitted by Avri Doria and posted to the<br>
+      IETF repository.<br>
+      <br>
+      Name:        draft-doria-hrpc-proposal<br>
+      Revision:    01<br>
+      Title:        Proposal for research on human rights protocol
+      considerations<br>
+      Document date:    2015-03-09<br>
+      Group:        Individual Submission<br>
+      Pages:        13<br>
+      URL:<br>
+<a class="moz-txt-link-freetext" href="http://www.ietf.org/internet-drafts/draft-doria-hrpc-proposal-01.txt">http://www.ietf.org/internet-drafts/draft-doria-hrpc-proposal-01.txt</a><br>
+      Status:<br>
+      <a class="moz-txt-link-freetext" href="https://datatracker.ietf.org/doc/draft-doria-hrpc-proposal/">https://datatracker.ietf.org/doc/draft-doria-hrpc-proposal/</a><br>
+      Htmlized:      
+      <a class="moz-txt-link-freetext" href="http://tools.ietf.org/html/draft-doria-hrpc-proposal-01">http://tools.ietf.org/html/draft-doria-hrpc-proposal-01</a><br>
+      Diff:<br>
+      <a class="moz-txt-link-freetext" href="http://www.ietf.org/rfcdiff?url2=draft-doria-hrpc-proposal-01">http://www.ietf.org/rfcdiff?url2=draft-doria-hrpc-proposal-01</a><br>
+      <br>
+      Abstract:<br>
+         Work has been done on privacy issues that should be considered
+      when<br>
+         creating an Internet protocol.  This draft suggests that
+      similar<br>
+         considerations may apply for other human rights such as freedom
+      of<br>
+         expression or freedom of association.  A proposal is made for
+      work in<br>
+         the IRTF researching the possible connections between human
+      rights<br>
+         and Internet standards and protocols.  The goal is to create an<br>
+         informational RFC concerning human rights protocol
+      considerations.<br>
+      <br>
+         Discussion on this draft at: <a class="moz-txt-link-abbreviated" href="mailto:hrpc@article19.io">hrpc@article19.io</a><br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      Please note that it may take a couple of minutes from the time of<br>
+      submission<br>
+      until the htmlized version and diff are available at
+      tools.ietf.org.<br>
+      <br>
+      The IETF Secretariat<br>
+      <br>
+      <br>
+      <br>
+    </blockquote>
+    <span style="white-space: pre;">&gt;<br>
+      &gt; _______________________________________________<br>
+      &gt; hrpc mailing list<br>
+      &gt; <a class="moz-txt-link-abbreviated" href="mailto:hrpc@article19.io">hrpc@article19.io</a><br>
+      &gt; <a class="moz-txt-link-freetext" href="https://lists.ghserv.net/mailman/listinfo/hrpc">https://lists.ghserv.net/mailman/listinfo/hrpc</a></span><br>
+    <br>
+    <br>
+    <br>
+  </body>
+</html>
+
+--------------050507010504000208090303--
+
+
+From niels@article19.org Sun Mar 15 21:38:15 2015
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <niels@article19.org>) id 1YXFId-000189-O3
+	for hrpc@article19.io; Sun, 15 Mar 2015 21:38:15 +0100
+Received: from vps784.greenhost.nl ([213.108.108.114] helo=mail.article19.io)
+	by mx1.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <niels@article19.org>) id 1YXFId-0004bq-Fc
+	for hrpc@article19.io; Sun, 15 Mar 2015 21:38:15 +0100
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 885464019
+	for <hrpc@article19.io>; Sun, 15 Mar 2015 20:40:35 +0000 (UTC)
+X-Spam-Flag: NO
+X-Spam-Score: -2.899
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.899 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_00=-1.9, URIBL_BLOCKED=0.001]
+	autolearn=ham autolearn_force=no
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id aG6h6pdtfhNW for <hrpc@article19.io>;
+	Sun, 15 Mar 2015 20:40:34 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 9AA4B11403D
+	for <hrpc@article19.io>; Sun, 15 Mar 2015 20:40:34 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id pHMSNAuPm9L3 for <hrpc@article19.io>;
+	Sun, 15 Mar 2015 20:40:34 +0000 (UTC)
+Received: from [192.168.0.14] (d109201.upc-d.chello.nl [213.46.109.201])
+	by mail.article19.io (Postfix) with ESMTPSA id 508AB130000
+	for <hrpc@article19.io>; Sun, 15 Mar 2015 20:40:34 +0000 (UTC)
+Message-ID: <5505EDB5.7020705@article19.org>
+Date: Sun, 15 Mar 2015 21:38:13 +0100
+From: Niels ten Oever <niels@article19.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:31.0) Gecko/20100101 Icedove/31.5.0
+MIME-Version: 1.0
+To: "hrpc@article19.io" <hrpc@article19.io>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Spam-Level: /
+X-Spam-Status: No, score=0.3 required=5.0 tests=BAYES_05, SPF_NEUTRAL,
+	URIBL_BLOCKED autolearn=disabled version=3.3.2
+X-Spam-Score: 0.3
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 9090f8a1960d7f777b94d17b6f36e747
+Subject: [hrpc] recap of Honolulu session in IETF journal
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Sun, 15 Mar 2015 20:38:16 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Dear all,
+
+A recap of our presentation and discussion in Honolulu can be found in
+the new IETF journal. You can download it here:
+
+[PDF]
+https://www.internetsociety.org/sites/default/files/Journal_March%202.pdf
+
+You can find the article on pages 12 and 13.
+
+Best,
+
+Niels
+- -- 
+Niels ten Oever
+Head of Digital
+
+Article 19
+www.article19.org
+
+PGP fingerprint    8D9F C567 BEE4 A431 56C4
+                   678B 08B5 A0F2 636D 68E9
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJVBe21AAoJEAi1oPJjbWjpfOMIAIryliEbaMcQ5jrJ+8+fRJ/l
+837ATQGcEnMWMjDzKwRJKbThEaoGNuwzgvrCav2qph+fvpY/BqrX+ITuWMVF8N0Y
+CdsaQ2IU3mhV8Vm8R6bWR8zKJwlYNfL2wy+4gOWBruI0voimjzknoTN73OXaH+BM
+LtbQWPrNXjcX2UQPIJGxBrIn8B5gW1dgBbflUJuMhu1IfnAvK1nzxUiLhpN+r28K
+YULzoEE1s/ZDAPHaKiQ86oCaDEeY8Ff8wX2nqmVV4jCV309Ci6in0/bT8hO48+AJ
+uxIEr0ELh216aBVd+EbVdM9myL+E0kBpoIQ1buhTGMBEUx/Cca9ncaIoLLcg5d0=
+=DDK+
+-----END PGP SIGNATURE-----
+
+
+From niels@article19.org Fri Mar 27 11:42:14 2015
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <niels@article19.org>) id 1YbRiQ-0000NZ-3r
+	for hrpc@article19.io; Fri, 27 Mar 2015 11:42:14 +0100
+Received: from vps784.greenhost.nl ([213.108.108.114] helo=mail.article19.io)
+	by mx1.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <niels@article19.org>) id 1YbRiP-0003fw-L8
+	for hrpc@article19.io; Fri, 27 Mar 2015 11:42:14 +0100
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 296DF13002B
+	for <hrpc@article19.io>; Fri, 27 Mar 2015 10:44:56 +0000 (UTC)
+X-Spam-Flag: NO
+X-Spam-Score: -2.899
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.899 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_00=-1.9, URIBL_BLOCKED=0.001]
+	autolearn=ham autolearn_force=no
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id wtF9I_yCkYEQ for <hrpc@article19.io>;
+	Fri, 27 Mar 2015 10:44:55 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 7E10213002E
+	for <hrpc@article19.io>; Fri, 27 Mar 2015 10:44:55 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id vf3whrJFUNS2 for <hrpc@article19.io>;
+	Fri, 27 Mar 2015 10:44:55 +0000 (UTC)
+Received: from [31.133.137.168] (dhcp-89a8.meeting.ietf.org [31.133.137.168])
+	by mail.article19.io (Postfix) with ESMTPSA id F354613002B
+	for <hrpc@article19.io>; Fri, 27 Mar 2015 10:44:54 +0000 (UTC)
+Message-ID: <55153401.7030900@article19.org>
+Date: Fri, 27 Mar 2015 05:42:09 -0500
+From: Niels ten Oever <niels@article19.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:31.0) Gecko/20100101 Icedove/31.5.0
+MIME-Version: 1.0
+To: "hrpc@article19.io" <hrpc@article19.io>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Spam-Level: /
+X-Spam-Status: No, score=0.8 required=5.0 tests=BAYES_40, SPF_NEUTRAL,
+	URIBL_BLOCKED autolearn=disabled version=3.3.2
+X-Spam-Score: 0.8
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 9090f8a1960d7f777b94d17b6f36e747
+Subject: [hrpc] Scribe for session today
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Fri, 27 Mar 2015 10:42:14 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Dear all,
+
+We're greatly looking forward to our session today at 11:50 in Dallas.
+
+Is there anyone who would like to volunteer as a Jabber scribe? [0]
+
+Best,
+
+Niels
+
+
+
+[0] http://datatracker.ietf.org/doc/draft-saintandre-jabber-scribe/
+- -- 
+Niels ten Oever
+Head of Digital
+
+Article 19
+www.article19.org
+
+PGP fingerprint    8D9F C567 BEE4 A431 56C4
+                   678B 08B5 A0F2 636D 68E9
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJVFTQAAAoJEAi1oPJjbWjpLkkH/i4WcY9HuQVpDvp4WjkdegUH
+9FG0B0/0FmQpdj3pRpIN0bLBe4cSyoag0m1pYDchaAgFQIeG+5mGykW2l/WKUS7x
+h/Z4DlYCaXNkK8a8sy5d3qAp6g6cnoGNowzqZG9W2vUJ9F1Pdcp+VqFqs5oUIGWi
+methdHa/ZH2BZUOJAAPk7OSQGyyBIO9Mkd6MF6ThX7hPzYfcxl9vfnu7G3yV6F0u
+HfrwrbAKJoZe7KtytIynlRIdw5BT75XozIIVqIDF0DiA993/hYpgkq3XR8Qd8Q9w
+nG+MqUmgtY7Jq4dOM4b+o3oxC8xUaBYOEgN2VCiSyz+mDb93rYPGqZw6QGi1W7Q=
+=zMe1
+-----END PGP SIGNATURE-----
+
+
+From azet@azet.org Fri Mar 27 19:10:18 2015
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72) (envelope-from <azet@azet.org>)
+	id 1YbYi2-00014m-78
+	for hrpc@article19.io; Fri, 27 Mar 2015 19:10:18 +0100
+Received: from mail-wg0-f44.google.com ([74.125.82.44])
+	by mx1.greenhost.nl with esmtps (TLS1.0:RSA_ARCFOUR_SHA1:16)
+	(Exim 4.72) (envelope-from <azet@azet.org>) id 1YbYi1-0002MR-MR
+	for hrpc@article19.io; Fri, 27 Mar 2015 19:10:18 +0100
+Received: by wgbdm7 with SMTP id dm7so1616815wgb.1
+	for <hrpc@article19.io>; Fri, 27 Mar 2015 11:10:17 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=1e100.net; s=20130820;
+	h=x-gm-message-state:message-id:date:from:user-agent:mime-version:to
+	:subject:content-type;
+	bh=zMLJFM+IEbO8n9ZC0qL0aBY5Nm61rduw9GdV10cASfU=;
+	b=kcECbRlVgQAwcKWRS43/xhUY0J7wlnynzyueCwfjPiai1jdLrJ0BAOsCRsxGJn0fOG
+	l5jTz9lnfF2vCcnqbnyrQ8xgMDDAHVbi4ROm7Tk+6AoLZPpo6UoNfBjBNFV7PFZ56yV1
+	uw/hZip9U6bvEX83WkN0EosGcQN9tYoalc0o9PPoRhxSo8Qu3qWgksNuebaaNekoDFoe
+	dBGaC2WAh6bp+XrAItZSWGagdF8nESSJl7tDMcDIJvfFIeG1IUck00MfL2vNQ5oTb7Us
+	yQZqE7UCho/AZsKsNCMHO8vyuluAyIqwnzkjKe5xf7b5dBdGUszQMrO3TgEP607BUW1a
+	TMkQ==
+X-Gm-Message-State: ALoCoQkM3jVnGZTtTt3AHW2QKSHlAtKDcQrnPAz5by3Owj/BjMkjERjJ7hQnq0TdFY419tbmK30W
+X-Received: by 10.180.74.135 with SMTP id t7mr188438wiv.72.1427479817433;
+	Fri, 27 Mar 2015 11:10:17 -0700 (PDT)
+Received: from [10.0.0.142] (chello080108032135.14.11.univie.teleweb.at.
+	[80.108.32.135])
+	by mx.google.com with ESMTPSA id q6sm3866568wix.3.2015.03.27.11.10.15
+	for <hrpc@article19.io>
+	(version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+	Fri, 27 Mar 2015 11:10:16 -0700 (PDT)
+Message-ID: <55159D03.2090606@azet.org>
+Date: Fri, 27 Mar 2015 19:10:11 +0100
+From: Aaron Zauner <azet@azet.org>
+User-Agent: Postbox 3.0.11 (Macintosh/20140602)
+MIME-Version: 1.0
+To: hrpc@article19.io
+X-Enigmail-Version: 1.2.3
+Content-Type: multipart/signed; micalg=pgp-sha512;
+	protocol="application/pgp-signature";
+	boundary="------------enig424351FB9FB6E331B2F305BD"
+X-Spam-Level: /
+X-Spam-Status: No, score=0.1 required=5.0 tests=BAYES_50,
+	RCVD_IN_DNSWL_LOW autolearn=disabled version=3.3.2
+X-Spam-Score: 0.1
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 897836312160ed0141c32cdc6ac56212
+Subject: [hrpc] Nomenclature/Definition of Human Rights issues in Protocol
+	Design
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Fri, 27 Mar 2015 18:10:18 -0000
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enig424351FB9FB6E331B2F305BD
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+During the HRPC meeting at IETF92 there were a couple of proposal on how
+to address human rights issues in protocol design. We clearly need some
+sort of definition that is clear to protocol designers, implementers and
+people that deploy these protocols in the real world.
+
+I don't think that "protocol perversion" is an appropriate term; as some
+have already pointed out, 'perversion' might be a positive protocol
+feature that enables technology evolution.
+
+  * Wrongly answering DNS queries (Turkey) is a technique that some
+    CDNs also use to speed up answering requests or giving geolocation
+    aware answers.
+
+  * BGP Hijacking is correct use of the protocol as specified.
+
+  * QoS techniques as used in Iran and China are used as specified.
+
+  ..et cetera..
+
+
+I think the proper approach is to think of intent (as done in security
+in general). Speaking of malicious intent when a protocol is (mis)used
+in a way that causes human rights issues would be an example.
+
+
+Input appreciated.
+
+Aaron
+
+
+--------------enig424351FB9FB6E331B2F305BD
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIcBAEBCgAGBQJVFZ0EAAoJEOTbZJL9ubXVt2IP/j2y28CizZN/Exbk4dmhKUL2
+zH3gUbmq2A6cy0Finn8nyBDe1MrSNYSf56XNKpnRriAWFx6aDRIhik8jWJSNO3iL
+9WqucQdBE8vEdh+zoom4dVbHT3dQ/bnuttCqiN3r78v0E0fi9zR5Gb1kaPgLVBrU
+mHLkN2VuT58Z3SqiUEUauD9eVsMuvQYGmCJ8brcb57a/JZbie4alyiJlCA7pvgs0
+L3FYFvjd2f6pUpJnsHF18P1T2bdEWe+EeKJ4bqep+Uegi0oLOoaMC8tGtlloVP0D
+fH6Hi/qP9d9FpiMeSGuk66X9zwhfboFN8SXiLosuG+z2fA8IUpUb+h3TWkFJQAWx
+yTBiZwiFpw1Rl1bSJyThn9JCe2ZDHMmeFFVo8hojd8Xz2ZBRbuIfbn/LYsM+hGfk
+tkTtYdjhD9THhmtDkQKwJTbf7KdvZGdJ6vIzdWg1zYA7YN4yVXmjWt/+u9MGSoZC
+p65AkYQhXjP2TxH0c4BRG5I6FAZV5bkOjlqblmxxzRIYi5199AqsV2ojjY3RDL0z
+7tkUXbvOA0vuW0jtJe/VCNufBtfy46lMh7JIV797id3lCmq93H9qP6vNMscOjWc9
+8RPCCFcvPPYsQxMYCSYJH+xuaqFV38/vpWm/e6YgLsYntifE9eS/GBqprGvxLa1h
+aIehDWIWgoMad2Q4L5Vt
+=3Yi7
+-----END PGP SIGNATURE-----
+
+--------------enig424351FB9FB6E331B2F305BD--
+
+
+From fred@cisco.com Fri Mar 27 20:01:39 2015
+Received: from [10.10.12.45] (helo=mx2.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <fred@cisco.com>) id 1YbZVj-00019o-EJ
+	for hrpc@article19.io; Fri, 27 Mar 2015 20:01:39 +0100
+Received: from alln-iport-5.cisco.com ([173.37.142.92])
+	by mx2.greenhost.nl with esmtps (TLS1.0:RSA_ARCFOUR_SHA1:16)
+	(Exim 4.72) (envelope-from <fred@cisco.com>) id 1YbZVi-00049i-G5
+	for hrpc@article19.io; Fri, 27 Mar 2015 20:01:39 +0100
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple;
+	d=cisco.com; i=@cisco.com; l=1729; q=dns/txt; s=iport;
+	t=1427482899; x=1428692499;
+	h=from:to:subject:date:message-id:mime-version;
+	bh=N5iCt4p8QdXzdP5PzZ7bKFpYqxFV6dKd1D3y+0IcKfg=;
+	b=QLwk0+OHgjfzns0OZj8O6oinVkNMJrFg3TU+/McMugQzp+8xcwulvRY/
+	BkBIK1ydxZvRLSMn0DVhxE5z2tlcEsygLX6eLs9+toABh9RMBL1CNF8cJ
+	ERDjnes770ENfyesV2X63iBgl491g4qpMJD88AMtRL0lE6Z5V1Tf35d0T 4=;
+X-Files: signature.asc : 487
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A0BGBQBRqBVV/5NdJa1cgwaBMIJJRsllTAEBAQEBAX2EGwwXaAEGRAI0JwQhiCGVSY0qj0yaHQEBAQEBBQEBAQEBAQEbkw8vgRYFkFeBaYEyhlWUMSKDboIzfwEBAQ
+X-IronPort-AV: E=Sophos;i="5.11,480,1422921600"; 
+	d="asc'?scan'208";a="136063288"
+Received: from rcdn-core-11.cisco.com ([173.37.93.147])
+	by alln-iport-5.cisco.com with ESMTP; 27 Mar 2015 19:01:37 +0000
+Received: from xhc-rcd-x08.cisco.com (xhc-rcd-x08.cisco.com [173.37.183.82])
+	by rcdn-core-11.cisco.com (8.14.5/8.14.5) with ESMTP id t2RJ1aQo009283
+	(version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=FAIL)
+	for <hrpc@article19.io>; Fri, 27 Mar 2015 19:01:36 GMT
+Received: from xmb-rcd-x09.cisco.com ([169.254.9.149]) by
+	xhc-rcd-x08.cisco.com ([173.37.183.82]) with mapi id 14.03.0195.001;
+	Fri, 27 Mar 2015 14:01:36 -0500
+From: "Fred Baker (fred)" <fred@cisco.com>
+To: "hrpc@article19.io" <hrpc@article19.io>
+Thread-Topic: May I express what I am being troubled by?
+Thread-Index: AQHQaMByhhTvxehN7EmTNncAk63DHg==
+Date: Fri, 27 Mar 2015 19:01:35 +0000
+Message-ID: <D4EBDFA5-FF62-42F7-8AE3-E33F9854ADC0@cisco.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-originating-ip: [10.89.12.130]
+Content-Type: multipart/signed;
+	boundary="Apple-Mail=_8A51E98C-82EA-471E-B8D1-5D22696A59DE";
+	protocol="application/pgp-signature"; micalg=pgp-sha1
+MIME-Version: 1.0
+X-Spam-Level: -----------
+X-Spam-Status: No, score=-11.9 required=5.0 tests=BAYES_50, DKIM_SIGNED,
+	DKIM_VALID, DKIM_VALID_AU, RCVD_IN_DNSWL_HI, SPF_PASS,
+	T_RP_MATCHES_RCVD, URIBL_BLOCKED,
+	USER_IN_DEF_DKIM_WL autolearn=disabled version=3.3.2
+X-Spam-Score: -11.9
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: a2d32f98be707cbcda8602d5fffa976a
+X-Mailman-Approved-At: Fri, 27 Mar 2015 21:16:49 +0100
+Subject: [hrpc] May I express what I am being troubled by?
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Fri, 27 Mar 2015 19:01:39 -0000
+
+--Apple-Mail=_8A51E98C-82EA-471E-B8D1-5D22696A59DE
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+I find myself thinking about:
+
+1) a grammatical construct using the words =E2=80=9Cyou=E2=80=9D, =
+=E2=80=9Care=E2=80=9D, =E2=80=9Ca=E2=80=9D, =E2=80=9Cterrible=E2=80=9D, =
+and =E2=80=9Cperson=E2=80=9D,
+
+2) the sentence =E2=80=9Cyou are a terrible person=E2=80=9D, and
+
+3) an instance of the use of that sentence, with an identified speaker =
+and an identified subject of the word =E2=80=9Cyou=E2=80=9D.
+
+Those are clearly three different things. This comes back to the =
+discussion we had in the room an hour ago, about the protocol, the =
+intention of the protocol designer, and the intention of the user of the =
+protocol.
+
+I=E2=80=99m concerned about the discussion confusing the three, and =
+would appreciate them being kept separate.
+
+--Apple-Mail=_8A51E98C-82EA-471E-B8D1-5D22696A59DE
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="signature.asc"
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Message signed with OpenPGP using GPGMail
+
+-----BEGIN PGP SIGNATURE-----
+Comment: GPGTools - http://gpgtools.org
+
+iQEVAwUBVRWfSp9ieig10VPpAQJg1QgAnQsY4DTMZJDslgkok1AjIPLSuiyAw+49
+paPRQBWtAxjHL+pK/zMwiEf+iBIVnxW9OCEzRxj/R7mhg4yS8F3lXuGiEvzyppP5
+1Yt7OR02MMK4OyjzdLiL0+W2X8Gb1XxXsU6+A+Wl7/WcxkZ/41e4XbGH7N3+DvHm
+rmLPXvxz36xdeRZPId8uXh7d+pYDhlcz8ulmXyV4xvYoAC/VMAJsWcFgVpmyNyo4
+ryajsnFUUqxVSeis2brUSc9eKLWo9rWXK4WiANQWoC8x59XAys0fIO7HIHyLIVye
+97ibzFCMy9WWN0fBlGfF9BbGvoz+Yfoo9WjZpA0KQpVWH6JWeaNcCw==
+=Q41b
+-----END PGP SIGNATURE-----
+
+--Apple-Mail=_8A51E98C-82EA-471E-B8D1-5D22696A59DE--
+
+
+From fred@cisco.com Fri Mar 27 21:59:42 2015
+Received: from [10.10.12.45] (helo=mx2.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <fred@cisco.com>) id 1YbbLy-0001Im-J1
+	for hrpc@article19.io; Fri, 27 Mar 2015 21:59:42 +0100
+Received: from rcdn-iport-9.cisco.com ([173.37.86.80])
+	by mx2.greenhost.nl with esmtps (TLS1.0:RSA_ARCFOUR_SHA1:16)
+	(Exim 4.72) (envelope-from <fred@cisco.com>) id 1YbbLx-0006Lh-OW
+	for hrpc@article19.io; Fri, 27 Mar 2015 21:59:42 +0100
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple;
+	d=cisco.com; i=@cisco.com; l=1786; q=dns/txt; s=iport;
+	t=1427489981; x=1428699581;
+	h=from:subject:date:message-id:to:mime-version;
+	bh=6QNQS9RExOCx4NdZlQHiyTvzQAEct9mToBDP0QgEPp0=;
+	b=mW5FEisdpLdTczE4Y/bQeegluo0TfgxENXg8of3EC0WVENJ1bAq1vP+u
+	42LXyDinAQ7gwAsd2rY0611HKvvRWzFDXK8OoKFdyACqGBF10+IkATlxH
+	MHPHMRdPTskhG835OfNGUtZxd6ORJ1HqXJL/pALDnIRIeNrw8/vfM+1bI w=;
+X-Files: signature.asc : 487
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A0BEBQCuwxVV/5JdJa1cgwaDeUbJc0wBAQEBAQF9hCcXb0QCiSGVXI0qj0yaFyyQPYJSL4EWBYsXhymIBwGHBI0sIoQMIIJ0AQEB
+X-IronPort-AV: E=Sophos;i="5.11,481,1422921600"; 
+	d="asc'?scan'208";a="404152966"
+Received: from rcdn-core-10.cisco.com ([173.37.93.146])
+	by rcdn-iport-9.cisco.com with ESMTP; 27 Mar 2015 20:59:39 +0000
+Received: from [10.89.12.130] ([10.89.12.130])
+	by rcdn-core-10.cisco.com (8.14.5/8.14.5) with ESMTP id t2RKxEgQ025074
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <hrpc@article19.io>; Fri, 27 Mar 2015 20:59:39 GMT
+From: Fred Baker <fred@cisco.com>
+X-Pgp-Agent: GPGMail 2.5b6
+Content-Type: multipart/signed;
+	boundary="Apple-Mail=_557A7BB8-1FB0-4CF2-A7B5-0E2C447DB125";
+	protocol="application/pgp-signature"; micalg=pgp-sha1
+Date: Fri, 27 Mar 2015 15:41:09 -0500
+Message-Id: <E6C94CA1-84F8-4B0A-9C00-C83A3452E88C@cisco.com>
+To: hrpc@article19.io
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2070.6\))
+X-Mailer: Apple Mail (2.2070.6)
+X-Spam-Level: -----------
+X-Spam-Status: No, score=-11.9 required=5.0 tests=BAYES_50, DKIM_SIGNED,
+	DKIM_VALID, DKIM_VALID_AU, RCVD_IN_DNSWL_HI, SPF_PASS,
+	T_RP_MATCHES_RCVD, URIBL_BLOCKED,
+	USER_IN_DEF_DKIM_WL autolearn=disabled version=3.3.2
+X-Spam-Score: -11.9
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 1f72ff50073f138f9668c095d6f579a1
+Subject: [hrpc] May I express what I am being troubled by?
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Fri, 27 Mar 2015 20:59:43 -0000
+
+
+--Apple-Mail=_557A7BB8-1FB0-4CF2-A7B5-0E2C447DB125
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+Resend: the first one got gobbled in moderation :-)
+
+I find myself thinking about:
+
+1) a grammatical construct using the words =E2=80=9Cyou=E2=80=9D, =
+=E2=80=9Care=E2=80=9D, =E2=80=9Ca=E2=80=9D, =E2=80=9Cterrible=E2=80=9D, =
+and =E2=80=9Cperson=E2=80=9D,
+
+2) the sentence =E2=80=9Cyou are a terrible person=E2=80=9D, and
+
+3) an instance of the use of that sentence, with an identified speaker =
+and an identified subject of the word =E2=80=9Cyou=E2=80=9D.
+
+Those are clearly three different things. This comes back to the =
+discussion we had in the room an hour ago, about the protocol, the =
+intention of the protocol designer, and the intention of the user of the =
+protocol.
+
+I=E2=80=99m concerned about the discussion confusing the three, and =
+would appreciate them being kept separate.
+
+--Apple-Mail=_557A7BB8-1FB0-4CF2-A7B5-0E2C447DB125
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment;
+	filename=signature.asc
+Content-Type: application/pgp-signature;
+	name=signature.asc
+Content-Description: Message signed with OpenPGP using GPGMail
+
+-----BEGIN PGP SIGNATURE-----
+Comment: GPGTools - http://gpgtools.org
+
+iQEVAwUBVRXAZp9ieig10VPpAQLJwgf/UQXZiWFJ6czp9BbHCJCncIwoIDFNH4yH
+6rx93GXMRFL/vrdlKPDtnGOtqj6Ia8rp0EeVQozauU7fm3QkYKPoIqjugboRmk44
+nj7oqyD3Bi1qjenhoSDEmoCfq/fzfKYet5uQZJEFXJSgtji7vXH/ajUp4fjjvnOs
+W21ErYYukzqRxK4Bwyl8CFyjHvNk1ZwxRfU5VxRtSKipeF4kDpal3ljXrYrs+HJ5
+jbtBA9/msCaNoKvUI37W4h5/qsdwb/GFCVupIjeOnui+g2LirOR8zGdjQwKINur4
+LMQdNvB6FU5jL8oN5ktM85VummACxRJmAtFOYr3wFhD5Y9ckyBztcg==
+=EkoK
+-----END PGP SIGNATURE-----
+
+--Apple-Mail=_557A7BB8-1FB0-4CF2-A7B5-0E2C447DB125--
+
+
+From niels@article19.org Sun Mar 29 19:05:30 2015
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <niels@article19.org>) id 1YcGeQ-0004Sy-16
+	for hrpc@article19.io; Sun, 29 Mar 2015 19:05:30 +0200
+Received: from vps784.greenhost.nl ([213.108.108.114] helo=mail.article19.io)
+	by mx1.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <niels@article19.org>) id 1YcGeP-0002gp-Bm
+	for hrpc@article19.io; Sun, 29 Mar 2015 19:05:29 +0200
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 3EE388176
+	for <hrpc@article19.io>; Sun, 29 Mar 2015 17:08:16 +0000 (UTC)
+X-Spam-Flag: NO
+X-Spam-Score: -2.899
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.899 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_00=-1.9, URIBL_BLOCKED=0.001]
+	autolearn=ham autolearn_force=no
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id BhsWzIaZaJG1 for <hrpc@article19.io>;
+	Sun, 29 Mar 2015 17:08:14 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id B261113002A
+	for <hrpc@article19.io>; Sun, 29 Mar 2015 17:08:14 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id d9DczuKoFijQ for <hrpc@article19.io>;
+	Sun, 29 Mar 2015 17:08:14 +0000 (UTC)
+Received: from [192.168.0.14] (d109201.upc-d.chello.nl [213.46.109.201])
+	by mail.article19.io (Postfix) with ESMTPSA id 76210E802A
+	for <hrpc@article19.io>; Sun, 29 Mar 2015 17:08:14 +0000 (UTC)
+Message-ID: <551830D5.2070103@article19.org>
+Date: Sun, 29 Mar 2015 19:05:25 +0200
+From: Niels ten Oever <niels@article19.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:31.0) Gecko/20100101 Icedove/31.5.0
+MIME-Version: 1.0
+To: "hrpc@article19.io" <hrpc@article19.io>
+Content-Type: multipart/signed; micalg=pgp-sha1;
+	protocol="application/pgp-signature";
+	boundary="EMR4JOSOP9P7KsGAWkN0l2g3oE55m6o4h"
+X-Spam-Level: +
+X-Spam-Status: No, score=1.6 required=5.0 tests=BAYES_50, SPF_NEUTRAL,
+	URIBL_BLOCKED autolearn=disabled version=3.3.2
+X-Spam-Score: 1.6
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 2ae1bbb14e1c8ca2e946fb353a4804e1
+Subject: [hrpc] Thanks and new resources to look at (ISOC principles &&
+	RFC3935)
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Sun, 29 Mar 2015 17:05:30 -0000
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--EMR4JOSOP9P7KsGAWkN0l2g3oE55m6o4h
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello all (and a special welcome to new list members),
+
+Thank you very much for working with us this week, whether it was by
+participating in interviews, joining the session or sharing your views
+and knowledge. We're slowly starting to process all the input, but to
+keep the dialogue going we'll keep releasing our notes and thoughts
+here early and often.
+
+If you want to review some of the work please find here the link to the
+ID
+https://tools.ietf.org/html/draft-doria-hrpc-proposal
+
+Audio of the presentation (starts after 4:04)
+http://www.ietf.org/audio/ietf92/ietf92-royal-20150327-1150-am2.mp3
+
+Presentation slides
+https://www.ietf.org/proceedings/92/slides/slides-92-hrpc-0.pdf
+
+Here some great leads for relevant resources:
+
+Thanks Fred for pointing out the principles of ISOC [0] which could
+for a guidance for framing this work:
+
+The Ability to Connect. The edge-dominant end-to-end architecture of
+the Internet is essential to its utility as a platform for innovation,
+creativity, and economic opportunity. To preserve this quality, we
+will oppose efforts to establish standards or practices that would
+make it difficult or impossible for some users of the Internet to use
+the full range of Internet applications of all kinds.
+
+The Ability to Speak. The Internet is a powerful mass medium for
+self-expression which depends on the ability of its users to speak
+freely. We believe that the Internet must support private=E2=80=94and, wh=
+ere
+appropriate, anonymous=E2=80=94means of communication and collaboration a=
+mong
+individuals and groups, and will oppose efforts to restrict the type
+or content of information exchanged on the Internet.
+
+The Ability to Innovate. The remarkable growth of the Internet and the
+limitless variety of Internet applications follow directly from the
+open model of Internet connectivity and standards development. Any
+individual, organization, or company can develop and distribute a new
+Internet application that can be used by anyone. We recognize the
+enormous value of this innovation, and oppose governmental or
+nongovernmental restrictions on the evolution and use of Internet
+technology.
+
+The Ability to Share. The many-to-many architecture of the Internet
+makes it a powerful tool for sharing, education, and collaboration. It
+has enabled the global open source community to develop and enhance
+many of the key components of the Internet, such as the Domain Name
+System and the World-Wide Web, and has made the vision of digital
+libraries a reality. To preserve these benefits we will oppose
+technologies and legislation that would inhibit the freedom to develop
+and use open source software or limit the well-established concept of
+fair use, which is essential to scholarship, education, and collaboration=
+=2E
+
+The Ability to Choose. Government regulation and the economic power of
+incumbent telecommunication monopolies can delay or prevent the growth
+of the Internet by limiting the ability of competitors to provide new,
+better, cheaper, or more innovative Internet-related services. We
+advocate policies that promote competition in telecommunications,
+Internet services, Internet-related software, and e-commerce applications=
+=2E
+
+The Ability to Trust. Everyone=E2=80=99s ability to connect, speak, innov=
+ate,
+share, and choose depends on the Internet=E2=80=99s ability to support
+trustworthy internetworking=E2=80=94ensuring the security, reliability, a=
+nd
+stability of increasingly critical and pervasive applications and
+services.
+
+Thanks Corinne for pointing out RFC3935 [1], there are some great
+pointers in here!
+
+[quote]
+
+   The Internet: A large, heterogeneous collection of interconnected
+      systems that can be used for communication of many different types
+      between any interested parties connected to it.  The term includes
+      both the "core Internet" (ISP networks) and "edge Internet"
+      (corporate and private networks, often connected via firewalls,
+      NAT boxes, application layer gateways and similar devices).  The
+      Internet is a truly global network, reaching into just about every
+      country in the world.
+      The IETF community wants the Internet to succeed because we
+      believe that the existence of the Internet, and its influence on
+      economics, communication, and education, will help us to build a
+      better human society.
+
+[/quote]
+
+[quote]
+
+4.1.  The Scope of the Internet
+
+   A very difficult issue in discussing the IETF's mission has been the
+   scope of the term "for the Internet".  The Internet is used for many
+   things, many of which the IETF community has neither interest nor
+   competence in making standards for.
+
+   The Internet isn't value-neutral, and neither is the IETF.  We want
+   the Internet to be useful for communities that share our commitment
+   to openness and fairness.  We embrace technical concepts such as
+   decentralized control, edge-user empowerment and sharing of
+   resources, because those concepts resonate with the core values of
+   the IETF community.  These concepts have little to do with the
+   technology that's possible, and much to do with the technology that
+   we choose to create.
+
+   At the same time, it is clear that many of the IETF-defined
+   technologies are useful not only for the Internet, but also for
+   networks that have no direct relation to the Internet itself.
+
+   In attempting to resolve the question of the IETF's scope, perhaps
+   the fairest balance is struck by this formulation: "protocols and
+   practices for which secure and scalable implementations are expected
+   to have wide deployment and interoperation on the Internet, or to
+   form part of the infrastructure of the Internet."
+
+   In addition to this constraint, we are also constrained by the
+   principle of competence: Where we do not have, and cannot gather, the
+   competence needed to make technically sound standards, we should not
+   attempt to take the leadership.
+
+[/quote]
+
+And as always, your questions, suggestions, comments and critiques are
+very welcome.
+
+Best,
+
+Niels
+
+[0]
+http://www.internetsociety.org/who-we-are/mission/values-and-principles
+[1] https://www.ietf.org/rfc/rfc3935.txt
+
+
+
+
+--=20
+Niels ten Oever
+Head of Digital
+
+Article 19
+www.article19.org
+
+PGP fingerprint    8D9F C567 BEE4 A431 56C4
+                   678B 08B5 A0F2 636D 68E9
+
+
+--EMR4JOSOP9P7KsGAWkN0l2g3oE55m6o4h
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJVGDDVAAoJEAi1oPJjbWjp7p4H/1q4CHKSixdypdYNrkVShpb0
+V6GBaBuiWyDGCX/5M1S/NG1lhxEIO0lNv0MySji3UtTORivIQ9xrYdhiwLx/DCDp
+BO22509qqAk8q3f1qzyLQpuyUsJm07H9OHMCOPcxrK/D6TqWCLfBfFWG3XXl/sna
+yiahCrMUvbW5CTOZ3+txMPPoSW7GPim97OYCOMbFNugSNkUtoalw1JICAz7+PUyM
+NThM4xOPV0/oXU+b/iv6gf/I5WkBQpOb3dckadk5eENzs8n/3mMqahF4YRJ55Hv6
+zPGruFHyW9/TpV2SRZSMjSJ3ZvfL6mjrehPzLfIgoPj1U7k15BEFiZ07DydGdb4=
+=sH62
+-----END PGP SIGNATURE-----
+
+--EMR4JOSOP9P7KsGAWkN0l2g3oE55m6o4h--
+
+
+From niels@article19.org Mon Mar 30 18:04:42 2015
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <niels@article19.org>) id 1YccB7-0006BS-W5
+	for hrpc@article19.io; Mon, 30 Mar 2015 18:04:42 +0200
+Received: from vps784.greenhost.nl ([213.108.108.114] helo=mail.article19.io)
+	by mx1.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <niels@article19.org>) id 1YccB7-0000fK-Mh
+	for hrpc@article19.io; Mon, 30 Mar 2015 18:04:41 +0200
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 6F668CC03B
+	for <hrpc@article19.io>; Mon, 30 Mar 2015 16:07:30 +0000 (UTC)
+X-Spam-Flag: NO
+X-Spam-Score: -2.899
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.899 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_00=-1.9, URIBL_BLOCKED=0.001]
+	autolearn=ham autolearn_force=no
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id jRA5860RmTKb for <hrpc@article19.io>;
+	Mon, 30 Mar 2015 16:07:29 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 7D6FECC03E
+	for <hrpc@article19.io>; Mon, 30 Mar 2015 16:07:29 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id StsS3CKtqPlM for <hrpc@article19.io>;
+	Mon, 30 Mar 2015 16:07:29 +0000 (UTC)
+Received: from [192.168.0.14] (d109201.upc-d.chello.nl [213.46.109.201])
+	by mail.article19.io (Postfix) with ESMTPSA id 16E5BCC03B
+	for <hrpc@article19.io>; Mon, 30 Mar 2015 16:07:28 +0000 (UTC)
+Message-ID: <55197413.2000403@article19.org>
+Date: Mon, 30 Mar 2015 18:04:35 +0200
+From: Niels ten Oever <niels@article19.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:31.0) Gecko/20100101 Icedove/31.5.0
+MIME-Version: 1.0
+To: "hrpc@article19.io" <hrpc@article19.io>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Spam-Level: /
+X-Spam-Status: No, score=0.8 required=5.0 tests=BAYES_20, SPF_NEUTRAL,
+	URIBL_BLOCKED autolearn=disabled version=3.3.2
+X-Spam-Score: 0.8
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 76f3589a93270604ea078d468a2051b3
+Subject: [hrpc] mailinglist migration
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Mon, 30 Mar 2015 16:04:42 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Dear all,
+
+I hope this email finds you well. During IETF92 I got suggested
+several times to migrate this mailinglist to an official IETF
+mailinglist. I am currently in the process of requesting one.
+
+I plan to migrate all current list subscribers to the new list, which
+will probably be hrpc@ietf.org.
+
+Please let me know if you would like me to not migrate you to the new
+list.
+
+Best,
+
+Niels
+
+- -- 
+Niels ten Oever
+Head of Digital
+
+Article 19
+www.article19.org
+
+PGP fingerprint    8D9F C567 BEE4 A431 56C4
+                   678B 08B5 A0F2 636D 68E9
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJVGXQTAAoJEAi1oPJjbWjpshsIAI5/I1brrG7TsVyfByR2PAaU
+AKXNtb1H4H8lEC9x2LqdSSkgX61tobCtobLc66VS6WXlqBmGhI+leZVinYVYZEqd
+FgIwKr5XMOjHMugiuIiSPlbQVSuXru+zzLZDgPzc2DifCR0Wle6LQiQ49jgCian1
+qvv685X+ON7U66vYMdjBYXNW8niJENSB5/ZXypRWiWUNa+EJCIhNV7jKZ4x3PCRa
+tsuckZz5JLqmFR1mY8CqVSn+uOp2VnWB3Bj8nRlPVklQqsQ2T8G4TazLpsk1Rno1
+MYulncKpOGk0a2clpP5wQpoysh2bdQr/15sy+j5DNZuJoV57hqPtye00eYan+YI=
+=fXmw
+-----END PGP SIGNATURE-----
+
+
+From roland.bless@kit.edu Mon Mar 30 18:05:56 2015
+Received: from [10.10.12.45] (helo=mx2.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <roland.bless@kit.edu>) id 1YccCK-0006Bu-M6
+	for hrpc@article19.io; Mon, 30 Mar 2015 18:05:56 +0200
+Received: from iramx2.ira.uni-karlsruhe.de ([141.3.10.81])
+	by mx2.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <roland.bless@kit.edu>)
+	id 1YccCJ-00071P-VU
+	for hrpc@article19.io; Mon, 30 Mar 2015 18:05:56 +0200
+Received: from i72vorta.tm.uni-karlsruhe.de ([141.3.71.26]
+	helo=i72vorta.tm.kit.edu)
+	by iramx2.ira.uni-karlsruhe.de with esmtp port 25 
+	iface 141.3.10.81 id 1YccCI-0000ij-GF
+	for <hrpc@article19.io>; Mon, 30 Mar 2015 18:05:54 +0200
+Received: from [IPv6:::1] (ip6-localhost [IPv6:::1])
+	by i72vorta.tm.kit.edu (Postfix) with ESMTPS id 6EF34B0073B
+	for <hrpc@article19.io>; Mon, 30 Mar 2015 18:05:54 +0200 (CEST)
+Message-ID: <55197462.7080508@kit.edu>
+Date: Mon, 30 Mar 2015 18:05:54 +0200
+From: "Bless, Roland (TM)" <roland.bless@kit.edu>
+Organization: Institute of Telematics, Karlsruhe Institute of Technology
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:31.0) Gecko/20100101 Thunderbird/31.5.0
+MIME-Version: 1.0
+To: hrpc@article19.io
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+X-ATIS-AV: ClamAV (iramx2.ira.uni-karlsruhe.de)
+X-ATIS-Timestamp: iramx2.ira.uni-karlsruhe.de 1427731554.
+X-Spam-Level: -
+X-Spam-Status: No, score=-1.5 required=5.0 tests=BAYES_50, RCVD_IN_DNSWL_MED,
+	URIBL_BLOCKED autolearn=disabled version=3.3.2
+X-Spam-Score: -1.5
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 488b5a33f748713be529de57fa847022
+Subject: [hrpc] Some Thoughts
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Mon, 30 Mar 2015 16:05:57 -0000
+
+Hi,
+
+I think that the work is important and this proposed research group
+needs input from different disciplines:
+IETF participants representing the technical side, but also people from
+social sciences and legal sciences.
+
+* Larry Masinter made a comment that there is also a need for
+  balancing rights. He is correct in the sense that different
+  stakeholders may have different objectives, because they focus
+  also on different values or assets. This typically leads to
+  _conflicts_, maybe even somewhere in the network as nicely
+  described in [1]. Usually we use institutions like (social) norms,
+  laws and courts in order to resolve such conflicts, but
+  also technical systems, either implicitly or explicitly [2].
+  Since the Universal declaration of human rights defines some
+  of the highest values that we know, it's probably a good starting
+  point. Very often different societies have different preferences
+  for certain values.
+
+* There was some discussion about protocol definition and
+  intended use. I guess that the IETF always has a motivation
+  and usage scenario while defining protocols, but the IETF
+  usually doesn't do anything if the protocol is used in a
+  different manner as originally intended. I think the main
+  point here is that IETF participants could try to think about
+  alternative protocol designs that may result in different
+  implications for human rights etc. It may be beneficial to
+  find a methodology how certain rights/values could be
+  realized in a better way (e.g., data minimization for
+  better privacy etc.).
+
+* Comments on slide 13 of the presentation. Some more
+  concepts came to my mind:
+  - Accessibility (you need unfettered access to the
+Internet/resources/information)
+  - Openness (eases participation)
+  - Autonomy (e.g., Autonomous System approach)
+  - Federations of independent domains (ASes, Mail, XMPP servers etc.)
+  Probably the latter two are sub-principles or closely related to the
+  distributed nature of solutions.
+  One could also view parts of the list from slide 13 hierarchically like:
+  Reliability -> Robustness -> Stateless, Graceful failures/degradation,
+partial healing, etc.
+
+* On slide 15: the lower terms from "interoperable protocols ...
+resilience"
+  are concepts that can be used to achieve good/robust
+  connectivity. However, if I have no access to that robust
+  and well connected network, I'm limited in participation and
+  maybe freedom of association. Therefore, accessibility may be
+  also important.
+
+Regards,
+ Roland
+
+[1] http://conferences.sigcomm.org/sigcomm/2002/papers/tussle.pdf
+[2] https://harvardmagazine.com/2000/01/code-is-law-html
+
+
+From jhall@cdt.org Tue Mar 31 16:02:19 2015
+Received: from [10.10.12.45] (helo=mx2.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72) (envelope-from <jhall@cdt.org>)
+	id 1YcwkF-0000VA-A4
+	for hrpc@article19.io; Tue, 31 Mar 2015 16:02:19 +0200
+Received: from mail-la0-f45.google.com ([209.85.215.45])
+	by mx2.greenhost.nl with esmtps (TLS1.0:RSA_ARCFOUR_SHA1:16)
+	(Exim 4.72) (envelope-from <jhall@cdt.org>) id 1YcwkD-0001T3-T7
+	for hrpc@article19.io; Tue, 31 Mar 2015 16:02:19 +0200
+Received: by lahf3 with SMTP id f3so12932906lah.2
+	for <hrpc@article19.io>; Tue, 31 Mar 2015 07:02:17 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=1e100.net; s=20130820;
+	h=x-gm-message-state:mime-version:from:date:message-id:subject:to
+	:content-type;
+	bh=Q5Hq7MKLq+pB1DA8IKk5wOw7zKplFeTuKQNyWUP37yQ=;
+	b=GEwu0cVT3ipGytP7+5ZC/WRDfJF/yzfI2Ndj+EYvemLIEqWNjfFX9afdq2TraBMLXC
+	0xPjI8xfrCklEcKzeMvdDSC1lQDY/CByocnD1pwxcFG0oxl3cdmPfg2uyP7fxHg2VTj5
+	HhCZvNZvIvfC+DldCO2sH5AbbkPjbKaOZun13kiZlt6eOSKZLEI+cPct1g4dj9chFyE5
+	f0NKUKLLFLd8hC17lFEWi3744AxICHWmAYLU1URpFC0/JulQndOyyuD61y+EgI5DbmPU
+	HcSY2eMfsbNJLVL7V5fJr7GdDPQaiV4zHD24vtw0PUSnOiHV2B2dHl650Q1nkbogADjh
+	j4hg==
+X-Gm-Message-State: ALoCoQmN60w+lc0HSb1T1drENOiPaD3HRonQqyTTTrT8hSVnWH2cgjc9yLWXSvciBKtRtFb6a0lf
+X-Received: by 10.112.210.230 with SMTP id mx6mr31303897lbc.64.1427810537301; 
+	Tue, 31 Mar 2015 07:02:17 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.25.37.4 with HTTP; Tue, 31 Mar 2015 07:01:56 -0700 (PDT)
+From: Joseph Lorenzo Hall <joe@cdt.org>
+Date: Tue, 31 Mar 2015 10:01:56 -0400
+Message-ID: <CABtrr-U5DUPwnGpoBQp1wh0-zLbRvz_DJrTK02LotpVDo3OkAw@mail.gmail.com>
+To: hrpc@article19.io
+Content-Type: text/plain; charset=UTF-8
+X-Spam-Level: /
+X-Spam-Status: No, score=0.9 required=5.0 tests=BAYES_50, RCVD_IN_DNSWL_LOW,
+	SPF_NEUTRAL, URIBL_BLOCKED autolearn=disabled version=3.3.2
+X-Spam-Score: 0.9
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 7b320cd02cd98c580351ccd23ba1512a
+Subject: [hrpc] greetings!
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Tue, 31 Mar 2015 14:02:19 -0000
+
+Hi, I just joined this list and wanted to introduce myself. Hello!
+
+I neglected to sign up to this list after IETF 91, apologies! best, Joe
+
+-- 
+Joseph Lorenzo Hall
+Chief Technologist
+Center for Democracy & Technology
+1634 I ST NW STE 1100
+Washington DC 20006-4011
+(p) 202-407-8825
+(f) 202-637-0968
+joe@cdt.org
+PGP: https://josephhall.org/gpg-key
+fingerprint: 3CA2 8D7B 9F6D DBD3 4B10  1607 5F86 6987 40A9 A871
+
+
+From niels@article19.org Tue Mar 31 20:24:46 2015
+Received: from mx1.lan ([10.10.12.44] helo=mx1.greenhost.nl)
+	by mailman.lan with esmtp (Exim 4.72)
+	(envelope-from <niels@article19.org>) id 1Yd0qE-0000mu-23
+	for hrpc@article19.io; Tue, 31 Mar 2015 20:24:46 +0200
+Received: from vps784.greenhost.nl ([213.108.108.114] helo=mail.article19.io)
+	by mx1.greenhost.nl with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.72) (envelope-from <niels@article19.org>) id 1Yd0qD-0001ae-Of
+	for hrpc@article19.io; Tue, 31 Mar 2015 20:24:45 +0200
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id 9AEF0CC03B
+	for <hrpc@article19.io>; Tue, 31 Mar 2015 18:27:36 +0000 (UTC)
+X-Spam-Flag: NO
+X-Spam-Score: -2.899
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.899 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_00=-1.9, URIBL_BLOCKED=0.001]
+	autolearn=ham autolearn_force=no
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id TqeA7KFtYGI5 for <hrpc@article19.io>;
+	Tue, 31 Mar 2015 18:27:36 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.article19.io (Postfix) with ESMTP id EE8C3CC03A
+	for <hrpc@article19.io>; Tue, 31 Mar 2015 18:27:35 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mail.article19.io
+Received: from mail.article19.io ([127.0.0.1])
+	by localhost (mail.article19.io [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id uBhBVfDXW5pg for <hrpc@article19.io>;
+	Tue, 31 Mar 2015 18:27:35 +0000 (UTC)
+Received: from [172.31.65.206] (unknown [185.16.164.123])
+	by mail.article19.io (Postfix) with ESMTPSA id 92B46D0013
+	for <hrpc@article19.io>; Tue, 31 Mar 2015 18:27:35 +0000 (UTC)
+Message-ID: <551AE66A.7080709@article19.org>
+Date: Tue, 31 Mar 2015 20:24:42 +0200
+From: Niels ten Oever <niels@article19.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:31.0) Gecko/20100101 Icedove/31.5.0
+MIME-Version: 1.0
+To: "hrpc@article19.io" <hrpc@article19.io>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Level: -
+X-Spam-Status: No, score=-1.1 required=5.0 tests=BAYES_00, SPF_NEUTRAL,
+	URIBL_BLOCKED autolearn=disabled version=3.3.2
+X-Spam-Score: -1.1
+X-Virus-Scanned: by Greenhost Virus Scanner
+X-Scan-Signature: 76f3589a93270604ea078d468a2051b3
+Subject: [hrpc] List migrated -> hrpc@irtf.org
+X-BeenThere: hrpc@article19.io
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: Human Rights Protocol Consideration Discussion list
+	<hrpc.article19.io>
+List-Unsubscribe: <https://lists.ghserv.net/mailman/options/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=unsubscribe>
+List-Archive: <http://lists.ghserv.net/pipermail/hrpc>
+List-Post: <mailto:hrpc@article19.io>
+List-Help: <mailto:hrpc-request@article19.io?subject=help>
+List-Subscribe: <https://lists.ghserv.net/mailman/listinfo/hrpc>,
+	<mailto:hrpc-request@article19.io?subject=subscribe>
+X-List-Received-Date: Tue, 31 Mar 2015 18:24:46 -0000
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Dear all,
+
+Hopefully you have all been migrated to the new mailserver and the new
+maillist (hrpc@irtf.org), and you have received your welcome message
+from there.
+
+Please let me know if this is not the case, so I can make sure that
+everyone came over to the new list in good fashion.
+
+The archive will be migrated as soon as possible.
+
+It would be great if we could continue the conversation on the new list.
+
+All the best and sorry for the inconvenience,
+
+Niels
+- --=20
+Niels ten Oever
+Head of Digital
+
+Article 19
+www.article19.org
+
+PGP fingerprint    8D9F C567 BEE4 A431 56C4
+                   678B 08B5 A0F2 636D 68E9
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJVGuZqAAoJEAi1oPJjbWjpuIcIAIcGZi4lI6u8mSDArAdOfesH
+sIEb0VBNxsTbOr/hlq80wg4ell0e26y3TDHTv4kLsK3NJ/Jja3pL7yma9DL5/WIF
+POycIZwQiJRuOclb+BcLPzO65C8mx+Ff4Cu2TMuzKs+T33TBFljr5n6XdSgKarlF
+r3vx+3dZivXhUnWWT3iwUWRVcr1afmQzZeCGW10KbdRT/8ZDwLSO338J+2KxQDYe
+6o6wOhweuxVBQgjepTEkt0Xjs7aB1IjsdF8OZkI4mgYwpnPHn5dJocihxoPfW9va
+pYyLhFDhuSlUf/HdWeCbt9QD6kXRBots/EJtr4qfjXokmXdAwhXcPCd2PD5p6JM=3D
+=3DP0Be
+-----END PGP SIGNATURE-----
+
+

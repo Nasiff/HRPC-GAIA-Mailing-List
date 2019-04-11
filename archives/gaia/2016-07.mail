@@ -1,0 +1,1721 @@
+
+From nobody Thu Jul  7 07:24:20 2016
+Return-Path: <adisorn@ait.asia>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 060B112D7B6 for <gaia@ietfa.amsl.com>; Thu,  7 Jul 2016 06:15:38 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.6
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-0.7, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=ait-asia.20150623.gappssmtp.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id JOUxSnlN8aaV for <gaia@ietfa.amsl.com>; Thu,  7 Jul 2016 06:15:33 -0700 (PDT)
+Received: from mail-wm0-x244.google.com (mail-wm0-x244.google.com [IPv6:2a00:1450:400c:c09::244]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 082D012D76D for <gaia@irtf.org>; Thu,  7 Jul 2016 06:15:31 -0700 (PDT)
+Received: by mail-wm0-x244.google.com with SMTP id i4so4953189wmg.3 for <gaia@irtf.org>; Thu, 07 Jul 2016 06:15:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ait-asia.20150623.gappssmtp.com; s=20150623; h=from:subject:message-id:date:to:mime-version; bh=w+IvCYsCczfeHjJ0W0RW7btiyakGERjdcK8VdPsGB/Q=; b=qLsFECgXSkOB8aqqLpxBjCRl9gXApI4bz6h36yHvD+vXwjEdEpV+wNTd8KAKN1JJGY U8744ZIEH+IGCgdvVILBVaY7E0wCEGnSYtYhbwoDixjoixcxTrMZyTh4UVAMQfQ3oQm9 Oq7yLHkBjK63FECfPoxEgLM8Odvmm/BuYZURYMfKdfEpSG3XYHPI0NhDctVzkua16eLr LKlL4StJvUfsVc4jXlBh8NjzVSnxHzFPpRb8xh2xg/83d3AGQ/AVpybPJ94OasKLhkTW 3vmrsxLu7mJ2KKjKZPuNuqv4RxZ8Jpm1t6LfRx2qGvvLejqMuudvff4ZSe6fzB3yF+pA Tt8Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20130820; h=x-gm-message-state:from:subject:message-id:date:to:mime-version; bh=w+IvCYsCczfeHjJ0W0RW7btiyakGERjdcK8VdPsGB/Q=; b=YzW5UOb1B89pJgcTdb4BqWDq9TlOhHRbuZiBq17zlk5ufQJ0mPlFoMgv7irU2H8Feq AnpuEFE/QuPOVYDwNO8GKifLHNoCmOSLeDtrUbxDm9NuT37ISbEm/t1bzT47X2/9NuNh eM48Y4ljuzGEsLhf57j6SdMPoBp4IgmeQD4GgpKhlOC6PwpY/6rX3BTbhkgQlN8c95dy wvnEakaWrWPOa0Gil9Q+qnvztSlKIdw6HwhT3cQhR0EHO0ywOdyfvnTeJuZUaxj7/nlT UiQZmpFvIRWiQ0/hdkC8+xYHL5UeG++5MXvp8p/gSFsxyoIImxCbjgJrSZsIwJ4y5VUH kc3g==
+X-Gm-Message-State: ALyK8tInkNGkpYLB+oALUJcFNhkfU1zcfqo1zj1SYPMkmEZgVWPXtErQBFrUU4IFIQ0xrRqkP1Ec3/40V6QNOK9FHwQJfbCgsfbqpjcR2lrcDgDInUJdoRI9VqKJ/e/qSwNbgUMM14bR7V+5Et5WpGqbPtVUaAVAmb0EgVac
+X-Received: by 10.194.38.4 with SMTP id c4mr163972wjk.20.1467897329720; Thu, 07 Jul 2016 06:15:29 -0700 (PDT)
+Received: from dhcp-10-248-103-253.eduroam.wireless.private.cam.ac.uk (global-5-141.nat-2.net.cam.ac.uk. [131.111.5.141]) by smtp.gmail.com with ESMTPSA id h3sm2639994wjj.39.2016.07.07.06.15.28 for <gaia@irtf.org> (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128); Thu, 07 Jul 2016 06:15:28 -0700 (PDT)
+From: Adisorn Lertsinsrubtavee <adisorn@ait.asia>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_993F4C7E-6B81-4504-93CC-C37B0BF75345"
+Message-Id: <CF336CA5-411F-463B-A223-A31A7C9581BC@ait.asia>
+Date: Thu, 7 Jul 2016 14:15:27 +0100
+To: gaia@irtf.org
+Mime-Version: 1.0 (Mac OS X Mail 9.3 \(3124\))
+X-Mailer: Apple Mail (2.3124)
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/KShyr0oRdmfe-5YywBfDNTeaNfw>
+X-Mailman-Approved-At: Thu, 07 Jul 2016 07:24:19 -0700
+Subject: [gaia] CFP: 2nd IEEE CCNC Workshop on Future Internet Architecture (FI4D), Las Vegas, USA
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 07 Jul 2016 13:15:38 -0000
+
+--Apple-Mail=_993F4C7E-6B81-4504-93CC-C37B0BF75345
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+Our apologies for possible cross posting.
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+Call for Papers
+The 2nd International Workshop on Future Internet Architecture (FI4D) =
+2017,
+8 January 2017, Las Vegas, USA     =20
+Held in conjunction with IEEE CCNC 2017
+https://www.cl.cam.ac.uk/~al773/fi4d/2017/ccnc_fi4d.html =
+<https://www.cl.cam.ac.uk/~al773/fi4d/2017/ccnc_fi4d.html>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Scope=20
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Information Centric Networking (ICN) has emerged as a promising paradigm =
+for shaping the Future Internet (FI) architectures, oriented towards the =
+management of the massive amount of information. ICN moves from the =
+host-centric to the information-centric networking to decouple the =
+delivery of contents from their original locations. This new paradigm =
+allows the fetching and pre-fetching of contents and services from =
+virtually everywhere, including pushing the information closer to the =
+end user. The latter aspect allows optimizing bandwidth utilization and =
+improving the service availability, especially in challenged network =
+environments. Particular ICN aspects that facilitate such optimization =
+are, among others, the support for in-network caching, the convenient =
+naming of content while only creating temporary relationships between =
+those providing and those asking for content, or the potential to =
+utilize multipath communication and supporting multicast delivery (due =
+to the spatial and temporary decoupling of publishers and subscribers). =
+One benefit from this optimization is to provide a unified framework to =
+integrate constrained-resourced edge networks (e.g., Internet of Things) =
+and high capacity core networks.
+
+In most developing regions, residential Internet access is considerably =
+less affordable due to the experienced income levels. People living in =
+rural communities of these regions either suffer from lacking of =
+Internet access or poor Internet connectivity. These conditions have led =
+to a limited opportunity for rural communities to connect to the world =
+and has significantly caused a digital divide. The advantages offered by =
+ICN along with wireless access and distribution technologies (TV White =
+Spaces, satellite communications or Wi-Fi based long distance networks) =
+introduce potential to improve the Internet connectivity in developing =
+regions aiming at minimizing the cost of Internet deployment and =
+potentially allowing commodity hardware to be an alternative. =
+Furthermore, the recent rising of localized communication approaches, =
+e.g., community networks and do-it-yourself networking (DIY) also bring =
+benefits on providing a low-cost solution for network deployment. With =
+the efficient content delivery in ICN and low-cost practical solutions, =
+these capabilities will leverage affordable broadband Internet for the =
+developing regions.
+
+
+The topics of interest include, but are not limited to:
+
+* ICN architecture design and evaluation
+
+* ICN integration with current IP-based services
+
+* Use of wireless access technologies for development such as TV White =
+Spaces, satellite communications or Wi-Fi based long distance networks
+
+* Caching technologies
+
+* ICN integration with Alternative Network Deployments
+
+* Integrated Internet of Things and ICN solutions for the developing =
+world
+
+* Privacy, security and trust for Future Internet architectures
+
+* Localized communication networks and edge computing
+
+* Applications and services for developing regions
+
+* Future Internet economics and business models
+
+* Deployment and trial experiences of ICN systems
+
+
+Please visit https://www.cl.cam.ac.uk/~al773/fi4d/2017/instruction.html =
+<https://www.cl.cam.ac.uk/~al773/fi4d/2017/instruction.html>, for more =
+details about submission.=20
+
+
+Important Dates
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+
+Submission Deadline: September 7, 2016=20
+Notification: October 12, 2016
+Camera Ready: November 2, 2016
+
+
+Organising Committee
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+
+Andr=C3=A9s Arcia-Moret, University of Cambridge, UK
+Adisorn Lertsinsrubtavee, University of Cambridge, UK
+Marco Zennaro, ICTP, Italy
+
+
+Technical Program Committee
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+
+Antoine Bagula, University of Western Cape, South Africa
+Bjorn Pehrson, KTH Royal Institute of Technology and University of =
+Bergen, Sweden
+Carles Gomez, Universitat Polit=C3=A8cnica de Catalunya, Spain
+Carlos Molina-Jimenez, University of Cambridge, UK
+David Jonhson, Networks and Media group, University of Cape Town, South =
+Africa
+Ermanno Pietrosemoli, Marconi Lab, ICTP, Italy
+Gareth Tyson, Queen Mary University of London, UK
+Ioannis Komnios, Internetworked Systems Lab, Greece
+Jorg Ott, Technical University of Munich, Germany
+Jose Aguilar, University of Los Andes, Venezuela
+Jose Saldana, University of Zaragoza, Spain
+Junaid Qadir, Information Technology University (ITU), Pakistan
+Marica Amadeo, Mediterranean University of Reggio Calabria, Italy
+Miguel Elias Mitre Campista, Universidade Federal do Rio de Janeiro, =
+Brazil
+Raluca Diaconu, University of Cambridge, UK=20
+Sandor Markon, Kobe Institute of Computing, Graduate School of =
+Information Technology, Japan
+Thomas Silverston, Universit=C3=A9 de Lorraine INRIA / LORIA / Madynes, =
+France
+Tuan-Minh Pham, Hanoi National University of Education, Vietnam
+
+Best regards,
+Adisorn Lertsinsrubtavee
+Computer Laboratory=20
+University of Cambridge=20=
+
+--Apple-Mail=_993F4C7E-6B81-4504-93CC-C37B0BF75345
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;">Our apologies for possible cross posting.</div><div class=3D"" =
+style=3D"margin: 0px; line-height: =
+normal;">=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</div><div class=3D"" =
+style=3D"margin: 0px; line-height: normal;">Call for Papers</div><div =
+class=3D"" style=3D"margin: 0px; line-height: normal;">The 2nd =
+International Workshop on Future Internet Architecture (FI4D) =
+2017,</div><div class=3D"" style=3D"margin: 0px; line-height: normal;">8 =
+January 2017, Las Vegas, USA&nbsp; &nbsp; &nbsp;&nbsp;</div><div =
+class=3D"" style=3D"margin: 0px; line-height: normal;">Held in =
+conjunction with IEEE CCNC 2017</div><div class=3D"" style=3D"margin: =
+0px; line-height: normal; color: rgb(71, 135, 255);"><span class=3D"" =
+style=3D"text-decoration: underline;"><a =
+href=3D"https://www.cl.cam.ac.uk/~al773/fi4d/2017/ccnc_fi4d.html" =
+class=3D"">https://www.cl.cam.ac.uk/~al773/fi4d/2017/ccnc_fi4d.html</a></s=
+pan></div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;">=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</div><div class=3D"" =
+style=3D"margin: 0px; line-height: normal; min-height: 14px;"><br =
+class=3D""></div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;">Scope&nbsp;</div><div class=3D"" style=3D"margin: 0px; =
+line-height: normal;">=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</div><div class=3D"" =
+style=3D"margin: 0px; line-height: normal; min-height: 14px;"><br =
+class=3D""></div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;">Information Centric Networking (ICN) has emerged as a promising =
+paradigm for shaping the Future Internet (FI) architectures, oriented =
+towards the management of the massive amount of information. ICN moves =
+from the host-centric to the information-centric networking to decouple =
+the delivery of contents from their original locations. This new =
+paradigm allows the fetching and pre-fetching of contents and services =
+from virtually everywhere, including pushing the information closer to =
+the end user. The latter aspect allows optimizing bandwidth utilization =
+and improving the service availability, especially in challenged network =
+environments. Particular ICN aspects that facilitate such optimization =
+are, among others, the support for in-network caching, the convenient =
+naming of content while only creating temporary relationships between =
+those providing and those asking for content, or the potential to =
+utilize multipath communication and supporting multicast delivery (due =
+to the spatial and temporary decoupling of publishers and subscribers). =
+One benefit from this optimization is to provide a unified framework to =
+integrate constrained-resourced edge networks (e.g., Internet of Things) =
+and high capacity core networks.</div><div class=3D"" style=3D"margin: =
+0px; line-height: normal; min-height: 14px;"><br class=3D""></div><div =
+class=3D"" style=3D"margin: 0px; line-height: normal;">In most =
+developing regions, residential Internet access is considerably less =
+affordable due to the experienced income levels. People living in rural =
+communities of these regions either suffer from lacking of Internet =
+access or poor Internet connectivity. These conditions have led to a =
+limited opportunity for rural communities to connect to the world and =
+has significantly caused a digital divide. The advantages offered by ICN =
+along with wireless access and distribution technologies (TV White =
+Spaces, satellite communications or Wi-Fi based long distance networks) =
+introduce potential to improve the Internet connectivity in developing =
+regions aiming at minimizing the cost of Internet deployment and =
+potentially allowing commodity hardware to be an alternative. =
+Furthermore, the recent rising of localized communication approaches, =
+e.g., community networks and do-it-yourself networking (DIY) also bring =
+benefits on providing a low-cost solution for network deployment. With =
+the efficient content delivery in ICN and low-cost practical solutions, =
+these capabilities will leverage affordable broadband Internet for the =
+developing regions.</div><div class=3D"" style=3D"margin: 0px; =
+line-height: normal; min-height: 14px;"><br class=3D""></div><div =
+class=3D"" style=3D"margin: 0px; line-height: normal; min-height: =
+14px;"><br class=3D""></div><div class=3D"" style=3D"margin: 0px; =
+line-height: normal;">The topics of interest include, but are not =
+limited to:</div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal; min-height: 14px;"><br class=3D""></div><div class=3D"" =
+style=3D"margin: 0px; line-height: normal;">* ICN architecture design =
+and evaluation</div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal; min-height: 14px;"><br class=3D""></div><div class=3D"" =
+style=3D"margin: 0px; line-height: normal;">* ICN integration with =
+current IP-based services</div><div class=3D"" style=3D"margin: 0px; =
+line-height: normal; min-height: 14px;"><br class=3D""></div><div =
+class=3D"" style=3D"margin: 0px; line-height: normal;">* Use of wireless =
+access technologies for development such as TV White Spaces, satellite =
+communications or Wi-Fi based long distance networks</div><div class=3D"" =
+style=3D"margin: 0px; line-height: normal; min-height: 14px;"><br =
+class=3D""></div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;">* Caching technologies</div><div class=3D"" style=3D"margin: =
+0px; line-height: normal; min-height: 14px;"><br class=3D""></div><div =
+class=3D"" style=3D"margin: 0px; line-height: normal;">* ICN integration =
+with Alternative Network Deployments</div><div class=3D"" style=3D"margin:=
+ 0px; line-height: normal; min-height: 14px;"><br class=3D""></div><div =
+class=3D"" style=3D"margin: 0px; line-height: normal;">* Integrated =
+Internet of Things and ICN solutions for the developing world</div><div =
+class=3D"" style=3D"margin: 0px; line-height: normal; min-height: =
+14px;"><br class=3D""></div><div class=3D"" style=3D"margin: 0px; =
+line-height: normal;">* Privacy, security and trust for Future Internet =
+architectures</div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal; min-height: 14px;"><br class=3D""></div><div class=3D"" =
+style=3D"margin: 0px; line-height: normal;">* Localized communication =
+networks and edge computing</div><div class=3D"" style=3D"margin: 0px; =
+line-height: normal; min-height: 14px;"><br class=3D""></div><div =
+class=3D"" style=3D"margin: 0px; line-height: normal;">* Applications =
+and services for developing regions</div><div class=3D"" style=3D"margin: =
+0px; line-height: normal; min-height: 14px;"><br class=3D""></div><div =
+class=3D"" style=3D"margin: 0px; line-height: normal;">* Future Internet =
+economics and business models</div><div class=3D"" style=3D"margin: 0px; =
+line-height: normal; min-height: 14px;"><br class=3D""></div><div =
+class=3D"" style=3D"margin: 0px; line-height: normal;">* Deployment and =
+trial experiences of ICN systems</div><div class=3D"" style=3D"margin: =
+0px; line-height: normal; min-height: 14px;"><br class=3D""></div><div =
+class=3D"" style=3D"margin: 0px; line-height: normal; color: rgb(87, 86, =
+214);"><br class=3D""></div><div class=3D"" style=3D"margin: 0px; =
+line-height: normal; color: rgb(87, 86, 214);"><span class=3D"" =
+style=3D"color: rgb(0, 0, 0);">Please visit</span><span class=3D"" =
+style=3D"color: rgb(0, 97, 255);">&nbsp;<a =
+href=3D"https://www.cl.cam.ac.uk/~al773/fi4d/2017/instruction.html" =
+class=3D"">https://www.cl.cam.ac.uk/~al773/fi4d/2017/instruction.html</a><=
+/span><span class=3D"" style=3D"color: rgb(0, 0, 0);">, for more details =
+about submission.&nbsp;</span></div><div class=3D"" style=3D"margin: =
+0px; line-height: normal; min-height: 14px;"><br class=3D""></div><div =
+class=3D"" style=3D"margin: 0px; line-height: normal; min-height: =
+14px;"><br class=3D""></div><div class=3D"" style=3D"margin: 0px; =
+line-height: normal;">Important Dates</div><div class=3D"" =
+style=3D"margin: 0px; line-height: =
+normal;">=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D</div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;">Submission Deadline: September 7, 2016&nbsp;</div><div class=3D""=
+ style=3D"margin: 0px; line-height: normal;">Notification: October 12, =
+2016</div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;">Camera Ready: November 2, 2016</div><div class=3D"" =
+style=3D"margin: 0px; line-height: normal; min-height: 14px;"><br =
+class=3D""></div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal; min-height: 14px;"><br class=3D""></div><div class=3D"" =
+style=3D"margin: 0px; line-height: normal;">Organising =
+Committee</div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;">=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D</div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;">Andr=C3=A9s Arcia-Moret, University of Cambridge, UK</div><div =
+class=3D"" style=3D"margin: 0px; line-height: normal;">Adisorn =
+Lertsinsrubtavee, University of Cambridge, UK</div><div class=3D"" =
+style=3D"margin: 0px; line-height: normal;">Marco Zennaro, ICTP, =
+Italy</div><div class=3D"" style=3D"margin: 0px; line-height: normal; =
+min-height: 14px;"><br class=3D""></div><div class=3D"" style=3D"margin: =
+0px; line-height: normal; min-height: 14px;"><br class=3D""></div><div =
+class=3D"" style=3D"margin: 0px; line-height: normal;">Technical Program =
+Committee</div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;">=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D</div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;">Antoine Bagula, University of Western Cape, South =
+Africa</div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;">Bjorn Pehrson, KTH Royal Institute of Technology and University =
+of Bergen, Sweden</div><div class=3D"" style=3D"margin: 0px; =
+line-height: normal;">Carles Gomez, Universitat Polit=C3=A8cnica de =
+Catalunya, Spain</div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;">Carlos Molina-Jimenez, University of Cambridge, UK</div><div =
+class=3D"" style=3D"margin: 0px; line-height: normal;">David Jonhson, =
+Networks and Media group, University of Cape Town, South =
+Africa</div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;">Ermanno Pietrosemoli, Marconi Lab, ICTP, Italy</div><div =
+class=3D"" style=3D"margin: 0px; line-height: normal;">Gareth Tyson, =
+Queen Mary University of London, UK</div><div class=3D"" style=3D"margin: =
+0px; line-height: normal;">Ioannis Komnios, Internetworked Systems Lab, =
+Greece</div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;">Jorg Ott, Technical University of Munich, Germany</div><div =
+class=3D"" style=3D"margin: 0px; line-height: normal;">Jose Aguilar, =
+University of Los Andes, Venezuela</div><div class=3D"" style=3D"margin: =
+0px; line-height: normal;">Jose Saldana, University of Zaragoza, =
+Spain</div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;">Junaid Qadir, Information Technology University (ITU), =
+Pakistan</div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;">Marica Amadeo, Mediterranean University of Reggio Calabria, =
+Italy</div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;">Miguel Elias Mitre Campista, Universidade Federal do Rio de =
+Janeiro, Brazil</div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;">Raluca Diaconu, University of Cambridge, UK&nbsp;</div><div =
+class=3D"" style=3D"margin: 0px; line-height: normal;">Sandor Markon, =
+Kobe Institute of Computing, Graduate School of Information Technology, =
+Japan</div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;">Thomas Silverston, Universit=C3=A9 de Lorraine INRIA / LORIA / =
+Madynes, France</div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;">Tuan-Minh Pham, Hanoi National University of Education, =
+Vietnam</div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;"><br class=3D""></div><div class=3D"" style=3D"margin: 0px; =
+line-height: normal;">Best regards,</div><div class=3D"" style=3D"margin: =
+0px; line-height: normal;">Adisorn Lertsinsrubtavee</div><div class=3D"" =
+style=3D"margin: 0px; line-height: normal;">Computer =
+Laboratory&nbsp;</div><div class=3D"" style=3D"margin: 0px; line-height: =
+normal;">University of Cambridge&nbsp;</div></body></html>=
+
+--Apple-Mail=_993F4C7E-6B81-4504-93CC-C37B0BF75345--
+
+
+From nobody Fri Jul 15 10:40:24 2016
+Return-Path: <willi.uebelherr@riseup.net>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 115DA12D0AD for <gaia@ietfa.amsl.com>; Fri, 15 Jul 2016 10:40:23 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.608
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.608 tagged_above=-999 required=5 tests=[BAYES_05=-0.5, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, RCVD_IN_DNSWL_LOW=-0.7, RCVD_IN_MSPIKE_H3=-0.01, RCVD_IN_MSPIKE_WL=-0.01, RP_MATCHES_RCVD=-1.287, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001, UNPARSEABLE_RELAY=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=riseup.net
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 9wQxkSWHbzRT for <gaia@ietfa.amsl.com>; Fri, 15 Jul 2016 10:40:21 -0700 (PDT)
+Received: from mx1.riseup.net (mx1.riseup.net [198.252.153.129]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 9786612B04D for <gaia@irtf.org>; Fri, 15 Jul 2016 10:40:21 -0700 (PDT)
+Received: from cotinga.riseup.net (unknown [10.0.1.164]) (using TLSv1 with cipher ECDHE-RSA-AES256-SHA (256/256 bits)) (Client CN "*.riseup.net", Issuer "COMODO RSA Domain Validation Secure Server CA" (verified OK)) by mx1.riseup.net (Postfix) with ESMTPS id F30CF1A1FB8; Fri, 15 Jul 2016 17:40:20 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=riseup.net; s=squak; t=1468604421; bh=NO+Xx2FDpbvOCHA+6ckY50I/G8Q2QFpMsnm+CVKkdmY=; h=Subject:References:From:To:Cc:Date:In-Reply-To:From; b=aWzGOrWlhnYxTzIFKkpgQFzvPcf4w40gZpb+iD9mesnAuEc1s/4aL0sukYFN258uP OL926zF+wGx5NjTM40MSqj/rgj3qNzdsLlmrmnrnKb/ZQCmoC6+ifRtU73wXFieAxA shCBzbwQvUYJfFrzctItVXgt2Yj87kuq7uPSJ0AE=
+Received: from [127.0.0.1] (localhost [127.0.0.1]) (Authenticated sender: willi.uebelherr) with ESMTPSA id 310EB40230
+References: <1726361171.3582731.1468555776680.JavaMail.yahoo@mail.yahoo.com>
+From: willi uebelherr <willi.uebelherr@riseup.net>
+To: Internet Governance <governance@lists.igcaucus.org>
+X-Forwarded-Message-Id: <1726361171.3582731.1468555776680.JavaMail.yahoo@mail.yahoo.com>
+Message-ID: <5697f501-676c-8a81-7c8e-a8ce0d33db5d@riseup.net>
+Date: Fri, 15 Jul 2016 13:40:11 -0400
+MIME-Version: 1.0
+In-Reply-To: <1726361171.3582731.1468555776680.JavaMail.yahoo@mail.yahoo.com>
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Virus-Scanned: clamav-milter 0.99.2 at mx1.riseup.net
+X-Virus-Status: Clean
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/WmuHYFIO1auGHWfMRcHDy_1rm1I>
+Cc: "1net.org discuss" <discuss@1net.org>, IRTF Gaia list <gaia@irtf.org>, DC3 list <dc3@listas.altermundi.net>, BestBits <bestbits@lists.bestbits.net>, APC forum <apc.forum@lists.apc.org>, ISOC policy <internetpolicy@elists.isoc.org>, IUF list <iuf@lists.riseup.net>
+Subject: Re: [gaia] management of technology patents, licenses and ...
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Fri, 15 Jul 2016 17:40:23 -0000
+
+Dear Amali De Silva,
+
+many many thanks for your initiative in this environment to discuss this 
+theme. One of the most important question for us. I have addressed many 
+lists. And i know, many friends act on different lists. Maybe, sometimes 
+we bring the different discussions together.
+
+This question is not only for jobless people or for that, what some 
+people say, "extension of human capital". A terrible term.
+
+We act, or the most of us, for a telecommunication that can interconnect 
+all people on our planet. And we do it mostly, because we have the 
+experience, how strong was this system to help us in our own development 
+and activity.
+
+But we have also another layer. We say, all this terrible destruction of 
+nature, culture, history, knowledge and so on, what we see in the last 
+decades, centuries and so on, we can stop, if the people are interconnected.
+
+And, in a positive direction, all our understanding of the laws of the 
+nature, the basic for our technology, the materialisation of the law of 
+the nature, we can strong accelerate, if we cooperate globally in an 
+free and open space for all people. A fantastic perspective.
+
+Then we never will have any problem with the development and 
+distribution of our Internet. For that we can say: the inter-connection 
+of any device or the inter-connection of all local networks with her 
+devices. Physically, of course, all devices. And the people use the 
+devices for her communication and information exchange.
+
+We know, knowledge is a common resource. We know it from ourself, we 
+know it from other people. All our knowledge is based on that, what 
+other people before and today created and published. Never any person 
+alone can work.
+
+The patent rights suggest, we as a individual person can create 
+something alone. This is a big nonsense, a religion. But we, with our 
+experience and understanding, can say, we ignore all this nonsense. We 
+never use it, we never recognize it. It is more a decision for us self, 
+like with all religions. They are depend, that the people believe.
+
+And we have the experience, that if nobody follow, nothing exist of 
+that. Only a paper maybe.
+
+I speak here consciously to a group of enlightened people. And i speak 
+here to activist for a free and open interconnection of all people on 
+our planet. I am atheist and i go only in a church to see the used 
+technology in our history. Therefore, i am not interested for dogmatic 
+propaganda.
+
+In my concentration to the internet the technology to realize stay 
+always in the foreground. The first part, the theoretical discussion 
+about structures and methodologies, is for me clear. We have it, if we want.
+
+The transport of the digital data in packetform over any geografical 
+distances is the most important part, what we have to organice. And not 
+with Kb, Mb, or little Gb. No, with Tb. But i know, that in this lists 
+the most people people don't like to work with experimental and 
+theoretical physic. They like more to repeat all this Governance 
+rethoric. Papers for papaers, texts for texts. Endless without a clear 
+perspective.
+
+We know, our Internet we can only create in a global cooperation in the 
+technical sphere. The people in the regions have to be able to organize 
+the internet in his region. And only the IP header we need for our 
+interoperability. That we understand the elements in this language. And 
+how we transport the data is not important. Only the non-alteration is 
+important.
+
+The result for me is the free technology. Free for participate, free for 
+using the result, for all people on our planet. The principles: "global 
+thinking, local doing" and "knowledge is always worldheritage".
+
+many thanks and greetings, willi
+Manaus, Brasil
+
+
+-------- Weitergeleitete Nachricht --------
+Betreff: [governance] management of technology patents, licenses and 
+royalty agreements focus group on impacts for labour / jobs, not just IT 
+skills
+Datum: Fri, 15 Jul 2016 04:09:36 +0000 (UTC)
+Von: amalidesilva@yahoo.com <amalidesilva@yahoo.com>
+An: Internet Governance <governance@lists.igcaucus.org>
+
+Just a thought....
+
+Civil society should build a focus group in the area of patents, 
+licensing and technologies as it impacts labour supply not just skills, 
+as it is a key to the allocation of wealth and the management of labour 
+(job loss, is not just skills related it is actual displacement ) in to 
+the future, if global birth rates are sustained at current levels...this 
+is about access to technology.
+
+In the past WSIS stakeholders have really promoted sharing of 
+technological knowledge...so we have already have an early interest in 
+this area of work and the monitoring of it....
+
+Simple example. If the recipe for making cakes had not been shared but 
+patented , there would be one global baker using a robot cake machine 
+  and not a cake baker in every city as now...so lots of cake making 
+jobs were sustained...Even the most complex of technology developments 
+may have to take this route for evolution at a certain level , whatever 
+that level may be, to minimize net job loss in the interim / short term 
+for social stability....this may also provide enhanced creative 
+opportunities for the future...
+
+Job losses of the future must be managed by society as the numbers will 
+be too large to be easily assimilated by the general job market place 
+  plus..to address the current IT skills gap , civil society should 
+actively support the IT education of the 40 to 65 year olds ...in to the 
+future we will need less technically qualified people as AI develops 
+sophistication....this is the real issue then...and we need to start 
+planning now as the current global  talk suggests....
+
+Amali De Silva - Mitchell...
+
+
+
+From nobody Mon Jul 18 00:34:50 2016
+Return-Path: <internet-drafts@ietf.org>
+X-Original-To: gaia@irtf.org
+Delivered-To: gaia@ietfa.amsl.com
+Received: from ietfa.amsl.com (localhost [IPv6:::1]) by ietfa.amsl.com (Postfix) with ESMTP id DAB9112D0D3; Mon, 18 Jul 2016 00:34:47 -0700 (PDT)
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+From: internet-drafts@ietf.org
+To: <i-d-announce@ietf.org>
+X-Test-IDTracker: no
+X-IETF-IDTracker: 6.28.0
+Auto-Submitted: auto-generated
+Precedence: bulk
+Message-ID: <20160718073447.12465.26189.idtracker@ietfa.amsl.com>
+Date: Mon, 18 Jul 2016 00:34:47 -0700
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/1SbYbuwTWjq5Pxti8GEFil2V6RE>
+Cc: gaia@irtf.org
+Subject: [gaia] I-D Action: draft-irtf-gaia-alternative-network-deployments-08.txt
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.17
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 18 Jul 2016 07:34:48 -0000
+
+A New Internet-Draft is available from the on-line Internet-Drafts directories.
+This draft is a work item of the Global Access to the Internet for All of the IETF.
+
+        Title           : Alternative Network Deployments: Taxonomy, characterization, technologies and architectures
+        Authors         : Jose Saldana
+                          Andres Arcia-Moret
+                          Bart Braem
+                          Ermanno Pietrosemoli
+                          Arjuna Sathiaseelan
+                          Marco Zennaro
+	Filename        : draft-irtf-gaia-alternative-network-deployments-08.txt
+	Pages           : 42
+	Date            : 2016-07-18
+
+Abstract:
+   This document presents a taxonomy of a set of "Alternative Network
+   Deployments" that emerged in the last decade with the aim of bringing
+   Internet connectivity to people or for providing local communication
+   infrastructure to serve various complementary needs and objectives.
+   They employ architectures and topologies different from those of
+   mainstream networks, and rely on alternative governance and business
+   models.
+
+   The document also surveys the technologies deployed in these
+   networks, and their differing architectural characteristics,
+   including a set of definitions and shared properties.
+
+   The classification considers models such as Community Networks,
+   Wireless Internet Service Providers (WISPs), networks owned by
+   individuals but leased out to network operators who use them as a
+   low-cost medium to reach the underserved population, networks that
+   provide connectivity by sharing wireless resources of the users and
+   rural utility cooperatives.
+
+
+The IETF datatracker status page for this draft is:
+https://datatracker.ietf.org/doc/draft-irtf-gaia-alternative-network-deployments/
+
+There's also a htmlized version available at:
+https://tools.ietf.org/html/draft-irtf-gaia-alternative-network-deployments-08
+
+A diff from the previous version is available at:
+https://www.ietf.org/rfcdiff?url2=draft-irtf-gaia-alternative-network-deployments-08
+
+
+Please note that it may take a couple of minutes from the time of submission
+until the htmlized version and diff are available at tools.ietf.org.
+
+Internet-Drafts are also available by anonymous FTP at:
+ftp://ftp.ietf.org/internet-drafts/
+
+
+From nobody Mon Jul 18 03:35:50 2016
+Return-Path: <ford@isoc.org>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 3FF4112D0F1 for <gaia@ietfa.amsl.com>; Mon, 18 Jul 2016 03:35:50 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.921
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.921 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, RCVD_IN_DNSWL_NONE=-0.0001, RCVD_IN_MSPIKE_H4=-0.01, RCVD_IN_MSPIKE_WL=-0.01, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001, WEIRD_PORT=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=isoc.onmicrosoft.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id WG9qyMzMFnsp for <gaia@ietfa.amsl.com>; Mon, 18 Jul 2016 03:35:48 -0700 (PDT)
+Received: from NAM01-SN1-obe.outbound.protection.outlook.com (mail-sn1nam01on0042.outbound.protection.outlook.com [104.47.32.42]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 57FAF12D0CF for <gaia@irtf.org>; Mon, 18 Jul 2016 03:35:36 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=isoc.onmicrosoft.com;  s=selector1-isoc-org; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version; bh=su1ub43cK9S5TDC4l3MLXIxuDekyfVRv3XG5curvsLk=; b=ccnvstUFoAmNW0Ut8AkrgvUY/xKm/g9d2CmghDRjuR/+jGM23cVNvByn8syyUuYW5WvOZ/ALyD/2gLkq0g+yrbzqriK0FnsGYTHxEeTx29OzXFSCuEy8iGevZaIvQTl7/jb3q+QHhefsHXgt+QQ9tgEa+QBMAhb00eqwtKDxn7o=
+Authentication-Results: spf=none (sender IP is ) smtp.mailfrom=ford@isoc.org; 
+Received: from [IPv6:2001:67c:370:136:10f5:5aee:bebd:d94c] (2001:67c:370:136:10f5:5aee:bebd:d94c) by BL2PR06MB2212.namprd06.prod.outlook.com (10.167.100.26) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.544.10; Mon, 18 Jul 2016 10:35:34 +0000
+From: Matthew Ford <ford@isoc.org>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Date: Mon, 18 Jul 2016 12:35:24 +0200
+To: <gaia@irtf.org>
+Message-ID: <66BDF8B5-46AA-41B4-AE77-BDE2F7137B40@isoc.org>
+MIME-Version: 1.0 (Mac OS X Mail 9.3 \(3124\))
+X-Mailer: Apple Mail (2.3124)
+X-Originating-IP: [2001:67c:370:136:10f5:5aee:bebd:d94c]
+X-ClientProxiedBy: DB5PR0201CA0021.eurprd02.prod.outlook.com (10.164.231.159) To BL2PR06MB2212.namprd06.prod.outlook.com (10.167.100.26)
+X-MS-Office365-Filtering-Correlation-Id: b7aa219d-d769-43ef-b44e-08d3aef74027
+X-Microsoft-Exchange-Diagnostics: 1; BL2PR06MB2212; 2:/fsa3jb1OYVaXsBt/0zEgdTgPa+n2v2f1gUvnSVxsG0gvmdoW4grc1RNT7fTfwJZmxTTVvLHre6A9o03Mj5OJA0OO5Vb1QQeWoKFGZG1M54XRc42RTJQ+0VuoQyFnwPuy0kIcLkLIEV4V3DZT+VC9sG0bwH1qUIfOB3b/fRUHnYkbnrYYWMAi047bZuJv06C; 3:BDjhQpbS0DidaxCxRy7ptYqBosTqzpNZ3SXUqGjNtKIdoXAEsjrOb7k3bZTnwHKK607KzL77oz8Rp3s6aezJUjx9cwJ91w3SRMe1xVFAYgYq53nQCGczzMEp2HkBnEXv; 25:A3Iktfk0U2MsmFcPcbCKbTqPGdSJr6+u7dBUWSyZjbXeuKIp62fac2C3z8gGCirKlEjUW4cyuy1bCg2WXJJDuqH1Og98GFXfiEhBqoWB7Pk67UVgcikJx72+ZGF8dLPq4vJt2CVB5QQfyLNsTMboDM1SEvUvZ40Qzc+3c+YS7XeS/ChXcCMArq4XNtT3vVU1pEY/sJF1wpfwfwGFbqTiNzOABKIluJke3momZ97hutmM99S7lyWtDCkERuG9WFNQp9Vqo63lWgJOtqFP0+b5gp8PJjpiszjTr3LV2KRS33bBAwVOVLp3dCVE0bIrjvkwSv2l+nqjsQoFIcRXNa1Q3TUyQzgsB81hpGIKun+O2MMuVZivxjGkh3HTH+V1u69v1T87iBOqDgkRXQlY8jbZRukvVBwaKkvO+RXx4Cnyukc=; 31:6yi+oK3bJ+kq8BnzUJOVnSRm6gkOQgREdTP8Pl3ZPBzqA+w9wSXJTBIilyMoo9WxGdksaolpK+T/V7JCauMfDSmLm/n21HPgRJJGcYg1sqy5IqOK6faJxsCxb+mRjEIJUNuoSC3Xx6sY2ujDQLO60OPBvMID1X0OtCA8+QSBQNSM75tWpErz12iA5469RW8c4MyDX/MHACdWCOwEm3F7QA==
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BL2PR06MB2212;
+X-Microsoft-Exchange-Diagnostics: 1; BL2PR06MB2212; 20:zl2lJw51YHVebYBL3rUW871KCFBm5i8REqQ/ioVGbeAsWiJ57VFZisqfwbdiCJ7YLSgippgSjZmo11ms5Sbc96yj5Ykx8hzsskXXwnIVjOVmYfxz3/OqUOzFSqryrWii52QyAoG2xiwvyVSEpz0bQhrAMEhvRZK2qUyPQ2oWXyRY4yxXbPVA0AjjQqi5haF9X28pnCrfedsnw94P6d2AqYOyb52MDr04Ornst49bSDXiWYXwOC5VIt4zVvjxqLzPAsDJ0yiEinhsQ+GvCyAUB+bJw+v512tmyZkbTJDsd/TzGQJjGnVLpeSdrgt0N3UpCQxcuSU0296dsD/yHhnxBW3zo1D4el+LGT2IwQTRkxiz7zBzpmUIf//1AYmwTC8RMGaREZ5xrV0HmBGAJxDhRVU1FH0+xeo0Y0BFrPORfvVX2Qp0iHbZBSAl0tejER79xrGbevA1myuokwJ4k7Qr2Dmwuj7gAFDe/dnrYxEPz7xIn5gnmL6wQHlOdZRd35Zr; 4:N3HioPwpZyGnGeItUK/Lu+osuEkJ4T9gBMLdLt1IUvvW+iSAgNJ+6Yn+YmxjKwSTfPE+AWNPJVlQYYdQeINCg7yTRvT3nYtsIGYZUaOd1hehhIthMlFInBLFW/MTa+yLMfsFqa4XwIoEoAt/f62OXszlpclnDjri+NajrxqzxMz6zgOBlsMmZXl2UtEo8p32ogtuS8IoYblOxn0Si7n6bT8GPwgE6+jrFtMadivl2Ciib832dyWzbvqoyHeY1uw8RlUTBw6y4uzf1YQ52mpg+7orxCJdxVrsllwyfQRWcewVYQH8j075Qln1YPdJAPUD3GhFlBP1HE8xh1m1vCVPzgVAOYqVN951mPna1P0ZnAv5GX0GiKCE6kBbBB1eImqC
+X-Microsoft-Antispam-PRVS: <BL2PR06MB2212AD5802831F4DAC4A4873A7360@BL2PR06MB2212.namprd06.prod.outlook.com>
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:0; PCL:0; RULEID:(601004)(2401047)(8121501046)(5005006)(3002001)(10201501046); SRVR:BL2PR06MB2212; BCL:0; PCL:0; RULEID:; SRVR:BL2PR06MB2212; 
+X-Forefront-PRVS: 00073DB75F
+X-Forefront-Antispam-Report: SFV:NSPM; SFS:(10009020)(4630300001)(6009001)(7916002)(279900001)(189002)(199003)(53754006)(106356001)(19580395003)(2351001)(77096005)(15975445007)(229853001)(23676002)(19625305001)(50986999)(93376004)(42186005)(450100001)(50466002)(33656002)(83716003)(92566002)(101416001)(36756003)(47776003)(7846002)(305945005)(8746002)(7736002)(8676002)(68736007)(50226002)(57306001)(1706002)(81166006)(81156014)(86362001)(6116002)(586003)(82746002)(189998001)(110136002)(107886002)(105586002)(97736004)(2906002)(3826002)(104396002)(15302535012); DIR:OUT; SFP:1101; SCL:1; SRVR:BL2PR06MB2212; H:[IPv6:2001:67c:370:136:10f5:5aee:bebd:d94c]; FPR:; SPF:None; PTR:InfoNoRecords; MX:1; A:1; LANG:en; 
+Received-SPF: None (protection.outlook.com: isoc.org does not designate permitted sender hosts)
+X-Microsoft-Exchange-Diagnostics: =?utf-8?B?MTtCTDJQUjA2TUIyMjEyOzIzOkpIY0wyR0NScWVoSGlhRXQ4SWpoa2QraUQw?= =?utf-8?B?cmpwbktnb1ZDaEk0aEltVTRrVURJcEk4SGdFdWFBYUdhK0tpZTVaWUlFNGx1?= =?utf-8?B?NE1qaHFJalQ5d2JlcU9KYjE2N0lhNmVKL3ZaRkJnMVh0Rk5ibERuTSsxOGV6?= =?utf-8?B?MEtnSGJtTFpoekwxUy9LcnNKUXF4NlJDSGF4bDd3WG91ZVJhTVlyejJRN0J2?= =?utf-8?B?RGpwQmhkQnZLNGVNdjlBeEEyY0VUQXRWVXd1ZEtkSm9TcnVGUmp2Q2ZjWkNM?= =?utf-8?B?NTltc0dGS2FFcFdMUWdCMXJDMmR6UUtwKzFZVmNPWHM1c3dnbWhaTXp5VFha?= =?utf-8?B?Z2JERDdoblFISkRrQjlOYWRnT1dVZWYvSDl4UXQ5dVArV1A3MUpNdGE1NW1Y?= =?utf-8?B?UkJIcEl5RzZJTThQVzJvUDgrbm1pUWdPSHYwOFRWU1U3UTZnOVljUXNRS1Jm?= =?utf-8?B?a3BQRzhjUzNqalh4NHlRcEFvRUlCdC9Tc0MwdzlvQkJYM0VSVlhsQk9QbUha?= =?utf-8?B?UGFPYm16WW96RmM2aVRIZENrVU9iZzZPZGRRTGFkTTVPK0Y5Q1RrV3VqbTdD?= =?utf-8?B?dnhwb2NxcmpCQ0tNVE1vUzNkelBGemk2bjdyRmpFOEdLT0Qra2dpWXpuNExJ?= =?utf-8?B?SnYyTlRaUklPYS9qVWZVZ0RZRU5iQWUvRFIySlJCMWh6TVNMTDFMbktQRzV6?= =?utf-8?B?Tng0TDRtS3VkcDYxV3hVbWhKWDUxSndwUnFVRGNvYThyVmJTREpjcGpvdXBM?= =?utf-8?B?UUxFVHVZVnI5NTVEcDkzbS9OeWNCZ05HTEduckZvZ3VnblNES0ZMZVB2eUds?= =?utf-8?B?UmJrOWZ3WlRva0x1MUpZT1JVc3E5cVlJL1paTUJDMEdFcmxJdVpnZ0JvTHIv?= =?utf-8?B?L1FwNngvMForMGN5Uy9XdEw3c1EwbHF3Y01ua2tyQXVTRUVWaGs3YmRDY1Nq?= =?utf-8?B?dTdvVzMwanN4aFpQMzJ2OVJCOUtEM3UwTTFMd3pkeGVlNEMvY3NtSEdqbmxm?= =?utf-8?B?amlwL2p5b3l1WERFZ1hsNzdnZ3daQ3BRTE1tbm14bWJsOFVmL3c5cGRjWXhv?= =?utf-8?B?MDl2QVhxK3EvV2VIY0ZFRXp5NzJKVmNLbXVCUmplVTZNdkh6dUErV1liazk0?= =?utf-8?B?MEhFajMzVXo4SGtQQW50a0hCSml0TzFZUkNjbVNTZVplWHhEYUNvWEJCbCtC?= =?utf-8?B?Y0piWXR3a2trWnBPc3AwWUh5MG52MU04Z2NyYjVwNkdBem02a2hXUEhMRStW?= =?utf-8?B?N3dnNUllcVJ2WnhKb2VLb1hqL3NOMmlTU0hZWE1tRjRQUTF4TkpXbTNDcVFx?= =?utf-8?B?MUxZMHJnYS84b0xrOUo2U09pQ0xCdlErVG9NTVlNRkcrMkVEK2lmVFltTHcw?= =?utf-8?B?Q2NRdVRQbkRoQU8rcDB5RmlzbzVNMW9ZeHJXV3RsYzlsK0hYYTFNLzBQOEYw?= =?utf-8?B?Mk9zYU91TWxWdHRFcDU4REtZRmxXenV2YVVWczNibU5mQWQ3R2NWTWE0VE1t?= =?utf-8?B?b2ZmTHdNSDhVTTFkZ3YreWNkNlRKT0VoUzgreVNYek5MRGZBSzZ6UFd0NERG?= =?utf-8?B?cnNmYkxDemF5M1R2aThiQWFzcUd1SE0vQ3hWN0pTZXNydHA3MVB6b2c0TmFh?= =?utf-8?B?RnVjaEtneHovNysweVkyb1JiWGQvT0wyU3EvVG0xaGFwQVpqRFNuanJzVEtj?= =?utf-8?Q?fupvgrkRgtOR/hjAYw=3D?=
+X-Microsoft-Exchange-Diagnostics: 1; BL2PR06MB2212; 6:MwyEzpXiuOJ1KL7A2KtK6tNWHPaaj4pFZbDDkF6N2h0erS1j7w2lrwOBpRQrZ5lk0NxZ51RAbAGuPV96dS5RGs72cfn7Xd8NdOOLG6MrIOGegrv0L21657VOYEzTLTwIQBYE7MN3tatLkYuooqb/ut59y6BhF3IND7sKkRQLEXsmlR7fZ/F+LuqMaCPWpBk1tXzFwPvEuxQAY5/ejCJqKedAYPhjosF0mwrG17VzPtWvgZjy+r7JztaCgALl6yfCYOSOKUSECZt+aQotT0XIfwjPHJSvSt20ZuZJhPHr+FQ=; 5:93cEmwUuxvR95WbCmfPH+imNbz8meJ/gDmadtUwbLZWZ1yhawtvnzVzQSIhR3OWCAqBlXcs1Xm/afgvjrEpSiCVobpfGIt7GaRm3ueQfhdUqc/T/YxlRMcc5KFP7V+XpvcSm0vTKMJCd0BopMtcm7w==; 24:uIFwutlEE/4AH78ATAqi71hzqkOtFgIfBCQGZDpIWss3mjKEcMn0TmBtbhgd9YRia9t1l5ZGylOs994r+BchWYkSRjWgVI+XagAdFq8pgaQ=; 7:SDRTBrFN8lZ+sHTZSEWOtNApmDn+cyZ4Xro5nse1gc49GEZlBZM/tYbpAqWcyWEV+4p8suxS/fvBpnNW2GKewojtAufw+o10SKIySM5ikxp8lJvAZ/niSKyH5UK9XpNVQ6mw0Zj22R4nTJtdWQyPGEAbdywcsQ2bftWMM3KHnogEuDiK8y7EdqDd5xLRhxvfCF6VC9S9lEKKtRUGmMO5o8fbKyuEEKTIqHLzBVfw8GQ2x9BEoKOzpY7HLuIY/tl6
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: isoc.org
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 18 Jul 2016 10:35:34.1107 (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BL2PR06MB2212
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/EADzK5TG2tzeSp-ku06YXPcdXNw>
+Subject: [gaia] Volunteer required - note taker for Thursday GAIA RG meeting
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 18 Jul 2016 10:35:50 -0000
+
+Hi all,
+
+Our next meeting is scheduled for Thursday at 2pm local time in Berlin.
+
+If you plan to attend please consider volunteering to take notes - =
+it=E2=80=99s not a very difficult job, and it will be much appreciated =
+by the chairs!
+
+The etherpad for the meeting is here: =
+http://etherpad.tools.ietf.org:9000/p/notes-ietf-96-gaia
+
+If you=E2=80=99d like to offer to help, please send me mail.
+
+Thanks!
+Mat=
+
+
+From nobody Mon Jul 18 08:39:44 2016
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 8F67712DA69 for <gaia@ietfa.amsl.com>; Mon, 18 Jul 2016 08:39:42 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.597
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.597 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FREEMAIL_FORGED_FROMDOMAIN=0.001, FREEMAIL_FROM=0.001, HEADER_FROM_DIFFERENT_DOMAINS=0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-0.7, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id ISFEDWL8y3DE for <gaia@ietfa.amsl.com>; Mon, 18 Jul 2016 08:39:40 -0700 (PDT)
+Received: from mail-wm0-x233.google.com (mail-wm0-x233.google.com [IPv6:2a00:1450:400c:c09::233]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id A2AA812DC80 for <gaia@irtf.org>; Mon, 18 Jul 2016 08:27:55 -0700 (PDT)
+Received: by mail-wm0-x233.google.com with SMTP id o80so122312601wme.1 for <gaia@irtf.org>; Mon, 18 Jul 2016 08:27:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:sender:from:date:message-id:subject:to; bh=B7umrXMF/Rt/d7h9lT0BnGp6Kup9aDoPt2JFwrwfDSg=; b=jxfJLU4NdOCZdaxbgLdJehYBdoPfG1p77NMPE04e+Ak+94O1Z+/JhhSiL4DXvAqDl3 SWowiQVR1FGH9DxCUhxOxJo8LfJKBj1GnZ0ftV78ePXL1P9sT85t4YU+Wy3Gos+lJgCV ur8zZE79IcJ3W+89+rB45Z6gvhU6M3+mbUl0+6bp1FePcTjANYU62XwrxWnRACjtEcQO eOzc29r3HYzPOGsWP8Nn1yRJZHZobfKz3I9xWzIQlYK5Q7zXz2E5IVXJvZ8o+t0cjIiX edSP+a2kDsC1qXLXsEJuAxmF1Vmzy8wrRGTp7JFB/RaREVB+gzWagtKOYDx/BmcbzUVz wgpQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20130820; h=x-gm-message-state:mime-version:sender:from:date:message-id:subject :to; bh=B7umrXMF/Rt/d7h9lT0BnGp6Kup9aDoPt2JFwrwfDSg=; b=N5EQx/0YIELIO8+zUYWsb5wbyIfE2OT3eRx54TImbJppTuSZ8PSg9YViWFRBtHxjeq +WGH8JcYpWwP81zpaC5D59jzCEVeTDsL6mTfkaNEZ7X18PlhGyDi67nV9kjxiA6GzkoQ nRMTepv8fJcajVC0Y+BRrn9FUdf0o+e9O+ynLxEp6L6lMuCUqeeogHo2zeRyvqzE6fZW D9Qn+y346+PvKJYvwSWf8N/lV+v1D+q80ngcC7pDiyHd0WU0z9Ard6KNO1U8eqZOjBUU qgY0t34VaeoL1wpHlWu2Kyb0OZZATnsWR8vAEvpaYk0T8hxcNR3X/mvDBgGt2/pfym5c x8qQ==
+X-Gm-Message-State: ALyK8tJdQJI/oy7nUshwU4K63tEQTibTPVeLFeyaSW86fU7p24AuCO0uoSde2sdIfLsTwvwXWzlrCwvlzig2xw==
+X-Received: by 10.28.222.8 with SMTP id v8mr16322854wmg.55.1468855674037; Mon, 18 Jul 2016 08:27:54 -0700 (PDT)
+MIME-Version: 1.0
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.194.201.41 with HTTP; Mon, 18 Jul 2016 08:27:53 -0700 (PDT)
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+Date: Mon, 18 Jul 2016 16:27:53 +0100
+X-Google-Sender-Auth: u2XoA41nUmUGjGF1RZhkwTO6vRY
+Message-ID: <CAPaG1AkU8nQJKSNKjy5Rtfey8qUPQiG4tSN89fLNbCafOrEGKg@mail.gmail.com>
+To: gaia <gaia@irtf.org>
+Content-Type: multipart/alternative; boundary=001a114b1540ad73330537ea9c23
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/3fp2YBtxNGngChlnRA2A2_91-QA>
+Subject: [gaia] How Africa can develop a home-grown tech sector
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 18 Jul 2016 15:39:42 -0000
+
+--001a114b1540ad73330537ea9c23
+Content-Type: text/plain; charset=UTF-8
+
+interesting and relevant from Gareth tyson:
+https://theconversation.com/how-africa-can-develop-a-home-grown-tech-sector-61995
+
+-- 
+Arjuna Sathiaseelan
+Personal: http://www.cl.cam.ac.uk/~as2330/
+N4D Lab: http://www.cl.cam.ac.uk/~as2330/n4d
+
+--001a114b1540ad73330537ea9c23
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">interesting and relevant from Gareth tyson:<div><a href=3D=
+"https://theconversation.com/how-africa-can-develop-a-home-grown-tech-secto=
+r-61995">https://theconversation.com/how-africa-can-develop-a-home-grown-te=
+ch-sector-61995</a><br clear=3D"all"><div><br></div>-- <br><div class=3D"gm=
+ail_signature" data-smartmail=3D"gmail_signature">Arjuna Sathiaseelan <br>P=
+ersonal: <a href=3D"http://www.cl.cam.ac.uk/~as2330/" target=3D"_blank">htt=
+p://www.cl.cam.ac.uk/~as2330/</a> <br>N4D Lab: <a href=3D"http://www.cl.cam=
+.ac.uk/~as2330/n4d" target=3D"_blank">http://www.cl.cam.ac.uk/~as2330/n4d</=
+a></div>
+</div></div>
+
+--001a114b1540ad73330537ea9c23--
+
+
+From nobody Tue Jul 19 14:46:30 2016
+Return-Path: <willi.uebelherr@riseup.net>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id F37FB12D94E; Tue, 19 Jul 2016 14:46:27 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.608
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.608 tagged_above=-999 required=5 tests=[BAYES_05=-0.5, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, RCVD_IN_DNSWL_LOW=-0.7, RCVD_IN_MSPIKE_H3=-0.01, RCVD_IN_MSPIKE_WL=-0.01, RP_MATCHES_RCVD=-1.287, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001, UNPARSEABLE_RELAY=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=riseup.net
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id MB-dypxGuQFY; Tue, 19 Jul 2016 14:46:26 -0700 (PDT)
+Received: from mx1.riseup.net (mx1.riseup.net [198.252.153.129]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 37D6112B029; Tue, 19 Jul 2016 14:46:26 -0700 (PDT)
+Received: from piha.riseup.net (unknown [10.0.1.163]) (using TLSv1 with cipher ECDHE-RSA-AES256-SHA (256/256 bits)) (Client CN "*.riseup.net", Issuer "COMODO RSA Domain Validation Secure Server CA" (verified OK)) by mx1.riseup.net (Postfix) with ESMTPS id C59FB1A1B0C; Tue, 19 Jul 2016 21:46:25 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=riseup.net; s=squak; t=1468964785; bh=WNQZa9zHghrrELsx8znGy5KRvt7d7OPwbiq4MKFSjac=; h=Subject:References:Cc:From:To:Date:In-Reply-To:From; b=G8h5oOy0sVQ/R17hv7yk6jgmv1Xvrtx0R1RdrKp36DIkRaNM1CVv9pznwzNOipxIO gCyHo7g07NRxMZvNQH0aem9VBSpOANhJy9zh0kODVOTw8bd0DfPED6VommtfsuRk3K cbagTKwMRahQ9GzDvHvwZ2EUClb02KtW8yF8gIGs=
+Received: from [127.0.0.1] (localhost [127.0.0.1]) (Authenticated sender: willi.uebelherr) with ESMTPSA id 6F5CA1C01E7
+References: <mailman.0.1468868683.11143.gaia@irtf.org>
+Cc: gaia-owner@irtf.org
+From: willi uebelherr <willi.uebelherr@riseup.net>
+To: IRTF Gaia list <gaia@irtf.org>
+Message-ID: <3f95b730-1b71-adfe-f222-c1446bde119d@riseup.net>
+Date: Tue, 19 Jul 2016 17:46:22 -0400
+MIME-Version: 1.0
+In-Reply-To: <mailman.0.1468868683.11143.gaia@irtf.org>
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Virus-Scanned: clamav-milter 0.99.2 at mx1.riseup.net
+X-Virus-Status: Clean
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/eS1ItJ84oMpWTPJ3s162hKMzehU>
+Subject: Re: [gaia] Request to mailing list gaia rejected
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Tue, 19 Jul 2016 21:46:28 -0000
+
+Dear friends,
+
+what is that?
+
+"has been rejected by the list moderator. The moderator gave the 
+following reason for rejecting your request:
+   "Your message was rejected""
+
+Can me explain any intelligent person, what this stupid explanation 
+should tell me?
+
+In another mail to the "gaia-owner" i asked:
+"please explain me the rules in the gaia list. In the info page i don't 
+find any information for that.
+Maybe:
+- maxima recipients
+- to/cc/bcc rules
+- appends
+- size
+and so on."
+
+Can me a person in this list give a answer to my question? The "owners" 
+of this list are not able to do that.
+
+many greetings, willi
+Manaus, Brasil
+
+
+Am 18/07/2016 um 15:04 schrieb gaia-owner@irtf.org:
+> Your request to the gaia mailing list
+>
+>     Posting of your message titled "Fwd: Call for input to President's
+> Commission on Enhancing Cybersecurity - bridging the trust gap between
+> the IT community and the US government"
+>
+> has been rejected by the list moderator.  The moderator gave the
+> following reason for rejecting your request:
+>
+> "Your message was rejected"
+>
+> Any questions or comments should be directed to the list administrator
+> at:
+>
+>     gaia-owner@irtf.org
+>
+
+
+From nobody Tue Jul 19 17:26:50 2016
+Return-Path: <willi.uebelherr@riseup.net>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 559C912D0B4; Tue, 19 Jul 2016 17:26:49 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -4.008
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.008 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, RCVD_IN_DNSWL_LOW=-0.7, RCVD_IN_MSPIKE_H3=-0.01, RCVD_IN_MSPIKE_WL=-0.01, RP_MATCHES_RCVD=-1.287, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001, UNPARSEABLE_RELAY=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=riseup.net
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 6I6WeUDyKs9w; Tue, 19 Jul 2016 17:26:47 -0700 (PDT)
+Received: from mx1.riseup.net (mx1.riseup.net [198.252.153.129]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id A2FCA12D955; Tue, 19 Jul 2016 17:26:47 -0700 (PDT)
+Received: from piha.riseup.net (unknown [10.0.1.163]) (using TLSv1 with cipher ECDHE-RSA-AES256-SHA (256/256 bits)) (Client CN "*.riseup.net", Issuer "COMODO RSA Domain Validation Secure Server CA" (verified OK)) by mx1.riseup.net (Postfix) with ESMTPS id 47E621A1A2C; Wed, 20 Jul 2016 00:26:47 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=riseup.net; s=squak; t=1468974407; bh=6acF8NZFsndf5k5imRo5G0/iOWYtWa/fTboMeJWdVcw=; h=Subject:To:References:From:Cc:Date:In-Reply-To:From; b=Sr8lFYhXGlEkt2ZNIPBZ1goxoMHIqE69NTxuR4APJhsTmVDH7TvckVVOllKMEVnAI CjKa+/C5mxyMJf/c2LxKf+pWa5pvWI2QKs/gnXC0rfVPbufx/xaK5kWT0PcTmzV2s3 YB/fPFenh3Yl9ctHPyAaRWgnG7wb4ty/pa3wowtM=
+Received: from [127.0.0.1] (localhost [127.0.0.1]) (Authenticated sender: willi.uebelherr) with ESMTPSA id 498F11C0040
+To: IRTF Gaia list <gaia@irtf.org>
+References: <mailman.1739.1468868522.3155.gaia@irtf.org>
+From: willi uebelherr <willi.uebelherr@riseup.net>
+Cc: gaia-owner@irtf.org
+Message-ID: <47749b64-c9b0-ec3d-0cfb-21c765b0bfba@riseup.net>
+Date: Tue, 19 Jul 2016 20:26:41 -0400
+MIME-Version: 1.0
+In-Reply-To: <mailman.1739.1468868522.3155.gaia@irtf.org>
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Virus-Scanned: clamav-milter 0.99.2 at mx1.riseup.net
+X-Virus-Status: Clean
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/AaeBIZjvJf8xJGT0RLG0taKhmpA>
+Subject: Re: [gaia] Your message to gaia awaits moderator approval
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 20 Jul 2016 00:26:49 -0000
+
+Dear friends,
+
+normally i act in such situation only with the admin group. But in 
+gaia.irtf.org it is impossible. The admin group don't like to answer a 
+question. Therefore i send it to the list.
+
+"The message headers matched a filter rule". Ok, but what filter rule? I 
+looked in the header and i don't see any problematic thing. Maybe, on 
+the list are people, they know the specific irtf.org "filter rules"? I 
+am very interested.
+
+many greetings, willi
+Manaus, Brasil
+
+
+Am 18/07/2016 um 15:02 schrieb gaia-owner@irtf.org:
+> Your mail to 'gaia' with the subject
+>
+>     Fwd: Call for input to President's Commission on Enhancing
+> Cybersecurity - bridging the trust gap between the IT community and
+> the US government
+>
+> Is being held until the list moderator can review it for approval.
+>
+> The reason it is being held:
+>
+>     The message headers matched a filter rule
+>
+> Either the message will get posted to the list, or you will receive
+> notification of the moderator's decision.  If you would like to cancel
+> this posting, please visit the following URL:
+>
+>     https://www.irtf.org/mailman/confirm/gaia/34d39b9d9fa021a574dfe93a67ec01e20fb7ee8a
+>
+>
+
+
+From nobody Tue Jul 19 23:48:55 2016
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id B678112DACB; Tue, 19 Jul 2016 23:48:53 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.597
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.597 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FREEMAIL_FORGED_FROMDOMAIN=0.001, FREEMAIL_FROM=0.001, HEADER_FROM_DIFFERENT_DOMAINS=0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-0.7, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id wopPugTjB6aA; Tue, 19 Jul 2016 23:48:51 -0700 (PDT)
+Received: from mail-wm0-x236.google.com (mail-wm0-x236.google.com [IPv6:2a00:1450:400c:c09::236]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 5AC0112B00E; Tue, 19 Jul 2016 23:48:51 -0700 (PDT)
+Received: by mail-wm0-x236.google.com with SMTP id f65so162110189wmi.0; Tue, 19 Jul 2016 23:48:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:sender:in-reply-to:references:date:message-id:subject :from:to:cc; bh=6PHRQnuKIKsXBZpC5b4DqdPTvZLUQIz5LwGEHkbqzVY=; b=MkwfnQrDrPqnNFLDB7CNZSHHEK0LO+9dCbowYmgXwPM4EoSDpoJ0B44ESURZtEN7IP ynJfFtDW0y1AD3+f/6GA43iLIHQhXBrW0Jes6vYJZcS5VZrwnJEI0jCkG9lSfDKJj8VT BJvAyfFWiFXsoGMugE9YiXGnzhT3mrsg4I+CG/ymC5MnLjmZp4bLshui4aEDK3oG/2RL n6n/bXOmX0ZpcepZeYHU8aVtbUbQap3EtUX7OAcL/LzmcSKcDpR4x55c32yToNqM/9V6 Hg7QmImWiloMxiJuI+eaE2bkSLtApJQ5YMZGularnmRBWTmtc6JSp7mQlQFSEqUE2gJ/ OGCA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20130820; h=x-gm-message-state:mime-version:sender:in-reply-to:references:date :message-id:subject:from:to:cc; bh=6PHRQnuKIKsXBZpC5b4DqdPTvZLUQIz5LwGEHkbqzVY=; b=PisIo9KHIq9zoUiM4JkooHf7voiQL430C/jXPr+EcOijhX2YkNrKrSv4dQ1KXZUTbc woxD1WZmvqnIK+zl5AQx2OGOf7uYOxGz3csDlkyJ3Tj+cYz+Pj91X2/tai4TgnjEK5nu s+c2DludOFEt7VLRm4N714lZEuObxrWzW68glQzjhFEz2TWGUV3f293g3cirzV/rsBb9 0AUFqPMpDQTz3CCSEfA0eRuAqk+fVaOlN/Y5mHgZyk3E1dun1MHTugAzE8q4pktHV722 LzpGRbx4nHuv0KunzkFObqjCg0DPFIw+BeBv4QkJhw36y9CH0Xrj5Mjoi6C7KP26k3iL oTAg==
+X-Gm-Message-State: ALyK8tLP3rNX2gt8DOBCRgY3/grS7gRpzMewdZR54zl+05Q6ZjDNrjm0t8f/ihEjTr42mzUK0OEPzDWaHeiy1Q==
+MIME-Version: 1.0
+X-Received: by 10.28.9.67 with SMTP id 64mr9841706wmj.36.1468997329745; Tue, 19 Jul 2016 23:48:49 -0700 (PDT)
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.194.25.70 with HTTP; Tue, 19 Jul 2016 23:48:49 -0700 (PDT)
+Received: by 10.194.25.70 with HTTP; Tue, 19 Jul 2016 23:48:49 -0700 (PDT)
+In-Reply-To: <47749b64-c9b0-ec3d-0cfb-21c765b0bfba@riseup.net>
+References: <mailman.1739.1468868522.3155.gaia@irtf.org> <47749b64-c9b0-ec3d-0cfb-21c765b0bfba@riseup.net>
+Date: Wed, 20 Jul 2016 07:48:49 +0100
+X-Google-Sender-Auth: vUhQvTQvOCX9ZEisUvc8YSGPxuk
+Message-ID: <CAPaG1Ak7q1sSwKbv3SJvZkBjJdZT9gxk7PbSb=+4XU1P43XNPw@mail.gmail.com>
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+To: willi uebelherr <willi.uebelherr@riseup.net>
+Content-Type: multipart/alternative; boundary=001a11441f6404029305380b9892
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/NllTH2GlUc-zlxP9STHActqyS2U>
+Cc: gaia <gaia@irtf.org>, gaia-owner@irtf.org
+Subject: Re: [gaia] Your message to gaia awaits moderator approval
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 20 Jul 2016 06:48:54 -0000
+
+--001a11441f6404029305380b9892
+Content-Type: text/plain; charset=UTF-8
+
+Dear Willi
+
+maybe the post was not related to the objectives of gaia?
+
+greetings from inside a plane :)
+arjuna
+On 20 Jul 2016 01:26, "willi uebelherr" <willi.uebelherr@riseup.net> wrote:
+
+> Dear friends,
+>
+> normally i act in such situation only with the admin group. But in
+> gaia.irtf.org it is impossible. The admin group don't like to answer a
+> question. Therefore i send it to the list.
+>
+> "The message headers matched a filter rule". Ok, but what filter rule? I
+> looked in the header and i don't see any problematic thing. Maybe, on the
+> list are people, they know the specific irtf.org "filter rules"? I am
+> very interested.
+>
+> many greetings, willi
+> Manaus, Brasil
+>
+>
+> Am 18/07/2016 um 15:02 schrieb gaia-owner@irtf.org:
+>
+>> Your mail to 'gaia' with the subject
+>>
+>>     Fwd: Call for input to President's Commission on Enhancing
+>> Cybersecurity - bridging the trust gap between the IT community and
+>> the US government
+>>
+>> Is being held until the list moderator can review it for approval.
+>>
+>> The reason it is being held:
+>>
+>>     The message headers matched a filter rule
+>>
+>> Either the message will get posted to the list, or you will receive
+>> notification of the moderator's decision.  If you would like to cancel
+>> this posting, please visit the following URL:
+>>
+>>
+>> https://www.irtf.org/mailman/confirm/gaia/34d39b9d9fa021a574dfe93a67ec01e20fb7ee8a
+>>
+>>
+>>
+>
+
+--001a11441f6404029305380b9892
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p dir=3D"ltr">Dear Willi</p>
+<p dir=3D"ltr"> maybe the post was not related to the objectives of gaia?</=
+p>
+<p dir=3D"ltr">greetings from inside a plane :)<br>
+arjuna</p>
+<div class=3D"gmail_quote">On 20 Jul 2016 01:26, &quot;willi uebelherr&quot=
+; &lt;<a href=3D"mailto:willi.uebelherr@riseup.net">willi.uebelherr@riseup.=
+net</a>&gt; wrote:<br type=3D"attribution"><blockquote class=3D"gmail_quote=
+" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">D=
+ear friends,<br>
+<br>
+normally i act in such situation only with the admin group. But in <a href=
+=3D"http://gaia.irtf.org" rel=3D"noreferrer" target=3D"_blank">gaia.irtf.or=
+g</a> it is impossible. The admin group don&#39;t like to answer a question=
+. Therefore i send it to the list.<br>
+<br>
+&quot;The message headers matched a filter rule&quot;. Ok, but what filter =
+rule? I looked in the header and i don&#39;t see any problematic thing. May=
+be, on the list are people, they know the specific <a href=3D"http://irtf.o=
+rg" rel=3D"noreferrer" target=3D"_blank">irtf.org</a> &quot;filter rules&qu=
+ot;? I am very interested.<br>
+<br>
+many greetings, willi<br>
+Manaus, Brasil<br>
+<br>
+<br>
+Am 18/07/2016 um 15:02 schrieb <a href=3D"mailto:gaia-owner@irtf.org" targe=
+t=3D"_blank">gaia-owner@irtf.org</a>:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">
+Your mail to &#39;gaia&#39; with the subject<br>
+<br>
+=C2=A0 =C2=A0 Fwd: Call for input to President&#39;s Commission on Enhancin=
+g<br>
+Cybersecurity - bridging the trust gap between the IT community and<br>
+the US government<br>
+<br>
+Is being held until the list moderator can review it for approval.<br>
+<br>
+The reason it is being held:<br>
+<br>
+=C2=A0 =C2=A0 The message headers matched a filter rule<br>
+<br>
+Either the message will get posted to the list, or you will receive<br>
+notification of the moderator&#39;s decision.=C2=A0 If you would like to ca=
+ncel<br>
+this posting, please visit the following URL:<br>
+<br>
+=C2=A0 =C2=A0 <a href=3D"https://www.irtf.org/mailman/confirm/gaia/34d39b9d=
+9fa021a574dfe93a67ec01e20fb7ee8a" rel=3D"noreferrer" target=3D"_blank">http=
+s://www.irtf.org/mailman/confirm/gaia/34d39b9d9fa021a574dfe93a67ec01e20fb7e=
+e8a</a><br>
+<br>
+<br>
+</blockquote>
+<br>
+</blockquote></div>
+
+--001a11441f6404029305380b9892--
+
+
+From nobody Wed Jul 20 00:26:58 2016
+Return-Path: <ford@isoc.org>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 714DC12DADD for <gaia@ietfa.amsl.com>; Wed, 20 Jul 2016 00:26:57 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.922
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.922 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, RCVD_IN_DNSWL_NONE=-0.0001, RCVD_IN_MSPIKE_H3=-0.01, RCVD_IN_MSPIKE_WL=-0.01, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=isoc.onmicrosoft.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id wCc8HiLJgEFX for <gaia@ietfa.amsl.com>; Wed, 20 Jul 2016 00:26:55 -0700 (PDT)
+Received: from NAM01-SN1-obe.outbound.protection.outlook.com (mail-sn1nam01on0070.outbound.protection.outlook.com [104.47.32.70]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id C918E12D56F for <gaia@irtf.org>; Wed, 20 Jul 2016 00:26:54 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=isoc.onmicrosoft.com;  s=selector1-isoc-org; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version; bh=qijw30jWYqghiS70gUmSdO/F6XOBnYLFuhKnsuQYNPs=; b=lsS/N+n4TR2KqzSQg8lzCD/uD/T9VBQMOJ9Fe2gj4bdcB4ob4iJJETfPaGTsX8LMmij+Z1oEahaTCNyhbE9VIhJyPanQApQL/BBV6tsRiN918ttbsIgUFJ+jEJu560UmPUYYZlKBAF0QJB00C5VUW6a+CcTrg8oBk9lsKtJ5ImM=
+Authentication-Results: spf=none (sender IP is ) smtp.mailfrom=ford@isoc.org; 
+Received: from [IPv6:2001:67c:370:176:c171:d39c:8e1a:2d9] (2001:67c:370:176:c171:d39c:8e1a:2d9) by BY2PR06MB2216.namprd06.prod.outlook.com (10.166.113.154) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.544.10; Wed, 20 Jul 2016 07:26:50 +0000
+MIME-Version: 1.0 (Mac OS X Mail 9.3 \(3124\))
+Content-Type: text/plain; charset="us-ascii"
+From: Matthew Ford <ford@isoc.org>
+In-Reply-To: <47749b64-c9b0-ec3d-0cfb-21c765b0bfba@riseup.net>
+Date: Wed, 20 Jul 2016 09:26:47 +0200
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <6DEB3DAA-7CD3-4C30-B97A-BF4CBB84A2C5@isoc.org>
+References: <mailman.1739.1468868522.3155.gaia@irtf.org> <47749b64-c9b0-ec3d-0cfb-21c765b0bfba@riseup.net>
+To: willi uebelherr <willi.uebelherr@riseup.net>
+X-Mailer: Apple Mail (2.3124)
+X-Originating-IP: [2001:67c:370:176:c171:d39c:8e1a:2d9]
+X-ClientProxiedBy: BLUPR0401CA0011.namprd04.prod.outlook.com (10.162.114.149) To BY2PR06MB2216.namprd06.prod.outlook.com (10.166.113.154)
+X-MS-Office365-Filtering-Correlation-Id: f3e18d4c-4a6f-4f23-c982-08d3b06f3806
+X-Microsoft-Exchange-Diagnostics: 1; BY2PR06MB2216; 2:BvNVoTTHk6pyqADj+DxeEppsL7cSpn8HN89q4BG6WNqimcIGIl1bLCigf2AfvCSOQ4lAQ+FR4siiCbVQUSA6KPJjb1loBWe/42A8jmi6E+9LJdpg0zBRvxAISZpf9WqH/EwSKFssJYvSsfwYvAS2lI9cyAoaU7SAmsmof8pEmew/8mVSHbs4xh6jIQDEfk4p; 3:CtpUGrlF02UTRgoqT0IHBQMQoFgnclWRIvrM7u9tWoX384/v7WWqq6LaDxiXL75cQVgmV+gs/hlKK+JTelfnG37m6ItD5DUU141QmB3m0CSRtm96TF1UzQfzKRg2gXI3
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BY2PR06MB2216;
+X-Microsoft-Exchange-Diagnostics: 1; BY2PR06MB2216; 25:OfkhgfpwnXb5Ruk0AYjsqG2gUPdx/yVcrS0dGmG54uDao3UaCQgYdeMK5I80wbtuI0aWs04ZM0ME8k+ylNBEQUua2E8k0fBHWa22gId1L/lAabgxELLMV+pczfEb1XMA0wuZhN5Sdbkl0E4VlVCAdrbcowTJYRNawb09DAwL4WcwmVx/pzAu0qu1CyGU3Ljgy1ff0fMJv76GqqDsVz4Om9B8zQkeLOurh7F+T1+XeLCzv+vGNdZIh0HvnyjFd32y5+lSMT/Pp8884h74ZGQAA81BDnbHgi6k/b+uSW4xNtWWIHP77x6KdWfw8hUxVsMHTV4WLGbqTPKzP9fE3VW9LgqWNl5L7YOaVap/1zSUN+iikSs6Mt+reO+sSNGi9nQSGZTbZhMUa+2W9VU+Den5J/HDJjDzaCtgGJzJ7yUEUswAoskd/kw9564jkZqaa1aBTApmzMjhUnw6ezSJLXW1fozRg4JgPE28lDvA2KWurHS57JQViWZs/WOBFRJ+0fSQawXid975jIKb3OX5YBGnJUdN4d31bVM3+s99lCbIREBohxGyqo/kmcZMWmxuDZVnNGqpUTDj+D0hPsvuMwRebDN3AD2CEl32+4NSvN/maLGeCPZfSHURYf9ciShEx+L7KultXwRzl9/a7MrGBI5/nCDy3uXdlTCYuUbcNBLPuuTmVchOAq9Us0pYvGhMQY2eFtK9tSdjqtUjSz2tjFkWgc0RhzbveiVBacB+2DeS8mFIAKviLslUBGVJhX35U2nECTaW6jm+lINnC+7hpRFEDVxFtxkoqhgxY/pbWPDG5EiVcoMOScJf/dTRIz18VIK8DVoeXQ/Al7i29ll9h+n6qA==
+X-Microsoft-Exchange-Diagnostics: 1; BY2PR06MB2216; 31:Bipx5RTrwkBi29X8CxEXMqNiOTv43fkv11Syq8tk0NaXYyGXaL+2A7S+3C6tJ4oFq2+nBCWY+kteZX19ciWzAHADFLbK4D0ZB5L7LVlUcqCcSvukhzfsYh+vOiwk54r2g3CxHqSf1o6KyXb0lzswHNS8Wsn6XArdzrTVa7ahjisJMyX3naJ85Tp33fVjNFAoKqDs2GifAZ595HwZLE/MFg==; 20:5WUNGxx9Hiub6sZ7hfY27jNitx1v635Ys17dLfAyjO0Uqmjyi6WNZYBYYCi+oQhDvp3tqBso4cFvKa4s9IQR/NHVO9lbt7O4rAlv2Cp064Vkh6HNUlra1qs9sZqBlcWHOgv7XGE96WcLgytZfoniJdJE1w3EbmoRxGyeAicXfyAeiIorW+9cCoub6gGbULxcWQKhRM90uX5Unw4Em2bf+EHiCXt1Mg3Gysojt9egDL0h5gTjTVs2qxOtWzt5L7n5+9aiHWABgSXBygEKEjOLJPKhXrMBzZkkVnHPdjU+3SmKXt84ynECo5SzcM9rV4hmqzQ+sgnN9pRjEe1jdWnaW596YtkdH1RbbshfB2bTK4WMWmioT6ulqyYv+By0Wfe1D0yC8MGKJ4uQp62wE+aiTynrP79pTxcKyzwgyl3cEorvEk6yR/9b0sLs1O0h7j9ck6f0cYiQYx64cky52ONuWcBKRjaaqI6NK9sbAC9J4oiCR8H1tOUlhZqlJJpK/8FB
+X-Microsoft-Antispam-PRVS: <BY2PR06MB22168BBF4DFC7FBD7E9F546FA7080@BY2PR06MB2216.namprd06.prod.outlook.com>
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:0; PCL:0; RULEID:(601004)(2401047)(8121501046)(5005006)(10201501046)(3002001); SRVR:BY2PR06MB2216; BCL:0; PCL:0; RULEID:; SRVR:BY2PR06MB2216; 
+X-Microsoft-Exchange-Diagnostics: 1; BY2PR06MB2216; 4:oMCBDCjCYi4Ozrw9aysRAoDeaiF4oqsw46fz7YJ1/SJwGruUXIJAE/6M1d3bStes55gNcAksrUXBWYWHqpf3EU9pm82jE+6BLWDteNlGkIZKZxtZcICBGkv2yLZXVXBH78svE9kcFsSYxYFOZI6b0/PhnhUEjuKXLaVUtb1nJFgcQbPfVKB9noYUnvUl9Gr00nz/p7IzR2DBRfosX/yCsUWBMk0EgymMUxYWukzvOfMk71nGOtvi5WHShuL7c4EGDL2Oa8iStAw6VvYgo2PIpU1I6hrJrgdIrIq0XGDKSdvtnHT2pwEgZ1y1yKhlLP204hMOzfzrCW5u/TXV1e7l0N6UE27hQQ0Nwhpa1hdugPHdwIKKIjk2OdC+31Jn2K7O
+X-Forefront-PRVS: 000947967F
+X-Forefront-Antispam-Report: SFV:NSPM; SFS:(10009020)(4630300001)(6009001)(7916002)(199003)(189002)(24454002)(15975445007)(77096005)(47776003)(83716003)(110136002)(57306001)(2950100001)(189998001)(50466002)(105586002)(19580405001)(76176999)(97736004)(92566002)(33656002)(50986999)(36756003)(106356001)(101416001)(86362001)(15650500001)(97756001)(7736002)(7846002)(82746002)(42186005)(4326007)(46406003)(23726003)(6116002)(8746002)(19580395003)(1706002)(8676002)(305945005)(68736007)(50226002)(2906002)(81156014)(81166006)(586003)(3826002)(13710500001)(104396002); DIR:OUT; SFP:1101; SCL:1; SRVR:BY2PR06MB2216; H:[IPv6:2001:67c:370:176:c171:d39c:8e1a:2d9]; FPR:; SPF:None; PTR:InfoNoRecords; A:1; MX:1; LANG:en; 
+Received-SPF: None (protection.outlook.com: isoc.org does not designate permitted sender hosts)
+X-Microsoft-Exchange-Diagnostics: =?us-ascii?Q?1; BY2PR06MB2216; 23:afxAbE16hYOKeCwpn6fBxzcefxRbLfwQTvK9Ltnpq?= =?us-ascii?Q?0AeeOFA1sj9HuzngcvyVTZBS17tVtOz9x4IJytK9yYhu8fqqZNyKfEL+bhGM?= =?us-ascii?Q?YLBhmbPdR2npZpTPJFmCknV1mm31u2Mzhquixk5vOpNrUcJkFmTZxPvq4hpx?= =?us-ascii?Q?Gzo8k9z2KcADTAoFTYYfZ5wbSGZ1tq8P2BncoE92F5qTFkagsJLHdBcWUI5g?= =?us-ascii?Q?qp8J1W/404NlLkL3SNOA1mAwNuB20QY34oWx9PVOsxRWLGhYO1P/iQycNp+c?= =?us-ascii?Q?9/x3j325LUguy/hleMPdB4nKzU/FOiPz7yO/WOk3sQGhI+T57VU9iTmUIhkg?= =?us-ascii?Q?iO7qZ/qFHLV2JvUXQjlLhU4XU54moPekiEsEoccNAXS3929Gu5LOHOkjSP+N?= =?us-ascii?Q?OzBUy6WTnCci3IY0iADzi4FQMDoke+f9+93XMFLu66jSJVWsZSOKYhOiG1u1?= =?us-ascii?Q?6DJKlxN6+ThUHiu/BiMko2/upgevZQzdJ9xIza11W6Iv6spvvFMbxi/D45oF?= =?us-ascii?Q?DTfcTBlCys7IgwTTnEqV5FQbDkXOvbFCAeeVkGZQ2Vxw9zLRvwJ43A7KSzO1?= =?us-ascii?Q?8TxEak9jom3S8j7sTKNr3M/4UHQRS/xrFlT5NRT1Vjo0Ol3w4aSZZ0lrTWyb?= =?us-ascii?Q?mJVahIxvAKrMg/OEuqEVVy/N5mf92BGEkgT/GZy/qCYBU/Pd+EwVp3KG5k9e?= =?us-ascii?Q?zpSuWtnjX0LEKx8ODYu2jLbg2GAquAT80lk9S0Oc81JOrDJY/04zEwZt66mu?= =?us-ascii?Q?2++AVneUI9c2nMMAxTu76r22gA4//d095d+6nVcxd75dhspdW+LqfZHEu4ML?= =?us-ascii?Q?/iJUcIcHqhVaRNHF5HzUSO18lommvgWE18hlYnDw3OOSO2SPZraloqo+VYe7?= =?us-ascii?Q?hqJQu2s7jWm5Hipr5LJO3/8dASzVIsNAkpcyAySVVdzVplfqYQ9+hVjx6LIh?= =?us-ascii?Q?gfw/cIRys7vjLDsQPTQQeaCwAZMnKZO4wluz2m83elwaw70XsHrrEQvdI0MD?= =?us-ascii?Q?RuvdWT8/Iqus652brWB8FT1BkzY/H5+qzxpDzXteaCp7ZHnaYxf3Ej29l4X5?= =?us-ascii?Q?tGZXGvQ1aAX1c+anHyfSrYbZ7HMPuZ8tPPc42NM9eqPSuTml+pVEWMy7S2vr?= =?us-ascii?Q?tBKU96kRtQXsV/+/s/2nj7Hfm2xWpd//r9PqXyKuKDBwobxd0r5BQdGQWjNJ?= =?us-ascii?Q?kTUA/kgFu9DyXMRH8LydkgJ3TpmX9J9RlOFhpa1xTyr6n4G6A71gRYhCcz3L?= =?us-ascii?Q?ytVe2YZifO1lYuhq64=3D?=
+X-Microsoft-Exchange-Diagnostics: 1; BY2PR06MB2216; 6:qLEZNeWPSZwKuirugFMfK13r/r6+9XvkHlVwmexjI/9f1Slxinbg4TSsRHflD9fY5bdaxK9QEhBIRZwdDEx1zhZeY0Zrwxlj2PKgnMx+5oW4tCb2U8hvEtE4KXnMtYihMj48Q9P60qgFmP+zhv+TBZUWvAbm/Tx7zYoPxs5wAIM3emcnskMUX7VhvcnotIeaENvPUJwoLtqvQXYO6BUMYpBsUQbYY8Fuz74qVIIm+uJteb3ax1Hm9LhskqCJ6YDHDMQiIW8mYvqROtNWV09nAqqFG9PfWK+B4ssYOhOcNbk=; 5:86BRsuj7LTVFw9lS1hmYlAY+hjO0N7dCHfGh5fC9fsyIiIH5FUkwRgHDV5NaaWf+jM7uRVal6L2y7W5Y1azLdxnXsEZbZweGJY5bN1Qcvyn1B+7s3Oko3mJn9FNQRHJzoGiaHMtom5MDYg3U68AwMg==; 24:kCf8TBUdRYTG1G0ywkPiFv9y9ASBhF0f1h1mFkQZhPu9mDZ8Qjkjf4soNwEqvImyMXYjI4j9IcxZeDTVQNagzmPvVrstNEsch6KffN/pWrQ=; 7:5Sfp17Rj+L0+3c7c9suKBu2a4fJ03aQKlmnQe+YzgqrCqFAP1bCm0a0BDOfaMIUSpzfs3dws8LBlP/XECXc6MEeyGB/iCkSvKKvWfh6cwH7OTMSifko9ytyqIjw2KTdiiXIwwmzOyZqBjQl+fN8Ksuh/MgLJg40rusHW9p9iQK7FamB63dbJ0uwd9igstTbBaj9xkThhjDvavFL+TEEV9ztnr1Uqqy9I5us++JP16CZsTfb3yS1O/+uxax3yovXB
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: isoc.org
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 20 Jul 2016 07:26:50.9182 (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR06MB2216
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/4Ug1awX64fVWSwJneboiB3HtKRA>
+Cc: IRTF Gaia list <gaia@irtf.org>
+Subject: Re: [gaia] Your message to gaia awaits moderator approval
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 20 Jul 2016 07:26:58 -0000
+
+Dear willi,
+
+Your original post was caught by a filter we have on postings to this =
+list that catches anything that looks like a Call for Papers. Sometimes =
+we then allow those postings because they are calling for input to =
+events/workshops/confeences and so on that are related to the objectives =
+of the GAIA RG.
+
+In this case, your post does not seem to be related to the objectives of =
+this RG (and was also very widely cross-posted) and so it was rejected.
+
+As you can see from the above, the administrators of this group are =
+quite happy to answer questions, but because they are human they =
+sometimes need a little time, especially during busy weeks like IETF.
+
+Regards,
+Mat
+
+> On 20 Jul 2016, at 02:26, willi uebelherr <willi.uebelherr@riseup.net> =
+wrote:
+>=20
+> Dear friends,
+>=20
+> normally i act in such situation only with the admin group. But in =
+gaia.irtf.org it is impossible. The admin group don't like to answer a =
+question. Therefore i send it to the list.
+>=20
+> "The message headers matched a filter rule". Ok, but what filter rule? =
+I looked in the header and i don't see any problematic thing. Maybe, on =
+the list are people, they know the specific irtf.org "filter rules"? I =
+am very interested.
+>=20
+> many greetings, willi
+> Manaus, Brasil
+>=20
+>=20
+> Am 18/07/2016 um 15:02 schrieb gaia-owner@irtf.org:
+>> Your mail to 'gaia' with the subject
+>>=20
+>>    Fwd: Call for input to President's Commission on Enhancing
+>> Cybersecurity - bridging the trust gap between the IT community and
+>> the US government
+>>=20
+>> Is being held until the list moderator can review it for approval.
+>>=20
+>> The reason it is being held:
+>>=20
+>>    The message headers matched a filter rule
+>>=20
+>> Either the message will get posted to the list, or you will receive
+>> notification of the moderator's decision.  If you would like to =
+cancel
+>> this posting, please visit the following URL:
+>>=20
+>>    =
+https://www.irtf.org/mailman/confirm/gaia/34d39b9d9fa021a574dfe93a67ec01e2=
+0fb7ee8a
+>>=20
+>>=20
+>=20
+
+
+From nobody Wed Jul 20 09:04:48 2016
+Return-Path: <oflaherty@isoc.org>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id CDBBD12D873 for <gaia@ietfa.amsl.com>; Wed, 20 Jul 2016 09:04:46 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.921
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.921 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, RCVD_IN_MSPIKE_H4=-0.01, RCVD_IN_MSPIKE_WL=-0.01, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=isoc.onmicrosoft.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id DpJptMqBn34s for <gaia@ietfa.amsl.com>; Wed, 20 Jul 2016 09:04:44 -0700 (PDT)
+Received: from NAM02-CY1-obe.outbound.protection.outlook.com (mail-cys01nam02on0062.outbound.protection.outlook.com [104.47.37.62]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 971B312D671 for <gaia@irtf.org>; Wed, 20 Jul 2016 09:04:44 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=isoc.onmicrosoft.com;  s=selector1-isoc-org; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version; bh=KK4J3qjjAX3YNI/+6gub8QNMIStXn91tRzNHR7+5Yj0=; b=p+B3EvXxi48x/qf+7cS0+adCfo/HctO4D2pH686L2/kYKvrdHFjU9TaLgHDR59wNtNqv02/Pq+d0Wm5tgqTgZtMQIbfWY/2qH6IK86MzL9AJFGXInRuwstvD65GygJnz50cuCB3qYoJ/2luMZHqqGUcUUVGKcDj8X9vp68ffvV8=
+Received: from BLUPR0601MB770.namprd06.prod.outlook.com (10.141.254.139) by BLUPR0601MB769.namprd06.prod.outlook.com (10.141.254.13) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.544.10; Wed, 20 Jul 2016 16:04:40 +0000
+Received: from BLUPR0601MB770.namprd06.prod.outlook.com ([10.141.254.139]) by BLUPR0601MB770.namprd06.prod.outlook.com ([10.141.254.139]) with mapi id 15.01.0544.014; Wed, 20 Jul 2016 16:04:39 +0000
+From: Christian O'Flaherty <oflaherty@isoc.org>
+To: "gaia@irtf.org" <gaia@irtf.org>
+Thread-Topic: Community Networks gathering in Berlin
+Thread-Index: AQHR4qBr2/xu9eulEEmcYO5EoItDag==
+Date: Wed, 20 Jul 2016 16:04:39 +0000
+Message-ID: <C6EE1C06-BA11-4F58-A63A-D1421BF7DC38@isoc.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+authentication-results: spf=none (sender IP is ) smtp.mailfrom=oflaherty@isoc.org; 
+x-ms-exchange-messagesentrepresentingtype: 1
+x-originating-ip: [31.133.161.253]
+x-ms-office365-filtering-correlation-id: bc7c3cde-7ab8-4f55-8308-08d3b0b78e03
+x-microsoft-exchange-diagnostics: 1; BLUPR0601MB769; 6:2s/waKL9T9HwJ1XCqKAikDDGoX2/vVll6UtYFzdDhX0nZUkbawoPMHxnNt8ijr5kyD95Vi5dEGWj7kUVDax3KRctjCRILJ6adyHTh6KXenArCaUar5DnMzHCO2UDBaE9lBvXi8C12UJenfRWYKNQ/GsXcszgYIFRea5llx3F04K9bz6u7sCIyi3q2lthZXi+duxYxaqVwBCPcROFUgEcqo//jIJ/PmEg5M438dMH0JI+vZB9SIz2kyUc8hOdcVOhzB5vmdzlvjdJCpM50SIbWv5P99jqdAJzeph3kwloYlE=; 5:VVrwMSvsX4e+tRXckXiEc3US0SHk8dy8bY9DWKEmMue0casWvcQVdIIG7NRanCVb09mIS4t+3b1K/g3WOrI52cynUkHx+ZhE4w+yp4SOv5sENZHals1buyt2jkMGVdDjwS4mWBaD0ekdghvFZS3tlQ==; 24:1DMj/+WFQiisEEaRUGap1xJ/wtyRjRjrYoxsxpc/MXsdL8Z2tR6ULsBpXAzekTCp6u1Vl1PO0p+Ux/ZqXJe4zu0qxV7s9QE7PhwAxwuVvFc=; 7:7QMao5POBKss+f11Bz77GLg7mX9vdnNkuG17xlKaPUoZokdCH3xx/X99gpEgY5timSLBmqTX8+6E0zRWndPHuEXgqj4kILM8l+tN1j471MIPWWoE/Wv8CHqWvNU+6cI1qzeDLI/Zz52b9IMRkm6YKhIxgUmUDdm7dzPjUVV0DD4U8DLmxyGgxrBcGU2s6oJnC/Bpz2KGDtNhYdxUhKdm49NSK1E1gVYWwBTWpinhLigQWaul7R5n0YGx6Bl8bdmo
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BLUPR0601MB769;
+x-microsoft-antispam-prvs: <BLUPR0601MB76954E9DDA9C8A71507D36ECE080@BLUPR0601MB769.namprd06.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(127762245398925)(216111344325985);
+x-exchange-antispam-report-cfa-test: BCL:0; PCL:0; RULEID:(601004)(2401047)(8121501046)(5005006)(10201501046)(3002001); SRVR:BLUPR0601MB769; BCL:0; PCL:0; RULEID:; SRVR:BLUPR0601MB769; 
+x-forefront-prvs: 000947967F
+x-forefront-antispam-report: SFV:NSPM; SFS:(10009020)(7916002)(189002)(199003)(7846002)(5640700001)(7736002)(122556002)(2900100001)(92566002)(101416001)(99286002)(105586002)(2906002)(33656002)(8936002)(10400500002)(16236675004)(77096005)(7906003)(87936001)(68736007)(5002640100001)(8676002)(66066001)(15975445007)(81156014)(81166006)(1730700003)(3660700001)(3280700002)(575784001)(86362001)(229853001)(586003)(102836003)(6116002)(3846002)(19617315012)(106356001)(107886002)(2501003)(110136002)(82746002)(106116001)(97736004)(36756003)(54356999)(450100001)(189998001)(2351001)(50986999)(19580405001)(19580395003)(83716003)(104396002); DIR:OUT; SFP:1101; SCL:1; SRVR:BLUPR0601MB769; H:BLUPR0601MB770.namprd06.prod.outlook.com; FPR:; SPF:None; PTR:InfoNoRecords;  MX:1; A:1; LANG:en; 
+received-spf: None (protection.outlook.com: isoc.org does not designate permitted sender hosts)
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative; boundary="_000_C6EE1C06BA114F58A63AD1421BF7DC38isocorg_"
+MIME-Version: 1.0
+X-OriginatorOrg: isoc.org
+X-MS-Exchange-CrossTenant-originalarrivaltime: 20 Jul 2016 16:04:39.4978 (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 89f84dfb-7285-4810-bc4d-8b9b5794554f
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR0601MB769
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/74tnTGD55TTEPOO79p7KPRmr6hk>
+Subject: [gaia] Community Networks gathering in Berlin
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 20 Jul 2016 16:04:47 -0000
+
+--_000_C6EE1C06BA114F58A63AD1421BF7DC38isocorg_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+VGhvc2UgYXR0ZW5kaW5nIHRoZSBJRVRGIG1lZXRpbmcgaW4gQmVybGluIHdpbGwgYmUgaW50ZXJl
+c3RlZCBpbiBhIGNvbW11bml0eSBuZXR3b3JrcyBnYXRoZXJpbmcgdGFraW5nIHBsYWNlIHRvbmln
+aHQgYXQgOFBNOg0KDQppdHMgaGVyZToNCmh0dHBzOi8vd3d3Lmdvb2dsZS5kZS9tYXBzL3BsYWNl
+L2MtYmFzZS9ANTIuNTEzMDAyNCwxMy40MTc4OTI3LDE3ei9kYXRhPSEzbTEhNGIxITRtNSEzbTQh
+MXMweDQ3YTg0ZTNiNDFjNzNlYTc6MHg5NGEzMTlhMDkyYTNlNzE3IThtMiEzZDUyLjUxMjk5OTIh
+NGQxMy40MjAwODE0DQoNCmMtYmFzZQ0KUnVuZ2VzdHJhw59lIDIwLCAxMDE3OSBCZXJsaW4NClMt
+QmFobiAvIFN1YndheSBzdGF0aW9uOiBKYW5ub3dpdHpicsO8Y2tlDQpodHRwczovL3d3dy5jLWJh
+c2Uub3JnLw0KDQpDaHJpc3RpYW4gTydGbGFoZXJ0eSAgb2ZsYWhlcnR5QGlzb2Mub3JnPG1haWx0
+bzpvZmxhaGVydHlAaXNvYy5vcmc+DQpSZWdpb25hbCBEZXZlbG9wbWVudCAtIEludGVybmV0IFNv
+Y2lldHkNClNreXBlL0dtYWlsL1lhaG9vITogIGNocmlzdGlhbi5vZmxhaGVydHkNCk1vYmlsZS9X
+aGF0c0FwcDogKzU5OCA5ODc2OTYzNg0KDQo=
+
+--_000_C6EE1C06BA114F58A63AD1421BF7DC38isocorg_
+Content-Type: text/html; charset="utf-8"
+Content-ID: <23359D406DAD694E860F2BD67C96E538@namprd06.prod.outlook.com>
+Content-Transfer-Encoding: base64
+
+PGh0bWw+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0i
+dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjwvaGVhZD4NCjxib2R5IHN0eWxlPSJ3b3JkLXdy
+YXA6IGJyZWFrLXdvcmQ7IC13ZWJraXQtbmJzcC1tb2RlOiBzcGFjZTsgLXdlYmtpdC1saW5lLWJy
+ZWFrOiBhZnRlci13aGl0ZS1zcGFjZTsiIGNsYXNzPSIiPg0KVGhvc2UgYXR0ZW5kaW5nIHRoZSBJ
+RVRGIG1lZXRpbmcgaW4gQmVybGluIHdpbGwgYmUgaW50ZXJlc3RlZCBpbiBhIGNvbW11bml0eSBu
+ZXR3b3JrcyBnYXRoZXJpbmcgdGFraW5nIHBsYWNlIHRvbmlnaHQgYXQgOFBNOg0KPGRpdiBjbGFz
+cz0iIj48YnIgY2xhc3M9IiI+DQo8L2Rpdj4NCjxkaXYgY2xhc3M9IiI+aXRzIGhlcmU6PGJyIGNs
+YXNzPSIiPg0KPGEgaHJlZj0iaHR0cHM6Ly93d3cuZ29vZ2xlLmRlL21hcHMvcGxhY2UvYy1iYXNl
+L0A1Mi41MTMwMDI0LDEzLjQxNzg5MjcsMTd6L2RhdGE9ITNtMSE0YjEhNG01ITNtNCExczB4NDdh
+ODRlM2I0MWM3M2VhNzoweDk0YTMxOWEwOTJhM2U3MTchOG0yITNkNTIuNTEyOTk5MiE0ZDEzLjQy
+MDA4MTQiIGNsYXNzPSIiPmh0dHBzOi8vd3d3Lmdvb2dsZS5kZS9tYXBzL3BsYWNlL2MtYmFzZS9A
+NTIuNTEzMDAyNCwxMy40MTc4OTI3LDE3ei9kYXRhPSEzbTEhNGIxITRtNSEzbTQhMXMweDQ3YTg0
+ZTNiNDFjNzNlYTc6MHg5NGEzMTlhMDkyYTNlNzE3IThtMiEzZDUyLjUxMjk5OTIhNGQxMy40MjAw
+ODE0PC9hPjxiciBjbGFzcz0iIj4NCjxiciBjbGFzcz0iIj4NCmMtYmFzZTxiciBjbGFzcz0iIj4N
+ClJ1bmdlc3RyYcOfZSAyMCwgMTAxNzkgQmVybGluPGJyIGNsYXNzPSIiPg0KUy1CYWhuIC8gU3Vi
+d2F5IHN0YXRpb246IEphbm5vd2l0emJyw7xja2U8YnIgY2xhc3M9IiI+DQo8YSBocmVmPSJodHRw
+czovL3d3dy5jLWJhc2Uub3JnLyIgY2xhc3M9IiI+aHR0cHM6Ly93d3cuYy1iYXNlLm9yZy88L2E+
+PGJyIGNsYXNzPSIiPg0KPGRpdiBjbGFzcz0iIj48YnIgY2xhc3M9IiI+DQo8ZGl2IGNsYXNzPSIi
+Pg0KPGRpdiBjbGFzcz0iIj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6IEFyaWFsOyBmb250LXNp
+emU6IHgtc21hbGw7IG9ycGhhbnM6IDI7IHdpZG93czogMjsiIGNsYXNzPSIiPkNocmlzdGlhbiBP
+J0ZsYWhlcnR5ICZuYnNwOzwvc3Bhbj48YSBocmVmPSJtYWlsdG86b2ZsYWhlcnR5QGlzb2Mub3Jn
+IiBjbGFzcz0iIiBzdHlsZT0iZm9udC1mYW1pbHk6IEFyaWFsOyBvcnBoYW5zOiAyOyB3aWRvd3M6
+IDI7Ij48Zm9udCBjb2xvcj0iIzFjNGFmZiIgY2xhc3M9IiI+b2ZsYWhlcnR5QGlzb2Mub3JnPC9m
+b250PjwvYT48L2Rpdj4NCjxkaXYgY2xhc3M9IiI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBB
+cmlhbDsgZm9udC1zaXplOiB4LXNtYWxsOyBvcnBoYW5zOiAyOyB3aWRvd3M6IDI7IiBjbGFzcz0i
+Ij5SZWdpb25hbCBEZXZlbG9wbWVudCAtPC9zcGFuPiZuYnNwOzxmb250IGNvbG9yPSIjMWM0YWZm
+IiBzdHlsZT0iZm9udC1mYW1pbHk6IEFyaWFsOyBvcnBoYW5zOiAyOyB3aWRvd3M6IDI7IiBjbGFz
+cz0iIj5JbnRlcm5ldCBTb2NpZXR5Jm5ic3A7PC9mb250PjxiciBjbGFzcz0iIiBzdHlsZT0iZm9u
+dC1mYW1pbHk6IEFyaWFsOyBvcnBoYW5zOiAyOyB3aWRvd3M6IDI7Ij4NCjxzcGFuIHN0eWxlPSJm
+b250LWZhbWlseTogQXJpYWw7IGZvbnQtc2l6ZTogeC1zbWFsbDsgb3JwaGFuczogMjsgd2lkb3dz
+OiAyOyIgY2xhc3M9IiI+U2t5cGUvR21haWwvWWFob28hOiAmbmJzcDs8L3NwYW4+PGZvbnQgY29s
+b3I9IiMxYzRhZmYiIHN0eWxlPSJmb250LWZhbWlseTogQXJpYWw7IG9ycGhhbnM6IDI7IHdpZG93
+czogMjsiIGNsYXNzPSIiPmNocmlzdGlhbi5vZmxhaGVydHk8L2ZvbnQ+PHNwYW4gc3R5bGU9ImZv
+bnQtZmFtaWx5OiBBcmlhbDsgZm9udC1zaXplOiB4LXNtYWxsOyBvcnBoYW5zOiAyOyB3aWRvd3M6
+IDI7IiBjbGFzcz0iIj4mbmJzcDs8L3NwYW4+PGJyIGNsYXNzPSIiIHN0eWxlPSJmb250LWZhbWls
+eTogQXJpYWw7IG9ycGhhbnM6IDI7IHdpZG93czogMjsiPg0KPHNwYW4gc3R5bGU9ImZvbnQtZmFt
+aWx5OiBBcmlhbDsgZm9udC1zaXplOiB4LXNtYWxsOyBvcnBoYW5zOiAyOyB3aWRvd3M6IDI7IiBj
+bGFzcz0iIj5Nb2JpbGUvV2hhdHNBcHA6PC9zcGFuPiZuYnNwOzxmb250IGNvbG9yPSIjMWM0YWZm
+IiBzdHlsZT0iZm9udC1mYW1pbHk6IEFyaWFsOyBvcnBoYW5zOiAyOyB3aWRvd3M6IDI7IiBjbGFz
+cz0iIj4mIzQzOzU5OCA5ODc2OTYzNjwvZm9udD48L2Rpdj4NCjwvZGl2Pg0KPGJyIGNsYXNzPSIi
+Pg0KPC9kaXY+DQo8L2Rpdj4NCjwvYm9keT4NCjwvaHRtbD4NCg==
+
+--_000_C6EE1C06BA114F58A63AD1421BF7DC38isocorg_--
+
+
+From nobody Wed Jul 20 09:08:57 2016
+Return-Path: <willi.uebelherr@riseup.net>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id D83AA12D4FB for <gaia@ietfa.amsl.com>; Wed, 20 Jul 2016 09:08:55 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -4.008
+X-Spam-Level: 
+X-Spam-Status: No, score=-4.008 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, RCVD_IN_DNSWL_LOW=-0.7, RCVD_IN_MSPIKE_H3=-0.01, RCVD_IN_MSPIKE_WL=-0.01, RP_MATCHES_RCVD=-1.287, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001, UNPARSEABLE_RELAY=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=riseup.net
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id yU7_LEZDLEAZ for <gaia@ietfa.amsl.com>; Wed, 20 Jul 2016 09:08:54 -0700 (PDT)
+Received: from mx1.riseup.net (mx1.riseup.net [198.252.153.129]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 82D3C12D7B9 for <gaia@irtf.org>; Wed, 20 Jul 2016 09:08:54 -0700 (PDT)
+Received: from cotinga.riseup.net (unknown [10.0.1.164]) (using TLSv1 with cipher ECDHE-RSA-AES256-SHA (256/256 bits)) (Client CN "*.riseup.net", Issuer "COMODO RSA Domain Validation Secure Server CA" (verified OK)) by mx1.riseup.net (Postfix) with ESMTPS id 32FB51A1E01 for <gaia@irtf.org>; Wed, 20 Jul 2016 16:08:54 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=riseup.net; s=squak; t=1469030934; bh=pQNuEKReElYNULzee0HoC6IuXZd5Q3nxnuzFleW76aY=; h=Subject:References:From:To:Date:In-Reply-To:From; b=TRBqgZnMf5cp652oEXVfQN5loB3u0MD/sOf5JUpFLsiqKevPmvhasrUgWwmQ7YkBY eQ98xWUNmrMHLet/vEt+y0IVC+wmvM7fz+njy42KUr104AEX2oGs7aJWxpWETX5zSx +cOxU5oXm2HhFuNQdwWp/6gIMAOl9XIz0MTd2qgo=
+Received: from [127.0.0.1] (localhost [127.0.0.1]) (Authenticated sender: willi.uebelherr) with ESMTPSA id 9AAE740279
+References: <mailman.1739.1468868522.3155.gaia@irtf.org> <47749b64-c9b0-ec3d-0cfb-21c765b0bfba@riseup.net> <6DEB3DAA-7CD3-4C30-B97A-BF4CBB84A2C5@isoc.org>
+From: willi uebelherr <willi.uebelherr@riseup.net>
+To: IRTF Gaia list <gaia@irtf.org>
+Message-ID: <83ed5888-1baf-59d8-c29d-426ee19f466f@riseup.net>
+Date: Wed, 20 Jul 2016 12:08:55 -0400
+MIME-Version: 1.0
+In-Reply-To: <6DEB3DAA-7CD3-4C30-B97A-BF4CBB84A2C5@isoc.org>
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Virus-Scanned: clamav-milter 0.99.2 at mx1.riseup.net
+X-Virus-Status: Clean
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/XhGTTm5v7KeLkuBMD5onsaH40rQ>
+Subject: Re: [gaia] Your message to gaia awaits moderator approval
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 20 Jul 2016 16:08:56 -0000
+
+Dear Matthew and Arjuna,
+
+thanks for your answer. Now, i understand the case. The why, is another 
+question.
+And please, can you give me a link to a text, where i can read the rules?
+
+many thanks and greetings, willi
+
+
+Am 20/07/2016 um 03:26 schrieb Matthew Ford:
+> Dear willi,
+>
+> Your original post was caught by a filter we have on postings to this list that catches anything that looks like a Call for Papers. Sometimes we then allow those postings because they are calling for input to events/workshops/confeences and so on that are related to the objectives of the GAIA RG.
+>
+> In this case, your post does not seem to be related to the objectives of this RG (and was also very widely cross-posted) and so it was rejected.
+>
+> As you can see from the above, the administrators of this group are quite happy to answer questions, but because they are human they sometimes need a little time, especially during busy weeks like IETF.
+>
+> Regards,
+> Mat
+>
+
+
+From nobody Wed Jul 20 09:20:12 2016
+Return-Path: <arjuna.sathiaseelan@gmail.com>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 44AD212D664 for <gaia@ietfa.amsl.com>; Wed, 20 Jul 2016 09:20:05 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.597
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.597 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, FREEMAIL_FORGED_FROMDOMAIN=0.001, FREEMAIL_FROM=0.001, HEADER_FROM_DIFFERENT_DOMAINS=0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_LOW=-0.7, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=gmail.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 7NnZZ7Mtkv7Z for <gaia@ietfa.amsl.com>; Wed, 20 Jul 2016 09:20:02 -0700 (PDT)
+Received: from mail-wm0-x234.google.com (mail-wm0-x234.google.com [IPv6:2a00:1450:400c:c09::234]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id ADCFD12D753 for <gaia@irtf.org>; Wed, 20 Jul 2016 09:20:01 -0700 (PDT)
+Received: by mail-wm0-x234.google.com with SMTP id q128so62801370wma.1 for <gaia@irtf.org>; Wed, 20 Jul 2016 09:20:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;  h=mime-version:sender:in-reply-to:references:from:date:message-id :subject:to:cc; bh=9XNNBS77zNw2ZesB6139pr3siIbQSeNfCEraE97exwk=; b=u1BsUkZZOSzojV2ZV9B1oyFIocQXkMyjBLIzI1LTpZJA8pUR4uE8CvzFq3Ts6SoIlg uZxrz4AhltrCt/eJFbNbx0HOlY1BDlxb/x7qg1ZopFQSibytLuozGGnR08B6wSzOps22 oWPLbK+XF+hjy6f0VRR4CZxve5rDdIqZegegY/7PMACHZXdd7SJyqZmZrohBUH2iaYI6 NxSTDcf/Hfpm2kLFTmAxYfYtas2wIFeyHtkmZrggI3Ws60ynzg6oSZKIfhsGzxaa9lk0 0VoVbWrhiZQ9aRyyUQHJuoJmc9IRNAPbX3Zdmboj4+NmCY932M5k5HykBE0W8GwG1ty8 CuZA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20130820; h=x-gm-message-state:mime-version:sender:in-reply-to:references:from :date:message-id:subject:to:cc; bh=9XNNBS77zNw2ZesB6139pr3siIbQSeNfCEraE97exwk=; b=ROUQHp3c07VEdKFuISHopeUWWEGGp+B/1ow8uggqVRGvdeGnOjFvvBEkccV8X/6gxi WT0wBW40w7P26gqUndr3OfBjLFWR9gA7dNuYBk8LKKTqN8J4jcNi7dNvQ9qJN0urSi/I L7tidunHuDKW3UWOBjQhQduPSyiV1hskPNpbtD0w3Mf0BUiFkWR6RAoXYfST3ylEA5Pu Ntwz4gJA4lK6hsnajIinJihUnDHAuIXIOO18g7O3wsOjY21mGl4FB7VVSXLBOA8G/Zy2 J1RX7esE9BCyXy3dfVEKHag31e+wJOh6nEkFpshuJYvAP28orlyhYBnnawVU0saLqIEh AKqg==
+X-Gm-Message-State: ALyK8tIZbtZywkWJH56Ao5dbWAiV+BFAqKiYf7KSSgKJ63NuOaCK+9ajER/3GX1sBgwPQ5A5yQFpnOQXVEzUUw==
+X-Received: by 10.194.34.226 with SMTP id c2mr2220446wjj.3.1469031600310; Wed, 20 Jul 2016 09:20:00 -0700 (PDT)
+MIME-Version: 1.0
+Sender: arjuna.sathiaseelan@gmail.com
+Received: by 10.194.25.70 with HTTP; Wed, 20 Jul 2016 09:19:59 -0700 (PDT)
+In-Reply-To: <C6EE1C06-BA11-4F58-A63A-D1421BF7DC38@isoc.org>
+References: <C6EE1C06-BA11-4F58-A63A-D1421BF7DC38@isoc.org>
+From: Arjuna Sathiaseelan <arjuna.sathiaseelan@cl.cam.ac.uk>
+Date: Wed, 20 Jul 2016 18:19:59 +0200
+X-Google-Sender-Auth: YRD9YrpPcb9cW4_20vR_NoctpN0
+Message-ID: <CAPaG1A=+E8mFGtf6f+kYDPQQzc2GA273Q96g3NH5jnvYK3c6Fw@mail.gmail.com>
+To: "Christian O'Flaherty" <oflaherty@isoc.org>
+Content-Type: multipart/alternative; boundary=e89a8f503610b34e6605381392b8
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/TtAxnSJ-NPkTNiRBk7jrK4DF_7I>
+Cc: "gaia@irtf.org" <gaia@irtf.org>
+Subject: Re: [gaia] Community Networks gathering in Berlin
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Wed, 20 Jul 2016 16:20:05 -0000
+
+--e89a8f503610b34e6605381392b8
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+just for added info -
+
+its a weekly meeting held by the Freifunk (https://freifunk.net//)..
+
+Roger from Guifi.net will be there too..
+
+regards
+
+On 20 July 2016 at 18:04, Christian O'Flaherty <oflaherty@isoc.org> wrote:
+
+> Those attending the IETF meeting in Berlin will be interested in a
+> community networks gathering taking place tonight at 8PM:
+>
+> its here:
+>
+> https://www.google.de/maps/place/c-base/@52.5130024,13.4178927,17z/data=
+=3D!3m1!4b1!4m5!3m4!1s0x47a84e3b41c73ea7:0x94a319a092a3e717!8m2!3d52.512999=
+2!4d13.4200814
+>
+> c-base
+> Rungestra=C3=9Fe 20, 10179 Berlin
+> S-Bahn / Subway station: Jannowitzbr=C3=BCcke
+> https://www.c-base.org/
+>
+> Christian O'Flaherty  oflaherty@isoc.org
+> Regional Development - Internet Society
+> Skype/Gmail/Yahoo!:  christian.oflaherty
+> Mobile/WhatsApp: +598 98769636
+>
+>
+> _______________________________________________
+> gaia mailing list
+> gaia@irtf.org
+> https://www.irtf.org/mailman/listinfo/gaia
+>
+>
+
+
+--=20
+Arjuna Sathiaseelan
+Personal: http://www.cl.cam.ac.uk/~as2330/
+N4D Lab: http://www.cl.cam.ac.uk/~as2330/n4d
+
+--e89a8f503610b34e6605381392b8
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">just for added info -<div><br></div><div>its a weekly meet=
+ing held by the Freifunk (<a href=3D"https://freifunk.net//)">https://freif=
+unk.net//)</a>..</div><div><br></div><div>Roger from Guifi.net will be ther=
+e too..</div><div><br></div><div>regards</div></div><div class=3D"gmail_ext=
+ra"><br><div class=3D"gmail_quote">On 20 July 2016 at 18:04, Christian O&#3=
+9;Flaherty <span dir=3D"ltr">&lt;<a href=3D"mailto:oflaherty@isoc.org" targ=
+et=3D"_blank">oflaherty@isoc.org</a>&gt;</span> wrote:<br><blockquote class=
+=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padd=
+ing-left:1ex">
+
+
+
+<div style=3D"word-wrap:break-word">
+Those attending the IETF meeting in Berlin will be interested in a communit=
+y networks gathering taking place tonight at 8PM:
+<div><br>
+</div>
+<div>its here:<br>
+<a href=3D"https://www.google.de/maps/place/c-base/@52.5130024,13.4178927,1=
+7z/data=3D!3m1!4b1!4m5!3m4!1s0x47a84e3b41c73ea7:0x94a319a092a3e717!8m2!3d52=
+.5129992!4d13.4200814" target=3D"_blank">https://www.google.de/maps/place/c=
+-base/@52.5130024,13.4178927,17z/data=3D!3m1!4b1!4m5!3m4!1s0x47a84e3b41c73e=
+a7:0x94a319a092a3e717!8m2!3d52.5129992!4d13.4200814</a><br>
+<br>
+c-base<br>
+Rungestra=C3=9Fe 20, 10179 Berlin<br>
+S-Bahn / Subway station: Jannowitzbr=C3=BCcke<br>
+<a href=3D"https://www.c-base.org/" target=3D"_blank">https://www.c-base.or=
+g/</a><br>
+<div><br>
+<div>
+<div><span style=3D"font-family:Arial;font-size:x-small">Christian O&#39;Fl=
+aherty =C2=A0</span><a href=3D"mailto:oflaherty@isoc.org" style=3D"font-fam=
+ily:Arial" target=3D"_blank"><font color=3D"#1c4aff">oflaherty@isoc.org</fo=
+nt></a></div>
+<div><span style=3D"font-family:Arial;font-size:x-small">Regional Developme=
+nt -</span>=C2=A0<font color=3D"#1c4aff" style=3D"font-family:Arial">Intern=
+et Society=C2=A0</font><br style=3D"font-family:Arial">
+<span style=3D"font-family:Arial;font-size:x-small">Skype/Gmail/Yahoo!: =C2=
+=A0</span><font color=3D"#1c4aff" style=3D"font-family:Arial">christian.ofl=
+aherty</font><span style=3D"font-family:Arial;font-size:x-small">=C2=A0</sp=
+an><br style=3D"font-family:Arial">
+<span style=3D"font-family:Arial;font-size:x-small">Mobile/WhatsApp:</span>=
+=C2=A0<font color=3D"#1c4aff" style=3D"font-family:Arial"><a href=3D"tel:%2=
+B598%2098769636" value=3D"+59898769636" target=3D"_blank">+598 98769636</a>=
+</font></div>
+</div>
+<br>
+</div>
+</div>
+</div>
+
+<br>_______________________________________________<br>
+gaia mailing list<br>
+<a href=3D"mailto:gaia@irtf.org">gaia@irtf.org</a><br>
+<a href=3D"https://www.irtf.org/mailman/listinfo/gaia" rel=3D"noreferrer" t=
+arget=3D"_blank">https://www.irtf.org/mailman/listinfo/gaia</a><br>
+<br></blockquote></div><br><br clear=3D"all"><div><br></div>-- <br><div cla=
+ss=3D"gmail_signature" data-smartmail=3D"gmail_signature">Arjuna Sathiaseel=
+an <br>Personal: <a href=3D"http://www.cl.cam.ac.uk/~as2330/" target=3D"_bl=
+ank">http://www.cl.cam.ac.uk/~as2330/</a> <br>N4D Lab: <a href=3D"http://ww=
+w.cl.cam.ac.uk/~as2330/n4d" target=3D"_blank">http://www.cl.cam.ac.uk/~as23=
+30/n4d</a></div>
+</div>
+
+--e89a8f503610b34e6605381392b8--
+
+
+From nobody Thu Jul 21 07:19:18 2016
+Return-Path: <ford@isoc.org>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id E8BF312D5F9 for <gaia@ietfa.amsl.com>; Thu, 21 Jul 2016 07:19:16 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.922
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.922 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, RCVD_IN_DNSWL_NONE=-0.0001, RCVD_IN_MSPIKE_H4=-0.01, RCVD_IN_MSPIKE_WL=-0.01, SPF_HELO_PASS=-0.001, SPF_PASS=-0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (1024-bit key) header.d=isoc.onmicrosoft.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id dKYR6GpIsyBA for <gaia@ietfa.amsl.com>; Thu, 21 Jul 2016 07:19:12 -0700 (PDT)
+Received: from NAM02-SN1-obe.outbound.protection.outlook.com (mail-sn1nam02on0079.outbound.protection.outlook.com [104.47.36.79]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 2307712D5D0 for <gaia@irtf.org>; Thu, 21 Jul 2016 07:19:12 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=isoc.onmicrosoft.com;  s=selector1-isoc-org; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version; bh=BK9hhxXhZq4PhfYzEGk7o/S+0s/WargifpOu8epb9HQ=; b=VKXEl7FTF3Mt5Y6HEjRrR3BMdP4bQ5I4rqX6w6cAkPCNG0eCjoGkQy8BWxO3KQXLDwwspxpmCNn2cNMfJwjOoN65zOMaY+TXCtOa0FWrRNHkuUkGCQqY4xCkfjU1gR4EsnBBDiYTLI3ALnfJz64BUx1t8zLZsNvCn1X54noy3tI=
+Authentication-Results: spf=none (sender IP is ) smtp.mailfrom=ford@isoc.org; 
+Received: from [IPv6:2001:67c:370:176:69fd:5bba:c1cc:51b1] (2001:67c:370:176:69fd:5bba:c1cc:51b1) by BL2PR06MB2212.namprd06.prod.outlook.com (10.167.100.26) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.544.10; Thu, 21 Jul 2016 14:19:08 +0000
+From: Matthew Ford <ford@isoc.org>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Date: Thu, 21 Jul 2016 16:18:59 +0200
+To: <gaia@irtf.org>
+Message-ID: <12C6496C-8FAD-497F-9569-9BE7B4C425CC@isoc.org>
+MIME-Version: 1.0 (Mac OS X Mail 9.3 \(3124\))
+X-Mailer: Apple Mail (2.3124)
+X-Originating-IP: [2001:67c:370:176:69fd:5bba:c1cc:51b1]
+X-ClientProxiedBy: AM4PR0401CA0025.eurprd04.prod.outlook.com (10.167.83.35) To BL2PR06MB2212.namprd06.prod.outlook.com (10.167.100.26)
+X-MS-Office365-Filtering-Correlation-Id: c7536e66-0215-4425-5a85-08d3b171fb12
+X-Microsoft-Exchange-Diagnostics: 1; BL2PR06MB2212; 2:IpiGMadaJYFeew8siqFZzeSPXdA3bHNnLCjGhn7LsS3wMZjnx+9PrEEUBy3tnICbIhlfHAqS9wbfkE5yvUwHB2Q67mSdGq0Dkrhd7ELOsoR9EmZGu7MyZZh6xDJIy2f1NJkDuZwfQ/m9VtUzpWw3+0rajD2L5lbwq9CbqpPpysat2EviP3zCtS2Ngo2N2UIM; 3:YVahBp4k08uXJ+qgBpVqBKHt0HIBDNOXMt593CTQnyYyxfLWadTyw4PkvWMns8SuGA2eN4CObCVTAcQ7tA7Cvr/ZRsDlaMihh1/0RvtOFmNR5MB6bLwgPZhszaoL8rjr
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BL2PR06MB2212;
+X-Microsoft-Exchange-Diagnostics: 1; BL2PR06MB2212; 25:Adx4VHGASIRUKPpT2vYh/YQGEX4XZMyqYCFbZcLtXA4XUo3LdgUTuo3XeanLaJJS3tKsm24TUpYsq3yEkepvgoM59EtW9yotvwJWtofLFmROWZZrl8Zw0gJ3Ywij+XwHXkugVpH5EyPuaa1NW8yWROihqPmqJXs/oyZfowsxeNEMr3mzgqQHu9dffJMCybtWuQ6WwKeHghrXyWVh3NGPynK2y4Kpn7DZlbmExOKK/8De+dHD5PHGI833TiP1MViRyYEMpCpcZ/m9wfApbjHcD5e25ZOxvdldhRfjgImibZgCA48WKYdMUpMVYADfybV+w6k6g036jtUjXfaqt7po59dUaBlnMO3q5jKyXA6yayUADdYif/7sfDPbVF2+D2Ealb+/20z33q60OqinRlKsPCoorDKzO3DZgN8bOkvTRWGYSpLbLaldiu6+aHPUszhFQO8fdSjMH9ACh4wLsBU43HQsCBHCXjR+woo4YxRoySGadYP6kDn+QuFbuQ6xLsL2GgYtNInd6YO51b6Miyx6SkCw+JBxPwl3UfWqCxAAGdjZwcU3E3vzncz0CDgS3jsBHWlTUzjjpwEMC1dHywrHj7cd3EscXI005UwPpBJMYSVL5MRZWb8EEcRbyPMKgLqvDXUO1U9tadMldxOZidNuK6pyHhx7bYMuZWTzTE2I/mdS0J3s6hdKWhNN5yiV0wP6y4lAHFc8GFiZz0RX8kb3GQ==; 31:KgO/nAI2UZKXUgXo/yZ4P5jP8DWBLc3KGQBGOVgEXutIzRFnWG0I0SlDUYIjnqPxQC7VZEw5tG0zWHZiumRLs3jTbNBMWvQnhNPo2vyVYdqZqtVeZm10m2JgCfB1gqgm+1OwUklaFtUeFRmQogcc02L2n183DDMPjd5x7WX0aNddSIFBZ+z5yU5bWmNCqlhEJrAan/BVJDYlIQln+bndgA==
+X-Microsoft-Exchange-Diagnostics: 1; BL2PR06MB2212; 20:fh9DFBnXtdIV3hL/ZjfP7l5nviuvPYxeMHHn6JqeAViyRAybj+WIBlf5gGsleGrFRBvo1OvVJ+eENsdyN6nNjAqzEb9bJTbIUR7HutgJ6VPLPsVjhvTFmnHbmaSJ/DnigBFmQSz+K4DRb37zY7z55tSff1wa4N5ftA1EJsDpF3gNt6yfwDSFcnix1EfTf3HJGO1U3lBm1lS0cwYx2zeJXdjw5yH9zpS8ZdEdSrhRrkZ7OW5P/MBQQCf5t/txp2hYU1oF6Ffs1XH1AF3AlOvbMFPBZekAvep5FtamHGefE99BqO4ooH0ZE1KEAJF9HBt1G4/gL/pwl6O/tjJo0TF3VPJZtQIyqB/BiZBVmFta9WyeNyJ6FNEjZULhOkoE8B40yEHWrGaVfupNIFBCb2oeItChIonlEqgliOHfzHHDQX40B7nMq/frDP3+8URSvsQfFQRaog6qOfNRS0nAvsussdrghOoFrO3uI5ne81vkJMKsXuyCD4euaynFnhvI4Cv4; 4:zTcE/tZEd/KEA5PtEXJ1NpaXIMLXYSHH4sA3YTU4N1aQ4OPJ5OGNkQDur6hC3Sv67C6m3T3PLsrb+lPlMr/N4zrZH8d7QvLjSzHFx16Z+BS/c43IZy0P/IspUj1zHT0qv3SNxQQUMhd4GaRpCVIvHoZfDzKRMsxXJQzQLPySI/hm4iibieP4ovlqRnSSpVM7TInnoVksMZQGdZQ4iWJOFnDgXeEQW/MABlpqxTPg9TFW3UCD6HmM8WL+kL++9ligXJ3YscxTK27bvhYlWp+S78BWnD60LOXn2/q/v01GI+FbDaUhVQtwnbdAPTzGpuISB+EhcCjA3NsJ+ZSoXvja6X+ZF9/8bBitdv9R5AXTLBALw3o2gYlHIyqE96uiditL
+X-Microsoft-Antispam-PRVS: <BL2PR06MB221283B40B2D612CCB6E4152A7090@BL2PR06MB2212.namprd06.prod.outlook.com>
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:0; PCL:0; RULEID:(601004)(2401047)(5005006)(8121501046)(10201501046)(3002001); SRVR:BL2PR06MB2212; BCL:0; PCL:0; RULEID:; SRVR:BL2PR06MB2212; 
+X-Forefront-PRVS: 0010D93EFE
+X-Forefront-Antispam-Report: SFV:NSPM; SFS:(10009020)(4630300001)(6009001)(7916002)(189002)(199003)(3480700004)(81156014)(305945005)(81166006)(50226002)(8676002)(68736007)(189998001)(221733001)(57306001)(8746002)(7846002)(7736002)(97736004)(6116002)(1706002)(47776003)(33656002)(50466002)(107886002)(105586002)(2906002)(110136002)(42186005)(586003)(82746002)(2351001)(50986999)(558084003)(229853001)(83716003)(77096005)(23676002)(106356001)(92566002)(36756003)(101416001)(86362001)(450100001)(3826002)(104396002); DIR:OUT; SFP:1101; SCL:1; SRVR:BL2PR06MB2212; H:[IPv6:2001:67c:370:176:69fd:5bba:c1cc:51b1]; FPR:; SPF:None; PTR:InfoNoRecords; MX:1; A:1; LANG:en; 
+Received-SPF: None (protection.outlook.com: isoc.org does not designate permitted sender hosts)
+X-Microsoft-Exchange-Diagnostics: =?utf-8?B?MTtCTDJQUjA2TUIyMjEyOzIzOm50NTFNRnR0bnJaalFrVkRyemVZTU1KZXlx?= =?utf-8?B?dUgvQmpUaU9hbmZVUGxFRWJhUmtjVWMwTnJ0N2NZOFU3YWY5RW83WlI5OE93?= =?utf-8?B?YnNIalFVeDdIZXJ1elhJZVd6dG9zYXhZc2lyTW0rMTBESnF2TDlWN1ZuaGpT?= =?utf-8?B?MjdjQnZueHNYdmRkbnVSZURhSVdNa2d1RkhHUmdNWGUrN1ovQmlCUFJOYkpY?= =?utf-8?B?bHc5UUQ2bWFST3RXRUp2b2Jqa0pqSVNYb2lVOHhMWDlmbVhwSE0xMlhabXlP?= =?utf-8?B?Z1I2QXNZNHhOdHZOamFnaVNwVUpnRXJXZkJLYkt2dFIrM01aOVdWY1RMS0x3?= =?utf-8?B?a3NYQjExeDgwbXcrblhUWXlRRFBiYklWclprNGlPdENWNHorNENFZ055Q0VT?= =?utf-8?B?VkhseUVKY0Y3WG5HWTZTQitLOE1tUGVDK3ZOZDhHT21NN01QSEhrT1JONnY3?= =?utf-8?B?NWNzWmFwWUVPb3VVSGtQZko4bE9IbkFGVXBWblltNmJIa0dJdi9HbFJvOUor?= =?utf-8?B?TmFqZ05lcEpsVGV5Uy84MytxNnJhb2tPUWxqcktpSVN1dFhRN0dCdzdwQzM5?= =?utf-8?B?SXlWUFpDVEFGeHJGVWVoMUZSTDZOeld0VWhESU5rSGVFNGw4QXdNVHdRMSth?= =?utf-8?B?Qk9XaStPNWZFWXNobHZpV0VTaWhnMU5tZkRTUlhGTzNOSHAxUEl1OStVR1ZY?= =?utf-8?B?VXFDUktUR1QxRGpDOHord0Jpak1LeFB6QjVQaGkrVFp5UTZmc2RIY2hpemNE?= =?utf-8?B?c3ljMlBINEZLeXRxRzlmUTRHNDdRRDQ0NFZaY0ZrNmpJSVhNeFdKOHIvWENQ?= =?utf-8?B?U09tY3VBVm53Wk5jZVFFRmNOa0hWTXRZY0lUcW9vY0h5R0o5WDVOczdjQmdF?= =?utf-8?B?YWdPRXpjYk1ObUZEOWlVbE1aSU5XR2xpMEpTcUcyaHdIOWdTbjAxeENHUmlZ?= =?utf-8?B?SlBBaDVaUlJqVzZXQ3E5SjB4aVU2a1M3YzIwWVlHZ2VpSkFVbVdFUzNHME1E?= =?utf-8?B?UDNJUlZlWE1jSm9aRE1NbzlPQksrZDcvQ2FaL0t3ZHBWUWViTFlLMSsvbS9k?= =?utf-8?B?akplN3lFL3ZvaHFwVmsrM2Z4U2NQMjhWKytOUWQyK1VTcEF4UTBwOUxlZWRH?= =?utf-8?B?R2xrSDJYVVhJa1FDN09xWkpOeFVVOVVjdjhYZ1RhVXhRQWVENWg2NEhYOUU1?= =?utf-8?B?a0Y2UG9jdHRGcENpcGhSWmJVeEE1QUh2WklzTUl5bUhsQ21XUmlFYTlIaUZR?= =?utf-8?B?N1plRXRXR1RhRGVCL29jZzcrU0h0RU1sYWZZcHFselRucXAvTjVmejZwTStr?= =?utf-8?B?Vy9WVnFsbHdmUDhMc2RNZDlUa3ZOUW1maXpWWkZwMW1naUhMY1I2SkhSNnRQ?= =?utf-8?B?ZXdoU1QweVBNSDBUbGp1aUd5RWdKT2pwNmhXNGNnQWIxM0pMSC91bG1IRXpB?= =?utf-8?B?MEtTK2IwTXAxZnQvbjJaY3R3WExKRG1MRGtkQlh0WTkyUmNMZnpRQThZSjcx?= =?utf-8?Q?QzwSFJTSzLc4AxKaZw7X3K/3hCupLxldlKAgya9BA2kQy0?=
+X-Microsoft-Exchange-Diagnostics: 1; BL2PR06MB2212; 6:RgxaGrPIxVMFh0pS4srA+DZ0nJVeFTO56YCfZgXnG4XGPD1h8SBX0n3nS5QdGkh+oEdxJpi7Kn3vS1NYf7G9jy7gzMyKhvsnFBNtspb7tS1bzKt4/wv83Dp1b+/NPArK3EY7EkDXuv8NfFLktU+IF9Zl0ifil+UYCCpG8NmLPV36+bVBbfLVuR81taWe36Wi9FMcoqMCadMb2yL7UkuwlfiCHtrcjaCnE6CUYOhuCSAyWgqEKz33j8D1woe2eMB5qTJmKqLx+3FJg/dPUIeO5Mq0ilc1sE9d7q9QUgTzoy0=; 5:9dgStRUb0yFQoIBrEiUZbTCZm/DpMICmbZLPFdYoizxxnl302wGc7QFJVC5ggeTTp8Fe6ke91TvnmM40WOKVSJx13ZMPU/IRzv2dfuIGXZcgtaOSPOJfgVbU9sx/sHyBj4BSGGBT/11eTNdc0DnwHQ==; 24:pw06HTjuWwGLaB8ZTtbZg5fxBF+Znu+D5lJoDnvy6CbJsC8wYwcAGmIjUTB19R4wuDHBYDDzsHDjIMLufc6xU24uvEcdU7fFhWSBBS66fmk=; 7:fKapOBRXI5cyP9hWX1p4ujDkxCOvYrvArzwf5LbAm7ybX4HFb6bCGsnCWj7N//CV5rQaQc/vsvU42g53+USDYJiafGbHOSoJjPcTEb4HZ4vyph27N8VWBgnnGgH3peuuHpuiPaAKcwDQtjE0nZTwyFoOrRbcY9Bl6VOh7wxcJNUA5345Vog2W7LMS6sw6DUS6sXAQ5q0ctF882XIcJ1QAYbX2PH1vPKgq420qRym3AiAu6FfLwaGV7MiZm1/N3CQ
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: isoc.org
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 21 Jul 2016 14:19:08.6122 (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BL2PR06MB2212
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/mSxVuktgVnj6TdqlMQ08SOdiHl4>
+Subject: [gaia] Notetaker
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 21 Jul 2016 14:19:17 -0000
+
+Thankyou to the person who volunteered to take notes in today=E2=80=99s =
+meeting. If that was you could you please let me know?
+
+Thanks!
+Mat=
+
+
+From nobody Mon Jul 25 14:29:40 2016
+Return-Path: <rd459@cam.ac.uk>
+X-Original-To: gaia@ietfa.amsl.com
+Delivered-To: gaia@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 377A312DA42 for <gaia@ietfa.amsl.com>; Mon, 25 Jul 2016 14:29:38 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.288
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.288 tagged_above=-999 required=5 tests=[BAYES_40=-0.001, HTML_MESSAGE=0.001, RP_MATCHES_RCVD=-1.287, SPF_HELO_PASS=-0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id eRkVQ5ZGAz3t for <gaia@ietfa.amsl.com>; Mon, 25 Jul 2016 14:29:35 -0700 (PDT)
+Received: from ppsw-31.csi.cam.ac.uk (ppsw-31.csi.cam.ac.uk [131.111.8.131]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 6665712DA43 for <gaia@irtf.org>; Mon, 25 Jul 2016 14:29:35 -0700 (PDT)
+X-Cam-AntiVirus: no malware found
+X-Cam-ScannerInfo: http://www.cam.ac.uk/cs/email/scanner/
+Received: from cpc7-camd13-2-0-cust256.hari.cable.virginm.net ([94.173.123.1]:60462 helo=Richards-MacBook-Pro-2.local) by ppsw-31.csi.cam.ac.uk (smtp.hermes.cam.ac.uk [131.111.8.157]:587) with esmtpsa (PLAIN:rd459) (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128) id 1bRnRN-0003z7-K2 (Exim 4.86_36-e07b163) for gaia@irtf.org (return-path <rd459@cam.ac.uk>); Mon, 25 Jul 2016 22:29:33 +0100
+To: gaia <gaia@irtf.org>
+From: Richard Dent <rd459@cam.ac.uk>
+Message-ID: <42ed0ef6-a35b-891b-5332-5d818120fb0b@cam.ac.uk>
+Date: Mon, 25 Jul 2016 22:29:32 +0100
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:45.0) Gecko/20100101 Thunderbird/45.2.0
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="------------CC51F6185FA9A2E488F82CB3"
+Archived-At: <https://mailarchive.ietf.org/arch/msg/gaia/qGpH0DrrkL4Zh9pX8t9OQqzmU_0>
+Subject: [gaia] Can the internet reboot Africa?
+X-BeenThere: gaia@irtf.org
+X-Mailman-Version: 2.1.17
+Precedence: list
+List-Id: Global Access to the Internet for All <gaia.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/gaia>, <mailto:gaia-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/gaia/>
+List-Post: <mailto:gaia@irtf.org>
+List-Help: <mailto:gaia-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/gaia>, <mailto:gaia-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 25 Jul 2016 21:29:38 -0000
+
+This is a multi-part message in MIME format.
+--------------CC51F6185FA9A2E488F82CB3
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+*With smartphone use and web penetration soaring, Africa is set for a 
+tech revolution – but only if its infrastructure can support it*
+
+https://www.theguardian.com/world/2016/jul/25/can-the-internet-reboot-africa
+
+
+-- 
+PhD Researcher, Department of Sociology
+Affliated researcher, Networking for Development Lab
+CSAP network member
+University of Cambridge
+
+http://www.richardjdent.com
+http://www.cl.cam.ac.uk/~as2330/n4d
+http://www.csap.cam.ac.uk/network/richard-dent/
+@richarddent
+Tel: 07827 537537
+
+
+--------------CC51F6185FA9A2E488F82CB3
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    <p>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+      <b>With smartphone use and web penetration soaring, Africa is set
+        for a tech revolution – but only if its infrastructure can
+        support it</b></p>
+    <p><a class="moz-txt-link-freetext" href="https://www.theguardian.com/world/2016/jul/25/can-the-internet-reboot-africa">https://www.theguardian.com/world/2016/jul/25/can-the-internet-reboot-africa</a><br>
+    </p>
+    <br>
+    <pre class="moz-signature" cols="72">-- 
+PhD Researcher, Department of Sociology
+Affliated researcher, Networking for Development Lab
+CSAP network member
+University of Cambridge
+
+<a class="moz-txt-link-freetext" href="http://www.richardjdent.com">http://www.richardjdent.com</a>
+<a class="moz-txt-link-freetext" href="http://www.cl.cam.ac.uk/~as2330/n4d">http://www.cl.cam.ac.uk/~as2330/n4d</a>
+<a class="moz-txt-link-freetext" href="http://www.csap.cam.ac.uk/network/richard-dent/">http://www.csap.cam.ac.uk/network/richard-dent/</a>
+@richarddent
+Tel: 07827 537537</pre>
+  </body>
+</html>
+
+--------------CC51F6185FA9A2E488F82CB3--
+

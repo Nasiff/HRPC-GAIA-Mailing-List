@@ -1,0 +1,636 @@
+
+From nobody Thu Dec  6 13:20:18 2018
+Return-Path: <marknoumea@yahoo.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id BBA6F1311D4 for <hrpc@ietfa.amsl.com>; Thu,  6 Dec 2018 13:20:16 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: 0.702
+X-Spam-Level: 
+X-Spam-Status: No, score=0.702 tagged_above=-999 required=5 tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Authentication-Results: ietfa.amsl.com (amavisd-new); dkim=pass (2048-bit key) header.d=yahoo.com
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id kHtZY3StK4MD for <hrpc@ietfa.amsl.com>; Thu,  6 Dec 2018 13:20:14 -0800 (PST)
+Received: from sonic312-21.consmr.mail.bf2.yahoo.com (sonic312-21.consmr.mail.bf2.yahoo.com [74.6.128.83]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id D531E1311CE for <hrpc@irtf.org>; Thu,  6 Dec 2018 13:20:13 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1544131212; bh=hfJ9Zy2/lwgpuP6myQ/sz8KHHAaqSiUVPk/OTyQd+bc=; h=Date:From:To:Subject:References:From:Subject; b=P23gY1bLPWt5IU2bVwIFJ7LrR3mmCFpx2onmISMB51zaLiRT0KmStmfTCC8CP9rj27/xwHpmfhHkLTrjfmrEWfudqjMrHQKaVhsiYeiGUEXGCvRWKs/t2qECMu0wSY5w26IRfX1Q/veLM1IpScGJbq4StE/2Nmvwxxn8t/RfsIAA++NmDD5hwpdVUTgS+ljaAjGKkjAXj7u3hLFGH9al7iVoyK8Ohq7mOYr0SsRa5bwdSEiWXAK+vDcW4BALDE3wcxw+ukCrXAetFVzL739JpzpgZeZp3vXQTIQPDEVhrNy6JEHjnUK304c5vom3Yu9fAR95HXQiPocAWcvn1gbnLg==
+X-YMail-OSG: EUBSEmAVM1mpS5MfY5NtJaDUVEBlMw9RGfz4mPoeiE_5r863_dNvashxE9uiZYn 8ohQt7FZFKPTPPuwEBZMZKFmz1NJ01YjthaLlZP8FoOoxtU0qj8J9S9TC7DFNXH8mzIY43THZjc5 U1wn2sMn.xxwCV9QVa1cjH13C9lTwYmzr0gobTNHKhPlBRDpdcWsJedHJ2q.WPzAEoXYiQJMNl7f 2jUrtM.CJjkbJAt5xH9oI0Gh4.wOjGcWqOYHr6ufDggcm83pWGJAVCZX3ONghkjV2aKIp6xIc21C rcjxkig_G6LBRUoLxGXYZlgIpvQwPgS3Vfe.q8eDmOBodh41CGn7zv97gYG6TjuaEQNlgq3xFWBJ Vg7v89AgGBNmkvhYsGjy.yMuSkHkuMdm7LOizCoENHGIA1_UU1gUEZYPT9LQ0PkKP6YwU5Ol_v4m aSuOjNO7.Md1bsqg0RVzlpxtq0tPeXxubM9LwFvazavXh14wtHZtYzuB3Mx8T6RTJVwGJgD_lXqF 2cXUSJgH5dUs.ExL7kZdjHsprHxNGFie4iZfLf5iUvIy0MO9iJl_yoXgvZ2HcEOu7.PyfdjNOK.o HXydXB9DM55JjqSXExaWM9jZ4o61kKu8ftJeMNwZ_Y9X5ROifzF6tOZX49fgK_RDRgyjHImIK8Lv wgMSrRl_i9GI9bMsHfL4suiVRxF9wfAE8xBvEbIMp6s.8Du.UjKOd3P59UDIs5N5uJ2ZS.tdysxZ v3UfjtQggy5YvZ6lPBulrR4fwJ39F2Nw2rFxfqexWiJC_uhjnOLJ6FKYBI8FgUwAGdkKmEKw82CM KUNUaPZoK9xl1.ajnSEML5XucDBXls0oHlc8R9DJgSzTFQxogMr7OkIuqEZOsfvuDPLS0I8pNkZj iLtPOm3auO8A0jRdqUdFOnKb_UUh_0dUG16xlh5q50nvPw177c8s3HzoWUvD4ymvB3ztf1LfEp1G B_yYhJrD9TdDdoE.F8yDIUzBJCj1RhGGuGhtmtoNx90ghwbCO9tPtxnCPsN3swc5Qh7m_4svsX_y XoekpBzWO2CMmziZojh3Q3Ytf7J1C5D7kkfoUGEOjdnl0KLMl106dL.BP8dVaXEIGlHtHz4RTQdy zzhfG_BgeWmPAhJC7by72_ikAnPUha0Zw9No-
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic312.consmr.mail.bf2.yahoo.com with HTTP; Thu, 6 Dec 2018 21:20:12 +0000
+Date: Thu, 6 Dec 2018 21:20:09 +0000 (UTC)
+From: Mark Perkins <marknoumea@yahoo.com>
+To: Hrpc <hrpc@irtf.org>, Hr-rt <hr-rt@irtf.org>
+Message-ID: <856411607.75894.1544131209262@mail.yahoo.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;  boundary="----=_Part_75893_79007583.1544131209261"
+References: <856411607.75894.1544131209262.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.12857 YMailNorrin Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/iRCrwyo3A-KSIakGQOnXtci9F7w>
+Subject: [hrpc] =?utf-8?q?Clark=E2=80=99s_=E2=80=9CDesigning_an_Internet?= =?utf-8?b?4oCdIOKAkyBBIFJldmlldw==?=
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.29
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 06 Dec 2018 21:20:17 -0000
+
+------=_Part_75893_79007583.1544131209261
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+"We pay special attention to this book because it bears directly on an ongo=
+ing debate over the extent to which standards and protocols constitute a fo=
+rm of governance=C2=A0which can work in the favor of human rights advocates=
+."
+Clark's "Designing an Internet" - A Review - Internet Governance Project
+
+|=20
+|=20
+|=20
+|  |  |
+
+ |
+
+ |
+|=20
+|  |=20
+Clark's "Designing an Internet" - A Review - Internet Governance Project
+
+David Clark=E2=80=99s new book, Designing an Internet (MIT Press, 2018) is =
+an important new contribution to Internet gov...
+ |
+
+ |
+
+ |
+
+
+
+
+Mark P.
+
+------=_Part_75893_79007583.1544131209261
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office"><head><!--[=
+if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>=
+96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]--></head><bo=
+dy><div class=3D"ydp70ec8e7yahoo-style-wrap" style=3D"font-family: Helvetic=
+a Neue, Helvetica, Arial, sans-serif; font-size: 13px;">"<span>We pay speci=
+al attention to this book because it bears directly on an=20
+ongoing debate over the extent to which standards and protocols=20
+constitute a form of governance&nbsp;which can work in the favor of human=
+=20
+rights advocates.</span>"</div><div class=3D"ydp70ec8e7yahoo-style-wrap" st=
+yle=3D"font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size=
+: 13px;"><br></div><div class=3D"ydp70ec8e7yahoo-style-wrap" style=3D"font-=
+family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 13px;"><a =
+href=3D"https://www.internetgovernance.org/2018/12/05/clarks-designing-an-i=
+nternet-a-review/" rel=3D"nofollow" target=3D"_blank" class=3D"enhancr_card=
+_4288334343">Clark's "Designing an Internet" - A Review - Internet Governan=
+ce Project</a></div><div><br></div><div id=3D"ydp6895a722enhancr_card_42883=
+34343" class=3D"ydp6895a722yahoo-link-enhancr-card ydp6895a722ymail-preserv=
+e-class ydp6895a722ymail-preserve-style" style=3D"max-width:400px;font-fami=
+ly:Helvetica Neue, Segoe UI, Helvetica, Arial, sans-serif" data-url=3D"http=
+s://www.internetgovernance.org/2018/12/05/clarks-designing-an-internet-a-re=
+view/" data-type=3D"YENHANCER" data-size=3D"MEDIUM" contenteditable=3D"fals=
+e"><a href=3D"https://www.internetgovernance.org/2018/12/05/clarks-designin=
+g-an-internet-a-review/" style=3D"text-decoration:none !important;color:#00=
+0 !important" class=3D"ydp6895a722yahoo-enhancr-cardlink" rel=3D"nofollow" =
+target=3D"_blank"><table class=3D"ydp6895a722card-wrapper ydp6895a722yahoo-=
+ignore-table" style=3D"max-width:400px" cellspacing=3D"0" cellpadding=3D"0"=
+ border=3D"0"><tbody><tr><td width=3D"400"><table class=3D"ydp6895a722card =
+ydp6895a722yahoo-ignore-table" style=3D"max-width:400px;border-width:1px;bo=
+rder-style:solid;border-color:rgb(224, 228, 233);border-radius:2px" width=
+=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0"><tbody><tr><td c=
+lass=3D"ydp6895a722card-primary-image-cell" style=3D"background-color: rgb(=
+0, 0, 0); background-repeat: no-repeat; background-size: cover; position: r=
+elative; border-radius: 2px 2px 0px 0px; min-height: 175px;" valign=3D"top"=
+ height=3D"175" bgcolor=3D"#000000" background=3D"https://s.yimg.com/lo/api=
+/res/1.2/oFPMktagM6QEUXDT4V0KJw--~A/Zmk9ZmlsbDt3PTQwMDtoPTIwMDthcHBpZD1pZXh=
+0cmFjdA--/https://www.internetgovernance.org/wp-content/uploads/Photo-on-12=
+-5-18-at-8.12-PM.jpg.cf.jpg"><!--[if gte mso 9]><v:rect fill=3D"true" strok=
+e=3D"false" style=3D"width:396px;height:175px;position:absolute;top:0;left:=
+0;"><v:fill type=3D"frame" color=3D"#000000" src=3D"https://s.yimg.com/lo/a=
+pi/res/1.2/oFPMktagM6QEUXDT4V0KJw--~A/Zmk9ZmlsbDt3PTQwMDtoPTIwMDthcHBpZD1pZ=
+Xh0cmFjdA--/https://www.internetgovernance.org/wp-content/uploads/Photo-on-=
+12-5-18-at-8.12-PM.jpg.cf.jpg"/></v:rect><![endif]--><table class=3D"ydp689=
+5a722card-overlay-container-table ydp6895a722yahoo-ignore-table" style=3D"w=
+idth:100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0"><tbody><tr><td =
+class=3D"ydp6895a722card-overlay-cell" style=3D"background-color: transpare=
+nt; border-radius: 2px 2px 0px 0px; min-height: 175px;" valign=3D"top" bgco=
+lor=3D"transparent" background=3D"https://s.yimg.com/cv/ae/nq/storm/assets/=
+enhancrV21/1/enhancr_gradient-400x175.png"><!--[if gte mso 9]><v:rect fill=
+=3D"true" stroke=3D"false" style=3D"width:396px;height:175px;position:absol=
+ute;top:-18px;left:0;"><v:fill type=3D"pattern" color=3D"#000000" src=3D"ht=
+tps://s.yimg.com/cv/ae/nq/storm/assets/enhancrV21/1/enhancr_gradient-400x17=
+5.png"/><v:textbox inset=3D"0,0,20px,0"><![endif]--><table class=3D"ydp6895=
+a722yahoo-ignore-table" style=3D"width: 100%; min-height: 175px;" height=3D=
+"175" border=3D"0"><tbody><tr><td class=3D"ydp6895a722card-richInfo2" style=
+=3D"text-align:left;padding:15px 0 0 15px;vertical-align:top"></td><td clas=
+s=3D"ydp6895a722card-actions" style=3D"text-align:right;padding:15px 15px 0=
+ 0;vertical-align:top"><div class=3D"ydp6895a722card-share-container"></div=
+></td></tr></tbody></table><!--[if gte mso 9]></v:textbox></v:rect><![endif=
+]--></td></tr></tbody></table></td></tr><tr><td><table class=3D"ydp6895a722=
+card-info ydp6895a722yahoo-ignore-table" style=3D"background-color: rgb(255=
+, 255, 255); background-repeat: repeat; background-attachment: scroll; back=
+ground-image: none; background-size: auto auto; position: relative; z-index=
+: 2; width: 100%; max-width: 400px; border-radius: 0px 0px 2px 2px; border-=
+top: 1px solid rgb(224, 228, 233);" cellspacing=3D"0" cellpadding=3D"0" bor=
+der=3D"0" align=3D"center"><tbody><tr><td style=3D"background-color:#ffffff=
+;padding:16px 0 16px 12px;vertical-align:top;border-radius:0 0 0 2px"></td>=
+<td style=3D"vertical-align:middle;padding:12px 24px 16px 12px;width:99%;fo=
+nt-family:Helvetica Neue, Segoe UI, Helvetica, Arial, sans-serif;border-rad=
+ius:0 0 2px 0"><h2 class=3D"ydp6895a722card-title" style=3D"font-size:14px;=
+line-height:19px;margin:0 0 6px 0;font-family:Helvetica Neue, Segoe UI, Hel=
+vetica, Arial, sans-serif;word-break:break-word;color:#26282a">Clark's "Des=
+igning an Internet" - A Review - Internet Governance Project</h2><p class=
+=3D"ydp6895a722card-description" style=3D"font-size:12px;line-height:16px;m=
+argin:0;color:#979ba7;word-break:break-word">David Clark=E2=80=99s new book=
+, Designing an Internet (MIT Press, 2018) is an important new contribution =
+to Internet gov...</p></td></tr></tbody></table></td></tr></tbody></table><=
+/td></tr></tbody></table></a></div><div><br></div><div><br></div><div class=
+=3D"ydp70ec8e7yahoo-style-wrap" style=3D"font-family: Helvetica Neue, Helve=
+tica, Arial, sans-serif; font-size: 13px;"><br></div><div class=3D"ydp70ec8=
+e7yahoo-style-wrap" style=3D"font-family: Helvetica Neue, Helvetica, Arial,=
+ sans-serif; font-size: 13px;">Mark P.<br></div></body></html>
+------=_Part_75893_79007583.1544131209261--
+
+
+From nobody Mon Dec 17 11:25:46 2018
+Return-Path: <bzs@theworld.com>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 85AAB130F18 for <hrpc@ietfa.amsl.com>; Mon, 17 Dec 2018 11:25:44 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -2.58
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.58 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, RCVD_IN_DNSWL_LOW=-0.7, T_SPF_HELO_PERMERROR=0.01, T_SPF_PERMERROR=0.01] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id 5fauzXofofeH for <hrpc@ietfa.amsl.com>; Mon, 17 Dec 2018 11:25:42 -0800 (PST)
+Received: from TheWorld.com (pcls5.std.com [192.74.137.145]) (using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id 3BFCC130F09 for <hrpc@irtf.org>; Mon, 17 Dec 2018 11:25:42 -0800 (PST)
+Received: from pcls8.std.com (pcls8.std.com [192.74.137.148]) by TheWorld.com (8.14.5/8.14.5) with ESMTP id wBHJP1OE023033; Mon, 17 Dec 2018 14:25:03 -0500
+Received: from pcls8 (localhost [127.0.0.1]) by pcls8.std.com (8.14.5/8.14.5) with ESMTP id wBHJOsrj030050; Mon, 17 Dec 2018 14:24:55 -0500
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Message-ID: <23575.63494.748040.566969@gargle.gargle.HOWL>
+Date: Mon, 17 Dec 2018 14:24:54 -0500
+From: bzs@theworld.com
+To: Mallory Knodel <mallory@article19.org>
+Cc: hrpc@irtf.org
+In-Reply-To: <6f930dde-db44-f8c1-cbb8-2d4a9f8293c2@article19.org>
+References: <2D3A1DFB-1DA4-47BF-8F3D-056C52960DF2@berkeley.edu> <2174e149-5a3e-2025-7431-bb943382a583@doria.org> <7d553db6-7d4e-4b02-1c44-9aae51393c2f@nielstenoever.net> <23540.53516.854815.145596@gargle.gargle.HOWL> <6f930dde-db44-f8c1-cbb8-2d4a9f8293c2@article19.org>
+X-Mailer: VM 8.2.0b under 24.3.1 (x86_64-suse-linux-gnu)
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/m8f9xgN3KseXkvPTVOnVfXni0O8>
+Subject: Re: [hrpc] Question About Process - Hi Again
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.29
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Mon, 17 Dec 2018 19:25:45 -0000
+
+Ok let me bring this up again but more abstractly:
+
+What I'm really trying to get at is:
+
+By what mechanism would violations of human rights in a protocol enter
+the (technical) conversation?
+
+1. It appeared in some news source and seemed relevant.
+
+2. It appeared somewhere on social media.
+
+3. Someone involved with the IETF raised it at the (technical
+discussion) table or perhaps on some IETF mailing list probably
+motivated by #1 and/or #2. It's less likely their personal rights were
+violated but it's of course possible.
+
+4. Someone previously external to the IETF appealed to the IETF or a
+specific technical committee about how some protocol is affecting or
+may affect human rights in their sphere.
+
+5. Some external (to the IETF) organization, for example some UN
+interest agency or nation-state or interest group or even court, etc,
+appealed to the IETF et al.
+
+It's not magic.
+
+Somehow an issue was raised.
+
+And I believe it's reasonably enumerative.
+
+Given that, then by what process might any of those be judged as
+credible and important?
+
+Because without some defined channel all one really has is one party
+shouting into the wilderness and hoping someone in that wilderness
+will be sympathetic and perhaps politically persuasive.
+
+On November 21, 2018 at 09:58 mallory@article19.org (Mallory Knodel) wrote:
+ > Hi,
+ > 
+ > On 21/11/2018 06:29, bzs@theworld.com wrote:
+ > > Specifically should there be a process within the IETF to report,
+ > > complain, argue, and adjudicate a human rights violation which has
+ > > been allegedly caused or abetted by a protocol or other standard?
+ > > 
+ > > Creating a process like that might be of a lot more practical use than
+ > > trying to enumerate and agree on possible indiscretions. And help
+ > > future design considerations.
+ > > 
+ > > That still assumes some sort of critical framework within which to
+ > > judge the legitimacy of such a claim but agreeing this should exist
+ > > would seem to be progress of a sort.
+ > > 
+ > > Otherwise all we have are violations by proxy.
+ > 
+ > I think this is a really good suggestion. I suspect that this exercise
+ > would lead us in two directions:
+ > 
+ > 1) A few really big violations happening at the application and content
+ > layer, which we could make a tenuous case for being related to some
+ > low-layer protocols.
+ > 
+ > 2) Many, many trivial cases that indicate a massive flaw at the protocol
+ > level. I'm thinking about how SMTP works and while you won't find
+ > quality in the narrative of those violations, you will find quantity.
+ > 
+ > > That is, parties who aren't the harmed or affected parties imagining a
+ > > harmed party exists and how they were harmed. In legalese that would
+ > > "lack standing".
+ > > 
+ > > The other issue it would lead to is "remedy" but in this case the
+ > > remedy seems straightforward enough: Amend the protocol &c to mitigate
+ > > the harm, or abandon it as a standard entirely, or conclude the
+ > > benefits outweigh the harm so no mitigation, etc.
+ > 
+ > So while I agree that this research would be interesting for the group
+ > to do, I am not sure that it would or should spark protocol adjustments.
+ > I think it's more likely that we could use these cases to intervene in
+ > existing standardisation discussions, but probably we would not be
+ > effective at sparking them. Happy to be wrong.
+ > 
+ > -Mallory
+ > 
+ > -- 
+ > Mallory Knodel
+ > Head of Digital :: article19.org
+ > gpg fingerprint :: E3EB 63E0 65A3 B240 BCD9  B071 0C32 A271 BD3C C780
+ > 
+ > _______________________________________________
+ > hrpc mailing list
+ > hrpc@irtf.org
+ > https://www.irtf.org/mailman/listinfo/hrpc
+
+-- 
+        -Barry Shein
+
+Software Tool & Die    | bzs@TheWorld.com             | http://www.TheWorld.com
+Purveyors to the Trade | Voice: +1 617-STD-WRLD       | 800-THE-WRLD
+The World: Since 1989  | A Public Information Utility | *oo*
+
+
+From nobody Thu Dec 20 09:43:31 2018
+Return-Path: <mail@nielstenoever.net>
+X-Original-To: hrpc@ietfa.amsl.com
+Delivered-To: hrpc@ietfa.amsl.com
+Received: from localhost (localhost [127.0.0.1]) by ietfa.amsl.com (Postfix) with ESMTP id 0F5CB13115E for <hrpc@ietfa.amsl.com>; Thu, 20 Dec 2018 09:43:29 -0800 (PST)
+X-Virus-Scanned: amavisd-new at amsl.com
+X-Spam-Flag: NO
+X-Spam-Score: -1.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.9 tagged_above=-999 required=5 tests=[BAYES_00=-1.9, SPF_PASS=-0.001, URIBL_BLOCKED=0.001] autolearn=ham autolearn_force=no
+Received: from mail.ietf.org ([4.31.198.44]) by localhost (ietfa.amsl.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id Lpa6mmUzWEUv for <hrpc@ietfa.amsl.com>; Thu, 20 Dec 2018 09:43:25 -0800 (PST)
+Received: from smarthost1.greenhost.nl (smarthost1.greenhost.nl [195.190.28.88]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by ietfa.amsl.com (Postfix) with ESMTPS id D0AF3131165 for <hrpc@irtf.org>; Thu, 20 Dec 2018 09:43:24 -0800 (PST)
+Received: from smtp.greenhost.nl ([213.108.110.112]) by smarthost1.greenhost.nl with esmtps (TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128) (Exim 4.84_2) (envelope-from <mail@nielstenoever.net>) id 1ga2Lx-0005iQ-AI; Thu, 20 Dec 2018 18:43:22 +0100
+Date: Thu, 20 Dec 2018 18:43:20 +0100
+From: Niels ten Oever <mail@nielstenoever.net>
+To: Mallory Knodel <mallory@article19.org>
+Cc: hrpc@irtf.org
+Message-ID: <20181220174320.GA26827@mir>
+References: <2D3A1DFB-1DA4-47BF-8F3D-056C52960DF2@berkeley.edu> <2174e149-5a3e-2025-7431-bb943382a583@doria.org> <7d553db6-7d4e-4b02-1c44-9aae51393c2f@nielstenoever.net> <1083c0e4-ee15-5c9b-68eb-7260380e0952@nielstenoever.net> <f75fb0ad-4158-ab29-fa1d-9b4290308e38@apc.org> <b71a7813-0e8e-ddd6-492a-7c90eb32bb99@article19.org>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha512; protocol="application/pgp-signature"; boundary="45Z9DzgjV8m4Oswq"
+Content-Disposition: inline
+In-Reply-To: <b71a7813-0e8e-ddd6-492a-7c90eb32bb99@article19.org>
+User-Agent: Mutt/1.10.1 (2018-07-13)
+X-Authenticated-As-Hash: 54a52893e10ae071b73780542c02a8d9e3f33e6f
+X-Virus-Scanned: by clamav at smarthost1.samage.net
+X-Scan-Signature: 594d8924eb9d2e4af18bc4ea99181183
+Archived-At: <https://mailarchive.ietf.org/arch/msg/hrpc/_qt-g6SUPuC47OQgqAdcA41yuac>
+Subject: Re: [hrpc] Question About Process - Hi Again
+X-BeenThere: hrpc@irtf.org
+X-Mailman-Version: 2.1.29
+Precedence: list
+List-Id: "mail@nielstenoever.net" <hrpc.irtf.org>
+List-Unsubscribe: <https://www.irtf.org/mailman/options/hrpc>, <mailto:hrpc-request@irtf.org?subject=unsubscribe>
+List-Archive: <https://mailarchive.ietf.org/arch/browse/hrpc/>
+List-Post: <mailto:hrpc@irtf.org>
+List-Help: <mailto:hrpc-request@irtf.org?subject=help>
+List-Subscribe: <https://www.irtf.org/mailman/listinfo/hrpc>, <mailto:hrpc-request@irtf.org?subject=subscribe>
+X-List-Received-Date: Thu, 20 Dec 2018 17:43:29 -0000
+
+--45Z9DzgjV8m4Oswq
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Thanks a lot for this chairs!
+
+Sorry to respond so late. Gisela and I are working on this, and we try to t=
+urn this around as soon as possible. Probably towards the end of January, b=
+ut defintely before IETF104.
+
+Best,
+
+Niels and Gisela
+
+On Tue, Nov 27, 2018 at 07:47:57PM +0100, Mallory Knodel wrote:
+> Hi,
+>=20
+> On 27/11/2018 13:32, avri doria wrote:
+> >=20
+> > In terms of not including considerations in the Association draft, or at
+> > at least analysis of considerations: this is a consensus I do not
+> > remember the RG reaching on this RG draft. I understand the editors may
+> > not think it necessary, but does the RG agree?=A0 I do not think this
+> > issue has been adequately discussed or decided on.=A0 What do others th=
+ink?
+> >=20
+> > Personally, I see it as incomplete without at least an analysis of how
+> > the existing considerations affect and are affected by including
+> > association in the consideration complex. Are we considering new
+> > considerations for every=A0 right (hope not) or are we looking for how
+> > other considerations affect the considerations we are already
+> > experimenting with so that we can build a well formed and tested set of
+> > human rights considerations.
+>=20
+> I think we don't want new considerations, but it would make sense to
+> perhaps deepen, or address, the existing considerations on association,
+> otherwise there is not much connection between them.
+>=20
+> One suggestion is to perhaps bring forward the relevant 8280 sections by
+> expanding a paragraph starting with this sentence:
+>=20
+> "[RFC8280] established the relationship between human
+>    rights and Internet protocols, therefore in this document we seek to
+>    uncover the relation between two specific human rights and the
+>    Internet infrastructure and architecture."
+>=20
+> > With RFC8280 we established an experimental framework.=A0 We formed a
+> > hypothesis based on text analysis and deductive reasoning. In creating
+> > the considerations we created a research framework that could be used to
+> > test whether the principles that drove those considerations are the
+> > right considerations, and would make a human rights difference on th
+> > Internet of not. And would it be a positive difference?=A0 I believe we
+> > still have a ways to go in proving, or at least failing to falsify as
+> > the case may be, our hypotheses and our framework.
+> >=20
+> > I believe the group has basically accepted the common human rights
+> > principle that the various human rights are inextricably interlinked. If
+> > that is the case, then any right we begin to work on has to fit within,
+> > and modify as necessary, the original framework of RFC8280. I think the
+> > Association draft has yet to do this and should.=A0 What do other people
+> > think?
+>=20
+> Taking this further, I think it wouldn't be much work to achieve what
+> Avri is suggesting. For each of your cases in subsections 6.* you could
+> add a conclusion that offers suggestions for how protocols should
+> protect association and assembly.
+>=20
+> > Or does Association-00 intend to propose abandoning the framework
+> > established with RFC8280? I suppose that too could be a reasoned way to
+> > proceed, but I do not see that argument in the current draft either.
+> >=20
+> > On the cases and examples, I have not seen a RG agreement on the
+> > validity of the cases and their description or analysis. I think they
+> > may be a good place to start.=A0 In terms of the conclusion, the doc is
+> > claiming a RG consensus on conclusions I am not sure I have seen.=A0 Ha=
+ve
+> > I missed consensus on the cases, their analysis and the conclusions we
+> > draw from them. Seen some conversation but not enough to convince me
+> > that the RG agrees with the narrative. I see LC as time to confirm a
+> > consensus seen and give everyone a last chance, not a mechanism for
+> > drawing out issues.=A0 We can do consensus calls on various points of
+> > disagreement to try and draw out the issues, and perhaps we should as we
+> > move forward on these RG drafts.
+>=20
+> It might be worth reaching out to experts within working groups that are
+> related to each case in sections 6.* for their feedback, if you haven't
+> done so already.
+>=20
+> > As a co-chair, I think what we have in association-00 is a partial
+> > introduction to work we need to do. I think the group=A0 needs to do the
+> > research, think about how it affects the considerations framework and
+> > reach consensus of the various cases and analyses before we can consider
+> > publishing this as a RG work effort.=A0 I think we need to do the work
+> > beyond the scholastic hypothesis formation.=A0 This might be a good
+> > treatment for a conference paper or a journal article, though, and that
+> > might be a useful side track to take if something must be published
+> > based on external publication pressure.
+>=20
+> I would argue for making this draft good for this group first and then
+> to spin off other sections or versions that might be received well in
+> other journals. I say that mostly because association and assembly are
+> core to our charter and we should get it right.
+>=20
+> -Mallory
+>=20
+> >=20
+> > On 26-Nov-18 04:16, Niels ten Oever wrote:
+> >> Hi Avri,
+> >>
+> >> On 11/20/18 8:36 AM, Niels ten Oever wrote:
+> >>> On 11/20/18 7:14 AM, avri@doria.org wrote:
+> >>>> Hi,
+> >>>>
+> >>>> A quick reply.=A0
+> >>>>
+> >>>> I do not see this draft as having reached consensus in the group and
+> >>>> last call is at at the discretion of the co-chairs when they both th=
+ink
+> >>>> the draft is ready and they have the consensus of the group for movi=
+ng
+> >>>> toward publication.=A0 I have not done a consensus call because I do=
+ not
+> >>>> see consensus as having been reached.=A0 If there is rough consensus=
+ in
+> >>>> the group that this is a draft is ready for publication then we can =
+move
+> >>>> forward.=A0 I do not think we are at that point.
+> >>>>
+> >>>> Personally, I see the draft as more an analysis and polemic than a
+> >>>> research draft at this point. It starts out well with theoretic
+> >>>> discussion, a hypothetical position and some outlining of cases, but
+> >>>> does not establish a research path and does not suggest any protocol
+> >>>> considerations, the goal of the RG.=A0 We are a research group and n=
+eed
+> >>>> for the documents to relate to a research goal.
+> >>>>
+> >>> Thanks a lot for your feedback.
+> >>>
+> >>> As presented during IETF 102 [0] and 103 [1], providing guidelines is=
+ a non-objective for this draft. The objective of this draft is the operati=
+onalization of the first objective of the charter ('To expose the relation =
+between protocols and human rights, with a focus on the rights to freedom o=
+f expression and freedom of assembly'), not to provide guidelines. As discu=
+ssed the practice of improving the guidelines is pursued in RFC8280, draft-=
+irtf-hrpc-guidelines and through the human rights reviews. So the research =
+goals of this draft is defined by the first objective of the charter.
+> >>>
+> >>> I am not sure what you mean with a research path. I don't think you m=
+ean research design, since there are clear research questions, a methodolog=
+y, case studies, a discussions of the case studies, the provision of conclu=
+sions, and suggestions for further research. So if you could tell us a bit =
+more about what you mean with 'establishing a research path', we'll get on =
+it right away!
+> >>>
+> >> Could you be so kind to indicate what you mean with 'research path' so=
+ we can move the document forward? If you have other concrete suggestions w=
+e're also happy to work on it, but now we're at a loss at to how to move th=
+is document forward.
+> >>
+> >> Best,
+> >>
+> >> Niels
+> >>
+> >>
+> >>
+> >>> Best,
+> >>>
+> >>> Niels
+> >>>
+> >>>
+> >>> [0] https://datatracker.ietf.org/meeting/102/materials/slides-102-hrp=
+c-slides-association-final-00 slide 4
+> >>>
+> >>> [1] https://datatracker.ietf.org/meeting/103/materials/slides-103-hrp=
+c-draft-irtf-hrpc-association-00 slide 2
+> >>>
+> >>>
+> >>>
+> >>>> Becoming an RG draft does not mean the next step is publication.=A0 =
+It
+> >>>> means that the authors have surrendered their authorship priority and
+> >>>> change control to the will of the group.=A0 When I see this document=
+ get
+> >>>> to the point where the members of the RG feel it is ready for=A0 last
+> >>>> call, then, if Mallory and I agree, we can try to aim for last call =
+and
+> >>>> publication.=A0 In the meantime I would like to see some discussion =
+of how
+> >>>> to do further research on the subject and would like to seem some wo=
+rk
+> >>>> on consideration that might be relevant.
+> >>>>
+> >>>> As for setting up milestones for the work being done, that is a good
+> >>>> idea and something that in general we should do.=A0
+> >>>>
+> >>>> Thanks for the question.
+> >>>>
+> >>>> avri
+> >>>>
+> >>>
+> >>>
+> >>>> On 18-Nov-18 18:18, Gisela Perez de Acha Chavez wrote:
+> >>>>> Hi everyone. First of all, apologies for my silence. I started my m=
+aster's in Berkeley and the change implied time investment that I had to ha=
+ndle before coming back to the list.=20
+> >>>>>
+> >>>>> The reason I'm writing this email is because I am trying to get up =
+to speed regarding the status of association draft, that Niels and I coauth=
+ored.=20
+> >>>>> While reading Mallory's notes, and watching the last IETF session, =
+I want to ask why has the draft been taken back to the list and not moved t=
+o last call. I thought there was a clear process regarding this. So if I am=
+ wrong, please correct me.=20
+> >>>>>
+> >>>>> It would be hugely appreciated if we would develop milestones from =
+draft-association (and probably other drafts as well), since as an author i=
+t has been quite unclear how to make progress. At several meetings it has b=
+een said that the discussion would be taken to the list, but that did not r=
+eally happen. Does this indeed mean we have reached consensus? Please let m=
+e know how we can make progress on this and what the milestones are.
+> >>>>>
+> >>>>> (Also, sorry for the new thread but I needed to write from this new=
+ email account)
+> >>>>>
+> >>>>> Happy to be back and discuss these issues further,=20
+> >>>>>
+> >>>>> Cheers
+> >>>>>
+> >>>>> Gisela P=E9rez de Acha
+> >>>>> UC Berkeley=20
+> >>>>> Human Rights Lawyer | Journalist | Writer=20
+> >>>>>
+> >>>>>
+> >>>>> _______________________________________________
+> >>>>> hrpc mailing list
+> >>>>> hrpc@irtf.org
+> >>>>> https://www.irtf.org/mailman/listinfo/hrpc
+> >>>> _______________________________________________
+> >>>> hrpc mailing list
+> >>>> hrpc@irtf.org
+> >>>> https://www.irtf.org/mailman/listinfo/hrpc
+> >>>>
+> >=20
+> > _______________________________________________
+> > hrpc mailing list
+> > hrpc@irtf.org
+> > https://www.irtf.org/mailman/listinfo/hrpc
+> >=20
+>=20
+>=20
+> --=20
+> Mallory Knodel
+> Head of Digital :: article19.org
+> gpg fingerprint :: E3EB 63E0 65A3 B240 BCD9  B071 0C32 A271 BD3C C780
+>=20
+> _______________________________________________
+> hrpc mailing list
+> hrpc@irtf.org
+> https://www.irtf.org/mailman/listinfo/hrpc
+
+--=20
+
+Niels ten Oever
+Researcher and PhD Candidate
+DATACTIVE Research Group
+University of Amsterdam
+
+PGP fingerprint	   2458 0B70 5C4A FD8A 9488 =20
+                   643A 0ED8 3F3A 468A C8B3
+
+
+--45Z9DzgjV8m4Oswq
+Content-Type: application/pgp-signature; name="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEJFgLcFxK/YqUiGQ6Dtg/OkaKyLMFAlwb1LgACgkQDtg/OkaK
+yLPOjQ//bTO8jCKAduYGT/XcN0TGdbxTVfOpKOuic8MxfUyShnfJcv45R8k8B/eT
++XjtKmTRvkn1RYpsVUVsOV6J1d7L0Dfc3t6DDUvWdnycwP4utjM3Vjk9dItGxj5f
+1ngGdRKZk7i6kL9v8UZUlIABwlA5hNomQM5OprCdYMD6tIDMrsvlw2YOCcfzqn7d
+uBTQsDkdQD1FsesXkN1GEsktIsI6W+IxxqHjubJRa/zDU7Kg4QPuRrgIP+g2JkgR
+eo5DHT+jHL4EWSRXzd0kQYJGSi4rMdKk5wA7sh7GpHTEDxbJMaIw/GxzErmTGZno
+UTm5AnVSW6KOOehXzO639o2PMTJodDecbkB05D+2X41bIM10M74SSkZm0lHuFQro
+8+oS5lA7MpsBqGiORS9PxDj2elR39MesnkD5BIWNsUPgs6KFXUV3dC8bh2ab8F56
+VcXDZaW+NW8hi4m4dhGe4/oGk5Pyngr1NHlZt2sMmacfnfxODdR1jWog5OhP7oK6
+rUP055KZnUsWZ2zcAk4DqpCYqPPJ7dnFo678ssh8dRnia4oXBQ8DOlSHf5jT/G0K
+9euyTrXsh7sLLbf1QXbi0glK3KbCoyY7tIZc0vOBfjR4wlYaaWfyXCluJf4BmXRG
+a43mwxFKuPWbN2Tx1/cPqBmT33XR7jpi1bv5H6oki+BAYO2oONI=
+=LINa
+-----END PGP SIGNATURE-----
+
+--45Z9DzgjV8m4Oswq--
+
